@@ -1,1 +1,1 @@
-# Sigma Interactive Get started
+# Sigma Interactive
