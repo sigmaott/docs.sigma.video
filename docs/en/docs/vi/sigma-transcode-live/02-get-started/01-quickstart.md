@@ -73,15 +73,15 @@ Sau đó, hệ thống sẽ hiện thị thông báo đổi mật khẩu thành 
   ![Error Message](../images/um-change-pwd/error-msg.jpg) -->
 
 
-## Basic service configuration
+## Cấu hình dịch vụ cơ bản
 
-This is a service configuration guide at the most basic level that does not include advanced configuration.
+Đây là hướng dẫn cấu hình dịch vụ ở mức cơ bản nhất không bao gồm các cấu hình nâng cao
 
-1. Connect to Sigma Transcode Live ' s Rehearsal Interface System
-2. On **Sidebar Menu** selected **Transcode** and select **Channel**. The channel list interface will open
-3. Press **Add** to open new channel creation interface. In the interface optional channel please select **manual** => **package** to enter the packaging channel creation screen.
-4. At the packaging channel configuration screen. Input configuration (**Input**) want to pack. You have 1 or more **Input** desired
-5. Select output (**Target**) want to pack and configure basic parameters
-6. Create a channel and run the desired channel
+1. Kết nối đến hệ thống giao diện biện tập của Sigma Transcode Live
+2. Trên **Sidebar Menu** chọn **Transcode** rồi chọn **Channel**. Giao diện danh sách kênh sẽ mở ra
+3. Nhấn **Add** để mở giao diện tạo kênh mới. Trong giao diện tuỳ chọn tạo kênh vui lòng chọn **manual** => **package** để vào màn hình tạo kênh đóng gói
+4. Tại màn hình cấu hình kênh đóng gói. Cấu hình đầu vào (**Input**) mong muốn đóng gói. Bạn có thêm 1 hoặc nhiều **Input** mong muốn
+5. Chọn đầu ra (**Target**) muốn đóng gói và cấu hình các tham số cơ bản
+6. Tạo kênh và chạy kênh mong muốn
 
 
