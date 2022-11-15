@@ -1,1 +1,1 @@
-# Sigma Linear Right Management
+# Sigma Live Streaming
