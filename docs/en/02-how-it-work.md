@@ -1,12 +1,12 @@
 ---
-title: 'Cách hoạt động'
+title: 'How to operate.'
 order: 1
 ---
 
 # {{ $frontmatter.title }}
 
-**Sigma Machine**: Hệ thống quản lý máy transcoder, packager, dùng để thực hiện các tác vụ liên quan\.
+**Sigma Machine**: Transcoder machine management system, packager, is used to perform joint tasks.
 
-**Sigma Asset** Hệ thống lưu trữ các tập tin media (ảnh, âm thanh, video), lưu trữ các tệp tin input như watermark, blackout, thumbnail ... \.
+**Sigma Asset** The system stores media files (photo, audio, video), storage input files like watermark, blackout, thumbnail ... -Yeah.
 
-**Sigma DRM** Cung cấp giải pháp bảo mật nội dung bao gồm Sigma Drm và Sigma Multi DRM (Widevine, Playready, FairPlay) \.
+**Sigma DRM** Provides content security solutions including Sigma Drm and Sigma Multi DRM (Widevine, Playready, FairPlay) \.
