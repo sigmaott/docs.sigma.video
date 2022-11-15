@@ -1,5 +1,1 @@
----
-title: 'Manifest Filtering'
-order: 6
----
-
+# Sigma Transcode Live
