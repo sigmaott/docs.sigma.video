@@ -1,35 +1,35 @@
 ---
-id: Doc-server-result
-title: Return results
+id: doc-server-result
+title: Kết quả trả về
 sidebar_label: Return result
 ---
 
-When calling Restful Api to the livestream platform. If successful, the http code will always return to 200, with the request to fail, http code 4xx or 5xx will be returned
+Khi gọi Restful Api vào hệ thống livestream platform. Nếu thành công, Http code sẽ luôn trả về là 200, Với yêu cầu thất bại, Http code 4xx hoặc 5xx sẽ được trả về
 
-Data sent and returned to the **json** support system.
+Dữ liệu gửi lên và trả về được hệ thống hỗ trợ dạng **json**
 
-The return return from the server is described as follows:
+Kết quả trả về từ server được mô tả như sau:
 
 * HTTP status code:
-  * 200 `OK` -Request success (Some APIs can return value 201 instead).
-  * 201 `CREATED` -successful requirements and resources created.
-  * 204 `No Content` -Required success but no return value is performed (i.e.. Empty return value).
-  * 400 `Bad Request` -Request not correct or lack of transmission data.
-  * 401 `Unauthorized` -Failed authentication.
-  * 403 `Forbidden` -unlicensed access.
-  * 404 `Not Found` -Resources does not exist.
-  * 405 `Method Not Allowed` -The Request Method is not accepted.
-  * 422 `Wrong param` -Wrong parameter
+  * 200 `OK` - Yêu cầu thành công (Một số API có thể trả về giá trị 201 thay thế).
+  * 201 `CREATED` - Yêu cầu thành công và tài nguyên được tạo.
+  * 204 `No Content` - Yêu cầu thành công nhưng không có giá trị trả về được biểu diễn (i.e. Giá trị trả về rỗng).
+  * 400 `Bad Request` - Yêu cầu không đúng hoặc thiếu dữ liệu truyền lên.
+  * 401 `Unauthorized` - Xác thực thất bại.
+  * 403 `Forbidden` - Truy cập không được phép.
+  * 404 `Not Found` - Tài nguyên không tồn tại.
+  * 405 `Method Not Allowed` - Phương thức Yêu cầu không được chấp nhận.
+  * 422 `Wrong param` - Sai tham số
 
 * HTTP Response body
   * Content-Type: **application/json**
-  * Body: **JSON**
-    * **ec**: The error code returns
-        * 0: Success
-    * **data**: The response data corresponds to the requirement described in detail at each Api.
-    * **msg**: message return error with ec # 0
+  * Body: Đối tượng **JSON**
+    * **ec**: Mã lỗi trả về
+        * 0: Thành công
+    * **data**: Dữ liệu trả về tương ứng với yêu cầu được mô tả chi tiết ở từng Api
+    * **msg**: message lỗi trả về với ec # 0
 
-Example
+example
 ```json
 {
   "ec": 0,
