@@ -175,7 +175,7 @@ GET http://{API-SERVER}/livestream/live
       "name": "stream name",
       "accountId": "18855759",
       "health": "excellent",
-      "duration": 100              tính theo giây
+      "duration": 100            
       "createdAt": "2019-04-15T06:59:09.711Z",
       "startTime": "2019-04-18T10:00:00.011Z",
       "stopTime": "2019-04-18T10:00:00.011Z",
@@ -184,8 +184,8 @@ GET http://{API-SERVER}/livestream/live
       "status": "init|live|ended|error"
     }
   ],
-  "total": 1, // số lượng toàn bộ kết quả
-  "length": 1, // Độ dài mảng trả về
+  "total": 1, 
+  "length": 1, 
   "page": 0
 }
 ```
@@ -309,10 +309,10 @@ PUT http://{API-SERVER}/livestream/live/{livestreamId}
 
 | Parameter   | Description                                                |
 | :---------- | :--------------------------------------------------------- |
-| name| Tên đầy đủ của luồng trực tiếp                           |
-| catchup     | bật tắt chế độ lưu trữ                                     |
-| description | Mô tả luồng trực tiếp                                      |
-| tags        | Tags given for the livestream in a comma separated string. |
+| name|  name of linear channel                           |
+| catchup     |  enable catchup mode                            |
+| description |  linear channel description                               |
+| tags        |  Tags given for the livestream in a comma separated string. | |
 
 </div>
 </div>
