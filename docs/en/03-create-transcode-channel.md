@@ -1,5 +1,5 @@
 ---
-title: 'Tạo kênh chuyển mã'
+title: 'Create code channel'
 order: 3
 ---
 
