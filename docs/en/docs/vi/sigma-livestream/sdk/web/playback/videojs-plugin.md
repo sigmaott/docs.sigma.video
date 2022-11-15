@@ -1,5 +1,5 @@
-## Requirements
-* Videojs version 5.6
+## Requirement
+* Videojs version 5,6
 * Browser support Media Source Extensions
 * SDK Shls plugin for videojs version 1.0.0-poc
 
@@ -23,7 +23,7 @@
 
 ```javascript
 // html5 for html hls
-videojs (video, {html5: {
+videojs(video, {html5: {
   hls: {
     withCredentials: true
   }
@@ -32,12 +32,12 @@ videojs (video, {html5: {
 
 ### source
 
-Some options, such as withCredentals can be passed in to hls during player.src
+Some options, such as withCredentials can be passed in to hls during player.src
 
 ```javascript
-var player = videojs ('some-video-id');
-player.src ({
-    src: 'https: //example.com/index.m3u8', type: 'application/x-mpegURL', withCredentals: true
+var player = videojs('some-video-id');
+player.src({
+    src: 'https://example.com/index.m3u8', type: 'application/x-mpegURL', withCredentials: true
 });
 ```
 
