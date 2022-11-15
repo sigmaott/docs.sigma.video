@@ -1,51 +1,51 @@
 ---
-layout: Home
+layout: home
 title: Sigma Streaming Platform
-titleTemplate: New Generation Streaming Platform Video System
+titleTemplate: Hệ thống Video Streaming Platform thế hệ mới
 hero:
   name: Sigma Streaming Platform
-  text: New Generation Streaming Platform Video System
-  tagline: Our video solutions series is deployed globally in thousands of businesses, media companies, service providers and educational institutions, taking advantage of video to teach, learn, communicate, collaborate and entertain.
+  text: Hệ thống Video Streaming Platform thế hệ mới
+  tagline: Hàng loạt giải pháp video của chúng tôi được triển khai trên toàn cầu tại hàng nghìn doanh nghiệp, công ty truyền thông, nhà cung cấp dịch vụ và tổ chức giáo dục, tận dụng video để dạy, học, giao tiếp, cộng tác và giải trí.
   image:
     src: /logo-with-shadow.png
     alt: Vite
   actions:
     - 
       theme: brand
-      text: Start.
+      text: Bắt đầu
       link: /guide/
     - 
       theme: alt
-      text: Why Sigma?
+      text: Tại sao là Sigma?
       link: /guide/why
     - 
       theme: alt
-      text: View on Github
+      text: Xem trên Github
       link: https://github.com/SigmaOTT
 features:
   - 
     icon: '💡'
     title: Sigma Transcode Live
-    details: Convert video content directly from multiple threads
+    details: Chuyển mã nội dung video trực tiếp từ nhiều luồng khác nhau
   - 
     icon: '⚡️'
     title: Sigma Interactive
-    details: Television interacts with many interesting scenario content.
+    details: Truyền hình tương tác với nhiều nội dung kịch bản thú vị
   - 
     icon: '🛠️'
     title: Sigma Live Streaming
-    details: Livestream directly with many custom features.
+    details: Livestream trực tiếp với nhiều tính năng tùy chỉnh
   - 
     icon: '📦'
     title: Sigma Dynamic Ads Insert
-    details: Insert an active advertisement on the server
+    details: Chèn quảng cáo động trên máy chủ
   - 
     icon: '🔩'
     title: Sigma Linear Right Management
-    details: Managing direct access to linear content
+    details: Quản lý quyền truy cập trực tiếp cho nội dung tuyến tính
   - 
     icon: '🔑'
     title: Sigma Packager
-    details: Close the live video content package from multiple threads
+    details: Đóng gói nội dung video trực tiếp từ nhiều luồng khác nhau
 ---
 
