@@ -4,100 +4,100 @@ description: "About Vector, the log and metrics collector, forwarder, and router
 sidebar_label: "Live Kit"
 ---
 
-#### Add a library to project
+#### Thêm thư viện vào project
 
-Copy *sigma-live.aar* into app/libs folder, then add to the dependency:
+Copy *sigma-live.aar* vào thư mục app/libs, sau đó thêm vào dependencies:
 
 ```xml
-impleentation fileTree (dir: 'libs', incline: ["* .aar"])
+implementation fileTree(dir: 'libs', include: ["*.aar"])
 ```
 
-#### Integration of the Livestream module
+#### Tích hợp module Livestream
 
-Permitisons declaration in *AndroidManifiest.xml*
+Khai báo permissions trong *AndroidManifiest.xml*
 
 ```xml
-+ Manifest.permitison.RECORD_AUDIO
-+ Manifest.permitison.CAMERA
++ Manifest.permission.RECORD_AUDIO
++ Manifest.permission.CAMERA
 ```
 
 <!-- import Alert from '@site/src/components/Alert'; -->
 
 <!-- <Alert type="info"> -->
 
---- == crwdHRulesLBB_2_BBsuleRHdwrc == Since *Android 6.0 (API level 23) * the permission for LEVERD_AUDIO* * and ***** * need to pass * requestPermisons*, to show the interface so that the user accepts access to the application. ` ` ` java ActivityCompat.requestPermissions (MainActivity.this, new String []{Manifest.permission.CAMERA, Manifest.permission.RECORD_AUDIO}, REQUEST_CODE); ` ` ` --- == crwdHRulesLBB_1_BBsuleRHdwrc ==
+---==crwdHRulesLBB_2_BBsuleRHdwrc== Kể từ *Android 6.0 (API level 23)* việc xin quyền **RECORD_AUDIO** và **CAMERA** cần thông qua *requestPermissions*, nhằm hiển thị giao diện để người dùng chấp nhận quyền truy cập cho ứng dụng. ```java ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.CAMERA, Manifest.permission.RECORD_AUDIO}, REQUEST_CODE); ``` ---==crwdHRulesLBB_1_BBsuleRHdwrc==
 <!-- </Alert> -->
 
 
 ```java
 @Override
-public void onRequestPermisisResult Result (int requestCode,
-                                       String permitisons [], int [] grantResults) {
+public void onRequestPermissionsResult(int requestCode,
+                                       String permissions[], int[] grantResults) {
     switch (requestCode) {
         case REQUEST_CODE: {
-            // If request is cancelled, the result arrests are empty.
+            // If request is cancelled, the result arrays are empty.
             if (grantResults.length > 0
                 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 // permission was granted, yay! Do the
                 // contacts-related task you need to do.
-            Else {
-                // permission denied, boo! Discable the
-                // function that departs on this permission.
-            
+            } else {
+                // permission denied, boo! Disable the
+                // functionality that depends on this permission.
+            }
             return;
         }
     }
 }
 ```
 
-Launch LiveStream Tool
+Khởi tạo công cụ LiveStream
 
 ```java
-mLiveManager = LiveManager.getInstance ();
-mLiveManager.setup (Activity.this, (ViewGroup) findViewById (R. id.cameraPreviewContainer), newLiveManager.LiveListener () {
+mLiveManager = LiveManager.getInstance();
+mLiveManager.setup(Activity.this, (ViewGroup) findViewById(R.id.cameraPreviewContainer), newLiveManager.LiveListener() {
     @Override
-    public void onLiveStarting () {
+    public void onLiveStarting() {
         }
     @Override
-    public void onLiveStarted () {
+    public void onLiveStarted() {
         }
     @Override
-    public void onLiveError (Exception ex) {
+    public void onLiveError(Exception ex) {
         }
     @Override
-    public void onLiveStated () {
+    public void onLiveStopped() {
         }
-
+});
 ```
 
-Resolution settings
+Thiết lập độ phân giải
 
 ```java
-List<LiveManager.Resolution> list = mLiveManager.getSupedResolutions ();
-mLiveManager.setResolution (list.get (index));
+List<LiveManager.Resolution> list = mLiveManager.getSupportedResolutions();
+mLiveManager.setResolution(list.get(index));
 ```
 
-Enable the Livestream sound
+Bật tắt âm thanh Livestream
 
 ```java
-mLiveManager.setAudioEnable (true/false);
+mLiveManager.setAudioEnable(true/false);
 ```
 
-Select the camera before
+Chọn camera trước sau
 
 ```java
-mLiveManager.switchCamaFace ();    
-mLiveManager.setCameraFace (LiveManager.CamaFace.Back);
-mLiveManager.setCameraFace (LiveManager.CamaFace.Front);
+mLiveManager.switchCameraFace();    
+mLiveManager.setCameraFace(LiveManager.CameraFace.Back);
+mLiveManager.setCameraFace(LiveManager.CameraFace.Front);
 ```
 
-Turn off stream flow
+Bật tắt luồng stream
 
 ```java
-if (mLiveManager.isRunning ())
-    mLiveManager.stop ();
+if (mLiveManager.isRunning())
+    mLiveManager.stop();
 else 
-    mLiveManager.start (url);
+    mLiveManager.start(url);
 ```
 
 
