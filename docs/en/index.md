@@ -1,1 +1,1 @@
-# Sigma Interactive
+# Sigma Linear Right Management
