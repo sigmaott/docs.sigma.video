@@ -1,17 +1,17 @@
 ---
-title: 'B3: Create Channel'
+title: 'B3: Tạo kênh'
 order: 5
 ---
 
 # {{ $frontmatter.title }}
 
-You entered the minimum mandatory information, so you are ready to create a channel \.
+Bạn đã nhập thông tin bắt buộc tối thiểu, vì vậy bạn đã sẵn sàng tạo kênh \.
 
-**To create a channel**
+**Để tạo kênh**
 
-+ On page **Create**, in section **Channel**, select **Create**\.
++ Trên trang **Tạo kênh**, trong phần **Kênh**, chọn **Tạo kênh** \.
 
-   Refer to channel creation guidelines
+   Tham khảo hướng dẫn tạo kênh tại
 
-   *   [Create Package Channel](../03-transcode-package-channel/02-create-package-channel.md)
-   *   [Create code channel](../03-transcode-package-channel/03-create-transcode-channel.md) 
+   *   [Tạo Kênh đóng gói](../03-transcode-package-channel/02-create-package-channel.md)
+   *   [Tạo kênh chuyển mã](../03-transcode-package-channel/03-create-transcode-channel.md) 
