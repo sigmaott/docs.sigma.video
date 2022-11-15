@@ -1,38 +1,38 @@
 ---
-id: Doc-avplayershls-plugin
-title: AVPlayerSHlPlugin
+id: doc-avplayershls-plugin
+title: AVPlayerSHlsPlugin
 ---
 
-## AVPlayerSHlPlugin iOS
+## Tài liệu tích hợp AVPlayerSHlsPlugin iOS
 
-### One. Add framework to project
-Drag the AVPlayerSHlPlugin.framework into project. Then add the framework as the image:
+### 1. Add framework to project
+Kéo thả AVPlayerSHlsPlugin.framework vào project. Sau đó add framework như hình:
 
 ![Framework](./imgs/embed_avplayershlsplugin.png)
 
-### Two. AVPlayerSHlPlugin module integration
+### 2. Tích hợp module AVPlayerSHlsPlugin
 
-#### 2.1. Declare App Transport Security Setting in the Info.plist file
+#### 2.1. Khai báo App Transport Security Setting trong file Info.plist
 
 ![Permission](./imgs/ats.png)
 
-#### 2.2. AVPlayer initis
+#### 2.2. Khởi tạo AVPlayer
 
 ```
-NSURL * url = [NSURL URLWithString:url];
-AVURLAsset * asset = [AVURLAsset URLAssetWithURL :url options:nil];
+NSURL *url = [NSURL URLWithString:url];
+AVURLAsset *asset = [AVURLAsset URLAssetWithURL:url options:nil];
 self.playerItem = [AVPlayerItem playerItemWithAsset:asset];
-self.player = [AVPlayer playerWithPlayerIem];
+self.player = [AVPlayer playerWithPlayerItem:self.playerItem];
 self.playerLayer= [AVPlayerLayer playerLayerWithPlayer:self.player];
 self.playerLayer.frame = self.view.bounds;
-[self.view.layer addSublayer];
+[self.view.layer addSublayer:self.playerLayer];
 ```
 
-#### 2.3. AVPlayerSHlPlugin
+#### 2.3. Khởi tạo AVPlayerSHlsPlugin
 
 ```
-self.avplayerShlPlusgin = [[AVPlayerSHlPlugin alloc] init];
-[self.avplayerShlplugin initSession:self.player playItem:self.playerItem];
+self.avplayerShlsPlugin = [[AVPlayerSHlsPlugin alloc] init];
+[self.avplayerShlsPlugin initSession:self.player playItem:self.playerItem];
 ```
 
 #### 2.4. Play video
@@ -47,35 +47,35 @@ self.avplayerShlPlusgin = [[AVPlayerSHlPlugin alloc] init];
 [self.player pause];
 ```
 
-#### 2.6. Check video status
+#### 2.6. Kiểm tra trạng thái video
 
 ```
-[self.avplayerShlPlugin isPlaying];
+[self.avplayerShlsPlugin isPlaying];
 ```
 
-#### 2.6. Subscribe to LiveStreamPause and LiveStreamResume
+#### 2.7. Đăng ký nhận sự kiện LiveStreamPause và LiveStreamResume
 
-1. implment AVPlayerSHlPluginDelegate
+1. implement AVPlayerSHlsPluginDelegate
 
 ```
 @interface ViewController ()<AVPlayerSHlsPluginDelegate>
 ...
 @end
 ```
-1. set Delegate for AVPlayerSHlPlugin
+1. set Delegate cho AVPlayerSHlsPlugin
 
 ```
-[self.avplayerShlPlugin setDelegate:self];
+[self.avplayerShlsPlugin setDelegate:self];
 ```
 
-1. Declare the functions to receive notifications when the event is available.
+1. Khai báo các hàm để nhận thông báo khi có sự kiện.
 
 ```
--(void) onLiveStreamPause {
-    NSLog (@ "onLiveStreamPause");
+- (void)onLiveStreamPause{
+    NSLog(@"onLiveStreamPause");
 }
 
--(void) onLiveStreamResume {
-    NSLog (@ "onLiveStreamResume");
+- (void)onLiveStreamResume{
+    NSLog(@"onLiveStreamResume");
 }
 ```
