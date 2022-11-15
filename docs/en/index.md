@@ -1,5 +1,1 @@
----
-title: 'Bắt đầu'
-order: 2
----
-
+# Sigma Machine
