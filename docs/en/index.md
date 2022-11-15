@@ -1,1 +1,1 @@
-# Sigma Machine
+# Sigma Interactive Get started
