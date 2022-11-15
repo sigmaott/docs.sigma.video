@@ -1,5 +1,5 @@
 ---
-title: 'Managing and monitoring'
-order: 5
+title: 'Manifest Filtering'
+order: Six.
 ---
 
