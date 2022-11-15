@@ -1,13 +1,13 @@
 ---
-title: 'B2: Tạo mới đầu vào'
+title: 'B2: Create new input'
 order: 4
 ---
 
 # {{ $frontmatter.title }}
 
-Bạn phải tạo một đầu vào \. Đầu vào xác định luồng dữ liệu media mà hệ thống Sigma Transcode Live sử dụng để chuyển mã hoặc đóng gói \.
+You have to create a \'s input. The input specifies the media data flow that the Sigma Transcode Live system uses to transfer code or close the package \.
 
-Hệ thống Sigma Streaming Platform hỗ trợ các chuẩn đầu vào sau:
+The Sigma Streaming Platform system supports the following standards:
 - MPEG-TS over multicast UDP
 - RTMP push
 - RTMP pull
@@ -16,24 +16,24 @@ Hệ thống Sigma Streaming Platform hỗ trợ các chuẩn đầu vào sau:
 - SRT push
 - SRT pull
 
-**Ví dụ về tạo 1 đầu vào UDP multi ast**
+**Examples of creating 1 input into UDP multi ast**
 
 1. Sign in to the Sigma Streaming portal and open the MediaLive console at [https://console\.aws\.amazon\.com/medialive/](https://console.aws.amazon.com/medialive/)\.
 
-2. Nhấn nút **Add** ở menu **Input** trong mục **Transcode**. Giao diện khởi tạo Input sẽ hiện lên
+2. Press **Add** in menu **Input** in section **Transcode**. The Input launch interface will appear
 
-3. Nhập các thông tin cần thiết
-   1. **Tên** của input
-   2. **Redundancy** chọn **single**
-   3. **Type** chọn **UDP**
-   4. **Primary Source** điền thông tin về luồng đã chuẩn bị ở bước 1 [Cài đặt luồng đầu vào](03-getting-started-step1.md)
-   5. **Primary Interface Network** vui lòng chọn 1 card mạng nhận luồng udp multicast này bỏ qua
+3. Enter the necessary information
+   1. **Name** of input
+   2. **Redundancy** select **single**
+   3. **Type** select **UDP**
+   4. **Primary Source** filling out the flow information prepared at 1 [Install the input stream at](03-getting-started-step1.md)
+   5. **Primary Interface Network** please select 1 card that receives this udp multicast ignore.
 
 
-![Tạo Input](../images/um-create-input.png)
+![Create Input](../images/um-create-input.png)
 
-::: tip Lưu ý
+::: tip Note
 
-Nếu không điền thông tin về card mạng thì hệ thống sẽ tự lấy ở card mạng mặc định
+If you don't fill out the information about the network card, the system will take it from the default network card.
 
 :::
