@@ -1,9 +1,8 @@
 ---
-title: 'Resource: Kênh'
-order: 3
+title: 'Resource: Kênh sự kiện'
+order: 4
 ---
 
 # {{ $frontmatter.title }}
 
-Topic này hướng dẫn các cài đặt kênh trong đó có 2 dạng kênh là kênh chuyển mã và kênh đóng gói
-
+Kênh sự kiện là kênh đặc biệt, nó được tạo ra để phục vụ cho việc đóng gói các kênh chuyển mã. Kênh sự kiện sẽ được tạo ra tự động khi bạn tạo kênh đóng gói. Kênh sự kiện sẽ tự động bị xóa khi bạn xóa kênh đóng gói.
