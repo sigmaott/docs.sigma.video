@@ -1,35 +1,35 @@
 ---
 title: ExoPlayer Plugin
 description: "About Vector, the log and metrics collector, forwarder, and router"
-sidebar_label: "ExPlayer plugin"
+sidebar_label: "ExoPlayer plugin"
 ---
 
-## System requirements
+## Yêu cầu hệ thống
 
 1. Min Sdk version 14
-2. Exoplayer version 2.9.6
+2. Exoplayer version 2.9.6 trở lên
 
-To integrate the SHls system, please follow the following steps:
-1. The ExoPlayer integration version 2.9.6 returns
-2. Shls module integration
-3. SHlExExPlayer initiation
-4. Initis SHlsMediaSource
-5. Use player after completion
+Để tích hợp hệ thống SHls, vui lòng thực hiện theo các bước sau:
+1. Tích hợp ExoPlayer phiên bản 2.9.6 trở lên
+2. Tích hợp module SHls
+3. Khởi tạo SHlsExoPlayer
+4. Khởi tạo SHlsMediaSource
+5. Sử dụng player sau khi hoàn thành
 
-#### The ExoPlayer integration version 2.9.6 returns
+#### Tích hợp ExoPlayer phiên bản 2.9.6 trở lên
 
-Shls is integrated in the form of a 2.9.6 version ExPlayer module.
+SHls được tích hợp dưới dạng một module của ExoPlayer phiên bản 2.9.6 trở lên
 
-Add Google and JCenter territories to *build.gradle*
+Thêm Google và JCenter repositories vào *build.gradle*
 
 ```xml
-Territories {
-    Google ()
-    jcenter ()
+repositories {
+    google()
+    jcenter()
 }
 ```
 
-Add modules *ExExPlayer*
+Thêm các module *ExoPlayer*
 
 ```java
 implementation 'com.google.android.exoplayer:exoplayer:2.9.6'
@@ -40,57 +40,57 @@ implementation 'com.google.android.exoplayer:exoplayer-hls:2.9.6'
 implementation 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6'
 ```
 
-Enable Java 8 support
+Bật hỗ trợ Java 8
 
 ```java
 compileOptions {
-    sourceCompability JavaVersion.VERSION_1_8
-    targetCompability JavaVersion.VERSION_1_8
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
 }
 ```
 
-#### Shls Module Integration
+#### Tích hợp Module SHls
 
-Copy *library-shengreae.aar* in directories *app/libs*, then add to the dependency:
+Copy *library-shls-release.aar* vào thư mục *app/libs*, sau đó thêm vào dependencies:
 
 ```java
-impleentation fileTree (dir: 'libs', incline: ["* .aar"])
+implementation fileTree(dir: 'libs', include: ["*.aar"])
 ```
 
-Start *SHlExExPlayer*
+Khởi tạo *SHlsExoPlayer*
 
 ```java
-player = SHlsExPlayerFactory.newSHlInstance (
-context, rendererfactory, trackSelector, drmSessionManager, bufferLength);
+player = SHlsExoPlayerFactory.newSHlsInstance(
+context, renderersFactory, trackSelector, drmSessionManager, bufferLength);
 ```
 
-Starting *SHlMediaSource*
+Khởi tạo *SHlsMediaSource*
 
 ```java
-SHlSPlaylistCallback shlsCallback = new SHlSPlaylistCallback () {
+SHlsPlaylistCallback shlsCallback = new SHlsPlaylistCallback() {
     @Override
-    public void onLiveStreamPause () {
-        // show stream discontinued, the majority of the cases will be sent before the player transfers a
+    public void onLiveStreamPause() {
+        // show stream discontinued, phần lớn các trường hợp sẽ gửi về trước khi player chuyển trạng thái buffer
     }
 
     @Override
-    public void onLiveStreamResume () {
-        // upload source here
+    public void onLiveStreamResume() {
+        // reload source here
     }
 };
-mediaSource = SHlsMediaSourceFactory (dataSourceFactory)
-            .setPlaylistParserFactory (
-                new DefaultSHlsPlaylistenFactory (shlsCallback))
-            .createMediaSource (uri);
+mediaSource = SHlsMediaSourceFactory(dataSourceFactory)
+            .setPlaylistParserFactory(
+                new DefaultSHlsPlaylistParserFactory(shlsCallback))
+            .createMediaSource(uri);
 ```
 
-Initiator *trackselector*
+Khởi tạo *trackselector*
 
 <!-- import Alert from '@site/src/components/Alert'; -->
 
 <!-- <Alert type="warning"> -->
 
-*** SHlSTrackSelectionFactory*** can use the default to replace the * exoplayer * bandwidth measurement for non-** ultralow-latency**. However mandatory use for threads ** ultralow-latency**, it ensures automatic transfer of flow when the network quality is variable.
+***SHlsTrackSelectionFactory*** có thể sử dụng mặc định để thay thế bộ đo băng thông của *exoplayer* đối với các luồng không phải **ultralow-latency**. Tuy nhiên bắt buộc sử dụng đối với các luồng **ultralow-latency**, nó đảm bảo việc tự động chuyển luồng khi chất lượng mạng biến động
 
 <!-- </Alert> -->
 
@@ -115,4 +115,4 @@ new SHlsTrackSelectionBufferProvider() {
 trackSelector = new DefaultTrackSelector(adaptiveTrackSelectionFactory);
 ```
 
-Details of integration and use of ExoPlayer 2.9.6 can refer to: [Github ExPlayer](https://github.com/google/ExoPlayer)
+Chi tiết việc tích hợp và sử dụng ExoPlayer 2.9.6 có thể tham khảo: [Github ExoPlayer](https://github.com/google/ExoPlayer)
