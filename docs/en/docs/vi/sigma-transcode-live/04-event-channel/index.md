@@ -1,8 +1,8 @@
 ---
-title: 'Resource: Event Channel'
+title: 'Resource: Kênh sự kiện'
 order: 4
 ---
 
 # {{ $frontmatter.title }}
 
-The event channel is a special channel, it was created to cater for the packaging of transfer channels. The event channel is created automatically when you create the packaging channel. The event channel will automatically be deleted when you delete the packaging channel.
+Kênh sự kiện là kênh đặc biệt, nó được tạo ra để phục vụ cho việc đóng gói các kênh chuyển mã. Kênh sự kiện sẽ được tạo ra tự động khi bạn tạo kênh đóng gói. Kênh sự kiện sẽ tự động bị xóa khi bạn xóa kênh đóng gói.
