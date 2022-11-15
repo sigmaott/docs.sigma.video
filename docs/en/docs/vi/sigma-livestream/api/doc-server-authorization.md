@@ -1,13 +1,13 @@
 ---
-id: Doc-server-server
+id: doc-server-authorization
 title: Api authorization
 sidebar_label: Api authorization
 ---
 
 
-Api authentication method via the basic HTTP authentication protocol
+Phương thức xác thực Api thông qua giao thức HTTP basic authentication
 
-* **Example**
+* **example**
 
 ```bash
 curl http://example.com/api -X POST \
