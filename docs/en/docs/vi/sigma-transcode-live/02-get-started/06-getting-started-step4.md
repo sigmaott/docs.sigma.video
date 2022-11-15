@@ -1,22 +1,22 @@
 ---
-title: 'B4: Channel Management and Management'
-order: Six.
+title: 'B4: Quản lý và giám sát kênh'
+order: 6
 ---
 
 # {{ $frontmatter.title }}
 
-After you have initiated the channel, you can manage and monitor the channel status via cms or api.
+Sau khi đã khởi tạo kênh, bạn có thể quản lý và giám sát tình trạng kênh thông qua cms hoặc api
 
-**To oversee the channel.**
+**Để giám sát kênh**
 
-+ B1. Access to the channel list
-+ B2. Select the channel to monitor and select to the channel name to open channel monitoring
++ B1. Truy cập vào danh sách kênh
++ B2. Chọn kênh cần giám sát và chọn vào tên kênh để mở giám sát kênh
 
-Information inside the channel monitoring, you can view at  [Monitor](../05-monitor-manage/02-monitor.md).
+Thông tin bên trong giám sát kênh, bạn có thể xem tại  [Giám sát kênh](../05-monitor-manage/02-monitor.md)
 
-**To manage the channel**
+**Để quản lý kênh**
 
-+ B1. Access to the channel list
-+ B2. Select the channel to manage and execute the management actions
++ B1. Truy cập vào danh sách kênh
++ B2. Chọn kênh cần quản lý và thực hiện các thao tác quản lý
 
-Information on managable operations, you can view at  [channel Management](../05-monitor-manage/01-manage-service.md). 
+Thông tin về các thao tác có thể quản lý, bạn có thể xem tại  [Quản lý kênh](../05-monitor-manage/01-manage-service.md) 
