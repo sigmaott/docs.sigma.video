@@ -1,11 +1,11 @@
 ---
-title: 'Access to Sigma Transcode Live'
+title: 'Truy cập Sigma Transcode Live'
 order: 3
 ---
 
 # {{ $frontmatter.title }}
 
-You have Sigma Transcode Live access cards through the following methods:
-+ **Sigma Streaming Portal** -Access to the Sigma Streaming system administration website and select the Transcode item to be able to install, configure the Sigm Transcode Live \'s resources.
+Bạn có thẻ truy cập hệ thông Sigma Transcode Live qua các phương thức sau đây:
++ **Sigma Streaming Portal** – Truy cập vào trang web quản trị hệ thống Sigma Streaming và chọn mục Transcode để có thể cài đặt, cấu hình các thông tin, tài nguyên của Sigm Transcode Live\.
 
-+ **Sigma Transcode Live API** -You can refer to the Api  [Sigma Transcode API Reference](https://sigmaott.com/apis/sigma-transcode-live.html#/) for more information and the Api tasks interact with the Sigma Transcode Live system.
++ **Sigma Transcode Live API** – Bạn có thể tham khảo thêm qua hệ thống Api  [Sigma Transcode API Reference](https://sigmaott.com/apis/sigma-transcode-live.html#/) để biết thêm thông tin và các thực hiện các tác vụ Api tương tác với hệ thống Sigma Transcode Live.
