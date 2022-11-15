@@ -1,12 +1,12 @@
 ---
 title: Mobile SDK
 description: "About sdk for mobile"
-sidebar_label: Hidden
-hide_pagination: True
+sidebar_label: hidden
+hide_pagination: true
 ---
 
-Sigma Livestream Android sdk consists of two separate sdk sets:
+Sigma Livestream Android sdk gồm 2 bộ sdk riêng biệt gồm:
 - Live Kit: Rtmp streaming SDK
-- Android Playback SDK: set up plugins for player to stream live stream content
+- Android Playback SDK: tập hợp các plugin cho player để phát nội dung live stream
 
 ---
