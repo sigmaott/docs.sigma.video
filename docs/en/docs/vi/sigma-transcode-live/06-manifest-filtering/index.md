@@ -1,5 +1,5 @@
 ---
 title: 'Manifest Filtering'
-order: Six.
+order: 6
 ---
 
