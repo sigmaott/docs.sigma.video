@@ -1,5 +1,5 @@
 ---
-title: 'Bắt đầu'
+title: 'Start.'
 order: 2
 ---
 
