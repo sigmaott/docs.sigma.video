@@ -1,19 +1,19 @@
 ---
-title: 'B1: Cài đặt luồng tín hiệu'
+title: 'B1: Install beacon flow'
 order: 3
 ---
 
 # {{ $frontmatter.title }}
 
-Hệ thống **tín hiệu đầu vào** là hệ thống truyền tải các nội dung đa phương tiện tới Sigma Machine (Máy xử lý nội dung). Bạn phải thực hiện một số thiết lập hệ thống tín hiệu đầu vào của mình trước khi bắt đầu làm việc với **Sigma Transcode Live**.
+The **system input** is the transmission of multimedia content to Sigma Machine. You must do some of your input signal system settings before you start working with **Sigma Transcode Live**.
 
-Có 2 phương thức truyền tín hiệu đầu vào là :
+There are two methods of transmission input:
 
-* Phương thức đẩy
-* Phương thức kéo
+* Push Method
+* Drag Method
 
-Trong hướng dẫn này sẽ ví dụ việc thiết lập tín hiệu đầu vào đối với dạng tín hiệu là **MPEG-TS** truyền qua giao thức **multicast UDP**
+In this tutorial, for example, the input signal for the signal form is **MPEG-TS** transmitted by **multicast UDP**.
 
-Với giao thức lấy tín hiệu từ multicast UDP, cần sẵn sàng luồng tín hiệu có thể kéo được từ máy đóng gói (Sigma Packager) đã được chuẩn bị sẵn cho tín hiệu này qua một card mạng đã được định sẵn
+With the protocol taking the signal from the multicast UDP, it is necessary to be ready for the pull of the pull from the Sigma Packager already prepared for this signal via a pre-defined network card.
 
-Ghi lại các địa chỉ IP của luồng UDP và card mạng chứa tín hiệu đó để có thể thiết lập ở bước tiếp theo
+Record IP addresses of UDP flow and network cards that contain that signal to be set up at the next step.
