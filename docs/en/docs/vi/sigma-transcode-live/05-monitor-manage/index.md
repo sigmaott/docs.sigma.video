@@ -1,5 +1,5 @@
 ---
-title: 'Quản lý và giám sát'
+title: 'Managing and monitoring'
 order: 5
 ---
 
