@@ -1,147 +1,147 @@
 ---
-title: 'Tạo kênh đóng gói'
+title: 'Create a packaging channel'
 order: 2
 ---
 
 # {{ $frontmatter.title }}
 
 
-Kênh đóng gói (package) thực hiện việc chuẩn bị và bảo vệ video của bạn để phân phối qua Internet thông qua các định dạng truyền tải dữ liệu nội dung đa phương tiện qua giao thức http (HTTP Adaptive Stream) như HLS, DASH
+The packaging channel performs the preparation and protection of your video to distribute through the Internet via multimedia content data transmission formats via the http (HTTP Adaptive Stream) protocol such as HLS, DASH.
 
-Để tạo một kênh đóng gói thủ công, ta thực hiện các bước tạo kênh cơ bản. vui lòng chọn theo hướng dẫn
+To create a manual packaging channel, we do basic channel creation. Please choose to follow instructions.
 
 - **Manual** => **Package** => **Next**
 
-Màn hình giao diện dành cho việc cấu hình kênh đóng gói hiện ra như sau:
+The interface view for the configuration of the packaging channel is now as follows:
 
-![Tạo kênh đóng gói thủ công](../images/um-create-channel/um-create-package-channel-1.png)
+![Create the manual package channel](../images/um-create-channel/um-create-package-channel-1.png)
 
 
 
-Trong đó menu bar bên phải sẽ có các mục như sau:
+In which the right bar menu will have the following items:
 
-1. **Config**: Cấu hình cơ bản của kênh
-2. **Inputs**: Cấu hình luồng đầu vào
-3. **Profiles**: Danh sách các Profile sử dụng
-4. **Targets**: Cấu hình danh sách các đầu ra mong muốn (HLS/DASH ... )
+1. **Config**: Basic configuration of the channel
+2. **Inputs**: Configure the input stream
+3. **Profiles**: List of Profile uses
+4. **Targets**: Configuration list of desired outputs (HLS/DASH ... )
 
 
 Notes:
 
-* Đối với kênh đóng gói hệ thống sẽ tự động cấu hình **Profile** tương ứng với **Input** được thêm vào. Vì vậy bạn chỉ việc thêm các giá trị **Input** các giá trị **Profile** sẽ được tự động thêm vào và bạn không có quyền thay đổi các giá trị này
+* For the system packaging channel automatically configured **Profile** corresponding to **Input** is added. So you only add **Input** values **Profile** will be automatically added and you do not have the right to change these values.
 
 
-## B1. Cấu hình Chung
+## B1. General Configuration
 
-Trong cấu hình kênh đóng gói cơ bản được chia thành các mục sau:
+In the basic packaging channel configuration that is divided into the following items:
 - **Information**:
-    - **Name**: Tên của kênh dùng để phân biệt và tìm kiếm kênh ở danh sách kênh
-    - **Description**: Mô tả kênh
-    - **Tags**: Danh sách các tags
-- **Name modifier**: Tên thay thế của kênh phải là duy nhất trên toàn bộ hệ thống, phục vụ việc truy vấn tệp tin manifest 1 cách ngắn gọn
+    - **Name**: The name of the channel used to differentiate and search the channel on the channel list
+    - **Description**: Channel description
+    - **Tags**: List of tags
+- **Name modifier**: The replacement of the channel must be unique across the entire system, serving the query of the manifest file briefly.
 
 ::: tip
-Ví dụ: nếu đặt tên thay thế là **VTV1**: link truy cập manifest sẽ có dạng là: *http://origin/com/manifest/VTV1/manifest_name*
+Example: if the replacement name is **VTV1**: link access the manifest will be: *http://origin/com/manifest/VTV1/manifest_name*
 :::
 
-- **Options**: Cấu hình nâng cao của kênh
+- **Options**: Advanced configuration of channel
 
-## B2. Cấu hình đầu vào của kênh
+## B2. Configure the channel input
 
-Chọn nút Cộng để thêm đầu vào cho kênh. Danh sách đầu vào đã liệt kê sẵn sẽ hiện ra. Vui lòng chọn đầu vào cho kênh mong muốn
+Select the Plus button to add input to the channel. The listed input list will now be available. Please select input for the desired channel
 
-* Hệ thống hỗ trợ việc thêm nhiều đầu vào với 1 kênh
+* The system supports more input with one channel.
 
-* Với mỗi đầu vào mong muốn *popup* chọn tên thay thế cho **profile** đóng gói ứng với đầu vào sẽ hiện ra. vui lòng chọn tên thay thế duy nhất với các **profile** khác của kênh
+* With each input expected *populup* to choose a replacement for **profile** closing the package with input will appear. please select unique alternate name with **profile** other
 
 
 ::: info
-Tên thay thế này giúp hệ thống định nghĩa tên profile mong muốn đối với tập profile ABR. Ví dụ với luồng đầu vào là **1080p** bạn nên đặt tên thay thế cho profile là **1080p**, tên thay thế này sẽ có trong đường dẫn của tệp tin manifest ứng với profile cần đóng gói
+This alternate name helps the system define the desired profile name for the ABR file. For example with **1080p** you should name a replacement profile of **1080p**, this alternate name will have in the path of the manifest file with a profile of
 :::
 
 
-* Nhấn **Confirm** để xác nhận tên thay thế
+* Press **Confirm** to confirm alternate name
 
-* Lần lượt thêm các đầu vào và tên thay thế **profile** mong muốn
+* Add the input and alternate name **profile** expected
 
 
-## B3. Cấu hình Đầu ra đóng gói  của kênh
+## B3. Configure the channel's packaging output
 
-Chọn phím **Cộng** ở mục **Target** để thêm 1 đầu ra mong muốn. Popup hiển thị các đầu ra mong muốn sẽ hiện ra. Hệ thống hỗ trợ các đầu ra như sau:
+Select **Plus** in section **Target** to add a desired output. Popup displays the desired output. The system supports output as follows:
 
 * **HLS**: Apple Http Live Streaming
 * **DASH**: DASH
-* **UDP**: multicast hoặc unicast mpeg transport stream
+* **UDP**: multicast or unicast mpeg transport stream
 * **RTMP**: Realtime Message Protocol
 
-Sau khi đã khởi tạo 1 đầu ra mong muốn. Cấu hình của đầu ra sẽ hiện ra như sau. Trong đó:
+After you've created a desired output. The configuration of the output will appear as follows. In it:
 
-* **Data**: Cấu hình cơ bản của đầu ra
-    * **Name**: Tên của đầu ra
-    * **Replaced name**: Tên thêm vào cuối tập tin manifest nguồn, phải là duy nhất đối với các đầu ra khác nhau cùng loại HLS hoặc DASH, phục vụ việc tạo đường dẫn duy nhất cho các tập tin manifest của HLS hoặc DASH, nên được bắt đầu bằng dấu "_" hoặc "-". Có thể để là rỗng "" nếu bạn muốn giữ nguyên tên tập tin manifest nguồn
-        * Ví dụ: Nếu bạn để rỗng, tập tin manifest nguồn của HLS sẽ có tên là **master.m3u8** với Dash là **master.mpd**
-        * Ví dụ: Nếu bạn để là "**-tv360**, tập tin manifest nguồn của HLS sẽ có tên là **master-tv360.m3u8** với Dash là **master.mpd**
-    * **Format**: Tên của loại đầu ra
-    * **Description**: Mô tả đầu ra
-* **Manifest**: Cấu hình tập tin **manifest** và **segment**
-    * **Container**: Định dạng tập tin **segment**. Có giá trị là **mpeg-ts** hoặc **fmp4**. Mặc định là **mpeg-ts**
-    * **TS**: Độ dài của 1 tập tin **segment**. Mặc định là 6 giây
-    * **Counter**: Số lượng tập tin Segment được lưu trong file **manifest**
-    * **Time**: bật tắt hiển thị tag: **Programing-date-time**  sử dụng với đầu ra là HLS
-* **DRM**: Cấu hình mã hoá DRM
-    * **Enable**: Cấu hình bật tắt DRM
-    * **Key provider**: Phương thức cung cấp key mã hoá, tĩnh hoặc lấy từ server chứa key mã hoá
-        * **static**: key mã hoá tĩnh
-        * **sigma-drm**: Hệ thống mã hoá Sigma Drm
-        * **Sigma-drm-v1**: Hệ thống mã hoá Sigma DRM V1
-        * **Sigma-multi-drm**: Hệ thống mã hoá Multi-DRM hỗ trợ Widevine, PlayReady, FairPlay được triển khai bởi Sigma drm
-        * **drmtoday**: Hệ thống mã hoá Multi-DRM hỗ trợ Widevine, PlayReady, FairPlay được triển khai bởi castlab
-    * **Asset Id**: Id sử dụng cho hệ thống drm mã hoá kênh, sử dụng cho sigma drm hoặc sigma multi drm
-    * **App ID**: AppId của hệ thông sigma drm,sigma multi drm
-    * **Merchant ID**: MerchantId của hệ thông sigma drm,sigma multi drm
-    * **User**: User đăng nhập hệ thống sigma drm,sigma multi drm
-    * **Password**: Password hệ thống sigma drm,sigma multi drm
-* **Low Latency**: Cấu hình truyền hình độ trễ thấp
-* **Catchup**: Cấu hình Lưu trữ Catchup-timeshift
-    * **Storage**: Bật tắt chế độ lữu trữ catchup-timeshift
-    * **Cache time**: Cấu hình thời gian lưu trữ mong muốn đơn vị được tính bằng giờ
-    * **Trickplay**: Bật tắt Trickplay mode với catchup
-* **Preset**: Cấu hình các profile được đóng gói vào đầu ra này
-
-
-Hướng dẫn cấu hình **preset** với đầu ra:
-
-1. chọn ![select profile](../images/um-create-channel/um-select-profile.png){ width=17px } để lựa chọn các profile sẽ được đóng gói trong đầu ra này. Bảng danh sách profile sẽ được hiện ra
-2. tích vào ô vuông để chọn các **profile** bạn muốn thêm vào đầu ra => nhấn **submit** để hoàn thành thao tác
-3. Bảng danh sách các profile được chọn sẽ hiện ra, bạn có thể thao tác các tác vụ mong muốn đối với danh sách này như thêm, xoá, sửa
+* **Data**: Basic configuration of output
+    * **Name**: Name of the output
+    * **Replaced name**: The name adds to the end of the source manifest file, which must be unique to different outputs of the same HLS or DASH, which serves the creation of a single path for HLS or DASH manifest files, which should be started with "_" or "-". Possible to be empty "" if you want to keep the source manifest file name
+        * For example: If you are empty, the HLS Source manifest file will be named **master.m3u8** with Dash as **master.mpd**
+        * Example: If you are to be "**-tv360**, the original HLS manifest file will be **master-tv360.m3u8** with Dash as **master.mpd**
+    * **Format**: Name of the output type
+    * **Description**: First description
+* **Manifest**: Configuration file **manifest** and **segment**
+    * **Container**: file format **segment**. The value is **mpeg-ts** or **fmp4**. The default is **mpeg-ts**
+    * **TS**: The length of 1 file **segment**. The default is six seconds.
+    * **Counter**: Number of Segment Files filed in file **manifest**
+    * **Time**: shortcut tag: **Progreaming-date-time**  used with the output of HLS
+* **DRM**: DRM coding configuration
+    * **Enable**: DRM shortcut configuration
+    * **Key provider**: Method of using key encryption, static or taken from a key encryption key server
+        * **static**: key encryption key
+        * **sigma-drm**: Sigma Drm coding system
+        * **Sigma-drm-v1**: Sigma DRM V1 coding system
+        * **Sigma-multi-drm**: Multi-DRM coding system supporting Widevine, PlayReady, FairPlay deployed by Sigma drm
+        * **drmtoday**: Multi-DRM coding system supporting Widevine, PlayReady, FairPlay deployed by castlab
+    * **Asset Id**: Id used for channel coding drm system, used for sigma drm or sigma multi drm
+    * **App ID**: AppId of the sigma drm system, sigma multi drm
+    * **Merchant ID**: MerchanId of the sigma drm system, sigma multi drm
+    * **User**: User login sigma drm system, sigma multi drm
+    * **Password**: Password system sigma drm, sigma multi drm
+* **Low Latency**: Low latency television configuration
+* **Catchup**: Configuration of Catchup-timeshift
+    * **Storage**: Enable catchup-timeshift storage mode
+    * **Cache Time**: Configuration time configuration is calculated by now.
+    * **Trickplay**: Turn off Trickplay mode with catchup
+* **Preset**: Configuration of the profile packed into this output
 
 
+Configure configuration **preset** with output:
 
-Hướng dẫn cấu hình DRM của đầu ra ứng với mỗi 1 **Key provider**
+1. select ![select profile](../images/um-create-channel/um-select-profile.png){width =17px} to select the profiles that will be packed in this output. The profile list will be shown
+2. integrate into squares to select **profile** you want to add to output => pressing **submit** to complete the operation
+3. The list of selected profiles will appear, you can manipulate the desired tasks for this list as added, delete, edit, and edit.
+
+
+
+DRM configuration guide of output with every 1 **Key provider**
 
 
 1. **Static**
 
-| Tên trường  | Miêu tả                                                                                  |
-| ----------- | ---------------------------------------------------------------------------------------- |
-| **Key**     | Key mã hoá tĩnh đã được encode dưới dạng base64                                          |
-| **Key ID**  | KeyId mã hoá tĩnh đã được encode dưới dạng base 64                                       |
-| **Key URI** | Đường dẫn keyUri được đặt vào tập tin manifest .m3u8 để lấy client có thể lấy key mã hoá |
+| Field Name  | Description                                                                                             |
+| ----------- | ------------------------------------------------------------------------------------------------------- |
+| **Key**     | Key encryption key has been encode in form base64                                                       |
+| **Key ID**  | The static code keyId was encode in the form of 64.                                                     |
+| **Key URI** | The keyUri path is placed in the manifest file .m3u8 for the client to retrieve the key encryption key. |
 
 
 2. **Sigma multi drm**
 
-| Tên trường      | Miêu tả                                                                                 |
-| --------------- | --------------------------------------------------------------------------------------- |
-| **AssetId**     | **Id** sử dụng cho hệ thống drm mã hoá kênh, sử dụng cho sigma drm hoặc sigma multi drm |
-| **App ID**      | **AppId** của hệ thốnng sigma drm,sigma multi drm                                       |
-| **Merchant ID** | **MerchantId** của hệ thông sigma drm,sigma multi drm                                   |
-| **Email**       | User đăng nhập hệ thống sigma drm,sigma multi drm                                       |
-| **Password**    | Password hệ thống sigma drm, sigma multi drm                                            |
+| Field Name      | Description                                                                      |
+| --------------- | -------------------------------------------------------------------------------- |
+| **AssetId**     | **Id** used for channel coding drm system, used for sigma drm or sigma multi drm |
+| **App ID**      | **AppId** of the sigma drm system, sigma multi drm                               |
+| **Merchant ID** | **MerchantId** of the sigma drm system, sigma multi drm                          |
+| **Email**       | User login sigma drm system, sigma multi drm                                     |
+| **Password**    | Pasword system sigma drm, sigma multi drm                                        |
 
 
 ::: warning
-Với Key provider sử dụng hệ thống Sigma multi drm, vui lòng lấy đẩy đủ các thông tin từ trang cms của hệ thống Sigma Drm bao gồm (AppId, MerchantID, Email, password)
+With Key provider using the Sigma multi drm system, please remove sufficient information from the Sigma Drm system including (AppId, MerchanantID, Email, password)
 :::
 
 
