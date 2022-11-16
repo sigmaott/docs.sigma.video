@@ -1,9 +1,9 @@
 ---
-title: 'Resource: Kênh'
+title: 'Resource: Channel'
 order: 3
 ---
 
 # {{ $frontmatter.title }}
 
-Topic này hướng dẫn các cài đặt kênh trong đó có 2 dạng kênh là kênh chuyển mã và kênh đóng gói
+This topic guides the channel settings in which 2 channels are the transfer channel and the packaging channel.
 
