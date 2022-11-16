@@ -1,51 +1,47 @@
 ---
-layout: home
+layout: Home
 title: Sigma Streaming Platform
-titleTemplate: Hệ thống Video Streaming Platform thế hệ mới
+titleTemplate: Video Streaming Platform thế hệ mới
 hero:
   name: Sigma Streaming Platform
-  text: Hệ thống Video Streaming Platform thế hệ mới
-  tagline: Hàng loạt giải pháp video của chúng tôi được triển khai trên toàn cầu tại hàng nghìn doanh nghiệp, công ty truyền thông, nhà cung cấp dịch vụ và tổ chức giáo dục, tận dụng video để dạy, học, giao tiếp, cộng tác và giải trí.
+  text: New Generation Streaming Platform Video System
+  tagline: Hàng loạt giải pháp video của chúng tôi được triển khai trên toàn cầu tại các doanh nghiệp, công ty truyền thông, nhà cung cấp dịch vụ, tận dụng video để dạy, học, giao tiếp, cộng tác và giải trí.
   image:
     src: /logo-with-shadow.png
     alt: Vite
   actions:
     - 
-      theme: brand
-      text: Bắt đầu
-      link: /guide/
+      theme: alt
+      text: Why Sigma?
+      link: /vi/sigma-streaming-platform/01-get-started/1-introduction
     - 
       theme: alt
-      text: Tại sao là Sigma?
-      link: /guide/why
-    - 
-      theme: alt
-      text: Xem trên Github
-      link: https://github.com/SigmaOTT
+      text: View on Github
+      link: https://github.com/sigmaot
 features:
   - 
     icon: '💡'
     title: Sigma Transcode Live
-    details: Chuyển mã nội dung video trực tiếp từ nhiều luồng khác nhau
+    details: Convert video content directly from multiple threads
   - 
     icon: '⚡️'
     title: Sigma Interactive
-    details: Truyền hình tương tác với nhiều nội dung kịch bản thú vị
+    details: Television interacts with many interesting scenario content.
   - 
     icon: '🛠️'
     title: Sigma Live Streaming
-    details: Livestream trực tiếp với nhiều tính năng tùy chỉnh
+    details: Livestream directly with many custom features.
   - 
     icon: '📦'
     title: Sigma Dynamic Ads Insert
-    details: Chèn quảng cáo động trên máy chủ
+    details: Insert an active advertisement on the server
   - 
     icon: '🔩'
     title: Sigma Linear Right Management
-    details: Quản lý quyền truy cập trực tiếp cho nội dung tuyến tính
+    details: Managing direct access to linear content
   - 
     icon: '🔑'
     title: Sigma Packager
-    details: Đóng gói nội dung video trực tiếp từ nhiều luồng khác nhau
+    details: Close the live video content package from multiple threads
 ---
 
