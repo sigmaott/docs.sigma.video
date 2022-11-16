@@ -1,67 +1,67 @@
 ---
 id: doc-server-introduction
-title: Tổng quan Rest Api
+title: Overview Rest Api
 sidebar_label: Introduction
 ---
 
-Api kết nối nội bộ, giữa App Server và Livestream Api thực hiện các tác vụ sau:
-* Quản trị kênh: (Thêm, xoá, sửa, liệt kê danh sách kênh)
-* Thống kê kênh, hệ thống (metadata, statistic)
-* Cấu hình người dùng (giới hạn tài nguyên đối với người dùng)
+Api connect internal, between the App Server and the Livestream Api to perform the following tasks:
+* Channel admin: (Add, delete, edit, list the channel list)
+* Channel statistics, systems (metadata, statistic)
+* User Configuration (resource limit for users)
 
 ## Api Version
 
-| Version  | status |
+| Version  | Status |
 | -------- | ------ |
-| v1.0-poc | ready  |
+| v1.0-poc | Ready  |
 
-## Phương thức kết nối
+## Connection Method
 
-Livestream Api được kết nối thông qua giao thức HTTP
+The Livestream Api is connected via the HTTP protocol
 
-Các phương thức HTTP được phép:
-* **POST**: Tạo mới tài nguyên
-* **PUT** / **PATCH**: cập nhật tài nguyên
-* **GET**: Lấy tài nguyên hoặc danh sách tài nguyên
-* **DELETE**: Xoá tài nguyên
+HTTP methods are allowed:
+* **POST**: Create new resources
+* **PUT** / **PATCH**: resource update
+* **GET**: Take the resource or list of resources
+* **DELETE**: Delete resources
 
-## Mô tả kết quả trả về từ máy chủ
+## Description returns from server
 
-Kết quả trả về từ server được mô tả như sau:
+The return return from the server is described as follows:
 
 * HTTP status code:
-  * 200 `OK` - Yêu cầu thành công (Một số API có thể trả về giá trị 201 thay thế).
-  * 201 `CREATED` - Yêu cầu thành công và tài nguyên được tạo.
-  * 204 `No Content` - Yêu cầu thành công nhưng không có giá trị trả về được biểu diễn (i.e. Giá trị trả về rỗng).
-  * 400 `Bad Request` - Yêu cầu không đúng hoặc thiếu dữ liệu truyền lên.
-  * 401 `Unauthorized` - Xác thực thất bại.
-  * 403 `Forbidden` - Truy cập không được phép.
-  * 404 `Not Found` - Tài nguyên không tồn tại.
-  * 405 `Method Not Allowed` - Phương thức Yêu cầu không được chấp nhận.
-  * 422 `Wrong param` - Sai tham số
+  * 200 `OK` -Request success (Some APIs can return value 201 instead).
+  * 201 `CREATED` -successful requirements and resources created.
+  * 204 `No Content` -Required success but no return value is performed (i.e.. Empty return value).
+  * 400 `Bad Request` -Request not correct or lack of transmission data.
+  * 401 `Unauthorized` -Failed authentication.
+  * 403 `Forbidden` -unlicensed access.
+  * 404 `Not Found` -Resources does not exist.
+  * 405 `Method Not Allowed` -The Request Method is not accepted.
+  * 422 `Wrong param` -Wrong parameter
 
 
 * HTTP Response body
   * Content-Type: **application/json**
-  * Body: Đối tượng **JSON**
-    * **ec**: Mã lỗi trả về
-      * 0: Thành công
-    * **data**: Dữ liệu trả về tương ứng với yêu cầu được mô tả chi tiết ở từng Api
-    * **msg**: message lỗi trả về với ec # 0
+  * Body: **JSON**
+    * **ec**: The error code returns
+      * 0: Success
+    * **data**: The response data corresponds to the requirement described in detail at each Api.
+    * **msg**: message return error with ec # 0
 
     Example
     ```json
     {
       "ec": 0,
       "data": {}
-    }
+}
     ```
 
-## Xác Thực Yêu cầu Api
+## Api Request authentication
 
-Phương thức xác thực Api thông qua giao thức HTTP basic authentication
+Api authentication method via the basic HTTP authentication protocol
 
-* **example**
+* **Example**
 
 ```bash
 curl http://example.com/api -X POST \
@@ -69,19 +69,19 @@ curl http://example.com/api -X POST \
     -H "Content-Type: application/json"
 
 ```
-## Tài nguyên
+## Resource
 
 | Resource                                       | description                                               |
 | ---------------------------------------------- |:--------------------------------------------------------- |
-| [Channel](api-server-channel)                  | Luồng trực tiếp đang được phát hoặc chuẩn bị được phát    |
-| [Webhook](api-server-webhook)                  | Url Callback các sự kiện live và offline luồng trực tiếp  |
-| [Search](doc-server-introduction)              | Tìm kiếm kênh, video theo các tiêu chí đề ra              |
-| [Insighs & Analytics](doc-server-introduction) | Thống kê và phân tích các luồng trực tiếp **coming soon** |
+| [Channel](api-server-channel)                  | Direct stream is being played or prepared to be released  |
+| [Webhook](api-server-webhook)                  | Url Callback events live and offline live stream          |
+| [Search](doc-server-introduction)              | Search for channel, video by criteria.                    |
+| [Insighs & Analytics](doc-server-introduction) | Statistics and analysis of direct threads **coming soon** |
 
-## Hướng dẫn
+## Guide
 
-Các bước đơn giản để có thể publish 1 luồng video trực tiếp
+Simple steps to be able to publish a live video stream
 
-* **B1**: Tạo một luồng trực tiếp để nhận về **streamUrl** và **streamId**
-* **B2**: cung cấp **streamUrl** và **streamId** cho công cụ phát trực tiếp (live stream sdk, obs … )
-* **B3**: Phát trực tiếp
+* **B1**: Create a direct stream to receive **streamamUrl** and **streamId**
+* **B2**: offers **streamUrl** and **streamId** for live streaming (live stream sdk, obs …) )
+* **B3**: Direct broadcast
