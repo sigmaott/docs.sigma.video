@@ -5,16 +5,16 @@ sidebar_label: Webhook
 ---
 
 
-Webhook cho phép App Server nhận thông báo từ Api Server theo các sự kiện sau:
+Webhook allows the App Server to receive notifications from Api Server under the following events:
 
-* Khi có 1 sự kiến trực tiếp bắt đầu được phát sóng hoặc kết thúc
+* When a direct petition begins to broadcast or end.
 
-* Danh sách các event có thể được push:
-  * **channel_live**: Sự kiện bắt đầu live
-  * **channel_stop**: Sự kiện stop, người dùng ngắt dữ liệu truyền lên
-  * **channel_ended**:  Sự kiện kết thúc
+* List of events that can be push:
+  * **channel_live**: Live start event
+  * **channel_stop**: Stop event, user interrupts transmission
+  * **channel_ended**: Final event
 
-* Http callback sẽ được gọi với method là **POST**, header:  **Content-Type: application/json**, dữ liệu Post data có dạng:
+* Http callback will be called **POST**, header:  **Content-Type: application/json**, Post data data is available:
 
 
   `Sample Payload`:
@@ -22,23 +22,23 @@ Webhook cho phép App Server nhận thông báo từ Api Server theo các sự k
 ```json
 {
     "event": "channel_live",
-        "eventTime": 1476697473034 // thời gian theo timestamp dạng milisecond sự kiện diễn ra
-    ... phần còn lại của data channel, giống với hàm get kênh
-}
+        "eventTime": 1476697473034 // Time by timestamp the milisecond event takes place
+... the rest of the data channel, the same as the
+} channel.
 ```
 
-### Tạo Webhook
+### Webhook Create
 
-Api cung cấp phương thức tạo webhook
+Api provides webhook method
 
 <div class="section-list">
 <div class="section">
 
 ##### HTTP Request
 
-```
+` ` `
 POST http://{API-SERVER}/v1/webhook
-```
+ ` ` `
 
 </div>
 <div class="section">
@@ -56,31 +56,31 @@ POST http://{API-SERVER}/v1/webhook
 
 ##### Response
 
-```json
+` ` ` json
 {
-  "id": "123456" ,
-  "uri": "http://webhook.com",
-  "event": [
-    "channel_live"
+  "id": "123456",
+  "uri": "http://webhook.com ",
+  " event ": [
+    " channel_live "
   ]
 }
-```
+ ` ` `
 
 </div>
 </div>
 
-### Lấy danh sách webhook
+### Get the webhook list
 
-Api cung cấp phương thức lấy danh sách webhook đã thêm vào
+Api provides the added webhook list method added.
 
 <div class="section-list">
 <div class="section">
 
 ##### HTTP Request
 
-```
+` ` `
 GET http://{API-SERVER}/v1/webhook
-```
+ ` ` `
 
 </div>
 <div class="section">
@@ -89,9 +89,9 @@ GET http://{API-SERVER}/v1/webhook
 
 | Parameter | Default | Description                                                  |
 | :-------- | :------ | :----------------------------------------------------------- |
-| page      | 0       | tên trang. **min**: 0                                        |
-| length    | 10      | số lượng webhook trả về trong 1 page, **min** 1, **max** 100 |
-| event     |    | danh sách sự kiện muốn lọc webhook, các sự kiện được phân tách nhau bởi dấu "," |
+| page      | 0       | tên trang. ** min**: 0 |
+| length | 10 | webhook amount returned in 1 page, ** min* * 1, ** max** 100 |
+| event | | list of webhook filtering events, events separated by mark "," |
 
 </div>
 <div class="section">
@@ -126,56 +126,56 @@ GET http://{API-SERVER}/v1/webhook
 
 ##### HTTP Request
 
-```
+` ` `
 PUT http://{API-SERVER}/v1/webhook/{webhookId}
-```
+ ` ` `
 
 </div>
 <div class="section">
 
 ##### URL Parameters
 
-| Parameter    | Description                 |
-| :----------- | :-------------------------- |
-| webhookId    | Định danh của webhook  |
+| Parameters | Description |
+|: --------------------------------- |
+| webhookId | The title of webhook |
 
 </div>
 <div class="section">
 
-##### Put Data
+#Put Data
 
-* **Tương tự dữ liệu như tạo webhook**
+* ** Same data as the webhook * *
 
 </div>
 <div class="section">
 
 ##### Response
 
-Dữ liệu webhook đã được update
+webhook data were updated
 
-```json
+` ` json
 {
-  "id": "123456" ,
-  "uri": "http://webhook.com",
-  "event": [
-    "channel_live"
+  "id": "123456",
+  "uri": "http://webhook.com ",
+  " event ": [
+    " channel_live "
   ]
 }
-```
+ ` ` `
 </div>
 </div>
 
-### Xoá Webhook
-Api cung cấp phương thức xoá webhook đã được tạo
+### Delete Webhook
+Api provides webhook method created
 
 <div class="section-list">
 <div class="section">
 
 ##### HTTP Request
 
-```
+` ` `
 GET http://{API-SERVER}/v1/webhook/{webhookId}
-```
+ ` ` `
 
 </div>
 <div class="section">
@@ -183,9 +183,9 @@ GET http://{API-SERVER}/v1/webhook/{webhookId}
 
 ##### URL Parameters
 
-| Parameter    | Description                 |
-| :----------- | :-------------------------- |
-| webhookId   | Định danh của webhook  |
+| Parameters | Description |
+|: --------------------------------- |
+| webhookId | The title of webhook |
 
 </div>
 <div class="section">
@@ -201,10 +201,10 @@ GET http://{API-SERVER}/v1/webhook/{webhookId}
 
 ##### Response
 
-```json
+` ` ` json
 {   
 }
-```
+ ` ` `
 
 </div>
 </div>
