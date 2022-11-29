@@ -1,78 +1,78 @@
 ---
-title: Xem giao diện
+title: View interface
 order: 1
 ---
 
-# Bảng chú thích
+# Footnote
 
-Giải thích về 1 số từ ngữ dùng trong tài liệu, tránh trường hợp nhầm lẫn, hiểu nhầm ý
+Explain some words used in the document, avoid the wrong case, understand the wrong idea.
 
-| Tên                | Giải thích                                                                                                 |
-| ------------------ | ---------------------------------------------------------------------------------------------------------- |
-| Thời gian sự kiện  | Sử dụng để chỉ về thời gian của event đã được tạo ra, đầy đủ thông tin và hiển thị lên Timeline            |
-| Thời gian lập lịch | Sử dụng để chỉ event chưa được tạo ra khi tạo mới, tại trường chọn thời gian( Ngày/ giờ)                   |
-| Kiểu sự kiện       | Sử dụng để chỉ 3 loại của kênh: Live/ SCTE 35/ VOD                                                         |
-| Kiểu xuất bản      | Sử dụng để chỉ 2 loại: OneTime/ Schedule                                                                   |
-| Current Time       | Thời gian hiện tại                                                                                         |
-| Start Date         | Ngày bắt đầu, định dạng năm/ tháng/ ngày, trường hợp đầu vào sử dụng từ tiếng Anh để phù hợp với công thức |
-| Start Time         | Thời gian bắt đầu, định dạng 24 tiếng giờ:phút:giây                                                        |
-| Stop Date          | Ngày kết thúc, định dạng năm/ tháng/ ngày                                                                  |
-| Stop Date          | Thời gian kết thúc, định dạng 24 tiếng giờ:phút:giây                                                       |
+| Name            | Explain                                                                                                      |
+| --------------- | ------------------------------------------------------------------------------------------------------------ |
+| Event time      | Use to refer to the time of the event has been created, full of information and displayed on Timeline.       |
+| Scheduling time | Use to indicate uncreated event when creating new, at the time selection field (Này/ hours)                  |
+| Event type      | Use to refer to 3 types of channel: Live/ SCTE 35/VOD                                                        |
+| Publish Type    | Used to refer to two types: OneTime/Schedule                                                                 |
+| Current Time    | Current Time                                                                                                 |
+| Start Date      | The start date, the year/month format, the first case in use from the English language to match the formula. |
+| Start Time      | Time to begin, 24 hours.                                                                                     |
+| Stop Date       | Date of end, format year/month/day                                                                           |
+| Stop Date       | Time to end, format 24 hours :phút:seconds                                                                   |
 
-## Xem giao diện biên tập sự kiện một khoảng
-Màn hình mặc định ở giao diện Danh sách kênh
+## View the event editor interface
+Default view at channel List interface
 
-Hệ thống hiển thị dòng **"Chi tiết"** khi **di chuyển chuột** vào icon **chi tiết**.
+The system displays **"Detail"** when **moves the mouse** into the **icon**.
 
-Người dùng CMS click vào **icon Chi tiết** tại cột hành động
+CMS users click on **icon Details** at action column
 
 
-Hệ thống hiển thị giao diện sự kiện với Tiêu đề **tên kênh vừa chọn**
+The event interface display system with the Title **the channel is selected by**
 
 ![](../../images/Ui_Event_channel.png)
 
-Thông tin kênh: Các thông tin của kênh sẽ được hiển thị ở phần này và hiển thị mặc định.
+Channel information: The channel information will be displayed in this section and the default display.
 
-* Các thông tin chi biết gồm 2 Tab: **Tab Sự kiện** và **Tab Lập lịch sự kiện**.
-   * Tab sự kiện:  Gồm **Dòng thời gian sự kiện** chạy từ 00:00:00 đến 23:59:59 hiển thị tất cả các chương trình, loại sự kiện trong ngày và **Danh sách sự kiện** tương ứng trong ngày bên dưới (bao gồm cả 2 loại sự kiện).
+* Details include 2 Tab: **Tab Event** and **Tab Set Schedule**.
+   * Event tab: Includes **Event Timeline of** running from 00:00:00 to 23:59:59 displaying all programs, types of events during the day and **List of events** respectively in the day below (including 2 types of events).
 
-   * Tab Lập lịch sự kiện: Gồm danh sách Lập lịch sự kiện.
+   * Event scheduling tab: The event scheduling list.
 
- ***Tab Sự kiện***
+ ***Event tab***
 
- Đây là khu vực **hiển thị tất cả các event**(bao gồm sự kiện một lần và lập lịch) trong 1 ngày( bắt đầu từ 00:00:00 đến 23:59:59)
+ This is the **area that displays all the events**(including one event and scheduling) in 1 day (starting from 00:00:00 to 23:59:59)
 
-### Dòng thời gian sự kiện
-Dòng thời gian sự kiện bao gồm các thông tin theo thứ tự từ trên xuống như sau:
-* **Trạng thái**: Mỗi sự kiện sau khi được tạo sẽ có các trạng thái chuẩn bị/ sẵn sàng/ hoàn thành/ lỗi ( trừ trường hợp VOD luôn ở trạng thái sẵn sàng) được quy định dựa theo mốc thời gian sự kiện so với thời gian thực.
-* **Nút thêm sự kiện**.
-* **Chọn ngày**: bộ lọc tìm kiếm theo ngày hỗ trợ người dùng tìm kiếm và có cái nhìn khái quát hơn.
-* **Icon đồng bộ**: luôn làm mới hệ thống trong 10s.
-* **Thanh trượt** chạy từ 00:00 đến 24:00 của 1 ngày và cách đều nhau 6 tiếng giúp khái quát thời gian trên dòng dự kiện, người dùng có thể thực hiện các thao tác trượt đoạn thời gian.
-* Nội dung chính:
-    * **Program**: Các chương trình gốc với thời lượng chạy xuyên suốt trong ngày, có các mốc chỉ nhằm đánh dấu thời gian.
-    * **Loại sự kiện**: SCTE35/Live/VOD
-    * **Dấu gạch đứng** biểu thị cho **trục thời gian thực**.
-    * **Thanh cuộn ngang**
-    * Có 2 loại sự kiện là **Sự kiện một khoảng** ( không có icon đống hồ đính kèm phía trên và **sự kiện lập lịch**( có **icon đống hồ** đính kèm phía trên) gồm:
-       * Tên sự kiện
-       * Phạm vi thời gian: Hiển thị giờ:phút:giây ngày-tháng-năm
-       * Nội dung đa phương tiện( chỉ hiển thị ở trạng thái sẵn sàng)
+### Event timeline
+The event timeline includes information in the top-down order as follows:
+* **Status**: Each event after being created will have prepared/ready/complete/error states (except the VOD case is always in a ready state) specified based on the event time timeline compared to real time.
+* **Add**.
+* **Select date**: search-per-day search filter with more generalized view.
+* **Icon synchronous**: always refreshing the system in 10s.
+* **The slime** runs from 00:00 to 24:00 of 1 day and 6 hours away from each other, helping to generalized time on the expected line, the user can perform time-slip operations.
+* Main Content:
+    * **Program**: Original shows with the duration running throughout the day, there are milestones to mark the time.
+    * **Category**: SCTE35/Live/VOD
+    * **A hyphen stands** indicating **axial time**.
+    * **Scroll bar**
+    * There are two types of events: **The event is about** (with no icons of the above and **scheduling events**(there are **icons of the** attached above) including:
+       * Event Name
+       * Time range: Display now :phút:second-month-in-year
+       * Multimedia content (only available in a available state)
 
-    *Lưu ý:* Khi di chuyển chuột vào sự kiện, chuột chuyển thành hình bàn tay với thông tin chi tiết
-* **Di chuyển đến hiện tại**: **Chỉ sử dụng với ngày hiện tại**, click vào icon, dòng thời gian sẽ di chuyển tới mốc thời gian hiện tại( current Time)
-* **Phóng to** mức độ từ 50% đến 200% đối với khoảng cách đều thời gian để xem các sự kiện chi tiết hơn.
+    *Note:* When mouse moves into the event, the mouse turns into a hand shape with detailed information
+* **Move to the present**: **Only use with the current date**, click on the icon, the timeline moves to the current time marker (current Time)
+* **Launched** degrees from 50% to 200% for the distance are all time to view more detailed events.
 
-### Danh sách sự kiện
+### Event List
 
-Đây là danh sách sự kiện hiển thị tất cả sự kiện có trong ngày bao gồm **sự kiện một khoảng** và **sự kiện lập lịch** tương ứng với ngày trong Dòng thời gian sự kiện,
-* Thời gian hiển thị bên góc phải tương ứng với thời gian lựa chọn bộ lọc ở dòng thời gian sự kiện
-* **ID**: Do hệ thống sinh ra sau khi tạo mới sự kiện
-* **Tên sự kiện**: tên đã được đặt trước đó
-* **Loại sự kiện**: người dùng đã chọn trước đó
-* **Kiểu xuất bản**: hiển thị cả 2 kiểu xuất bản và lập lịch trong ngày
-* **Phạm vi thời gian**: Hiển thị tới giờ: phút:giây ngày-tháng-năm
-* **Loại trừ**: kênh bị loại trừ sẽ không được hiển thị nội dung thay thế.
-* **Nội dung đa phương tiện**: chỉ cấu hình với loại sự kiện VOD/ Live
-* **Mô tả**: mô tả ngắn gọn về kênh, không hiển thị tới người xem.
-* Hành động sửa, xoá (**sửa chỉ hiển thị đối với loại sự kiện một khoảng, disable với sự kiện lập lịch**).
+This is a list of events that show all the events that include **events a** and **Event scheduling event** corresponding to the date in the Event Timeline,
+* The angle of display on the corner must correspond to the time selection selection at the event timeline.
+* **ID**: Due to the birth system after creating event
+* **Name**: the name was previously booked
+* **Type**: previously selected users
+* **Type**: displays both publishing and scheduling during the day.
+* **Range time**: Display to date: minutes: days-month-year
+* **Exclusion**: the channel excluded will not be shown instead.
+* **Multimedia Content**: configuration only with VOD/ Live event type
+* **Description**: short description of the channel, not shown to the viewer.
+* Edit action, delete (**correct display only for the event type of a interval, disable with a scheduling event**).
