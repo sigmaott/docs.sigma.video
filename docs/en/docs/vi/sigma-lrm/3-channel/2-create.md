@@ -1,36 +1,36 @@
 ---
-title: Tạo mới kênh
+title: Create a new channel
 order: 2
 ---
 
-# Tạo mới kênh
-Chức năng này cho phép CMS tạo mới kênh
+# Create a new channel
+This function allows CMS to create new channels
 
- **Bước 1**: Tại giao diện màn hình chính Danh sách kênh, người dùng click vào nút **"Thêm kênh"** ![](..\images\Add_Channel.png)
+ **Step 1**: At the main screen interface List of channels, users click on the **"Add channel"** ![](..\images\Add_Channel.png)
 
-Hệ thống hiển thị Pop-up Thêm kênh mới bên phải giao diện ![](..\images\Pop-up_Add_Channel.png)
+Pop-up Display System Add new channel to the right interface ![](..\images\Pop-up_Add_Channel.png)
 
- Với các thông tin chính:
+ With key information:
 
- * **Tên**: cung cấp thông tin để kênh phát sóng lấy nguồn từ VTV/SCTE-224. Nhập tên kênh dễ hiểu, dễ phân biệt với kênh thường.
+ * **Name**: provides information for the broadcast channel derived from VTV/SCTE-224. Enter the easily understood channel name, which is easy to distinguish from the regular channel.
 
- * **Mô tả** : Phần mô tả hiển thị với người dùng CMS, không hiển thị tới người xem với mục đích nhận biết. Vui lòng nhập mô tả dễ hiểu, ngắn gọn nội dung chính của kênh và dễ dàng tìm kiếm.
+ * **Describe** : A description of the description with the CMS user, not shown to the viewer with the purpose of recognition. Please enter the easily understood description, brief the main content of the channel and easily search for.
 
- * **Các kênh Sigma**: danh sách kênh lựa chọn do hệ thống tự động sinh ra, Chọn ít nhất 1 kênh và tối đa tất cả các kênh.
+ * **Sigma**: list of choice channels created by the automatic system, Select at least 1 channel and maximum of all channels.
 
- * **Nút "Huỷ"**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
+ * **"Huxu"**: No new implementation, returning to the main screen interface.
 
- * **Nút "lưu"**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
+ * **"save"**: Save new information, return to the main screen interface.
 
- * **Cấu hình kênh Sigma**: Cấu hình bật tắt. *Trường hợp bật cấu hình: Hiển thị thêm các trường* ![](..\images\Enable_Add_Channel.png)
+ * **Sigma**: The switch is on. *Case on configuration: Display additional schools* ![](..\images\Enable_Add_Channel.png)
 
   - **Nguồn**: gồm 2 lựa chọn là **VTV** và **SCTE-224** do bên vtv cung cấp (***SCTE-224***: là phương pháp tiếp cận toàn diện giúp chuyển đổi các quy trình phức tạp thành quy trình công việc có thể quản lý được, kiểm soát chi tiết hơn về phát lại giúp bạn tập trung vào chất lượng nội dung của mình, ).
 
- - **ID chương trình**: mã của kênh.
+ - **ID**: channel code.
 
- - **Mã API**: token để truy cập.
+ - **Code API**: token for access.
 
-**Bước 2**: Người dùng nhập các thông tin .
+**Step 2**: User input.
 
-**Bước 3**:  Click nút **Lưu** ở cuối Pop-up Hệ thống thực hiện tạo mới kênh với lưu các thông tin vừa được nhập, hiển thị Pop-up thông báo **Tạo mới thành công** tại góc phải màn hình
+**Step 3**: Click button **Save** at the end of the Pop-up The new channel generates new channels with the input of the input information, display Pop-up notifications **Create a successful** at the right corner of the screen.
 
