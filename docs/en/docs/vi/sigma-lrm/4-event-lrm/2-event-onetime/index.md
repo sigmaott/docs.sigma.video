@@ -1,6 +1,6 @@
 ---
-id: doc-guideline-General-LRM
-title: Sự kiện một khoảng
-order: 8
+id: Doc-guideline-General-LRM
+title: Event of a
+order: Eight
 ---
 
