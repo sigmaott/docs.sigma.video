@@ -4,7 +4,7 @@ order: 1
 ---
 # Tạo mới sự kiện
 Chức năng này cho phép CMS tạo mới sự kiện/
-Tại giao diện màn hình Sự kiện chọn nút **Thêm sự kiện"**
+Tại giao diện màn hình Sự kiện chọn nút **Thêm sự kiện**
 
 ![](../../images/Add_event.png)
 
@@ -19,7 +19,7 @@ Các nội dung chính:
 * **Loại trừ** là danh sách người dùng lựa chọn, các lựa chọn ở đây là kênh Sigma của kênh với mục đích **loại trừ kênh không mong muốn hiển thị** tới người xem.
 * **Kiểu xuất bản**: Một khoảng và lập lịch 
 * **Khoảng thời gian** cho sự kiện với giới hạn **24 tiếng**, ngày bắt đầu tính từ 00:00:00 - ngày kết thúc tính đến 23:59:59
-* **Nút "Huỷ"**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
-* **Nút "Lưu"**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
+* **Nút Huỷ**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
+* **Nút Lưu**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
 
  
