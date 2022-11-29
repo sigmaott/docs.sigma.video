@@ -1,13 +1,13 @@
 ---
-title: Bước 3- Xoá kênh
-order: 6
+title: Step 3-Delete
+order: Six.
 ---
 
-# Bước 3- Xoá kênh
+# Step 3-Delete
 
-Sau khi đã tạo kênh và khởi chạy, khi bạn bạn cần dừng kênh và đóng kênh vui lòng thao tác sau:
+After you have created the channel and launch, when you need to stop the channel and close the channel please the following operation:
 
-**Để xoá kênh**
+**To delete the channel**
 
-1. Tại mục **danh sách kênh**, chọn kênh cần xoá, Click vào icon **Xoá**
-2. Hiển thị **Pop-up xác nhận**, chọn nút **Xác nhận**.
+1. At section **list of channels**, select the channel to delete, Click on icon **Delete**
+2. **Pop-up confirms**, selecting the **button confirmed**.
