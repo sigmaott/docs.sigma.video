@@ -1,42 +1,42 @@
 ---
-title: Xoá
+title: Delete
 order: 5
 ---
 
-# Xóa sự kiện lập lịch
-Chức năng cho phép người dùng xoá sự kiện lập lịch
+# Delete scheduling event
+The function allows users to delete scheduling events
 
-Điều kiện: Sự kiện đã được tạo ra trước đó và có hiển thị tại danh sách sự kiện
+Condition: The event was created before and there is a display at the event list.
 
-1. *Trường hợp không được phép xoá* hệ thống đã **disable** icon xoá
+1. *Not allowed to delete* system **disable** icon deleted
 
-2. *Trường hợp được phép xoá*
+2. *Case Delete*
 
- **Bước 1:**
+ **Step 1:**
 
-*Cách 1:* Tại Tab sự kiện, ở danh sách sự kiện, hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào icon **Xoá** tại cột hành động
+*Way 1:* At the event Tab, at the event list, showing **Delete** when moving the mouse on the **Delete** at the action column
 
  ![](../../images/Action_delete_Event_schedule.png)
 
- *Cách 2:* tại Tab lập lịch sự kiện, hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào icon **Xoá** tại cột hành động
+ *How 2:* at the event scheduling Tab, showing **Delete** when moving the mouse on the **Delete** at the action column
 
   ![](../../images/Action_delete_schedule_list.png)
 
- **Bước 2:** Người dùng click icon **Xoá** Hệ thống hiển thị Pop-up xác nhận ở chính giữa màn hình:
+ **Step 2:** User click icon **Delete** The Pop-up display system is in the middle of the screen:
 
  ![](../../images/Popup_Delete_Event_OneTime.png)
 
- * Tiêu đề: Bạn chắc chắn xoá sự kiện này không?
- * Nút **Huỷ bỏ**: Không thực hiện thay đổi, ở lại màn hình Tab sự kiện/sự kiện lập lịch.
- * Nút **Xác nhận**: Hệ thống thực hiện xoá toàn bộ thông tin của sự kiện.
+ * Title: Are you sure to delete this event?
+ * Button **Huxing**: Do not make changes, stay in the event Tab screen/scheduling event.
+ * Button **Confirification**: The system performs the complete deletion of the event's information.
 
- **Bước 3:**  Người dùng click vào nút **Xác nhận** để xoá thông tin sự kiện.
+ **Step 3:**  User click on button **Confirification** to delete event information.
 
- Hệ thống hiển thị Pop-up thông báo phía trên màn hình.
+ The Pop-up display system is on the screen.
 
  ![](../../images/Notice_success_delete_OneTime.png)
-* **Tiêu đề** Xoá sự kiện thành công!
-* icon Check.
+* **Title** Delete successful event!
+* Check.
 
  
 
