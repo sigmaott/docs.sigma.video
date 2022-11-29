@@ -1,26 +1,26 @@
 ---
-title: Xem danh sách sự kiện lên lịch
+title: View the list of events scheduled
 order: 3
 ---
 
-# Xem danh sách sự kiện lên lịch
-Chức năng này có thể mở để xem danh sách các sự kiện đã lên lịch, tìm kiếm tất cả các thời gian sự kiện xuất bản( **kể cả sự kiện đã bị xoá**). Người dùng CMS **chỉ có thể xem**. Màn hình đang ở giao diện Tab lập lịch sự kiện.
+# View the list of events scheduled
+This function can be opened to see a list of scheduled events, searching for all time events ( **including the deleted event**). Users of CMS **can only view**. The view is at the event scheduling Tab interface.
 
- **Bước 1:** Tại giao diện lập lịch sự kiện,
+ **Step 1:** At event scheduling interface,
 
- Hệ thống hiển thị dòng **danh sách các sự kiện được lên lịch** khi di chuyển chuột vào icon **Lập lịch** ở cột Hành động sự kiện mong muốn xem ![](../../images/Action_Schedule.png)
+ System showing **list of events scheduled** when moving the mouse on the **Set Schedule** in the Event Action column ![](../../images/Action_Schedule.png)
 
-→ Click icon danh sách để mở danh sách lập lịch sự kiện với trường tương ứng
+→ Click the list to open the event scheduling list with the corresponding field
 
- **Bước 2:** Người dùng click icon **Lập lịch**
+ **Step 2:** User click icon **Programming**
 
- Hệ thống hiển thị Pop-up **Danh sách các sự kiện được lên lịch** sự kiện chính giữa màn hình với các thông tin được nhập trước đó ![](../../images/Popup_Schedule_List.png)
+ Pop-up display system **List of events scheduled for** main event between the screen with previously imported information. ![](../../images/Popup_Schedule_List.png)
 
-* **Tiêu đề**: danh sách các sự kiện được lên lịch
-* ID với các sự kiện trạng thái **hoàn thành\ sẵn sàng** sẽ có **ID riêng** của sự kiện, trạng thái **chuẩn bị** cùng chung **1 ScheduleID**
-* **Tên** có thể có sự **khác nhau** trong trường hợp người dùng **sửa tên**
-* **Trạng thái**: trạng thái hiện tại của từng sự kiện
-* **Phạm vi thời gian**: thời gian xuất bản của mỗi sự kiện
-* **Mô tả** có thể có sự **khác nhau** trong trường hợp người dùng **sửa mô tả**
-* **Nút làm mới dữ liệu**
-* **Bộ lọc tìm kiếm**: ID/ trạng thái/ thời gian bắt đầu/ thời gian kết thúc. 
+* **Title**: list of events scheduled for
+* ID with **state events completed by** will have **ID** of the event, **preparing** together **1 SchedleID**
+* **Name** can have **different** in the user case **named**
+* **Status**: current state of each event
+* **Range time**: the publication time of each event
+* **Description** can have **different** in the user case **modified**
+* **Data Refreshing Button**
+* **Search filter**: ID/ state/time start/time end. 
