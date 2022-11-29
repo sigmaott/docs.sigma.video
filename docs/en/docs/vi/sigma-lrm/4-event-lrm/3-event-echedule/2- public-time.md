@@ -1,28 +1,28 @@
 ---
-title: Xem danh sách thời gian xuất bản
+title: View the list of times published
 order: 2
 ---
 
-# Xem danh sách thời gian xuất bản
-Chức năng này có thể mở để xem danh sách lập lịch thay vì phải tìm kiếm các thời gian các event trên Timeline, tiết kiệm thời gian tìm kiếm. Người dùng CMS chỉ có thể xem, thông tin hiển thị ở pop-up này tương tự pop-up cập nhật sự kiện
+# View the list of times published
+This function can be opened to view a calendar list instead of having to search for the time of events on Timeline, saving the search time. CMS users can only see, this pop-up display information is similar to pop-up updates on the event.
 
-*Màn hình đang ở giao diện Tab lập lịch sự kiện.*
+*The view is at the event scheduling Tab interface.*
 
- **Bước 1:** Tại giao diện lập lịch sự kiện, hệ thống hiển thị dòng **Danh sách thời gian xuất bản** khi di chuyển chuột vào icon **danh sách** ở cột Hành động sự kiện mong muốn xem
+ **Step 1:** At event scheduling interface, line display system **List of times published** when moving mouse on icon **list** at the Event Action column
 
 ![](../../images/Action_publictime_schedule.png)
 
-→ Click icon **danh sách** để mở danh sách lập lịch sự kiện với trường tương ứng.
+→ Click icon **list** to open the event scheduling event with the corresponding field.
 
- **Bước 2:** Người dùng click icon **danh sách**
+ **Step 2:** User click icon **list**
 
- Hệ thống hiển thị Pop-up **Danh sách thời gian xuất bản** sự kiện góc phải màn hình với các thông tin được nhập trước đó.
+ Pop-up display system **List of times published** views of the screen with previously imported information.
 
  ![](../../images/Popup_publictime_Schedule.png)
 
-* **Tiêu đề**: danh sách thời gian xuất bản
-* **Tên**: Tên sự kiện lập lịch
-* **Kiểu sự kiện**: kiểu sự kiện đã chọn
-* **Kiểu lập lịch**: kiểu sự kiện đã chọn( hằng ngày/ hằng tuần/ hằng tháng)
-* **Khoảng thời gian**: Hiển thị tới giờ: phút: giây ngày- tháng- năm
-* **Danh sách thông tin thời gian lập lịch**: hiển thị tất cả các thông tin event đã được lập lịch trước đó ( trường hợp người dùng có chỉnh sửa thông tin, danh sách **chỉ hiển thị các thông tin sau chỉnh sửa**).
+* **Title**: published time list
+* **Name**: Calendar event name
+* **Type**: type of event selected
+* **Type**: selected event type (daily/weekly/monthly)
+* **Time**: Display to date: minutes: days-month-May
+* **A list of time information is set**: displaying all of the previously scheduled event information (the user case with information editing, list **only displays the following information**).
