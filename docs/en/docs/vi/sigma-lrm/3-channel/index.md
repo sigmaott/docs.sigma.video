@@ -1,6 +1,6 @@
 ---
-id: doc-guideline-General-LRM
-title: Kênh
+id: Doc-guideline-General-LRM
+title: Channel
 order: 3
 ---
 
