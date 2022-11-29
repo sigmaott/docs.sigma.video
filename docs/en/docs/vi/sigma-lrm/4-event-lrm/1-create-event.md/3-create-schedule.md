@@ -1,33 +1,33 @@
 ---
-title: Sự kiện lập lịch
+title: Scheduling event
 order: 3
 ---
 
-# Tạo mới sự kiện lập lịch
-Sự kiện lập lịch: Bao gồm 1 hoặc nhiều sự kiện, cấu hình theo khoảng thời gian, và hiển thị theo chu kì được cấu hình.
+# Create scheduling event
+Scheduling events: Including 1 or more events, configuration over time, and displays according to the configuration cycle.
 
-   Hệ thống hỗ trợ 2 phương thức:
+   The system supports 2 methods:
 
-   - Lập lịch chặn sóng (Alternate Content, Blackout) đối với toàn bộ hoặc 1 vài partner được cài đặt sẵn.
-   - Lập lịch chặn sóng thủ công hoặc từ EPG được đánh dấu trước.
+   - An Alternate Content, Blackout, or a few partners are installed.
+   - Scheduling the manual intercepts or the previously marked EPG.
 
-**Bước 1:** Chọn Kiểu xuất bản **Lập lịch**
+**Step 1:** Select Type **Programming**
 
- **Bước 2:** Người dùng nhập các thông tin, **Kiểu sự kiện chọn lập lịch** Hệ thống xổ thêm các trường ![](../../images/Popup_create_event_schedule.png)
+ **Step 2:** Users enter information, **Type of scheduling event** The lottery system ![](../../images/Popup_create_event_schedule.png)
 
-* **Thẻ**: Không hiển thị lên client, thẻ được sử dụng để đánh dấu, liên quan đến nhau để giúp người đọc dễ dàng tìm kiếm và theo dõi nội dung. Các ký tự được hỗ trợ là số, chữ cái, dấu gạch dưới ( _ ) và dấu gạch ngang ( - ). Không cho phép trùng, từ 1 đến 35 ký tự, không hiển thị thêm từ ký tự thứ 36,trường hợp thẻ dài sẽ hiển thị “Abc…..”, không giới hạn số lượng thẻ được tạo ra.
-* **Loại lập lịch**: Hằng ngày, hằng tuần, tuỳ chỉnh.
-* **Khoảng thời gian**: Không giới hạn khoảng thời gian chọn.
-* **Nút thêm lập lịch**: Chỉ được phép chọn thời gian trong giới hạn khoảng thời gian đã chọn phía trên.
-* **Chi tiết lập lịch**: là 1 danh sách các thời gian xuất bản tương ứng lựa chọn bên trên, có thể thực hiện xoá bằng dấu trừ.
-* Số lượng sự kiện được tạo ra **không quá 500 sự kiện**.
+* **Card**: Do not display the client, the card used for marking, related to each other to help the reader easily search and track the content. Supported characters are numbers, letters, underscores (_) and the dash (-). For example, from 1 to 35 characters, without the addition of the 36th letter, the long-card case will show "Abc…..", which does not limit the number of cards created.
+* **Type**: Every day, every week, custom.
+* **Time**: No selection time limit.
+* **Add to schedule**: Only time selection within the time limit selected above.
+* **Details set up**: being a list of time-to-choice publishing times above, it is possible to perform the deletion with the minus sign.
+* The number of events generated **is not more than 500 events**.
 
-**Bước 3:** Click nút **Lưu** ở cuối Pop-up.
+**Step 3:** Click button **Save** at the end of Pop-up.
 
- Thực hiện tạo mới sự kiện, hiển thị thông báo bên góc phải màn hình **Tạo sự kiện thành công**
+ New implementation of the event, which displays notification on the right corner of **Creating a successful event**.
 
 ![](../../images/Notice_success_create_event.png)
-* **Tiêu đề** Tạo sự kiện thành công!
+* **Title** Create successful event!
 * Icon Check
 
-Đồng thời hiển thị thông tin lên dòng thời gian với **Tên sự kiện + khoảng thời gian tương ứng**, các thông tin được chuyển tới Tab lập lịch sự kiện (Nhận biết trạng thái xem tại góc phải dòng thời gian) ![](../../images/Status_Event.png)
+Simultaneously displaying information on the timeline with **The name of the event + interval corresponds to**, the information transferred to the event schedule. ![](../../images/Status_Event.png)
