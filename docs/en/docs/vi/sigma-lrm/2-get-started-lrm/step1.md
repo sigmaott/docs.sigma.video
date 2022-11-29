@@ -1,16 +1,16 @@
 ---
-title: Bước 1- Tạo mới kênh
+title: Step 1-Create new channel
 order: 4
 ---
 
-# Bước 1- Tạo mới kênh
+# Step 1-Create new channel
 
-Để các nội dung thay thế có thể thực hiện nhiệm vụ của nó, bạn cần tạo 1 kênh để chứa nó đồng thời kiểm soát các nội dung trực tiếp hoặc VOD đến từng đối tượng khách hàng.  Luồng đầu vào tín hiệu kênh được ingest từ hệ thống của Thudo JSC.
+For alternative content to perform its mission, you need to create a channel to contain it simultaneously controlling direct content or VOD to each customer object.  The input stream to the channel signal is ingest from the Thudo JSC system.
 
-## Để tạo mới kênh
+## To create a new channel
 
-1. Tại mục **danh sách kênh**,  Click vào nút **Thêm kênh**
-2. Hệ thống hiển thị **Pop-up Cấu hình tạo mới kênh**.
-3. Người dùng nhập các thông tin theo yêu cầu.
-4. Thực hiện tạo mới.
+1. At section **list of channels**, Click on button **Add channel**
+2. **Pop-up Configuration Configuration channel**.
+3. Users enter the required information.
+4. Create new creation.
 
