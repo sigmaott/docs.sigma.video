@@ -1,6 +1,6 @@
 ---
-id: doc-guideline-General-LRM
-title: Tạo mới sự kiện
+id: Doc-guideline-General-LRM
+title: Create event
 order: 7
 ---
 
