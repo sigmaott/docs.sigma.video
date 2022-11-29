@@ -1,18 +1,18 @@
 ---
-title: Bước 2- Sự kiện
+title: Step 2-Event
 order: 5
 ---
 
-# Bước 2- Xem chi tiết kênh/ Sự kiện
-* Chi tiết kênh chứa nhiều sự kiện bên trong, **sự kiện** là một tính năng hỗ trợ người dùng của CMS chuyển hóa video/hình ảnh thành các channel livestream truyền tải đến khách hàng của họ. Một kênh bao gồm nhiều sự kiện nhỏ với nội dung khác nhau, cung cấp các tùy chọn nội dung thay thế trong các trường hợp sự cố về tín hiệu, mất nguồn nội dung và hạn chế thiết bị.
+# Step 2-See Channel Details/Events
+* The channel details contain many internal events, **events** as a feature-support feature of the CMS conversion of video/images into channels of livestream transmission to their customers. A channel consists of several small events with different content, providing alternative content options in cases of signal incidents, loss of content and equipment restrictions.
 
-* Hỗ trợ các trường dữ liệu nâng cao bổ sung, bao gồm cả quyền **xem lại** và **bắt đầu lại**.
+* Additional support for additional data fields, including **, reviewed** and **starting**.
 
-* Tính năng lập lịch giúp chuyển đổi lập lịch đầu vào thành các sự kiện SCTE 224 với một API cho phép nhiều định dạng nhập lập lịch. Giao diện chia làm 2 phần chính:
+* The scheduling feature helps to convert its head scheduling into SCTE 224 events with an API that allows many calendar entry formats. The interface is divided into two main sections:
 
-    * Phần thông tin kênh: Các thông tin của kênh sẽ được hiển thị ở phần trên và hiển thị mặc định.
-    * Phần thông tin chứa sự kiện: **Tab Sự kiện** và **Tab Lập lịch sự kiện**. Sự kiện gồm 2 loại: **Sự kiện Một Khoảng** Và **Sự kiện lập lịch**.
-## Để vào chi tiết kênh
-1. Tại mục **danh sách kênh**, chọn kênh cần xem chi tiết, Click vào icon **Chi tiết**
-2. Hệ thống hiển thị giao diện trang **Chi tiết kênh**.
+    * Channel information section: The channel's information will be displayed at the top and the default display.
+    * The Information section contains the event: **Tab Event** and **Tab Programming Schedule**. The event consists of two types: **Event A** And **Event scheduling**.
+## To get to the channel details.
+1. At **channel list**, select the channel to view details, Click on icon **Details**
+2. **,**.
 
