@@ -1,24 +1,24 @@
 ---
-title: Tạo mới sự kiện
+title: Create event
 order: 1
 ---
 
-# Tạo mới sự kiện
-Chức năng này cho phép CMS tạo mới sự kiện/ Tại giao diện màn hình Sự kiện chọn nút **Thêm sự kiện"**
+# Create event
+This function allows CMS to create the event/ at the **Event-Select Event interface Add to the event "**
 
 ![](../../images/Add_event.png)
 
-Hệ thống hiển thị Pop-up Thêm sự kiện mới bên phải giao diện ![](../../images/Popup_add_event.png)
+Pop-up Display System Add new event to interface ![](../../images/Popup_add_event.png)
 
-Các nội dung chính:
+Key Content:
 
-* **Tên sự kiện**: Tên của sự kiện dùng để phân biệt và tìm kiếm sự kiện ở danh sách sự kiện
-* **Loại sự kiện**: Có 3 loại sự kiện **SCTE35, Live, VOD**. Với mỗi lựa chọn khác nhau, hệ thống sẽ sinh ra các lựa chọn phụ như bảng mô tả bên dưới.
-* **Mô tả**: Mô tả sự kiện
-* **Loại trừ** là danh sách người dùng lựa chọn, các lựa chọn ở đây là kênh Sigma của kênh với mục đích **loại trừ kênh không mong muốn hiển thị** tới người xem.
-* **Kiểu xuất bản**: Một khoảng và lập lịch
-* **Khoảng thời gian** cho sự kiện với giới hạn **24 tiếng**, ngày bắt đầu tính từ 00:00:00 - ngày kết thúc tính đến 23:59:59
-* **Nút "Huỷ"**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
-* **Nút "Lưu"**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
+* **Name event**: Name of the event used to differentiate and search for event at the event list
+* **Type**: There are 3 types of events **SCTE35, Live, VOD**. For each option, the system will produce secondary options such as the descriptable table below.
+* **Description**: Event description
+* **Exclusion** is a list of options available here as the Sigma channel of the channel with the purpose of **excluding the undesirable channel** to the viewer.
+* **Type**: One interval and scheduling
+* **Time** for the event with a limit of **24 hours**, the date starts at 00:00:00-the end date counts 23:59:59
+* **"Huxu"**: No new implementation, returning to the main screen interface.
+* **The "Save"**: Save new news, return to the main screen interface.
 
  
