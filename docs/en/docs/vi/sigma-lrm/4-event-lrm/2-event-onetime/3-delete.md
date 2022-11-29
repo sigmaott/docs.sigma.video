@@ -1,34 +1,34 @@
 ---
-title: Xoá
+title: Delete
 order: 3
 ---
 
-# Xóa sự kiện một khoảng
-Chức năng cho phép người dùng xoá sự kiện Một khoảng
+# Delete event one interval
+The function allows users to delete event
 
-**Điều kiện**: Sự kiện đã được tạo ra trước đó và có hiển thị tại danh sách sự kiện
+**Conditions**: The event was previously created and displayed at the event list.
 
- *Trường hợp không được phép xoá* hệ thống đã disable icon
+ *The case is not allowed to delete* failed icon
 
- *Trường hợp được phép xoá*
+ *Case Delete*
 
- **Bước 1:** Tại giao diện danh sách sự kiện, di chuyển chuột vào icon **Xoá**  tại cột **hành động**
+ **Step 1:** At the event list interface, mouse move on icon **Delete**  at **action**
 
- Hệ thống hiển thị dòng **xoá bỏ** khi di chuyển chuột vào icon **Xoá** ở cột Hành động sự kiện mong muốn xoá
+ **display system deleted** while moving the mouse to the **Delete** in the Event Action column
 
 ![](../../images/Action_delete_event_list.png)
 
-Các sự kiện được phép xoá, theo bảng mô tả: **Bước 2:** Người dùng click icon **Xoá** Hệ thống hiển thị Pop-up xác nhận ở chính giữa màn hình:
+The events are allowed to delete, according to the description table: **Step 2:** The user clicks icon **Delete** The Pop-up display system is in the middle of the screen:
 
  ![](../../images/Popup_Delete_Event_OneTime.png)
 
- * Tiêu đề: **Bạn chắc chắn xoá sự kiện này không?**
- * Nút **Huỷ bỏ**: Không thực hiện thay đổi, trở về màn hình Tab sự kiện.
- * Nút **Xác nhận**: Hệ thống thực hiện xoá toàn bộ thông tin của sự kiện.
+ * Title: **Are you sure to delete this event?**
+ * Button **Huxing**: Do not make changes, return to the event Tab screen.
+ * Button **Confirification**: The system performs the complete deletion of the event's information.
 
- **Bước 3:**  Người dùng click vào nút **Xác nhận** để xoá thông tin sự kiện Hệ thống hiển thị Pop-up thông báo **Xoá sự kiện thành công** phía trên màn hình
+ **Step 3:**  User click button **Confirification** to delete event information Pop-up display system **Delete event success** above screen
 
  ![](../../images/Notice_success_delete_OneTime.png)
 
- * **Tiêu đề:** Xoá sự kiện thành công!
- * Icon Check: Nhận biết thông báo.
+ * **Title:** Delete successful event!
+ * Icon Check: Notice.
