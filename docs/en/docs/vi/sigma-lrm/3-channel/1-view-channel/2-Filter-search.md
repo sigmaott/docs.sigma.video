@@ -1,20 +1,20 @@
 ---
-title: Truy vấn
+title: Query
 order: 2
 ---
 
-# Truy vấn
-Chức năng này cho phép người dùng CMS tìm kiếm các thông tin nhanh, áp dụng tương tự ở nhiều giao diện màn hình khác nhau, chỉ thay đổi tên trường tìm kiếm.
+# Query
+This function allows CMS users to search for quick information, which applies the same to various screen interfaces, only changing the name of the search field.
 
-## Tìm kiếm theo bộ lọc
+## Search by filter
 
-Nhấn nút **Bộ lọc** để hiển thị toàn bộ danh sách kênh đang có.
+Press **Filter** to show the full list of available channels.
 
-Màn hình hiển thị Pop-up Cài đặt Bộ lọc ở chính giữa màn hình
+Pop-up Display Display Settings in the middle of the screen
 
 ![](../../images/Filter_Setting.png)
 
- Bảng mô tả các thông tin trong Pop-up bộ lọc
+ The table describes the information in the Pop-up filter
 
 
 
@@ -22,56 +22,56 @@ Màn hình hiển thị Pop-up Cài đặt Bộ lọc ở chính giữa màn hì
 <thead>
   <tr>
     <th class="tg-0lax" style="font-weight:bold">STT</th>
-    <th class="tg-0lax" style="font-weight:bold">Tên trường</th>
-    <th class="tg-0lax" style="font-weight:bold">Các lựa chọn</th>
+    <th class="tg-0lax" style="font-weight:bold">Field Name</th>
+    <th class="tg-0lax" style="font-weight:bold">Options</th>
     <th class="tg-0lax" style="font-weight:bold">Placeholder</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0lax">1</td>
-    <td class="tg-0lax" colspan="3">Các lựa chọn tìm kiếm liên quan đến giá trị</td>
+    <td class="tg-0lax" colspan="3">Search options associated with value</td>
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
     <td class="tg-0lax">ID</td>
-    <td class="tg-0lax" rowspan="3">Chứa/ không chứa<br>Bằng/ không bằng<br>Rỗng/ không rỗng<br>Bắt đầu với/ không bắt dầu với<br>Kết thúc với/ không kết thúc với<br>Tồn tại/ không tồn tại</td>
-    <td class="tg-0lax" rowspan="3">Nhập giá trị</td>
+    <td class="tg-0lax" rowspan="3">Contains/does not contain<br>By/not equal<br>Empty/empty<br>Starting with/without oil with<br>Ending with/does not end with<br>Existing/does not exist</td>
+    <td class="tg-0lax" rowspan="3">Enter value</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
-    <td class="tg-0lax">Tên </td>
+    <td class="tg-0lax">Name </td>
   </tr>
   <tr>
     <td class="tg-0lax">4</td>
-    <td class="tg-0lax">Mô tả</td>
+    <td class="tg-0lax">Description</td>
   </tr>
   <tr>
     <td class="tg-0lax">5</td>
-    <td class="tg-0lax" colspan="3">Các lựa chọn liên quan đến thời gian</td>
+    <td class="tg-0lax" colspan="3">Time-related options</td>
   </tr>
   <tr>
-    <td class="tg-0lax">6</td>
-    <td class="tg-0lax">Thời gian khởi tạo</td>
-    <td class="tg-0lax" rowspan="2">Nhỏ hơn/ nhỏ hơn hoặc bằng<br>Lớn hơn/ lớn hơn hoặc bằng <br>Khoảng giữa/ ngoài khoảng giữa<br>Không tồn tại/ tồn tại</td>
-    <td class="tg-0lax" rowspan="2">Lựa chọn ngày trong lịch</td>
+    <td class="tg-0lax">Six.</td>
+    <td class="tg-0lax">Launch Time</td>
+    <td class="tg-0lax" rowspan="2">Smaller/smaller or equal to<br>Greater/larger than or equal to <br>Between<br>Do not exist/exist.</td>
+    <td class="tg-0lax" rowspan="2">Calendar Date selection</td>
   </tr>
   <tr>
     <td class="tg-0lax">7</td>
-    <td class="tg-0lax">Thời gian cập nhật</td>
+    <td class="tg-0lax">Update time</td>
   </tr>
 </tbody>
 </table>
 
-​   Người dùng CMS nhập điều kiện tìm kiếm và nhấn nút **Xác nhận**
+​   CMS users enter search conditions and press the **Confirification**
 
-Hệ thống hiển thị **danh sách kênh** thỏa mãn điều kiện tìm kiếm. ![](../../images\Chanel_List_Filter.png)
+**channel list** satisfying search conditions. ![](../../images\Chanel_List_Filter.png)
 
-## Tìm kiếm theo từng trang
- Người dùng thực hiện tìm kiếm kênh mong muốn theo từng trang ở **dưới cùng giao diện** ![](../../images\Channel_pagination.png)
+## Search by page
+ The user makes search of the desired channel by page at **under the** interface. ![](../../images\Channel_pagination.png)
 
--   Tổng 21: tổng số trang hiện có.
--   Nhấn vào :arrow_up_small:    để lựa chọn số bản ghi trên một trang.
--   Nhấn vào **>** để chuyển tới **trang tiếp theo.**
--   Nhấn vào **<** để chuyển tới **trang trước đó.**
--   Nhấn vào ![](../../images/Choice_Pagination.png) hoặc gõ số trang để chuyển tới một trang cụ thể.
+-   Total 21: total number of available pages.
+-   Click on :arrow_up_small:    to select the number of records on a page.
+-   Click on **>** to reach **next page.**
+-   Click on **<** to reach **pages earlier.**
+-   Click on ![](../../images/Choice_Pagination.png) or type the page number to move to a specific page.
