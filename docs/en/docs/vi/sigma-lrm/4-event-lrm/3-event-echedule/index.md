@@ -1,6 +1,6 @@
 ---
-id: doc-guideline-General-LRM
-title: Sự kiện lập lịch
+id: Doc-guideline-General-LRM
+title: Scheduling event
 order: 9
 ---
 
