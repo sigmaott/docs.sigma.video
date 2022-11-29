@@ -1,27 +1,27 @@
 ---
-title: Xem giao diện
+title: View interface
 order: 1
 ---
 
-# Xem giao diện Lập lịch sự kiện
-Các thông tin hiển thị ở đây giúp người dùng theo dõi các sự kiện hiển thị lên màn hình chính để tương tác trong tương lai. Giao diện hiển thị đang ở Chi tiết kênh, Tab sự kiện.
+# View Event scheduling interface
+The display information here helps users track the display events to the main screen to interact in the future. The display interface is in the Channel Details, the Event Tab.
 
-**Điều kiện**: Sự kiện lập lịch đã được tạo trước đó.
+**Conditions**: The scheduling event was created earlier.
 
-*Chọn sang Tab lập lịch sự kiện*
+*Select to event scheduling Tab*
 
 ![](../../images/UI_Schedule.png)
 
-Hệ thống hiển thị giao diện Lập lịch sự kiện gồm các thông tin sau:
+The event scheduling interface display system includes the following information:
 
-* **Tiêu đề**: Danh sách lập lịch sự kiện
-* **Nút bộ lọc tìm kiếm**: ID/ Thẻ/ Tên/ Loại lập lịch
-* **Icon làm mới dữ liệu** người dùng click vào làm mới **thủ công, không tự động cập nhật dữ liệu**.
-* Bảng thông tin:
-   * **ID**: đây là scheduleID, các sự kiện được tạo ra có cùng 1 scheduleID
-   * **Tên**: Tên sự kiện
-   * **Loại sự kiện**: SCTE35/ VOD/Live
-   * **Ngày bắt đầu/ Ngày kết thúc**: người dùng lựa chọn ở trường khoảng thời gian
-   * **Thẻ**: Nên ghi thẻ ngắn gọn và dễ nhớ
-   * **Hành động**: Xem danh sách xuất bản/ xoá/ chỉnh sửa/ xem các sự kiện lên lịch
-   * **Phân trang**: Lựa chọn option phân trang phù hợp mới màn hình máy tính của bạn.
+* **Title**: Event scheduling list
+* **Filter button search**: ID/ Card/Name calendar
+* **Icon refresh data** users click refresh **manually, not automatically updating the** data.
+* Information table:
+   * **ID**: this is the schedule, the events created with the same schedule.
+   * **Name**: Event Name
+   * **Category**: SCTE3/VOD/Live
+   * **The start/Day end**: User selection at the time interval
+   * **Card**: So the card is short and easy to remember
+   * **Action**: See the publishing list/delete/edit/view scheduling events
+   * **Subsection**: Option option to make a new fit for your computer screen.
