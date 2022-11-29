@@ -1,85 +1,85 @@
 ---
-title: Chỉnh sửa
+title: Edit
 order: 2
 ---
 
-# Chỉnh sửa sự kiện một khoảng
-Cho phép chỉnh sửa sự kiện một khoảng tại Tab Sự kiện. **Điều kiện**: Sự kiện đã được tạo trước đó.
+# Edit event for a distance
+Allow editing of the event a interval at the Event Tab. **Conditions**: The event was created earlier.
 
- **Bước 1**:
+ **Step 1**:
 
- *Cách 1:* Tại Dòng thời gian sự kiện click vào **sự kiện một khoảng hiển thị không có đồng hồ đính** kèm ![](../../images/Event_Onetime.png)
+ *How 1:* At the time line click on **Event a display interval without a** attached clock. ![](../../images/Event_Onetime.png)
 
- *Cách 2:* tại danh sách sự kiện, hiển thị dòng **Chỉnh sửa"** khi **di chuyển chuột** vào icon **Sửa** tại cột hành động
+ *How 2:* at the event list, show **Editing "** when **moves mouse** on icon **Edit** at action column
 
   ![](../../images/Action_edit_event_list.png)
 
- **Bước 2:** Người dùng click icon **chỉnh sửa**
+ **Step 2:** User click icon **editing**
 
- Hệ thống hiển thị Pop-up Cập nhật chỉnh sửa sự kiện góc phải màn hình với các thông tin được nhập trước đó
+ The updated Pop-up display system corrects the right-screen angular event with previously imported information.
 
  ![](../../images/Popup_edit_event_Onetime.png)
 
-* **Disable các trường không cho phép sửa:**
-    * Kiểu sự kiện
-    * Nội dung đa phương tiện ( ngoại trừ trường hợp **VOD và SCTE35/Live trạng thái chuẩn bị cho phép sửa**)
-    * Kiểu xuất bản
-    * Phạm vi thời gian
-* **Các nội dung cho phép chỉnh sửa:**
-   * Tên
-   * Mô tả
-   * Loại trừ
-   * Khoảng thời gian
+* **Unable to edit fields:**
+    * Event type
+    * Multimedia content (except for the **VOD and SCTE3/Live standard status prepared for**).
+    * Publish Type
+    * Time range
+* **Edit content:**
+   * Name
+   * Description
+   * Exclude
+   * Time interval
 
 
-## Bảng mô tả các quy định xoá sự kiện lập lịch
+## Table descriper rules for scheduling events
 
 
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0pky"><span style="font-weight:bold">Loại sự kiện</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">Trạng thái</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">Được phép chỉnh sửa</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">Được phép xoá</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Event Type</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Status</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Allowed to edit</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Delete Permission</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0pky" rowspan="4">SCTE35</td>
-    <td class="tg-0pky">Hoàn thành</td>
-    <td class="tg-0pky">Không</td>
-    <td class="tg-0pky">Chỉ xoá ScheduleID</td>
+    <td class="tg-0pky">Complete</td>
+    <td class="tg-0pky">No!</td>
+    <td class="tg-0pky">Only Delete Scheduling</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Sẵn sàng</td>
-    <td class="tg-0pky">không</td>
-    <td class="tg-0pky">Chỉ xoá ScheduleID</td>
+    <td class="tg-0pky">Ready.</td>
+    <td class="tg-0pky">No.</td>
+    <td class="tg-0pky">Only Delete Scheduling</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Lỗi</td>
+    <td class="tg-0pky">Error</td>
     <td class="tg-0pky">N/A</td>
-    <td class="tg-0pky">Không thay đổi</td>
+    <td class="tg-0pky">Do not change</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Chuẩn bị</td>
-    <td class="tg-0pky">Có</td>
-    <td class="tg-0pky">Cho phép sửa, xoá tất cả</td>
+    <td class="tg-0pky">Get ready!</td>
+    <td class="tg-0pky">Yes.</td>
+    <td class="tg-0pky">Allow modification, delete all</td>
   </tr>
   <tr>
     <td class="tg-0pky">VOD</td>
-    <td class="tg-0pky">Sẵn sàng</td>
-    <td class="tg-0pky">Có</td>
-    <td class="tg-0pky">Cho phép sửa,xoá tất cả</td>
+    <td class="tg-0pky">Ready.</td>
+    <td class="tg-0pky">Yes.</td>
+    <td class="tg-0pky">Allow modification, delete all</td>
   </tr>
 </tbody>
 </table>
 
- **Bước 3:** Người dùng thực hiện chỉnh sửa và bấm nút **Lưu**
+ **Step 3:** Users perform editing and press **Save**
 
-  Hệ thống thực hiện lưu các thông tin mới vừa được cập nhật, hiển thị thông báo cập nhật thành công ở góc phải màn hình và tự động đóng trong 5s
+  The system does save new information that has just been updated, displaying successful update notifications in the right corner of the screen and automatically closed in 5s.
 
   ![](../../images/Notice_success_edit_schedule.png)
 
- * **Tiêu đề:** Cập nhật thành công!
- * Icon Check: Nhận biết thông báo.
+ * **Title:** Updated to success!
+ * Icon Check: Notice.
