@@ -4,6 +4,7 @@ order: 2
 ---
 # Chỉnh sửa sự kiện một khoảng
 Cho phép chỉnh sửa sự kiện một khoảng tại Tab Sự kiện.
+
 **Điều kiện**: Sự kiện đã được tạo trước đó.
 
  **Bước 1**: 
@@ -12,8 +13,6 @@ Cho phép chỉnh sửa sự kiện một khoảng tại Tab Sự kiện.
   ![](../../images/Event_Onetime.png)
 
  *Cách 2:* tại danh sách sự kiện, hiển thị dòng **Chỉnh sửa"** khi **di chuyển chuột** vào icon **Sửa** tại cột hành động
- 
-  ![](../../images/Action_edit_event_list.png)
 
  **Bước 2:** Người dùng click icon **chỉnh sửa** 
 

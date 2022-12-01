@@ -3,14 +3,13 @@ title: Chỉnh sửa
 order: 4
 ---
 # Chỉnh sửa sự kiện lập lịch 
-Cho phép chỉnh sửa sự kiện lập lịch tại Tab Sự kiện.
-Điều kiện: Sự kiện đã được tạo trước đó.
+Chỉ cho phép chỉnh sửa sự kiện lập lịch tại Tab Sự kiện.
 
- **Bước 1:** Mở sang Tab Lập lịch sự kiện, hiển thị danh sách sự kiện lập lịch
+**Điều kiện:** Sự kiện đã được tạo trước đó.
 
- **Bước 2:** Hiển thị dòng **Chỉnh sửa** khi di chuyển chuột vào icon **Sửa** tại cột hành động ![](../../images/Action_edit_Schedule.png)
+ **Bước 1:** Hiển thị dòng **Chỉnh sửa** khi di chuyển chuột vào icon **Sửa** tại cột hành động
 
- **Bước 3:** Người dùng click icon **Chỉnh sửa**
+ **Bước 1:** Người dùng click icon **Chỉnh sửa**
  Hệ thống hiển thị Pop-up Cập nhật chỉnh sửa sự kiện góc phải màn hình với các thông tin được nhập trước đó ![](../../images/Popup_edit_event_Schedule.png)
 
 * **Disable các trường không cho phép sửa:**
@@ -81,7 +80,7 @@ Cho phép chỉnh sửa sự kiện lập lịch tại Tab Sự kiện.
 
 * Vào thời điểm người dùng bấm **Lưu**, hệ thống check các sự kiện lập lịch đã chạy hết lập lịch( 24h00 của  stopDate < current date) và chuyển trạng thái Hoàn thành → **disable tất cả các trường/ button Lưu**
 
- **Bước 4:** Người dùng CMS thực hiện chỉnh sửa các thông tin phù hợp
+ **Bước 3:** Người dùng CMS thực hiện chỉnh sửa các thông tin phù hợp
 
 → Bấm **Lưu**
 

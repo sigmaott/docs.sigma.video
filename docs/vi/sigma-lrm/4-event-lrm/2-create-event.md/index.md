@@ -1,5 +1,5 @@
 ---
 id: doc-guideline-General-LRM
-title: Sự kiện một khoảng
+title: Tạo mới sự kiện
 order: 8
 ---

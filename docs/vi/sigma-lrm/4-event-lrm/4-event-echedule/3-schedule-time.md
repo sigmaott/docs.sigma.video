@@ -9,12 +9,11 @@ Màn hình đang ở giao diện Tab lập lịch sự kiện.
 
  **Bước 1:** Tại giao diện lập lịch sự kiện,
 
- Hệ thống hiển thị dòng **danh sách các sự kiện được lên lịch** khi di chuyển chuột vào icon **Lập lịch** ở cột Hành động sự kiện mong muốn xem
-![](../../images/Action_Schedule.png)
+ Hệ thống hiển thị dòng **danh sách các sự kiện được lên lịch** khi di chuyển chuột vào icon **Lập lịch** ở cột Hành động sự kiện mong muốn xem. 
+ ![](../../images/icon_schedule.png)
 
-→ Click icon danh sách để mở danh sách lập lịch sự kiện với trường tương ứng
-
- **Bước 2:** Người dùng click icon **Lập lịch**
+ **Bước 2:** Người dùng click icon **Lập lịch** để mở danh sách lập lịch sự kiện với trường tương ứng
+ ![](../../images/icon_schedule.png)
 
  Hệ thống hiển thị Pop-up **Danh sách các sự kiện được lên lịch** sự kiện chính giữa màn hình với các thông tin được nhập trước đó ![](../../images/Popup_Schedule_List.png)
  

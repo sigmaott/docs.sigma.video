@@ -8,13 +8,12 @@ Chức năng này có thể mở để xem danh sách lập lịch thay vì ph�
 
 *Màn hình đang ở giao diện Tab lập lịch sự kiện.*
 
- **Bước 1:** Tại giao diện lập lịch sự kiện, hệ thống hiển thị dòng **Danh sách thời gian xuất bản** khi di chuyển chuột vào icon **danh sách** ở cột Hành động sự kiện mong muốn xem
-
-![](../../images/Action_publictime_schedule.png)
+ **Bước 1:** Tại giao diện lập lịch sự kiện, hệ thống hiển thị dòng **Danh sách thời gian xuất bản** khi di chuyển chuột vào icon **danh sách** ở cột Hành động sự kiện mong muốn xem.
+ ![](../../images/Icon_List.png) 
 
 → Click icon **danh sách** để mở danh sách lập lịch sự kiện với trường tương ứng.
 
- **Bước 2:** Người dùng click icon **danh sách**
+ **Bước 2:** Người dùng click icon **danh sách**  ![](../../images/Icon_List.png) 
 
  Hệ thống hiển thị Pop-up **Danh sách thời gian xuất bản** sự kiện góc phải màn hình với các thông tin được nhập trước đó. 
 

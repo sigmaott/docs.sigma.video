@@ -1,5 +1,5 @@
 ---
 id: doc-guideline-General-LRM
-title: Sự kiện lập lịch
+title: Sự kiện một khoảng
 order: 9
 ---

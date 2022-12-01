@@ -8,7 +8,9 @@ order: 4
  
  **Bước 1** :
 Tại giao diện màn hình chính, tại trường mong muốn xoá. 
- Hệ thống hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào icon **Xoá** ![](..\images\icon_delete.png)ở cột Hành động
+ Hệ thống hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào icon **Xoá** ở cột Hành động.
+ 
+  ![](../images/icon-delete.png) 
  
  Người dùng click icon **Xoá**
 Hệ thống hiển thị Pop-up xác nhận ở chính giữa màn hình:
