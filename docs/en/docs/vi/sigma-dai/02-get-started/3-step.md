@@ -1,14 +1,14 @@
 ---
-title: Các bước cơ bản
+title: Basic steps
 order: 3
 ---
-# Các bước cơ bản
+# Basic steps
 
-Đây là hướng dẫn truy cập cấu hình ở mức cơ bản nhất không bao gồm các cấu hình nâng cao.
+This is the most basic configuration access guide that does not include advanced configuration.
 
-1. Kết nối đến hệ thống giao diện biện tập của SSAI .
-2. Hiển thị mặc định ở màn hình đăng nhập, người dùng nhập thông tin và bấm **Đăng Nhập.**
-3. Trên **Sidebar Menu** chọn **Danh sách kênh**. Giao diện danh sách kênh sẽ mở ra.
-4. Nhấn **tạo kênh** để mở Pop-up tạo kênh .
-5. Điền thông tin cấu hình các tham số cơ bản.
-6. Tạo kênh và chạy kênh mong muốn.
+1. Connect to SSAI's operating interface system.
+2. Display the default on the login screen, the user input information and press **Login.**
+3. On **Sidebar Menu** selected **List of channels**. The channel list interface will open.
+4. Press **creating** to open Pop-up.
+5. Fill the configuration information for the basic parameters.
+6. Create a channel and run the desired channel.
