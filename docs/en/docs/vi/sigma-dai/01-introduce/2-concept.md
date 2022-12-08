@@ -1,38 +1,38 @@
 ---
-title: Các khái niệm
+title: Concepts
 order: 2
 ---
-# Các khái niệm liên quan
-Dưới đây là tổng quan về các khái niệm được sử dụng trong suốt Hướng dẫn sử dụng SSAI.
-## Khái niệm chèn quảng cáo
-Dưới đây là tổng quan về các khái niệm có liên quan đến chèn quảng cáo.
+# Related concepts
+The following is the overview of the concepts used throughout the Guide to Use SSAI.
+## Advertising insert concept
+The following is the overview of the concepts related to the inserts.
 
-### Máy chủ quảng cáo (ADS)
-Một máy chủ cung cấp thông số kỹ thuật của điểm quảng cáo dựa trên các tiêu chí bao gồm các chiến dịch quảng cáo hiện tại và sở thích của người xem.
+### Advertising Server (ADS)
+A server provides the specifications of the advertising point based on criteria including current advertising campaigns and viewer preferences.
 
-### Cấu hình(Configuration)
-Một đối tượng trong SSAI mà bạn tương tác. Cấu hình chứa thông tin vị trí về máy chủ gốc và máy chủ quyết định quảng cáo (ADS). Cấu hình cũng chứa các điểm cuối cung cấp điểm truy cập vào và ra khỏi SSAI.
+### Configure (Configuration)
+An object in the SSAI you interact with. The configuration contains location information about the original server and the advertising decision server (ADS). The configuration also contains endpoints that provide access points in and out of the SSAI.
 
-### Chuyển mã động(Dynamic transcoding)
-Một quy trình khớp chất lượng và định dạng quảng cáo với nội dung video chính khi nội dung được yêu cầu. Chuyển mã động giúp giảm yêu cầu lưu trữ và đảm bảo rằng quá trình phát lại sẽ chuyển tiếp liền mạch giữa nội dung quảng cáo và video.
+### Dynamic transcoding
+A process matching process and advertising format with the main video content when content is required. The transfer code helps reduce the storage requirement and ensure that the rebroadcast process will be seamless between advertising and video content.
 
-### Danh sách chỉ mục (Manifest manipulation)
-Quá trình viết lại các tệp chỉ mục từ máy chủ gốc để các tệp kê khai tham chiếu đến các đoạn nội dung và quảng cáo thích hợp. Quảng cáo được xác định bởi phản hồi VAST từ máy chủ quảng cáo (ADS). Khi tiến trình phát lại, SSAI thực hiện chèn quảng cáo hoặc thay thế quảng cáo vào luồng nội dung.
+### Index manifold (Manifest)
+The process of rewriting the index files from the root server so that the manifest files references the appropriate content and advertising sections. The ad is determined by VAST feedback from the ad server (ADS). When the process is rebroadcast, the SSAI performs an ad inserts or promotional replacement into the content stream.
 
-### VAST và VMAP
-Mẫu phân phối quảng cáo video (VAST) và Danh sách phát nhiều quảng cáo video (VMAP) là các phản hồi XML mà máy chủ quyết định quảng cáo gửi đến các yêu cầu quảng cáo từ SSAI. Các câu trả lời cho biết quảng cáo mà SSAI chèn vào tệp kê khai. VMAP cũng bao gồm thời gian cho lịch phát sóng quảng cáo. Để biết thêm thông tin về logic đằng sau việc chèn quảng cáo SSAI, hãy xem Tìm hiểu về hành vi chèn quảng cáo của SSAI. Để biết thêm thông tin về cách SSAI hoạt động với VAST, hãy xem các yêu cầu VAST, VMAP và VPAID cho máy chủ quảng cáo.
-## Khái niệm cấu hình kênh
-Dưới đây là tổng quan về các khái niệm liên quan đến cấu hình kênh.
+### VAST and VMAP
+The video advertising distribution (VAST) and a list of video ads (VMAP) are the XML responses that the server decides to advertise to advertisements from the SSAI. The answers indicate the ads that SSAI inserted into the manifest file. VMAP also includes time for promotional broadcast schedules. For more information about the logic behind the inserts of the SSAI advert, see Learn about the behavior of SSAI's advertising inserts. For more information on how SSAI works with VAST, see the VAST, VMAP and VPAID requirements for the ad server.
+## Channel configuration concept
+The following is the overview of the concepts related to the channel configuration.
 
-### Kênh( Channels)
-Một kênh tập hợp các chỉ mục nguồn của bạn thành một luồng tuyến tính. Mỗi kênh có một hoặc nhiều đầu ra chứa các URL phát lại mà người chơi truy cập. Đầu ra kênh tương ứng với cài đặt cấu hình gói mà bạn tạo cho các nguồn VOD của mình. Một kênh có lịch biểu xác định thời điểm các nguồn VOD sẽ phát trong luồng của kênh.
+### Channel (Channels)
+A channel that sets your source index into a linear stream. Each channel has one or more outputs containing the rebroadcast URLs that the player accusers. The channel output corresponds to the package configuration settings that you create for your VOD sources. A scheduled channel that determines the time the VOD sources will stream in the channel's flow.
 
-### Cấu hình đóng gói(Package configuration)
-Cấu hình trình đóng gói là đại diện cho nguồn VOD chứa các đặc điểm định dạng đóng gói cụ thể. Bạn liên kết cấu hình đóng gói của mình với đầu ra kênh để tạo luồng phát lại cho định dạng đóng gói của nguồn VOD, chẳng hạn như HLS.
+### Package configuration (Package configuration)
+The package-packing configuration is representative of the VOD source that contains specific packaging format characteristics. You link your packaging configuration with the channel output to generate a rebroadcast for the packaging format of the VOD source, such as HLS.
 
 
-### Vị trí nguồn( Source locations)
-Vị trí nguồn đại diện cho máy chủ gốc nơi nội dung của bạn được lưu trữ. Nó có thể là Amazon S3, máy chủ HTTP, mạng phân phối nội dung hoặc cơ sở hạ tầng đóng gói như MediaPackage.
+### Source locations
+The source location represents the root server where your contents are stored. It can be the Amazon S3, HTTP server, content distribution network or packaging infrastructure like MediaPackage.
 
-### Nguồn VOD ( VOD sources)
-Nguồn VOD đại diện cho một phần nội dung, chẳng hạn như phim hoặc tập của chương trình truyền hình. Bạn liên kết các nguồn VOD với các chương trình để thêm chúng vào luồng tuyến tính của kênh.
+### VOD source (VOD sources)
+The VOD source represents part of the content, such as the film or episode of the television show. You link VOD sources with programs to add them to the linear flow of the channel.
