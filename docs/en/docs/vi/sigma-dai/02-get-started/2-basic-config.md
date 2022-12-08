@@ -1,71 +1,71 @@
 ---
-title: Cấu hình cơ bản
+title: Basic Configuration
 order: 2
 ---
-# Hướng dẫn cấu hình cơ bản
-## Thao tác nhập liệu
-Một vài lưu ý, cũng như thông tin mô tả chung khi người dùng thao tác thêm, sửa dữ liệu trong form:
+# Basic Configuration Guide
+## Import Action
+A few notes, as well as the general description information when the user is adding additional action, edit the data in form:
 
 
-Trong một form sẽ bao gồm nhiều trường dữ liệu, mỗi trường dữ liệu sẽ bao gồm 2 thành phần: *Tiêu đề và Ô nhập/chọn dữ liệu*.
+In a form that will include multiple data fields, each data field will consist of 2 components: *Title and Automotive/select data*.
 
-Phần *tiêu đề* hiển thị thông tin tên.Một số lưu ý các quy tắc hiển thị của chương trình/hệ thống:
+Section *header* displays information .Some note the display rules of the program/system:
 
-- Màn hình với các nội dung bắt buộc có dấu *** đỏ phía trước**, thì trường dữ liệu không được bỏ trống, bắt buộc người dùng phải nhập dữ liệu trước khi lưu form.
-- Ngày giờ có định dạng YYYY/MM/DD HH:mm:ss.
+- The screen with the required content has a red *** * *, the data field is not vacated, forcing the user to enter the data before saving form.
+- The date is known as YYYY/MM/DD HH:mm:ss.
 
-Phần *Ô nhập/chọn dữ liệu* cho phép người dùng nhập/chọn dữ liệu mong muốn.
+Section *The data/select* data allows the user to enter/select the desired data.
 
-Hiển thị **giới hạn ký tự** cho phép ở một số trường, ví dụ giới hạn 0/50, không hiển thị ký tự thứ 51.
+Showing **limit of** permitted in some schools, e.g. limit 0/50, do not display 51 characters.
 
  ![](..\images\Limit_field.png)
 
-Dữ liệu người dùng đôi khi cần được xác thực để đảm bảo hợp lệ, khi dữ liệu người dùng nhập không hợp lệ sẽ có **thông báo lỗi màu đỏ** hiển thị ngay phía dưới.
+User data can sometimes be authenticated to make sure valid, when the user input is not valid for **, the** red error message is shown below.
 
 ![](..\images\error_field1.png)
 
-Nội dung thông báo lỗi tùy thuộc từng trường hợp cụ thể. Sau đây ví dụ thêm một vài loại thông báo khác:
+The error message content depends on each specific case. The following examples include a few other types of notifications:
 <center>
 
-![](../image/error-field1.png)
+! [says] (../image/error-field1.png)
 
-*Hình 1. Lỗi bỏ trống trường* 
+*Figure 1. Error vacated the field * 
 
-![](../image/error-field2.png)
+! [held] (../image/error-field2.png)
 
-*Hình 2. Lỗi nhập ký tự không hợp lệ* 
+*Figure 2. Valid self-signed error * 
 
-![](../image/error-field3.png)
+! [held (../image/error-field3.png)
 
-*Hình 3. Lỗi nhập không đúng định dạng* 
+*Figure 3. Failed entry error * 
 
 
 </center>
 
-## Submit dữ liệu
-Khi người dùng thực hiện xác nhận dữ liệu lưu trữ trong form bằng cách ấn nút **Lưu**. Hệ thống thực thi tác vụ và sau đó sẽ trả về thông báo cho người dùng. Nếu tác vụ thực hiện thành công, sẽ có thông báo hiển thị phía trên của màn hình trình duyệt.
+## Data Submit
+When a user performs a confirmation of the stored data in the form by pressing the **Save**. The task execution system and then return the message to the user. If the task is successful, there will be a notification of the upper end of the browser screen.
 
-* Tiêu đề: Ghi rõ câu lệnh+ chi tiết( không bắt buộc)
+* Title: specify a command + statement (not required)
 
-* Background: xanh lá
+* Background:
 
 * Icon :white_check_mark:
 
-* Hiển thị lên trong 5s và tự động tắt: Thực hiện lệnh vừa tạo
+* Show up in 5s and automatically disable: Do the same command
 
-Nếu tác vụ thực thi không thành công, sẽ có thông báo màu đỏ, kèm nội dung lỗi hiển thị phía trên của màn hình trình duyệt. Tuỳ vào trường hợp lỗi, hiển thị với nội dung khác nhau.
+If the execs failed, there will be a red message, with a bug content showing the top of the browser screen. Depending on the error case, it is shown with different content.
 <center>
 
-![](../image/data-invalid.png)
+! [ahi/image/data-invalid.png)
 
-*Hình 4. Nhập thông tin không hợp lệ* 
+*Figure 4. Enter unvalid information * 
 </center>
 
-* Tiêu đề: cần ghi rõ lí do không hợp lệ
+* Title: We need to specify a reason not to be valid.
 
-* Background: đỏ
+* Background: Red
 
-* icon :x:
+* Icon :x:
 
-* Hiển thị lên trong 5s và tự động tắt: không thực hiện lệnh
+* Show up in 5s and disable automatically: do not execute command
 
