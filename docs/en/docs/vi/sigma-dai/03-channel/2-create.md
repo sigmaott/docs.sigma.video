@@ -1,30 +1,30 @@
 ---
-title: Tạo mới kênh
+title: Create a new channel
 order: 2
 ---
-# Tạo mới kênh
-Chức năng này cho phép CMS tạo mới kênh để chạy và chứa quảng cáo
+# Create a new channel
+This function allows CMS to create new channels to run and contain advertising
 
- **Bước 1**: Tại giao diện màn hình chính Danh sách kênh, người dùng click vào nút **Tạo kênh**
+ **Step 1**: At the main screen interface List of channels, users click on button **Creating**
 
-Hệ thống hiển thị Pop-up Thêm kênh mới bên phải giao diện ![](../image/Pop-up-create.png)
+Pop-up Display System Add new channel to the right interface ![](../image/Pop-up-create.png)
 
- Với các thông tin chính:
- * Cài đặt bắt buộc:
-    * Tên: Tên kênh do nguời dùng tự đặt, tự cấu hình
-    * Thẻ:
-    * Nguồn nội dung video(video content source):
-    * Máy chủ quảng cáo(AdDecisionServer)
-* Cài đặt nâng cao( không bắt buộc)
-    * Phân đoạn nội dung CDN: sử dụng CDN để gửi yêu cầu phát lại tới SSAI
-    * Phân đoạn quảng cáo CDN
-    * Giữ lại đánh dấu quảng cáo: Bật/ tắt
+ With key information:
+ * Mandatory settings:
+    * Name: The channel name is set by the user, self-configured
+    * Tags:
+    * Video content source:
+    * Advertising Server (AdDecisionServer)
+* Advanced settings (unrequired)
+    * CDN content segment: use CDN to send rebroadcast requests to SSAI
+    * CDN advertising segment
+    * Keep the ad mark: Turn on/off
 
-* **Nút "Huỷ"**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
-* **Nút "lưu"**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
+* **"Huxu"**: No new implementation, returning to the main screen interface.
+* **"save"**: Save new information, return to the main screen interface.
 
-**Bước 2**: Người dùng nhập các thông tin .
+**Step 2**: User input.
 
-**Bước 3**:  Click nút **Lưu** ở cuối Pop-up
+**Step 3**: Click button **Save** at the end of Pop-up
 
-Hệ thống thực hiện tạo mới kênh với lưu các thông tin vừa được nhập, hiển thị Pop-up thông báo **Tạo mới thành công** tại góc phải màn hình.
+The system implemented a new channel with the input of the input information, showing the Pop-up showing **Create a** success at the top of the screen.
