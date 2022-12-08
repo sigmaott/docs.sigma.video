@@ -1,22 +1,22 @@
 ---
-title: Luồng thay thế
+title: Alternate Flow
 order: 2
 ---
 
-# Luồng thay thế
-**Bước 1:** Tại giao diện **Danh sách kênh**, click vào nút thống kê để điều hướng xem thống kê với kênh mong muốn. Hệ thống xổ xuống các thông tin
-* Giám sát hệ thống
+# Alternate Flow
+**Step 1:** At **List of channels**, click on the statistical button to navigate statistical viewing with the desired channel. Raffle systems.
+* System monitoring
 
-* Tỷ lệ hiển thị
+* Display Rate
 
-* Biểu đò sự kiện
+* Event chart
 
-* Báo cáo dữ liệu
+* Data report
 
-**Bước 2:** ví dụ người dùng chọn Giám sát hệ thống Hệ thống điều hướng tới giao diện Giám sát hệ thống
+**Step 2:** e.g. User selection System Monitor System navigation system navigation system
 
-* Quick filter kênh vừa chọn
+* Quick filter
 
-* Tất cả các kênh phụ
+* All subchannels
 
-* Thời gian: hôm nay
+* Time: Today
