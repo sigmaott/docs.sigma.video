@@ -1,6 +1,6 @@
 ---
 id: docs-guide-sigma-ssai
-title: Danh sách quảng cáo
+title: List of advertisements
 order: 4
 ---
 
