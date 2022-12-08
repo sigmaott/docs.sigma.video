@@ -1,6 +1,6 @@
 ---
 id: docs-guide-sigma-ssai
-title: Bắt đầu với SSAI
+title: Starting with SSAI
 order: 2
 ---
 
