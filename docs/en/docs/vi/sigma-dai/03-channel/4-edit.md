@@ -1,23 +1,23 @@
 ---
-title: Chỉnh sửa kênh
+title: Edit Channel
 order: 4
 ---
 
-# Chỉnh sửa kênh
-**Điều kiện**: Kênh đã được tạo ra trước đó và có hiển thị tại danh sách kênh. Chức năng này giúp người dùng CMS thực hiện chỉnh sửa các thông kênh kể cả trường hợp **kênh đang được chạy**.
+# Edit Channel
+**Conditions**: The channel was created earlier and available at the channel list. This function helps CMS users perform editing of the channel, including the **channel running**.
 
- ## Để chỉnh sửa kênh
+ ## To edit the channel
 
- **Bước 1** : Tại tại trường mong muốn chỉnh sửa, hiển thị dòng **chỉnh sửa** khi di chuyển chuột vào icon **Sửa** ở cột Hành động.
+ **Step 1** : At the desired field, show **editing** when moving the mouse on the **Edit** in the Action column.
 
- **Bước 2:** Người dùng click icon **chỉnh sửa**
+ **Step 2:** User click icon **editing**
 
- Hệ thống hiển thị Pop-up Chỉnh sửa kênh góc phải màn hình với các thông tin được nhập trước đó ![](../image/Pop-up-edit.png)
+ The Pop-up display system corrects the right-screen channel with the previously imported information .  ![](../image/Pop-up-edit.png)
 
- **Bước 3:** Người dùng thực hiện chỉnh sửa và bấm nút **Lưu**
+ **Step 3:** Users perform editing and press **Save**
 
- Hệ thống thực hiện lưu các thông tin mới vừa được cập nhật, hiển thị thông báo cập nhật thành công ở góc phải màn hình và tự động đóng trong 5s ![]()
+ The system does save new information that has just been updated, displaying successful update notifications in the right corner of the screen and automatically closed in 5s. ![]()
 
- * Tiêu đề: Cập nhật kênh thành công!
- * Icon X: Click vào đóng ngay thông báo.
- * Icon Check: Nhận biết thông báo.
+ * Title: successful channel update!
+ * Icon X: Click to close the notification.
+ * Icon Check: Notice.
