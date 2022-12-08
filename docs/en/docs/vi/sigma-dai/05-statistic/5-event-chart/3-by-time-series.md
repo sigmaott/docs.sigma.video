@@ -1,21 +1,21 @@
 ---
-title: Theo thời gian
+title: Over time
 order: 3
 ---
-# Biểu đồ sự kiện theo thời gian
-Hiển thị theo mốc thời gian cụ thể Giao diện hiển thị quick filter thêm trường **Gộp theo**
-* Với lựa chọn thời gian ngày- mặc định gộp theo giờ
-* Với lựa chọn khoảng thời gian tùy chỉnh- mặc định gộp theo ngày/tuần/ tháng
+# Event chart over time
+Display by a specific time marker Display query quick filter further field **Glisters**
+* With time selection-default on time
+* With a selection of the custom time-default on date/month/month
 
-**Bước 1:** Tại Header chọn Theo thời gian Hiển thị giao diện Theo thời gian với các thông tin mặc định.
+**Step 1:** At Header select Over time Display interface Over time with default information.
 
-**Bước 2:** Chọn kênh mong muốn tìm kiếm Khu vực hiển thị: Biểu đồ đường(Line) giúp người dùng theo dõi được sự biến động, xu hướng diễn biến của các quảng cáo được biểu diễn theo thời gian.
-* Gồm nhiều mốc thời gian và các mốc thời gian có tính liên tục(giờ/ngày/tuần/tháng)
-* Giá trị của các mốc thời gian là độc lập với nhau
-* Tiêu đề biểu đồ: Tên quảng cáo bạn chọn ở quick filter.
-* Trục hoành: các mốc thời gian, được chia theo lựa chọn **gộp theo** ở quick filter.
-* Trục tung: Các mốc giá trị.
-* Đường biểu diễn, di chuyển chuột vào các điểm trên đường line hiển thị đầy đủ Tổng số lần hiển thị quảng cáo( Impression) và Tổng số lượt xem hết quảng cáo( complete View) khác nhau.
-* Legend – chú thích: Tổng số lần hiển thị quảng cáo màu xanh dương và  Tổng số lượt xem hết quảng cáo màu xanh lá.
-* Thanh cuộn ngang.
+**Step 2:** Select a search for Display Area: Road Chart (Line) which helps users track the volatility, the performance trend of advertisements performed over time.
+* Includes multiple time milestones and continuous milestones (hours/days/months).
+* The value of time milestones is independent of each other
+* Chart title: The advert you choose at the quick filter.
+* The axis of time is divided by the selection of **as of** in quick filter.
+* Axis: The values.
+* The show, which moves the mouse into points on the line displays the full number of advertising displays (Impression) and the total number of different promotional views.
+* Legend-annotations: The total number of blue advertising displays and the total number of green ads.
+* Scrolling bar.
 
