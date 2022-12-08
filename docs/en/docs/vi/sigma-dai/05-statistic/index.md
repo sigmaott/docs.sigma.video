@@ -1,6 +1,6 @@
 ---
 id: docs-guide-sigma-ssai
-title: Thống kê liên quan
+title: Related Statistics
 order: 5
 ---
 
