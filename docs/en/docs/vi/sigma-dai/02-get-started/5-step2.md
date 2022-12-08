@@ -1,12 +1,12 @@
 ---
-title: Bước 2- Xem chi tiết kênh
+title: Step 2-See the channel details
 order: 5
 ---
-# Bước 2- Xem chi tiết kênh
-Kênh có chứa các điểm đánh dấu chỉ mục để hiển thị quảng cáo bên tron. Để xem luồng trực tuyến, thực hiện vào chi tiết kênh, nhập URL của kênh lên cửa sổ mới và chạy kênh, tại các điểm đánh dấu chỉ mục, quảng cáo hiển thị lên, dữ liệu thu thập được gửi về SSAi. Ngoài ra, hỗ trợ nười dùng có thể xem danh sách các quảng cáo hiển thị trên kênh, với các thông tin liên quan tới quảng cáo.
+# Step 2-See the channel details
+The channel contains the index marking points to display the tron on the inside. To view the stream online, perform the channel details, enter the channel's URL to the new window and run the channel, at the index marking point, the display ad, the data collected on the SSAi. In addition, the use of users can view the list of advertisements displayed on the channel, with information relating to the ad.
 
-## Để xem chi tiết kênh
+## To see the channel details
 
-1. Tại giao diện danh sách kênh, hiển thị thông tin chi tiết kênh khi di chuyển chuột vào **Tên kênh**, click vào **Tên kênh.**
-2. Hệ thống hiển thị thông tin chi tiết kênh.
-3. Người dùng xem các thông tin chi tiết kênh và có thể sử dụng các URL để chạy kênh mong muốn.
+1. At the channel list interface, the channel details the channel when moving the mouse to **The channel**, click on **The name of the channel.**
+2. The system displays the channel details.
+3. The user views the channel details information and can use the URLs to run the desired channel.
