@@ -1,5 +1,5 @@
 ---
-title: Biểu đồ sự kiện
-order: 6
+title: Event chart
+order: Six.
 ---
 
