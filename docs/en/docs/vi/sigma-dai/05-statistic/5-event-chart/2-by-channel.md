@@ -1,15 +1,15 @@
 ---
-title: Theo kênh
+title: By channel
 order: 2
 ---
-# Biểu đồ sự kiện theo kênh
-Đây là thống kê số lượng hiển thị quảng cáo hiển thị trên kênh của bạn Hệ thống hiển thị **mặc định** giao diện theo kênh Chọn quick filter kênh mong muốn
+# Channel event graph
+This is the number of digital advertising displays shown on your channel Display **default** interface channel Select quick filter channel desired
 
-* **Biểu đồ cột( Column Chart)** của kênh thể hiện các số liệu của từng ad đang chạy trên kênh đó với 2 Series Tổng số lần hiển thị quảng cáo( Impression) và Tổng số lượt xem hết quảng cáo( complete View).
-* **Tiêu đề biểu đồ**: Tên kênh bạn chọn ở quick filter.
-* **Trục hoành**: tên quảng cáo- các quảng cáo đã chạy trong kênh/kênh phụ theo lộ lọc tìm kiếm.
-* **Trục tung**: Các mốc giá trị.
-* **Cột biều đồ**.
-* **Legend – chú thích:** Tổng số lần hiển thị quảng cáo màu xanh dương và  Tổng số lượt xem hết quảng cáo màu xanh lá.
-* Tổng số lượng ad đang được chạy trên kênh đó.
-* Tổng số lượng ad đang chạy trên Sub-channel.
+* **Column Chart (Column Chart)** of the channel showing the numbers of each ad running on that channel with 2 Series Total (Impression View) and Total View (complete View).
+* **Title chart**: The name of the channel you select at the quick filter.
+* **Axis**: advert-advertisements that run in the channel/sub-channel on the search filter.
+* **Axis**: Values.
+* **The**.
+* **Legend-annotations:** The total number of green advertising displays and the total number of green advertising views.
+* The total number of ads is being run on that channel.
+* The total number of ads is running on Sub-channel.
