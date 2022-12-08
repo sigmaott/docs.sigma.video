@@ -27,7 +27,7 @@ Display System Main View: ![](../image/UI-channel-list.png)
 
 | Button Name           | Function                                                                                                                                      | Images                          |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| **Synchronised icon** | The right angle below the interface, always implementing the continuous system synchronous in 10s                                             | ![](../../images/icon_sync.png) |
+| **Synchronised icon** | The right angle below the interface, always implementing the continuous system synchronous in 10s                                             |  |
 | **Footer-Footer**     | 2022 @ By Sigma Streaming                                                                                                                     |                                 |
 | Icon **Segal**        | Includes information: Total page numbers, selection of items/1 page (default 10 items/1 page), current page, jump to the desired page seeking |                                 |
 | **Quick filter**      | Quick filter supports search for information including: Name and card                                                                         |                                 |

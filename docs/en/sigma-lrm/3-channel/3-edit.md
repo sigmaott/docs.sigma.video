@@ -8,7 +8,7 @@ order: 3
 
  **Step 1** : At the main screen interface, at the school of desire to edit. System showing **editing** while moving the mouse into the **Edit** in the Action column ![](..\images\Action_Edit_Channel.png)
 
- **Step 2:** User click icon "edit" ![](..\images\icon_edit.png) Pop-up Display Update the screen channel to the screen with previously imported information ![](..\images\Popup_Edit_Channel.png)
+ **Step 2:** User click icon "edit" Pop-up Display Update the screen channel to the screen with previously imported information ![](..\images\Popup_Edit_Channel.png)
 
  **Step 3:** Users perform editing and press **Save**
 

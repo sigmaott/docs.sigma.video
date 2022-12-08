@@ -18,24 +18,24 @@ Section *The data/select* data allows the user to enter/select the desired data.
 
 Showing **limit of** permitted in some schools, e.g. limit 0/50, do not display 51 characters.
 
- ![](..\images\Limit_field.png)
+ <!-- ![](..\images\Limit_field.png) -->
 
 User data can sometimes be authenticated to make sure valid, when the user input is not valid for **, the** red error message is shown below.
 
-![](..\images\error_field1.png)
+![](../image/error-field1.png)
 
 The error message content depends on each specific case. The following examples include a few other types of notifications:
 <center>
 
-! [says] (../image/error-field1.png)
+![](../image/error-field1.png)
 
 *Figure 1. Error vacated the field * 
 
-! [held] (../image/error-field2.png)
+![](../image/error-field2.png)
 
 *Figure 2. Valid self-signed error * 
 
-! [held (../image/error-field3.png)
+![](../image/error-field3.png)
 
 *Figure 3. Failed entry error * 
 
@@ -56,7 +56,7 @@ When a user performs a confirmation of the stored data in the form by pressing t
 If the execs failed, there will be a red message, with a bug content showing the top of the browser screen. Depending on the error case, it is shown with different content.
 <center>
 
-! [ahi/image/data-invalid.png)
+![](../image/data-invalid.png)
 
 *Figure 4. Enter unvalid information * 
 </center>

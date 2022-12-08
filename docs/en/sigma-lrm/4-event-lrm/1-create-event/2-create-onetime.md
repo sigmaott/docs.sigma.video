@@ -11,7 +11,7 @@ order: 2
 * **Title**: Create successful event!
 * Icon check
 
-At the same time **displays information on the** timeline with the Event Name + interval corresponding to . ![](/images/Status_Event.png)
+At the same time **displays information on the** timeline with the Event Name + interval corresponding to . ![](../../images/Status_Event.png)
 
 * **Preparing**: Time's execution time more than the start of the event.
 * **Ready:** The event is in running time.
