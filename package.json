@@ -4,13 +4,15 @@
   "devDependencies": {
     "vite": "3.2.3",
     "vitepress": "npm:@brc-dd/vitepress@1.0.0-dev.b4e1483",
+    "vitepress-export-pdf": "1.0.0-alpha.0",
     "vue": "^3.2.44"
   },
   "scripts": {
     "build": "vitepress build docs",
     "dev": "vitepress dev docs",
     "serve": "vitepress serve docs --port 3000",
-    "start": "vitepress dev docs"
+    "start": "vitepress dev docs",
+    "export-pdf": "press-export-pdf export ./docs/vi"
   },
   "dependencies": {
     "@sigmaott/vitepress-sidebar-builder": "^1.0.3"
