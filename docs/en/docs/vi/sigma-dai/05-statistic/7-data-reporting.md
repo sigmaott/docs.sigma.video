@@ -1,21 +1,21 @@
 ---
-title: Báo cáo dữ liệu
+title: Data report
 order: 7
 ---
-# Báo cáo dữ liệu
-Báo cáo dữ liệu là quá trình thu thập và định dạng dữ liệu thô và chuyển nó thành một định dạng có thể chuyển hoá để đánh giá hiệu suất liên tục.
+# Data report
+The data report is the process of collecting and formating raw data and converting it into a transformable format to evaluate continuous performance.
 
-**Bước 1:** Tại sidebar, chọn Thống kê Hiển thị xổ xuống danh sách lựa chọn
+**Step 1:** At sidebar, select Statistics Display the lottery down the choice list
 
-**Bước 2:** Người dùng chọn Báo cáo dữ liệu
+**Step 2:** Users select Data Report
 
-Hệ thống hiển thị giao diện Báo cáo dữ liệu: ![](../image/ui-data-reporting.png)
+Data report interface system: ![](../image/ui-data-reporting.png)
 * Quick filter:
-    * Kênh: các kênh thuộc danh sách kênh hiện có
-    * Kênh phụ: không cho phép chọn kênh phụ trường hợp người dùng chưa chọn kênh cụ thể
-    * Khoảng thời gian: thời gian truy vấn tối đa 3 tháng.
-* Icon đồng bộ
-* Phân trang
-* Nút CSV xuất ra file dưới dạng CSV
-* Nút Excel xuất ra file dưới dạng Excel.
-* Bảng các chỉ số.
+    * Channel: channels of existing channel list
+    * Subchannel: do not allow the option channel to select a specific channel that is not selected
+    * Duration: 3-month maximum query time.
+* Synchronised icon
+* Page
+* The CSV button appears file in the form of CSV
+* The Excel button comes out of the file as Excel.
+* Table of indicators.
