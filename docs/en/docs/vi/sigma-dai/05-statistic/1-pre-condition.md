@@ -1,13 +1,13 @@
 ---
-title: Điều kiện tiên quyết
+title: Prerequisamation
 order: 1
 ---
-# Điều kiện tiên quyết
-1. Đã có kênh được tạo và chứa nó.
-2. Phải xuất hiện điểm chèn quảng cáo được chạy, quảng cáo đầu tiên được request( bao gồm trường hợp request tới nhưng không hiển thị thành công phía client) thì thông tin mới có thể gửi về Data Report.
+# Prerequisamation
+1. The channel was created and contained.
+2. An advert has to be shown, the first ad to be request (including a request case, but not shown to the client side), the information can be sent to Data Report.
 
-3. Trường hợp các kênh/ kênh phụ chạy thành công nhưng **chưa đến điểm request** quảng cáo đầu tiên thì người xem **tắt kênh**.
+3. The channel/channel is successful, but **has not yet reached the first request point** , the first viewer **off**.
 
- → không ghi nhận thông tin.
+ → not receiving information.
 
- → không xảy ra case này.
+ → not this case.
