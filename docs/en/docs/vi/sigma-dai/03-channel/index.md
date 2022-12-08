@@ -1,6 +1,6 @@
 ---
 id: docs-guide-sigma-ssai
-title: Cấu hình kênh
+title: Channel Configuration
 order: 3
 ---
 
