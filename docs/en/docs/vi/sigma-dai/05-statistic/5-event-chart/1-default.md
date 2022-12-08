@@ -1,18 +1,18 @@
 ---
-title: Giao diện mặc định
+title: Default interface
 order: 1
 ---
-# Biểu đồ sự kiện
-**Bước 1:** Tại sidebar, chọn Thống kê Hiển thị xổ xuống danh sách lựa chọn
+# Event chart
+**Step 1:** At sidebar, select Statistics Display the lottery down the choice list
 
-**Bước 2:** Người dùng chọn Biểu đồ sự kiện
+**Step 2:** The User Event Chart
 
-Hệ thống hiển thị giao diện mặc định Theo kênh Giao diện gồm các thông tin sau:
+The default interface display system by Interface includes the following information:
 * Quick filter:
-    * Kênh: hiển thị mặc định tất cả kênh các kênh thuộc danh sách kênh hiện có.
-    * Kênh phụ: không cho phép chọn kênh phụ trường hợp người dùng chưa chọn kênh cụ thể.
-    * Khoảng thời gian: hiển thị mặc định **Hôm nay** thời gian truy vấn tối đa 3 tháng.
-* Icon đồng bộ.
-* Phân trang.
-* Nút CSV xuất ra file dưới dạng CSV.
-* Nút Excel xuất ra file dưới dạng Excel.
+    * Channel: displays all channels of existing channel list channels.
+    * Sub-channel: do not allow the option to channel the user case that has not yet selected a specific channel.
+    * Duration: The default display **Today** times a maximum of 3 months.
+* Synchronised icon.
+* The page.
+* The CSV button appears in the file as CSV.
+* The Excel button comes out of the file as Excel.
