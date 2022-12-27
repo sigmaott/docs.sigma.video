@@ -2,6 +2,7 @@
 title: Introversion
 order: 1
 ---
+
 # What is the server insertion solution?
 The Server Insertion Solution (SSAI) solution is dedicated to the **system that manages** and **running the advertising campaigns of** Television, Online Event and VOD-allows for channel assembly and insertion of flexible scale advertising, advertising pairing, and making money from advertising on any cloud-based video platform. With SSAI, you can distribute the targeted advertising content to the viewer and create a linear flow while maintaining the quality of broadcast in superior video applications (OTT). Inserts SSAI **promotional support with a large number of** simultaneously Sigma DAI allows one-to-one replacement and HTTP Direct Transfer (HLS) advertising and MPEG-based Transaction via HTTP (DASH) for on-demand video (VOD) and live streams.
 
