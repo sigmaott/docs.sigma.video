@@ -2,6 +2,7 @@
 title: Giới thiệu
 order: 1
 ---
+
 # Giải pháp Chèn quảng cáo phía máy chủ là gì
 Giải pháp Chèn quảng cáo phía máy chủ (SSAI) dành riêng cho hệ thống để **quản lí** và **chạy những chiến dịch quảng cáo** Truyền hình, Sự kiện trực tuyến và VOD - cho phép lắp ráp kênh và chèn quảng cáo có quy mô linh hoạt, ghép quảng cáo và kiếm tiền từ quảng cáo trên bất kỳ nền tảng video nào dựa trên đám mây. Với SSAI, bạn có thể phân phát nội dung quảng cáo được nhắm mục tiêu tới người xem và tạo luồng tuyến tính trong khi vẫn duy trì chất lượng phát sóng trong các ứng dụng video vượt trội (OTT). Chèn quảng cáo SSAI **hỗ trợ xử lý với lượng lớn người dùng** đồng thời Sigma DAI cho phép thay thế một-một và chèn quảng cáo Truyền phát trực tiếp HTTP (HLS) và Truyền phát thích ứng động MPEG qua HTTP (DASH) cho video theo yêu cầu (VOD) và các luồng trực tiếp.
 
