@@ -6,7 +6,7 @@ order: 2
 # Create a new channel
 This function allows CMS to create new channels
 
- **Step 1**: At the main screen interface List of channels, users click on the **"Add channel"** ![](..\images\Add_Channel.png)
+ **Bước 1**: Tại giao diện màn hình chính Danh sách kênh, người dùng click vào nút **Thêm kênh**
 
 Pop-up Display System Add new channel to the right interface ![](..\images\Pop-up_Add_Channel.png)
 
