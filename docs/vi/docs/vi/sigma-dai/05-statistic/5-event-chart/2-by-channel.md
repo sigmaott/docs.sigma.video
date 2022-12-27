@@ -2,6 +2,7 @@
 title: Theo kênh
 order: 2
 ---
+
 # Biểu đồ sự kiện theo kênh
 Đây là thống kê số lượng hiển thị quảng cáo hiển thị trên kênh của bạn Hệ thống hiển thị **mặc định** giao diện theo kênh Chọn quick filter kênh mong muốn
 
