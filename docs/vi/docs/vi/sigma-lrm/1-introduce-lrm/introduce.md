@@ -4,14 +4,14 @@ title: Giới thiệu
 order: 1
 ---
 
-# Giới thiệu về giải pháp LRM-Sigma Linear Right Management
+# Giới thiệu về giải pháp LRM
 
-Với sự phổ biến của các thiết bị hỗ trợ IP, người tiêu dùng có thể truy cập nội dung bất cứ đâu, bất cứ lúc nào và nhu cầu này ngày càng tăng. Chính vì vậy, Người lập trình TV và Dịch vụ TV, các nhà phân phối đang cố gắng phát triển hơn nhằm cung cấp đầy đủ video được cá nhân hóa, phân phối qua nhiều các kênh đến các nhà khai thác, **cung cấp tiềm năng kiếm tiền tối đa** nhưng vẫn **đảm bảo tuân thủ phân phối quyền** và các quy định của địa phương (nhà phân phối truyền hình). Để giải quyết thách thức này chúng tôi cho ra đời giải pháp Quản lý sóng trực tuyến (LRM- Sigma Linear Right Management). Hệ thống Sigma Linear Right Management **cung cấp 1 giải pháp** toàn diện hỗ trợ việc **kiểm soát các nội dung trực tiếp hoặc VOD** đến từng đối tượng khách hàng trong các trường hợp **mất tín hiệu, mất nội dung** và **hạn chế thiết bị**.
+Với sự phổ biến của các thiết bị hỗ trợ IP, người tiêu dùng có thể truy cập nội dung bất cứ đâu, bất cứ lúc nào và nhu cầu này ngày càng tăng. Chính vì vậy, người lập trình TV và Dịch vụ TV, các nhà phân phối đang cố gắng phát triển hơn nhằm cung cấp đầy đủ video được cá nhân hóa, phân phối qua nhiều các kênh đến các nhà khai thác, **cung cấp tiềm năng kiếm tiền tối đa** nhưng vẫn **đảm bảo tuân thủ phân phối quyền** và các quy định của địa phương (nhà phân phối truyền hình). Để giải quyết thách thức này chúng tôi cho ra đời giải pháp Quản lý sóng trực tuyến (LRM- Sigma Linear Right Management). Hệ thống Sigma LRM **cung cấp 1 giải pháp** toàn diện hỗ trợ việc **kiểm soát các nội dung trực tiếp hoặc VOD** đến từng đối tượng khách hàng trong các trường hợp **mất tín hiệu, mất nội dung** và **hạn chế thiết bị**.
 
 
 ## Phần mềm quản lý sóng trực tuyến là gì
 
-Quản lý sóng trực tuyến (LRM- Sigma Linear Right Management) là một Phần mềm  **giúp giải quyết sự phức tạp** ngày càng tăng của việc **phân phối chính xác**, quyền và nội dung thể hiện thông qua hệ thống của màn hình di động và chương trình phát sóng đa kênh trực tiếp.
+Quản lý sóng trực tuyến là một Phần mềm  **giúp giải quyết sự phức tạp** ngày càng tăng của việc **phân phối chính xác**, quyền và nội dung thể hiện thông qua hệ thống của màn hình di động và chương trình phát sóng đa kênh trực tiếp.
 
 Không chỉ đảm bảo rằng nội dung được **truyền tải đến đúng đối tượng** vào đúng thời điểm, nó hoạt động để làm rõ các sự kiện và quy trình làm việc của bạn:
  * Cung cấp các công cụ rõ ràng,
