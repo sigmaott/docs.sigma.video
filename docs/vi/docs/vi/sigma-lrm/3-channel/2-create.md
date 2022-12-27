@@ -6,7 +6,7 @@ order: 2
 # Tạo mới kênh
 Chức năng này cho phép CMS tạo mới kênh
 
- **Bước 1**: Tại giao diện màn hình chính Danh sách kênh, người dùng click vào nút **"Thêm kênh"** ![](..\images\Add_Channel.png)
+ **Bước 1**: Tại giao diện màn hình chính Danh sách kênh, người dùng click vào nút **Thêm kênh**
 
 Hệ thống hiển thị Pop-up Thêm kênh mới bên phải giao diện ![](..\images\Pop-up_Add_Channel.png)
 
