@@ -2,6 +2,7 @@
 title: Prerequisamation
 order: 1
 ---
+
 # Prerequisamation
 1. The channel was created and contained.
 2. An advert has to be shown, the first ad to be request (including a request case, but not shown to the client side), the information can be sent to Data Report.
