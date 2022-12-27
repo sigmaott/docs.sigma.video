@@ -4,14 +4,14 @@ title: Introversion
 order: 1
 ---
 
-# Introduction of LRM-Sigma Linear Right Management
+# Giới thiệu về giải pháp LRM
 
-With the popularity of IP-supported devices, consumers are able to access content anywhere, at any time, and the demand is increasing. Thus, TV programming and TV services, distributors are attempting to develop more personalized video, distributed through various channels to operators, **offers a maximum amount of** but still **to comply with the distribution of** and local regulations (television distributors). To address this challenge we launch the LRM-Sigma Linear Right Management solution. The Sigma Linear Right Management system **provides a comprehensive** solution that supports **control of direct content or VOD** to each customer object in cases **loss of signal, loss of** and **limiting the device**.
+With the popularity of IP-supported devices, consumers are able to access content anywhere, at any time, and the demand is increasing. Chính vì vậy, người lập trình TV và Dịch vụ TV, các nhà phân phối đang cố gắng phát triển hơn nhằm cung cấp đầy đủ video được cá nhân hóa, phân phối qua nhiều các kênh đến các nhà khai thác, **cung cấp tiềm năng kiếm tiền tối đa** nhưng vẫn **đảm bảo tuân thủ phân phối quyền** và các quy định của địa phương (nhà phân phối truyền hình). To address this challenge we launch the LRM-Sigma Linear Right Management solution. Hệ thống Sigma LRM **cung cấp 1 giải pháp** toàn diện hỗ trợ việc **kiểm soát các nội dung trực tiếp hoặc VOD** đến từng đối tượng khách hàng trong các trường hợp **mất tín hiệu, mất nội dung** và **hạn chế thiết bị**.
 
 
 ## What is online wave management software?
 
-LRM-Sigma Linear Right Management is a  **software that address the growing** complexity of **accurately distributed**, the right and content expressed through the system of mobile screens and live multi-channel broadcasts.
+Quản lý sóng trực tuyến là một Phần mềm  **giúp giải quyết sự phức tạp** ngày càng tăng của việc **phân phối chính xác**, quyền và nội dung thể hiện thông qua hệ thống của màn hình di động và chương trình phát sóng đa kênh trực tiếp.
 
 Not only ensures that the content is transmitted by **to the right object** at the right time, it works to clarify your events and work processes:
  * Providing clear tools,
