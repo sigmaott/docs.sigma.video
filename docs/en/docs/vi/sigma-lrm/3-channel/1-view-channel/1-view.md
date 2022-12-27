@@ -3,41 +3,38 @@ title: View channel editor interface
 order: 1
 ---
 
-# Channel Editor Function
+# kênh
 This function displays a list of channels and allows CMS User to search the desired channel.
 
- At the main screen selecting the Channel List
+ Tại màn hình chính hệ thống chọn **Danh sách kênh**
 
-![](../../images\Sidebar_Channel_List.png)
 
 Display system main view:
 
 ![](../../images\UI_channellist.png)
 
-* The information is displayed in the table:
-     * **ID**: After the user created the channel, the system generated its own ID for the channel with the purpose of identification.
-     * **Name**:
-     * **Describe**: The information is not required, as the CMS user configured the short description of the channel's characteristics.
-     * **Sigma**: CMS users configure channel selection.
-     * **Initiated**: Time-to-channel creation system time, YYYY/MM/DD HH:mm:ss.
-     * **Updated**(default arrangement) displayed to the top of the page with the latest updated channel.
-     * **Action**:
-        * Details: Open new pages with event information, detailed scheduling events inside.
-        * Delete: Allow CMS users to perform delete channels.
-        * Edit: Allow users to edit channel information.
+* Các thông tin được hiển thị trong giao diện:
 
-* Other buttons:
-     * **Icon synchronous:** right corner under the interface, always implementing continuous system synchronous in 10s
-     * **Footer-footer**: 2022 @ By Sigma Streaming
-     * **Icon background**:
-         * Icon **Sun** displays a white background interface
 
-         * Icon **moon** displays a black background interface
-     * Icon **installation** displays pop-up settings as follows: ![](../../images\UI_Popup_Setting.png)
-         * Layout mode: There are two options
-           *  Vertical (default): The Sidebar bar on the left side of the user interface and the arrangement of the vertical Menu bar contents.
-           * Horizontable: Top Menu above the same user interface and arrangement of the Menu bar contents horizontable.
-         * Language: Vietnamese (default)/English.
-     * Icon **extension** allows CMS users to be closed to view full view of the interface.
+| Tên cột        | Chức năng                                                                                                                                                                                                                    |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID**         | Sau khi người dùng tạo mới kênh, hệ thống sinh ra ID riêng cho kênh với mục đích nhận diện.                                                                                                                                  |
+| **Tên**        | Do người dùng CMS cấu hình tên kênh                                                                                                                                                                                          |
+| **Mô tả**      | Thông tin không bắt buộc, do người dùng CMS cấu hình mô tả ngắn gọn các đặc điểm của kênh.                                                                                                                                   |
+| **Kênh Sigma** | Người dùng CMS cấu hình lựa chọn kênh.                                                                                                                                                                                       |
+| **Khởi tạo**   | Thời gian hệ thống ghi nhận tạo mới kênh, định dạng YYYY/MM/DD HH:mm:ss.                                                                                                                                                     |
+| **Cập nhật**   | (sắp xếp mặc định) hiển thị lên đầu trang với kênh được cập nhật mới nhất                                                                                                                                                    |
+| **Hành động**  | Details: Open new pages with event information, detailed scheduling events inside. <br />Xoá: Cho phép người dùng CMS thực hiện xoá kênh. <br />Chỉnh sửa: Cho phép người dùng chỉnh sửa các thông tin của kênh. |
+
+* Các nút khác
+
+| Tên nút                | Chức năng                                                                                                                                                                                                                                                                                                                                                   | Hình ảnh                                                                        |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| **Icon đồng bộ**       | Góc phải bên dưới giao diện, luôn thực hiện đồng bộ hệ thống liên tục trong 10s                                                                                                                                                                                                                                                                             | ![](../../images/icon_sync.png)                                                 |
+| **Footer- chân trang** | 2022@ By Sigma Streaming                                                                                                                                                                                                                                                                                                                                    |                                                                                 |
+| Icon **nền**           | Icon **mặt trời** hiển thị giao diện nền màu trắng <br />Icon **mặt trăng** hiển thị giao diện nền màu đen                                                                                                                                                                                                                                            | ![](../../images/icon_sunny.png)   <br /> ![](../../images/icon_moon.png) |
+| Icon **cài đặt**       | * Chế độ bố cục: Có 2 lựa chọn   <br />Chiều dọc(mặc định): Thanh Sidebar phía bên trái giao diện người dùng và sắp xếp các nội dung thanh Menu theo chiều dọc . <br />Chiều ngang:  Top Menu phía trên cùng giao diện người dùng và sắp xếp các nội dung thanh Menu theo chiều ngang. <br />* Ngôn ngữ: Tiếng Việt( mặc định)/ tiếng Anh | ![](../../images/iocn_setting.png)                                              |
+| Icon **mở rộng**       | Cho phép người dùng CMS có thể đóng mở để xem đầy đủ diện tích tầm nhìn của giao diện.                                                                                                                                                                                                                                                                      | ![](../../images/icon_extend.png)                                               |
+
 
 
