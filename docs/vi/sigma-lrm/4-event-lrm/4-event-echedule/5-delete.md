@@ -5,7 +5,7 @@ order: 5
 # Xóa sự kiện lập lịch 
 Chức năng cho phép người dùng xoá sự kiện lập lịch
 
-Điều kiện: Sự kiện đã được tạo ra trước đó và có hiển thị tại danh sách sự kiện
+**Điều kiện:** Sự kiện đã được tạo ra trước đó và có hiển thị tại danh sách sự kiện
 
 1. *Trường hợp không được phép xoá* hệ thống đã **disable** icon xoá
 
@@ -15,11 +15,7 @@ Chức năng cho phép người dùng xoá sự kiện lập lịch
 
 *Cách 1:* Tại Tab sự kiện, ở danh sách sự kiện, hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào icon **Xoá** tại cột hành động
 
- ![](../../images/Action_delete_Event_schedule.png)
-
- *Cách 2:* tại Tab lập lịch sự kiện, hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào icon **Xoá** tại cột hành động
- 
-  ![](../../images/Action_delete_schedule_list.png)
+ *Cách 2:* tại Tab lập lịch sự kiện, hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào icon **Xoá** tại cột hành động.
 
  **Bước 2:** Người dùng click icon **Xoá** 
 Hệ thống hiển thị Pop-up xác nhận ở chính giữa màn hình:

@@ -20,7 +20,7 @@ Hệ thống hiển thị Pop-up xác nhận ở chính giữa màn hình:
 
  **Bước 2** : Người dùng click vào nút **Xác nhận** để xoá thông tin kênh
  Hệ thống hiển thị Pop-up thông báo **Xoá kênh thành công** bên góc phải màn hình 
- ![](../image/Pop-up-delete.png)
+ ![](..\images\Notice_success_delete_channel.png)
  * Tiêu đề: Xoá kênh thành công!
  * Icon X: Click vào đóng ngay thông báo.
  * Icon Check: Nhận biết thông báo.

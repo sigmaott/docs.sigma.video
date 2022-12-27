@@ -16,8 +16,6 @@ Tại giao diện danh sách sự kiện, di chuyển chuột vào icon **Xoá**
 
  Hệ thống hiển thị dòng **xoá bỏ** khi di chuyển chuột vào icon **Xoá** ở cột Hành động sự kiện mong muốn xoá
 
-![](../../images/Action_delete_event_list.png)
-
 Các sự kiện được phép xoá, theo bảng mô tả:
  **Bước 2:** Người dùng click icon **Xoá** 
 Hệ thống hiển thị Pop-up xác nhận ở chính giữa màn hình:
