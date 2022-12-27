@@ -2,13 +2,14 @@
 title: Xem Danh sách quảng cáo
 order: 2
 ---
+
 # Xem Danh sách quảng cáo
 
 Các thông tin hiển thị ở đây giúp người dùng theo dõi các quảng cáo đã được cấu hình, hiển thị lên luồng trực tuyến. *Giao diện hiển thị đang ở Danh sách kênh.*
 
 **Bước 1:** Tại sidebar, chọn Danh sách quảng cáo
 
-Hệ thống hiển thị giao diện Danh sách quảng cáo ![](../image/UI-ad-list.png) gồm các thông tin sau:
+Hệ thống hiển thị giao diện Danh sách quảng cáo gồm các thông tin sau:
 
 * **Tiêu đề**: Danh sách lập lịch sự kiện
 * **Nút bộ lọc tìm kiếm**: ID/ Thẻ/ Tên/ Loại lập lịch
@@ -27,9 +28,14 @@ Hệ thống hiển thị giao diện Danh sách quảng cáo ![](../image/UI-ad
    * VastID
    * Trạng thái
 
-**Bước 3:** (Không bắt buộc) Người dùng thực hiện thao tác xem trước quảng cáo Tại giao diện Danh sách quảng cáo, người dùng click vào xem trước Hệ thống hiển thị video mp4 của quảng cáo, các hành động hiển thị:
-* Icon chạy(play): Hiển thị khi vừa truy cập vào, click vào để chạy video.
-* Icon phát lại: hiển thị sau khi video chạy xong, click vào để phát lại nếu người xem có nhu cầu.
-* Phân đoạn nội dung: tối đa là thời lượng quảng cáo.
-* Tỷ lệ phát lại (playback rate): 0,5x/ 0,75x/ 1x(mặc định)/ 1,5x/ 2x.
-* Trình phát playing in picture-in-picture: phát video linh động ra khỏi Tab hiện tại. Bấm **Back to Tab** để trở về trang web SSAI.
+**Bước 3:** (Không bắt buộc) Người dùng thực hiện thao tác xem trước quảng cáo
+
+Tại giao diện Danh sách quảng cáo, người dùng click vào xem trước
+
+Hệ thống hiển thị **video mp4 của quảng cáo**, các hành động hiển thị:
+
+* **Icon chạy(play):** Hiển thị khi vừa truy cập vào, click vào để chạy video.
+* **Icon phát lại:** hiển thị sau khi video chạy xong, click vào để phát lại nếu người xem có nhu cầu.
+* **Phân đoạn nội dung:** tối đa là thời lượng quảng cáo.
+* **Tỷ lệ phát lại (playback rate): 0,5x/ 0,75x/ 1x(mặc định)/ 1,5x/ 2x.**
+* **Trình phát playing in picture-in-picture:** phát video linh động ra khỏi Tab hiện tại. Bấm **Back to Tab** để trở về trang web SSAI.
