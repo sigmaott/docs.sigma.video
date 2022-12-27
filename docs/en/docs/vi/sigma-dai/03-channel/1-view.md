@@ -2,13 +2,14 @@
 title: View channel editor interface
 order: 1
 ---
+
 # View channel editor interface
 This function displays a list of channels and allows CMS User to search the desired channel.
 
  At the main screen selecting **List of channels**
 
 
-Display System Main View: ![](../image/UI-channel-list.png)
+Màn hình chính hệ thống hiển thị:
 
 * The information is displayed in the interface:
 
@@ -25,11 +26,27 @@ Display System Main View: ![](../image/UI-channel-list.png)
 
 * Other buttons
 
-| Button Name           | Function                                                                                                                                      | Images                          |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| **Synchronised icon** | The right angle below the interface, always implementing the continuous system synchronous in 10s                                             | ![](../../images/icon_sync.png) |
-| **Footer-Footer**     | 2022 @ By Sigma Streaming                                                                                                                     |                                 |
-| Icon **Segal**        | Includes information: Total page numbers, selection of items/1 page (default 10 items/1 page), current page, jump to the desired page seeking |                                 |
-| **Quick filter**      | Quick filter supports search for information including: Name and card                                                                         |                                 |
-| Button **Filter**     | Make filtering of more detailed information                                                                                                   |                                 |
+| Button Name           | Function                                                                                                                                      | Images                         |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| **Synchronised icon** | The right angle below the interface, always implementing the continuous system synchronous in 10s                                             | ![](../../image/icon_sync.png) |
+| **Footer-Footer**     | 2022 @ By Sigma Streaming                                                                                                                     |                                |
+| Icon **Segal**        | Includes information: Total page numbers, selection of items/1 page (default 10 items/1 page), current page, jump to the desired page seeking |                                |
+| **Quick filter**      | Quick filter supports search for information including: Name and card                                                                         |                                |
+| Button **Filter**     | Make filtering of more detailed information                                                                                                   |                                |
+
+## Xem chi tiết kênh
+
+**Bước 1:** Tại giao diện Danh sách Kênh
+
+→ Click vào **Tên trường** mong muốn xem thông tin chi tiết kênh.
+
+**Bước 2:** Hiển thị giao diện chi tiết kênh với các thông tin sau:
+
+* Tên kênh: Tên kênh vừa chọn
+* Thẻ
+* Icon **back** → Click quay trở lại giao diện Danh sách kênh.
+* Bảng hiển thị:
+ * **Playback Endpoint Prefixes:**  HLS playback prefix/ DASH playback prefix/ **link Session initalization playback prefix( link khởi tạo- sau khi người dùng cấu hình kênh, SSAI trả về).**
+ * **Cài đặt bắt buộc:** Máy chủ quảng cáo (Ad decision server)/ Video content source.
+ * **Cài đặt nâng cao:** Phân đoạn nội dung CDN/ Phân đoạn quảng cáo CDN/ Giữ lại đánh dấu quảng cáo/ Bumpers start/ Bumpers end. *icon copy kế bên mỗi link.* 
 
