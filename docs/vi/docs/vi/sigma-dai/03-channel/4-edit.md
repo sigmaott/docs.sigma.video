@@ -12,7 +12,7 @@ order: 4
 
  **Bước 2:** Người dùng click icon **chỉnh sửa**
 
- Hệ thống hiển thị Pop-up Chỉnh sửa kênh góc phải màn hình với các thông tin được nhập trước đó ![](../image/Pop-up-edit.png)
+ Hệ thống hiển thị Pop-up Chỉnh sửa kênh góc phải màn hình với các thông tin được nhập trước đó
 
  **Bước 3:** Người dùng thực hiện chỉnh sửa và bấm nút **Lưu**
 
