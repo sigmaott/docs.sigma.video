@@ -12,7 +12,7 @@ order: 4
 
  **Step 2:** User click icon **editing**
 
- The Pop-up display system corrects the right-screen channel with the previously imported information .  ![](../image/Pop-up-edit.png)
+ Hệ thống hiển thị Pop-up Chỉnh sửa kênh góc phải màn hình với các thông tin được nhập trước đó
 
  **Step 3:** Users perform editing and press **Save**
 
