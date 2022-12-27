@@ -2,6 +2,7 @@
 title: Bước 1- tạo kênh
 order: 4
 ---
+
 # Tạo kênh
 Để quảng cáo có thể thực hiện nhiệm vụ của nó và thu thập dữ liệu về, bạn cần tạo 1 kênh để chứa nó đồng thời kiểm soát các nội dung trực tuyến đến từng đối tượng khách hàng.
 
