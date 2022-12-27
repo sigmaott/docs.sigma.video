@@ -2,6 +2,7 @@
 title: Step 1-Create Channel
 order: 4
 ---
+
 # Create Channel
 In order for ads to perform its mission and gather data about, you need to create a channel to contain it simultaneously controlling online content to each customer object.
 
