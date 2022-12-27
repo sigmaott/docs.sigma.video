@@ -1,5 +1,5 @@
 ---
 title: Event chart
-order: Six.
+order: 5
 ---
 
