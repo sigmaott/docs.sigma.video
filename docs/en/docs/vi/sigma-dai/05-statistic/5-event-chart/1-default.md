@@ -2,16 +2,17 @@
 title: Default interface
 order: 1
 ---
+
 # Event chart
 **Step 1:** At sidebar, select Statistics Display the lottery down the choice list
 
 **Step 2:** The User Event Chart
 
-The default interface display system by Interface includes the following information:
+**Hệ thống hiển thị giao diện mặc định Theo kênh** Giao diện gồm các thông tin sau:
 * Quick filter:
-    * Channel: displays all channels of existing channel list channels.
-    * Sub-channel: do not allow the option to channel the user case that has not yet selected a specific channel.
-    * Duration: The default display **Today** times a maximum of 3 months.
+    * **Kênh:** hiển thị mặc định tất cả kênh các kênh thuộc danh sách kênh hiện có.
+    * **Kênh phụ:** không cho phép chọn kênh phụ trường hợp người dùng chưa chọn kênh cụ thể.
+    * **Khoảng thời gian:** hiển thị mặc định **Hôm nay** thời gian truy vấn **tối đa 3 tháng.**
 * Synchronised icon.
 * The page.
 * The CSV button appears in the file as CSV.
