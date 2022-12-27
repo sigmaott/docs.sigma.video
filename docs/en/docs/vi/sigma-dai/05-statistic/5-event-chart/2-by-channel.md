@@ -2,6 +2,7 @@
 title: By channel
 order: 2
 ---
+
 # Channel event graph
 This is the number of digital advertising displays shown on your channel Display **default** interface channel Select quick filter channel desired
 
