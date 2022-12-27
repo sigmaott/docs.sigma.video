@@ -2,6 +2,7 @@
 title: Bước 2- Xem chi tiết kênh
 order: 5
 ---
+
 # Bước 2- Xem chi tiết kênh
 Kênh có chứa các điểm đánh dấu chỉ mục để hiển thị quảng cáo bên tron. Để xem luồng trực tuyến, thực hiện vào chi tiết kênh, nhập URL của kênh lên cửa sổ mới và chạy kênh, tại các điểm đánh dấu chỉ mục, quảng cáo hiển thị lên, dữ liệu thu thập được gửi về SSAi. Ngoài ra, hỗ trợ nười dùng có thể xem danh sách các quảng cáo hiển thị trên kênh, với các thông tin liên quan tới quảng cáo.
 
