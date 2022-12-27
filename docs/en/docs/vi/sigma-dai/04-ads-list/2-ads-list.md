@@ -2,13 +2,14 @@
 title: View Ad List
 order: 2
 ---
+
 # View Ad List
 
 The display information here helps users track the files that have been configured, displayed on the streaming stream. *The display interface is on the Channel List.*
 
 **Step 1:** At sidebar, select Ad List
 
-The system displays a ![](../image/UI-ad-list.png) with the following information:
+Hệ thống hiển thị giao diện Danh sách quảng cáo gồm các thông tin sau:
 
 * **Title**: Event scheduling list
 * **Filter button search**: ID/ Card/Name calendar
@@ -27,9 +28,14 @@ The system displays a ![](../image/UI-ad-list.png) with the following informatio
    * VastID
    * Status
 
-**Step 3:** (Unobligated) Users perform preview action At the Ad List interface, users click on preview The MP4 video display system's mp4 video display system, the display actions:
-* Icon running (play): Display when just access, click to run the video.
-* Icon rebroadcast: displayed after the video runs, click to rebroadcast if the viewer has a need.
-* Content segment: maximum of advertising.
-* Playback rate (playback rate): 0 .5x/ 0 ,75x/ 1x (default)/1.5x/ 2x.
-* The playbook in picture-in-picture: video playback is out of the current Tab. Press **Back to Tab** to return to the SSAI website.
+**Bước 3:** (Không bắt buộc) Người dùng thực hiện thao tác xem trước quảng cáo
+
+Tại giao diện Danh sách quảng cáo, người dùng click vào xem trước
+
+Hệ thống hiển thị **video mp4 của quảng cáo**, các hành động hiển thị:
+
+* **Icon chạy(play):** Hiển thị khi vừa truy cập vào, click vào để chạy video.
+* **Icon phát lại:** hiển thị sau khi video chạy xong, click vào để phát lại nếu người xem có nhu cầu.
+* **Phân đoạn nội dung:** tối đa là thời lượng quảng cáo.
+* **Playback rate (playback rate): 0 .5x/ 0 ,75x/ 1x (default)/1.5x/ 2x.**
+* **Trình phát playing in picture-in-picture:** phát video linh động ra khỏi Tab hiện tại. Press **Back to Tab** to return to the SSAI website.
