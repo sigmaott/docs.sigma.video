@@ -2,6 +2,7 @@
 title: Bước 3- xoá kênh
 order: 6
 ---
+
 ## Bước 3- Xoá kênh
 Sau khi đã tạo kênh và khởi chạy, khi bạn cần dừng kênh và đóng kênh vui lòng thao tác sau:
 
