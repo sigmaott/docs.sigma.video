@@ -17,8 +17,9 @@ Hệ thống hiển thị Pop-up Thêm kênh mới bên phải giao diện
     * **Nguồn nội dung video(video content source): Link Origin gốc.**
     * **Máy chủ quảng cáo(AdDecisionServer): là 1 link vastID do bên quảng cáo cung cấp.**
 * Cài đặt nâng cao( không bắt buộc): với người xem, không thể yêu cầu thẳng tới origin, **để xem được quảng cáo cần có thêm link CDN**( có thể xem CDN là bên thứ 3), sử dụng CDN để gửi yêu cầu phát lại tới SSAI, tại đây CDN sẽ chuyển đổi link để có thể gọi Origin tới người dùng.
- <br> *2 link CDN này có sự khác nhau giữa các segment
-→ Phần đuôi gán vào link để xem quảng cáo do người dùng tự config.* </br>
+* 
+* *2 link CDN này có sự khác nhau giữa các segment
+→ Phần đuôi gán vào link để xem quảng cáo do người dùng tự config.*
 
     * **Phân đoạn nội dung CDN(CDN content segment prefix): Link gốc đã được chuyển đổi.**
     * **Phân đoạn quảng cáo CDN( CDN ad segment prefix): Link gốc đã được chuyển đổi**

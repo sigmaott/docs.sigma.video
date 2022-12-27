@@ -30,7 +30,7 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           { text: 'Sigma Interactive', link: '/vi/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/vi/sigma-lrm/' },
           { text: 'Sigma Machine', link: '/vi/sigma-machine/' },
-          { text: 'Sigma DAI', link: '/vi/sigma-dai/' }
+          { text: 'Sigma Dynamic Ads Insert', link: '/vi/sigma-dai/' }
         ]
       },
       {

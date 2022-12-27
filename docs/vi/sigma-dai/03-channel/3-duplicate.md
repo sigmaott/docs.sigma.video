@@ -19,7 +19,8 @@ Cho phép chỉnh sửa tất cả các trường:
 **Bước 2:** Người dùng nhập các thông tin.
 
 **Bước 3:** Người dùng bấm nút **Lưu**
-<br> Hệ thống hiển thị thông báo thực hiện tạo bản sao thành công tại góc phải màn hình và tự động tắt sau 5s. </br>
+
+Hệ thống hiển thị thông báo thực hiện tạo bản sao thành công tại góc phải màn hình và tự động tắt sau 5s.
 
 * Tiêu đề: Tạo bản sao kênh thành công!
 * Icon check nhận biết tạo thành công.

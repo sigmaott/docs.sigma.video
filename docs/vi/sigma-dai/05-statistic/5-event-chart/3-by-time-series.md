@@ -10,7 +10,8 @@ Giao diện hiển thị quick filter thêm trường **Gộp theo**
 
 **Bước 1:** Tại Header chọn Theo thời gian
 Hiển thị giao diện Theo thời gian với các thông tin mặc định.
-<br> **Bước 2:** Chọn kênh mong muốn tìm kiếm </br>
+
+**Bước 2:** Chọn kênh mong muốn tìm kiếm
 Khu vực hiển thị:
 **Biểu đồ đường(Line)** giúp người dùng theo dõi được sự biến động, xu hướng diễn biến của các quảng cáo được biểu diễn theo thời gian.
 * Gồm nhiều mốc thời gian và các mốc thời gian **có tính liên tục**(giờ/ngày/tuần/tháng)

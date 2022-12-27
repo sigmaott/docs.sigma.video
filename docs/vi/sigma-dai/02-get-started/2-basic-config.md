@@ -16,35 +16,32 @@ Phần *Ô nhập/chọn dữ liệu* cho phép người dùng nhập/chọn d�
 
 Hiển thị **giới hạn ký tự** cho phép ở một số trường, ví dụ giới hạn 0/35, không hiển thị ký tự thứ 36.
 
- ![](..\images\Limit_field.png)
+ ![](..\image\Limit_field.png)
 
 Dữ liệu người dùng đôi khi cần được xác thực để đảm bảo hợp lệ, khi dữ liệu người dùng nhập không hợp lệ sẽ có **thông báo lỗi màu đỏ** hiển thị ngay phía dưới.
 
-![](..\images\error_field1.png)
+![](..\image\error-field1.png)
 
 Nội dung thông báo lỗi tùy thuộc từng trường hợp cụ thể. Sau đây ví dụ thêm một vài loại thông báo khác:
-<center>
 
-![](..\images\special_charater.png)
+![](..\image\special_charater.png)
 
 *Hình 1. Lỗi bỏ trống trường* 
 
-![](..\images\error_field2.png)
+![](..\image\error_field2.png)
 
 *Hình 2. Lỗi nhập ký tự không hợp lệ* 
 
-![](..\images\error_field3.png)
+![](..\image\error_field3.png)
 
 *Hình 3. Lỗi nhập không đúng định dạng* 
-
-
-</center>
 
 ## Submit dữ liệu
 Khi người dùng thực hiện xác nhận dữ liệu lưu trữ trong form bằng cách ấn nút **Lưu**. Hệ thống thực thi tác vụ và sau đó sẽ trả về thông báo cho người dùng.
 
 Nếu tác vụ thực hiện thành công, sẽ có thông báo hiển thị phía trên của màn hình trình duyệt.
-![](..\images\notice-create-success.png)
+
+![](..\image\notice-create-success.png)
 
 * Tiêu đề: Ghi rõ câu lệnh+ chi tiết( không bắt buộc)
 * Background: xanh lá
@@ -52,11 +49,11 @@ Nếu tác vụ thực hiện thành công, sẽ có thông báo hiển thị ph
 * Hiển thị lên trong 5s và tự động tắt: Thực hiện lệnh vừa tạo.
 
 Nếu tác vụ thực thi không thành công, sẽ có thông báo màu đỏ, kèm nội dung lỗi hiển thị phía trên của màn hình trình duyệt. Tuỳ vào trường hợp lỗi, hiển thị với nội dung khác nhau.
-<center>
 
-![](..\images\data-invalid.png)
+![](..\image\data-invalid.png)
 
-*Hình 4. Nhập thông tin không hợp lệ*  </center>
+*Hình 4. Nhập thông tin không hợp lệ*
+
 
 * Tiêu đề: cần ghi rõ lí do không hợp lệ
 * Background: đỏ

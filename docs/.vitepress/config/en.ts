@@ -30,7 +30,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           { text: 'Sigma Interactive', link: '/en/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/en/sigma-lrm/' },
           { text: 'Sigma Machine', link: '/en/sigma-machine/' },
-          { text: 'Sigma DAI', link: '/en/sigma-dai/' }
+          { text: 'Sigma Dynamic Ads Insert', link: '/en/sigma-dai/' }
         ]
       },
       {
