@@ -3,9 +3,11 @@ title: Theo kênh
 order: 2
 ---
 # Biểu đồ sự kiện theo kênh
-Đây là thống kê số lượng hiển thị quảng cáo hiển thị trên kênh của bạn
-Hệ thống hiển thị **mặc định** giao diện theo kênh
-Chọn quick filter kênh mong muốn
+Đây là thống kê số lượng hiển thị quảng cáo hiển thị trên kênh của bạn.
+
+Hệ thống hiển thị **mặc định** giao diện theo kênh.
+
+Chọn quick filter kênh mong muốn.
 
 * **Biểu đồ cột( Column Chart)** của kênh thể hiện các số liệu của từng ad đang chạy trên kênh đó với 2 Series Tổng số lần hiển thị quảng cáo( Impression) và Tổng số lượt xem hết quảng cáo( complete View).
 * **Tiêu đề biểu đồ**: Tên kênh bạn chọn ở quick filter.

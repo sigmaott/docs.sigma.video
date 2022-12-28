@@ -4,7 +4,9 @@ order: 3
 ---
 # Biểu đồ sự kiện theo thời gian
 Hiển thị theo mốc thời gian cụ thể
+
 Giao diện hiển thị quick filter thêm trường **Gộp theo**
+
 * Với lựa chọn thời gian ngày- **mặc định gộp theo giờ.**
 * Với lựa chọn khoảng thời gian tùy chỉnh- mặc định gộp theo ngày/tuần/ tháng.
 

@@ -14,9 +14,9 @@ Tại tại trường mong muốn chỉnh sửa, hiển thị dòng **chỉnh s�
 
  **Bước 2:** Người dùng click icon **chỉnh sửa** 
 
- Hệ thống hiển thị Pop-up Chỉnh sửa kênh góc phải màn hình với các thông tin được nhập trước đó 
+ Hệ thống hiển thị Pop-up Chỉnh sửa kênh góc phải màn hình với các thông tin được nhập trước đó, **cho phép chỉnh sửa tất cả các trường.**
 
- **Bước 3:** Người dùng thực hiện chỉnh sửa và bấm nút **Lưu** 
+ **Bước 3:** Người dùng thực hiện chỉnh sửa và bấm nút **Lưu.** 
 
  Hệ thống thực hiện lưu các thông tin mới vừa được cập nhật, hiển thị thông báo cập nhật thành công ở góc phải màn hình và tự động đóng trong 5s ![]()
 

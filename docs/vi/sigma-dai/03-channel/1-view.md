@@ -45,8 +45,8 @@ Màn hình chính hệ thống hiển thị:
 * Thẻ
 * Icon **back** → Click quay trở lại giao diện Danh sách kênh.
 * Bảng hiển thị:
- * **Playback Endpoint Prefixes:**  HLS playback prefix/ DASH playback prefix/ **link Session initalization playback prefix( link khởi tạo- sau khi người dùng cấu hình kênh, SSAI trả về).**
- * **Cài đặt bắt buộc:** Máy chủ quảng cáo (Ad decision server)/ Video content source.
- * **Cài đặt nâng cao:** Phân đoạn nội dung CDN/ Phân đoạn quảng cáo CDN/ Giữ lại đánh dấu quảng cáo/ Bumpers start/ Bumpers end.
+    * **Playback Endpoint Prefixes:**  HLS playback prefix/ DASH playback prefix/ **link Session initalization playback prefix( link khởi tạo- sau khi người dùng cấu hình kênh, SSAI trả về).**
+    * **Cài đặt bắt buộc:** Máy chủ quảng cáo (Ad decision server)/ Video content source.
+    * **Cài đặt nâng cao:** Phân đoạn nội dung CDN/ Phân đoạn quảng cáo CDN/ Giữ lại đánh dấu quảng cáo/ Bumpers start/ Bumpers end.
 *icon copy kế bên mỗi link.* 
 

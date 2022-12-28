@@ -4,6 +4,7 @@ order: 1
 ---
 # Biểu đồ sự kiện
 **Bước 1:** Tại sidebar, chọn Thống kê
+
 Hiển thị xổ xuống danh sách lựa chọn
 
 **Bước 2:** Người dùng chọn Biểu đồ sự kiện

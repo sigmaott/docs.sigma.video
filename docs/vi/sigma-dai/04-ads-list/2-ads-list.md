@@ -18,16 +18,17 @@ Hệ thống hiển thị giao diện Danh sách quảng cáo gồm các thông 
    * **ID**: một mã định danh của quảng cáo(adID) mục đích nhận diện.
    * **Xem trước**: một video MP4 đầy đủ thời lượng hiển thị của quảng cáo tới người xem, người dùng có thể thực hiện thao tác xem trước tại đây.
    * **Tiêu đề**: Tên quảng cáo 
-   * **VastID**: Một mã định danh của quảng cáo(adID) trong file vast trả về.
+   * **VastID**: Một mã định danh của quảng cáo (adID) trong **file vast trả về.**
    * **Thời lượng**: Thời lượng hiển thị của quảng cáo
    * **Trạng thái**: có 2 loại trạng thái: có sẵn và không có sẵn
    * **Lần đầu tiên xuất hiện**: Điểm đánh dấu quảng cáo(cue-tone) đầu tiên trên luồng trực tuyến.
 
 **Bước 2:** Người dùng thực hiện tìm kiếm nhanh bằng bộ lọc quick filter.
+
 Quick filter: Bộ lọc hiển thị ngay trên giao diện hỗ trợ người dùng tìm kiếm nhanh, tại giao diện Danh sách quảng cáo bao gồm:
-   * Tiêu đề
+   * Tiêu đề: **Hiển thị tất cả giá trị nào có chứa keywword ở bất kỳ vị trí nào.**
    * VastID
-   * Trạng thái
+   * Trạng thái: Có sẵn/ không có sẵn.
 
 **Bước 3:** (Không bắt buộc) Người dùng thực hiện thao tác xem trước quảng cáo
 

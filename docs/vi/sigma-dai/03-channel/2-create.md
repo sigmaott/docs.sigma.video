@@ -17,15 +17,15 @@ Hệ thống hiển thị Pop-up Thêm kênh mới bên phải giao diện
     * **Nguồn nội dung video(video content source): Link Origin gốc.**
     * **Máy chủ quảng cáo(AdDecisionServer): là 1 link vastID do bên quảng cáo cung cấp.**
 * Cài đặt nâng cao( không bắt buộc): với người xem, không thể yêu cầu thẳng tới origin, **để xem được quảng cáo cần có thêm link CDN**( có thể xem CDN là bên thứ 3), sử dụng CDN để gửi yêu cầu phát lại tới SSAI, tại đây CDN sẽ chuyển đổi link để có thể gọi Origin tới người dùng.
-* 
-* *2 link CDN này có sự khác nhau giữa các segment
+
+*2 link CDN này có sự khác nhau giữa các segment
 → Phần đuôi gán vào link để xem quảng cáo do người dùng tự config.*
 
-    * **Phân đoạn nội dung CDN(CDN content segment prefix): Link gốc đã được chuyển đổi.**
-    * **Phân đoạn quảng cáo CDN( CDN ad segment prefix): Link gốc đã được chuyển đổi**
-    * **Giữ lại đánh dấu quảng cáo(Ad martket passthrough): Bật/ tắt.**
-    * **Bumper start : Bumpers chèn vào trước quảng cáo**
-    * **Bumper end : Bumpers chèn vào sau quảng cáo.**
+ * **Phân đoạn nội dung CDN(CDN content segment prefix): Link gốc đã được chuyển đổi.**
+ * **Phân đoạn quảng cáo CDN( CDN ad segment prefix): Link gốc đã được chuyển đổi**
+ * **Giữ lại đánh dấu quảng cáo(Ad martket passthrough): Bật/ tắt.**
+ * **Bumper start : Bumpers chèn vào trước quảng cáo**
+ * **Bumper end : Bumpers chèn vào sau quảng cáo.**
 * **Nút "Huỷ"**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
 * **Nút "Lưu"**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
 
@@ -37,6 +37,7 @@ Hệ thống thực hiện tạo mới kênh với lưu các thông tin vừa đ
 ## Thông tin về Bumpers ad
 Bumpers là **video ngắn, không thể bỏ qua** video được chèn vào đầu hoặc cuối trước khi kết thúc điểm quảng cáo nếu đủ thời gian.
 <br> Để sử dụng Bumpers, người dùng chọn asset được cấu hình sẵn từ server ThudoJSC hoặc người dùng upload file video trực tiếp lên hệ thống Sigma.
+
 ### Điều kiện
 Các điều kiện sau áp dụng để chèn bumpers:
 * Loại Video

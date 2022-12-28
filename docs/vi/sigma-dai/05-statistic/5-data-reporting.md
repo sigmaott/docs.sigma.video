@@ -1,11 +1,20 @@
 ---
 title: Báo cáo dữ liệu
-order: 6
+order: 5
 ---
 # Báo cáo dữ liệu
 Báo cáo dữ liệu là quá trình thu thập và định dạng dữ liệu thô và chuyển nó thành một định dạng có thể chuyển hoá để đánh giá hiệu suất liên tục.
 Người dùng chọn Báo cáo dữ liệu
-## Các thông tin hiển thị trên giao diện
+
+## Để mở Báo cáo dữ liệu 
+
+ Người dùng chọn **Báo cáo dữ liệu** tại Sidebar.
+
+Hệ thống hiển thị giao diện Báo cáo dữ liệu:
+
+![](../image/ui-data-reporting.png)
+
+### Các thông tin hiển thị trên giao diện
 Bảng dưới đây giải thích các thông tin hiển thị trên giao diện.
 | Số thứ tự | Tên                                               | Giải thích                                                   |
 | --------- | ------------------------------------------------- | ------------------------------------------------------------ |
