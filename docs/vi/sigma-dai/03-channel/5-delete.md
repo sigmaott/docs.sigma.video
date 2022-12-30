@@ -12,6 +12,8 @@ Tại giao diện màn hình chính, tại trường mong muốn xoá, hiển th
 Người dùng click icon **Xoá**
 
 Hệ thống hiển thị Pop-up xác nhận ở chính giữa màn hình:
+
+![](../image/pop-up-delete.png)
  * Tiêu đề: Xoá kênh
  * Nội dung: Kênh có thể đang chạy, bạn có chắc chắn xóa kênh này không?
  * Nút Huỷ bỏ: Không thực hiện thay đổi, trở về màn hình Danh sách kênh.
@@ -19,6 +21,9 @@ Hệ thống hiển thị Pop-up xác nhận ở chính giữa màn hình:
 
 **Bước 2** : Người dùng click vào nút **Xác nhận** để xoá thông tin kênh
  Hệ thống hiển thị Pop-up thông báo **Xoá kênh thành công** bên góc phải màn hình 
+
+ ![](../image/notice-delete-success.png)
+ 
  * Tiêu đề: Xoá kênh thành công!
  * Icon X: Click vào đóng ngay thông báo.
  * Icon Check: Nhận biết thông báo.

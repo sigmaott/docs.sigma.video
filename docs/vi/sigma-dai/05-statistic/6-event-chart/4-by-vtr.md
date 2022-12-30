@@ -5,14 +5,17 @@ order: 3
 # Biểu đồ sự kiện theo tỷ lệ xem qua
 **VTR**- Đây là thang đo cơ bản cho thành quả của các chiến dịch quảng cáo hiển thị, chỉ số này còn cho biết tính hiệu quả của nội dung.
 
-Giao diện hiển thị quick filter thêm trường: 
+## Để mở tỷ lệ xem qua
+**Bước 1:** Tại Header click chuyển Tab tỷ lệ xem qua 
 
-* Quảng cáo
-* Gộp theo
-    * Với lựa chọn thời gian ngày- mặc định gộp theo giờ
-    * Với lựa chọn khoảng thời gian tùy chỉnh- mặc định gộp theo ngày/tuần/ tháng
-**Bước 1:** Tại Header chọn tỷ lệ xem qua 
-    Hiển thị giao diện tỷ lệ xem qua với các thông tin mặc định.
+Hiển thị giao diện tỷ lệ xem qua:
+
+![](../../image/ui-by-vtr.png)
+
+Giao diện hiển thị với các thông tin mặc định mô tả tại [thông tin mặc định](../2-access.md)
+
+*Lưu ý:* Giao diện hiển thị quick filter thêm trường: Quảng cáo- danh sách các quảng cáo đang có trên kênh/ hoặc chọn tất cả
+
 **Bước 2:** Chọn kênh mong muốn tìm kiếm 
 Khu vực hiển thị:
 * Bảng thông tin:

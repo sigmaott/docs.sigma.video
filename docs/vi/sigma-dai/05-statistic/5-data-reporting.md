@@ -4,11 +4,10 @@ order: 5
 ---
 # Báo cáo dữ liệu
 Báo cáo dữ liệu là quá trình thu thập và định dạng dữ liệu thô và chuyển nó thành một định dạng có thể chuyển hoá để đánh giá hiệu suất liên tục.
-Người dùng chọn Báo cáo dữ liệu
 
 ## Để mở Báo cáo dữ liệu 
 
- Người dùng chọn **Báo cáo dữ liệu** tại Sidebar.
+ Người dùng chọn **Báo cáo dữ liệu**.
 
 Hệ thống hiển thị giao diện Báo cáo dữ liệu:
 

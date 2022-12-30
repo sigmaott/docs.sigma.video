@@ -3,11 +3,11 @@ title: Tỷ lệ hiển thị
 order: 4
 ---
 # Tỷ lệ hiển thị
-Khi luồng video bắt đầu **chạy qua điểm chèn quảng cáo đầu tiên**, SSAI nhận dữ liệu và hiển thị các thống kê liên quan tới các vấn đề về Fillrate- Tỷ lệ hiển thị( Bao gồm hiển thị thành công và hiển thị không thành công) giúp người dùng có thể giám sát hiệu quả hoạt động quảng cáo, nắm được cơ bản tình trạng để đánh giá và đem ra giải pháp.
+Khi luồng video bắt đầu **chạy qua điểm chèn quảng cáo đầu tiên**, SSAI nhận dữ liệu và hiển thị các thống kê liên quan tới các vấn đề về Fillrate- Tỷ lệ hiển thị **(Bao gồm hiển thị thành công và hiển thị không thành công)** giúp người dùng có thể giám sát hiệu quả hoạt động quảng cáo, nắm được cơ bản tình trạng để đánh giá và đem ra giải pháp.
 
 ## Để theo dõi các chỉ số Tỷ lệ hiển thị
 
-Người dùng chọn **Tỷ lệ hiển thị** tại Sidebar.
+Người dùng chọn **Tỷ lệ hiển thị**.
 
 Hệ thống hiển thị giao diện Tỷ lệ hiển thị:
 
