@@ -1,5 +1,5 @@
 ---
-title: Step 3-Delete
+title: Bước 3- Xoá kênh
 order: Six.
 ---
 
@@ -9,5 +9,5 @@ After you have created the channel and launch, when you need to stop the channel
 ## To delete the channel
 
 1. At the channel list interface, select the channel to delete, Click on icon **Delete.**
-2. Show the Pop-up display, select the confirmation button.
+2. Hiển thị Pop-up xác nhận, chọn nút **Xác nhận.**
 3. The system does delete the channel and stay in the channel List interface.
