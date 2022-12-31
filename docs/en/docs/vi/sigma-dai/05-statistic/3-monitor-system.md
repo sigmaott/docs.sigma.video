@@ -4,10 +4,18 @@ order: 3
 ---
 
 # Giám sát hệ thống
-Monitor System- Giám sát hệ thống là quá trình **theo dõi hệ thống, kiểm tra lỗi, hệ thống có thể chịu tải bao nhiêu**…  liên quan tới các **vấn đề về lỗi** dẫn đến không hiển thị được quảng cáo thành công, giúp người dùng kiểm tra được nguyên nhân lỗi ở đây và tìm cách khắc phục( hiện tại nhóm theo kênh và kênh phụ- group by channel, group by sub-channel) Người dùng chọn Giám sát hệ thống
-## Các thông tin hiển thị trên giao diện
+Monitor System- Giám sát hệ thống là quá trình **theo dõi hệ thống, kiểm tra lỗi, hệ thống có thể chịu tải bao nhiêu**…  liên quan tới các **vấn đề về lỗi** dẫn đến không hiển thị được quảng cáo thành công, giúp người dùng kiểm tra được nguyên nhân lỗi ở đây và tìm cách khắc phục( hiện tại **nhóm theo kênh và kênh phụ**- group by channel, group by sub-channel) Người dùng chọn Giám sát hệ thống
 
-Bảng dưới đây giải thích các thông tin hiển thị trên giao diện.
+## Để theo dõi các chỉ số giám sát hệ thống
+
+Người dùng chọn **Giám sát hệ thống**.
+
+Hệ thống hiển thị giao diện Giám sát hệ thống:
+
+![](../image/ui-monitor-system.png)
+
+### Bảng dưới đây giải thích các thông tin hiển thị trên giao diện.
+
 
 | Tên                               | Giải thích                                                                                                                                                                                                                                                                                                                                                   | Loại dữ liệu | Đơn vị tính  | Công thức |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------ | --------- |
