@@ -8,8 +8,11 @@ This function displays a list of channels and allows CMS User to search the desi
 
  At the main screen selecting **List of channels**
 
+![](../image/sidebar-channel-list.png)
 
 Màn hình chính hệ thống hiển thị:
+
+![](../image/ui-channel-list.png)
 
 * The information is displayed in the interface:
 
@@ -26,13 +29,13 @@ Màn hình chính hệ thống hiển thị:
 
 * Other buttons
 
-| Button Name           | Function                                                                                                                                      | Images                         |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| **Synchronised icon** | The right angle below the interface, always implementing the continuous system synchronous in 10s                                             | ![](../../image/icon_sync.png) |
-| **Footer-Footer**     | 2022 @ By Sigma Streaming                                                                                                                     |                                |
-| Icon **Segal**        | Includes information: Total page numbers, selection of items/1 page (default 10 items/1 page), current page, jump to the desired page seeking |                                |
-| **Quick filter**      | Quick filter supports search for information including: Name and card                                                                         |                                |
-| Button **Filter**     | Make filtering of more detailed information                                                                                                   |                                |
+| Button Name           | Function                                                                                                                                      |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Synchronised icon** | Góc phải bên dưới giao diện, luôn thực hiện đồng bộ hệ thống liên tục trong 10s | ![](../../image/icon_sync.png)                              |
+| **Footer-Footer**     | 2022 @ By Sigma Streaming                                                                                                                     |
+| Icon **Segal**        | Includes information: Total page numbers, selection of items/1 page (default 10 items/1 page), current page, jump to the desired page seeking |
+| **Quick filter**      | Quick filter supports search for information including: Name and card                                                                         |
+| Button **Filter**     | Make filtering of more detailed information                                                                                                   |
 
 ## Xem chi tiết kênh
 
@@ -46,7 +49,7 @@ Màn hình chính hệ thống hiển thị:
 * Thẻ
 * Icon **back** → Click quay trở lại giao diện Danh sách kênh.
 * Bảng hiển thị:
- * **Playback Endpoint Prefixes:**  HLS playback prefix/ DASH playback prefix/ **link Session initalization playback prefix( link khởi tạo- sau khi người dùng cấu hình kênh, SSAI trả về).**
- * **Cài đặt bắt buộc:** Máy chủ quảng cáo (Ad decision server)/ Video content source.
- * **Cài đặt nâng cao:** Phân đoạn nội dung CDN/ Phân đoạn quảng cáo CDN/ Giữ lại đánh dấu quảng cáo/ Bumpers start/ Bumpers end. *icon copy kế bên mỗi link.* 
+    * **Playback Endpoint Prefixes**  Sau khi người dùng cấu hình kênh, SSAI trả về các link: HLS playback prefix/ DASH playback prefix/ **link Session initalization playback prefix( link khởi tạo).**
+    * **Cài đặt bắt buộc:** Máy chủ quảng cáo (Ad decision server)/ Video content source.
+    * **Cài đặt nâng cao:** Phân đoạn nội dung CDN/ Phân đoạn quảng cáo CDN/ Giữ lại đánh dấu quảng cáo/ Bumpers start/ Bumpers end. *icon copy kế bên mỗi link.* 
 
