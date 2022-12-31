@@ -4,16 +4,26 @@ order: 5
 ---
 
 # Delete Channel
- **Conditions**: The channel was created earlier and available at the channel list that implemented this function when the CMS user did not want to rebroadcast the ad, making an unusable channel. ## To delete **Step 1** : At the main screen interface, at the desired field view, show **Delete** when moving the mouse on the **Delete** in the Action column.
+ **Điều kiện**: Kênh đã được tạo ra trước đó và có hiển thị tại danh sách kênh Thực hiện chức năng này khi người dùng CMS không muốn phát lại quảng cáo, thực hiện xoá một kênh không khả dụng.
+## Để xoá kênh
+**Bước 1** : Tại giao diện màn hình chính, tại trường mong muốn xoá, hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào icon **Xoá** ở cột Hành động.
 
- User click icon **Delete** The Pop-up display system confirmed in the middle of the screen: ![]()
+Người dùng click icon **Xoá**
 
+Hệ thống hiển thị Pop-up xác nhận ở chính giữa màn hình:
+
+![](../image/pop-up-delete.png)
  * Title: Delete
  * Content: The channel may be running, are you sure to delete this channel?
  * Cancel button: Do not execute change, return to the Channel List view.
  * Confirmation button: A system that removes the entire channel's information.
 
- **Step 2** : User clicking button **Confirification** to delete channel Pop-up display system **Delete channel succeeded** on the right corner of the screen ![](..\images\Notice_success_delete_channel.png)
+**Bước 2** : Người dùng click vào nút **Xác nhận** để xoá thông tin kênh Hệ thống hiển thị Pop-up thông báo **Xoá kênh thành công** bên góc phải màn hình
+
+ ![](../image/notice-delete-success.png)
+
  * Title: Clear the channel!
  * Icon X: Click to close the notification.
- * Icon Check: Notice. At the same time, the **implementation system erased the**event (including the ongoing event), the future scheduling event in the channel. 1
+ * Icon Check: Notice.
+
+At the same time, the **implementation system erased the**event (including the ongoing event), the future scheduling event in the channel.
