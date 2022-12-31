@@ -50,7 +50,11 @@ Nếu tác vụ thực hiện thành công, sẽ có thông báo hiển thị ph
 
 Nếu tác vụ thực thi không thành công, sẽ có thông báo màu đỏ, kèm nội dung lỗi hiển thị phía trên của màn hình trình duyệt. Tuỳ vào trường hợp lỗi, hiển thị với nội dung khác nhau.
 
-![](..\image\data-invalid.png)
+![](..\image\data-invalid.png) 
+
+<!---
+Chưa có hình này, bổ sung sau
+-->
 
 *Hình 4. Nhập thông tin không hợp lệ*
 
