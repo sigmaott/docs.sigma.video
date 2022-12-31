@@ -29,7 +29,7 @@ The following is the overview of the concepts related to the channel configurati
 A channel that sets your source index into a linear stream. Each channel has one or more outputs containing the rebroadcast URLs that the player accusers. The channel output corresponds to the package configuration settings that you create for your VOD sources. A scheduled channel that determines the time the VOD sources will stream in the channel's flow.
 
 ### Source locations
-The source location represents the root server where your contents are stored. It can be the Amazon S3, HTTP server, content distribution network or packaging infrastructure like MediaPackage.
+The source location represents the root server where your contents are stored. Nó có thể là máy chủ HTTP, mạng phân phối nội dung hoặc cơ sở hạ tầng đóng gói.
 
 ### VOD source (VOD sources)
 The VOD source represents part of the content, such as the film or episode of the television show. You link VOD sources with programs to add them to the linear flow of the channel.
