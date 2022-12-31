@@ -4,11 +4,17 @@ order: 4
 ---
 
 # Display Rate
-When the video stream starts **runs through the first promotional point**, SSAI receives the data and displays the statistics concerning the Fillrate-Ratio Visibility (including successful display and non-success display) that helps the user to effectively monitor the advertising operation, get the basics of status to evaluate and deliver the solution. Nguời dùng chọn Tỷ lệ hiển thị
+Khi luồng video bắt đầu **chạy qua điểm chèn quảng cáo đầu tiên**, SSAI nhận dữ liệu và hiển thị các thống kê liên quan tới các vấn đề về Fillrate- Tỷ lệ hiển thị **(Bao gồm hiển thị thành công và hiển thị không thành công)** giúp người dùng có thể giám sát hiệu quả hoạt động quảng cáo, nắm được cơ bản tình trạng để đánh giá và đem ra giải pháp.
 
-## Các thông tin hiển thị trên giao diện
+## Để theo dõi các chỉ số Tỷ lệ hiển thị
 
-Bảng dưới đây giải thích các thông tin hiển thị trên giao diện.
+Người dùng chọn **Tỷ lệ hiển thị**.
+
+Hệ thống hiển thị giao diện Tỷ lệ hiển thị:
+
+![](../image/ui-monitor-system.png)
+
+### Bảng dưới đây giải thích các thông tin hiển thị trên giao diện.
 
 | Số thứ tự | Tên                                                                  | Giải thích                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | --------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
