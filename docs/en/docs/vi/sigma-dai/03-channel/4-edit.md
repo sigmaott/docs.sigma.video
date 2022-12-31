@@ -12,11 +12,13 @@ order: 4
 
  **Step 2:** User click icon **editing**
 
- Hệ thống hiển thị Pop-up Chỉnh sửa kênh góc phải màn hình với các thông tin được nhập trước đó
+ Hệ thống hiển thị Pop-up Chỉnh sửa kênh góc phải màn hình với các thông tin được nhập trước đó, **cho phép chỉnh sửa tất cả các trường.** ![](../image/pop-up-edit-channel.png)
 
- **Step 3:** Users perform editing and press **Save**
+ **Bước 3:** Người dùng thực hiện chỉnh sửa và bấm nút **Lưu.**
 
- The system does save new information that has just been updated, displaying successful update notifications in the right corner of the screen and automatically closed in 5s. ![]()
+ Hệ thống thực hiện lưu các thông tin mới vừa được cập nhật, hiển thị thông báo cập nhật thành công ở góc phải màn hình và tự động đóng trong 5s
+
+ ![](../image/notice-edit-success.png)
 
  * Title: successful channel update!
  * Icon X: Click to close the notification.
