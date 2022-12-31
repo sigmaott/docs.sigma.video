@@ -17,23 +17,23 @@ Section *The data/select* data allows the user to enter/select the desired data.
 
 Hiển thị **giới hạn ký tự** cho phép ở một số trường, ví dụ giới hạn 0/35, không hiển thị ký tự thứ 36.
 
- ![](..\image\Limit_field.png)
+ ![](../image/field-limit-name.png)
 
 User data can sometimes be authenticated to make sure valid, when the user input is not valid for **, the** red error message is shown below.
 
-![](..\image\error-field1.png)
+![](../image/error-field1.png)
 
 The error message content depends on each specific case. The following examples include a few other types of notifications:
 
-![](..\image\special_charater.png)
+![](../image/error-field1.png)
 
 *Hình 1. Lỗi bỏ trống trường*
 
-![](..\image\error_field2.png)
+![](../image/error-field2.png)
 
 *Hình 2. Lỗi nhập ký tự không hợp lệ*
 
-![](..\image\error_field3.png)
+![](../image/error-field3.png)
 
 *Hình 3. Lỗi nhập không đúng định dạng*
 
