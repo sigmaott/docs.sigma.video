@@ -99,4 +99,4 @@ Cấu hình Trình phát hạ nguồn hoặc CDN để gửi các yêu cầu ph�
 
 Trong cột hành động, chọn icon **xoá**, sau đó click chuột vào.
 
-1. Trong Pop-up xác nhận cấu hình xóa, chọn **Xác nhận**.
+2. Trong Pop-up xác nhận cấu hình xóa, chọn **Xác nhận**.
