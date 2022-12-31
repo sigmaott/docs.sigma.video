@@ -17,23 +17,23 @@ Phần *Ô nhập/chọn dữ liệu* cho phép người dùng nhập/chọn d�
 
 Hiển thị **giới hạn ký tự** cho phép ở một số trường, ví dụ giới hạn 0/35, không hiển thị ký tự thứ 36.
 
- ![](..\image\Limit_field.png)
+ ![](../image/field-limit-name.png)
 
 Dữ liệu người dùng đôi khi cần được xác thực để đảm bảo hợp lệ, khi dữ liệu người dùng nhập không hợp lệ sẽ có **thông báo lỗi màu đỏ** hiển thị ngay phía dưới.
 
-![](..\image\error-field1.png)
+![](../image/error-field1.png)
 
 Nội dung thông báo lỗi tùy thuộc từng trường hợp cụ thể. Sau đây ví dụ thêm một vài loại thông báo khác:
 
-![](..\image\special_charater.png)
+![](../image/error-field1.png)
 
 *Hình 1. Lỗi bỏ trống trường*
 
-![](..\image\error_field2.png)
+![](../image/error-field2.png)
 
 *Hình 2. Lỗi nhập ký tự không hợp lệ*
 
-![](..\image\error_field3.png)
+![](../image/error-field3.png)
 
 *Hình 3. Lỗi nhập không đúng định dạng*
 
