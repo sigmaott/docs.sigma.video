@@ -28,7 +28,7 @@ Dưới đây là tổng quan về các khái niệm liên quan đến cấu hì
 Một kênh tập hợp các chỉ mục nguồn của bạn thành một luồng tuyến tính. Mỗi kênh có một hoặc nhiều đầu ra chứa các URL phát lại mà người chơi truy cập. Đầu ra kênh tương ứng với cài đặt cấu hình gói mà bạn tạo cho các nguồn VOD của mình. Một kênh có lịch biểu xác định thời điểm các nguồn VOD sẽ phát trong luồng của kênh.
 
 ### Vị trí nguồn( Source locations)
-Vị trí nguồn đại diện cho máy chủ gốc nơi nội dung của bạn được lưu trữ. Nó có thể là Amazon S3, máy chủ HTTP, mạng phân phối nội dung hoặc cơ sở hạ tầng đóng gói như MediaPackage.
+Vị trí nguồn đại diện cho máy chủ gốc nơi nội dung của bạn được lưu trữ. Nó có thể là máy chủ HTTP, mạng phân phối nội dung hoặc cơ sở hạ tầng đóng gói.
 
 ### Nguồn VOD ( VOD sources)
 Nguồn VOD đại diện cho một phần nội dung, chẳng hạn như phim hoặc tập của chương trình truyền hình. Bạn liên kết các nguồn VOD với các chương trình để thêm chúng vào luồng tuyến tính của kênh.
