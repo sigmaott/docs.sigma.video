@@ -1,5 +1,5 @@
 ---
-title: Bước 1- tạo kênh
+title: Bước 1- Tạo kênh
 order: 4
 ---
 
