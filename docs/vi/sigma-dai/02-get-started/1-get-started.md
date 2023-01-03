@@ -15,7 +15,7 @@ order: 1
 * Sử dụng trình phát hoặc mạng phân phối nội dung (CDN) của bạn để gửi yêu cầu phát lại tới SSAI ( không bắt buộc).
 Khi hoàn tất, bạn sẽ có thể gửi yêu cầu phát lại tới SSAI cho nội dung quảng cáo được cá nhân hóa trong luồng của mình.
 
-### Usecase
+### Topics
 
 * Bước 1: Chuẩn bị luồng
 * Bước 2: Cấu hình các tham số URL yêu cầu quảng cáo và các tham số truy vấn
