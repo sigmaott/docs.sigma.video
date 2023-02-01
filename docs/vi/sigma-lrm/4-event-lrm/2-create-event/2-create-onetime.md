@@ -14,7 +14,7 @@ order: 2
 
 Đồng thời **hiển thị thông tin lên dòng thời gian** với Tên sự kiện + khoảng thời gian tương ứng
 (Nhận biết trạng thái xem tại góc phải dòng thời gian)
-![](/images/Status_Event.png)  
+![](../../images/Status_Event.png)  
 
 * **Chuẩn bị**: Thời gian thực hiện tại bé hơn thời gian bắt đầu chạy của sự kiện.
 * **Sẵn sàng:** Sự kiện đang trong thời gian chạy.

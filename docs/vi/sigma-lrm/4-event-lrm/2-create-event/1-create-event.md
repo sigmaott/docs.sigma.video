@@ -6,7 +6,7 @@ order: 1
 Chức năng này cho phép CMS tạo mới sự kiện/
 Tại giao diện màn hình Sự kiện chọn nút **Thêm sự kiện**
 
-![](../../images/Add_event.png)
+<!-- ![](../../images/Add_event.png) -->
 
 Hệ thống hiển thị Pop-up Thêm sự kiện mới bên phải giao diện
 ![](../../images/Popup_add_event.png)
