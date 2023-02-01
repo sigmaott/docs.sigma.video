@@ -1,6 +1,6 @@
 ---
 title: Các bước cơ bản
-order: 3
+order: 4
 ---
 # Các bước cơ bản
 
@@ -12,3 +12,4 @@ order: 3
 4. Nhấn **tạo kênh** để mở Pop-up tạo kênh . 
 5. Điền thông tin cấu hình các tham số cơ bản.
 6. Tạo kênh và chạy kênh mong muốn.
+7. Xoá kênh.

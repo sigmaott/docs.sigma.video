@@ -1,11 +1,10 @@
 ---
 title: Bắt đầu
-order: 1
+order: 2
 ---
 
 # Bắt đầu với SSAI
 
-Để sử dụng SSAI, bạn cần có tài khoản và quyền truy cập, xem và thực hiện các hành động được phép.
 ## Thiết lập kênh
 
 Để thiết lập kênh bạn cần chuẩn bị các tác vụ sau:
@@ -15,14 +14,15 @@ order: 1
 * Sử dụng trình phát hoặc mạng phân phối nội dung (CDN) của bạn để gửi yêu cầu phát lại tới SSAI ( không bắt buộc).
 Khi hoàn tất, bạn sẽ có thể gửi yêu cầu phát lại tới SSAI cho nội dung quảng cáo được cá nhân hóa trong luồng của mình.
 
-### Usecase
+### Các bước cơ bản
 
 * Bước 1: Chuẩn bị luồng
 * Bước 2: Cấu hình các tham số URL yêu cầu quảng cáo và các tham số truy vấn
 * Bước 3: Tạo mới cấu hình
 * Bước 4: Kiểm tra cấu hình
 * Bước 5: Gửi yêu cầu phát lại đến SSAI
-* Bước 6: Dọn dẹp (Clean up)
+* Bước 6: Dọn dẹp (Xoá kênh)
+
 ## Bước 1: Chuẩn bị luồng
 
 ### Chuẩn bị một luồng HLS
@@ -52,24 +52,45 @@ Có 2 loại param
 * Param **đầu play-param:**  là bên player truyền vào, back-end sẽ thay thế theo param tuơng ứng mà player truyền vào.
 * Param fix cứng: 
 Do bên thudo hỗ trợ các loại sau:
-*   session.ip: ip của máy người dùng. 
-*   session.user_agent: user agent của máy người dùng
-*   stce.duration: bản chất là available duration- điểm đánh dấu độ dài thời lượng.
+*   `session.ip` : ip của máy người dùng. 
+*   `session.user_agent` : user agent của máy người dùng
+*   `stce.duration` : bản chất là available duration- điểm đánh dấu độ dài thời lượng.
 
 **Ví dụ URL thẻ quảng cáo** 
 
 ```
 http://127.0.0.1:8000/manifest/manipulation/master/6462b8f2-a0f1-40b3-b542-af4098fc5d13/origin04/scte35-av/master.m3u8?play_params.origin=origin-ott-v2.gviet.vn&play_params.adsServer=172.16.20.221&play_params.cdnAdSegmentPrefix=dev-livestream.gviet.vn&play_params.cdnContentSegmentPrefix=origin-ott-v2.gviet.vn
+
 ```
 
 ## Bước 3: Tạo mới cấu hình
 
 Cấu hình SSAI chứa thông tin liên kết cho máy chủ gốc và quảng cáo.
+Để quảng cáo có thể thực hiện nhiệm vụ của nó và thu thập dữ liệu về, bạn **cần tạo 1 kênh** để chứa nó đồng thời kiểm soát các nội dung trực tuyến đến từng đối tượng khách hàng. 
+
+### Để tạo mới kênh
+
+1. Tại mục danh sách kênh, click vào nút **Tạo kênh**
+2. Hệ thống hiển thị Pop-up Tạo kênh.
+3. Người dùng nhập các thông tin theo yêu cầu.
+4. Thực hiện tạo mới.
+
+Khi hoàn tất, bạn sẽ có thể mở trình duyệt, nhập URL phát lại cho kênh của mình và xem luồng của kênh có chứa quảng cáo.
+
 ## Bước 4: Kiểm tra cấu hình
 
-Sau khi lưu cấu hình, kiểm tra luồng bằng URL ở định dạng thích hợp cho giao thức phát trực tuyến của bạn:
-Sau khi người dùng cấu hình kênh, SSAI trả về Playback Endpoint Prefixes gồm:
+Người dùng có thể xem danh sách các quảng cáo hiển thị trên kênh, với các thông tin liên quan tới quảng cáo. Kiểm tra luồng bằng URL ở định dạng thích hợp cho giao thức phát trực tuyến của bạn.
+
+### Để xem chi tiết kênh
+
+1. Tại giao diện danh sách kênh, hiển thị thông tin chi tiết kênh khi di chuyển chuột và click vào **Tên kênh.**
+2. Hệ thống hiển thị thông tin chi tiết kênh.
+3. Người dùng xem các thông tin chi tiết kênh và có thể **sử dụng các URL** để chạy kênh mong muốn.
+
+*Sau khi người dùng cấu hình kênh, SSAI trả về Playback Endpoint Prefixes gồm:*
+
 1. link Session initalization playback prefix( link khởi tạo).
+
 **Ví dụ:**
 
 ```
@@ -84,23 +105,22 @@ http://127.0.0.1:8000/manifest/manipulation/session/0f18d489-6b27-4832-9849-ff9b
 https://origin-ott-v2.gviet.vn/origin04/scte35-av4s/master.m3u8
 ```
 
-1. DASH playback prefix
+3. DASH playback prefix
 
 **Ví dụ:**
 
 ```
-http://127.0.0.1:8000/manifest/manipulation/dash/6462b8f2-a0f1-40b3-b542-af4098fc5d13/origin04/scte35-av/master.mpd
+https://ssai-stream-dev.sigmaott.com/manifest/manipulation/dash/6462b8f2-a0f1-40b3-b542-af4098fc5d13/origin04/scte35-av/master.mpd
 ```
 
 ## Bước 5: Gửi yêu cầu phát lại đến SSAI
 Cấu hình Trình phát hạ nguồn hoặc CDN để gửi các yêu cầu phát lại đến điểm cuối phát lại của cấu hình được cung cấp từ SSAI. Bất kỳ biến động do người chơi xác định nào mà bạn đã sử dụng trong URL yêu cầu ADS trong **Bước 2: Cấu hình các tham số URL yêu cầu ADS và các tham số truy vấn( parameter)** phải được xác định trong yêu cầu kê khai từ trình phát.
-## Bước 6: Dọn dẹp (Clean up)
 
-Để tránh các kênh không cần thiết, thực hiện xoá kênh
+## Bước 6: Dọn dẹp (Xoá kênh)
 
-Để xoá kênh: 
-1. Tại Danh sách kênh, kênh bạn cần xoá. 
+Sau khi đã tạo kênh và khởi chạy, bạn cần dừng kênh và đóng kênh hoặc tránh các kênh không cần thiết, vui lòng thực hiện xoá kênh.
 
-Trong cột hành động, chọn icon **xoá**, sau đó click chuột vào.
-
-2. Trong Pop-up xác nhận cấu hình xóa, chọn **Xác nhận**.
+### Để xoá kênh
+1. Tại giao diện danh sách kênh, chọn kênh cần xoá, Click vào icon **Xoá.**
+2. Hiển thị Pop-up xác nhận, chọn nút **Xác nhận.**
+3. Hệ thống thực hiện xoá kênh và ở lại giao diện Danh sách kênh.

@@ -12,13 +12,13 @@ Hệ thống xổ xuống danh sách lựa chọn:
 
 ![](../image/icon-redirect.png)
 
-* [Giám sát hệ thống](./3-monitor)
+* [Giám sát hệ thống](./3-monitor-system)
 
 * [Tỷ lệ hiển thị](./4-fillrate)
 
-* [Biểu đồ sự kiện](./5-event-chart)
+* [Biểu đồ sự kiện](./5-data-reporting)
 
-* [Báo cáo dữ liệu](./6-data-reporting)
+* [Báo cáo dữ liệu](./6-event-chart/1-default)
 
 2. Hệ thống điều hướng đến lựa chọn của bạn.
 
@@ -28,13 +28,13 @@ Hệ thống xổ xuống danh sách lựa chọn:
 
 ![](../image/select-statistic.png)
 
-* [Giám sát hệ thống](./3-monitor)
+* [Giám sát hệ thống](./3-monitor-system)
 
 * [Tỷ lệ hiển thị](./4-fillrate)
 
-* [Biểu đồ sự kiện](./5-event-chart)
+* [Biểu đồ sự kiện](./5-data-reporting)
 
-* [Báo cáo dữ liệu](./6-data-reporting)
+* [Báo cáo dữ liệu](./6-event-chart/1-default)
 
 **Bước 2:** 
 Mở ra/ điều hướng tới giao diện người dùng vừa chọn.

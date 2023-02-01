@@ -9,7 +9,7 @@ Hệ thống hiển thị **mặc định** giao diện theo kênh.
 
 ![](../../image/ui-by-channel.png)
 
-Giao diện hiển thị với các thông tin mặc định mô tả tại [thông tin mặc định](../2-access.md)
+Giao diện hiển thị với các thông tin mặc định mô tả tại [thông tin mặc định](../2-open-statistic)
 
 Chọn quick filter kênh mong muốn( Không bắt buộc).
 
