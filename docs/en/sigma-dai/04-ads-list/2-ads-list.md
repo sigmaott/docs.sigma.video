@@ -8,7 +8,7 @@ The display information here helps users track the files that have been configur
 
 **Step 1:** At sidebar, select Ad List
 
-The system displays a ![](../image/UI-ad-list.png) with the following information:
+The system displays a ![](../image/ui-ad-list-1.png) with the following information:
 
 * **Title**: Event scheduling list
 * **Filter button search**: ID/ Card/Name calendar
