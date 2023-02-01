@@ -13,7 +13,7 @@ Hiển thị giao diện tỷ lệ xem qua:
 
 ![](../../image/ui-by-vtr.png)
 
-Giao diện hiển thị với các thông tin mặc định mô tả tại [thông tin mặc định](../2-access.md)
+Giao diện hiển thị với các thông tin mặc định mô tả tại [thông tin mặc định](../2-open-statistic)
 
 *Lưu ý:* Giao diện hiển thị quick filter thêm trường: Quảng cáo- danh sách các quảng cáo đang có trên kênh/ hoặc chọn tất cả
 
