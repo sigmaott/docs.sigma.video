@@ -13,6 +13,7 @@ Người dùng click icon **Xoá**
 Hệ thống hiển thị Pop-up xác nhận ở chính giữa màn hình:
 
 ![](../image/pop-up-delete.png)
+
  * Tiêu đề: Xoá kênh
  * Nội dung: Kênh có thể đang chạy, bạn có chắc chắn xóa kênh này không?
  * Nút Huỷ bỏ: Không thực hiện thay đổi, trở về màn hình Danh sách kênh.
