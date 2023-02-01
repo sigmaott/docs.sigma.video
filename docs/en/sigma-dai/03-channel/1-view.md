@@ -8,7 +8,7 @@ This function displays a list of channels and allows CMS User to search the desi
  At the main screen selecting **List of channels**
 
 
-Display System Main View: ![](../image/UI-channel-list.png)
+Display System Main View: ![](../image/ui-channel-list-1.png)
 
 * The information is displayed in the interface:
 
