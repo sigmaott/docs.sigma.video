@@ -15,7 +15,7 @@ Các thông tin hiển thị ở đây giúp người dùng theo dõi các quả
 
 Hệ thống hiển thị giao diện Danh sách quảng cáo gồm các thông tin sau:
 
-![](../image/ui-ad-list.png)
+![](../image/ui-ad-list-1.png)
 
 * **Tiêu đề**: Danh sách lập lịch sự kiện
 * **Nút bộ lọc tìm kiếm nhanh**: ID/ Thẻ/ Tên/ Loại lập lịch
