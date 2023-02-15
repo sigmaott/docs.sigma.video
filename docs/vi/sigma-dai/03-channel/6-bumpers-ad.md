@@ -42,7 +42,7 @@ Bumpers ad end: 10s
 
 Người dùng cấu hình Bumpers ad start và Bumpers ad end, trong trường hợp này sẽ được phép **chèn cả 2**.
 
-![](../image/bumpers-ad.png)
+![](/images/dai/bumpers-ad.png)
 
 
 **Cách Bumpers ad được cấu hình vào**
