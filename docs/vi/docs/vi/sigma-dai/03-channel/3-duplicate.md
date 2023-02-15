@@ -17,13 +17,10 @@ Hiển thị Pop-up **Tạo bản sao kênh** với các thông tin sau:
 
 ![](../image/pop-up-duplicate-channel.png)
 
-* **Không cho phép** chỉnh sửa các trường Cài đặt bắt buộc: Nguồn nội dung video/ máy chủ quảng cáo.
 
-* **Cho phép** chỉnh sửa các trường:
-    * Tên: **mặc định: Copy of Name channel - trường hợp user không đổi tên.**
-    * Thẻ:
-    * Cài đặt bắt buộc: Nguồn nội dung video/ máy chủ quảng cáo.
-    * Cài đặt nâng cao: Phân đoạn nội dung CDN/ Phân đoạn quảng cáo CDN/ Giữ lại đánh dấu quảng cáo/ bumpers start/Bumpers end.
+**Cho phép** chỉnh sửa tất cả các trường.
+
+**Tên mặc định: Copy of Name channel - trường hợp user không đổi tên.**
 
 **Bước 2:** Người dùng nhập các thông tin.
 
