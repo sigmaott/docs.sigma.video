@@ -12,8 +12,6 @@ Người dùng click icon **Xoá**
 
 Hệ thống hiển thị Pop-up xác nhận ở chính giữa màn hình:
 
-![](../image/pop-up-delete.png)
-
  * Title: Delete
  * Content: The channel may be running, are you sure to delete this channel?
  * Cancel button: Do not execute change, return to the Channel List view.
