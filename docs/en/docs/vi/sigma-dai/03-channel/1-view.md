@@ -12,7 +12,7 @@ This function displays a list of channels and allows CMS User to search the desi
 
 Màn hình chính hệ thống hiển thị:
 
-![](../image/ui-channel-list.png)
+![](../image/ui-channel-list-1.png)
 
 * The information is displayed in the interface:
 
