@@ -50,6 +50,7 @@ Màn hình chính hệ thống hiển thị:
 * Bảng hiển thị:
     * **Playback Endpoint Prefixes**  Sau khi người dùng cấu hình kênh, SSAI trả về các link: HLS playback prefix/ DASH playback prefix/ **link Session initalization playback prefix( link khởi tạo).**
     * **Cài đặt bắt buộc:** Máy chủ quảng cáo (Ad decision server)/ Video content source.
-    * **Cài đặt nâng cao:** Phân đoạn nội dung CDN/ Phân đoạn quảng cáo CDN/ Giữ lại đánh dấu quảng cáo/ Bumpers start/ Bumpers end.
+    * **Cài đặt nâng cao:** Phân đoạn nội dung CDN/ Phân đoạn quảng cáo CDN/ Giữ lại đánh dấu quảng cáo/ Bumpers start/ Bumpers end/ ad slate.
+    
 *icon copy kế bên mỗi link.* 
 

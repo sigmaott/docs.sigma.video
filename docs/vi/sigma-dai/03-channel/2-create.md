@@ -25,7 +25,7 @@ Với các thông tin chính:
 * Cài đặt nâng cao( không bắt buộc): với người xem, không thể yêu cầu thẳng tới origin, **để xem được quảng cáo cần có thêm link CDN**( có thể xem CDN là bên thứ 3), sử dụng CDN để gửi yêu cầu phát lại tới SSAI, tại đây CDN sẽ chuyển đổi link để có thể gọi Origin tới người dùng.
 
 *2 link CDN này có sự khác nhau giữa các segment
-→ Phần đuôi gán vào link để xem quảng cáo do người dùng tự config.*
+→ Phần đuôi gán vào link để xem quảng cáo do người dùng tự cấu hình.*
 
  | Tên        | Chức năng                                                    |
 | -------------- | ------------------------------------------------------------ |
@@ -34,6 +34,7 @@ Với các thông tin chính:
 | **Giữ lại đánh dấu quảng cáo(Ad martket passthrough)**      | Không cho phép/ Cho phép |
 | **Bumpers chèn trước quảng cáo** | Bumpers chèn vào trước quảng cáo               |
 | **Bumpers chèn sau quảng cáo** | Bumpers chèn vào sau quảng cáo |
+| **Ad slate** | Nội dung đa phương tiện chèn vào quảng cáo thay thế trường hợp gặp lỗi. |
 
 
 * **Nút "Huỷ"**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
@@ -47,15 +48,3 @@ Với các thông tin chính:
 Hệ thống thực hiện tạo mới kênh với lưu các thông tin vừa được nhập, hiển thị Pop-up thông báo **Tạo kênh thành công** tại góc phải màn hình.
 
 ![](../image/notice-create-success.png)
-## Thông tin về Bumpers ad
-Bumpers là **video ngắn, không thể bỏ qua** video được chèn vào đầu hoặc cuối trước khi kết thúc điểm quảng cáo nếu đủ thời gian.
-
-Để sử dụng Bumpers, người dùng chọn asset được cấu hình sẵn từ server ThudoJSC hoặc người dùng upload file video trực tiếp lên hệ thống Sigma.
-
-### Điều kiện
-
-Các điều kiện sau áp dụng để chèn bumpers:
-* Loại Video
-* Giới hạn thời lượng bumpers ad là **10 giây hoặc ít hơn.**
-* Bumpers có thể được chèn vào **điểm đầu hoặc kết thúc** của quảng cáo( ad break) hoặc **cả hai**. 
-* Bumpers **được chuyển mã** để phù hợp với nội dung nguồn.
