@@ -12,7 +12,7 @@ Chức năng này hiển thị danh sách các kênh và cho phép CMS User tìm
 
 Màn hình chính hệ thống hiển thị:
 
-![](../image/ui-channel-list.png)
+![](../image/ui-channel-list-1.png)
 
 * Các thông tin được hiển thị trong giao diện:
 
