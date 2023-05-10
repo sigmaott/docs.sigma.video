@@ -26,10 +26,10 @@ In which the right bar menu will have the following items:
 4. **Targets**: Configuration list of desired outputs (HLS/DASH ... )
 
 
-Notes:
 
-* For the system packaging channel automatically configured **Profile** corresponding to **Input** is added. So you only add **Input** values **Profile** will be automatically added and you do not have the right to change these values.
-
+::: tip
+* For the system packaging channel automatically configured **Profile** corresponding to **Input** is added. Vì vậy bạn chỉ việc thêm các giá trị **Input** các giá trị **Profile** sẽ được tự động thêm vào và bạn không có quyền thay đổi các giá trị này
+:::
 
 ## B1. General Configuration
 
@@ -48,26 +48,18 @@ Example: if the replacement name is **VTV1**: link access the manifest will be: 
 
 ## B2. Configure the channel input
 
-Select the Plus button to add input to the channel. The listed input list will now be available. Please select input for the desired channel
+Select the Plus button to add input to the channel. Danh sách đầu vào cho kênh Package đã liệt kê sẵn sẽ hiện ra. Please select input for the desired channel
 
-* The system supports more input with one channel.
-
-* With each input expected *populup* to choose a replacement for **profile** closing the package with input will appear. please select unique alternate name with **profile** other
-
+Với mỗi phần tử trong input list của đầu vào hệ thống sẽ tạo tự động 1 profile tương ứng, với tên thay thế được cài đặt khi tạo đầu vào
 
 ::: info
 This alternate name helps the system define the desired profile name for the ABR file. For example with **1080p** you should name a replacement profile of **1080p**, this alternate name will have in the path of the manifest file with a profile of
 :::
 
 
-* Press **Confirm** to confirm alternate name
-
-* Add the input and alternate name **profile** expected
-
-
 ## B3. Configure the channel's packaging output
 
-Select **Plus** in section **Target** to add a desired output. Popup displays the desired output. The system supports output as follows:
+Chọn phím `Cộng` ở mục `Target` để thêm 1 đầu ra mong muốn. Popup displays the desired output. The system supports output as follows:
 
 * **HLS**: Apple Http Live Streaming
 * **DASH**: DASH
@@ -101,8 +93,10 @@ After you've created a desired output. The configuration of the output will appe
     * **Merchant ID**: MerchanId of the sigma drm system, sigma multi drm
     * **User**: User login sigma drm system, sigma multi drm
     * **Password**: Password system sigma drm, sigma multi drm
+
 * **Low Latency**: Low latency television configuration
 * **Catchup**: Configuration of Catchup-timeshift
+
     * **Storage**: Enable catchup-timeshift storage mode
     * **Cache Time**: Configuration time configuration is calculated by now.
     * **Trickplay**: Turn off Trickplay mode with catchup
