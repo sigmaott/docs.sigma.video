@@ -12,11 +12,11 @@ After you have initiated the channel, you can manage and monitor the channel sta
 + B1. Access to the channel list
 + B2. Select the channel to monitor and select to the channel name to open channel monitoring
 
-Information inside the channel monitoring, you can view at  [Monitor](../05-monitor-manage/02-monitor.md).
+Thông tin bên trong giám sát kênh, bạn có thể xem tại  [Giám sát kênh](../06-monitor-manage/02-monitor.md)
 
 **To manage the channel**
 
 + B1. Access to the channel list
 + B2. Select the channel to manage and execute the management actions
 
-Information on managable operations, you can view at  [channel Management](../05-monitor-manage/01-manage-service.md). 
+Thông tin về các thao tác có thể quản lý, bạn có thể xem tại  [Quản lý kênh](../06-monitor-manage/01-manage-service.md) 
