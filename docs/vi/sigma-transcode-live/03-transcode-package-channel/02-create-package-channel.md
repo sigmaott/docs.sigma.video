@@ -26,10 +26,10 @@ Trong đó menu bar bên phải sẽ có các mục như sau:
 4. **Targets**: Cấu hình danh sách các đầu ra mong muốn (HLS/DASH ... )
 
 
-Notes: 
-
+ 
+::: tip
 * Đối với kênh đóng gói hệ thống sẽ tự động cấu hình **Profile** tương ứng với **Input** được thêm vào. Vì vậy bạn chỉ việc thêm các giá trị **Input** các giá trị **Profile** sẽ được tự động thêm vào và bạn không có quyền thay đổi các giá trị này
-
+:::
 
 ## B1. Cấu hình Chung 
 
@@ -48,26 +48,18 @@ Ví dụ: nếu đặt tên thay thế là **VTV1**: link truy cập manifest s�
 
 ## B2. Cấu hình đầu vào của kênh
 
-Chọn nút Cộng để thêm đầu vào cho kênh. Danh sách đầu vào đã liệt kê sẵn sẽ hiện ra. Vui lòng chọn đầu vào cho kênh mong muốn
+Chọn nút Cộng để thêm đầu vào cho kênh. Danh sách đầu vào cho kênh Package đã liệt kê sẵn sẽ hiện ra. Vui lòng chọn đầu vào cho kênh mong muốn
 
-* Hệ thống hỗ trợ việc thêm nhiều đầu vào với 1 kênh 
-
-* Với mỗi đầu vào mong muốn *popup* chọn tên thay thế cho **profile** đóng gói ứng với đầu vào sẽ hiện ra. vui lòng chọn tên thay thế duy nhất với các **profile** khác của kênh
-  
+Với mỗi phần tử trong input list của đầu vào hệ thống sẽ tạo tự động 1 profile tương ứng, với tên thay thế được cài đặt khi tạo đầu vào
 
 ::: info
 Tên thay thế này giúp hệ thống định nghĩa tên profile mong muốn đối với tập profile ABR. Ví dụ với luồng đầu vào là **1080p** bạn nên đặt tên thay thế cho profile là **1080p**, tên thay thế này sẽ có trong đường dẫn của tệp tin manifest ứng với profile cần đóng gói
 :::
     
 
-* Nhấn **Confirm** để xác nhận tên thay thế
-
-* Lần lượt thêm các đầu vào và tên thay thế **profile** mong muốn
-
-
 ## B3. Cấu hình Đầu ra đóng gói  của kênh
 
-Chọn phím **Cộng** ở mục **Target** để thêm 1 đầu ra mong muốn. Popup hiển thị các đầu ra mong muốn sẽ hiện ra. Hệ thống hỗ trợ các đầu ra như sau: 
+Chọn phím `Cộng` ở mục `Target` để thêm 1 đầu ra mong muốn. Popup hiển thị các đầu ra mong muốn sẽ hiện ra. Hệ thống hỗ trợ các đầu ra như sau: 
 
 * **HLS**: Apple Http Live Streaming
 * **DASH**: DASH
@@ -101,8 +93,10 @@ Sau khi đã khởi tạo 1 đầu ra mong muốn. Cấu hình của đầu ra s
     * **Merchant ID**: MerchantId của hệ thông sigma drm,sigma multi drm
     * **User**: User đăng nhập hệ thống sigma drm,sigma multi drm
     * **Password**: Password hệ thống sigma drm,sigma multi drm
+
 * **Low Latency**: Cấu hình truyền hình độ trễ thấp
 * **Catchup**: Cấu hình Lưu trữ Catchup-timeshift
+
     * **Storage**: Bật tắt chế độ lữu trữ catchup-timeshift
     * **Cache time**: Cấu hình thời gian lưu trữ mong muốn đơn vị được tính bằng giờ
     * **Trickplay**: Bật tắt Trickplay mode với catchup

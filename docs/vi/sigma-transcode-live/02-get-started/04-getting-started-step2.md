@@ -37,3 +37,8 @@ Hệ thống Sigma Streaming Platform hỗ trợ các chuẩn đầu vào sau:
 Nếu không điền thông tin về card mạng thì hệ thống sẽ tự lấy ở card mạng mặc định của máy 
 
 :::
+
+### Chi tiết cấu hình đầu vào vui lòng xem tại
+
+1. [Cấu hình đầu vào cho kênh Transcode](../05-resource-input/01-transcode-input.md)
+2. [Cấu hình đầu vào cho kênh Package](../05-resource-input/02-package-input.md)

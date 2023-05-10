@@ -1,9 +1,7 @@
-```
 ---
 title: 'Cấu hình Package Input'
 order: 2
 ---
-```
 
 # Tạo mới Input loại Package
 
