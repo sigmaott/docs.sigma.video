@@ -16,9 +16,9 @@ The Sigma Streaming Platform system supports the following standards:
 - SRT push
 - SRT pull
 
-**Examples of creating 1 input into UDP multi ast**
+**Ví dụ về tạo 1 đầu vào UDP multi cast**
 
-1. Sign in to the Sigma Streaming portal and open the MediaLive console at [https://console\.aws\.amazon\.com/medialive/](https://console.aws.amazon.com/medialive/)\.
+1. Đăng nhập vào Sigma Streaming portal và mở Transcode Live
 
 2. Press **Add** in menu **Input** in section **Transcode**. The Input launch interface will appear
 
@@ -34,6 +34,6 @@ The Sigma Streaming Platform system supports the following standards:
 
 ::: tip Note
 
-If you don't fill out the information about the network card, the system will take it from the default network card.
+Nếu không điền thông tin về card mạng thì hệ thống sẽ tự lấy ở card mạng mặc định của máy
 
 :::
