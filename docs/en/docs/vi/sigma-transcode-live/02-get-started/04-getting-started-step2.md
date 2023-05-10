@@ -20,14 +20,14 @@ The Sigma Streaming Platform system supports the following standards:
 
 1. Đăng nhập vào Sigma Streaming portal và mở Transcode Live
 
-2. Press **Add** in menu **Input** in section **Transcode**. The Input launch interface will appear
+2. Nhấn nút **Add** ở menu **Input** trong mục **Transcode**. Giao diện khởi tạo Input sẽ hiện lên
 
-3. Enter the necessary information
-   1. **Name** of input
-   2. **Redundancy** select **single**
-   3. **Type** select **UDP**
-   4. **Primary Source** filling out the flow information prepared at 1 [Install the input stream at](03-getting-started-step1.md)
-   5. **Primary Interface Network** please select 1 card that receives this udp multicast ignore.
+3. Nhập các thông tin cần thiết
+   1. **Tên** của input
+   2. **Redundancy** chọn **single**
+   3. **Type** chọn **UDP**
+   4. **Primary Source** điền thông tin về luồng đã chuẩn bị ở bước 1 [Cài đặt luồng đầu vào](03-getting-started-step1.md)
+   5. **Primary Interface Network** vui lòng chọn 1 card mạng nhận luồng udp multicast này bỏ qua
 
 
 ![Create Input](../images/um-create-input.png)
@@ -37,3 +37,8 @@ The Sigma Streaming Platform system supports the following standards:
 Nếu không điền thông tin về card mạng thì hệ thống sẽ tự lấy ở card mạng mặc định của máy
 
 :::
+
+### Chi tiết cấu hình đầu vào vui lòng xem tại
+
+1. [Cấu hình đầu vào cho kênh Transcode](../05-resource-input/01-transcode-input.md)
+2. [Cấu hình đầu vào cho kênh Package](../05-resource-input/02-package-input.md)
