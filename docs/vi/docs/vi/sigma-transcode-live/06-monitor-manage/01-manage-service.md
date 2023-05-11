@@ -10,25 +10,23 @@ order: 1
 
 Đối với những phần nội dung có dạng danh sách, ứng dụng cho phép người dùng tương tác với từng phần tử trong danh sách thông qua một nhóm các nút chức năng (Xem hình minh họa dưới đây). Các nút này sẽ hiển thị tại cột cuối cùng của bảng danh sách.
 
-![Action Buttons](../images/um-action-btns/sample.png)
+![Action Buttons](/images/media-live/manager-list-action.png)
 
 ---
 
-**\* NOTE**
-
+::: info
 Do mỗi phần nội dung trên ứng dụng có những tính năng và nghiệp vụ khác nhau, do đó, phần giao diện hiển thị các nút chức năng có thể khác nhau đôi chút.
+:::
 
 ---
 
 ### Mô tả chi tiết
 
-- ![Interaction Button](../images/um-action-btns/interaction.png) truy cập chức năng tương tác trực tuyến.
-- ![Start Button](../images/um-action-btns/start.png) kích hoạt trạng thái hoạt động của dịch vụ.
-- ![Stop Button](../images/um-action-btns/stop.png) kích hoạt trạng thái dừng dịch vụ.
-- ![Reset Button](../images/um-action-btns/reset.png) thiết lập toàn bộ dữ liệu của đối tượng về trạng thái ban đầu.
-- ![Edit Button](../images/um-action-btns/edit.png) chỉnh sửa thông tin, hiển thị giao diện cho phép chỉnh sửa dữ liệu của đối tượng được chọn.
-- ![Clone Button](../images/um-action-btns/clone.png) tạo một đối tượng mới có dữ liệu giống hệt với đối tượng ban đầu, đồng thời cũng có thể tùy chỉnh một vài thông số của đối tượng mới để phù hợp.
-- ![Delete Button](../images/um-action-btns/delete.png) xóa đối tượng được chọn. Trước khi ứng dụng thực hiện xóa sẽ yêu cầu người dùng xác thực lại một lần nữa.
+- `Start`: Bắt đầu kênh.
+- `Stop`: Dừng kênh
+- `Reset`: Dừng và bắt đầu lại kênh
+- `Clone` tạo một đối tượng mới có dữ liệu giống hệt với đối tượng ban đầu, đồng thời cũng có thể tùy chỉnh một vài thông số của đối tượng mới để phù hợp.
+- `Delete` xóa đối tượng được chọn. Trước khi ứng dụng thực hiện xóa sẽ yêu cầu người dùng xác thực lại một lần nữa.
 
 
 ## Auto Refresh
@@ -46,24 +44,6 @@ Trong các phần nội dung có dạng danh sách bảng, có hỗ trợ tính 
 
 Sau khi hoàn thành tìm kiếm/lọc, các phần tử hợp lệ sẽ được hiển thị trên giao diện.
 
-### Livestream Filter
-
-![Livestream Filter](../images/um-filter/livestream.png)
-
-Bộ lọc livestream cho phép người dùng tìm kiếm dữ liệu theo các trường dữ liệu như sau (từ trái sang phải trên hình mô tả):
-
-- `Search` định danh livestream, người dùng nhập tên livestream cần tìm kiếm.
-- `Status` trạng thái livestream, bao gồm 4 lựa chọn **Init**, **Live**, **Ended**, **Error**.
-
-  ![Status Select](../images/um-filter/status-livestream.jpg)
-
-- `Tag` tag gán cho livestream, người dùng nhập tag.
-- `Publisher` tên nhà phát hành livestream.
-- `Start date - End date` ngày khởi tạo và ngày kết thúc livestream.
-
-  ![Date Range Select](../images/um-filter/date-range.jpg)
-
-Người dùng có thể tìm kiếm bằng cách nhập nhiều trường giá trị cùng lúc, sau đó ấn nút xác nhận để tìm kiếm, hoặc ấn nút ![Reset Button](../images/um-filter/reset-livestream.png){ height=17px } `Reset` để xóa bỏ toàn bộ thông tin đã nhập trước đó.
 
 ### Channel Filter
 
