@@ -1,6 +1,6 @@
 ---
 title: 'B5: Delete'
-order: 7
+order: 8
 ---
 
 # {{ $frontmatter.title }}
