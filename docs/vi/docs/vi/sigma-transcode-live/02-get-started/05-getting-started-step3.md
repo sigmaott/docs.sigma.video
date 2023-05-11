@@ -1,6 +1,6 @@
 ---
 title: 'B4: Tạo kênh'
-order: 5
+order: 6
 ---
 
 # {{ $frontmatter.title }}
