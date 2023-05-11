@@ -1,6 +1,6 @@
 ---
 title: 'B4: Channel Management and Management'
-order: Six.
+order: 7
 ---
 
 # {{ $frontmatter.title }}
