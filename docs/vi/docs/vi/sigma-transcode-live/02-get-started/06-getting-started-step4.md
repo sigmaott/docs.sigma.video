@@ -1,6 +1,6 @@
 ---
 title: 'B4: Quản lý và giám sát kênh'
-order: 6
+order: 7
 ---
 
 # {{ $frontmatter.title }}
