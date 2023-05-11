@@ -7,7 +7,7 @@ order: 2
 
 Chức năng này cho phép người dùng CMS tạo mới Input loại Package
 
- **Bước 1**: Mở form **Tạo Input Package**
+## **Bước 1**: Mở form **Tạo Input Package**
 
 1. Tại Sidebar người dùng click vào nút **Product** , sau đó click vào **Transcode Live**, sau đó chọn tab **Input**
 2. Hệ thống hiển thị giao diện màn hình danh sách Input loại Transcode
@@ -43,7 +43,7 @@ Chức năng này cho phép người dùng CMS tạo mới Input loại Package
 * Nút **Cài lại**: Cài lại toàn bộ dữ liệu đã nhập, form trở về mặc định
 * Nút **Xác nhận**: Xác nhận lưu cấu hình của Input Package
 
-**Bước 2**: Nhập thông tin để cho Input Package
+## **Bước 2**: Nhập thông tin để cho Input Package
 
 1. Người dùng nhập thông tin **Tên** và **Mô tả** (không bắt buộc)
 2. Cho phép hoặc vô hiệu hóa **Based on machine**

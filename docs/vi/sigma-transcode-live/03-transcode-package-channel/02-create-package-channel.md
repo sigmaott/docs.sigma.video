@@ -88,11 +88,7 @@ Sau khi đã khởi tạo 1 đầu ra mong muốn. Cấu hình của đầu ra s
         * **Sigma-drm-v1**: Hệ thống mã hoá Sigma DRM V1
         * **Sigma-multi-drm**: Hệ thống mã hoá Multi-DRM hỗ trợ Widevine, PlayReady, FairPlay được triển khai bởi Sigma drm
         * **drmtoday**: Hệ thống mã hoá Multi-DRM hỗ trợ Widevine, PlayReady, FairPlay được triển khai bởi castlab
-    * **Asset Id**: Id sử dụng cho hệ thống drm mã hoá kênh, sử dụng cho sigma drm hoặc sigma multi drm
-    * **App ID**: AppId của hệ thông sigma drm,sigma multi drm
-    * **Merchant ID**: MerchantId của hệ thông sigma drm,sigma multi drm
-    * **User**: User đăng nhập hệ thống sigma drm,sigma multi drm
-    * **Password**: Password hệ thống sigma drm,sigma multi drm
+    * Thiết lập `DRM Credential` nếu có đối với `Sigma Multi DRM` `DRMtoday`
 
 * **Low Latency**: Cấu hình truyền hình độ trễ thấp
 * **Catchup**: Cấu hình Lưu trữ Catchup-timeshift
@@ -100,43 +96,20 @@ Sau khi đã khởi tạo 1 đầu ra mong muốn. Cấu hình của đầu ra s
     * **Storage**: Bật tắt chế độ lữu trữ catchup-timeshift
     * **Cache time**: Cấu hình thời gian lưu trữ mong muốn đơn vị được tính bằng giờ
     * **Trickplay**: Bật tắt Trickplay mode với catchup
+
+* **Startover**: Bật tắt chế độ lưu trữ `Startover`
+
 * **Preset**: Cấu hình các profile được đóng gói vào đầu ra này
 
 
-Hướng dẫn cấu hình **preset** với đầu ra: 
+### Hướng dẫn cấu hình **preset** với đầu ra: 
 
-1. chọn ![select profile](../images/um-create-channel/um-select-profile.png){ width=17px } để lựa chọn các profile sẽ được đóng gói trong đầu ra này. Bảng danh sách profile sẽ được hiện ra
+1. chọn ![select profile](../images/um-create-channel/um-select-profile.png){ width=100px } để lựa chọn các profile sẽ được đóng gói trong đầu ra này. Bảng danh sách profile sẽ được hiện ra
 2. tích vào ô vuông để chọn các **profile** bạn muốn thêm vào đầu ra => nhấn **submit** để hoàn thành thao tác
 3. Bảng danh sách các profile được chọn sẽ hiện ra, bạn có thể thao tác các tác vụ mong muốn đối với danh sách này như thêm, xoá, sửa
 
 
+## B4. `Submit` Lưu kênh
 
-Hướng dẫn cấu hình DRM của đầu ra ứng với mỗi 1 **Key provider**
-
-
-1. **Static**
-
-| Tên trường  | Miêu tả                                                      |
-| ----------- | ------------------------------------------------------------ |
-| **Key**     | Key mã hoá tĩnh đã được encode dưới dạng base64              |
-| **Key ID**  | KeyId mã hoá tĩnh đã được encode dưới dạng base 64           |
-| **Key URI** | Đường dẫn keyUri được đặt vào tập tin manifest .m3u8 để lấy client có thể lấy key mã hoá |
-
-
-2. **Sigma multi drm**
-
-| Tên trường      | Miêu tả                                                      |
-| --------------- | ------------------------------------------------------------ |
-| **AssetId**     | **Id** sử dụng cho hệ thống drm mã hoá kênh, sử dụng cho sigma drm hoặc sigma multi drm |
-| **App ID**      | **AppId** của hệ thốnng sigma drm,sigma multi drm            |
-| **Merchant ID** | **MerchantId** của hệ thông sigma drm,sigma multi drm        |
-| **Email**       | User đăng nhập hệ thống sigma drm,sigma multi drm            |
-| **Password**    | Password hệ thống sigma drm, sigma multi drm                 |
-
-
-::: warning
-Với Key provider sử dụng hệ thống Sigma multi drm, vui lòng lấy đẩy đủ các thông tin từ trang cms của hệ thống Sigma Drm bao gồm (AppId, MerchantID, Email, password)
-:::
-
-
+Sau khi lưu kênh, hệ thống sẽ tự động `start` kênh và các đầu ra của kênh tương ứng với từng target
 

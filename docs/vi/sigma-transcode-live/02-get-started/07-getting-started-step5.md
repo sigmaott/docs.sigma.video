@@ -1,6 +1,6 @@
 ---
 title: 'B5: Xoá kênh'
-order: 7
+order: 8
 ---
 
 # {{ $frontmatter.title }}
