@@ -48,7 +48,8 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             text: 'Sigma Transcode Live Apis',
             link: '/vi/apis/sigma-transcode-live'
           },
-          { text: 'Sigma Dynamic Ads Insert Apis', link: '/apis/sigma-dai' }
+          { text: 'Sigma Dynamic Ads Insert Apis', link: '/apis/sigma-dai' },
+          { text: 'Sigma Livestream', link: '/apis/sigma-livestream' }
         ]
       },
       { text: 'Đội ngũ', link: '/vi/teams/', activeMatch: '/vi/teams/' },
@@ -106,23 +107,11 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         })
       ],
       '/vi/sigma-livestream/': [
-        {
-          text: 'About',
-          items: [
-            {
-              text: 'Introduction',
-              link: '/vi/sigma-livestream/1.about/1.introduction'
-            },
-            {
-              text: 'Infrastructure',
-              link: '/vi/sigma-livestream/1.about/2.Infrastructure.md'
-            },
-            {
-              text: 'Low Latency Streaming',
-              link: '/vi/sigma-livestream/1.about/3.low-latency-streaming.md'
-            }
-          ]
-        }
+        ...SidebarBuilder.get.foldersAndOrder('./docs/vi/sigma-livestream', {
+          collapsed: false,
+          collapsible: true,
+          partialFileNamesToIgnore: ['_partial']
+        })
       ],
       '/vi/sigma-interactive/': [
         {

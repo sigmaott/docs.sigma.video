@@ -48,7 +48,8 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             text: 'Sigma Transcode Live Apis',
             link: '/en/apis/sigma-transcode-live'
           },
-          { text: 'Sigma Dynamic Ads Insert Apis', link: '/en/apis/sigma-dai' }
+          { text: 'Sigma Dynamic Ads Insert Apis', link: '/en/apis/sigma-dai' },
+          { text: 'Sigma Livestream', link: '/apis/sigma-livestream' }
         ]
       },
       { text: 'Teams', link: '/en/teams/', activeMatch: '/en/teams/' },
