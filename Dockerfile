@@ -1,6 +1,6 @@
 FROM registry.gviet.vn:5000/library/node:16.15-alpine as builder
 
-RUN npm install -g pnpm
+RUN npm install -g pnpm@8.6.0
 
 WORKDIR /src
 
