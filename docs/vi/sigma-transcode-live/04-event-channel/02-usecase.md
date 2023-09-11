@@ -6,17 +6,16 @@ order: 2
 # {{ $frontmatter.title }}
 
 
-Tính năng "**Event Channel**" là một hệ thống quản lý tín hiệu truyền thông đa phương tiện mà có khả năng nhận và tổng hợp tín hiệu từ nhiều nguồn khác nhau như ingest live thông qua giao thức RTMP, UDP, SDI, hoặc từ các tập tin Video on Demand (VOD). Chức năng chính của nó là tạo ra một kênh truyền trực tiếp (live channel) với khả năng thiết lập thời gian bắt đầu và kết thúc cụ thể.
+Tính năng "**Event Channel**" có nhiều use case hữu ích trong nhiều lĩnh vực khác nhau. Dưới đây là một số ví dụ về các trường hợp sử dụng phổ biến của Event Channel:
 
 
-Thời gian của 1 kênh sự kiện có thể chia thành 3 phần như sau: 
+1. **Truyền phát sự kiện trực tiếp trên mạng**: Event Channel có thể được sử dụng để truyền phát sự kiện trực tiếp như hội nghị truyền hình, buổi biểu diễn âm nhạc, thể thao trực tiếp và nhiều loại sự kiện khác trên Internet. Người dùng có thể xem sự kiện này thông qua giao diện web hoặc ứng dụng di động.
+   
+2. **Sự kiện truyền hình và quảng cáo**: Do khả năng tùy chỉnh nội dung "Pre" và "Stop", Event Channel có thể được sử dụng để chuyển tiếp sự kiện truyền hình hoặc trình diễn quảng cáo trực tiếp.
 
-1. **Phần "Pre"**: Trong giai đoạn này, Event Channel có khả năng hiển thị nội dung từ VOD hoặc hình ảnh đặc biệt, thường được lặp đi lặp lại. Điều này có thể dùng để giới thiệu về kênh hoặc chuẩn bị cho sự kiện trực tiếp chính.
+3. **Sự kiện thể thao và e-sports**: Trong lĩnh vực thể thao, Event Channel có thể truyền phát các trận đấu thể thao hoặc sự kiện e-sports trực tiếp, cho phép người hâm mộ theo dõi các đội và vận động viên yêu thích của họ.
 
-1. **Phần "Main"**: Đây là giai đoạn chính của kênh trực tiếp, trong đó nội dung chính của sự kiện hoặc chương trình sẽ được truyền. Event Channel sẽ nhận và trình diễn tín hiệu trực tiếp từ các nguồn như RTMP, UDP, SDI hoặc 1 danh sách phát VOD  theo thứ tự để đảm bảo người xem có thể xem sự kiện đang diễn ra.
+4. **Trực tiếp từ hội thảo truyền hình**: Sự kiện chính trị, hội thảo kinh doanh, và các cuộc thảo luận quan trọng khác có thể được truyền trực tiếp qua Event Channel để đáp ứng nhu cầu thông tin và thảo luận của khán giả.
 
-3. **Phần "Stop"**: Cuối cùng, trong giai đoạn này, Event Channel có thể hiển thị nội dung từ VOD hoặc hình ảnh để kết thúc chương trình trực tiếp. Điều này giúp tạo ra một kết thúc mượt mà và có thể chứa thông tin cuối cùng hoặc quảng cáo kết thúc sự kiện.
-
-
-Tính năng "**Event Channel**" giúp quản lý và tạo ra các kênh trực tiếp động, linh hoạt và chuyên nghiệp, đồng thời cho phép đầu ra linh hoạt từ nhiều nguồn truyền thông khác nhau để cung cấp trải nghiệm xem không gián đoạn cho khán giả.
+Tính năng "**Event Channel**" cung cấp một phương tiện mạnh mẽ để truyền phát nhiều loại sự kiện trực tiếp, từ giáo dục đến giải trí và doanh nghiệp, mang lại sự linh hoạt và tiện lợi trong việc tạo và quản lý các kênh trực tiếp trực quan và chuyên nghiệp.
 
