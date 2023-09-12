@@ -9,7 +9,7 @@ An Apple HLS filter quits might look like this:
 
 - Method:
 
-http://localhost: 3000/prefix/master.m3u8?manifestfilter=videxo bitrate: 0-2147483647; videxo codec:h265; audio language:fr, en, de
+http://localhost:3000/prefix/master.m3u8?manifestfilter=video_bitrate:0-2147483647|video_codec:h265|audio_language:fr,en,de
 
 The query syntax is listed in the following table.
 
