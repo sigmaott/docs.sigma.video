@@ -25,7 +25,7 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
       {
         text: 'Các thành phần',
         items: [
-          { text: 'Sigma Transcode Live', link: '/vi/sigma-transcode-live/' },
+          { text: 'Sigma Media Live', link: '/vi/sigma-media-live/' },
           { text: 'Sigma Livestream', link: '/vi/sigma-livestream/' },
           { text: 'Sigma Interactive', link: '/vi/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/vi/sigma-lrm/' },
@@ -45,8 +45,8 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             link: '/vi/apis/sigma-lrm'
           },
           {
-            text: 'Sigma Transcode Live Apis',
-            link: '/vi/apis/sigma-transcode-live'
+            text: 'Sigma Media Live Apis',
+            link: '/vi/apis/sigma-media-live'
           },
           { text: 'Sigma Dynamic Ads Insert Apis', link: '/apis/sigma-dai' },
           { text: 'Sigma Livestream', link: '/apis/sigma-livestream' }
@@ -75,9 +75,9 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           }
         )
       ],
-      '/vi/sigma-transcode-live/': [
+      '/vi/sigma-media-live/': [
         ...SidebarBuilder.get.foldersAndOrder(
-          './docs/vi/sigma-transcode-live',
+          './docs/vi/sigma-media-live',
           {
             collapsed: false,
             collapsible: true,

@@ -5,7 +5,7 @@ order: 2
 # Infrastructure of Sigma Live Streaming System
 
 
-![about-2](/images/livestream-about-2.png)
+![about-2](../images/livestream-about-2.png)
 
 
 
@@ -52,7 +52,9 @@ Trên các thiết bị mobile sử dụng hệ điều hành android và ios, S
 
 Hệ thống RTMP Server được chia theo khu vực để kết nối với broadcast nhanh nhất có thể, với tính năng tự động scale, hệ thống có thể xử lý được hàng ngàn kết nối
 
-## S-Transcoder
+## Sigma Live Server
+
+Máy chủ xử lý dữ liệu media bao gồm các tính năng sau
 
 * Hỗ trợ transmux & transcode kênh live stream với độ trễ thấp, hiệu năng cao 
 
@@ -95,7 +97,7 @@ Hệ thống Api Server cung cấp API giao tiếp với App Server live stream:
 
 
 
-![livestream/about-3](/images/livestream-about-3.png)
+![livestream/about-3](../images/livestream-about-3.png)
 
 
 

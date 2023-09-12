@@ -9,7 +9,7 @@ An Apple HLS filter query might look like this:
 
 - Method: Get
 
-http://localhost:3000/prefix/master.m3u8?manifestfilter=video_bitrate:0-2147483647;video_codec:h265;audio_language:fr,en,de
+http://localhost:3000/prefix/master.m3u8?manifestfilter=video_bitrate:0-2147483647|video_codec:h265|audio_language:fr,en,de
 
 The query syntax is listed in the following table.
 
@@ -18,7 +18,7 @@ The query syntax is listed in the following table.
 | ?                      | A restricted character that marks the beginning of a query.  |
 | manifestfilter=        | The base query, which is followed by parameters constructed of name and value pairs. For a list of all of the available parameters, see Manifest filter query parameters. |
 | :                      | Used to associate the parameter name with a value. For example, parameter_name:value. |
-| ;                      | Separates parameters in a query that contains multiple parameters. For example, parameter1_name:value;parameter2_name:minValue-maxValue. |
+| |                      | Separates parameters in a query that contains multiple parameters. For example, parameter1_name:value|parameter2_name:minValue-maxValue. |
 | ,                      | Separates a list of values. For example, parameter_name:value1,value2,value3. Comma-separated values in a list imply an OR relationship. |
 | -                      | Used to define a parameter's minimum - maximum value range. For example, audio_sample_rate:0-44100. When a numerical value is used in a range, it is included in the range definition. This means that streams must be greater than or equal to the minimum value, and less than or equal to the maximum value. With ranges, the minimum and maximum values are mandatory. The supported range values are 0 - 2147483647. |
 
@@ -47,7 +47,7 @@ These are manifest filtering examples.
 The viewer is playing content on a device that can only support AVC and a 44.1k audio sample rate. You set the video_codec and audio_sample_rate to filter out streams that don't fit these requirements.
 
 ```
-?manifestfilter=audio_sample_rate:0-44100;video_codec:h264
+?manifestfilter=audio_sample_rate:0-44100|video_codec:h264
 ```
 
 ### Example 2: Restrict 4k HEVC content

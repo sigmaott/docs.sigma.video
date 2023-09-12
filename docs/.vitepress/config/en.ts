@@ -25,7 +25,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
       {
         text: 'Components',
         items: [
-          { text: 'Sigma Transcode Live', link: '/en/sigma-transcode-live/' },
+          { text: 'Sigma Media Live', link: '/en/sigma-media-live/' },
           { text: 'Sigma Livestream', link: '/en/sigma-livestream/' },
           { text: 'Sigma Interactive', link: '/en/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/en/sigma-lrm/' },
@@ -45,8 +45,8 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             link: '/en/apis/sigma-lrm'
           },
           {
-            text: 'Sigma Transcode Live Apis',
-            link: '/en/apis/sigma-transcode-live'
+            text: 'Sigma Media Live Apis',
+            link: '/en/apis/sigma-media-live'
           },
           { text: 'Sigma Dynamic Ads Insert Apis', link: '/en/apis/sigma-dai' },
           { text: 'Sigma Livestream', link: '/apis/sigma-livestream' }
@@ -75,9 +75,9 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           }
         )
       ],
-      '/en/sigma-transcode-live/': [
+      '/en/sigma-media-live/': [
         ...SidebarBuilder.get.foldersAndOrder(
-          './docs/en/sigma-transcode-live',
+          './docs/en/sigma-media-live',
           {
             collapsed: false,
             collapsible: true,
