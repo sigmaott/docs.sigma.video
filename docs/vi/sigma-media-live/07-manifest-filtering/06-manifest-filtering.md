@@ -51,7 +51,7 @@ The viewer is playing content on a device that can only support AVC and a 44.1k 
 ```
 
 ### Example 2: Restrict 4k HEVC content
-
+ 
 Your 4K HEVC stream is 15 Mbps, and all your other streams are less than 9 Mbps. To exclude the 4K stream from the stream set, you set a threshold of 9,000,000 bits per second to filter out the higher bitrate.
 
 ```

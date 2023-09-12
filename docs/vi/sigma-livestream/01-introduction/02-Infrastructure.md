@@ -5,7 +5,7 @@ order: 2
 # Infrastructure of Sigma Live Streaming System
 
 
-![about-2](../images/livestream-about-2.png)
+![about-2](/images/livestream/livestream-about-2.png)
 
 
 
@@ -97,7 +97,7 @@ Hệ thống Api Server cung cấp API giao tiếp với App Server live stream:
 
 
 
-![livestream/about-3](../images/livestream-about-3.png)
+![livestream/about-3](/images/livestream/livestream-about-3.png)
 
 
 
