@@ -108,19 +108,38 @@ Trường hợp link ads chạy CDN theo thứ tự CDN 1 chết, CDN 2 sẽ tha
 
 ### Loại
 Có 2 loại param
-* **player_params:**  là bên player truyền vào, back-end sẽ thay thế theo param tuơng ứng mà player truyền vào.
+* **play_params:**  là bên player truyền vào, back-end sẽ thay thế theo param tuơng ứng mà player truyền vào.
 * **session param**: Các param có sẵn 
   * `session.ip` : ip của máy người dùng. 
   * `session.user_agent` : user agent của máy người dùng
   * `stce.duration` : bản chất là available duration- điểm đánh dấu độ dài thời lượng.
 
 
-**Ví dụ URL thẻ quảng cáo** 
+**Ví dụ URL playback sử dụng play_params** 
 
 ```
-http://dai.sigmaott.com/manifest/manipulation/master/6462b8f2-a0f1-40b3-b542-af4098fc5d13/master.m3u8?play_params.origin=origin-ott-v2.gviet.vn&play_params.adsServer=172.16.20.221&play_params.cdnAdSegmentPrefix=dev-livestream.gviet.vn&play_params.cdnContentSegmentPrefix=origin-ott-v2.gviet.vn
+http://dai.sigmaott.com/manifest/manipulation/master/xxx/master.m3u8?play_params.devideId=abc&play_params.gender=male
 
 ```
+
+Trong đó có 2 **play_params** được truyền lên:
+- **play_params.devideId**: abc 
+- **play_params.gender**: male
+
+
+
+Client sẽ thực hiện playback với đường dẫn trên và server SSAI sẽ ghi nhận thông tin về **parameters** 
+
+::: info
+Bạn có thể sử dụng tham số template **parameters** cho đường dẫn vast ads server như ví dụ sau:
+
+```
+http://ads.com/tags.xml?gender=[play_params.gender]&did=[play_params.devideId]
+```
+
+Như vậy các thông tin của parameter sẽ được truyền từ client lên ads server thông qua yêu cầu lấy quảng cáo
+:::
+
 
 ## Bước 4: Tạo mới cấu hình kênh SSAI
 
