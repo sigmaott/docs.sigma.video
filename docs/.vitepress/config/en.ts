@@ -29,7 +29,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           { text: 'Sigma Livestream', link: '/en/sigma-livestream/' },
           { text: 'Sigma Interactive', link: '/en/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/en/sigma-lrm/' },
-          { text: 'Sigma Machine', link: '/en/sigma-machine/' },
+          { text: 'Sigma Engine Server', link: '/en/sigma-engine-server/' },
           { text: 'Sigma Dynamic Ads Insert', link: '/en/sigma-dai/' }
         ]
       },
@@ -85,8 +85,8 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           }
         )
       ],
-      '/en/sigma-machine/': [
-        ...SidebarBuilder.get.foldersAndOrder('./docs/en/sigma-machine', {
+      '/en/sigma-engine-server/': [
+        ...SidebarBuilder.get.foldersAndOrder('./docs/en/sigma-engine-server', {
           collapsed: false,
           collapsible: true,
           partialFileNamesToIgnore: ['_partial']
@@ -107,23 +107,11 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         })
       ],
       '/en/sigma-livestream/': [
-        {
-          text: 'About',
-          items: [
-            {
-              text: 'Introduction',
-              link: '/en/sigma-livestream/1.about/1.introduction'
-            },
-            {
-              text: 'Infrastructure',
-              link: '/en/sigma-livestream/1.about/2.Infrastructure.md'
-            },
-            {
-              text: 'Low Latency Streaming',
-              link: '/en/sigma-livestream/1.about/3.low-latency-streaming.md'
-            }
-          ]
-        }
+          ...SidebarBuilder.get.foldersAndOrder('./docs/en/sigma-livestream', {
+          collapsed: false,
+          collapsible: true,
+          partialFileNamesToIgnore: ['_partial']
+        })
       ],
       '/en/sigma-interactive/': [
         {

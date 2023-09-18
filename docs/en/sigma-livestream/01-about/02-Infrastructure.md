@@ -1,6 +1,6 @@
 ---
-title: Infrastructure of Sigma Live Streaming System
-sidebar_label: Infrastructure
+title: Kiến trúc
+order: 2
 ---
 
 # Infrastructure of Sigma Live Streaming System

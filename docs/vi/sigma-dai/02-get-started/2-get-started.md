@@ -94,13 +94,12 @@ Parameter, gọi tắt là Param là một đại lượng có giá trị đư�
 
 Định cấu hình SSAI để gửi dữ liệu nhận được từ trình phát tới ADS, trong URL ADS mẫu, chỉ định các biến player_params. `<query_parameter_name>`
 
-**Ví dụ:** nếu trình phát gửi tham số truy vấn có tên user_id trong yêu cầu của nó tới SSAI, để chuyển dữ liệu đó trong yêu cầu ADS, hãy bao gồm `[player_params.user_id]` trong cấu hình URL ADS để xác định user_id.
+**Ví dụ:** nếu trình phát gửi tham số truy vấn có tên user_id trong yêu cầu của nó tới SSAI, để chuyển dữ liệu đó trong yêu cầu ADS, hãy bao gồm `[play_params.user_id]` trong cấu hình URL ADS để xác định user_id.
 
 ### Khi nào?
 
 Khi nào cần cấu hình param:
-1. User cần định danh nhằm xác định thông tin để dễ phân biệt, hiểu đơn giản.
-2. Cần thay thế nội dung trường hợp không hiển thị/ CDN không chạy.
+1. User cần định danh các thông tin của client như *age* *gender* ... để có thể passthough các thông tin này khi gọi quảng cáo hoặc gọi lấy thông tin ở origin.
 
 **Ví dụ:** Phân đoạn nội dung CDN đến Phân đoạn quảng cáo CDN.
 
@@ -108,7 +107,7 @@ Trường hợp link ads chạy CDN theo thứ tự CDN 1 chết, CDN 2 sẽ tha
 
 ### Loại
 Có 2 loại param
-* **play_params:**  là bên player truyền vào, back-end sẽ thay thế theo param tuơng ứng mà player truyền vào.
+* **play_params:**  là bên player truyền lên thông qua đường dẫn playback, back-end sẽ thay thế theo param tuơng ứng mà player truyền vào.
 * **session param**: Các param có sẵn 
   * `session.ip` : ip của máy người dùng. 
   * `session.user_agent` : user agent của máy người dùng
@@ -135,6 +134,12 @@ Bạn có thể sử dụng tham số template **parameters** cho đường dẫ
 
 ```
 http://ads.com/tags.xml?gender=[play_params.gender]&did=[play_params.devideId]
+```
+
+Hệ thống SSAI sẽ thay thế các tham số trên bằng các giá trị tương ứng được truyền lên từ client. ta được giá trị sau
+
+```
+http://ads.com/tags.xml?gender=male&did=abc
 ```
 
 Như vậy các thông tin của parameter sẽ được truyền từ client lên ads server thông qua yêu cầu lấy quảng cáo

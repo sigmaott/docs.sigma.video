@@ -1,6 +1,6 @@
 ---
-title: Low Latency Streaming
-sidebar_label: Low Latency Streaming
+title: Độ trễ thấp
+order: 3
 ---
 
 # Low Latency Streaming

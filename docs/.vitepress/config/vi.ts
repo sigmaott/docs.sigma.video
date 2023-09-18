@@ -29,7 +29,7 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           { text: 'Sigma Livestream', link: '/vi/sigma-livestream/' },
           { text: 'Sigma Interactive', link: '/vi/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/vi/sigma-lrm/' },
-          { text: 'Sigma Machine', link: '/vi/sigma-machine/' },
+          { text: 'Sigma Engine Server', link: '/vi/sigma-engine-server/' },
           { text: 'Sigma Dynamic Ads Insert', link: '/vi/sigma-dai/' }
         ]
       },
@@ -85,8 +85,8 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           }
         )
       ],
-      '/vi/sigma-machine/': [
-        ...SidebarBuilder.get.foldersAndOrder('./docs/vi/sigma-machine', {
+      '/vi/sigma-engine-server/': [
+        ...SidebarBuilder.get.foldersAndOrder('./docs/vi/sigma-engine-server', {
           collapsed: false,
           collapsible: true,
           partialFileNamesToIgnore: ['_partial']

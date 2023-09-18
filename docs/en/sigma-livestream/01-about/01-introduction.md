@@ -1,7 +1,6 @@
 ---
-id: doc-platform-introduction
-title: Sigma Live Streaming Platform
-sidebar_label: Introduction
+title: Giới thiệu
+order: 1
 ---
 
 # Sigma Live Streaming
