@@ -4,7 +4,9 @@ order: 2
 ---
 
 # Related concepts
-The following is the overview of the concepts used throughout the Guide to Use SSAI.
+
+Dưới đây là tổng quan về các khái niệm được sử dụng trong suốt Hướng dẫn sử dụng SSAI
+
 ## Advertising insert concept
 The following is the overview of the concepts related to the inserts.
 
