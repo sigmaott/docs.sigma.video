@@ -21,7 +21,7 @@ const members = [
   {
     avatar: 'https://github.com/vietkute02.png',
     name: 'Viet Anh Luu',
-    title: 'Tech Lead',
+    title: 'Tech Lead / Product Manager',
     links: [
       { icon: 'github', link: 'https://github.com/vietkute02' }
     ]
