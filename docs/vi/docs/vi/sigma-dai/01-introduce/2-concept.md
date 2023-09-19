@@ -4,7 +4,9 @@ order: 2
 ---
 
 # Các khái niệm liên quan
-Dưới đây là tổng quan về các khái niệm được sử dụng trong suốt Hướng dẫn sử dụng SSAI.
+
+Dưới đây là tổng quan về các khái niệm được sử dụng trong suốt Hướng dẫn sử dụng SSAI
+
 ## Khái niệm chèn quảng cáo
 Dưới đây là tổng quan về các khái niệm có liên quan đến chèn quảng cáo.
 
