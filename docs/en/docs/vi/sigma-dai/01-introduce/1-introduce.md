@@ -1,37 +1,43 @@
 ---
-title: Introversion
+title: Giới thiệu
 order: 1
 ---
 
-# What is the server insertion solution?
-The Server Insertion Solution (SSAI) solution is dedicated to the **system that manages** and **running the advertising campaigns of** Television, Online Event and VOD-allows for channel assembly and insertion of flexible scale advertising, advertising pairing, and making money from advertising on any cloud-based video platform. With SSAI, you can distribute the targeted advertising content to the viewer and create a linear flow while maintaining the quality of broadcast in superior video applications (OTT). Inserts SSAI **promotional support with a large number of** simultaneously Sigma DAI allows one-to-one replacement and HTTP Direct Transfer (HLS) advertising and MPEG-based Transaction via HTTP (DASH) for on-demand video (VOD) and live streams.
+# Giải pháp Chèn quảng cáo phía máy chủ là gì
 
-## Control mode
+Giải pháp Chèn quảng cáo phía máy chủ (SSAI) dành riêng cho hệ thống để **quản lí** và **chạy những chiến dịch quảng cáo** Truyền hình, Sự kiện trực tuyến và VOD - cho phép lắp ráp kênh và chèn quảng cáo có quy mô linh hoạt, ghép quảng cáo và kiếm tiền từ quảng cáo trên bất kỳ nền tảng video nào dựa trên đám mây.
+Với SSAI, bạn có thể phân phát nội dung quảng cáo được nhắm mục tiêu tới người xem và tạo luồng tuyến tính trong khi vẫn duy trì chất lượng phát sóng trong các ứng dụng video vượt trội (OTT). Chèn quảng cáo SSAI **hỗ trợ xử lý với lượng lớn người dùng** đồng thời Sigma DAI cho phép thay thế một-một và chèn quảng cáo Truyền phát trực tiếp HTTP (HLS) và Truyền phát thích ứng động MPEG qua HTTP (DASH) cho video theo yêu cầu (VOD) và các luồng trực tiếp.
 
-The system supports 3 methods of content control including:
+## Phương thức kiểm soát
 
-* Channel Management
+Hệ thống hỗ trợ 3 phương thức kiểm soát nội dung bao gồm:
 
-* Manage users
+- Quản lý theo kênh
 
-* Manage all the ads
-## Superior Advantage
+- Quản lý theo người dùng
 
-The ability to insert a SSAI ad offers significant advances compared to traditional advertising tracking systems: better money-made advertising, quality and more consistent video resolution as well as **that is easier to manage than** on multi-platform environments. The SSAI **simplified the** process by allowing all of the devices to be connected to the IP display advertising the same way they display other content. The service also offers **effective tracking of** adverts from which collect and report data (display,…). from many publications, ad network differs for the advertirer, which measures the absolute amount of access (unique reach), which helps them monitor advertising efficiency, from which the verification of the reports provided by publisher, which makes it easier to optimize the campaign.
-* Supports the multi cluster deployment models, geo cluster, cloud base.
-* Mass processing of people at the same time.
-* Support Ads Tracking from the server or client.
-* Support for HLS and MPEG-DASH for Linear channel or VOD.
-* Retrieve and analyze ad hacking data.
-* Full integration with components in the Sigma Stream Platform platform.
-## How the SSAI works.
-The assembly of the SSAI channel helps you easily make money from your channel by inserts the advertising interrupts into your flow without having to adjust that channel by the SCTE-35 marker. You can use the assembly channel with either the SSAI advert or the other server-side advertising inserts service.
-* Marking the marking signal:
-    * Filter/Delete SCTE35 index undesirable.
-    * Authentication, more information on marker.
-    * Add or edit the SCTE 35 marking based on the program ' s scheduling.
-    * Adjust the parameters of SCTE 35 Marker.
-* How to manipulate the Manifest file.
-    * Replace undesirable content.
-    * Blackout.
+- Quản lí theo từng ads
 
+## Ưu điểm vượt trội
+
+Tính năng chèn quảng cáo SSAI mang đến những tiến bộ quan trọng so với các hệ thống theo dõi quảng cáo truyền thống: quảng cáo được kiếm tiền tốt hơn, chất lượng và độ phân giải video nhất quán hơn cũng như **dễ quản lý hơn** trên các môi trường đa nền tảng. SSAI **đơn giản hóa quy trình** quảng cáo của bạn bằng cách cho phép tất cả các thiết bị được kết nối IP hiển thị quảng cáo giống như cách chúng hiển thị nội dung khác. Dịch vụ này cũng cung cấp **tính năng theo dõi hiệu quả của quảng cáo** từ đó thu thập và báo cáo dữ liệu (lượt hiển thị, tỷ lệ chuyển đổi…) từ nhiều publisher, ad network khác nhau cho advertiser, đo lường được lượng tiếp cận tuyệt đối (unique reach),  giúp họ giám sát hiệu quả quảng cáo, từ đó xác minh các báo cáo được cung cấp bởi publisher, giúp cho việc tối ưu chiến dịch diễn ra dễ dàng hơn.
+
+- Hỗ trợ các mô hình triển khai multi cluster, geo cluster, cloud base.
+- Xử lý khối lượng lớn người xem đồng thời.
+- Hỗ trợ Ads Tracking từ máy chủ hoặc máy khách.
+- Hỗ trợ HLS và MPEG-DASH cho Linear channel hoặc VOD.
+- Truy xuất và phân tích dữ liệu tracking quảng cáo.
+- Tích hợp đầy đủ với các thành phần trong nền tảng Sigma Stream Platform.
+
+## Cách SSAI hoạt động
+
+Việc lắp ráp kênh SSAI giúp bạn dễ dàng kiếm tiền từ kênh của mình bằng cách chèn các điểm ngắt quảng cáo vào luồng của bạn mà không cần phải điều kiện hóa kênh đó bằng các điểm đánh dấu SCTE-35. Bạn có thể sử dụng kênh lắp ráp với chèn quảng cáo SSAI hoặc dịch vụ chèn quảng cáo phía máy chủ khác.
+
+- Điều hoà tín hiệu đánh dấu:
+  - Lọc / Xoá các chỉ mục SCTE35 không mong muốn.
+  - Xác thực, thêm thông tin đối với marker.
+  - Thêm hoặc sửa các đánh dấu SCTE 35 dựa trên lập lịch của chương trình.
+  - Điều chỉnh các tham số của SCTE 35 Marker.
+- Cách thao tác với tệp tin Manifest.
+  - Thay thế nội dung không mong muốn.
+  - Blackout.
