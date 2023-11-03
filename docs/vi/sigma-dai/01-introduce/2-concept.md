@@ -34,3 +34,4 @@ Vị trí nguồn đại diện cho máy chủ gốc nơi nội dung của bạn
 
 ### Nguồn VOD ( VOD sources)
 Nguồn VOD đại diện cho một phần nội dung, chẳng hạn như phim hoặc tập của chương trình truyền hình. Bạn liên kết các nguồn VOD với các chương trình để thêm chúng vào luồng tuyến tính của kênh.
+
