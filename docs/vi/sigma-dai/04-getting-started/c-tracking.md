@@ -22,6 +22,6 @@ Xem chi tiết tại [Giám sát hệ thống](../05-user-guide/4-statistic/f-mo
 Topic:
 
 * [Báo cáo dữ liệu](../05-user-guide/4-statistic/b-data-report.md)
-* [Biểu đồ sự kiện](../05-user-guide/4-statistic/c-event-chart/a-by-channel.md)
+* [Biểu đồ sự kiện](../05-user-guide/4-statistic/c-event-chart/a-by-endpoint.md)
 * [Fillrate](../05-user-guide//4-statistic/d-fillrate.md)
 * [Theo dõi hệ thống](../05-user-guide/4-statistic/f-monitor-system.md)

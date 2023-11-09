@@ -12,7 +12,7 @@ Trên màn hình chính của hệ thống, người dùng lựa chọn Danh sá
 
 Màn hình chính hệ thống hiển thị:
 
-![](/11-image/list-endpoint.PNG)
+![](//images/dai/list-endpoint.PNG)
 
 Trong màn hình chính của hệ thống, bạn sẽ thấy các thông tin được hiển thị trên giao diện bao gồm:
   

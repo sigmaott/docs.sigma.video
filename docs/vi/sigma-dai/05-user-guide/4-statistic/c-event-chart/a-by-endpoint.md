@@ -18,7 +18,7 @@ Giao diện gồm các thông tin mô tả ở [Hiển thị mặc định](../a
 
 Hệ thống hiển thị **mặc định** giao diện theo ad insert endpoint.
 
-![](/11-image/event-chart-by-endpoint.png)
+![](//images/dai/event-chart-by-endpoint.png)
 
 <center>
 
