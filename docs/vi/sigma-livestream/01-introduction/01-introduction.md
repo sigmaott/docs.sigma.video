@@ -5,9 +5,11 @@ order: 1
 
 # Sigma Live Streaming
 
-## Introduction
+## Giải pháp truyền hình trực tuyến là gì?
 
-Dịch vụ **Live Streaming** nơi mà bất kì ai có kết nối internet cũng có thể sáng tạo và đưa nội dung đa phương tiện trực tiếp đến với lượng lớn người xem một cách đơn giản và hiệu quả nhất. Để xây dựng một trải nghiệm live stream tuyệt vời đến người xem của bạn đòi hỏi một dự án kĩ thuật lớn, chi phí cao và rủi ro lớn. Với sự kiện trực tiếp việc đảm bảo nội dung được truyền tải đến người dùng một cách mượt mà ít sự cố là điều tối quan trọng. Bất cứ một sự cố nào trên luồng phát trực tiếp cũng đẩy dịch vụ của bạn đến ... 
+Dịch vụ **Live Streaming** nơi mà bất kì ai có kết nối internet cũng có thể sáng tạo và đưa nội dung đa phương tiện trực tiếp đến với lượng lớn người xem một cách đơn giản và hiệu quả nhất. Để xây dựng một trải nghiệm live stream tuyệt vời đến người xem của bạn đòi hỏi một dự án kĩ thuật lớn, chi phí cao và rủi ro lớn. Với sự kiện trực tiếp bất cứ một sự cố nhỏ nào đều có khả năng kết thúc trên luồng phát trực tiếp. Vì vậy, chúng tôi ưu tiên việc đảm bảo nội dung được truyền tải đến người dùng một cách mượt mà ít sự cố là điều quan trọng nhất.
+
+Livestream không chỉ giới hạn trong việc phát sóng video trực tiếp mà còn cung cấp khả năng tái phát lại nội dung trực tiếp đã kết thúc. Điều này cho phép người dùng tận dụng lại nội dung của họ và cung cấp một trải nghiệm xem video chất lượng cao, được biên tập sẵn.
 
 Sigma Live Stream Platform cung cấp một dịch vụ toàn diện đưa công việc truyền tải nội dung từ broadcaster đến với người xem đơn giản như một nút bấm.
 
@@ -28,7 +30,7 @@ Sigma Live Stream Platform cung cấp một dịch vụ toàn diện đưa công
 
 Đối với một luồng phát trực tiếp, dấu hiệu đảm bảo cho sự thành công là nội dung mà nhà cung cấp tạo ra hướng tới được nhiều đối tượng mong muốn nhất. Tăng trưởng số lượng người xem đồng thời ứng với sự thành công của luồng phát trực tiếp. Để đảm bảo sự thành công đó ngoài việc broadcaster đưa ra những nội dung đặc sắc tập trung vào viewer thì nền tảng công nghệ live stream cũng đóng một vai trò rất quan trọng. 
 
-62% of consumers are more likely to have a negative perception of a brand with a low-quality video experience. – [KZO](https://kzoinnovations.com/video-quality-influence-brand-perception)
+*62% of consumers are more likely to have a negative perception of a brand with a low-quality video experience*. – [KZO](https://kzoinnovations.com/video-quality-influence-brand-perception)
 
 Chất lượng dịch vụ khi phát sóng đóng vai trò vô cùng quan trọng đến cảm xúc của người xem. Bên cạnh đó những channel của broadcaster có tương tác với người dùng (example: Q&A, chơi game cùng người xem ...) luôn là những channel thuộc top đầu trên các dịch vụ trực tuyến. Đối với việc tương tác trực tiếp với người dùng độ trễ của hệ thống truyền tải nội dung đến người xem ảnh hưởng 
 
@@ -44,7 +46,9 @@ Chất lượng dịch vụ khi phát sóng đóng vai trò vô cùng quan trọ
 
 ## Key drivers of low latency for video streaming 
 
-Early streaming formats, primarily developed for SVOD, focused on avoiding re-buffering when rendering video on a player. But to make that work everywhere on any device, memory buffers had to be used in the workflow, especially in the player. This contributed to the success of OTT but also introduced end-to-end latency. For example, Apple’s original HTTP Live Streaming (HLS) protocol, released in 2009, recommended using 10-second segments and specified that players should not buffer less than three segments. This explains why many OTT services show a typical latency of 40 seconds or even more. Apple later revised its recommendation to six-second segments, but this still equates to 18 seconds of delay just on the client side to be HLS compliant.
+Các định dạng phát trực tuyến ban đầu, chủ yếu được phát triển cho SVOD, tập trung vào việc tránh lưu vào bộ đệm lại khi hiển thị video trên trình phát. Nhưng để tính năng đó hoạt động ở mọi nơi trên mọi thiết bị, bộ nhớ đệm phải được sử dụng trong quy trình làm việc, đặc biệt là trong trình phát. Điều này góp phần vào sự thành công của OTT nhưng cũng tạo ra độ trễ từ đầu đến cuối. 
+
+Ví dụ: giao thức HTTP Live Streaming (HLS) ban đầu của Apple, được phát hành vào năm 2009, khuyến nghị sử dụng các phân đoạn 10 giây và chỉ định rằng người chơi không nên đệm ít hơn ba phân đoạn. Điều này giải thích tại sao nhiều dịch vụ OTT có độ trễ thông thường là 40 giây hoặc thậm chí hơn. Apple sau đó đã sửa đổi khuyến nghị của mình thành các phân đoạn sáu giây, nhưng điều này vẫn tương đương với độ trễ 18 giây chỉ ở phía khách hàng để tuân thủ HLS.
 
 Với độ trễ 20-40 giây hoặc hơn thì không phải là vấn đề cho người dùng khi xem VOD. Nhưng đối với sự kiện trực tiếp việc đỗ trễ quá cao sẽ ảnh hưởng đến tính tương tác qua lại giữa người xem và broadcaster. Hình ảnh bên dưới biểu thị tác động của độ trễ và các thành phần tạo ra độ trễ khi truyền tải nội dung
 
