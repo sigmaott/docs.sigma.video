@@ -62,7 +62,7 @@ Màn hình hiển thị Pop-up Cài đặt Bộ lọc ở chính giữa màn hì
 </tbody>
 </table>
 
-​	Người dùng CMS nhập điều kiện tìm kiếm và nhấn nút **Xác nhận**
+​	Người dùng CMS nhập điều kiện tìm kiếm và nhấn nút **Xác nhận**.
 
 Hệ thống hiển thị **danh sách kênh** thỏa mãn điều kiện tìm kiếm. 
 ![](../../images\Chanel_List_Filter.png)
@@ -71,8 +71,8 @@ Hệ thống hiển thị **danh sách kênh** thỏa mãn điều kiện tìm k
  Người dùng thực hiện tìm kiếm kênh mong muốn theo từng trang ở **dưới cùng giao diện**
 ![](../../images\Channel_pagination.png)
 
--	Tổng 21: tổng số trang hiện có.
--	Nhấn vào :arrow_up_small:    để lựa chọn số bản ghi trên một trang.
+-	Tổng: tổng số trang hiện có.
+-	Nhấn vào **select box** để lựa chọn số bản ghi trên một trang.
 -	Nhấn vào **>** để chuyển tới **trang tiếp theo.**
 -	Nhấn vào **<** để chuyển tới **trang trước đó.**
--	Nhấn vào ![](../../images/Choice_Pagination.png) hoặc gõ số trang để chuyển tới một trang cụ thể.
+-	Nhấn vào **textbox** ![](../../images/Choice_Pagination.png) hoặc gõ số trang để chuyển tới một trang cụ thể.

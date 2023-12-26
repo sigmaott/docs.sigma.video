@@ -1,5 +1,5 @@
 ---
 id: doc-guideline-General-LRM
-title: Giao diện kênh
+title: Kênh
 order: 1
 ---
