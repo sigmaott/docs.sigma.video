@@ -1,0 +1,37 @@
+---
+title: Chỉnh sửa chương trình
+order: 3
+---
+## Chỉnh sửa chương trình
+Sau khi tạo chương trình, người dùng cập nhật thông tin chương trình để sửa thông tin theo mong muốn.
+
+### Tại thông tin chương trình
+Chỉnh sửa từng chương trình ngay trên lịch phát sóng, mở [thông tin chương trình](2-epg-list#xem-thông-tin-từng-chương-trình).
+
+Sau đó, nhấp vào biểu tượng chỉnh sửa.
+### Tại danh sách chương trình
+Khi di chuyển chuột vào biểu tượng **Sửa** trong cột hành động, hiển thị dòng **Chỉnh sửa**.
+
+**Bước 2:** Nhấp vào biểu tượng **Chỉnh sửa**.
+
+Hệ thống sẽ mở Pop-up **Chỉnh sửa chương trình** ở góc phải màn hình với thông tin đã được nhập trước đó. 
+
+<!-- ![]() -->
+
+- Cho phép cập nhật tất cả nội dung chương trình.
+- Không cho phép cập nhật trùng start time EPG đang có.
+
+Khi người dùng nhấn vào biểu tượng Chỉnh sửa, hệ thống cho phép chỉnh sửa chương trình ngay cả chương trình có thời gian kết thúc trước thời điểm cập nhật.
+
+**Bước 3:** Người dùng CMS thực hiện chỉnh sửa các thông tin phù hợp và sau đó bấm **Lưu**.
+
+Hệ thống thực hiện lưu các thông tin mới vừa được cập nhật, hiển thị thông báo cập nhật thành công ở góc phải màn hình và tự động đóng trong 5 giây.
+ 
+  <!-- ![]() -->
+
+ *Thông báo: Chỉnh sửa chương trình thành công!*
+
+### Chỉnh sửa chương trình không thành công
+Tương tự như việc tạo mới chương trình, để tránh xung đột chúng tôi không cho phép chọn thời gian bắt đầu trùng với chương trình đã có.
+
+Người dùng sẽ nhận được thông báo lỗi và có thể thay đổi thời gian bắt đầu để chỉnh sửa chương trình. Hãy xem [thông báo lỗi](./1-create-epg#tạo-mới-chương-trình-không-thành-công) để biết thêm chi tiết.

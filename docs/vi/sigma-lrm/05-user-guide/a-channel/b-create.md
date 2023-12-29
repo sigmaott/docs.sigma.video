@@ -28,7 +28,7 @@ Hệ thống hiển thị **Pop-up thêm kênh mới** giữa giao diện
 ### Bật cấu hình đồng bộ kênh
  
 Việc duy trì lịch phát sóng đồng bộ là rất quan trọng để cung cấp trải nghiệm xem tốt nhất cho người xem. Chúng tôi khuyên bạn bật cấu hình đồng bộ kênh để có thể chủ động đồng bộ khi cần.
-Xem hướng dẫn chủ động đồng bộ [tại đây]()
+Xem hướng dẫn [chủ động đồng bộ](../2-detail-channel/b-epg/7-manual-sync.md)
 
 Bật cấu hình đồng bộ, hiển thị các trường:
 
@@ -51,9 +51,9 @@ Bật tự động đồng bộ, hiển thị các trường:
 
 ### Các button
 
-  * **Nút "Huỷ"**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
+- **Nút "Huỷ"**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
 
- * **Nút "lưu"**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
+- **Nút "lưu"**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
 
 
 ## Bước 2: Lưu cấu hình
@@ -63,11 +63,11 @@ Bật tự động đồng bộ, hiển thị các trường:
 
 Hệ thống thực hiện tạo mới kênh với lưu các thông tin vừa được nhập, hiển thị Pop-up thông báo **Tạo mới thành công** tại góc phải màn hình
 
-* Kênh bật cấu hình đồng bộ
+- Kênh bật cấu hình đồng bộ.
 
-* Hiển thị đầy đủ các thông tin liên quan ở chi tiết kênh
+- Hiển thị đầy đủ các thông tin liên quan ở chi tiết kênh.
 
-* Cho phép thực hiện các thao tác chủ động đồng bộ.
+- Cho phép thực hiện các thao tác chủ động đồng bộ.
 
 ## Bước 3: Tự động đồng bộ
 
@@ -75,5 +75,5 @@ Hệ thống thực hiện tạo mới kênh với lưu các thông tin vừa đ
 
 1. Hệ thống tự động đồng bộ lịch phát sóng.
 2. Sau khi đồng bộ
-  * Hiển thị các lịch phát sóng mới trên timeline và danh sách EPG
-  * Thay đổi thông tin lần đồng bộ gần nhất và lần đồng bộ tiếp theo( nếu có).
+  - Hiển thị các lịch phát sóng mới trên dòng thời gian và danh sách chương trình
+  - Thay đổi thông tin lần đồng bộ gần nhất và lần đồng bộ tiếp theo( nếu có).

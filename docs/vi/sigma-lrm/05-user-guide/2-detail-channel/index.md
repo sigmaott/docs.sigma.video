@@ -1,5 +1,5 @@
 ---
 id: doc-guideline-General-LRM
 title: Chi tiết kênh
-order: 2
+order: 5
 ---

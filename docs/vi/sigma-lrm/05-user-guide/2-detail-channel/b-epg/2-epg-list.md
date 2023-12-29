@@ -1,0 +1,46 @@
+---
+title: Xem danh sách chương trình
+order: 1
+---
+
+## Danh sách chương trình
+Danh sách lịch phát sóng cung cấp cho partner, giúp quản lí ngay tại chi tiết kênh tối ưu nhất, giúp người dùng dễ dàng cover được hết các thông tin của kênh. Để người xem có thể xem trước lịch phát sóng, tìm kiếm theo thời gian, tìm kiếm theo tên chương trình.
+Mặc định hiển thị danh sách chương trình ở tab Sự kiện.
+### Danh sách trống
+Sau khi tạo mới kênh, kênh chưa được đồng bộ lịch phát sóng, kênh không có dữ liệu, hiển thị danh sách trống với dòng Không có dữ liệu.
+Hướng dẫn người dùng với dòng Vui lòng thực hiện nhập hoặc bật đồng bộ để cập nhật thông tin
+Chúng tôi khuyên bạn có thể thực hiện chủ động đồng bộ hoặc nhập chương trình từ file có sẵn.
+Sau khi tạo mới kênh, kênh sẽ chưa có lịch phát sóng đồng bộ và danh sách sẽ xuất hiện trống với thông báo **"Không có dữ liệu."** 
+
+Người dùng được hướng dẫn với dòng thông báo **"Vui lòng thực hiện nhập hoặc bật đồng bộ để cập nhật thông tin."** 
+
+Trường hợp kênh có bật cấu hình đồng bộ kênh. Chúng tôi khuyến khích bạn có thể thực hiện chủ động đồng bộ, nhập chương trình từ một file có sẵn để tối ưu thời gian.
+
+- [Chủ động đồng bộ]()
+- [Nhập chương trình]()
+
+Hoặc tạo từng chương trình riêng lẻ [tạo mới chương trình](./1.create-epg.md).
+
+### Để xem danh sách chương trình
+**Điều kiện**: có ít nhất một chương trình đã được tạo.
+
+Danh sách chương trình hiển thị các thông tin cơ bản như sau:
+
+- ID: Sau khi người dùng tạo chương trình mới, hệ thống sẽ tạo một ID riêng cho kênh để nhận dạng. Hiển thị dưới dạng nút cho phép di chuột để xem đầy đủ nội dung ID. Nhập chuột để sao chép ID và hiển thị thông báo thành công.
+- Tên: Tên của chương trình được cấu hình bởi người dùng.
+- Mô tả: Thông tin thêm về lịch phát sóng được nhập bởi người dùng. Nếu tên quá dài và vượt quá 2 dòng, hiển thị tooltip với tên đầy đủ khi di chuột vào.
+- Thời gian bắt đầu: Thời gian bắt đầu chạy chương trình. Định dạng giờ: phút: giây
+- Thời gian kết thúc: Thời gian kết thúc chạy chương trình. Thời gian kết thúc của chương trình liền trước là thời gian bắt đầu của chương trình liền sau. Định dạng giờ: phút: giây
+- Hành động: 
+    - [Ẩn/ hiện chương trình](./4-display.md):  Khi nhấp vào nút này, hệ thống đánh dấu lịch phát sóng ẩn/ hiện trên dòng thời gian. 
+    - [Chỉnh sửa chương trình](./3-edit-epg.md): Khi nhấp vào nút này, hệ thống mở pop-up chỉnh sửa chương trình góc phải màn hình.
+     - [Xoá chương trình](./8-delete-epg.md): Khi nhấp vào nút này, hiển thị pop-up xác nhận.
+
+### Xem thông tin từng chương trình
+Hỗ trợ người dùng xem đầy đủ thông tin từng chương trình ngay trên lịch phát sóng theo các bước sau:
+1. Nhấp vào chương trình cụ thể trên lịch phát sóng.
+2. Hệ thống hiển thị pop-up Thông tin chương trình, cho phép thực hiện các hành động:
+- [Tạo sự kiện](../c-event/1-create-event.md)
+- [Ẩn/ hiện chương trình](./4-display.md)
+- [Chỉnh sửa chương trình](./3-edit-epg.md)
+- [Xoá chương trình](./8-delete-epg.md)
