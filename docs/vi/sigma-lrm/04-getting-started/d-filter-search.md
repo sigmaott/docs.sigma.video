@@ -11,7 +11,7 @@ Nhấn nút **Bộ lọc** để hiển thị toàn bộ danh sách kênh đang 
 
 Màn hình hiển thị Pop-up Cài đặt Bộ lọc ở chính giữa màn hình
 
-![](../../images/Filter_Setting.png) 
+<!-- ![]()  -->
 
  Bảng mô tả các thông tin trong Pop-up bộ lọc
 
@@ -65,14 +65,14 @@ Màn hình hiển thị Pop-up Cài đặt Bộ lọc ở chính giữa màn hì
 ​	Người dùng CMS nhập điều kiện tìm kiếm và nhấn nút **Xác nhận**.
 
 Hệ thống hiển thị **danh sách kênh** thỏa mãn điều kiện tìm kiếm. 
-![](../../images\Chanel_List_Filter.png)
+![](/docs/images/lrm/list/channel-lrm-filter.png)
 
 ## Tìm kiếm theo từng trang
  Người dùng thực hiện tìm kiếm kênh mong muốn theo từng trang ở **dưới cùng giao diện**
-![](../../images\Channel_pagination.png)
+<!-- ![]() -->
 
 -	Tổng: tổng số trang hiện có.
 -	Nhấn vào **select box** để lựa chọn số bản ghi trên một trang.
 -	Nhấn vào **>** để chuyển tới **trang tiếp theo.**
 -	Nhấn vào **<** để chuyển tới **trang trước đó.**
--	Nhấn vào **textbox** ![](../../images/Choice_Pagination.png) hoặc gõ số trang để chuyển tới một trang cụ thể.
+-	Nhấn vào **textbox** hoặc gõ số trang để chuyển tới một trang cụ thể.
