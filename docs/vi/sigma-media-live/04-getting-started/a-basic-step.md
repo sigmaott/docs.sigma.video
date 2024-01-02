@@ -76,11 +76,16 @@ Sau đó, hệ thống sẽ hiện thị thông báo đổi mật khẩu thành 
 
 Đây là hướng dẫn cấu hình dịch vụ ở mức cơ bản nhất không bao gồm các cấu hình nâng cao
 
-1. Kết nối đến hệ thống giao diện biện tập của Sigma Transcode Live
-2. Trên **Sidebar Menu** chọn **Transcode** rồi chọn **Channel**. Giao diện danh sách kênh sẽ mở ra
-3. Nhấn **Add** để mở giao diện tạo kênh mới. Trong giao diện tuỳ chọn tạo kênh vui lòng chọn **manual** => **package** để vào màn hình tạo kênh đóng gói 
-4. Tại màn hình cấu hình kênh đóng gói. Cấu hình đầu vào (**Input**) mong muốn đóng gói. Bạn có thêm 1 hoặc nhiều **Input** mong muốn
-5. Chọn đầu ra (**Target**) muốn đóng gói và cấu hình các tham số cơ bản
-6. Tạo kênh và chạy kênh mong muốn
+Các bước cơ bản:
 
+Bước 1: [Cài đặt luồng tín hiệu](./b-step1.md)
 
+Bước 2: [Tạo mới đầu vào](./c-step2.md)
+
+Bước 3(optional): [Tạo DRM Credential](./d-step3-drm.md)
+
+Bước 4:  [Tạo kênh và chạy kênh mong muốn](./e-step4.md)
+
+Bước 5:  [Quản lý và giám sát kênh](./f-step5.md)
+
+Bước 6:  [Xoá kênh.](./g-step6.md)

@@ -3,7 +3,7 @@ title: 'B4: Tạo kênh'
 order: 6
 ---
 
-# {{ $frontmatter.title }}
+## Bước 4: Tạo kênh
 
 Bạn đã nhập thông tin bắt buộc tối thiểu, vì vậy bạn đã sẵn sàng tạo kênh \.
 

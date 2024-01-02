@@ -1,9 +1,8 @@
 ---
-title: 'Cấu hình cơ bản'
+title: Nhập liệu đầu vào
 order: 2
 ---
 
-# {{ $frontmatter.title }}
 
 # Hướng dẫn cấu hình cơ bản
 
@@ -80,21 +79,21 @@ Ví dụ: đối với việc tạo mới kênh, cần thực hiện 2 bước c
   Sau khi người dùng hoàn thành **bước 1** và nhấp vào nút ![Next step button](../images/um-transcode-forms/next-step-btn.png), toàn bộ dữ liệu người dùng tại bước này sẽ được ghi nhận trước khi chuyển sang **bước 2**.
 
 2. Nhập đầy đủ thông tin cần thiết.
-  Giao diện cũng như dữ liệu sẽ hiện thị tùy thuộc vào những tùy chọn mà người dùng đã thiết lập từ **bước 1** trước đó.
+Giao diện cũng như dữ liệu sẽ hiện thị tùy thuộc vào những tùy chọn mà người dùng đã thiết lập từ **bước 1** trước đó.
 
-  Tại bước 2, có một vài tùy chọn để người dùng điều hướng việc thiết lập dữ liệu của mình:
+Tại bước 2, có một vài tùy chọn để người dùng điều hướng việc thiết lập dữ liệu của mình:
 
   ![Channel Redirection Options](../images/um-transcode-forms/channel-redirection-options.png)
 
-  * Nếu người nhấn **Submit** sẽ có thêm 3 tùy chọn sau khi tạo thành công
+* Nếu người nhấn **Submit** sẽ có thêm 3 tùy chọn sau khi tạo thành công
     * `Submit then stay` người dùng vẫn tiếp tục ở lại trang hiện tại và dữ liệu không bị mất.
     * `Submit then back` người dùng sẽ được điều hướng sang trang danh sách kênh/template. 
     * `Save as template` tin được lưu lại như một template mới.
 
-  Ngoài ra, nếu muốn quay lại **bước 1** trước đó, nhấp vào nút ![Previous Button](../images/um-transcode-forms/previous-btn.png). Tuy nhiên toàn bộ dữ liệu được nhập hiện tại sẽ bị xóa, đồng thời hệ thống cũng đưa ra thông báo hiển thị giữa màn hình để người dùng xác nhận trước khi thực hiện.
+Ngoài ra, nếu muốn quay lại **bước 1** trước đó, nhấp vào nút ![Previous Button](../images/um-transcode-forms/previous-btn.png). Tuy nhiên toàn bộ dữ liệu được nhập hiện tại sẽ bị xóa, đồng thời hệ thống cũng đưa ra thông báo hiển thị giữa màn hình để người dùng xác nhận trước khi thực hiện.
 
   ![Redirection Confirmation](../images/um-transcode-forms/redirection-confirmation.png)
 
-  Nếu nhấn `OK`, giao diện sẽ quay lại bước 1 và toàn bộ dữ liệu bị xóa.
+Nếu nhấn `OK`, giao diện sẽ quay lại bước 1 và toàn bộ dữ liệu bị xóa.
   
-  Nếu nhấn `Cancel`, hệ thống hủy thao tác quay lại.
+Nếu nhấn `Cancel`, hệ thống hủy thao tác quay lại.
