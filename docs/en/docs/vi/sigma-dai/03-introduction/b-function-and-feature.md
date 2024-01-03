@@ -3,7 +3,7 @@ title: Function & Feature
 order: 1
 ---
 
-## Tổng quan về các chức năng và tính năng của sản phẩm (từng tính năng sẽ gắn link sang bài chi tiết tính năng)
+## Tổng quan về các chức năng và tính năng của sản phẩm
 (dưới mỗi page, hiển thị những resource liên quan)
 
 SSAI không chỉ đơn giản là một công cụ chèn quảng cáo, mà nó còn mang đến một loạt các chức năng và tính năng mạnh mẽ để nâng cao trải nghiệm xem và tối ưu hóa thu nhập từ quảng cáo trên các nền tảng trực tuyến.
