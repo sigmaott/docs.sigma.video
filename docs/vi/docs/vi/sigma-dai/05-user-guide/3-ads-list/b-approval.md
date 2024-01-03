@@ -29,7 +29,7 @@ Mô tả chức năng:
 
 **Giao diện mặc định** :
 
-![](/11-image/list-ad-default-off.PNG)
+![](//images/dai/list-ad-default-off.PNG)
 
 Tính năng kiểm duyệt theo app mặc định đang tắt( auto approval)
 
@@ -39,7 +39,7 @@ Tất cả tính năng kiểm duyệt ad đang ẩn. **Bước 1** :  Người d
 
 <center>
 
-![](/11-image/pop-up-confirm-approval-app.PNG)
+![](//images/dai/pop-up-confirm-approval-app.PNG)
 
 </center>
 
@@ -74,7 +74,7 @@ Mô tả nghiệp vụ:
 
 **Giao diện mặc định** :
 
-![](/11-image/list-ad-default-off.PNG)
+![](//images/dai/list-ad-default-off.PNG)
 
 Trạng thái mặc định- tính năng kiểm duyệt theo app đang tắt.
 
@@ -86,7 +86,7 @@ Mặc định quảng cáo được chèn, không phụ thuộc vào tính năng
 
 <center>
 
-![](/11-image/pop-up-confirm-approval-ad.PNG)
+![](//images/dai/pop-up-confirm-approval-ad.PNG)
 
 *Hình 1: Pop-up xác nhận kiểm duyệt theo quảng cáo*
 
@@ -102,7 +102,7 @@ Mặc định quảng cáo được chèn, không phụ thuộc vào tính năng
 
 **Bước 3** : Người dùng nhấn nút **Xác nhận** để bật tính năng kiểm duyệt theo app. Hệ thống vẫn ở Danh sách quảng cáo.
 
-![](/11-image/list-ad-approval.PNG)
+![](//images/dai/list-ad-approval.PNG)
 
 <center>
 
