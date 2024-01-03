@@ -14,7 +14,7 @@ order: 3
 
  Hệ thống sẽ mở một cửa sổ pop-up **Chỉnh sửa ad insert endpoint**  ở góc phải của màn hình, với các thông tin đã được nhập trước đó, **cho phép chỉnh sửa tất cả các trường.**
 
- ![](/11-image/pop-up-update-endpoint.PNG)
+ ![](//images/dai/pop-up-update-endpoint.PNG)
 
 <center>
   *Hình 1: Pop-up cập nhật endpoint*
@@ -25,5 +25,5 @@ order: 3
  Hệ thống sẽ lưu lại thông tin mới và hiển thị thông báo **Cập nhật ad insert endpoint thành công** ở giữa màn hình, sau đó tự động đóng trong vòng 5 giây. 
 
 <center>
-  ![](/11-image/success-update.PNG) *Hình 2: Thông báo cập nhật ad insert endpoint thành công!*
+  ![](//images/dai/success-update.PNG) *Hình 2: Thông báo cập nhật ad insert endpoint thành công!*
 </center>
