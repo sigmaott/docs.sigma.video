@@ -1,5 +1,5 @@
 ---
 id: doc-guideline-media-live
-title: Tool
-order: 8
+title: Profile
+order: 7
 ---

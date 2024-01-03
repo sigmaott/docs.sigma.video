@@ -61,7 +61,7 @@ Bật tự động đồng bộ, hiển thị các trường:
 
  Click button **Xác nhận** ở cuối Pop-up.
 
-Hệ thống thực hiện tạo mới kênh với lưu các thông tin vừa được nhập, hiển thị Pop-up thông báo **Tạo mới thành công** tại góc phải màn hình
+Hệ thống thực hiện tạo mới kênh với các thông tin vừa được nhập, hiển thị Pop-up thông báo **Tạo mới thành công** ở phía trên giao diện.
 
 - Kênh bật cấu hình đồng bộ.
 
