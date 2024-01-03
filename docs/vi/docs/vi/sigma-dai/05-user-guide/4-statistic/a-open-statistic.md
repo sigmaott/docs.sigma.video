@@ -11,13 +11,12 @@ Có 2 cách để mở Thống kê
 
 Hệ thống xổ xuống danh sách lựa chọn:
 
-![](../image/icon-redirect.png)
 
 * [Giám sát hệ thống](./f-monitor-system.md)
 
-* [Tỷ lệ hiển thị](./4-fillrate)
+* [Tỷ lệ hiển thị](./d-fillrate)
 
-* [Biểu đồ sự kiện](./c-event-chart/a-by-channel.md)
+* [Biểu đồ sự kiện](./c-event-chart/a-by-endpoint.md)
 
 * [Báo cáo dữ liệu](./b-data-report.md)
 
@@ -27,13 +26,11 @@ Hệ thống xổ xuống danh sách lựa chọn:
 
 **Bước 1:** Tại Sidebar, click vào thống kê, hệ thống xổ xuống danh sách lựa chọn.
 
-![](../image/select-statistic.png)
-
 * [Giám sát hệ thống](./f-monitor-system.md)
 
-* [Tỷ lệ hiển thị](./4-fillrate)
+* [Tỷ lệ hiển thị](./d-fillrate)
 
-* [Biểu đồ sự kiện](./c-event-chart/a-by-channel.md)
+* [Biểu đồ sự kiện](./c-event-chart/a-by-endpoint.md)
 
 * [Báo cáo dữ liệu](./b-data-report.md)
 
