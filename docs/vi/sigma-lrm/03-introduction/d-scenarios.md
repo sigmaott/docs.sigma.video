@@ -1,5 +1,5 @@
 ---
 id: doc-guideline-General-LRM
-title: Cenarios
+title: Scenarios
 order: 4
 ---
