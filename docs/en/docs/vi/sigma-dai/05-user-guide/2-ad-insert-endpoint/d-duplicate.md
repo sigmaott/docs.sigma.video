@@ -13,7 +13,7 @@ Người dùng muốn tạo 1 bản sao với ad insert endpoint đã có trư�
 
 Sau đó, một cửa sổ pop-up **Tạo bản sao ad insert endpoint** sẽ xuất hiện, cho phép chỉnh sửa tất cả các trường thông tin. sau:
 
-![](/11-image/pop-up-duplicate-endpoint.PNG)
+![](//images/dai/pop-up-duplicate-endpoint.PNG)
 
 <center>
   *Hình 1: Pop-up tạo bản sao endpoint*
@@ -30,5 +30,5 @@ Sau đó, một cửa sổ pop-up **Tạo bản sao ad insert endpoint** sẽ xu
 Hệ thống hiển thị thông báo thực hiện **tạo bản sao thành công** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
 
 <center>
-  ![](/11-image/success-duplicate.PNG) *Hình 2: Thông báo tạo bản sao ad insert endpoint thành công!*
+  ![](//images/dai/success-duplicate.PNG) *Hình 2: Thông báo tạo bản sao ad insert endpoint thành công!*
 </center>
