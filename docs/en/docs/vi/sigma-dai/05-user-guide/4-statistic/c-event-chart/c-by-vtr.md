@@ -11,7 +11,7 @@ order: 3
 
 Hiển thị giao diện tỷ lệ xem qua:
 
-![](/11-image/event-chart-by-vtr.png)
+![](//images/dai/event-chart-by-vtr.png)
 
 <center>
 
@@ -19,7 +19,7 @@ Hiển thị giao diện tỷ lệ xem qua:
 
 </center>
 
-Giao diện hiển thị với các thông tin mặc định mô tả tại [thông tin mặc định](../2-open-statistic)
+Giao diện hiển thị với các thông tin mặc định mô tả tại [thông tin mặc định](../a-open-statistic)
 
 *Lưu ý:* Giao diện hiển thị quick filter thêm trường: Quảng cáo- danh sách các quảng cáo đang có trên kênh/ hoặc chọn tất cả
 
