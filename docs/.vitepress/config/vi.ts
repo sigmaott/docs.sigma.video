@@ -29,7 +29,6 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           { text: 'Sigma Livestream', link: '/vi/sigma-livestream/' },
           { text: 'Sigma Interactive', link: '/vi/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/vi/sigma-lrm/' },
-          { text: 'Sigma Engine Server', link: '/vi/sigma-engine-server/' },
           { text: 'Sigma Dynamic Ads Insert', link: '/vi/sigma-dai/' },
           { text: 'Sigma Engine Server', link: '/vi/sigma-engine-server/' }
         ]

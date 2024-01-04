@@ -9,7 +9,7 @@ Chức năng này cho phép CMS tạo mới ad insert endpoint để chạy và 
 
 Hệ thống hiển thị Pop-up Thêm ad insert endpoint mới bên phải giao diện
 
-![](/11-image/pop-up-create-endpoint.PNG)
+![](//images/dai/pop-up-create-endpoint.PNG)
 
   <center>
 
@@ -57,7 +57,7 @@ Hệ thống thực hiện tạo mới ad insert endpoint với lưu các thông
 
 <center>
 
- ![](/11-image/success-create.PNG)
+ ![](//images/dai/success-create.PNG)
 
 *Hình 2: Thông báo tạo mới ad insert endpoint thành công!*
 

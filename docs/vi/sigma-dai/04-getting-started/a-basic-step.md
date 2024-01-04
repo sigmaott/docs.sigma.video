@@ -6,22 +6,22 @@ order: 1
 ### Các bước cơ bản
 
 * Bước 1: 
-[Cách thức truy cập](/04-getting-started/2-get-started#Bước-1-Truy-cập-vào-hệ-thống-Sigma-Dynamic-Ads-Insert)
+[Cách thức truy cập](b-get-started#Bước-1-Truy-cập-vào-hệ-thống-Sigma-Dynamic-Ads-Insert)
 
 * Bước 2: 
-[Chuẩn bị luồng](/04-getting-started/2-get-started#bước-2-chuẩn-bị-luồng)
+[Chuẩn bị luồng](b-get-started#bước-2-chuẩn-bị-luồng)
 
 * Bước 3: 
-[Cấu hình các tham số URL yêu cầu quảng cáo và các tham số truy vấn](/04-getting-started/2-get-started#bước-3-optional-chuẩn-bị-cấu-hình-các-tham-số-url-của-máy-chủ-quảng-cáo-ads-request-và-các-tham-số-truy-vấn-parameter)
+[Cấu hình các tham số URL yêu cầu quảng cáo và các tham số truy vấn](b-get-started#bước-3-optional-chuẩn-bị-cấu-hình-các-tham-số-url-của-máy-chủ-quảng-cáo-ads-request-và-các-tham-số-truy-vấn-parameter)
 
 * Bước 4: 
-[Tạo mới cấu hình ad insert endpoint SSAI ](/04-getting-started/2-get-started#bước-4-tạo-mới-cấu-hình-ad-insert-endpoint-ssai)
+[Tạo mới cấu hình ad insert endpoint SSAI ](b-get-started#bước-4-tạo-mới-cấu-hình-ad-insert-endpoint-ssai)
 
 * Bước 5: 
-[Kiểm tra cấu hình ](/04-getting-started/2-get-started#bước-5-kiểm-tra-cấu-hình)
+[Kiểm tra cấu hình ](b-get-started#bước-5-kiểm-tra-cấu-hình)
 
 * Bước 6: 
-[Gửi yêu cầu phát lại đến SSAI ](/04-getting-started/2-get-started#bước-6-gửi-thông-tin-yêu-cầu-đến-máy-chủ-ssai)
+[Gửi yêu cầu phát lại đến SSAI ](b-get-started#bước-6-gửi-thông-tin-yêu-cầu-đến-máy-chủ-ssai)
 
 * Bước 7: 
-[Dọn dẹp (Xoá ad insert endpoint) ](/04-getting-started/2-get-started#bước-7-dọn-dẹp-xoá-ad-insert-endpoint)
+[Dọn dẹp (Xoá ad insert endpoint) ](b-get-started#bước-7-dọn-dẹp-xoá-ad-insert-endpoint)

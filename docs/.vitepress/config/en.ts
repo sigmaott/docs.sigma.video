@@ -29,8 +29,8 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           { text: 'Sigma Livestream', link: '/en/sigma-livestream/' },
           { text: 'Sigma Interactive', link: '/en/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/en/sigma-lrm/' },
-          { text: 'Sigma Engine Server', link: '/en/sigma-engine-server/' },
-          { text: 'Sigma Dynamic Ads Insert', link: '/en/sigma-dai/' }
+          { text: 'Sigma Dynamic Ads Insert', link: '/en/sigma-dai/' },
+          { text: 'Sigma Engine Server', link: '/en/sigma-engine-server/' }
         ]
       },
       {
