@@ -12,7 +12,7 @@ Trên màn hình chính của hệ thống, người dùng lựa chọn Inputs �
 
 Màn hình chính hệ thống hiển thị mặc định tab Transcode, với giao diện màn hình danh sách đầu vào loại Transcode. Người dùng có thể chọn tab Package để xem danh sách đầu vào với loại là Package.
 
-![danh sách đầu vào](../images/../../images/view-transcode-input-list.png)
+![danh sách đầu vào](../images//images/view-transcode-input-list.png)
 
 Các thông tin chính bao gồm:
 

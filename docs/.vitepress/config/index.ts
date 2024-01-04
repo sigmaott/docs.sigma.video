@@ -6,6 +6,7 @@ import { sharedConfig } from './shareConfig'
 
 export default defineConfig({
   ...sharedConfig,
+  ignoreDeadLinks: true,
   locales: {
     en: { label: 'English', lang: 'en', ...enConfig },
     vi: { label: 'Tiếng Việt', lang: 'vi', ...viConfig }

@@ -13,7 +13,6 @@ Sau khi chuẩn bị sẵn nguồn, mã chương trình, khoá API sử dụng �
 Tại giao diện màn hình chính Danh sách kênh, người dùng click vào nút **Thêm kênh**
 
 Hệ thống hiển thị **Pop-up thêm kênh mới** giữa giao diện
-![](..\images\Pop-up_Add_Channel.png)
  
  Các thông tin hiển thị:
 

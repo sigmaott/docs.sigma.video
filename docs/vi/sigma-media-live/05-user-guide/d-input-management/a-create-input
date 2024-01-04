@@ -19,7 +19,7 @@ Chức năng này cho phép người dùng CMS tạo mới Đầu vào loại Tr
 
 Hệ thống hiển thị mặc định với tab Transcode, giao diện màn hình danh sách đầu vào loại Transcode.
 
-![Tạo mới đầu vào kênh Transcode](../images/../../images/create-transcode-input.png)
+![Tạo mới đầu vào kênh Transcode](../images//images/create-transcode-input.png)
 
 **Bước 2**: Tại giao diện màn hình danh sách Đầu vào Transcode (Tab Transcode), người dùng bấm nút **Thêm** 
 
@@ -69,7 +69,7 @@ Tại đây hệ thống hiển thị mặc định với tab Transcode, ngườ
 
 Hệ thống hiển thị pop-up thêm mới đầu vào Package ở bên phải màn hình
 
-![Tạo mới đầu vào kênh Transcode](../images/../../images/create-package-input.png)
+![Tạo mới đầu vào kênh Transcode](../images//images/create-package-input.png)
 
 Với các thông tin chung:
 

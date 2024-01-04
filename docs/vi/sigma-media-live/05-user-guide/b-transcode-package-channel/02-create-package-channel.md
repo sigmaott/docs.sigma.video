@@ -14,7 +14,7 @@ Kênh đóng gói (package) thực hiện việc chuẩn bị và bảo vệ vid
 
 Màn hình giao diện dành cho việc cấu hình kênh đóng gói hiện ra như sau: 
 
-![Tạo kênh đóng gói thủ công](../images/um-create-channel/um-create-package-channel-1.png)
+![Tạo kênh đóng gói thủ công](../../images/um-create-channel/um-create-package-channel-1.png)
 
 
 
@@ -104,7 +104,7 @@ Sau khi đã khởi tạo 1 đầu ra mong muốn. Cấu hình của đầu ra s
 
 ### Hướng dẫn cấu hình **preset** với đầu ra: 
 
-1. chọn ![select profile](../images/um-create-channel/um-select-profile.png){ width=100px } để lựa chọn các profile sẽ được đóng gói trong đầu ra này. Bảng danh sách profile sẽ được hiện ra
+1. chọn ![select profile](../../images/um-create-channel/um-select-profile.png){ width=100px } để lựa chọn các profile sẽ được đóng gói trong đầu ra này. Bảng danh sách profile sẽ được hiện ra
 2. tích vào ô vuông để chọn các **profile** bạn muốn thêm vào đầu ra => nhấn **submit** để hoàn thành thao tác
 3. Bảng danh sách các profile được chọn sẽ hiện ra, bạn có thể thao tác các tác vụ mong muốn đối với danh sách này như thêm, xoá, sửa
 
