@@ -65,7 +65,7 @@ Màn hình hiển thị Pop-up Cài đặt Bộ lọc ở chính giữa màn hì
 
 ​   Người dùng CMS nhập điều kiện tìm kiếm và nhấn nút **Xác nhận**.
 
-Hệ thống hiển thị **danh sách kênh** thỏa mãn điều kiện tìm kiếm. ![](/docs/images/lrm/list/channel-lrm-filter.png)
+Hệ thống hiển thị **danh sách kênh** thỏa mãn điều kiện tìm kiếm. ![](/images/lrm/list/channel-lrm-filter.png)
 
 ## Tìm kiếm theo từng trang
  Người dùng thực hiện tìm kiếm kênh mong muốn theo từng trang ở **dưới cùng giao diện**
