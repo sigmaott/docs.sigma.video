@@ -17,10 +17,8 @@ Tại giao diện màn hình chính, người dùng có thể thực hiện ch�
 
 **Bước 2:** Khi người dùng nhấp vào biểu tượng chỉnh sửa, hệ thống sẽ hiển thị một cửa sổ pop-up **Cập nhật chỉnh sửa kênh** tại góc phải của màn hình, hiển thị các thông tin đã nhập trước đó.
 
-![](..\images\Popup_Edit_Channel.png)
 _Pop-up Cập nhật chỉnh sửa kênh_
 
 **Bước 3:** Sau khi người dùng thực hiện các thay đổi và nhấn nút Lưu, hệ thống sẽ tự động lưu thông tin mới được cập nhật. Một thông báo về việc cập nhật thành công sẽ xuất hiện ở góc phải của màn hình, và sau đó, cửa sổ sẽ tự động đóng sau 5 giây.
 
-![](..\images\Notice_success_edit_channel.png)
 _Thông báo:Cập nhật kênh thành công!_
