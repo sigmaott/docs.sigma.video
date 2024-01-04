@@ -16,7 +16,7 @@ Trong trường bạn muốn chỉnh sửa, di chuyển chuột vào biểu tư�
 
  Hệ thống sẽ mở một cửa sổ pop-up **Chỉnh sửa ad insert endpoint**  ở góc phải của màn hình, với các thông tin đã được nhập trước đó, **cho phép chỉnh sửa tất cả các trường.**
 
- ![](//images/dai/pop-up-update-endpoint.PNG)
+ ![](/images/dai/pop-up-update-endpoint.PNG)
 
   <center>
 
@@ -29,7 +29,7 @@ Trong trường bạn muốn chỉnh sửa, di chuyển chuột vào biểu tư�
  Hệ thống sẽ lưu lại thông tin mới và hiển thị thông báo **Cập nhật ad insert endpoint thành công** ở giữa màn hình, sau đó tự động đóng trong vòng 5 giây.
  <center>
 
- ![](//images/dai/success-update.PNG)
+ ![](/images/dai/success-update.PNG)
 
 *Hình 2: Thông báo cập nhật ad insert endpoint thành công!*
 

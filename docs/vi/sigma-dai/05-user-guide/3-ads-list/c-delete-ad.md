@@ -22,7 +22,7 @@ Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâ
 
 <center>
 
-![](//images/dai/pop-up-delete-ad.PNG)
+![](/images/dai/pop-up-delete-ad.PNG)
 
 *Hình 1: Pop-up xoá quảng cáo*
 </center>
@@ -37,7 +37,7 @@ Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâ
 
 <center>
 
- ![](//images/dai/success-delete.PNG)
+ ![](/images/dai/success-delete.PNG)
 
 *Hình 2: Thông báo xoá quảng cáo thành công!*
 

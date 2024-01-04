@@ -10,7 +10,7 @@ order: 3
 
 Hiển thị giao diện tỷ lệ xem qua:
 
-![](//images/dai/event-chart-by-vtr.png)
+![](/images/dai/event-chart-by-vtr.png)
 
 <center>
 

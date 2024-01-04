@@ -12,7 +12,7 @@ Trên màn hình danh sách đầu vào (Transcode/Package), tại đầu vào m
 
 - Nhấn vào biểu tượng ở cột **Máy** để xem thông tin cơ bản của máy được gán, bao gồm
 
-![chi tiết của đầu vào](../images//images/view-input-info-1.png)
+![chi tiết của đầu vào](../images/images/view-input-info-1.png)
 
   - Biểu tượng trạng thái (Running, Paused, Dead , Frezeed)
   - Tên máy
@@ -20,7 +20,7 @@ Trên màn hình danh sách đầu vào (Transcode/Package), tại đầu vào m
   - Dung lượng bộ nhớ của máy đã sử dụng (%)
 - Nhấn vào biểu tượng ở cột **Nguồn** để xem thông tin nguồn của đầu vào, bao gồm:
 
-![chi tiết của đầu vào](../images//images/view-input-info-2.png)
+![chi tiết của đầu vào](../images/images/view-input-info-2.png)
 
   - Hiển thị dữ liệu Private (Secondary) Network Interface 
   - Hiển thị dữ liệu nguồn chính/phụ của từng nguồn
