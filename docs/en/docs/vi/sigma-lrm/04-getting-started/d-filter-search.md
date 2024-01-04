@@ -65,7 +65,7 @@ Pop-up Display Display Settings in the middle of the screen
 
 ​   Người dùng CMS nhập điều kiện tìm kiếm và nhấn nút **Xác nhận**.
 
-**channel list** satisfying search conditions. ![](/docs/images/lrm/list/channel-lrm-filter.png)
+**channel list** satisfying search conditions. ![](/images/lrm/list/channel-lrm-filter.png)
 
 ## Search by page
  The user makes search of the desired channel by page at **under the** interface.
