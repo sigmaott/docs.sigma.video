@@ -1,11 +1,11 @@
 ---
-title: Tạo mới kênh sự kiện 
-order: 1
+title: Cảnh báo
+order: 5
 ---
 
-# Tạo mới kênh sự kiện
+# Danh sách cảnh báo
 
-Giao diện danh cảnh báo  là một phần quan trọng trong việc quản lý về các sự cố (về sóng, phần cứng, đầu ra) khi kênh gặp sự cố. Giao diện trong danh sách bao gồm các thông tin cơ bản về cảnh báo như thời gian bắt đầu, mức độ cảnh báo, loại cảnh báo,... và cho phép tìm kếm nhanh, giúp người quản trị viên quản lý các sự cố và khắc phục kịp thời
+Giao diện danh sách cảnh báo  là một phần quan trọng trong việc quản lý về các sự cố (về sóng, phần cứng, đầu ra) khi kênh gặp sự cố. Giao diện trong danh sách bao gồm các thông tin cơ bản về cảnh báo như thời gian bắt đầu, mức độ cảnh báo, loại cảnh báo,... và cho phép tìm kiếm nhanh, giúp người quản trị viên quản lý các sự cố và khắc phục kịp thời.
 
 Trên màn hình chính của Media Live, người dùng lựa chọn **Alerts** ở tab header.
 
