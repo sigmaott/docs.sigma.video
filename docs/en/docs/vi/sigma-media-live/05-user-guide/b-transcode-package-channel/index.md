@@ -1,6 +1,6 @@
 ---
 title: 'Resource: Channel'
-order: 3
+order: 2
 ---
 
 # {{ $frontmatter.title }}
