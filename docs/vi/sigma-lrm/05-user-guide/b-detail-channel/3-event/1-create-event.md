@@ -16,7 +16,7 @@ Có 2 cách để tạo sự kiện mới.
 Trong giao diện Sự kiện, hãy nhấn nút **Thêm sự kiện**.
 Một cửa sổ Pop-up sẽ xuất hiện trung tâm giao diện để thêm sự kiện mới.
 
-![](/docs/images/lrm/pop-up/create-event.PNG)
+![](/images/lrm/pop-up/create-event.png)
 
 Các thông tin hiển thị:
 | Tên trường                      | Mô tả                                                        | Bắt buộc | Kiểu dữ liệu | Mặc định                                                     | Rule                                                         |
@@ -110,7 +110,7 @@ Việc lên lịch biên tập nội dung là quan trọng trong chiến lược
 
 Hệ thống hiển thị các trường bổ sung trong danh sách xổ xuống.
 
-![](/docs/images/lrm/pop-up/create-event-schedule.png)
+![](/images/lrm/pop-up/create-event-schedule.png)
 
 *Các cấu hình thông tin sự kiện lập lịch*
 

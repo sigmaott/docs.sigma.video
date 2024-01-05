@@ -1,5 +1,5 @@
 ---
-title: cenarios
+title: Scenarios
 order: 4
 ---
 
