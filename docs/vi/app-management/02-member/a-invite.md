@@ -29,6 +29,9 @@ Hiển thị một Pop-up mời thành viên với các phần sau:
 
 - Nhập email:
     - Không hỗ trợ ngôn ngữ có dấu, không chứa dấu cách, nhập theo định dạng `local-part@domainname`
+    - Để nâng cao tính chính xác, người dùng cần tuân thủ các quy định sau:
+        - Không nhập email của mình
+        - Không nhập email thành viên đã tham gia ứng dụng( email đã tồn tại trong hệ thống)
 
 - Group mặc định- khi tạo ứng dụng, sẽ tự động có 3 nhóm mặc định:
     - **Media-hub distributor**: nhà phân phối, phân quyền vào application VTVhub
@@ -58,12 +61,14 @@ Sau khi quay lại giao diện danh sách thành viên, thông báo thành công
 
 Thông tin của thành viên mới mời sẽ được hiển thị đầu danh sách, bao gồm các chi tiết sau:
 
-- Email: Địa chỉ email được nhập.
-- Trạng thái: Joined.
-- Thời gian: Thời gian khi thành viên được thêm vào.
+- **Email**: Địa chỉ email được nhập.
+- **Trạng thái**: `Joined`.
+- **Thời gian**: Thời gian khi thành viên được thêm vào.
+
+*Trường hợp thành viên trở lại email, nhấp vào xác nhận tham gia. Đường dẫn không còn hiệu lực*
 
 ### Xác nhận thành viên
-Sau khi tài khoản người dùng được mời thành công, hệ thống sẽ gửi thông báo "ĐÃ TRỞ THÀNH THÀNH VIÊN" đến địa chỉ email đã được nhập.
+Sau khi tài khoản người dùng được mời thành công, hệ thống sẽ gửi thông báo **ĐÃ TRỞ THÀNH THÀNH VIÊN** đến địa chỉ email đã được nhập.
 
 Khi người dùng nhấp vào email thông báo, thành viên sẽ được chuyển hướng đến trang tổng quan ứng dụng. Tùy thuộc vào trạng thái đăng nhập của trình duyệt và tài khoản, có hai trường hợp xảy ra trên màn hình đích:
 
@@ -86,10 +91,17 @@ Nếu email không tồn tại trong hệ thống, hệ thống sẽ **tự đ�
 
 Tại giao diện danh sách thành viên, thông tin của thành viên vừa được mời sẽ được hiển thị đầu danh sách với các chi tiết sau:
 
-- Email: Địa chỉ email đã được nhập.
-- Trạng thái: Invited.
-- Thời gian: Thời điểm khi gửi mail mời thêm thành viên.
+- **Email**: Địa chỉ email đã được nhập.
+- **Trạng thái**: `Invited`.
+- **Thời gian**: Thời điểm khi gửi mail mời thêm thành viên.
 
 ### Đăng ký thành viên
 
-Tài khoản nhận được mail mời tham gia, nhấp vào `Truy cập vào app`
+Người dùng sẽ nhận được email mời tham gia và chỉ cần nhấp vào `Truy cập vào app`
+
+Thành viên sẽ được chuyển hướng đến hệ thống SSP| đăng ký tài khoản, sử dụng tài khoản email đã được mời. Lúc này, họ sẽ không có quyền chỉnh sửa thông tin và sẽ được yêu cầu đặt mật khẩu.
+
+Để thực hiện quy trình đăng ký, vui lòng xem hướng dẫn chi tiết [tại đây](). 
+
+Sau khi hoàn tất quá trình đăng ký, hệ thống sẽ mở giao diện Tổng quan ứng dụng cho người dùng.
+
