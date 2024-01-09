@@ -27,6 +27,8 @@ Trên giao diện hiển thị danh sách thành viên, người quản trị c�
 
 Hiển thị một Pop-up mời thành viên với các phần sau:
 
+![Mời Thành Viên](/docs/images/streaming-platform/app-management/02-member/pop-up/create.png)
+
 - Nhập email:
     - Không hỗ trợ ngôn ngữ có dấu, không chứa dấu cách, nhập theo định dạng `local-part@domainname`
     - Để nâng cao tính chính xác, người dùng cần tuân thủ các quy định sau:
@@ -57,7 +59,9 @@ Nếu email **đã tồn tại** trong hệ thống, hệ thống sẽ tự đ�
 
 Sau khi quay lại giao diện danh sách thành viên, thông báo thành công sẽ xuất hiện phía trên màn hình:
 
-<!-- []() -->
+![Thêm thành viên thành công](/docs/images/streaming-platform/app-management/02-member/message/create.png)
+
+*Thông báo: Thêm thành viên thành công!*
 
 Thông tin của thành viên mới mời sẽ được hiển thị đầu danh sách, bao gồm các chi tiết sau:
 
