@@ -40,13 +40,13 @@ Mỗi sự kiện, ngay sau khi được tạo, sẽ được phân loại vào 
 
 Mỗi nút thực hiện một nhiệm vụ riêng biệt, vui lòng xem cách mỗi button thực hiện chức năng của mình.
 
-- [Nhập chương trình](./b-epg/5-import-epg.md)
+- [Nhập chương trình](./2-epg/2.5-import-epg.md)
 
-- [Xuất chương trình](./b-epg/6-export-epg.md)
+- [Xuất chương trình](./2-epg/2.6-export-epg.md)
 
-- [Tạo chương trình](./b-epg/1.create-epg.md)
+- [Tạo chương trình](./2-epg/2.1-create-epg.md)
 
-- [Thêm sự kiện](./c-event/1-create-event.md)
+- [Thêm sự kiện](./3-event/1-create-event.md)
 
 ### Hiển thị
 
@@ -64,7 +64,7 @@ Ba loại sự kiện: SCTE35, Live, VOD
 - Hiển thị **nội dung đa phương tiện** với loại sự kiện **Live** và loại sự kiện **VOD**|hình thức **nội dung thay thế**.
 - Hiển thị biểu tượng **đồng hồ** (hover để xem Lịch sự kiện) cho những sự kiện với kiểu xuất bản là lập lịch.
 <!-- - Hiển thị biểu tượng **đồng bộ** (hover để xem Đã đồng bộ) cho những sự kiện đã được đồng bộ. -->
-- Nhấp vào sự kiện hiển thị cửa sổ [cập nhật sự kiện](./c-event/3-event/3.2-edit.md).
+- Nhấp vào sự kiện hiển thị cửa sổ [cập nhật sự kiện](./3-event/3-event/3.2-edit.md).
 
 Các element khác trong giao diện:
 - **Thanh trượt** chạy từ 00:00 đến 24:00 của 1 ngày và cách đều nhau 6 tiếng, người dùng có thể thực hiện các thao tác trượt đoạn thời gian giúp lọc thông tin trên dòng dự kiện.
@@ -78,8 +78,8 @@ Các element khác trong giao diện:
 
 Ba danh sách ở section cuối, mặc định hiển thị danh sách chương trình.
 
-[Danh sách chương trình](./b-epg/1-epg-list.md)
+- [Danh sách chương trình](./2-epg/2.2-epg-list.md)
 
-[Danh sách sự kiện](./c-event/3-event/3.1-view.md)
+- [Danh sách sự kiện](./3-event/3-event/3.1-view.md)
 
-[Danh sách sự kiện lập lịch](./c-event/2-event-echedule/2.1-view.md)
+- [Danh sách sự kiện lập lịch](./3-event/2-event-echedule/2.1-view.md)

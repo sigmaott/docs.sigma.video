@@ -9,7 +9,7 @@ Tại màn hình chính hệ thống chọn **Danh sách kênh**
 
 Màn hình chính hệ thống hiển thị:
 
-![](/images/lrm/list/channel-lrm.png)
+![Danh sách kênh](/docs/images/lrm/list/channel-lrm.png)
 
 
 * Các thông tin được hiển thị trong giao diện:
