@@ -14,7 +14,7 @@ Tại giao diện màn hình chính Danh sách kênh, người dùng click vào 
 
 Hệ thống hiển thị **Pop-up thêm kênh mới** giữa giao diện:
 
-![](/docs/images/lrm/pop-up/create-channel.png)
+![](/images/lrm/pop-up/create-channel.png)
  
  Các thông tin hiển thị:
 

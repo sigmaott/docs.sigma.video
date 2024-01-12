@@ -44,7 +44,7 @@ Bạn sẽ được dẫn đến cửa sổ cấu hình, thực hiện theo hư�
 
 3. Cấu hình mục tiêu của kênh bằng cách nhấp vào biểu tượng `dấu +`.
 
-![](/docs/images/media-live/get-started/select-target.png)
+![](/images/media-live/get-started/select-target.png)
 
 - Hiển thị pop-up chọn đầu ra.
 
@@ -52,17 +52,17 @@ Bạn sẽ được dẫn đến cửa sổ cấu hình, thực hiện theo hư�
 
 4. Lựa chọn đầu ra là `udp`.
 
-![](/docs/images/media-live/get-started/target-output-udp.png)
+![](/images/media-live/get-started/target-output-udp.png)
 
 - Sau đó, đặt tên cho mục tiêu:
 
-![](/docs/images/media-live/get-started/target-name.png)
+![](/images/media-live/get-started/target-name.png)
     Tên: `catchup-flow`
     Tên thay thế( không bắt buộc): `su-dung-cho-kenh-LRM`
 
 Hiển thị trở về trang thông tin mục tiêu:
 
-![](/docs/images/media-live/get-started/target-udp.png)
+![](/images/media-live/get-started/target-udp.png)
 
 - Tên và tên thay thế được hiển thị theo cấu hình trước.
 - **Định dạng**:  `udp` không cho phép sửa.
@@ -77,7 +77,7 @@ Hiển thị các dữ liệu của profile và nhập đường dẫn udp.
 
 Ví dụ: `udp://239.32.42.1:5000`
 
-![](/docs/images/media-live/get-started/profile-udp.png)
+![](/images/media-live/get-started/profile-udp.png)
 
 ### Chuẩn bị kênh Media Live luồng cathup
 Lựa chọn đầu ra là `HLS`.
@@ -85,7 +85,7 @@ Người dùng tiếp tục bằng cách nhập tên cho đầu ra `HLS`.
 
 Hiển thị thông tin cấu hình HLS, khi chức năng catchup được bật, các tùy chọn **profile| storage** cũng sẽ tự động được kích hoạt.
 
-![](/docs/images/media-live/get-started/target-catchup.png)
+![](/images/media-live/get-started/target-catchup.png)
 
 
 Sau khi tạo, kênh được lấy dữ liệu từ [kênh media live](/04-getting-started/b-get-started#Bước-1-Truy-cập-vào-hệ-thống-quản-lí-sóng-trực-tuyến)

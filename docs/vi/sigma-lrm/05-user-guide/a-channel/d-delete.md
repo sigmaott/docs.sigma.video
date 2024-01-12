@@ -13,7 +13,7 @@ Tại giao diện màn hình chính, chọn trường cần xoá. Hệ thống s
  
 Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận ở trung tâm màn hình.
 
-![](/docs/images/lrm/pop-up/delete-channel.png)
+![](/images/lrm/pop-up/delete-channel.png)
  
  *Pop-up xoá kênh*
 

@@ -16,7 +16,7 @@ Tại giao diện màn hình chính, người dùng có thể thực hiện ch�
 
 **Bước 2:** Khi người dùng nhấp vào biểu tượng chỉnh sửa, hệ thống sẽ hiển thị một cửa sổ pop-up **Cập nhật chỉnh sửa kênh** giữa màn hình, hiển thị các thông tin đã nhập trước đó.
 
-![](/docs/images/lrm/pop-up/update-lrm.png)
+![](/images/lrm/pop-up/update-lrm.png)
 
 *Pop-up Cập nhật chỉnh sửa kênh*
 
