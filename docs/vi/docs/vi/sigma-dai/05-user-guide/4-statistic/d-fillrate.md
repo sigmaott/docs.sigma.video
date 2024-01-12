@@ -12,7 +12,7 @@ Người dùng chọn **Tỷ lệ hiển thị**.
 
 Hệ thống hiển thị giao diện Tỷ lệ hiển thị:
 
-![](//images/dai/statistic-fillrate.png)
+![](/images/dai/statistic-fillrate.png)
 
 <center>
 
