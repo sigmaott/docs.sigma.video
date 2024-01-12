@@ -11,7 +11,7 @@ Báo cáo dữ liệu là quá trình thu thập và định dạng dữ liệu 
 
 Hệ thống hiển thị giao diện Báo cáo dữ liệu:
 
-![](//images/dai/statistic-data-report.png)
+![](/images/dai/statistic-data-report.png)
 
 <center>
 
