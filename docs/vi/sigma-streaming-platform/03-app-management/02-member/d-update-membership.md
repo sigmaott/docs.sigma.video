@@ -14,6 +14,8 @@ Giao diện tại danh sách thành viên:
 
 Hiển thị một cửa sổ **Chỉnh sửa thành viên**:
 
+![Chỉnh sửa thành viên](/docs/images/streaming-platform/app-management/02-member/pop-up/edit.png)
+
 - **Tên**: Email của người dùng - không cho phép sửa.
 - **Các nhóm quyền**: Danh sách các nhóm quyền hiện tại được chọn.
 
@@ -23,7 +25,7 @@ Nhấp vào nút `Lưu`.
 
 **Bước 3**: Ghi nhận thay đổi quyền và hiển thị thông báo:
 
-<!-- ![]() -->
+![Chỉnh sửa thành viên thành công](/docs/images/streaming-platform/app-management/02-member/message/edit.png)
 
 *Thông báo: Chỉnh sửa thành viên thành công!*
 

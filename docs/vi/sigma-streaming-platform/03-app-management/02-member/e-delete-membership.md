@@ -16,7 +16,9 @@ Tại màn hình chính, quản trị viên chọn thành viên cần xoá. Hệ
 Lưu ý: Nút `Xoá` sẽ bị vô hiệu hóa, không cho phép xoá tài khoản của chính mình.
 
 Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận ở trung tâm màn hình.
- 
+
+![Xoá thành viên](/docs/images/streaming-platform/app-management/02-member/pop-up/delete.png)
+
  *Pop-up xoá thành viên*
 
  * Tiêu đề: Bạn có chắc chắn muốn xoá thành viên?
@@ -27,7 +29,7 @@ Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một 
  
 Người dùng nhấp vào nút **Xác nhận** để xác nhận việc xoá tư cách thành viên khác. Hệ thống sẽ hiển thị một cửa sổ pop-up thông báo phía trên của màn hình.
  
- <!-- ![]() -->
+ ![Xoá thành viên](/docs/images/streaming-platform/app-management/02-member/message/delete.png)
 
  *Thông báo Xoá thành viên thành công!*
  
