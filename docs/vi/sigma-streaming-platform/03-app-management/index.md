@@ -1,5 +1,5 @@
 ---
 id: doc-guideline-sigma-streaming-platform
-title: Giới thiệu
-order: 1
+title: app-management
+order: 3
 ---
