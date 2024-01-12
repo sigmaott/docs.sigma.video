@@ -17,7 +17,7 @@ Tại giao diện chính, người dùng có thể thực hiện tạo bản sao
 
 **Bước 2:** Khi người dùng nhấp vào biểu tượng `Nhân bản`, hệ thống sẽ mở một cửa sổ pop-up **Nhân bản Profile** giữa màn hình, hiển thị các dữ liệu đã nhập trước đó.
 
-<!-- ![]() -->
+![Tạo bản sao profile](/docs/images/media-live/profile/duplicate.PNG)
 
 _Pop-up Nhân bản Profile_
 
