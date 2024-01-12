@@ -17,7 +17,7 @@ order: 4
 
 Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâm màn hình với các chi tiết sau:
 
-![Xóa nhà phân phối](../images/delete-distributor.png)
+![Xóa nhà phân phối](/images/application-vtvhub/delete-distributor.png)
 
 
 - Tiêu đề: Xoá nhà phân phối

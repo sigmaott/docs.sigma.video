@@ -16,7 +16,7 @@ Chức năng này cho phép người dùng CMS bật xác thực hai yếu tố 
 
 **Bước 2**: Người dùng thực hiện **Bật** xác thực hai yếu tố. Hệ thống hiển thị pop-up **Thiết lập thông qua trình xác thực của bên thứ ba** bao gồm các thông tin:
 
-![](../images/../../../images/pop-up-verify-config.png)
+![Pop-up xác thực](/images/streaming-platform/2-factor-authen/pop-up-verify-config.png)
 
 - **Mã QR code**: mục đích để người dùng quét mã bằng ứng dụng xác thực
 - **Mã code**: mục đích để người dùng nhập mã code vào ứng dụng xác thực
@@ -30,7 +30,7 @@ Chức năng này cho phép người dùng CMS bật xác thực hai yếu tố 
 
 Người dùng sử dụng `Mã xác thực` này để nhập vào phần **Nhập mã xác nhận** ở popup 
 
-![](../images/../../../images/pop-up-enter-verify-code.png)
+![Pop-up xác nhận](/images/streaming-platform/2-factor-authen/pop-up-enter-verify-code.png)
 
 **Bước 5**: Sau khi nhập hoàn thành, người dùng nhấn nút **"Hoàn thành"**
 
@@ -38,7 +38,7 @@ Hệ thống sẽ kiểm tra sự đúng đắn của mã xác nhận với ứn
 
 Nếu kiểm tra mã xác thực đúng, hệ thống sẽ hiển thị thông báo **Chúc mừng! Bạn đã kích hoạt xác thực hai yếu tố!** đồng thời hiển thị pop-up **Mã khôi phục** dành cho tài khoản người dùng 
 
-![](../images/../../../images/enable-2FA-user-successful.png)
+![Kích hoạt thành công](/images/streaming-platform/2-factor-authen/enable-2FA-user-successful.png)
 
 Với các thông tin chính:
 

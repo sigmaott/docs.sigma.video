@@ -13,7 +13,7 @@ Giao diện danh sách nhà phân phối là một phần quan trọng trong h�
 
 Truy cập CMS, tại sidebar chọn VTVhub, giao diện danh sách nhà phân phối hiển thị:
 
-![Xem danh sách nhà phân phối](../images/view-distributor-list.png)
+![Xem danh sách nhà phân phối](/images/application-vtvhub/view-distributor-list.png)
 
 Trong màn hình chính của hệ thống, bạn sẽ thấy các thông tin được hiển thị trên giao diện bao gồm:
 

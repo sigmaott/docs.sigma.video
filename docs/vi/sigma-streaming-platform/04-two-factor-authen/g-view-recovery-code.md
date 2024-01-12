@@ -14,11 +14,11 @@ Chức năng này cung cấp cho người dùng CMS mã khôi phục (có thể 
 
 Tại màn hình Cài đặt (tài khoản người dùng), người dùng bấm nút "Xem danh sách mã khôi phục"
 
-![](../images/../../../images/view-recovery-code.png)
+![Xem danh sách mã khôi phục](/images/streaming-platform/2-factor-authen/view-recovery-code.png)
 
 Hiển thị màn hình Danh sách mã khôi phục với các thông tin sau:
 
-![](../images/../../../images/view-recovery-code-2.png)
+![Xem danh sách mã khôi phục](/images/streaming-platform/2-factor-authen/view-recovery-code-2.png)
 
 - Mô tả: Nếu bạn bị mất điện thoại hoặc quyền truy cập vào mật khẩu bí mật dùng một lần của mình, mỗi mã khôi phục này có thể được sử dụng một lần để lấy lại quyền truy cập vào tài khoản của bạn. Vui lòng lưu chúng ở nơi an toàn, nếu không bạn sẽ mất quyền truy cập vào tài khoản của mình.
 

@@ -13,7 +13,7 @@ order: 3
 
 Hệ thống sẽ mở một cửa sổ pop-up **Chỉnh sửa preset** với các thông tin đã được nhập trước đó, **cho phép chỉnh sửa tất cả các trường **
 
-![Chỉnh sửa preset](../images/../../images/update-preset.png)
+![Chỉnh sửa preset](/images/media-live/preset/update-preset.png)
 
 
 **Bước 2**: Người dùng thực hiện chỉnh sửa thông tin và sau đó nhấn nút **Xác nhận**
