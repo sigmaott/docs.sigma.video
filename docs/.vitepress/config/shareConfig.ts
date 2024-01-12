@@ -50,8 +50,8 @@ export const versionLinks = ((): DefaultTheme.NavItemWithLink[] => {
 
 const ogDescription = 'Next Generation Frontend Tooling'
 const ogImage = 'https://main.vitejs.dev/og-image.png'
-const ogTitle = 'Vite'
-const ogUrl = 'https://main.vitejs.dev'
+const ogTitle = 'Sigma Streaming Platform Docs'
+const ogUrl = 'https://sigma.video'
 
 export const sharedConfig = defineConfig({
   title: 'Sigma Streaming Platform',
