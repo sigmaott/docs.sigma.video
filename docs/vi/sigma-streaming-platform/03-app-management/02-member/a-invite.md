@@ -15,7 +15,7 @@ order: 1
 - **Kiểm soát chất lượng**: Ngăn chặn việc chỉnh sửa, đảm bảo chất lượng nội dung và mở rộng đội ngũ một cách linh hoạt.
 
 ## Chuẩn bị
-Trước khi bắt đầu, việc sử dụng dịch vụ Sigma Streaming yêu cầu các thành viên phải có tài khoản truy cập. Nếu bạn chưa có tài khoản, hãy tham khảo hướng dẫn để tạo tài khoản mới [Tạo tài khoản mới]().
+Trước khi bắt đầu, việc sử dụng dịch vụ Sigma Streaming yêu cầu các thành viên phải có tài khoản truy cập. Nếu bạn chưa có tài khoản, hãy tham khảo hướng dẫn để tạo tài khoản mới [Tạo tài khoản mới](../../02-user-management/a-sign-up.md#đăng-kí-tài-khoản).
 
 ## Thêm thành viên
 
@@ -105,7 +105,7 @@ Người dùng sẽ nhận được email mời tham gia và chỉ cần nhấp 
 
 Thành viên sẽ được chuyển hướng đến hệ thống SSP| đăng ký tài khoản, sử dụng tài khoản email đã được mời. Lúc này, họ sẽ không có quyền chỉnh sửa thông tin và sẽ được yêu cầu đặt mật khẩu.
 
-Để thực hiện quy trình đăng ký, vui lòng xem hướng dẫn chi tiết [tại đây](). 
+Để thực hiện quy trình đăng ký, vui lòng xem hướng dẫn chi tiết [tại đây](../../02-user-management/a-sign-up.md#đăng-kí-tài-khoản). 
 
 Sau khi hoàn tất quá trình đăng ký, hệ thống sẽ mở giao diện Tổng quan ứng dụng cho người dùng.
 

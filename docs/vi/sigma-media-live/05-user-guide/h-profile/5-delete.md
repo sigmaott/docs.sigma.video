@@ -16,7 +16,7 @@ Tại giao diện chính, chọn profile cần xoá. Hệ thống sẽ hiển th
  
 Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận giữa màn hình.
 
- ![Xoá profile](/images/media-live/profile/delete.PNG)
+ ![Xoá profile](/images/media-live/profile/delete.png)
  
  *Pop-up xoá profile*
 

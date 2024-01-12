@@ -19,7 +19,7 @@ Hiển thị một cửa sổ **Chỉnh sửa thành viên**:
 - **Tên**: Email của người dùng - không cho phép sửa.
 - **Các nhóm quyền**: Danh sách các nhóm quyền hiện tại được chọn.
 
-**Bước 2**: Nhấp vào `nhóm quyền` hoặc có thể tạo nhanh một nhóm theo hướng dẫn [tại đây]().
+**Bước 2**: Nhấp vào `nhóm quyền` hoặc có thể tạo nhanh một nhóm theo hướng dẫn [tại đây](../03-group/b-create.md#tạo-nhóm).
 
 Nhấp vào nút `Lưu`.
 

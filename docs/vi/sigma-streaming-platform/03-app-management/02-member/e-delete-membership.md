@@ -44,4 +44,4 @@ Nếu thành viên đang trong ứng dụng và bị người khác xoá tư cá
 
 > Xin lỗi, bạn không có quyền truy cập trang này.
 
-Người dùng có thể nhấp vào nút `Return to homepage` để trở về danh sách ứng dụng. Ứng dụng không hiển thị trong danh sách ứng dụng của người dùng do không có quyền truy cập.
+Người dùng có thể nhấp vào nút `Về tổng quan` để trở về danh sách ứng dụng. Ứng dụng không hiển thị trong danh sách ứng dụng của người dùng do không có quyền truy cập.
