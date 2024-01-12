@@ -57,7 +57,7 @@ Chia làm 2 loại:
 
 Các chương trình gốc có thời lượng chạy xuyên suốt trong ngày. Thời gian kết thúc của chương trình liền trước là thời gian bắt đầu của chương trình liền sau.
 - Hiển thị các tag **ẩn** với các chương trình đã được ẩn.
-- Nhấp vào chương trình hiển thị cửa sổ [thông tin chương trình]().
+- Nhấp vào chương trình hiển thị cửa sổ [thông tin chương trình](2-epg/2.2-epg-list.md#xem-thông-tin-từng-chương-trình).
 2. Sự kiện
 Hiển thị thêm nội dung đa phương tiện
 Ba loại sự kiện: SCTE35, Live, VOD

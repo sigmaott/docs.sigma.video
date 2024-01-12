@@ -1,6 +1,6 @@
 ---
 title: Truy vấn
-order: 2
+order: 5
 ---
 # Truy vấn 
 Chức năng này cho phép người dùng CMS tìm kiếm các thông tin nhanh, áp dụng tương tự ở nhiều giao diện màn hình khác nhau, chỉ thay đổi tên trường tìm kiếm.

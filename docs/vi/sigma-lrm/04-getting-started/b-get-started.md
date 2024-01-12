@@ -88,7 +88,7 @@ Hiển thị thông tin cấu hình HLS, khi chức năng catchup được bật
 ![](/images/media-live/get-started/target-catchup.png)
 
 
-Sau khi tạo, kênh được lấy dữ liệu từ [kênh media live](/04-getting-started/b-get-started#Bước-1-Truy-cập-vào-hệ-thống-quản-lí-sóng-trực-tuyến)
+Sau khi tạo, kênh được lấy dữ liệu từ [kênh media live](../../sigma-media-live/05-user-guide/b-transcode-package-channel).
 
 ### Chuẩn bị Dữ liệu kênh nguồn VTV
 Với dữ liệu nguồn mặc định VTV, người dùng cần thêm các thông tin để lấy danh sách lịch phát sóng. 

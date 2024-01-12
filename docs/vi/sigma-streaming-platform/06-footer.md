@@ -1,6 +1,6 @@
 ---
 title: Footer
-order: 2
+order: 6
 ---
 # Footer
 
