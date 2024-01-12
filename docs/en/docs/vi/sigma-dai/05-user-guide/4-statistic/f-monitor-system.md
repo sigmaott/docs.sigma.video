@@ -12,7 +12,7 @@ Người dùng chọn **Giám sát hệ thống**.
 
 Hệ thống hiển thị giao diện Giám sát hệ thống:
 
-![](//images/dai/statistic-monitor-system.png)
+![](/images/dai/statistic-monitor-system.png)
 
 <center>
 
