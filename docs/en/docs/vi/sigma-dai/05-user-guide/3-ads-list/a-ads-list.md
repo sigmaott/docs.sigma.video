@@ -17,7 +17,7 @@ Các thông tin hiển thị ở đây giúp người dùng theo dõi các quả
 
 Hệ thống hiển thị giao diện Danh sách quảng cáo gồm các thông tin sau:
 
-![](//images/dai/list-ad-default-off.PNG)
+![](/images/dai/list-ad-default-off.PNG)
 
 <center>
 
