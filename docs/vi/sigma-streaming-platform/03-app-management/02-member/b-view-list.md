@@ -19,6 +19,10 @@ Trang mặc định hiển thị **thông tin ứng dụng**.
 
 **Bước 2**: Chuyển sang tab `Members`.
 
+![Danh sách thành viên](/docs/images/streaming-platform/app-management/02-member/list.png)
+
+*Giao diện danh sách thành viên*
+
 Sau khi **tạo ứng dụng**, trong danh sách thành viên mặc định, chỉ có một thành viên là tài khoản chính của người dùng. Thông tin về thành viên này bao gồm:
 - Thời gian tạo, được ghi nhận là thời điểm tạo ứng dụng.
 - Trạng thái `Joined`.

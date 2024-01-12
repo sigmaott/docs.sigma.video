@@ -15,6 +15,8 @@ Thực hiện tạo mới profile theo các bước sau:
 **Bước 1**: tại danh sách profile, nhấp vào nút `+Thêm mới` ở góc phải màn hình.
 Hệ thống sẽ hiển thị một cửa sổ pop-up **Thêm mới profile** ở giữa màn hình.
 
+![Tạo mới](/docs/images/media-live/profile/create.PNG)
+
 - Hiển thị mặc định tên profile theo dạng: `profile_[số do hệ thống random]` giúp người dùng tối ưu thời gian trong quá trình cấu hình.
 - Lựa chọn kiểu preset
 
@@ -25,9 +27,11 @@ Sau khi nhấp vào kiểu preset, hiển thị dropdownlist 2 lựa chọn:
 - [New preset](./1-create-profile#new-preset)
 
 
-### Existing preset
+### Preset đã tồn tại
 Để cấu hình một cách nhanh chóng, người dùng có thể chọn `existing preset`- các preset được cấu hình trong hệ thống. 
 Hệ thống sẽ hiển thị một cửa sổ.
+
+![Preset đã tồn tại](/docs/images/media-live/profile/existing-video.PNG)
 
 Danh sách các preset bao gồm:
 - Tiêu đề: Thêm [video/ audio/ data] tương ứng
@@ -62,7 +66,7 @@ Chỉ cho phép chọn **1 video**.
 
 Người dùng chọn mục `video` , sau đó hiển thị các thông tin như sau:
  
- 
+ ![video](/docs/images/media-live/profile/create-data.PNG)
 
 | Tên trường           | Mô tả                                                        | Bắt buộc | Kiểu dữ liệu  | Mặc định | Rule                                                         |
 | -------------------- | ------------------------------------------------------------ | -------- | ------------- | -------- | ------------------------------------------------------------ |
@@ -86,6 +90,8 @@ Cho phép chọn nhiều nhất **10 audio**.
 
 Người dùng chọn mục `audio` , sau đó hiển thị các thông tin như sau:
 
+![Audio](/docs/images/media-live/profile/audio.PNG)
+
 | Tên trường  | Mô tả                                                        | Bắt buộc | Kiểu dữ liệu | Mặc định | Rule                                                         |
 | ----------- | ------------------------------------------------------------ | -------- | ------------ | -------- | ------------------------------------------------------------ |
 | Loại        | Loại preset                                                  | Có       | Textbox      | **Audio**    | Disable không cho phép sửa.                                  |
@@ -104,6 +110,9 @@ Cho phép chọn nhiều nhất **10 data**.
 
 Người dùng chọn mục `audio`, sau đó hiển thị các thông tin như sau:
 
+![Data](/docs/images/media-live/profile/data.PNG)
+
+
 | Tên trường | Mô tả                                                        | Bắt buộc | Kiểu dữ liệu | Mặc định | Rule                                  |
 | ---------- | ------------------------------------------------------------ | -------- | ------------ | -------- | ------------------------------------- |
 | Loại       | Loại preset                                                  | Có       | Textbox      | **Data** | Disable không cho phép sửa.           |
@@ -112,9 +121,9 @@ Người dùng chọn mục `audio`, sau đó hiển thị các thông tin như 
 
 ## Các button
 
-- **Nút "Huỷ"**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
+- Nút `Huỷ`: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
 
-- **Nút "lưu"**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
+- Nút `Xác nhận`: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
 
 
 ##  Lưu cấu hình
