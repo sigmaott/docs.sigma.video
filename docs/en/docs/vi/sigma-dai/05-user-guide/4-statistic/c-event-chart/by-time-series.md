@@ -11,7 +11,7 @@ Hiển thị theo mốc thời gian cụ thể
 
 Hiển thị giao diện Theo thời gian
 
-![](//images/dai/event-chart-by-timeseries.png)
+![](/images/dai/event-chart-by-timeseries.png)
 
 <center>
 
