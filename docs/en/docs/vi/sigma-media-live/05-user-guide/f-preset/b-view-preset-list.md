@@ -11,7 +11,7 @@ Trên màn hình chính của Media Live, người dùng trỏ chuột vào Chan
 
 Màn hình chính hệ thống hiển thị giao diện màn hình danh sách preset
 
-![Xem danh sách preset](../images/../../images/view-preset-list.png)
+![Xem danh sách preset](/images/media-live/preset/view-preset-list.png)
 
 Các thông tin chính bao gồm:
 
