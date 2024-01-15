@@ -13,7 +13,9 @@ Sau khi đã tạo và kích hoạt kênh, quá trình xoá các kênh không c�
 
 Tại giao diện màn hình chính, chọn trường cần xoá. Hệ thống sẽ hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào biểu tượng `Xoá` ở cột hành động.
 
-Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận ở trung tâm màn hình
+Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận ở trung tâm màn hình.
+
+![](/images/lrm/pop-up/delete-channel.png)
 
 _Pop-up xoá kênh_
 
@@ -24,8 +26,6 @@ _Pop-up xoá kênh_
 **Bước 2** :
 
 Người dùng nhấp vào nút **Xác nhận** để xác nhận việc xoá thông tin kênh. Hệ thống sẽ hiển thị một cửa sổ pop-up thông báo phía trên của màn hình.
-
- <!-- ![]() -->
 
 _Thông báo Xoá kênh thành công!_
 
