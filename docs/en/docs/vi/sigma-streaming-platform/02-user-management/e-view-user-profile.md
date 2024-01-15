@@ -9,9 +9,9 @@ Thông tin tài khoản người dùng cần được bảo vệ và quản lý 
 
 Thông tin này bao gồm các phần chính như:
 
-- [Hồ sơ](./e-view-user-profile#hồ-sơ)
-- [Đổi mật khẩu](./e-view-user-profile#đổi-mật-khẩu)
-- [Quản lý app](./e-view-user-profile#quản-lí-app)
+- [Hồ sơ](#hồ-sơ)
+- [Đổi mật khẩu](#đổi-mật-khẩu)
+- [Quản lý app](#quản-lí-app)
 
 ## Hồ sơ
 
@@ -65,7 +65,7 @@ _Thông báo: Đổi Mật Khẩu Thành Công!_
 
 ### Truy cập vào hệ thống
 
-Tài khoản đăng nhập lại với mật khẩu mới, xem hướng dẫn thực hiện đăng nhập tại đây.
+Tài khoản đăng nhập lại với mật khẩu mới, xem hướng dẫn thực hiện đăng nhập [tại đây](c-sign-in.md#đăng-nhập-tài-khoản).
 
 ## Quản lí App
 
@@ -81,7 +81,7 @@ Giao diện sẽ hiển thị với các thông tin sau:
 - **Ngôn ngữ**:
   - Tiếng Việt
   - Tiếng Anh
-- Xác thực 2 yếu tố: xem hướng dẫn tại đây.
+- Xác thực 2 yếu tố: xem hướng dẫn [tại đây](../04-two-factor-authen/e-login-with-2fa.md#đăng-nhập-hệ-thống-khi-bật-xác-thực-hai-yếu-tố).
 
 2. Chọn các cấu hình, và giao diện sẽ ngay lập tức thay đổi theo lựa chọn của bạn.
 
