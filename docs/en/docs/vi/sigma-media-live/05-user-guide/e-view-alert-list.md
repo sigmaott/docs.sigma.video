@@ -11,7 +11,7 @@ Trên màn hình chính của Media Live, người dùng lựa chọn **Alerts**
 
 Màn hình chính hệ thống hiển thị giao diện màn hình danh sách cảnh báo.
 
-![Xem danh sách cảnh báo](../images/view-alerts-list1.png)
+![Xem danh sách cảnh báo](/images/media-live/event-channel/view-alerts-list1.png)
 
 Các thông tin chính bao gồm:
 
