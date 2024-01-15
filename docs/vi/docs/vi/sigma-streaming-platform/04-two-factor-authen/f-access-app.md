@@ -19,7 +19,7 @@ Chức năng này cho phép người dùng CMS truy cập ứng dụng khi ứng
 - **<u>Trường hợp 1</u>**: Nếu người dùng _**bật xác thực hai yếu tố**_, chuyển sang **bước 5**
 - **<u>Trường hợp 2</u>**: Nếu người dùng đang _**tắt xác thực hai yếu tố**_, hệ thống hiển thị thông báo từ chối truy cập và yêu cầu người dùng bật xác thực hai yếu tố của tài khoản người dùng:
 
-![](../images/../../../images/deny-access.png)
+![Từ chối truy cập](/images/streaming-platform/2-factor-authen/deny-access.png)
 
 Với các thông tin sau
 
