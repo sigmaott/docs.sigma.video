@@ -19,7 +19,7 @@ Người dùng chọn `profile`
 
 Giao diện hiển thị:
 
-![Danh sách profile](/docs/images/media-live/profile/list.png)
+![Danh sách profile](/images/media-live/profile/list.png)
 
 Các thông tin được hiển thị trong giao diện:
 - ID: Sau khi người dùng tạo mới profile, hệ thống sinh ra ID riêng cho profile với mục đích nhận diện.

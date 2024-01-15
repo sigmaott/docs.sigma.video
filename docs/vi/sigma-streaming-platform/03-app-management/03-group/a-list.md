@@ -8,7 +8,7 @@ order: 1
 
 Người dùng có thể truy cập danh sách nhóm từ màn hình chính của hệ thống bằng cách chọn **Danh sách nhóm**. Giao diện của màn hình chính bao gồm:
 
-![Danh sách nhóm](/docs/images/streaming-platform/app-management/03-group/list.png)
+![Danh sách nhóm](/images/streaming-platform/app-management/03-group/list.png)
 
 *Danh sách nhóm*
 

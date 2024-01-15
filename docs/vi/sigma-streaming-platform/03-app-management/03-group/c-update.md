@@ -17,7 +17,7 @@ Tại màn hình chính, người dùng có thể thực hiện chỉnh sửa b�
 **Bước 2:** 
 Khi người dùng nhấp vào biểu tượng `chỉnh sửa`, hệ thống sẽ hiển thị một cửa sổ pop-up **Chỉnh Sửa Nhóm** giữa màn hình, hiển thị các thông tin đã chọn trước đó.
 
-![Chỉnh Sửa Nhóm](/docs/images/streaming-platform/app-management/03-group/pop-up/edit.png)
+![Chỉnh Sửa Nhóm](/images/streaming-platform/app-management/03-group/pop-up/edit.png)
 
 *Pop-up Chỉnh sửa nhóm*
 
@@ -31,6 +31,6 @@ Sau khi người dùng thực hiện các thay đổi và nhấn nút `Lưu`, h�
 ## Thành viên nhóm
 Sau khi chỉnh sửa nhóm, các thành viên được gán vào nhóm sẽ mất quyền truy cập vào hệ thống. Trong trường hợp này, một trang lỗi UI 403 sẽ được hiển thị để thông báo về việc không có quyền truy cập. 
 
-![Lỗi 403](/docs/images/streaming-platform/app-management/03-group/error-403.png)
+![Lỗi 403](/images/streaming-platform/app-management/03-group/error-403.png)
 
 Người dùng có thể nhấp vào nút `Về tổng quan` để trở lại danh sách ứng dụng và sidebar chỉ hiển thị các sản phẩm có quyền truy cập.

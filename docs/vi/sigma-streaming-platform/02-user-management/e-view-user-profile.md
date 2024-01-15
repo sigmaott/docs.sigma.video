@@ -7,9 +7,9 @@ order: 1
 Thông tin tài khoản người dùng cần được bảo vệ và quản lý một cách an toàn để đảm bảo sự riêng tư và bảo mật cho người dùng. Đồng thời, việc thu thập và sử dụng thông tin này cũng phải tuân theo các quy định về quyền riêng tư và luật lệ hiện hành.
 
 Thông tin này bao gồm các phần chính như:
-- [Hồ sơ](./e-view-user-profile#hồ-sơ)
-- [Đổi mật khẩu](./e-view-user-profile#đổi-mật-khẩu)
-- [Quản lý app](./e-view-user-profile#quản-lí-app)
+- [Hồ sơ](#hồ-sơ)
+- [Đổi mật khẩu](#đổi-mật-khẩu)
+- [Quản lý app](#quản-lí-app)
 
 ## Hồ sơ
 Để xem các thông tin tài khoản người dùng, thực hiện các bước sau:
@@ -60,7 +60,7 @@ Sau khi điền đầy đủ thông tin, nhấp vào nút `Lưu`.
 Điều này không chỉ giúp tăng cường bảo mật tài khoản của bạn mà còn đảm bảo rằng chỉ người dùng chính xác mới có thể truy cập vào tài khoản.Thông báo thành công giúp bạn biết được rằng quá trình đổi mật khẩu đã được thực hiện thành công và mật khẩu mới của bạn đã được cập nhật trong hệ thống.
 
 ### Truy cập vào hệ thống
-Tài khoản đăng nhập lại với mật khẩu mới, xem hướng dẫn thực hiện đăng nhập [tại đây]().
+Tài khoản đăng nhập lại với mật khẩu mới, xem hướng dẫn thực hiện đăng nhập [tại đây](c-sign-in.md#đăng-nhập-tài-khoản).
 
 ## Quản lí App
 Thay đổi giao diện ứng dụng tạo trải nghiệm thân thiện với người dùng để cải thiện sự thoải mái và sự tiện ích khi sử dụng. Dưới đây là quy trình để thực hiện thay đổi giao diện:
@@ -74,7 +74,7 @@ Giao diện sẽ hiển thị với các thông tin sau:
 - **Ngôn ngữ**:
     - Tiếng Việt
     - Tiếng Anh
-- Xác thực 2 yếu tố: xem hướng dẫn [tại đây]().
+- Xác thực 2 yếu tố: xem hướng dẫn [tại đây](../04-two-factor-authen/e-login-with-2fa.md#đăng-nhập-hệ-thống-khi-bật-xác-thực-hai-yếu-tố).
 
 2. Chọn các cấu hình, và giao diện sẽ ngay lập tức thay đổi theo lựa chọn của bạn. 
 
