@@ -15,18 +15,18 @@ Giao diện tại danh sách thành viên:
 
 Hiển thị một cửa sổ **Chỉnh sửa thành viên**:
 
-![Chỉnh sửa thành viên](/docs/images/streaming-platform/app-management/02-member/pop-up/edit.png)
+![Chỉnh sửa thành viên](/images/streaming-platform/app-management/02-member/pop-up/edit.png)
 
 - **Tên**: Email của người dùng - không cho phép sửa.
 - **Các nhóm quyền**: Danh sách các nhóm quyền hiện tại được chọn.
 
-**Bước 2**: Nhấp vào `nhóm quyền` hoặc có thể tạo nhanh một nhóm theo hướng dẫn tại đây.
+**Bước 2**: Nhấp vào `nhóm quyền` hoặc có thể tạo nhanh một nhóm theo hướng dẫn [tại đây](../03-group/b-create.md#tạo-nhóm).
 
 Nhấp vào nút `Lưu`.
 
 **Bước 3**: Ghi nhận thay đổi quyền và hiển thị thông báo:
 
-![Chỉnh sửa thành viên thành công](/docs/images/streaming-platform/app-management/02-member/message/edit.png)
+![Chỉnh sửa thành viên thành công](/images/streaming-platform/app-management/02-member/message/edit.png)
 
 _Thông báo: Chỉnh sửa thành viên thành công!_
 
