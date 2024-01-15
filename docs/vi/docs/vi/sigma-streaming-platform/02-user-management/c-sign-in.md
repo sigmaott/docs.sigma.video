@@ -15,7 +15,7 @@ Tính năng giúp người dùng có thể thực hiện đăng nhập tài kho�
 
 Hệ thống hiển thị màn hình **Đăng nhập** với các thông tin
 
-![](../images/../../../images/sign-in-1.png)
+![Đăng nhập tài khoản ](/images/streaming-platform/user-management/sign-in-1.png)
 
 - **Email:** yêu cầu nhập, không hỗ trợ ngôn ngữ có dấu, không chứa dấu cách
 - **Mật khẩu:** yêu cầu nhập, bắt buộc phải chứa ít nhất 1 kí tự in hoa, 1 kí tự in thường và số
