@@ -21,7 +21,7 @@ Trang mặc định hiển thị **thông tin ứng dụng**.
 
 **Bước 2**: Chuyển sang tab `Members`.
 
-![Danh sách thành viên](/docs/images/streaming-platform/app-management/02-member/list.png)
+![Danh sách thành viên](/images/streaming-platform/app-management/02-member/list.png)
 
 _Giao diện danh sách thành viên_
 
