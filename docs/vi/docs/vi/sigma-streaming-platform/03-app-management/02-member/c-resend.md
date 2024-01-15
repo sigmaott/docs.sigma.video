@@ -13,7 +13,7 @@ Bước 1: Nhấp vào nút `Resend` ở cột `Hành động` của email trong
 
 Hiển thị một cửa sổ xác nhận với các tùy chọn:
 
-![Gửi lại thư mời](/docs/images/streaming-platform/app-management/02-member/pop-up/resend.png)
+![Gửi lại thư mời](/images/streaming-platform/app-management/02-member/pop-up/resend.png)
 
 _Gửi lại thư mời_
 
