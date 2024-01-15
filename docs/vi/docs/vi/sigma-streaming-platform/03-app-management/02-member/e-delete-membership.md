@@ -18,7 +18,7 @@ Lưu ý: Nút `Xoá` sẽ bị vô hiệu hóa, không cho phép xoá tài kho�
 
 Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận ở trung tâm màn hình.
 
-![Xoá thành viên](/docs/images/streaming-platform/app-management/02-member/pop-up/delete.png)
+![Xoá thành viên](/images/streaming-platform/app-management/02-member/pop-up/delete.png)
 
 _Pop-up xoá thành viên_
 
@@ -30,7 +30,7 @@ _Pop-up xoá thành viên_
 
 Người dùng nhấp vào nút **Xác nhận** để xác nhận việc xoá tư cách thành viên khác. Hệ thống sẽ hiển thị một cửa sổ pop-up thông báo phía trên của màn hình.
 
-![Xoá thành viên](/docs/images/streaming-platform/app-management/02-member/message/delete.png)
+![Xoá thành viên](/images/streaming-platform/app-management/02-member/message/delete.png)
 
 _Thông báo Xoá thành viên thành công!_
 
@@ -46,4 +46,4 @@ Nếu thành viên đang trong ứng dụng và bị người khác xoá tư cá
 
 > Xin lỗi, bạn không có quyền truy cập trang này.
 
-Người dùng có thể nhấp vào nút `Return to homepage` để trở về danh sách ứng dụng. Ứng dụng không hiển thị trong danh sách ứng dụng của người dùng do không có quyền truy cập.
+Người dùng có thể nhấp vào nút `Về tổng quan` để trở về danh sách ứng dụng. Ứng dụng không hiển thị trong danh sách ứng dụng của người dùng do không có quyền truy cập.
