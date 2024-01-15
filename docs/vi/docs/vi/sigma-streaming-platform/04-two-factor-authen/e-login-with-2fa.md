@@ -14,7 +14,7 @@ Chức năng này cho phép người dùng CMS đăng nhập hệ thống khi b�
 
 **Bước 1**: Người dùng ở màn hình đăng nhập của hệ thống gồm các thông tin:
 
-![](../images/../../../images/login-1.png)
+![Đăng nhập](/images/streaming-platform/2-factor-authen/login-1.png)
 
 - Email: Tên email của người dùng (bắt buộc nhập)
 - Mật khẩu: Mật khẩu của tài khoản người dùng (bắt buộc nhập)
@@ -31,7 +31,7 @@ Chức năng này cho phép người dùng CMS đăng nhập hệ thống khi b�
 
 **Bước 4**: Hệ thống hiển thị màn hình Xác nhận mã đăng nhập
 
-![](../images/../../../images/login-2.png)
+![Xác nhận mã đăng nhập](/images/streaming-platform/2-factor-authen/login-2.png)
 
 yêu cầu người dùng nhập _**mã đăng nhập**_ để hệ thống xác thực tài khoản, cho phép đăng nhập
 
