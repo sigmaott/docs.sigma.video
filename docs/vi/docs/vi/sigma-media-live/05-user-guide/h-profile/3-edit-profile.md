@@ -19,7 +19,7 @@ Tại giao diện chính, người dùng có thể thực hiện sửa đổi b�
 
 Khi người dùng nhấp vào biểu tượng `chỉnh sửa`, hệ thống sẽ mở một cửa sổ pop-up **Cập nhật Profile** giữa màn hình, hiển thị các dữ liệu đã nhập trước đó.
 
-![Cập nhật profile](/docs/images/media-live/profile/update.PNG)
+![Cập nhật profile](/images/media-live/profile/update.png)
 
 _Pop-up Cập nhật Profile_
 
