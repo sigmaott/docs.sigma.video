@@ -16,7 +16,7 @@ order: 1
 
 ## Chuẩn bị
 
-Trước khi bắt đầu, việc sử dụng dịch vụ Sigma Streaming yêu cầu các thành viên phải có tài khoản truy cập. Nếu bạn chưa có tài khoản, hãy tham khảo hướng dẫn để tạo tài khoản mới Tạo tài khoản mới.
+Trước khi bắt đầu, việc sử dụng dịch vụ Sigma Streaming yêu cầu các thành viên phải có tài khoản truy cập. Nếu bạn chưa có tài khoản, hãy tham khảo hướng dẫn để tạo tài khoản mới [Tạo tài khoản mới](../../02-user-management/a-sign-up.md#đăng-kí-tài-khoản).
 
 ## Thêm thành viên
 
@@ -28,7 +28,7 @@ Trên giao diện hiển thị danh sách thành viên, người quản trị c�
 
 Hiển thị một Pop-up mời thành viên với các phần sau:
 
-![Mời Thành Viên](/docs/images/streaming-platform/app-management/02-member/pop-up/create.png)
+![Mời Thành Viên](/images/streaming-platform/app-management/02-member/pop-up/create.png)
 
 - Nhập email:
   - Không hỗ trợ ngôn ngữ có dấu, không chứa dấu cách, nhập theo định dạng `local-part@domainname`
@@ -61,7 +61,7 @@ Nếu email **đã tồn tại** trong hệ thống, hệ thống sẽ tự đ�
 
 Sau khi quay lại giao diện danh sách thành viên, thông báo thành công sẽ xuất hiện phía trên màn hình:
 
-![Thêm thành viên thành công](/docs/images/streaming-platform/app-management/02-member/message/create.png)
+![Thêm thành viên thành công](/images/streaming-platform/app-management/02-member/message/create.png)
 
 _Thông báo: Thêm thành viên thành công!_
 
@@ -108,6 +108,6 @@ Người dùng sẽ nhận được email mời tham gia và chỉ cần nhấp 
 
 Thành viên sẽ được chuyển hướng đến hệ thống SSP| đăng ký tài khoản, sử dụng tài khoản email đã được mời. Lúc này, họ sẽ không có quyền chỉnh sửa thông tin và sẽ được yêu cầu đặt mật khẩu.
 
-Để thực hiện quy trình đăng ký, vui lòng xem hướng dẫn chi tiết tại đây.
+Để thực hiện quy trình đăng ký, vui lòng xem hướng dẫn chi tiết [tại đây](../../02-user-management/a-sign-up.md#đăng-kí-tài-khoản).
 
 Sau khi hoàn tất quá trình đăng ký, hệ thống sẽ mở giao diện Tổng quan ứng dụng cho người dùng.
