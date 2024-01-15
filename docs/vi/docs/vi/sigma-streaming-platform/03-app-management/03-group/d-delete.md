@@ -15,7 +15,7 @@ Tại giao diện màn hình chính, chọn trường cần xoá. Hệ thống s
 
 Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận ở trung tâm màn hình
 
-![Xoá nhóm](/docs/images/streaming-platform/app-management/03-group/pop-up/delete.png)
+![Xoá nhóm](/images/streaming-platform/app-management/03-group/pop-up/delete.png)
 
 _Pop-up xoá nhóm_
 
@@ -41,6 +41,6 @@ _Thông báo Xoá nhóm thành công!_
 
 Sau khi chỉnh sửa nhóm, các thành viên được gán vào nhóm sẽ mất quyền truy cập vào hệ thống. Trong trường hợp này, một trang lỗi UI 403 sẽ được hiển thị để thông báo về việc không có quyền truy cập.
 
-![Lỗi 403](/docs/images/streaming-platform/app-management/03-group/error-403.png)
+![Lỗi 403](/images/streaming-platform/app-management/03-group/error-403.png)
 
 Người dùng có thể nhấp vào nút `Về tổng quan` để trở lại danh sách ứng dụng và sidebar chỉ hiển thị các sản phẩm có quyền truy cập.
