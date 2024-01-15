@@ -32,30 +32,96 @@ Trước khi bắt đầu, bạn cần chuẩn bị các tác vụ sau:
 
 ## Bước 2: Chuẩn bị thông tin nguồn
 
-Kênh media live: Danh sách kênh được lấy dữ liệu từ [kênh media live](/04-getting-started/b-get-started#Bước-1-Truy-cập-vào-hệ-thống-quản-lí-sóng-trực-tuyến)
+Để triển khai kênh LRM, bạn cần trước tiên thiết lập kênh Media live với chức năng luồng catchup. Dưới đây là cách tạo một kênh mới với các đầu ra quan trọng:
 
-Dữ liệu kênh nguồn
+- **Catchup**: Hỗ trợ bên thứ ba truy cập và lấy nội dung thông qua giao thức HLS.
+- **Udp**: Cung cấp bên thứ ba khả năng đóng gói lại và chuyển đổi thành các luồng như HLS, DASH có thể phát qua internet.
 
-- Với dữ liệu nguồn mặc định VTV, người dùng cần thêm các thông tin để lấy danh sách lịch phát sóng.
-- Endpoint: `http://example-endpoint.com`
-- Mã chương trình: `5`
+Hướng dẫn tạo kênh media live như sau:
+
+1. Đảm bảo người dùng có quyền truy cập vào Media live. Truy cập thanh menu và chọn **kênh | kênh transcode**.
+
+Hệ thống sẽ chuyển hướng bạn đến trang kênh transcode.
+
+2. Nhấn vào nút `+ Thêm` ở góc phải của màn hình.
+
+Bạn sẽ được dẫn đến cửa sổ cấu hình, thực hiện theo hướng dẫn chi tiết tại đây.
+
+3. Cấu hình mục tiêu của kênh bằng cách nhấp vào biểu tượng `dấu +`.
+
+![](/images/media-live/get-started/select-target.png)
+
+- Hiển thị pop-up chọn đầu ra.
+
+### Chuẩn bị kênh Media Live với đầu ra udp
+
+4. Lựa chọn đầu ra là `udp`.
+
+![](/images/media-live/get-started/target-output-udp.png)
+
+- Sau đó, đặt tên cho mục tiêu:
+
+![](/images/media-live/get-started/target-name.png)
+Tên: `catchup-flow`
+Tên thay thế( không bắt buộc): `su-dung-cho-kenh-LRM`
+
+Hiển thị trở về trang thông tin mục tiêu:
+
+![](/images/media-live/get-started/target-udp.png)
+
+- Tên và tên thay thế được hiển thị theo cấu hình trước.
+- **Định dạng**:  `udp` không cho phép sửa.
+
+5. Lựa chọn profile:
+
+Nhấp vào nút thêm để chọn profile.
+
+![](/images/media-live/get-started/select-profile.png)
+
+Hiển thị các dữ liệu của profile và nhập đường dẫn udp.
+
+Ví dụ: `udp://239.32.42.1:5000`
+
+![](/images/media-live/get-started/profile-udp.png)
+
+### Chuẩn bị kênh Media Live luồng cathup
+
+Lựa chọn đầu ra là `HLS`.
+Người dùng tiếp tục bằng cách nhập tên cho đầu ra `HLS`.
+
+Hiển thị thông tin cấu hình HLS, khi chức năng catchup được bật, các tùy chọn **profile| storage** cũng sẽ tự động được kích hoạt.
+
+![](/images/media-live/get-started/target-catchup.png)
+
+Sau khi tạo, kênh được lấy dữ liệu từ [kênh media live](../../sigma-media-live/05-user-guide/b-transcode-package-channel).
+
+### Chuẩn bị Dữ liệu kênh nguồn VTV
+
+Với dữ liệu nguồn mặc định VTV, người dùng cần thêm các thông tin để lấy danh sách lịch phát sóng.
+
+Ví dụ:
+
+- Endpoint: `https://vtvapi1.vtv.vn/services/programschedules.ashx`
+- Mã chương trình: `3`
 - Khoá API: `111aaa7890zz`
 
-## Bước 3: Tạo mới kênh
+## Bước 3: Tạo mới kênh LRM
 
 Để quản lí sóng và các nội dung thay thế có thể thực hiện nhiệm vụ của nó, phân phối nội dung tới người xem. Bạn cần tạo 1 kênh để chứa nó đồng thời kiểm soát các nội dung trực tiếp hoặc VOD đến từng đối tượng khách hàng. Luồng đầu vào tín hiệu kênh được ingest từ hệ thống của Thudo JSC.
 Bạn lựa chọn với 1 kênh sẵn do hệ thống sinh ra, hoặc chuẩn bị sẵn nguồn, mã chương trình, khoá API trường hợp bạn mong muốn sử dụng cấu hình kênh riêng của mình.
 
 ### Để tạo mới kênh
 
-1. Tại mục danh sách kênh, click vào button **+ Add** góc phải màn hình
-2. Hệ thống hiển thị Pop-up Tạo mới kênh
-3. Người dùng nhập các thông tin theo yêu cầu.
+Để thêm một kênh mới, hãy thực hiện các bước sau tại mục danh sách kênh:
+
+1. Nhấn vào nút `+ Thêm` ở góc phải của màn hình.
+2. Một cửa sổ pop-up Tạo mới kênh sẽ xuất hiện.
+3. Nhập đầy đủ thông tin theo yêu cầu để tạo kênh mới. Điền vào các trường thông tin cần thiết trong cửa sổ pop-up để cá nhân hóa và xác định đặc điểm của kênh của bạn.
 4. Thực hiện tạo kênh và chạy kênh mong muốn.
 
 Trường hợp kênh có bật cấu hình tự động đồng bộ. Khi hoàn tất, hệ thống sẽ tự động đồng bộ lịch phát sóng từ dữ liệu nguồn theo đúng thời điểm cấu hình.
 
-## Bước 4:Kiểm tra các cấu hình, chương trình, sự kiện
+## Bước 4: Kiểm tra các cấu hình, chương trình, sự kiện
 
 Người dùng có thể xem các thông tin cơ bản kênh LRM được hiển thị trong danh sách. Kiểm tra các chương trình sự kiện người dùng phải vào thông tin chi tiết.
 
