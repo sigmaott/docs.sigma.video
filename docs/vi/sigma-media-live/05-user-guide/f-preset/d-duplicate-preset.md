@@ -15,7 +15,7 @@ Người dùng muốn tạo 1 bản sao với preset đã có trước đó, gi�
 
 Sau đó, một cửa sổ pop-up **Nhân bản preset** sẽ xuất hiện, hiển thị các thông tin đã nhập trước đó, cho phép người dùng chỉnh sửa tất cả các trường thông tin 
 
-![Tạo bản sao preset](../images/../../images/duplicate-preset.png)
+![Tạo bản sao preset](/images/media-live/preset/duplicate-preset.png)
 
 
 **Bước 2:** Người dùng nhập thông tin cần thiết.

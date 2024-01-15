@@ -15,7 +15,7 @@ Hệ thống hiển thị màn hình **Đăng nhập**
 
 Hệ thống hiển thị màn hình **Đăng kí**, với các thông tin chính: 
 
-![](../images/../../../images/sign-up-1.png)
+![Đăng kí tài khoản](/images/streaming-platform/user-management/sign-up-1.png)
 
 - **Email:** yêu cầu nhập, không hỗ trợ ngôn ngữ có dấu, không chứa dấu cách
 - **Mật khẩu:** yêu cầu nhập, bắt buộc phải chứa ít nhất 1 kí tự in hoa, 1 kí tự in thường và số

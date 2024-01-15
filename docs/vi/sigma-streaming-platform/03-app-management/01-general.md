@@ -17,7 +17,7 @@ Truy cập vào giao diện thông tin chung của ứng dụng, có 2 cách ng�
 
 Sau đó, hệ thống sẽ hiển thị màn hình Thông tin chung của ứng dụng, với các thông tin chính: 
 
-![](../images/../../../images/view-general.png)
+![Xem thông tin chung của ứng dụng](/images/streaming-platform/app-management/view-general.png)
 
 - **ID**: mã định danh duy nhất đối với ứng dụng (có thể thực hiện sao chép)
 
@@ -27,4 +27,4 @@ Sau đó, hệ thống sẽ hiển thị màn hình Thông tin chung của ứng
 
 Ngoài ra, hệ thống còn cung cấp thêm chức năng bảo mật xác thực 2 yếu tố dành cho ứng dụng, nhằm nâng cao bảo mật cho ứng dụng 
 
-Xem chi tiết tại [Bật xác thực hai yếu tố cho ứng dụng](../04-two-factor-authen/c-enable-2fa-for-app.md) 
+Xem chi tiết tại [Bật xác thực hai yếu tố cho ứng dụng](../04-two-factor-authen/c-enable-2fa-for-app.md)

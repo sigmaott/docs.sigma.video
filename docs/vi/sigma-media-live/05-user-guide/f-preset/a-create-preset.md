@@ -17,7 +17,7 @@ Hệ thống hiển thị giao diện màn hình danh sách preset hiện có
 
 Hệ thống hiển thị pop-up tạo mới preset ở giữa màn hình. Với các thông tin chung:
 
-![Tạo mới preset](../images/../../images/create-preset.png)
+![Tạo mới preset](/images/media-live/preset/create-preset.png)
 
 - **Tên**: Tên của preset (bắt buộc nhập, nhập tối đa 50 kí tự)
 - **Mô tả**: Mô tả preset (không bắt buộc nhập, nhập tối đa 200 kí tự)

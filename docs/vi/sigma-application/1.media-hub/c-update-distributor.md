@@ -17,7 +17,7 @@ order: 3
 
 Hệ thống sẽ mở một cửa sổ pop-up **Chỉnh sửa nhà phân phối** với các thông tin đã được nhập trước đó, cho phép chỉnh sửa các trường thông tin: **_Tên và kênh_**
 
-![Chỉnh sửa nhà phân phối](../images/update-distributor.png)
+![Chỉnh sửa nhà phân phối](/images/application-vtvhub/udpate-distributor.png)
 
 **Bước 3:** Người dùng thực hiện chỉnh sửa và sau đó nhấn nút **Xác nhận**
 

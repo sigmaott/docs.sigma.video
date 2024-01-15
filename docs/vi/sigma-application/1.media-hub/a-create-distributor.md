@@ -17,7 +17,7 @@ Chức năng này cho phép CMS thêm mới nhà phân phối trên vtvhub để
 
 Hệ thống hiển thị pop-up **_Thêm nhà phân phối mới_** 
 
-![Tạo nhà phân phối](../images/create-distributor.png)
+![Tạo nhà phân phối](/images/application-vtvhub/create-distributor.png)
 
 
   Với các thông tin chính:
