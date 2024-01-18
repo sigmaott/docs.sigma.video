@@ -30,7 +30,7 @@ The Sigma Streaming Platform system supports the following standards:
    5. **Primary Interface Network** please select 1 card that receives this udp multicast ignore.
 
 
-![Create Input](../images/um-create-input.png)
+![Create Input](/images/media-live/um-create-input.png)
 
 ::: tip Note
 

@@ -12,7 +12,7 @@ Trên màn hình chính của hệ thống, người dùng lựa chọn Danh sá
 
 Màn hình chính hệ thống hiển thị:
 
-![](/images/dai/list-endpoint.PNG)
+![](/images/dai/list-endpoint.png)
 
 Trong màn hình chính của hệ thống, bạn sẽ thấy các thông tin được hiển thị trên giao diện bao gồm:
   
@@ -31,7 +31,7 @@ Trong màn hình chính của hệ thống, bạn sẽ thấy các thông tin đ
 
 | Tên nút                | Chức năng                                                    |
 | ---------------------- | ------------------------------------------------------------ | 
-| **Icon đồng bộ**       | Góc phải bên dưới giao diện, luôn thực hiện đồng bộ hệ thống liên tục trong 10s | ![](../../image/icon_sync.png)         |
+| **Icon đồng bộ**       | Góc phải bên dưới giao diện, luôn thực hiện đồng bộ hệ thống liên tục trong 10s | ![](./images/icon_sync.png)         |
 | **Footer- chân trang** | 2022@ By Sigma Streaming                                     | 
 | Icon **Phân trang**           | Bao gồm các thông tin: Tổng số trang, lựa chọn số items/1 trang( mặc định 10 items/1 trang), trang hiện tại, nhảy tới trang mong muốn tìm kiếm. |
 | **Quick filter**       | Bộ lọc nhanh hỗ trợ tìm kiếm thông tin gồm: Tên và thẻ. |

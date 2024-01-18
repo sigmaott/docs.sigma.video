@@ -26,6 +26,7 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         text: 'Các thành phần',
         items: [
           { text: 'Sigma Media Live', link: '/vi/sigma-media-live/' },
+          { text: 'Sigma Media VOD', link: '/vi/sigma-media-vod/' },
           { text: 'Sigma Livestream', link: '/vi/sigma-livestream/' },
           { text: 'Sigma Interactive', link: '/vi/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/vi/sigma-lrm/' },

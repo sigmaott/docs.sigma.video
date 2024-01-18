@@ -26,6 +26,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         text: 'Components',
         items: [
           { text: 'Sigma Media Live', link: '/en/sigma-media-live/' },
+          { text: 'Sigma Media VOD', link: '/en/sigma-media-vod/' },
           { text: 'Sigma Livestream', link: '/en/sigma-livestream/' },
           { text: 'Sigma Interactive', link: '/en/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/en/sigma-lrm/' },

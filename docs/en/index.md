@@ -20,7 +20,7 @@ hero:
       link: https://github.com/sigmaott
 features:
   - icon: '💡'
-    title: Sigma Transcode Live
+    title: Sigma Media Live
     details: Convert video content directly from multiple threads
   - icon: '⚡️'
     title: Sigma Interactive
@@ -32,10 +32,10 @@ features:
     title: Sigma Dynamic Ads Insert
     details: Insert an active advertisement on the server
   - icon: '🔩'
-    title: Sigma Linear Right Management
-    details: Managing direct access to linear content
+    title: Sigma Media VOD
+    details: Convert video on demand content with Sigma VOD Server
   - icon: '🔑'
-    title: Sigma Packager
+    title: Sigma Linear Right Management
     details: Close the live video content package from multiple threads
 ---
 

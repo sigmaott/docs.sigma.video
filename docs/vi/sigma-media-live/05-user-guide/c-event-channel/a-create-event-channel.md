@@ -13,7 +13,9 @@ Tại giao diện màn hình chính kênh Event, người dùng click vào nút 
 
 Hệ thống màn hình **Thiết lập cấu hình cho Event Channel**, thiết lập cấu hình chung cho kênh Event
 
-![Thiết lập cấu hình chung](images/media-live/event-channel/create-event-channel-1.png)
+![Thiết lập cấu hình chung](/images/media-live/event-channel/create-event-channel-1.png)
+
+[](../d-input-management/d-duplicate-input.md#tạo-bản-sao-đầu-vào)
 
 Với các thông tin chính:
 
@@ -58,7 +60,7 @@ Hiển thị thanh thời gian sự kiện, hiển thị theo cấu hình của 
 
 ### Thiết lập cấu hình Pre-Event
 
-![Thiết lập cấu hình Pre-Event](images/media-live/event-channel/create-event-channel-pre-event.png)
+![Thiết lập cấu hình Pre-Event](/images/media-live/event-channel/create-event-channel-pre-event.png)
 
 Người dùng có thể bật hoặc tắt thiết lập cho Pre-Event, nếu **bật** người dùng phải cung cấp các thông tin sau để hoàn thành thiết lập:
 
@@ -70,7 +72,7 @@ Người dùng có thể bật hoặc tắt thiết lập cho Pre-Event, nếu *
 
 ### Thiết lập cấu hình Main-Event
 
-![Thiết lập cấu hình Main-Event](images/media-live/event-channel/create-event-channel-main-event.png)
+![Thiết lập cấu hình Main-Event](/images/media-live/event-channel/create-event-channel-main-event.png)
 
 Bắt buộc người dùng phải thiết lập cấu hình cho Main-Event
 
@@ -88,7 +90,7 @@ Bắt buộc người dùng phải thiết lập cấu hình cho Main-Event
 
 ### Thiết lập Post-Event
 
-![Thiết lập cấu hình Post-Event](images/media-live/event-channel/create-event-channel-post-event.png)
+![Thiết lập cấu hình Post-Event](/images/media-live/event-channel/create-event-channel-post-event.png)
 
 Người dùng có thể bật hoặc tắt thiết lập cho Pre-Event, nếu **bật** người dùng phải cung cấp các thông tin sau để hoàn thành thiết lập:
 
@@ -101,7 +103,7 @@ Người dùng có thể bật hoặc tắt thiết lập cho Pre-Event, nếu *
 
 Sau khi người dùng đã điền đủ các thông tin được yêu cầu, bấm nút "Tiếp theo", hệ thống chuyển sang màn hình Thiết lập Hồ sơ.
 
-![Thiết lập hồ sơ](images/media-live/event-channel/create-event-channel-profile.png)
+![Thiết lập hồ sơ](/images/media-live/event-channel/create-event-channel-profile.png)
 
 Hệ thống hiển thị mặc định 4 hồ sơ với thiết lập mặc định.
 
@@ -111,7 +113,7 @@ Người dùng có thể thiết lập tối 20 hồ sơ cho kênh (có thể l�
 
 Sau khi người dùng đã điền đủ các thông tin ở phần **Thiết lập hồ sơ**, bấm nút "Tiếp theo", hệ thống chuyển sang màn hình Thiết lập Hồ sơ.
 
-![Thiết lập Mục tiêu](images/media-live/event-channel/create-event-channel-target.png)
+![Thiết lập Mục tiêu](/images/media-live/event-channel/create-event-channel-target.png)
 
 Chọn phím ***Thêm*** ở mục **Mục tiêu** để thêm 1 đầu ra mong muốn. Popup hiển thị các đầu ra mong muốn sẽ hiện ra. Hệ thống hỗ trợ các đầu ra như sau:
 
@@ -150,6 +152,6 @@ Sau khi đã khởi tạo 1 đầu ra mong muốn. Cấu hình của đầu ra s
 
 Sau khi đã hoàn thành tất cả các bước trên, người dùng bấm nút **Tiếp theo**, hệ thống hiển thị màn hình Preview bao gồm những thông tin đã được cấu hình ở những bước trước, mục đích giúp người dùng có thể kiểm tra lại nội dung trước khi hoàn thành bước tạo kênh.
 
-![Xác nhận Preview](images/media-live/event-channel/create-event-channel-preview.png)
+![Xác nhận Preview](/images/media-live/event-channel/create-event-channel-preview.png)
 
 Sau khi kiểm tra lại thông, người dùng bấm nút **Xác nhận** để hoàn thành bước tạo kênh sự kiện. Sau khi kênh sự kiện được thêm mới thành công, sẽ hiển thị tại danh sách kênh sự kiện
