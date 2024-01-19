@@ -13,7 +13,7 @@ order: 6
 
 **Bước 2:** Hiển thị giao diện chi tiết kênh sự kiện với các thông tin sau:
 
-![Xem chi tiết kênh sự kiện](images/media-live/event-channel/view-details-event-channel.png)
+![Xem chi tiết kênh sự kiện](/images/media-live/event-channel/view-details-event-channel.png)
 
 - Trạng thái của kênh sự kiện, biểu tượng _**sao chép**_ (thực hiện sao chép mã ID của kênh)
 
