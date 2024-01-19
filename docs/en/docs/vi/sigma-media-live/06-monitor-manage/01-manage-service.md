@@ -1,91 +1,93 @@
 ---
-title: 'Service Management'
+title: Quản lý dịch vụ
 order: 1
 ---
 
 # {{ $frontmatter.title }}
 
+## Các thao tác với dịch vụ
 
-## Operations with service
-
-For a list of content, the application allows the user to interact with each element in the list through a group of functional buttons (See the illustration below). These buttons will show at the final column of the list table.
+Đối với những phần nội dung có dạng danh sách, ứng dụng cho phép người dùng tương tác với từng phần tử trong danh sách thông qua một nhóm các nút chức năng (Xem hình minh họa dưới đây).
+Các nút này sẽ hiển thị tại cột cuối cùng của bảng danh sách.
 
 ![Action Buttons](/images/media-live/manager-list-action.png)
 
----
+***
 
-::: info
+:::info
 Do mỗi phần nội dung trên ứng dụng có những tính năng và nghiệp vụ khác nhau, do đó, phần giao diện hiển thị các nút chức năng có thể khác nhau đôi chút.
 :::
 
----
+***
 
-### Detailed description
+### Mô tả chi tiết
 
 - `Start`: Bắt đầu kênh.
 - `Stop`: Dừng kênh
 - `Reset`: Dừng và bắt đầu lại kênh
 - `Clone` tạo một đối tượng mới có dữ liệu giống hệt với đối tượng ban đầu, đồng thời cũng có thể tùy chỉnh một vài thông số của đối tượng mới để phù hợp.
-- `Delete` xóa đối tượng được chọn. Before the implementation of the application will require the user to authenticate again.
-
+- `Delete` xóa đối tượng được chọn. Trước khi ứng dụng thực hiện xóa sẽ yêu cầu người dùng xác thực lại một lần nữa.
 
 ## Auto Refresh
 
-![Auto Refresh](../images/um-auto-refresh.jpg)
+![Auto Refresh](/images/media-live/um-auto-refresh.jpg)
 
-Allow shortcuts to automatically update the data after a certain amount of time.
+Cho phép bật tắt tính năng tự động cập nhật lại dữ liệu sau từng khoảng thời gian nhất định.
 
-There are five values to choose: *Turn* and intervals *Time 5s*, *Time 10s*, *Time 15s*, *Time 20s* corresponds to the time values of 5 seconds, 10 seconds, 15 seconds and 20 seconds will automatically update the new data for the user.
-
+Có 5 giá trị để lựa chọn: _Tắt_ và các khoảng thời gian _Thời gian 5s_, _Thời gian 10s_, _Thời gian 15s_, _Thời gian 20s_ tương ứng với các giá trị thời gian 5 giây, 10 giây, 15 giây và 20 giây sẽ tự động cập nhật dữ liệu mới cho người dùng.
 
 ## Filter
 
-In the contents of the table list, there is filter feature support, search for elements in one or a few specific conditions. The filter is displayed above each table.
+Trong các phần nội dung có dạng danh sách bảng, có hỗ trợ tính năng lọc, tìm kiếm các phần tử theo một hoặc một vài điều kiện cụ thể. Bộ lọc được hiển thị phía trên của mỗi bảng.
 
-After the completion of the filter/filtration, the valid elements are displayed on the interface.
-
+Sau khi hoàn thành tìm kiếm/lọc, các phần tử hợp lệ sẽ được hiển thị trên giao diện.
 
 ### Channel Filter
 
-![Channel Filter](../images/um-filter/channel.png)
+![Channel Filter](/images/media-live/um-filter/channel.png)
 
-The channel filter allows users to search for data according to the data fields as follows (from left to right on the description):
+Bộ lọc kênh cho phép người dùng tìm kiếm dữ liệu theo các trường dữ liệu như sau (từ trái sang phải trên hình mô tả):
 
-- `Status` The channel state, consisting of four options: `All`, `Live`, `Stated`, `Error`.
-- `Type` types of channels, including 2 options `Package`, `Transcode`.
+- `Status` trạng thái kênh, bao gồm 4 lựa chọn: `All`, `Live`, `Stopped`, `Error`.
 
-  ![Channel Type](../images/um-filter/type-channel.jpg)
+- `Type` loại kênh, bao gồm 2 lựa chọn `Package`, `Transcode`.
 
-- `Tag` tag assigned to the channel, user input tag.
-- `Name` locating the channel, the user name entry requires a search.
+  ![Channel Type](/images/media-live/um-filter/type-channel.jpg)
 
-## Page
+- `Tag` tag gán cho kênh, người dùng nhập tag.
 
-![Patination](../images/um-pagination/main.png)
+- `Name` định danh kênh, người dùng nhập tên kênh cần tìm kiếm.
 
-Perform the cataract correction actions with a list of lists that are listed in the list.
+## Phân trang
 
-The page interface consists of four main components:
+![Pagination](/images/media-live/um-pagination/main.png)
 
-- Total number of available elements.
+Thực hiện các thao tác điều chỉnh phân trang với các phần nội dung có dạng danh sách liệt kê.
 
-  ![Counter Pagination](../images/um-pagination/counter.png)
+Giao diện phân trang bao gồm 4 thành phần chính:
 
-- The option of the number of elements displayed on a page.<!-- !\[Fontsize Menu\](../images/um-pagination/page-size.png) -->![Page Size](../images/um-pagination/page-size-selection.jpg)
+- Tổng số lượng phần tử hiện có.
 
-  It is possible to choose `5`, `10`, `15`, `20`, `50`, `100` elements display on a page by selecting the corresponding values in the page menu, the default value is `10`.
+  ![Counter Pagination](/images/media-live/um-pagination/counter.png)
 
-- The current order.
+- Tùy chọn số lượng phần tử hiển thị trên một trang.
 
-  ![Page Select](../images/um-pagination/page-selection.png)
+  <!-- ![Fontsize Menu](/images/media-live/um-pagination/page-size.png) -->
 
-  - List existing pages.
-  - The current page is highlighted in blue ![Active Page](../images/um-pagination/actived-page.png){height=17px}.
-  - Move to the previous page/next page by selecting the ![Previous](../images/um-pagination/previous.png)symbol {height=17px} and ![Next](../images/um-pagination/next.png){height=17px}.
+  ![Page Size](/images/media-live/um-pagination/page-size-selection.jpg)
 
-- Move to any page.
+  Có thể tùy chọn `5`, `10`, `15`, `20`, `50`, `100` phần tử hiển thị trên một trang bằng cách chọn các giá trị tương ứng trong menu phân trang, giá trị mặc định là `10`.
 
-  ![Next](../images/um-pagination/jump-to.jpg)
+- Thứ tự trang hiện tại.
 
-  It can be moved to any page by entering the order number of the page in the picture above.
+  ![Page Select](/images/media-live/um-pagination/page-selection.png)
 
+  - Liệt kê các trang hiện có.
+  - Trang hiện tại được tô bằng màu nền xanh ![Active Page](/images/media-live/um-pagination/actived-page.png){ height=17px } .
+  - Di chuyển tới trang trước đó/trang kế tiếp lần lượt bằng cách chọn vào biểu tượng ![Previous](/images/media-live/um-pagination/previous.png){ height=17px } và ![Next](/images/media-live/um-pagination/next.png){ height=17px } .
+
+- Di chuyển tới một trang bất kỳ.
+
+  ![Next](/images/media-live/um-pagination/jump-to.jpg)
+
+  Có thể di chuyển tới một trang bất kỳ bằng cách nhập số thứ tự của trang vào ô trong hình trên
