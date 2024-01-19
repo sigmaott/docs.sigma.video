@@ -1,5 +1,4 @@
 ---
-title: 'Android'
+title: Android
 order: 1
 ---
-
