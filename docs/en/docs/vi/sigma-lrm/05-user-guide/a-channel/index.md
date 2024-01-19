@@ -1,6 +1,5 @@
 ---
-id: Doc-guideline-General-LRM
-title: Channel
+id: doc-guideline-General-LRM
+title: Kênh
 order: 1
 ---
-
