@@ -29,4 +29,11 @@ const members = [
 ]
 </script>
 
-<VPTeamPage> <VPTeamPageTitle> <template #title> Our Team </template> <template #lead> The development of Sigma Streaming Platform is guided by an international team, some of whom have chosen to be featured below. </template> </VPTeamPageTitle> <VPTeamMembers :members="members" /> </VPTeamPage>
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title></template>
+    <template #lead></template>
+  </VPTeamPageTitle>
+  <VPTeamMembers
+    :members="members"
+  /></VPTeamPage>
