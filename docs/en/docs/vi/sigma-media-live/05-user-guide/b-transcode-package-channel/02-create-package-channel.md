@@ -1,115 +1,114 @@
 ---
-title: 'Create a packaging channel'
+title: Tạo kênh đóng gói
 order: 2
 ---
 
 # {{ $frontmatter.title }}
 
+Kênh đóng gói (package) thực hiện việc chuẩn bị và bảo vệ video của bạn để phân phối qua Internet thông qua các định dạng truyền tải dữ liệu nội dung đa phương tiện qua giao thức http (HTTP Adaptive Stream) như HLS, DASH
 
-The packaging channel performs the preparation and protection of your video to distribute through the Internet via multimedia content data transmission formats via the http (HTTP Adaptive Stream) protocol such as HLS, DASH.
-
-To create a manual packaging channel, we do basic channel creation. Please choose to follow instructions.
+Để tạo một kênh đóng gói thủ công, ta thực hiện các bước tạo kênh cơ bản. vui lòng chọn theo hướng dẫn
 
 - **Manual** => **Package** => **Next**
 
-The interface view for the configuration of the packaging channel is now as follows:
+Màn hình giao diện dành cho việc cấu hình kênh đóng gói hiện ra như sau:
 
-![Create the manual package channel](../../images/um-create-channel/um-create-package-channel-1.png)
+![Tạo kênh đóng gói thủ công](/images/media-live/um-create-channel/um-create-package-channel-1.png)
 
+Trong đó menu bar bên phải sẽ có các mục như sau:
 
+1. **Config**: Cấu hình cơ bản của kênh
 
-In which the right bar menu will have the following items:
+2. **Inputs**: Cấu hình luồng đầu vào
 
-1. **Config**: Basic configuration of the channel
-2. **Inputs**: Configure the input stream
-3. **Profiles**: List of Profile uses
-4. **Targets**: Configuration list of desired outputs (HLS/DASH ... )
+3. **Profiles**: Danh sách các Profile sử dụng
 
-
+4. **Targets**: Cấu hình danh sách các đầu ra mong muốn (HLS/DASH ... )
 
 ::: tip
-* For the system packaging channel automatically configured **Profile** corresponding to **Input** is added. Vì vậy bạn chỉ việc thêm các giá trị **Input** các giá trị **Profile** sẽ được tự động thêm vào và bạn không có quyền thay đổi các giá trị này
-:::
 
-## B1. General Configuration
+- Đối với kênh đóng gói hệ thống sẽ tự động cấu hình **Profile** tương ứng với **Input** được thêm vào. Vì vậy bạn chỉ việc thêm các giá trị **Input** các giá trị **Profile** sẽ được tự động thêm vào và bạn không có quyền thay đổi các giá trị này
+  :::
 
-In the basic packaging channel configuration that is divided into the following items:
+## B1. Cấu hình Chung
+
+Trong cấu hình kênh đóng gói cơ bản được chia thành các mục sau:
+
 - **Information**:
-    - **Name**: The name of the channel used to differentiate and search the channel on the channel list
-    - **Description**: Channel description
-    - **Tags**: List of tags
-- **Name modifier**: The replacement of the channel must be unique across the entire system, serving the query of the manifest file briefly.
+  - **Name**: Tên của kênh dùng để phân biệt và tìm kiếm kênh ở danh sách kênh
+  - **Description**: Mô tả kênh
+  - **Tags**: Danh sách các tags
+- **Name modifier**: Tên thay thế của kênh phải là duy nhất trên toàn bộ hệ thống, phục vụ việc truy vấn tệp tin manifest 1 cách ngắn gọn
 
-::: tip
-Example: if the replacement name is **VTV1**: link access the manifest will be: *http://origin/com/manifest/VTV1/manifest_name*
+:::tip
+Ví dụ: nếu đặt tên thay thế là **VTV1**: link truy cập manifest sẽ có dạng là: _http\://origin/com/manifest/VTV1/manifest_name_
 :::
 
-- **Options**: Advanced configuration of channel
+- **Options**: Cấu hình nâng cao của kênh
 
-## B2. Configure the channel input
+## B2. Cấu hình đầu vào của kênh
 
-Select the Plus button to add input to the channel. Danh sách đầu vào cho kênh Package đã liệt kê sẵn sẽ hiện ra. Please select input for the desired channel
+Chọn nút Cộng để thêm đầu vào cho kênh. Danh sách đầu vào cho kênh Package đã liệt kê sẵn sẽ hiện ra. Vui lòng chọn đầu vào cho kênh mong muốn
 
 Với mỗi phần tử trong input list của đầu vào hệ thống sẽ tạo tự động 1 profile tương ứng, với tên thay thế được cài đặt khi tạo đầu vào
 
-::: info
-This alternate name helps the system define the desired profile name for the ABR file. For example with **1080p** you should name a replacement profile of **1080p**, this alternate name will have in the path of the manifest file with a profile of
+:::info
+Tên thay thế này giúp hệ thống định nghĩa tên profile mong muốn đối với tập profile ABR. Ví dụ với luồng đầu vào là **1080p** bạn nên đặt tên thay thế cho profile là **1080p**, tên thay thế này sẽ có trong đường dẫn của tệp tin manifest ứng với profile cần đóng gói
 :::
 
+## B3. Cấu hình Đầu ra đóng gói  của kênh
 
-## B3. Configure the channel's packaging output
+Chọn phím `Cộng` ở mục `Target` để thêm 1 đầu ra mong muốn. Popup hiển thị các đầu ra mong muốn sẽ hiện ra. Hệ thống hỗ trợ các đầu ra như sau:
 
-Chọn phím `Cộng` ở mục `Target` để thêm 1 đầu ra mong muốn. Popup displays the desired output. The system supports output as follows:
+- **HLS**: Apple Http Live Streaming
+- **DASH**: DASH
+- **UDP**: multicast hoặc unicast mpeg transport stream
+- **RTMP**: Realtime Message Protocol
 
-* **HLS**: Apple Http Live Streaming
-* **DASH**: DASH
-* **UDP**: multicast or unicast mpeg transport stream
-* **RTMP**: Realtime Message Protocol
+Sau khi đã khởi tạo 1 đầu ra mong muốn. Cấu hình của đầu ra sẽ hiện ra như sau. Trong đó:
 
-After you've created a desired output. The configuration of the output will appear as follows. In it:
+- **Data**: Cấu hình cơ bản của đầu ra
+  - **Name**: Tên của đầu ra
+  - **Replaced name**: Tên thêm vào cuối tập tin manifest nguồn, phải là duy nhất đối với các đầu ra khác nhau cùng loại HLS hoặc DASH, phục vụ việc tạo đường dẫn duy nhất cho các tập tin manifest của HLS hoặc DASH, nên được bắt đầu bằng dấu "_" hoặc "-". Có thể để là rỗng "" nếu bạn muốn giữ nguyên tên tập tin manifest nguồn
+    - Ví dụ: Nếu bạn để rỗng, tập tin manifest nguồn của HLS sẽ có tên là **master.m3u8** với Dash là **master.mpd**
+    - Ví dụ: Nếu bạn để là "**-tv360**, tập tin manifest nguồn của HLS sẽ có tên là **master-tv360.m3u8** với Dash là **master.mpd**
+  - **Format**: Tên của loại đầu ra
+  - **Description**: Mô tả đầu ra
 
-* **Data**: Basic configuration of output
-    * **Name**: Name of the output
-    * **Replaced name**: The name adds to the end of the source manifest file, which must be unique to different outputs of the same HLS or DASH, which serves the creation of a single path for HLS or DASH manifest files, which should be started with "_" or "-". Possible to be empty "" if you want to keep the source manifest file name
-        * For example: If you are empty, the HLS Source manifest file will be named **master.m3u8** with Dash as **master.mpd**
-        * Example: If you are to be "**-tv360**, the original HLS manifest file will be **master-tv360.m3u8** with Dash as **master.mpd**
-    * **Format**: Name of the output type
-    * **Description**: First description
-* **Manifest**: Configuration file **manifest** and **segment**
-    * **Container**: file format **segment**. The value is **mpeg-ts** or **fmp4**. The default is **mpeg-ts**
-    * **TS**: The length of 1 file **segment**. The default is six seconds.
-    * **Counter**: Number of Segment Files filed in file **manifest**
-    * **Time**: shortcut tag: **Progreaming-date-time**  used with the output of HLS
-* **DRM**: DRM coding configuration
-    * **Enable**: DRM shortcut configuration
-    * **Key provider**: Method of using key encryption, static or taken from a key encryption key server
-        * **static**: key encryption key
-        * **sigma-drm**: Sigma Drm coding system
-        * **Sigma-drm-v1**: Sigma DRM V1 coding system
-        * **Sigma-multi-drm**: Multi-DRM coding system supporting Widevine, PlayReady, FairPlay deployed by Sigma drm
-        * **drmtoday**: Multi-DRM coding system supporting Widevine, PlayReady, FairPlay deployed by castlab
-    * Thiết lập `DRM Credential` nếu có đối với `Sigma Multi DRM` `DRMtoday`
+- **Manifest**: Cấu hình tập tin **manifest** và **segment**
+  - **Container**: Định dạng tập tin **segment**. Có giá trị là **mpeg-ts** hoặc **fmp4**. Mặc định là **mpeg-ts**
+  - **TS**: Độ dài của 1 tập tin **segment**. Mặc định là 6 giây
+  - **Counter**: Số lượng tập tin Segment được lưu trong file **manifest**
+  - **Time**: bật tắt hiển thị tag: **Programing-date-time**  sử dụng với đầu ra là HLS
 
-* **Low Latency**: Low latency television configuration
-* **Catchup**: Configuration of Catchup-timeshift
+- **DRM**: Cấu hình mã hoá DRM
+  - **Enable**: Cấu hình bật tắt DRM
+  - **Key provider**: Phương thức cung cấp key mã hoá, tĩnh hoặc lấy từ server chứa key mã hoá
+    - **static**: key mã hoá tĩnh
+    - **sigma-drm**: Hệ thống mã hoá Sigma Drm
+    - **Sigma-drm-v1**: Hệ thống mã hoá Sigma DRM V1
+    - **Sigma-multi-drm**: Hệ thống mã hoá Multi-DRM hỗ trợ Widevine, PlayReady, FairPlay được triển khai bởi Sigma drm
+    - **drmtoday**: Hệ thống mã hoá Multi-DRM hỗ trợ Widevine, PlayReady, FairPlay được triển khai bởi castlab
+  - Thiết lập `DRM Credential` nếu có đối với `Sigma Multi DRM` `DRMtoday`
 
-    * **Storage**: Enable catchup-timeshift storage mode
-    * **Cache Time**: Configuration time configuration is calculated by now.
-    * **Trickplay**: Turn off Trickplay mode with catchup
+- **Low Latency**: Cấu hình truyền hình độ trễ thấp
 
-* **Startover**: Bật tắt chế độ lưu trữ `Startover`
+- **Catchup**: Cấu hình Lưu trữ Catchup-timeshift
 
-* **Preset**: Configuration of the profile packed into this output
+  - **Storage**: Bật tắt chế độ lữu trữ catchup-timeshift
+  - **Cache time**: Cấu hình thời gian lưu trữ mong muốn đơn vị được tính bằng giờ
+  - **Trickplay**: Bật tắt Trickplay mode với catchup
 
+- **Startover**: Bật tắt chế độ lưu trữ `Startover`
 
-### Configure configuration **preset** with output:
+- **Preset**: Cấu hình các profile được đóng gói vào đầu ra này
 
-1. chọn ![select profile](../../images/um-create-channel/um-select-profile.png){ width=100px } để lựa chọn các profile sẽ được đóng gói trong đầu ra này. The profile list will be shown
-2. integrate into squares to select **profile** you want to add to output => pressing **submit** to complete the operation
-3. The list of selected profiles will appear, you can manipulate the desired tasks for this list as added, delete, edit, and edit.
+### Hướng dẫn cấu hình **preset** với đầu ra:
 
+1. chọn ![select profile](/images/media-live/um-create-channel/um-select-profile.png){ width=100px } để lựa chọn các profile sẽ được đóng gói trong đầu ra này. Bảng danh sách profile sẽ được hiện ra
+2. tích vào ô vuông để chọn các **profile** bạn muốn thêm vào đầu ra => nhấn **submit** để hoàn thành thao tác
+3. Bảng danh sách các profile được chọn sẽ hiện ra, bạn có thể thao tác các tác vụ mong muốn đối với danh sách này như thêm, xoá, sửa
 
 ## B4. `Submit` Lưu kênh
 
 Sau khi lưu kênh, hệ thống sẽ tự động `start` kênh và các đầu ra của kênh tương ứng với từng target
-
