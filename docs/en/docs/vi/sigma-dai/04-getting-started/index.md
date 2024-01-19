@@ -1,6 +1,8 @@
----
-id: docs-guide-sigma-ssai
-title: List of advertisements
-order: 4
----
+***
 
+id: docs-guide-sigma-ssai
+title: Getting started
+
+order: 4
+
+***
