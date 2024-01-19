@@ -1,5 +1,5 @@
 ---
-title: 'B2: Tạo mới đầu vào'
+title: "B2: Tạo mới đầu vào"
 order: 4
 ---
 
@@ -8,6 +8,7 @@ order: 4
 Bạn phải tạo một đầu vào. Đầu vào xác định luồng dữ liệu media mà hệ thống Sigma Transcode Live sử dụng để chuyển mã hoặc đóng gói.
 
 Hệ thống Sigma Streaming Platform hỗ trợ các chuẩn đầu vào sau:
+
 - MPEG-TS over multicast UDP
 - RTMP push
 - RTMP pull
@@ -29,13 +30,12 @@ Hệ thống Sigma Streaming Platform hỗ trợ các chuẩn đầu vào sau:
    4. **Primary Source** điền thông tin về luồng đã chuẩn bị ở bước 1 [Cài đặt luồng đầu vào](./b-step1.md)
    5. **Primary Interface Network** vui lòng chọn 1 card mạng nhận luồng udp multicast này bỏ qua
 
+![Tạo Input](/images/media-live/um-create-input.png)
 
-![Tạo Input](../images/um-create-input.png)
-
-*Lưu ý: Nếu không điền thông tin về card mạng thì hệ thống sẽ tự lấy ở card mạng mặc định của máy*
-
+_Lưu ý: Nếu không điền thông tin về card mạng thì hệ thống sẽ tự lấy ở card mạng mặc định của máy_
 
 ### Chi tiết cấu hình đầu vào
+
 Vui lòng xem tại:
 
 1. [Cấu hình đầu vào cho kênh Transcode](../05-resource-input/01-transcode-input.md)
