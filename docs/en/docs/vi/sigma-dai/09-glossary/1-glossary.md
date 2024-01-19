@@ -1,36 +1,48 @@
 ---
-title: Concepts
+title: Các khái niệm
 order: 1
 ---
 
-# Related concepts
+# Các khái niệm liên quan
 
 Dưới đây là tổng quan về các khái niệm được sử dụng trong suốt Hướng dẫn sử dụng SSAI, có liên quan đến chèn quảng cáo:
 
-### Advertising Server (ADS)
-A server provides the specifications of the advertising point based on criteria including current advertising campaigns and viewer preferences.
+### Máy chủ quảng cáo (ADS)
 
-### Configure (Configuration)
-An object in the SSAI you interact with. The configuration contains location information about the original server and the advertising decision server (ADS). The configuration also contains endpoints that provide access points in and out of the SSAI.
+Một máy chủ cung cấp thông số kỹ thuật của điểm quảng cáo dựa trên các tiêu chí bao gồm các chiến dịch quảng cáo hiện tại và sở thích của người xem.
 
-### Dynamic transcoding
-A process matching process and advertising format with the main video content when content is required. The transfer code helps reduce the storage requirement and ensure that the rebroadcast process will be seamless between advertising and video content.
+### Cấu hình(Configuration)
 
-### Index manifold (Manifest)
-The process of rewriting the index files from the root server so that the manifest files references the appropriate content and advertising sections. The ad is determined by VAST feedback from the ad server (ADS). When the process is rebroadcast, the SSAI performs an ad inserts or promotional replacement into the content stream.
+Một đối tượng trong SSAI mà bạn tương tác. Cấu hình chứa thông tin vị trí về máy chủ gốc và máy chủ quyết định quảng cáo (ADS). Cấu hình cũng chứa các điểm cuối cung cấp điểm truy cập vào và ra khỏi SSAI.
+
+### Chuyển mã động(Dynamic transcoding)
+
+Một quy trình khớp chất lượng và định dạng quảng cáo với nội dung video chính khi nội dung được yêu cầu. Chuyển mã động giúp giảm yêu cầu lưu trữ và đảm bảo rằng quá trình phát lại sẽ chuyển tiếp liền mạch giữa nội dung quảng cáo và video.
+
+### Danh sách chỉ mục (Manifest manipulation)
+
+Quá trình viết lại các tệp chỉ mục từ máy chủ gốc để các tệp kê khai tham chiếu đến các đoạn nội dung và quảng cáo thích hợp. Quảng cáo được xác định bởi phản hồi VAST từ máy chủ quảng cáo (ADS). Khi tiến trình phát lại, SSAI thực hiện chèn quảng cáo hoặc thay thế quảng cáo vào luồng nội dung.
 
 ### VAST
-Mẫu phân phối quảng cáo video (VAST)  là các phản hồi XML mà máy chủ quyết định quảng cáo gửi đến các yêu cầu quảng cáo từ SSAI. The answers indicate the ads that SSAI inserted into the manifest file. For more information about the logic behind the inserts of the SSAI advert, see Learn about the behavior of SSAI's advertising inserts. Để biết thêm thông tin về cách SSAI hoạt động với VAST, hãy xem các yêu cầu VAST cho máy chủ quảng cáo.
-## Channel configuration concept
-The following is the overview of the concepts related to the channel configuration.
 
-### Channel (Channels)
-A channel that sets your source index into a linear stream. Each channel has one or more outputs containing the rebroadcast URLs that the player accusers. The channel output corresponds to the package configuration settings that you create for your VOD sources. A scheduled channel that determines the time the VOD sources will stream in the channel's flow.
+Mẫu phân phối quảng cáo video (VAST)  là các phản hồi XML mà máy chủ quyết định quảng cáo gửi đến các yêu cầu quảng cáo từ SSAI. Các câu trả lời cho biết quảng cáo mà SSAI chèn vào tệp kê khai. Để biết thêm thông tin về logic đằng sau việc chèn quảng cáo SSAI, hãy xem Tìm hiểu về hành vi chèn quảng cáo của SSAI. Để biết thêm thông tin về cách SSAI hoạt động với VAST, hãy xem các yêu cầu VAST cho máy chủ quảng cáo.
 
-### Source locations
-The source location represents the root server where your contents are stored. Nó có thể là máy chủ HTTP, mạng phân phối nội dung hoặc cơ sở hạ tầng đóng gói.
+## Khái niệm cấu hình kênh
 
-### VOD source (VOD sources)
-The VOD source represents part of the content, such as the film or episode of the television show. You link VOD sources with programs to add them to the linear flow of the channel.
+Dưới đây là tổng quan về các khái niệm liên quan đến cấu hình kênh.
+
+### Kênh( Channels)
+
+Một kênh tập hợp các chỉ mục nguồn của bạn thành một luồng tuyến tính. Mỗi kênh có một hoặc nhiều đầu ra chứa các URL phát lại mà người chơi truy cập. Đầu ra kênh tương ứng với cài đặt cấu hình gói mà bạn tạo cho các nguồn VOD của mình. Một kênh có lịch biểu xác định thời điểm các nguồn VOD sẽ phát trong luồng của kênh.
+
+### Vị trí nguồn( Source locations)
+
+Vị trí nguồn đại diện cho máy chủ gốc nơi nội dung của bạn được lưu trữ. Nó có thể là máy chủ HTTP, mạng phân phối nội dung hoặc cơ sở hạ tầng đóng gói.
+
+### Nguồn VOD ( VOD sources)
+
+Nguồn VOD đại diện cho một phần nội dung, chẳng hạn như phim hoặc tập của chương trình truyền hình. Bạn liên kết các nguồn VOD với các chương trình để thêm chúng vào luồng tuyến tính của kênh.
+
 ### Vmap (Video Multiple Ad Playlist)
+
 VMAP là một định dạng cho phép tổ chức và quản lý nhiều VAST Tags trong một chuỗi quảng cáo.
