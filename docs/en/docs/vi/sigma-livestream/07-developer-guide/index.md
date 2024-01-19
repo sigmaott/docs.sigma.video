@@ -1,5 +1,5 @@
 ---
-title: 'SDK'
+title: SDK
 order: 4
 ---
 
