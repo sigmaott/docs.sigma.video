@@ -1,5 +1,4 @@
 ---
-title: 'Manifest Filtering'
-order: Six.
+title: Manifest Filtering
+order: 6
 ---
-
