@@ -8,6 +8,7 @@ Cài đặt máy chủ lên hệ thống Sigma theo quá trình đơn giản:
 [[toc]]
 
 ### Chuẩn bị
+
 BE-support
 
 ### Lấy mã token để thực hiện cài đặt máy
@@ -25,8 +26,6 @@ Hệ thống sẽ trả về cho người dùng thông tin cài đặt máy cho 
   Ngoài ra, người dùng có thể thực hiện thao tác "Đổi mã đăng ký"
 
   ![Add Server](../image/getstarted/add-server.png)
-
-
 
 ### Thực hiện cài đặt máy
 
