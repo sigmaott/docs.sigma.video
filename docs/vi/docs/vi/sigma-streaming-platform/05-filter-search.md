@@ -4,6 +4,7 @@ order: 5
 ---
 
 # Truy vấn
+
 Chức năng này cho phép người dùng CMS tìm kiếm các thông tin nhanh, áp dụng tương tự ở nhiều giao diện màn hình khác nhau, chỉ thay đổi tên trường tìm kiếm.
 
 ## Tìm kiếm theo bộ lọc
@@ -14,9 +15,7 @@ Màn hình hiển thị Pop-up Cài đặt Bộ lọc ở chính giữa màn hì
 
 <!-- ![]()  -->
 
- Bảng mô tả các thông tin trong Pop-up bộ lọc
-
-
+Bảng mô tả các thông tin trong Pop-up bộ lọc
 
 <table class="tg">
 <thead>
@@ -63,16 +62,19 @@ Màn hình hiển thị Pop-up Cài đặt Bộ lọc ở chính giữa màn hì
 </tbody>
 </table>
 
-​   Người dùng CMS nhập điều kiện tìm kiếm và nhấn nút **Xác nhận**.
+​	Người dùng CMS nhập điều kiện tìm kiếm và nhấn nút **Xác nhận**.
 
-Hệ thống hiển thị **danh sách kênh** thỏa mãn điều kiện tìm kiếm. ![](/images/lrm/list/channel-lrm-filter.png)
+Hệ thống hiển thị **danh sách kênh** thỏa mãn điều kiện tìm kiếm.
+![](/images/lrm/list/channel-lrm-filter.png)
 
 ## Tìm kiếm theo từng trang
- Người dùng thực hiện tìm kiếm kênh mong muốn theo từng trang ở **dưới cùng giao diện**
+
+Người dùng thực hiện tìm kiếm kênh mong muốn theo từng trang ở **dưới cùng giao diện**
+
 <!-- ![]() -->
 
--   Tổng: tổng số trang hiện có.
--   Nhấn vào **select box** để lựa chọn số bản ghi trên một trang.
--   Nhấn vào **>** để chuyển tới **trang tiếp theo.**
--   Nhấn vào **<** để chuyển tới **trang trước đó.**
--   Nhấn vào **textbox** hoặc gõ số trang để chuyển tới một trang cụ thể.
+- Tổng: tổng số trang hiện có.
+- Nhấn vào **select box** để lựa chọn số bản ghi trên một trang.
+- Nhấn vào **>** để chuyển tới **trang tiếp theo.**
+- Nhấn vào **<** để chuyển tới **trang trước đó.**
+- Nhấn vào **textbox** hoặc gõ số trang để chuyển tới một trang cụ thể.
