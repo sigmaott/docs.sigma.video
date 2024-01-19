@@ -10,38 +10,29 @@ hero:
     src: /logo-with-shadow.png
     alt: Vite
   actions:
-    - 
-      theme: alt
+    - theme: alt
       text: Tại sao là Sigma?
       link: /vi/sigma-streaming-platform/01-get-started/1-introduction
-    - 
-      theme: alt
+    - theme: alt
       text: Xem trên Github
       link: https://github.com/sigmaot
 features:
-  - 
-    icon: '💡'
+  - icon: 💡
     title: Sigma Transcode Live
     details: Chuyển mã nội dung video trực tiếp từ nhiều luồng khác nhau
-  - 
-    icon: '⚡️'
+  - icon: ⚡️
     title: Sigma Interactive
     details: Truyền hình tương tác với nhiều nội dung kịch bản thú vị
-  - 
-    icon: '🛠️'
+  - icon: 🛠️
     title: Sigma Live Streaming
     details: Livestream trực tiếp với nhiều tính năng tùy chỉnh
-  - 
-    icon: '📦'
+  - icon: 📦
     title: Sigma Dynamic Ads Insert
     details: Chèn quảng cáo động trên máy chủ
-  - 
-    icon: '🔩'
+  - icon: 🔩
     title: Sigma Linear Right Management
     details: Quản lý quyền truy cập trực tiếp cho nội dung tuyến tính
-  - 
-    icon: '🔑'
+  - icon: 🔑
     title: Sigma Packager
     details: Đóng gói nội dung video trực tiếp từ nhiều luồng khác nhau
 ---
-
