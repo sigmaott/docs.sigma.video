@@ -31,7 +31,7 @@ Cấu trúc tổ chức quản lý máy chủ được chia thành các phần v
       4. Packager Start Over
       5. Packager Catchup
    2. Cluster Server (cụm máy)
-4.  Monitor: Giám sát hiệu suất hoạt động cua máy trong Ứng dụng
+4. Monitor: Giám sát hiệu suất hoạt động cua máy trong Ứng dụng
 5. License: Quản lý giấy phép trong Ứng dụng
 
 ### Các hành động với máy
@@ -40,7 +40,7 @@ Với việc quản lý máy chủ, người dùng có khả năng thực hiện
 
 - Add License: Hành động được phép đối với các máy mới được cài đặt thành công lên hệ thống mà chưa được kích hoạt hoạt động, người dùng có thể thực hiện hành động này để gán giấy phép cho máy để máy có thể hoạt động xử lý job. Các bước thực hiện
 
-
+  [Add License]:
 
 - Config Route: Hành động cho phép người dùng cấu hình route giúp qua hệ thống có thể định tuyến máy một cách dễ dàng hỗ trợ cho quá trình điều phối máy xử lý Job
 
@@ -49,8 +49,6 @@ Với việc quản lý máy chủ, người dùng có khả năng thực hiện
 - Pause/ Resume: Hành động cho phép hệ thống Tạm dừng/ Khôi phục khả năng hoạt động của máy
 
 - Delete: Hành động cho phép người dùng thực hiện xóa máy ở trạng thái DEAD/ FREEZE
-
-
 
 Đối với **Cluster Server**, khi người dùng đã tạo cụm máy sẽ được phép thực hiện các hành động sau:
 
