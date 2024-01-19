@@ -1,8 +1,8 @@
 ## Requirement
-* Videojs version 5,6
-* Browser support Media Source Extensions
-* SDK Shls plugin for videojs version 1.0.0-poc
 
+- Videojs version 5,6
+- Browser support Media Source Extensions
+- SDK Shls plugin for videojs version 1.0.0-poc
 
 ## Getting Started
 
@@ -42,7 +42,6 @@ player.src({
 ```
 
 ### Example
-
 
 ```html
 <!DOCTYPE html> 
