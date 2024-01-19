@@ -1,6 +1,5 @@
 ---
 id: doc-guideline-sigma-streaming-platform
-title: Introversion
+title: Giới thiệu
 order: 1
 ---
-
