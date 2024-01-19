@@ -1,6 +1,8 @@
----
-id: docs-guide-sigma-ssai
-title: Related Statistics
-order: 5
----
+***
 
+id: docs-guide-sigma-ssai
+title: User guide
+
+order: 5
+
+***
