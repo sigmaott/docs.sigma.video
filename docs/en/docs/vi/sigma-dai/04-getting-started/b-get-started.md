@@ -3,30 +3,31 @@ title: Bắt đầu với SSAI
 order: 2
 ---
 
-# Starting with SSAI
+# Bắt đầu với SSAI
 
 ## Thiết lập ad insert endpoint
 
 Để thiết lập ad insert endpoint bạn cần chuẩn bị các tác vụ sau:
-* Prepare your HLS or DASH content stream.
-* Chuẩn bị đường dẫn yêu cầu quảng cáo (Ads Request).
-* Tạo cấu hình ad insert endpoint SSAI.
-* Sử dụng đường dẫn SSAI sinh ra để cấu hình ad insert endpoint trên ứng dụng.
-* Thu thập, theo dõi các thông số cần thiết.
 
-When completed, you will be able to send a rebroadcast request to SSAI for personalized advertising content in your flow.
+- Chuẩn bị luồng nội dung HLS hoặc DASH của bạn.
+- Chuẩn bị đường dẫn yêu cầu quảng cáo (Ads Request).
+- Tạo cấu hình ad insert endpoint SSAI.
+- Sử dụng đường dẫn SSAI sinh ra để cấu hình ad insert endpoint trên ứng dụng.
+- Thu thập, theo dõi các thông số cần thiết.
 
+Khi hoàn tất, bạn sẽ có thể gửi yêu cầu phát lại tới SSAI cho nội dung quảng cáo được cá nhân hóa trong luồng của mình.
 
 ## Chuẩn bị
 
 Trước khi bắt đầu, bạn cần chuẩn bị các tác vụ sau:
+
 - Có tài khoản truy cập hệ thống quản lý của **Sigma Streaming Platform** `https://portal.sigmaott.com`
 - Tài khoản có quyền truy cập app được phân quyền với SSAI.
-
 
 ## Bước 1: Truy cập vào hệ thống Sigma Dynamic Ads Insert
 
 Để sử dụng Sigma Dynamic Ads Insert( DAI), bạn cần có tài khoản và quyền truy cập, xem và thực hiện các hành động được phép.
+
 1. Truy cập vào đường link `https://portal.sigmaott.com/app`
 2. Hiển thị Danh sách App, **chọn ứng dụng** cần truy cập.
 3. Hiển thị mặc định vào trang **tổng quan ứng dụng.**
@@ -38,14 +39,16 @@ Trước khi bắt đầu, bạn cần chuẩn bị các tác vụ sau:
 ### Chuẩn bị luồng HLS
 
 Các tập tin HLS manifest phải đáp ứng các yêu cầu sau:
-* Các tệp tin manifest phải có thể truy cập được trên internet
-* Tệp kê khai phải có `EXT-X-VERSION` từ `3` trở lên.
+
+- Các tệp tin manifest phải có thể truy cập được trên internet
+- Tệp kê khai phải có `EXT-X-VERSION` từ `3` trở lên.
 
 Đối với nội dung trực tiếp, HLS manifest phải chứa các điểm đánh dấu để mô tả lịch phát sóng quảng cáo. Đây là tùy chọn đối với nội dung VOD, thay vào đó có thể sử dụng bộ định thời gian VMAP.
 
 HLS manifest phải có vùng quảng cáo được đánh dấu bằng các thẻ sau:
 
-* `#EXT-X-CUE-OUT` / `#EXT-X-CUE-IN` (phổ biến hơn) với thời lượng như minh họa trong ví dụ sau:
+- `#EXT-X-CUE-OUT` / `#EXT-X-CUE-IN` (phổ biến hơn) với thời lượng như minh họa trong ví dụ sau:
+
 ```
 #EXT-X-CUE-OUT:60,00
 #EXT-X-CUE-IN
@@ -55,14 +58,15 @@ Cách bạn định cấu hình điểm đánh dấu quảng cáo trong tệp k�
 
 HLS Manifest Master phải tuân thủ theo định nghĩa của HLS. Đặc biệt, #EXT-X-STREAM-INF phải bao gồm các trường **RESOLUTION**, **BANDWIDTH** và **CODEC**.
 
-
 ### Chuẩn bị luồng DASH
 
 DASH manifest (mpd) phải đáp ứng các yêu cầu sau:
-* `DASH manifest` phải có thể truy cập được trên internet.
-* `DASH manifest` phải trực tiếp hoặc video theo yêu cầu (VOD).
 
-* Ví dụ sau đây cho thấy một sự kiện được chỉ định là lịch phát sóng quảng cáo bằng cách sử dụng điểm đánh dấu`EventStream`. Thời lượng cho quảng cáo này là thời lượng của sự kiện.
+- `DASH manifest` phải có thể truy cập được trên internet.
+
+- `DASH manifest` phải trực tiếp hoặc video theo yêu cầu (VOD).
+
+- Ví dụ sau đây cho thấy một sự kiện được chỉ định là lịch phát sóng quảng cáo bằng cách sử dụng điểm đánh dấu` EventStream`. Thời lượng cho quảng cáo này là thời lượng của sự kiện.
 
 ```
    <Period start="PT444806.040S" id="123586" duration="PT15.000S">
@@ -81,7 +85,8 @@ DASH manifest (mpd) phải đáp ứng các yêu cầu sau:
      </AdaptationSet>
    </Period>
 ```
-* Ad avails cần phải có cấu hình `AdaptationSet` and `Representation`  trùng với luồng nội dung ban đầu. `Sigma Dynamic Ads Insert`  sử dụng những cấu hình này để có thể chuyển mã các luồng quảng cáo phù hợp.
+
+- Ad avails cần phải có cấu hình `AdaptationSet` and `Representation`  trùng với luồng nội dung ban đầu. `Sigma Dynamic Ads Insert`  sử dụng những cấu hình này để có thể chuyển mã các luồng quảng cáo phù hợp.
 
 ## Bước 3: (Optional) Chuẩn bị cấu hình các tham số URL của máy chủ quảng cáo (Ads Request) và các tham số truy vấn( parameter)
 
@@ -102,15 +107,16 @@ Phân đoạn nội dung CDN đến Phân đoạn quảng cáo CDN.
 Trong trường hợp liên kết quảng cáo chạy trên CDN theo thứ tự, nếu CDN 1 không hoạt động, CDN 2 sẽ thay thế nó.
 
 ### Loại
+
 Có hai loại tham số (param):
 
-* **play_params**: Là thông tin mà trình phát gửi lên thông qua đường dẫn phát lại, và phía máy chủ sẽ thay thế dựa trên các tham số mà trình phát truyền lên.
+- **play_params**: Là thông tin mà trình phát gửi lên thông qua đường dẫn phát lại, và phía máy chủ sẽ thay thế dựa trên các tham số mà trình phát truyền lên.
 
-* **session param**: Các tham số sẵn có bao gồm:
+- **session param**: Các tham số sẵn có bao gồm:
 
-    * `session.ip` : Địa chỉ IP của máy người dùng.
-    * `session.user_agent` : User Agent của máy người dùng.
-    * `stce.duration` : Được xem xét là thời gian truy cập có sẵn, đánh dấu thời lượng sẵn có.
+  - `session.ip` : Địa chỉ IP của máy người dùng.
+  - `session.user_agent` : User Agent của máy người dùng.
+  - `stce.duration` : Được xem xét là thời gian truy cập có sẵn, đánh dấu thời lượng sẵn có.
 
 **Ví dụ URL playback sử dụng play_params**
 
@@ -120,10 +126,9 @@ http://dai.sigmaott.com/manifest/manipulation/master/xxx/master.m3u8?play_params
 ```
 
 Trong đó có 2 **play_params** được truyền lên:
+
 - **play_params.devideId**: abc
 - **play_params.gender**: male
-
-
 
 Client sẽ thực hiện playback với đường dẫn trên và server SSAI sẽ ghi nhận thông tin về **parameters**
 
@@ -141,7 +146,6 @@ http://ads.com/tags.xml?gender=male&did=abc
 
 Như vậy các thông tin của parameter sẽ được truyền từ client lên ads server thông qua yêu cầu lấy quảng cáo.
 
-
 ## Bước 4: Tạo mới cấu hình ad insert endpoint SSAI
 
 Để thiết lập SSAI và kết nối thông tin giữa máy chủ gốc và quảng cáo, bạn cần tạo một ad insert endpoint để chứa giúp quảng cáo thực hiện nhiệm vụ của nó đồng thời kiểm soát các nội dung trực tuyến đến từng đối tượng khách hàng.
@@ -155,14 +159,15 @@ Như vậy các thông tin của parameter sẽ được truyền từ client l�
 
 Ví dụ cấu hình:
 
-* Nguồn nội dung video: `https://origin.com/manifest`
-    * Với cấu hình trên, ta có thể sử dụng cho nhiều luồng HLS, DASH có đánh dấu quảng cáo được bắt đầu bởi prefix trên như:
-        * `https://origin.com/manifest/channel1/master.m3u8`
-        * `https://origin.com/manifest/channel2/master.m3u8`
+- Nguồn nội dung video: `https://origin.com/manifest`
+  - Với cấu hình trên, ta có thể sử dụng cho nhiều luồng HLS, DASH có đánh dấu quảng cáo được bắt đầu bởi prefix trên như:
+    - `https://origin.com/manifest/channel1/master.m3u8`
+    - `https://origin.com/manifest/channel2/master.m3u8`
 
-* Máy chủ quảng cáo: `https://ads.sdp.com/vast-tag`
-* Phân đoạn nội dung CDN: `https://example.cdn.net`
-    * Các tệp tin nội dung segment sẽ được thay thế bởi cdn được cấu hình trên.
+- Máy chủ quảng cáo: `https://ads.sdp.com/vast-tag`
+
+- Phân đoạn nội dung CDN: `https://example.cdn.net`
+  - Các tệp tin nội dung segment sẽ được thay thế bởi cdn được cấu hình trên.
 
 Khi hoàn tất, bạn sẽ có thể mở trình duyệt, nhập URL phát lại cho ad insert endpoint của mình và xem luồng của ad insert endpoint có chứa quảng cáo.
 
@@ -176,7 +181,7 @@ Người dùng có thể xem danh sách các quảng cáo hiển thị trên ad 
 2. Hệ thống hiển thị thông tin chi tiết ad insert endpoint.
 3. Người dùng xem các thông tin chi tiết ad insert endpoint và có thể **sử dụng các URL** để chạy ad insert endpoint mong muốn.
 
-*Sau khi người dùng cấu hình ad insert endpoint, SSAI trả về Playback Endpoint Prefixes gồm:*
+_Sau khi người dùng cấu hình ad insert endpoint, SSAI trả về Playback Endpoint Prefixes gồm:_
 
 1. Ví dụ link Session initalization playback prefix( link khởi tạo). (**Sử dụng khi dùng Client Side Tracking**)
 
@@ -196,30 +201,28 @@ http://dai.sigmaott.com/manifest/manipulation/master/0f18d489-6b27-4832-9849-ff9
 http://dai.sigmaott.com/manifest/manipulation/dash/0f18d489-6b27-4832-9849-ff9b9e7c35f0
 ```
 
-
 **Trong đó**:
 
-* `http://dai.sigmaott.com/manifest/manipulation/` là **playback-endpoint** đường dẫn để để có thể gọi lấy chạy được luồng thông qua **Sigma DAI**
-* `0f18d489-6b27-4832-9849-ff9b9e7c35f0`: tương đương với định danh duy nhất của cấu hình ad insert endpoint.
+- `http://dai.sigmaott.com/manifest/manipulation/` là **playback-endpoint** đường dẫn để để có thể gọi lấy chạy được luồng thông qua **Sigma DAI**
+- `0f18d489-6b27-4832-9849-ff9b9e7c35f0`: tương đương với định danh duy nhất của cấu hình ad insert endpoint.
 
 **Ghép nối với luồng chạy thực tế**
 
 Từ cấu hình trên bạn có thể ghép nối với các luồng nội dung có quảng cáo như sau
 
-* Ví dụ bạn có 2 luồng HLS và DASH từ nguồn nội dung như sau:
-    * HLS: `https://origin.com/manifest/channel1/master.m3u8`
-    * DASH: `https://origin.com/manifest/channel1/master.mpd`
-* Trong cấu hình ad insert endpoint bạn cấu hình nguồn nội dung là `https://origin.com/manifest`
-* Ta sẽ có 2 luồng có thể ghép nối vào prefix ở trên như sau:
-    * HLS: `/channel1/master.m3u8`
-    * DASH: `/channel1/master.mpd`
+- Ví dụ bạn có 2 luồng HLS và DASH từ nguồn nội dung như sau:
+  - HLS: `https://origin.com/manifest/channel1/master.m3u8`
+  - DASH: `https://origin.com/manifest/channel1/master.mpd`
+- Trong cấu hình ad insert endpoint bạn cấu hình nguồn nội dung là `https://origin.com/manifest`
+- Ta sẽ có 2 luồng có thể ghép nối vào prefix ở trên như sau:
+  - HLS: `/channel1/master.m3u8`
+  - DASH: `/channel1/master.mpd`
+- Ghép vào các cấu hình prefix ở trên ta được:
+  - HLS:
+    `http://dai.sigmaott.com/manifest/manipulation/master/0f18d489-6b27-4832-9849-ff9b9e7c35f0/channel1/master.m3u8`
 
-* Ghép vào các cấu hình prefix ở trên ta được:
-    * HLS: `
-http://dai.sigmaott.com/manifest/manipulation/master/0f18d489-6b27-4832-9849-ff9b9e7c35f0/channel1/master.m3u8`
-
-    * DASH: `
-http://dai.sigmaott.com/manifest/manipulation/dash/0f18d489-6b27-4832-9849-ff9b9e7c35f0/channel1/master.mpd`
+  - DASH:
+    `http://dai.sigmaott.com/manifest/manipulation/dash/0f18d489-6b27-4832-9849-ff9b9e7c35f0/channel1/master.mpd`
 
 ## Bước 6: Gửi thông tin yêu cầu đến máy chủ SSAI
 
@@ -229,7 +232,7 @@ Giả sử URL ADS mẫu của bạn là như sau:
 https://my.ads.com/ad?output=vast&content_id=12345678&playerSession=[session.id]&cust_params=[play_params.cust_params]
 ```
 
- Sau đó, xác định [**play_params.cust_params**] trong yêu cầu của tệp tin manifest bằng cách đặt trước cặp khóa-giá trị với quảng cáo.
+Sau đó, xác định [**play_params.cust_params**] trong yêu cầu của tệp tin manifest bằng cách đặt trước cặp khóa-giá trị với quảng cáo.
 
 Ví dụ Sau **bước 5** ta có URL của luồng  HLS và DASH sau đây:
 
@@ -240,7 +243,6 @@ http://dai.sigmaott.com/manifest/manipulation/master/0f18d489-6b27-4832-9849-ff9
 ```
 http://dai.sigmaott.com/manifest/manipulation/master/0f18d489-6b27-4832-9849-ff9b9e7c35f0/channel1/master.mpd?play_params.cust_params=viewerinfo
 ```
-
 
 Khi hệ thống Sigma Dynamic Ads Insert (SDAI) tiếp nhận một yêu cầu từ một URL cụ thể, nó sẽ xác định các biến của player dựa trên thông tin trong URL. Khi có yêu cầu để chèn quảng cáo, hệ thống sẽ tạo ra một biến thể của URL dựa trên các biến này như sau:
 
