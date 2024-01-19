@@ -1,5 +1,4 @@
 ---
-title: 'Quản lý và giám sát'
+title: Quản lý và giám sát
 order: 5
 ---
-
