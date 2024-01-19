@@ -12,8 +12,6 @@ order: 3
 
 Với việc kích hoạt ứng dụng qua cả 2 lựa chọn trên, người dùng sẽ cần kích hoạt bằng cách thêm **Phương thức thanh toán**
 
-
-
 Thêm phương thức thanh toán:
 
 - Điền thông tin của phương thức thanh toán
