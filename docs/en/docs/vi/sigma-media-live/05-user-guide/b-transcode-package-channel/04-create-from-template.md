@@ -1,5 +1,5 @@
 ---
-title: 'Create a channel from a template file'
+title: Tạo kênh từ tệp mẫu
 order: 4
 ---
 
