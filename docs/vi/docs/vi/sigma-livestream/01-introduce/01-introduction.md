@@ -13,16 +13,13 @@ Livestream không chỉ giới hạn trong việc phát sóng video trực tiế
 
 Sigma Live Stream Platform cung cấp một dịch vụ toàn diện đưa công việc truyền tải nội dung từ broadcaster đến với người xem đơn giản như một nút bấm.
 
-
 - **64% viewer** have watched a live online video in the past year.
 
 - **78% viewer** are already watching live video on Facebook live.
 
 - **82% viewer** prefer live video from a brand to social posts.
 
-*“I think it takes more than three seconds to build your brand, and consumers are willing to spend the time if your content is compelling, relevant, and valuable.” – [Momentology](http://www.momentology.com/8936-video-marketing-trends-2016/)*
-
-
+_“I think it takes more than three seconds to build your brand, and consumers are willing to spend the time if your content is compelling, relevant, and valuable.” – [Momentology](http://www.momentology.com/8936-video-marketing-trends-2016/)_
 
 ## What make a live stream successful ?
 
@@ -30,19 +27,15 @@ Sigma Live Stream Platform cung cấp một dịch vụ toàn diện đưa công
 
 Đối với một luồng phát trực tiếp, dấu hiệu đảm bảo cho sự thành công là nội dung mà nhà cung cấp tạo ra hướng tới được nhiều đối tượng mong muốn nhất. Tăng trưởng số lượng người xem đồng thời ứng với sự thành công của luồng phát trực tiếp. Để đảm bảo sự thành công đó ngoài việc broadcaster đưa ra những nội dung đặc sắc tập trung vào viewer thì nền tảng công nghệ live stream cũng đóng một vai trò rất quan trọng.
 
-*62% of consumers are more likely to have a negative perception of a brand with a low-quality video experience*. – [KZO](https://kzoinnovations.com/video-quality-influence-brand-perception)
+_62% of consumers are more likely to have a negative perception of a brand with a low-quality video experience_. – [KZO](https://kzoinnovations.com/video-quality-influence-brand-perception)
 
-Chất lượng dịch vụ khi phát sóng đóng vai trò vô cùng quan trọng đến cảm xúc của người xem. Bên cạnh đó những channel của broadcaster có tương tác với người dùng (example: Q&A, chơi game cùng người xem ...) luôn là những channel thuộc top đầu trên các dịch vụ trực tuyến. Đối với việc tương tác trực tiếp với người dùng độ trễ của hệ thống truyền tải nội dung đến người xem ảnh hưởng
+Chất lượng dịch vụ khi phát sóng đóng vai trò vô cùng quan trọng đến cảm xúc của người xem. Bên cạnh đó những channel của broadcaster có tương tác với người dùng (example: Q\&A, chơi game cùng người xem ...) luôn là những channel thuộc top đầu trên các dịch vụ trực tuyến. Đối với việc tương tác trực tiếp với người dùng độ trễ của hệ thống truyền tải nội dung đến người xem ảnh hưởng
 
+_Since we started providing our player for apps 15 years ago, video streaming on mobile devices has drastically increased. Many people now expect to access the same content on multiple devices with broadcast quality, whether they are at home or on the go.”_
 
+_“Having a multiscreen low latency solution is a top requirement for customers and opens the door for fascinating interactive use cases, leveraging the best end-to-end technology and synchronization of the stream among all end users.”_
 
-*Since we started providing our player for apps 15 years ago, video streaming on mobile devices has drastically increased. Many people now expect to access the same content on multiple devices with broadcast quality, whether they are at home or on the go.”*
-
-*“Having a multiscreen low latency solution is a top requirement for customers and opens the door for fascinating interactive use cases, leveraging the best end-to-end technology and synchronization of the stream among all end users.”*
-
-*Carlos Lucas, General Manager of NexPlayer at* *NexStreaming*
-
-
+_Carlos Lucas, General Manager of NexPlayer at_ _NexStreaming_
 
 ## Key drivers of low latency for video streaming
 
@@ -52,10 +45,7 @@ Ví dụ: giao thức HTTP Live Streaming (HLS) ban đầu của Apple, được
 
 Với độ trễ 20-40 giây hoặc hơn thì không phải là vấn đề cho người dùng khi xem VOD. Nhưng đối với sự kiện trực tiếp việc đỗ trễ quá cao sẽ ảnh hưởng đến tính tương tác qua lại giữa người xem và broadcaster. Hình ảnh bên dưới biểu thị tác động của độ trễ và các thành phần tạo ra độ trễ khi truyền tải nội dung
 
-
 ![about-1](/images/livestream/livestream-about-1.png)
-
-
 
 ## Sigma Live Stream Platform
 
@@ -76,13 +66,13 @@ The Sigma Live Stream platform cho phép người dùng cung cấp nội dung t�
 - Chọn nhiều chế độ live stream
   - **Normal latency** : reduced viewer playback buffering.
     - Choose "Normal latency" if you don't plan to interact with your audience. This is the highest quality setting for viewers since it has the lowest amount of viewer buffering.
-    - latency: ~20-30 seconds
+    - latency: \~20-30 seconds
   - **Low latency**: near real-time interactivity
     - Choose this option if you want low latency with minimal viewer buffering. This setting is a good balance between the other two options.
-    - latency: ~ 8-10 seconds
+    - latency: \~ 8-10 seconds
   - **Ultra low latency**: highly interactive live streams with real-time engagement
     - Choose this option if you want to maximize engagement with your audience and don't mind increasing the chances that your viewers may buffer more.
-    - Latency: ~2-4 seconds
+    - Latency: \~2-4 seconds
 - Monitor, Alert & Analytic live stream metrics
   - Health check system
   - Alert when system has problem
@@ -95,4 +85,4 @@ The Sigma Live Stream platform cho phép người dùng cung cấp nội dung t�
 - Tối ưu quá tài nguyên và chi phí
 - API đơn giản, dễ sử dụng và tích hợp với mọi hệ thống
   - Api with secure token
-  - Webhook for live stream event 
+  - Webhook for live stream event
