@@ -1,5 +1,5 @@
 ---
-title: 'Tạo kênh từ tệp mẫu'
+title: Tạo kênh từ tệp mẫu
 order: 4
 ---
 
