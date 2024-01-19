@@ -1,179 +1,185 @@
-
 # Management System
 
-User-managed administration system, api access token to the system
+Hệ thống quản trị phân quyền người dùng, token truy cập api vào hệ thống
 
 ## Basic authentication
 
-Manage the system to use on the system.
+Quản lý token dùng trên hệ thống.
 
-### List of basic authentications
-![List of token](./images/um-basic-auth/list.png)
+### Danh sách basic authentication
 
-Each token value will include the basic parameters:
+![List of token](/images/media-live/um-basic-auth/list.png)
 
-- Name.
-- Right.
+Mỗi giá trị token sẽ bao gồm các thông cơ bản:
 
-  To better understand the rights, access section **Decline**.
+- Tên.
+- Quyền.
 
----
+  Để hiểu rõ hơn về quyền, truy cập phần **Phân quyền**.
 
-**\ * NOTE**
+***
 
-A token will be assigned one or more rights.
+**\* NOTE**
 
----
+Một token sẽ được gán một hoặc nhiều quyền.
 
-### Create token
+***
 
-1. Nhấp chuột vào nút ![Add button](./images/um-member/btn-add.png).
-2. Enter the token information in form.
+### Tạo token
 
-    ![Add Form](./images/um-basic-auth/form-add.png)
+1. Nhấp chuột vào nút ![Add button](/images/media-live/um-member/btn-add.png).
 
-    When performing an assignment to the token, it is possible to select the permissions available in the list of groups. Then, the token will inherit all the rights of the selected group. It is possible to edit (add sur/delete) the inherited rights to the appropriate.
+2. Nhập thông tin token trong form.
 
-    Nhấp nút ![Add perm button](./images/um-basic-auth/btn-add-perm.png) để hiển thị thêm danh sách các quyền.
+   ![Add Form](/images/media-live/um-basic-auth/form-add.png)
 
-    ![Add Form](./images/um-basic-auth/form-add-2.png)
+   Khi thực hiện gán quyền cho token, có thể chọn các quyền có sẵn trong danh sách các group. Khi đó, token sẽ thừa kế toàn bộ quyền thuộc nhóm đã chọn. Có thể chỉnh sửa (bổ sung/xóa bỏ) các quyền được thừa kế cho thích hợp.
 
-3. Lưu token  bằng cách nhấp vào nút ![Submit button](./images/um-member/btn-submit.png).
+   Nhấp nút ![Add perm button](/images/media-live/um-basic-auth/btn-add-perm.png) để hiển thị thêm danh sách các quyền.
 
-  Token new execution system:
-  - If successful token information is created: ![Info token](./images/um-basic-auth/info.png)
+   ![Add Form](/images/media-live/um-basic-auth/form-add-2.png)
 
-    Nhấp chuột vào các biểu tượng ![Icon copy password](./images/um-member/icon-copy.png) sao chép Token ID và Token Secret. The Token Secret value will be deleted soon after.
+3. Lưu token  bằng cách nhấp vào nút ![Submit button](/images/media-live/um-member/btn-submit.png).
 
-  - If the failure will show the error message.
+Hệ thống thực thi tạo mới token:
 
-### Edit token
+- Nếu thành công hiển thị thông tin token vừa tạo:
+  ![Token info](/images/media-live/um-basic-auth/info.png)
 
-Nhấp chuột vào nút ![Edit button](./images/um-action-btns/edit.png) để thay đổi tên, quyền của token.
+  Nhấp chuột vào các biểu tượng ![Icon copy password](/images/media-live/um-member/icon-copy.png) sao chép Token ID và Token Secret. Giá trị Token Secret sẽ bị xóa đi ngay sau đó
 
-![Edit token](./images/um-basic-auth/form-edit.png)
+- Nếu thất bại sẽ hiển thị thông báo lỗi.
 
+### Chỉnh sửa token
+
+Nhấp chuột vào nút ![Edit button](/images/media-live/um-action-btns/edit.png) để thay đổi tên, quyền của token.
+
+![Edit token](/images/media-live/um-basic-auth/form-edit.png)
 
 ## Group
 
-Manage User Groups
+Quản lý nhóm người dùng
 
-### Group List
-![List of groups](./images/um-group/list.png)
+### Danh sách nhóm
 
+![List of group](/images/media-live/um-group/list.png)
 
-Each group will consist of two basic parameters:
+Mỗi nhóm sẽ bao gồm hai thông cơ bản:
 
-- Name (column **Name** in the above table).
-- List of rights (column **Permissions** in the above table).
+- Tên (cột **Name** trong bảng trên).
+- Danh sách quyền (cột **Permissions** trong bảng trên).
 
-  To better understand the rights, access section **Decline**.
+  Để hiểu rõ hơn về quyền, truy cập phần **Phân quyền**.
 
----
+***
 
-**\ * NOTE**
+**\* NOTE**
 
-A group consists of one or several rights. The accounts in the group are inherited all of that group.
+Một nhóm sẽ bao gồm một hoặc một vài quyền. Những tài khoản trong nhóm được thừa kế toàn bộ quyền thuộc nhóm đó
 
----
+***
 
-### Create Group
+### Tạo nhóm
 
-1. Nhấp chuột vào nút ![Add button](./images/um-member/btn-add.png).
-2. Enter the account information in form.
+1. Nhấp chuột vào nút ![Add button](/images/media-live/um-member/btn-add.png).
+2. Nhập thông tin tài khoản trong form.
 
-    ![Add Form](./images/um-group/form-add.png)
+   ![Add Form](/images/media-live/um-group/form-add.png)
 
-    The information to import includes:
-    - Name.
-    - Password.
-    - The powers.
-3. Lưu nhóm bằng cách nhấp vào nút ![Submit button](./images/um-member/btn-submit.png).
+   Thông tin cần nhập bao gồm:
 
-  Group new execution system:
-  - If successful display success is successful.
-  - If the failed display failure
+   - Tên.
+   - Mật khẩu.
+   - Quyền hạn.
+3. Lưu nhóm bằng cách nhấp vào nút ![Submit button](/images/media-live/um-member/btn-submit.png).
 
-### Edit account rights
+Hệ thống thực thi tạo mới nhóm:
 
-Nhấp chuột vào nút ![Edit button](./images/um-action-btns/edit.png) để chỉnh sửa thông tin tên và quyền của nhóm.
+- Nếu thành công hiển thị thông báo thành công.
+- Nếu thất bại hiển thị lỗi
 
+### Chỉnh sửa quyền tài khoản
+
+Nhấp chuột vào nút ![Edit button](/images/media-live/um-action-btns/edit.png) để chỉnh sửa thông tin tên và quyền của nhóm.
 
 ## Member
 
-Manage the list of user accounts on the system.
+Quản lý danh sách tài khoản người dùng trên hệ thống.
 
-### Account List
-![List of member](./images/um-member/list.png)
+### Danh sách tài khoản
 
+![List of member](/images/media-live/um-member/list.png)
 
-Each account will include a few basic parameters:
+Mỗi tài khoản sẽ bao gồm một vài thông cơ bản:
 
-- Login name (column **User** in the above table).
-- The group/rights to which the account is assigned (column **Group** in the above table).
+- Tên đăng nhập (cột **User** trong bảng trên).
+- Nhóm/quyền mà tài khoản được gán(cột **Group** trong bảng trên).
 
-Move the mouse into the group to show the copyright details.
+Di chuyển chuột vào nhóm để hiển thị chi tiết quyền.
 
-  ![Permissions of group](./images/um-member/permission.png)
+![Permissions of group](/images/media-live/um-member/permission.png)
 
-  To better understand the rights, access section **Decline**.
+Để hiểu rõ hơn về quyền, truy cập phần **Phân quyền**.
 
----
+***
 
-**\ * NOTE**
+**\* NOTE**
 
-An account will be a member of one and only one group.
+Một tài khoản sẽ là thành viên của một và chỉ một group.
 
----
+***
 
-### Create Account
+### Tạo tài khoản
 
-1. Nhấp chuột vào nút ![Add button](./images/um-member/btn-add.png).
-2. Enter the account information in form.
+1. Nhấp chuột vào nút ![Add button](/images/media-live/um-member/btn-add.png).
+2. Nhập thông tin tài khoản trong form.
 
-    ![Add Form](./images/um-member/form-add.png)
+   ![Add Form](/images/media-live/um-member/form-add.png)
 
-    The information to import includes:
-    - Login name.
-    - Password.
-    - The group will empower.
+   Thông tin cần nhập bao gồm:
 
-      The selected group will display the blue tick ![Selected group](./images/um-member/group-selected.png)
-3. Lưu tài khoản  bằng cách nhấp vào nút ![Submit button](./images/um-member/btn-submit.png).
+   - Tên đăng nhập.
+   - Mật khẩu.
+   - Nhóm sẽ trao quyền.
 
-  The new implementation execution system:
-  - If the successful display of account information is generated including the login name and password: .![Account info](./images/um-member/account-info.png)
+     Nhóm được chọn sẽ hiển thị tick xanh ![Selected group](/images/media-live/um-member/group-selected.png)
+3. Lưu tài khoản  bằng cách nhấp vào nút ![Submit button](/images/media-live/um-member/btn-submit.png).
 
-    Nhấp chuột vào các biểu tượng ![Icon show password](./images/um-member/icon-eye.png), ![Icon copy password](./images/um-member/icon-copy.png)  để hiển thị và sao chép mật khẩu.
+Hệ thống thực thi tạo mới tài khoản:
 
-  - If the failure will show the error message.
+- Nếu thành công hiển thị thông tin tài khoản vừa tạo bao gồm tên đăng nhập và mật khẩu:
+  ![Account info](/images/media-live/um-member/account-info.png)
 
-### Edit account rights
+  Nhấp chuột vào các biểu tượng ![Icon show password](/images/media-live/um-member/icon-eye.png), ![Icon copy password](/images/media-live/um-member/icon-copy.png)  để hiển thị và sao chép mật khẩu.
 
-Nhấp chuột vào nút ![Edit button](./images/um-action-btns/edit.png) để thay đổi quyền của tài khoản bằng cách gán tài khoản vào một nhóm khác.
+- Nếu thất bại sẽ hiển thị thông báo lỗi.
 
-![Edit account](./images/um-member/form-edit.png)
+### Chỉnh sửa quyền tài khoản
 
+Nhấp chuột vào nút ![Edit button](/images/media-live/um-action-btns/edit.png) để thay đổi quyền của tài khoản bằng cách gán tài khoản vào một nhóm khác.
+
+![Edit account](/images/media-live/um-member/form-edit.png)
 
 ## Permission
 
-An account is created and granted a certain number of powers and is only executed by the right to be executed.
+Một tài khoản được tạo và cấp một vài quyền hạn nhất định và chỉ được thực thi các thao tác tương ứng với quyền được cho phép.
 
-### Devolve Rules
+### Quy tắc phân quyền
 
-On the system will be divided into various rights, each of which will include two basic information:
+Trên hệ thống sẽ được chia làm nhiều quyền khác nhau, mỗi quyền sẽ bao gồm hai thông tin cơ bản:
 
-- Identifier: in order to refer to the object, the entity in which the right will impact.
+- Định danh: nhằm ám chỉ đối tượng, thực thể mà quyền sẽ tác động vào.
 
-  For example, the power `Sigma Livestream` represents the object in which the right effect is `Livestream`.
-- Action: the expression of actions allowed on the entity to assign to the right. It &apos; s the answer to the *question, what can be done with the A?*
+  Ví dụ, quyền `Sigma Livestream` biểu thị đối tượng mà quyền này tác động vào là luồng `Livestream`.
+- Hành động: biểu thị các hành động được cho phép thực thi trên thực thể gán với quyền. Nó chính là việc trả lời câu hỏi _Người dùng có thể thao tác gì với thực thể A?_
 
-  The system defines two actions to work with the right:
-  - READ: The user can only view the entity information.
-  - FULL: The user can view and edit the entity information.
+  Hệ thống định nghĩa hai hành động để làm việc với quyền:
 
-    When establishing the right, it is only possible to select one of the two actions.
+  - READ: người dùng chỉ có thể xem thông tin thực thể.
+  - FULL: người dùng có thể xem và chỉnh sửa thông tin thực thể.
 
-For example, the interface displays a right on the system
+    Khi thiết lập quyền, chỉ có thể chọn lựa một trong hai hành động trên.
 
-  ![Permission](./images/um-permission/general.png)
+Ví dụ giao diện hiển thị một quyền trên hệ thống
+
+![Permission](/images/media-live/um-permission/general.png)
