@@ -1,10 +1,9 @@
 ---
-title: 'Quick Start'
+title: Quick Start
 order: 1
 ---
 
 # {{ $frontmatter.title }}
-
 
 <!-- ## Connect to the Controller
 
@@ -18,7 +17,7 @@ order: 1
 
     **Kết quả**: Trang **đăng nhập** hiện ra, người dùng nhập thông tin đăng nhập vào hệ thống
 
-![login](../images/um-login/main.png){ width=400px }
+![login](/images/media-live/um-login/main.png){ width=400px }
 
 
 Sau đó, hệ thống sẽ xử lý thao tác đăng nhập.
@@ -34,14 +33,14 @@ Cho phép thực hiện thao tác đổi mật khẩu tài khoản người dùn
 
 Giao diện form thay đổi mật khẩu
 
-![Change Password](../images/um-change-pwd/main.png)
+![Change Password](/images/media-live/um-change-pwd/main.png)
 
 Thực hiện đổi mật khẩu theo các bước:
 
 1. Nhập giá trị mật khẩu mới vào ô `Password`.
 2. Nhập lại giá trị mật khẩu mới một lần nữa vào ô `Re-password` để đảm bảo người dùng không nhập sai mật khẩu mới.
 
----==crwdHRulesLBB_2_BBsuleRHdwrc==
+---
 
 ::: tip NOTE
 
@@ -52,30 +51,29 @@ Giá trị mật khẩu mới chỉ **hợp lệ** khi thỏa mãn **toàn bộ*
 
 Nếu chỉ một trong các tiêu chí trên không hợp lệ thì sẽ hiển thị thông báo lỗi.
 
-![Message Change Password](../images/um-change-pwd/validation-msg.jpg){ width=400px }
+![Message Change Password](/images/media-live/um-change-pwd/validation-msg.jpg){ width=400px }
 
-:::  
+:::
 
----==crwdHRulesLBB_2_BBsuleRHdwrc==
+---
 
 Người dùng xác nhận việc thay đổi mật khẩu mới bằng cách nhấn nút `Submit`.
 
-![Submit Button](../images/um-change-pwd/submit-btn.png){ width=300px }
+![Submit Button](/images/media-live/um-change-pwd/submit-btn.png){ width=300px }
 
 Sau đó, hệ thống sẽ hiện thị thông báo đổi mật khẩu thành công hay thất bại.
 
 - Nếu thành công, hệ thống hiển thị thông báo thành công và điều hướng người dùng về trang **Đăng nhập**.
 
-  ![Success Message](../images/um-change-pwd/success-msg.jpg)
+  ![Success Message](/images/media-live/um-change-pwd/success-msg.jpg)
 
 - Nếu thất bại, hệ thống sẽ hiển thị thông báo lỗi và giữ nguyên giao diện hiện tại của người dùng.
 
-  ![Error Message](../images/um-change-pwd/error-msg.jpg) -->
+  ![Error Message](/images/media-live/um-change-pwd/error-msg.jpg) -->
 
+## Cấu hình dịch vụ cơ bản
 
-## Basic service configuration
-
-This is a service configuration guide at the most basic level that does not include advanced configuration.
+Đây là hướng dẫn cấu hình dịch vụ ở mức cơ bản nhất không bao gồm các cấu hình nâng cao
 
 Các bước cơ bản:
 
