@@ -7,8 +7,6 @@ Với loại máy Sigma Live Server, loại máy giúp xử lý luồng kênh Li
 
 [TOC]
 
-
-
 ## Máy Sigma Live Server:
 
 Loại máy phiên bản đầy đủ chức năng, người dùng có khả năng sử dụng với toàn bộ tính năng do chúng tôi cung cấp với loại máy này.
@@ -21,59 +19,62 @@ Người dùng có thể thực hiện thêm máy mới, theo các bước:
 
 1. Tại màn hình danh sách máy Sigma Live, nhấp **Thêm máy chủ**
 
-   ![add sever](\../image/user-guide/add-server-1.png)
+   ![add sever](../image/user-guide/add-server-1.png)
 
-2.  Thực hiện lấy mã token để cài đặt máy
+2. Thực hiện lấy mã token để cài đặt máy
 
-      [Lấy mã token](/vi/sigma-engine-server/03-getting-started/04-install-new-machine#lay-ma-token-đe-thuc-hien-cai-đat-may)
+   [Lấy mã token](/vi/sigma-engine-server/03-getting-started/04-install-new-machine#lay-ma-token-đe-thuc-hien-cai-đat-may)
 
 3. Cài đặt máy chủ
 
    [Install Server](../03-getting-started/04-install-new-machine#thuc-hien-cai-đat-may)
 
-------
+***
 
 ### 2. Drain Job
 
-​       Chức năng giúp người dùng có khả năng thực hiện hành động **Drain Job**, khi máy được yêu cầu thực hiện **Drain Job** máy sẽ thực hiện đẩy toàn bộ Job đang được xử lý trong máy đó ra ngoài. Người dùng có thể thực hiện **Drain Job** theo các bước đơn giản:
+​		Chức năng giúp người dùng có khả năng thực hiện hành động **Drain Job**, khi máy được yêu cầu thực hiện **Drain Job** máy sẽ thực hiện đẩy toàn bộ Job đang được xử lý trong máy đó ra ngoài. Người dùng có thể thực hiện **Drain Job** theo các bước đơn giản:
 
-   1. Tại màn hình quản lý máy, nhấp chọn **Drain Job** tại máy ở trạng thái hoạt động (Running/ Paused)
+1. Tại màn hình quản lý máy, nhấp chọn **Drain Job** tại máy ở trạng thái hoạt động (Running/ Paused)
 
-      ![](../image/user-guide/drain-job.png)
+   ![](../image/user-guide/drain-job.png)
 
-   2. Nhấp xác nhận thực hiện hành động
+2. Nhấp xác nhận thực hiện hành động
 
-      ![](../image/user-guide/drain-job-confirm.png)
+   ![](../image/user-guide/drain-job-confirm.png)
 
 Hệ thống sẽ xử lý việc đẩy toàn bộ job đang được thực hiện trong máy ra ngoài
 
-----
+***
+
 ### 3. Pause/ Resume
 
 Cho phép người dùng thực hiện Tạm dừng/ Khôi phục hoạt động của máy. Người dùng thực hiện các bước:
 
-  1. Tại màn hình quản lý máy, nhấp chọn **Pause** tại máy ở trạng thái Running
+1. Tại màn hình quản lý máy, nhấp chọn **Pause** tại máy ở trạng thái Running
 
-        ![](\../image/user-guide/pause.png)
+   ![](../image/user-guide/pause.png)
 
-  2. Nhấp xác nhận thực hiện hành động
+2. Nhấp xác nhận thực hiện hành động
 
-        ![](\../image/user-guide/pause-confirm.png)
+   ![](../image/user-guide/pause-confirm.png)
 
 Máy sẽ về trạng thái "Paused"
 
 Với máy ở trạng thái **Pause**, người dùng muốn thực hiện **Resume** khôi phục hoạt động của máy. Thực hiện các bước tương tự:
-  1. Tại màn hình quản lý máy, nhấp chọn **Resume** tại máy ở trạng thái Paused
 
-        ![](\../image/user-guide/resume.png)
+1. Tại màn hình quản lý máy, nhấp chọn **Resume** tại máy ở trạng thái Paused
 
-  2. Nhấp xác nhận thực hiện hành động
+   ![](../image/user-guide/resume.png)
 
-        ![](\../image/user-guide/resume-confirm.png)
+2. Nhấp xác nhận thực hiện hành động
+
+   ![](../image/user-guide/resume-confirm.png)
 
 Máy sẽ về trạng thái "Running"
 
-------
+***
+
 ### 4. Config Route
 
 Chắc năng **Config Route** cho phép người dùng cấu hình địa chỉ URI giúp hệ thống có thể định tuyển và kết nối với máy chỉ Ingest và Origin.
@@ -84,11 +85,15 @@ Hệ thống cung cấp giao diện cho phép người dùng cấu hình định
 - Cấu hình Origin:  Người dùng có thể cấu hình địa chỉ HTTP Public URI
 
 Để thực hiện **Config Route**, người dùng thực hiện các bước sau:
-1. Tại màn hình danh sách máy chủ, nhấp hành động **Config Route** ![](../image/user-guide/config-route.png)
 
-2. Thực hiện cấu hình thông tin cần thiết vào form cấu hình ![](\../image/user-guide/config-route-form.png)
+1. Tại màn hình danh sách máy chủ, nhấp hành động **Config Route**
+   ![](../image/user-guide/config-route.png)
 
-------
+2. Thực hiện cấu hình thông tin cần thiết vào form cấu hình
+   ![](../image/user-guide/config-route-form.png)
+
+***
+
 ### 5. Add license
 
 Khi cài đặt máy thành công, người dùng cần gán giấy phép cho máy để kích hoạt hoạt động.
@@ -103,11 +108,14 @@ Thực hiện các thao tác:
 
 ![](../image/user-guide/license.png)
 
-2. Chọn loại giấy phép (Lưu ý: Giấy phép sử dụng kích hoạt cho máy phải cùng loại với máy) ![](../image/user-guide/license-type.png)
+2. Chọn loại giấy phép (Lưu ý: Giấy phép sử dụng kích hoạt cho máy phải cùng loại với máy)
+   ![](../image/user-guide/license-type.png)
 
-3. Kiểm tra thông tin của giấy phép ![](../image/user-guide/license-review.png)
+3. Kiểm tra thông tin của giấy phép
+   ![](../image/user-guide/license-review.png)
 
-4. Thực hiện thanh toán hóa đơn đầu tiên của giấy phép ![](../image/user-guide/license-payment.png)
+4. Thực hiện thanh toán hóa đơn đầu tiên của giấy phép
+   ![](../image/user-guide/license-payment.png)
 
    ::: warning
 
@@ -117,50 +125,59 @@ Thực hiện các thao tác:
 
 6. Hệ thống thanh toán thành công giấy phép sẽ ở trạng thái khả dụng
 
-7. Nhấp hành động "Sử dụng" ![](../image/user-guide/license-use.png)
+7. Nhấp hành động "Sử dụng"
+   ![](../image/user-guide/license-use.png)
 
-8. Chọn máy cần kích hoạt hoạt động ![](../image/user-guide/license-choose-server.png)
+8. Chọn máy cần kích hoạt hoạt động
+   ![](../image/user-guide/license-choose-server.png)
 
-9.  Xác nhận sử dụng giấy phép ![](../image/user-guide/license-use-confirm.png)
+9. Xác nhận sử dụng giấy phép
+   ![](../image/user-guide/license-use-confirm.png)
 
-Giấy phép lúc này đã gán thành công cho máy, máy sẵn sàng nhận job để xử lý. ::: tip Nếu bạn đã có giấy phép ở trạng thái "Available" có thể thực hiện "Sử dụng" giấy phép ngay (Thực hiện từ bước 7).
+Giấy phép lúc này đã gán thành công cho máy, máy sẵn sàng nhận job để xử lý.
+::: tip
+Nếu bạn đã có giấy phép ở trạng thái "Available" có thể thực hiện "Sử dụng" giấy phép ngay (Thực hiện từ bước 7).
 
 ##### Cách 2: Truy cập vào phần Quản lý máy chủ
 
 Người dùng có thể thực hiện "Add License" trược tiếp cho máy chủ theo các bước:
 
-1. Với máy mới cài đặt chưa được gán giấy phép, nhấp hành động "Add License" ![](../image/user-guide/add-license.png)
+1. Với máy mới cài đặt chưa được gán giấy phép, nhấp hành động "Add License"
+   ![](../image/user-guide/add-license.png)
 
 2. Người dùng có thể thực hiện:
 
-    ![](../image/user-guide/add-license-2.png)
+   ![](../image/user-guide/add-license-2.png)
 
-   - **Chọn giấy phép có sẵn**: Trong trường hợp ứng dụng đã có giấy phép cùng loại với máy ở trạng thái "Avaiable". ![](../image/user-guide/add-license-choose.png)
+   - **Chọn giấy phép có sẵn**: Trong trường hợp ứng dụng đã có giấy phép cùng loại với máy ở trạng thái "Avaiable".
+     ![](../image/user-guide/add-license-choose.png)
 
    - **Lựa chọn thêm giấy phép mới**: Người dùng thực hiện các bước thêm giấy phép như bước 2, 3, 4, 5, 6 tại **Cách 1**. Sau khi giấy phép được thanh toán thành công, giấy phép sẽ tự động được chọn làm giấy phép để sử dụng kích hoạt máy
 
-      ![](\../image/user-guide/add-license-create.png)
+     ![](../image/user-guide/add-license-create.png)
 
+***
 
-
------
 ### 6. Config App
 
 Chức năng **Config App** cho phép người dùng thực hiện cấu hình cổng kết nối cho máy chủ Ingest và Origin.
 
 Các bước thực hiện cấu hình ứng dụng:
 
-1. Nhấp chọn **Server Name** để xem thông tin chi tiết máy chủ ![](\../image/user-guide/config-app-1.png)
+1. Nhấp chọn **Server Name** để xem thông tin chi tiết máy chủ
+   ![](../image/user-guide/config-app-1.png)
 
 2. Tại phần thông tin cấu hình App, nhấp chọn **Config**
 
- ![](../image/user-guide/config-app-2.png)
-3. Thực hiện cấu hình và xác nhận lưu cấu hình
-   - Cấu hình Ingest: Người dùng có thể cấu hình cổng kết nối cho RTMP Server, SRT Server, Web RTC Server ![](../image/user-guide/config-app-ingest.png)
+![](../image/user-guide/config-app-2.png)
+3\. Thực hiện cấu hình và xác nhận lưu cấu hình
 
-   - Cấu hình Origin:  Người dùng có thể cấu hình cổng kết nối cho HTTP Server ![](../image/user-guide/config-app-origin.png)
+- Cấu hình Ingest: Người dùng có thể cấu hình cổng kết nối cho RTMP Server, SRT Server, Web RTC Server
+  ![](../image/user-guide/config-app-ingest.png)
 
-------
+- Cấu hình Origin:  Người dùng có thể cấu hình cổng kết nối cho HTTP Server ![](../image/user-guide/config-app-origin.png)
+
+***
 
 ### 7. Actions to App
 
@@ -173,13 +190,14 @@ Người dùng có thể thực hiện các hành động theo các bước đơ
 
 ![](../image/user-guide/action-app.png)
 
-------
+***
 
 ### 8. Delete Server
 
-Với những máy ở trạng thái **DEAD/ FREEZED** người dùng có thể thực hiện Xóa máy, giúp loại bỏ những máy không còn sử dụng để đảm bảo việc quản lý máy dễ dàng hơn. Người dùng sử dụng nút **Delete** với máy DEAD/ FREEZED ![](../image/user-guide/delete-server.png)
+Với những máy ở trạng thái **DEAD/ FREEZED** người dùng có thể thực hiện Xóa máy, giúp loại bỏ những máy không còn sử dụng để đảm bảo việc quản lý máy dễ dàng hơn. Người dùng sử dụng nút **Delete** với máy DEAD/ FREEZED
+![](../image/user-guide/delete-server.png)
 
-------
+***
 
 ## Máy Sigma Live Server Community
 
@@ -190,45 +208,53 @@ Với loại máy cộng đồng, người dùng không cần thực hiện gán
 Người dùng vẫn được phép thực hiện đầy đủ các chức năng khác đổi với loại máy này tương tự loại máy Sigma Live bình thường
 
 ### 1. Add Server
+
 Người dùng có thể thực hiện thêm máy mới, theo các bước:
 
 1. Tại màn hình danh sách máy Sigma Live Community, nhấp **Thêm máy chủ**
 
-2.  Thực hiện lấy mã token để cài đặt máy
+2. Thực hiện lấy mã token để cài đặt máy
 
-    [Lấy mã token](/vi/sigma-engine-server/03-getting-started/04-install-new-machine#lay-ma-token-đe-thuc-hien-cai-đat-may)
+   [Lấy mã token](/vi/sigma-engine-server/03-getting-started/04-install-new-machine#lay-ma-token-đe-thuc-hien-cai-đat-may)
 
-3. Cài đặt máy chủ [Install Server](/vi/sigma-engine-server/03-getting-started/04-install-new-machine#with-server-community)
+3. Cài đặt máy chủ
+   [Install Server](/vi/sigma-engine-server/03-getting-started/04-install-new-machine#with-server-community)
 
-----
+***
 
 ### 2. Drain Job
-  Người dùng thực hiện hành động [Drain Job](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_2-drain-job)
 
-----
+Người dùng thực hiện hành động [Drain Job](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_2-drain-job)
+
+***
+
 ### 3. Pause/ Resume
+
 ​    Người dùng thực hiện hành động [Pause/ Resume](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_3-pause-resume)
 
-----
+***
 
 ### 4. Config Route
+
 ​    Người dùng thực hiện hành động [Config Route](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_4-config-route)
 
-------
+***
 
 ### 5. Config App
-   Người dùng thực hiện hành động [Config App](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_6-config-app)
 
------
+Người dùng thực hiện hành động [Config App](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_6-config-app)
+
+***
 
 ### 6. Actions to App
-   Người dùng thực hiện hành động  [Action to App](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_7-actions-to-app)
 
------
+Người dùng thực hiện hành động  [Action to App](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_7-actions-to-app)
+
+***
+
 ### 7. Delete Server
-  Người dùng thực hiện hành động  [Delete Server](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_8-delete-server)
 
-
+Người dùng thực hiện hành động  [Delete Server](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_8-delete-server)
 
 ## Cluster Server
 
@@ -240,25 +266,22 @@ Giúp cải thiện tốc độ và hiệu suất làm việc, đồng thời gi
 
 Người dùng thực hiện hành động [Add Cluster](/vi/sigma-engine-server/03-getting-started/07-create-cluster#tao-moi-cluster-server)
 
+***
 
-----
 ### 2. Edit Cluster Server
 
 Người dùng được phép thực hiện chỉnh sửa cấu hình của cụm máy chủ, thay đổi cấu hình hoặc thay đổi thành phần máy trong cụm
 
-----
+***
 
 ### 3. Delete Cluster Server
 
 Người dùng có thể thực hiện xóa cụm máy không còn nhu cầu sử dụng bằng hành động **Delete** tại phần quản lý Cluster Server
 
------
+***
 
 ### 4. View Logs
 
 Hệ thống đem đến cho người dùng chức năng xem nhật lý hoạt động của cụm máy chủ. Mỗi cụm máy chủ sẽ có giao diện hiển thị toàn bộ nhật ký hoạt động của tất cả các máy chủ nằm trong cụm.
 
-Người dùng có thể xem danh sách nhật ký hoạt động của cụm máy chủ bằng cách nhấp hành động **View Logs** tại phần quản lý Cluster Server. 
-
-
-
+Người dùng có thể xem danh sách nhật ký hoạt động của cụm máy chủ bằng cách nhấp hành động **View Logs** tại phần quản lý Cluster Server.
