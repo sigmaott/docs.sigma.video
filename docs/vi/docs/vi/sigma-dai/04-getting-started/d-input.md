@@ -15,8 +15,8 @@ Mỗi biểu mẫu sẽ bao gồm nhiều trường dữ liệu, và mỗi trư�
 
 Phần **Tiêu đề** hiển thị thông tin về tên của trường dữ liệu. Dưới đây là một số quy tắc hiển thị chung của chương trình/hệ thống:
 
-* Các trường dữ liệu bắt buộc sẽ được đánh dấu bằng **dấu sao đỏ phía sau**. Trường dữ liệu không được bỏ trống, người dùng phải nhập dữ liệu trước khi có thể lưu thông tin.
-* Định dạng ngày giờ sẽ theo mẫu YYYY/MM/DD HH:mm:ss.
+- Các trường dữ liệu bắt buộc sẽ được đánh dấu bằng **dấu sao đỏ phía sau**. Trường dữ liệu không được bỏ trống, người dùng phải nhập dữ liệu trước khi có thể lưu thông tin.
+- Định dạng ngày giờ sẽ theo mẫu YYYY/MM/DD HH:mm:ss.
 
 Phần **Ô nhập/chọn dữ liệu** cho phép người dùng nhập hoặc chọn dữ liệu theo mong muốn của họ.
 
@@ -24,7 +24,7 @@ Ngoài ra, một số trường sẽ có **giới hạn ký tự**, và chỉ ch
 
 Ví dụ, một trường có thể giới hạn là 0/50, nghĩa là người dùng không thể nhập thêm ký tự thứ 51 và sau đó.
 
- ![](/images/dai/limit-text.png)
+![](/images/dai/limit-text.png)
 
 Dữ liệu người dùng đôi khi cần được xác thực để đảm bảo hợp lệ, khi dữ liệu người dùng nhập không hợp lệ sẽ có **thông báo lỗi màu đỏ** hiển thị ngay phía dưới.
 
@@ -32,17 +32,17 @@ Việc xác thực dữ liệu người dùng là cần thiết để đảm b�
 
 Nội dung của thông báo lỗi sẽ thay đổi tùy thuộc vào từng trường hợp cụ thể. Dưới đây là ví dụ về một số loại thông báo khác:
 
-![](/images/dai/error-empty.PNG)
+![](/images/dai/error-empty.png)
 
-*Hình 1. Lỗi bỏ trống trường*
+_Hình 1. Lỗi bỏ trống trường_
 
-![](/images/dai/error-invalid.PNG)
+![](/images/dai/error-invalid.png)
 
-*Hình 2. Lỗi nhập ký tự không hợp lệ*
+_Hình 2. Lỗi nhập ký tự không hợp lệ_
 
-![](/images/dai/error-invalid-link.PNG)
+![](/images/dai/error-invalid-link.png)
 
-*Hình 3. Lỗi nhập không đúng định dạng*
+_Hình 3. Lỗi nhập không đúng định dạng_
 
 ## Submit dữ liệu
 
@@ -52,13 +52,11 @@ Khi người dùng xác nhận lưu trữ dữ liệu trong biểu mẫu bằng 
 
 Nếu tác vụ được thực hiện thành công, sẽ hiển thị một thông báo ở phía trên của màn hình trình duyệt với các đặc điểm sau:
 
-![](/images/dai/create-success.PNG)
-
-* Tiêu đề: Hiển thị câu lệnh và chi tiết (không bắt buộc).
-* Nền màu: màu xanh lá
-* Biểu tượng:
-    * Icon dấu tick màu xanh lá - phía trước: đánh dấu thông báo.
-    * Biểu tượng X: Nhấp vào đây để đóng thông báo ngay lập tức.
+- Tiêu đề: Hiển thị câu lệnh và chi tiết (không bắt buộc).
+- Nền màu: màu xanh lá
+- Biểu tượng:
+  - Icon dấu tick màu xanh lá - phía trước: đánh dấu thông báo.
+  - Biểu tượng X: Nhấp vào đây để đóng thông báo ngay lập tức.
 
 Hiển thị trong vòng 5 giây và tự động biến mất sau khi đã **thực hiện lệnh**.
 
@@ -66,15 +64,14 @@ Hiển thị trong vòng 5 giây và tự động biến mất sau khi đã **th
 
 Nếu tác vụ không thành công, sẽ hiển thị một thông báo màu đỏ, kèm theo nội dung lỗi ở phía trên của màn hình trình duyệt. Nội dung lỗi sẽ thay đổi tùy theo từng trường hợp lỗi cụ thể.
 
+![](/images/dai/error-500.png)
 
-![](/images/dai/error-500.PNG)
+_Hình 4. Lỗi hệ thống_
 
-*Hình 4. Lỗi hệ thống*
-
-* Tiêu đề: ghi rõ lí do không hợp lệ.
-* Nền màu: màu đỏ
-* Biểu tượng:
-    * Biểu tượng X:- phía trước: đánh dấu thông báo.
-    * Biểu tượng X: Nhấp vào đây để đóng thông báo ngay lập tức.
+- Tiêu đề: ghi rõ lí do không hợp lệ.
+- Nền màu: màu đỏ
+- Biểu tượng:
+  - Biểu tượng X:- phía trước: đánh dấu thông báo.
+  - Biểu tượng X: Nhấp vào đây để đóng thông báo ngay lập tức.
 
 Hiển thị trong vòng 5 giây và tự động biến mất- hệ thống **không thực hiện lệnh**.
