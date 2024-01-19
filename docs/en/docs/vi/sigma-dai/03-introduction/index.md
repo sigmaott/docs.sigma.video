@@ -1,6 +1,8 @@
----
-id: docs-guide-sigma-ssai
-title: Channel Configuration
-order: 3
----
+***
 
+id: docs-guide-sigma-ssai
+title: Introduction
+
+order: 3
+
+***
