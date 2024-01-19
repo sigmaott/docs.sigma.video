@@ -4,6 +4,7 @@ order: 6
 ---
 
 # Chèn quảng cáo bumpers
+
 Bumpers ad là **video ngắn,** **không thể bỏ qua** video được chèn vào **đầu** hoặc **cuối** trước khi kết thúc điểm quảng cáo **nếu đủ thời gian**.
 
 Bumpers ad được cấu hình trong phần **cài đặt Nâng cao** và **không bắt buộc**.
@@ -30,11 +31,11 @@ Có 2 loại Bumpers ads:
 
 Người dùng có thể cấu hình Bumpers ad ở đầu, cuối hoặc cả hai.
 
-![](/images/dai/bumper.PNG)
+![](/images/dai/bumper.png)
 
 <center>
 
-  *Hình 1: chèn bumper ad*
+_Hình 1: chèn bumper ad_
 
 </center>
 
@@ -50,17 +51,14 @@ Bumpers ad end: 10s
 
 Người dùng cấu hình Bumpers ad start và Bumpers ad end, trong trường hợp này sẽ được phép **chèn cả 2**.
 
-
 **Cách Bumpers ad được cấu hình vào**
 
-| **Formula**                                                                                                                                   | availDuration | filledDuration | startBumper<br />AssetDuration | endBumper<br />AssetDuration | **Result**                     |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | -------------- | ------------------------------------ | ---------------------------------- | ------------------------------ |
-| (availDuration - filledDuration) >= **startBumperAssetDuration + endBumperAssetDuration**                                                     | 60            | 30             | 10                                   | 5                                  | chèn cả 2                      |
-| (availDuration - filledDuration) >= **startBumperAssetDuration**                                                                              | 60            | 50             | 10                                   | 10                                 | chèn start Bumper video        |
-| (availDuration - filledDuration) > **endBumperAssetDuration** and<br /> (availDuration - filledDuration) > **startBumperAssetDuration** | 60            | 55             | 10                                   | 10                                 | không chèn cái nào             |
-| **startBumperAssetDuration >**(availDuration - filledDuration) **>=** **endBumperAssetDuration**                                              | 60            | 55             | 10                                   | 5                                  | Chỉ chèn end, không chèn start |
-
-
+| **Formula**                                                                                                                                                                   | availDuration | filledDuration | startBumper<br />AssetDuration | endBumper<br />AssetDuration | **Result**                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | -------------- | ------------------------------ | ---------------------------- | ------------------------------ |
+| (availDuration - filledDuration) >= **startBumperAssetDuration + endBumperAssetDuration**                                                                  | 60            | 30             | 10                             | 5                            | chèn cả 2                      |
+| (availDuration - filledDuration) >= **startBumperAssetDuration**                                                                                           | 60            | 50             | 10                             | 10                           | chèn start Bumper video        |
+| (availDuration - filledDuration) > **endBumperAssetDuration** and<br /> (availDuration - filledDuration) > **startBumperAssetDuration** | 60            | 55             | 10                             | 10                           | không chèn cái nào             |
+| **startBumperAssetDuration >**(availDuration - filledDuration) **>=** **endBumperAssetDuration**                                                           | 60            | 55             | 10                             | 5                            | Chỉ chèn end, không chèn start |
 
 ## Các quy định khác
 
@@ -72,4 +70,4 @@ Người dùng cấu hình Bumpers ad start và Bumpers ad end, trong trường 
 
 ## Yêu cầu đầu ra
 
-   Người dùng tạo mới ad insert endpoint và chạy ad insert endpoint thành công, quan sát bumpers ad  **hiển thị thành công lên luồng Live**, người xem coi được bumpers ad. 
+Người dùng tạo mới ad insert endpoint và chạy ad insert endpoint thành công, quan sát bumpers ad  **hiển thị thành công lên luồng Live**, người xem coi được bumpers ad.
