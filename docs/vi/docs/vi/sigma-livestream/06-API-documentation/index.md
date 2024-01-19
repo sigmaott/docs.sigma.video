@@ -1,5 +1,4 @@
 ---
-title: 'Hướng dẫn sử dụng'
+title: Hướng dẫn sử dụng
 order: 3
 ---
-
