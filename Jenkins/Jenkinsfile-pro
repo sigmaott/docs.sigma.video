@@ -20,13 +20,13 @@ pipeline {
         PATH_WORKDIR = "helm-chart"
         VALUES_HELM = "pro-values.yaml"
         HARBOR_PROJECT = "sigma-streaming"
+        TGA = ${env.CI_COMMIT_SHORT_SHA}
     }
     stages {
         stage("registry-login") {
             steps {
                 sh '''
-                    def shortCommit = env.CI_COMMIT_SHORT_SHA
-                    echo "Short Commit SHA: ${shortCommit}"
+                    echo "${TGA}"
                 '''
             }
         }
