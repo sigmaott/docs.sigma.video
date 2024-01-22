@@ -20,7 +20,7 @@ pipeline {
         PATH_WORKDIR = "helm-chart"
         VALUES_HELM = "pro-values.yaml"
         HARBOR_PROJECT = "sigma-streaming"
-        TGA = ${env.CI_COMMIT_SHORT_SHA}
+        TGA = "${env.CI_COMMIT_SHORT_SHA}"
     }
     stages {
         stage("registry-login") {
