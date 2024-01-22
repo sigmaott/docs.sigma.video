@@ -2,14 +2,16 @@ pipeline {
     agent any
     environment {
         CHART_REPO = "${GIT_URL.replaceAll('.*/([^/]+/[^/]+)\\.git', '$1').tokenize('/').pop()}"
+        imageTag = sh(script: "cat ${env.WORKSPACE}/helm-chart/${VALUES_HELM} | grep 'tag:' | awk '{print \$2}'", returnStdout: true).trim()
         DOCKER_IMAGE = "hub.spilot.io:8843/${HARBOR_PROJECT}/${CHART_REPO}"
-        DOCKER_TAG = "${GIT_BRANCH.tokenize('/').pop().tokenize('v').pop()}"
+        DOCKER_TAG = "${imageTag}-${GIT_COMMIT.substring(0,7)}"
         COMMIT = "${GIT_COMMIT.substring(0,7)}"
         URL_REGISTRY = "https://hub.spilot.io:8843"
         URL_ARGOCD_STG = "171.244.194.220:1808"
         ACCOUNT_ARGO_STG = "sigma-argocd"
         HELM_REPO = "hub.spilot.io:8843/${HARBOR_PROJECT}"
         ACCOUNT_HARBOR = "sigma-harbor"
+        HELM_VERSION = "0.${BUILD_NUMBER}.0"
         ACCOUNT_ADD_REPO = "sigma-harbor"
         APP_NAME = "${GIT_URL.replaceAll('.*/([^/]+/[^/]+)\\.git', '$1').tokenize('/').pop()}"
         APP_PROJECT = "default"
@@ -34,9 +36,9 @@ pipeline {
             steps {
                     sh '''
                     export HELM_EXPERIMENTAL_OCI=1
-                    helm package ./${PATH_WORKDIR} --version ${DOCKER_TAG}
-                    helm push ${APP_NAME}-${DOCKER_TAG}.tgz ${URL_HELM_PUSH}
-                    rm -rf ${APP_NAME}-${DOCKER_TAG}.tgz
+                    helm package ./${PATH_WORKDIR} --version 0.${BUILD_NUMBER}.0
+                    helm push ${APP_NAME}-0.${BUILD_NUMBER}.0.tgz ${URL_HELM_PUSH}
+                    rm -rf ${APP_NAME}-0.${BUILD_NUMBER}.0.tgz
                     '''
             }
         }
@@ -82,7 +84,7 @@ pipeline {
         stage("deploy-app") {
             steps {
                 sh '''
-                argocd app create ${APP_NAME} --repo ${HELM_REPO} --project ${APP_PROJECT} --values ${VALUES_HELM} --revision ${DOCKER_TAG} --helm-chart ${CHART_REPO} --dest-namespace ${APP_NAMESPACE}  --dest-server ${K8S_SERVER} --helm-set doc.image.imageTag=${DOCKER_TAG} --sync-policy automated --auto-prune --self-heal --upsert
+                argocd app create ${APP_NAME} --repo ${HELM_REPO} --project ${APP_PROJECT} --values ${VALUES_HELM} --revision ${HELM_VERSION} --helm-chart ${CHART_REPO} --dest-namespace ${APP_NAMESPACE} --helm-set image.tag=${DOCKER_TAG} --dest-server ${K8S_SERVER} --sync-policy automated --auto-prune --self-heal --upsert
                 '''
             }
         }
