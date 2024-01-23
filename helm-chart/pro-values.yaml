@@ -1,6 +1,12 @@
 # Default values for helm-example.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
+replica: 1
+project: 'sigma-streaming'
+image:
+  repository: sigma-docs-website
+  tag: product
+  pullPolicy: Always
 
 
 ## @param global.imageRegistry Global Docker image registry
