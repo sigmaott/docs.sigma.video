@@ -34,7 +34,8 @@ spec:
         - name: docs-site
           securityContext:
             {{- toYaml .Values.doc.securityContext | nindent 12 }}
-          image: hub.spilot.io:8843/{{ .Values.project }}/{{ .Values.image.repository }}:{{ .Values.image.tag }}
+          # image: hub.spilot.io:8843/{{ .Values.project }}/{{ .Values.image.repository }}:{{ .Values.image.tag }}
+          image: registry.gviet.vn:5000/sigma-livestream/sigma-streaming-platform-docs:1.0.0-beta
           imagePullPolicy: {{ .Values.doc.image.pullPolicy }}
           ports:
             - name: http
