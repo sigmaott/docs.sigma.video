@@ -35,7 +35,7 @@ spec:
           securityContext:
             {{- toYaml .Values.doc.securityContext | nindent 12 }}
           # image: hub.spilot.io:8843/{{ .Values.project }}/{{ .Values.image.repository }}:{{ .Values.image.tag }}
-          image: registry.gviet.vn:5000/sigma-livestream/sigma-streaming-platform-docs:793e132b
+          image: {{ .Values.global.imageRegistry }}/{{ .Values.doc.image.repository }}:{{ .Values.doc.image.imageTag }}
           imagePullPolicy: {{ .Values.doc.image.pullPolicy }}
           ports:
             - name: http
