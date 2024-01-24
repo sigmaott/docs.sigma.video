@@ -1,1 +1,0 @@
-# Sigma Linear Right Management
