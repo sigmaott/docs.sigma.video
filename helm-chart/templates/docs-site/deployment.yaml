@@ -41,6 +41,9 @@ spec:
             - name: http
               containerPort: 8080
               protocol: TCP
+          volumeMounts:
+          - mountPath: /etc/nginx/conf.d
+            name: conf
           # livenessProbe:
           #   httpGet:
           #     path: {{ .Values.studio.livenessProbe.httpGet.path }}
@@ -73,4 +76,9 @@ spec:
       tolerations:
         {{- toYaml . | nindent 8 }}
       {{- end }}
+      volumes:
+      - configMap:
+          defaultMode: 420
+          name: landing-page-conf
+        name: conf
 
