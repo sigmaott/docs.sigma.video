@@ -1,37 +1,37 @@
 ---
-title: Chỉnh sửa kênh sự kiện
+title: Edit your event channel
 order: 3
 ---
 
-# Chỉnh sửa kênh sự kiện
+# Edit your event channel
 
-**Điều kiện**:
+**Condition**:
 
-- Kênh sự kiện đã được tạo ra trước đó và có hiển thị tại danh sách kênh sự kiện. Chức năng này giúp người dùng CMS thực hiện chỉnh sửa các thông tin cơ bản của kênh
+- The event channel was created earlier and is available in the event channel list. This function helps CMS users make edits to the basic information of the channel
 
-- Được phép chỉnh sửa ở tất cả các Trạng thái của kênh sự kiện (Ngoại trừ trạng thái **Finished**)
+- Editing allowed in all Event channel Statuses (Except **Finished**)
 
-- Trạng thái Finished, không cho phép chỉnh sửa. Khi người dùng bấm nút **Chỉnh sửa**, hệ thống sẽ gửi thông báo Kênh sự kiện đã hoàn thành phát, không thể thực hiện chỉnh sửa.
+- Finished status, no editing allowed. When the user presses the **Edit** button, the system will send a notification that the event channel has completed playback, unable to make edits.
 
-- Những trường hợp chỉnh sửa mà hệ thống cần reset kênh để thực hiện thay đổi:
-  - Chỉnh sửa Hồ sơ, Mục tiêu ở mọi trạng thái của kênh sự kiện
-  - Trạng thái của kênh sự kiện là Pre: cho phép chỉnh sửa Đầu vào của Pre-Event
-  - Trạng thái của kênh sự kiện là Main: cho phép chỉnh sửa Đầu vào của Main-Event
-  - Trạng thái của kênh sự kiện là Post: cho phép chỉnh sửa Đầu vào của Post-Event
+- Corrections in which the system needs to reset the channel to make changes:
+  - Edit Profiles, Goals in every state of the event channel
+  - The status of the event channel is Pre: allows editing Pre-Event Inputs
+  - The status of the event channel is Main: allows editing Main-Event Inputs
+  - The status of the event channel is Post: allows editing Post-Event Inputs
 
-- Đối với dữ liệu về thời gian:
-  - Trạng thái của kênh sự kiện là _**Pre**_: cho phép chỉnh sửa thời gian của Start-Main, End-Main (đối với resource: INPUT) và Thời lượng Post-Event
+- For timing data:
+  - The status of the event channel is _**Pre**_: allows editing the time of Start-Main, End-Main (for resource: INPUT) and Post-Event Duration
 
-  - Trạng thái của kênh sự kiện là _**Main**_: cho phép chỉnh sửa thời gian của End-Main (đối với resource: INPUT) và Thời lượng Post-Event
+  - The status of the event channel is _**Main**_: allows editing the time of End-Main (for resource: INPUT) and Post-Event Duration
 
-  - Trạng thái của kênh sự kiện là _**Post**_: cho phép chỉnh sửa thời gian của Thời lượng Post-Event
+  - The status of the event channel is _**Post**_: allows editing the time of the Post-Event Duration
 
-**Bước 1**:  Tại màn hình danh sách kênh sự kiện, bấm vào biểu tượng **Chỉnh sửa** của kênh muốn chỉnh sửa
+**Step 1**: At the event channel list screen, click the **Edit** icon of the channel you want to edit
 
-**Bước 2**: Hiển thị màn hình **Thông tin cấu hình Kênh sự kiện** với các thông tin đã nhập trước đó
+**Step 2**: Display the **Event Channel configuration information** screen with the previously entered information
 
-Cho phép chỉnh sửa các thông tin về _**Cấu hình chung, Cấu hình Hồ sơ, Cấu hình Mục tiêu**_
+Allows editing information about **General Configuration, Profile Configuration, Goal Configuration**\*
 
-**Bước 3**: Người dùng thực hiện chỉnh sửa thông tin  và sau đó nhấn nút **Xác nhận** để lưu thông tin mới.
+**Step 3**: The user edits the information and then presses the **Confirm** button to save the new information.
 
-Hệ thống sẽ lưu lại thông tin mới và hiển thị thông báo Cập nhật kênh sự kiện thành công ở giữa màn hình, sau đó tự động đóng trong vòng 5 giây.
+The system will save the new information and display a Successful Event Channel Update message in the middle of the screen, then automatically close within 5 seconds.
