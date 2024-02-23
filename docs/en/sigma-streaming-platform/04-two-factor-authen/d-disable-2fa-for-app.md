@@ -1,30 +1,30 @@
 ---
-title: Tắt xác thực hai yếu tố cho ứng dụng
+title: Turn off two-factor authentication for apps
 order: 4
 ---
 
-# Tắt xác thực hai yếu tố cho ứng dụng
+# Turn off two-factor authentication for apps
 
-Chức năng này cho phép người dùng CMS tắt xác thực hai yếu tố cho ứng dụng khi không có nhu cầu sử dụng.
+This function allows CMS users to disable two-factor authentication for the application when there is no need to use it.
 
-**Điều kiện**:
+**Condition**:
 
-- Tài khoản người dùng **có quyền management** và **đã BẬT xác thực hai yếu tố**
-- Ứng dụng đang ở trạng thái **Bật xác thực hai yếu tố**
+- User account **has management permissions** and **has two-factor authentication ENABLED**
+- The app is in **Enable two-factor authentication**
 
-**Bước 1**: Tại sidebar, người dùng nhấn vào mục **Quản lý App**. Hệ thống hiển thị mặc định tab **Thông tin chung** của ứng dụng
+**Step 1**: In the sidebar, users click on **Manage App**. The system displays the default tab **General Information** of the application
 
-**Bước 2**: Người dùng thực hiện **Tắt** xác thực hai yếu tố của ứng dụng ở mục **Bảo mật**
+**Step 2**: Users perform **Disable** two-factor authentication of the application in **Security**
 
-Hệ thống hiển thị pop-up xác nhận bao gồm các thông tin:
+The system displays a confirmation pop-up that includes the following information:
 
-- Tiêu đề: Tắt xác thực hai yếu tố?
-- Nội dung: Bạn có chắc chắn muốn tắt xác thực hai yếu tố không?
-- Nút **Huỷ**: Không thực hiện thay đổi, quay lại màn hình trước đó
-- Nút **OK**: Hệ thống thực hiện **Tắt** xác thực hai yếu tố đối với ứng dụng
+- Subject: Turn off two-factor authentication?
+- Content: Are you sure you want to turn off two-factor authentication?
+- **Cancel** button: No changes, go back to the previous screen
+- **OK** button: The system implements **Disable** two-factor authentication for the application
 
-**Bước 3**: Người dùng nhấn nút **OK** để thực hiện tắt xác thực hai yếu tố cho ứng dụng
+**Step 3**: The user presses the **OK** button to disable two-factor authentication for the application
 
-Hệ thống hiển thị một cửa sổ pop-up thông báo **Tắt xác thực hai yếu tố cho ứng dụng thành công!** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
+The system displays a pop-up message **Disable two-factor authentication for application success!** in the right corner of the screen and automatically closes the notification after 5 seconds.
 
-Đồng thời, hệ thống thực hiện **Tắt xác thực hai yếu tố cho ứng dụng**, đồng thời **không yêu cầu** tất cả thành viên trong ứng dụng khi truy cập ứng dụng phải bật xác thực hai yếu tố cho tài khoản
+At the same time, the system implements **Disable two-factor authentication for the application**, and **does not require** all members of the application when accessing the application to enable two-factor authentication for the account
