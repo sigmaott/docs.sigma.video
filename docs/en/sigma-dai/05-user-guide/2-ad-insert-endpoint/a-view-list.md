@@ -1,56 +1,56 @@
 ---
-title: View the ad insert endpoint editor interface
+title: Xem giao diện biên tập ad insert endpoint
 order: 1
 ---
 
-# View the ad insert endpoint editor interface
+# Xem giao diện biên tập ad insert endpoint
 
-The ad insert endpoint list interface containing ads is an important part of the online advertising system, which is available and contains ads. The interface in the list includes basic information about ad insert endpoints such as ID, name, output link,... and allows search to help ad managers have an overview of each ad insert endpoint.
+Giao diện danh sách ad insert endpoint chứa quảng cáo là một phần quan trọng trong hệ thống quảng cáo trực tuyến, có sẵn và chứa quảng cáo. Giao diện trong danh sách bao gồm các thông tin cơ bản về ad insert endpoint như ID, tên, output link,... và cho phép tìm kếm, giúp người quản lý quảng cáo có cái nhìn tổng quan về từng ad insert endpoint.
 
-Display by default in the Dashboard interface.
+Hiển thị mặc định ở giao diện Dashboard.
 
-On the main screen of the system, the user selects the list of ad insert endpoints in the header tab.
+Trên màn hình chính của hệ thống, người dùng lựa chọn Danh sách ad insert endpoint ở tab header.
 
-The system main screen displays:
+Màn hình chính hệ thống hiển thị:
 
-! 
+![](/images/dai/list-endpoint.png)
 
-In the main screen of the system, you will see the information displayed on the interface including:
+Trong màn hình chính của hệ thống, bạn sẽ thấy các thông tin được hiển thị trên giao diện bao gồm:
 
-| Column names      | Function                                                                                                                                                                                                                                                                                                                                                  |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**            | After the user creates a new ad insert endpoint, the system generates a unique ID for the ad insert endpoint for the purpose of identification.                                                                                                                                                                                                           |
-| **Name**          | Because the CMS user configures the name of the ad insert endpoint, there is a detailed view task.                                                                                                                                                                                                                                                        |
-| **HLS Replay**    | Because the system generates after configuring the ad insert endpoint, you can click to copy the link                                                                                                                                                                                                                                                     |
-| **DASH Playback** | Since the system generates after configuring the ad insert endpoint, you can click to copy the link.                                                                                                                                                                                                                                                      |
-| **Ad Server**     | A server that provides ad score specifications based on criteria including current ad campaigns and viewer interests, can click to copy the link.                                                                                                                                                                                                         |
-| **Update**        | (default sorting) displays to the top of the page with the latest updated ad insert endpoint.                                                                                                                                                                                                                                          |
-| **Action**        | Statistics: Navigate to the related statistics view options with the corresponding ad insert endpoint name filter. <br /> Edit: Allows users to edit the information of the ad insert endpoint. <br />Delete: Allows CMS users to perform ad insert endpoint deletion. <br /> Make a copy: Quickly create 1 copy with required information preconfigured. |
+| Tên cột               | Chức năng                                                                                                                                                                                                                                                                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **ID**                | Sau khi người dùng tạo mới ad insert endpoint, hệ thống sinh ra ID riêng cho ad insert endpoint với mục đích nhận diện.                                                                                                                                                                                                                                |
+| **Tên**               | Do người dùng CMS cấu hình tên ad insert endpoint, có tác vụ xem chi tiết.                                                                                                                                                                                                                                                                             |
+| **Phát lại HLS**      | Do hệ thống sinh ra sau khi cấu hình ad insert endpoint,có thể click để sao chép link                                                                                                                                                                                                                                                                  |
+| **Phát lại DASH**     | Do hệ thống sinh ra sau khi cấu hình ad insert endpoint, có thể click để sao chép link.                                                                                                                                                                                                                                                                |
+| **Máy chủ quảng cáo** | Một máy chủ cung cấp thông số kỹ thuật của điểm quảng cáo dựa trên các tiêu chí bao gồm các chiến dịch quảng cáo hiện tại và sở thích của người xem, có thể click để sao chép link.                                                                                                                                                                    |
+| **Cập nhật**          | (sắp xếp mặc định) hiển thị lên đầu trang với ad insert endpoint được cập nhật mới nhất.                                                                                                                                                                                                                                            |
+| **Hành động**         | Thống kê: Điều hướng tới các lựa chọn xem thống kê liên quan với filter tên ad insert endpoint tương ứng. <br /> Chỉnh sửa: Cho phép người dùng chỉnh sửa các thông tin của ad insert endpoint. <br />Xoá: Cho phép người dùng CMS thực hiện xoá ad insert endpoint. <br /> Tạo bản sao: Tạo nhanh 1 bản sao với thông tin bắt buộc được cấu hình sẵn. |
 
-- Other buttons
+- Các nút khác
 
-| Button name         | Function                                                                                                                                                                     |    |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -- |
-| **Sync icon**       | Right corner below the interface, always perform continuous system synchronization for 10 seconds                                                                            | !  |
-| **Footer- footer**  | 2022@ By Sigma Streaming                                                                                                                                                     |    |
-| Icon **Pagination** | Include information: Total number of pages, selection of number of items/1 page (default 10 items/1 page), current page, jump to the desired search page. |    |
-| **Quick filter**    | Quick filters support searching for information including: Name and tags.                                                                                                    |    |
-| Button **Filter**   | Perform filtering of more detailed information.                                                                                                                              |    |
+| Tên nút                | Chức năng                                                                                                                                                          |                             |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- |
+| **Icon đồng bộ**       | Góc phải bên dưới giao diện, luôn thực hiện đồng bộ hệ thống liên tục trong 10s                                                                                    | ![](./images/icon_sync.png) |
+| **Footer- chân trang** | 2022@ By Sigma Streaming                                                                                                                                           |                             |
+| Icon **Phân trang**    | Bao gồm các thông tin: Tổng số trang, lựa chọn số items/1 trang( mặc định 10 items/1 trang), trang hiện tại, nhảy tới trang mong muốn tìm kiếm. |                             |
+| **Quick filter**       | Bộ lọc nhanh hỗ trợ tìm kiếm thông tin gồm: Tên và thẻ.                                                                                                            |                             |
+| Nút **Lọc**            | Thực hiện lọc các thông tin chi tiết hơn.                                                                                                                          |                             |
 
-## View ad insert endpoint details
+## Xem chi tiết ad insert endpoint
 
-**Step 1:** At the interface List ad insert endpoint
+**Bước 1:** Tại giao diện Danh sách ad insert endpoint
 
-→ Click on **[Ad insert endpoint name]** to view ad insert endpoint details.
+→ Click vào **[Tên ad insert endpoint]** mong muốn xem thông tin chi tiết ad insert endpoint.
 
-**Step 2:** Displays the ad insert endpoint detailed interface with the following information:
+**Bước 2:** Hiển thị giao diện chi tiết ad insert endpoint với các thông tin sau:
 
-- Name ad insert endpoint: The name of the ad insert endpoint just selected
-- Tag
-- Icon **back** → Click back to interface List ad insert endpoint.
-- Display panel:
-  - **Playback Endpoint Prefixes** After the user configures the ad insert endpoint, SSAI returns the links: HLS playback prefix/ DASH playback prefix/ **link Session initalization playback prefix.**
-  - \*\*Required settings: \*\* Ad decision server / Video content source.
-  - **Advanced settings:** CDN content segmentation/ CDN ad segmentation/ Ad markup retention/ Bumpers start/ Bumpers end/ ad slate.
+- Tên ad insert endpoint: Tên ad insert endpoint vừa chọn
+- Thẻ
+- Icon **back** → Click quay trở lại giao diện Danh sách ad insert endpoint.
+- Bảng hiển thị:
+  - **Playback Endpoint Prefixes**  Sau khi người dùng cấu hình ad insert endpoint, SSAI trả về các link: HLS playback prefix/ DASH playback prefix/ **link Session initalization playback prefix( link khởi tạo).**
+  - **Cài đặt bắt buộc:** Máy chủ quảng cáo (Ad decision server)/ Video content source.
+  - **Cài đặt nâng cao:** Phân đoạn nội dung CDN/ Phân đoạn quảng cáo CDN/ Giữ lại đánh dấu quảng cáo/ Bumpers start/ Bumpers end/ ad slate.
 
-_icon copy next to each link._
+_icon copy kế bên mỗi link._
