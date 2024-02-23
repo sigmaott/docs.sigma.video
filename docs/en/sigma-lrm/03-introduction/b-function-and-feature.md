@@ -1,33 +1,33 @@
 ---
 id: doc-guideline-General-LRM
-title: Tính năng
+title: Feature
 order: 2
 ---
 
-## Tổng quan về các chức năng và tính năng của sản phẩm
+## Overview of product functions and features
 
-(dưới mỗi page, hiển thị những resource liên quan)
+(under each page, display related resources)
 
-Phần mềm quản lý sóng trực tuyến đóng vai trò quan trọng trong việc xử lý sự phức tạp ngày càng tăng của quá trình phân phối chính xác, quản lý quyền lợi, và hiển thị nội dung trên hệ thống màn hình di động cũng như chương trình phát sóng đa kênh trực tiếp.
+Online wave management software plays an important role in handling the increasing complexity of precision distribution, rights management, and content display on mobile screen systems as well as live multichannel broadcasts.
 
-## Quản lí kênh quản lý sóng trực tuyến
+## Manage online wave management channels
 
-Một kênh tập hợp các kênh media live thành một luồng tuyến tính để quản lý và phân phối sóng cho các đối tác tiếp nhận. Trước tiên, bạn tạo kênh được liên kết với một
+A channel brings together live media channels into a linear stream to manage and distribute the broadcast to receiving partners. First, you create a channel associated with a
 Topic:
 
-## Lịch phát sóng( EPG)
+## Broadcast schedule (EPG)
 
-Hệ thống điều hướng tương tác cung cấp thông tin về lịch trình phát sóng của các kênh truyền hình,  giúp người xem tra cứu thông tin về các chương trình, sự kiện, và lịch phát sóng một cách thuận tiện. Các lịch phát sóng luôn phát liên tiếp 24/7 không gián đoạn,  luôn cập nhật các thay đổi.
-
-Topic:
-
-## Sự kiện
-
-Sự kiện để quản lí, phần phối và kiểm soát nội dung tuyến tính được phân phối tới đúng đối tượng.
+The interactive navigation system provides information about the broadcast schedule of TV channels, helping viewers look up information about programs, events, and broadcast schedules conveniently. Broadcast schedules are always broadcast 24/7 without interruption, always updated with changes.
 
 Topic:
 
-## Sự kiện lập lịch
+## Event
 
-Quản lý hỗ trợ người dùng lên lịch cho các bài biên tập giúp người dùng CMS có thể hẹn giờ và thực hiện tác vụ với video biên tập tích hợp ngay trong chi tiết kênh đảm bảo người dùng sẽ xuất bản các nội dung biên tập vào đúng thời điểm cho khán giả của mình.
+Events to manage, deliver and control linear content delivered to the right audience.
+
+Topic:
+
+## Scheduling events
+
+Manage user support for scheduling editorial posts so CMS users can set timers and perform tasks with integrated video editors right in channel details, ensuring users publish editorial content at the right time for their audience.
 Topic:
