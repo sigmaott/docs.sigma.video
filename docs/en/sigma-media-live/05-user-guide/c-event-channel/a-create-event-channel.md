@@ -1,158 +1,158 @@
 ---
-title: Tạo mới kênh sự kiện
+title: Create a new event channel
 order: 1
 ---
 
-# Tạo mới kênh sự kiện
+# Create a new event channel
 
-Chức năng này cho phép CMS tạo mới kênh sự kiện, để tạo một kênh sự kiện, ta thực hiện các bước tạo kênh cơ bản.
+This function allows CMS to create a new event channel, to create an event channel, we perform the basic funnel creation steps.
 
-## Bước 1: Thiết lập cấu hình chung
+## Step 1: Set up the global configuration
 
-Tại giao diện màn hình chính kênh Event, người dùng click vào nút "Tạo kênh mới"
+At the Event channel main screen interface, users click on the "Create new channel" button
 
-Hệ thống màn hình **Thiết lập cấu hình cho Event Channel**, thiết lập cấu hình chung cho kênh Event
+Screen system **Configuration settings for Event Channel**, general configuration settings for Event channel
 
-![Thiết lập cấu hình chung](/images/media-live/event-channel/create-event-channel-1.png)
+! [General Configuration Settings] (/images/media-live/event-channel/create-event-channel-1.png)
 
+[](.. /d-input-management/d-duplicate-input.md#create-input)
 
+With the main information:
 
-Với các thông tin chính:
+- **Information**:
+  - **Name**: The name of the channel used to distinguish and search for channels in the channel list (requires entry, up to 50 characters)
+  - **Description**: Channel description (no input required, maximum 200 characters)
+  - **Tags**: List of tags (up to 100 tags, each tag entering up to 35 characters)
+  - **Create MP4**: toggle button to mark the channel on/off MP4 creation
 
-- **Thông tin**:
-  - **Tên**: Tên của kênh dùng để phân biệt và tìm kiếm kênh ở danh sách kênh (yêu cầu nhập, tối đa 50 kí tự)
-  - **Mô tả**: Mô tả kênh (không yêu cầu nhập, nhập tối đa 200 kí tự)
-  - **Tags**: Danh sách các tags (tối đa tạo được 100 tags, mỗi tags nhập tối đa 35 kí tự)
-  - **Tạo MP4**: nút chuyển đổi nhằm đánh dấu kênh bật/tắt tạo MP4
+- **Interactive**: Display configuration at the product **_Tương tác_**
 
-- **Tương tác**: Cấu hình hiển thị tại sản phẩm **_Tương tác_**
+- **Watermark**: Configure enable/disable marking of images to the video screen (watermark position preview supported) Add up to 10 watermarks.
 
-- **Watermark**: Cấu hình bật/tắt đánh dấu hình ảnh vào màn hình video (hỗ trợ preview vị trí của watermark) Thêm được tối đa 10 watermark.
+  When users **_Bật watermark_**, there are 2 ways users can use drag / drop on watermark on the preview screen, the parameters of X and Y coordinates will be automatically displayed respectively, and **vice versa** when filling in X and Y coordinates, the watermark will be displayed on the corresponding preview screen
 
-  Khi người dùng **_Bật watermark_**, có 2 cách người dùng có thể sử dụng kéo/thả trên watermark trên màn preview, các thông số về tọa độ X, Y sẽ được tự động hiển thị tương ứng, và **ngược lại** khi điền tọa độ X,Y thì watermark sẽ hiển thị trên màn preview tương ứng
+  - **Latency(s)**: Delay of watermark
+  - **X**: X coordinates (width of screen)
+  - **Y**: Y coordinates (vertical of the screen)
 
-  - **Độ trễ(s)**: Độ trễ của watermark
-  - **X**: Tọa độ X (chiều ngang của màn hình)
-  - **Y**: Tọa độ Y (chiều dọc của màn hình)
+  Add bookmarked images by clicking the dung__Chọn button to upload or pre-select from the system's library
 
-  Thêm hình ảnh đánh dấu bằng cách bấm vào nút **_Chọn nội dung_** để tải lên hoặc chọn sẵn từ thư viện của hệ thống
+- **Blackout**: when the signal is lost, the screen will display the uploaded content in the configuration (users can choose to turn it on or off)
 
-- **Blackout**: khi mất tín hiệu, màn hình sẽ hiển thị nội dung đã tải lên ở trong phần cấu hình (người dùng có thể lựa chọn bật hoặc tắt)
+## Step 2: Set up Input
 
-## Bước 2: Thiết lập Đầu vào
+After the user has filled in the required information, press the "Next" button, the system switches to the Input Setup screen
 
-Sau khi người dùng đã điền đủ các thông tin được yêu cầu, bấm nút "Tiếp theo", hệ thống chuyển sang màn hình Thiết lập Đầu vào
+Users need to configure for 3 event timelines: _**Pre-Event, Main-Event, Post-Event**_
 
-Người dùng cần thiết lập cấu hình cho 3 mốc thời gian của sự kiện: _**Pre-Event, Main-Event, Post-Event**_
+Display event timeline, displayed according to the user's configuration:
 
-Hiển thị thanh thời gian sự kiện, hiển thị theo cấu hình của người dùng:
+- **Start-Pre** (yyyy/mm/dd HH:MM:SS): Displayed in the timeline when the user has finished selecting and Start-Pre is in _**enabled**_
 
-- **Start-Pre** (yyyy/mm/dd HH:MM:SS): Được hiển thị lên thanh thời gian khi người dùng đã chọn xong và Start-Pre ở trạng thái _**bật**_
+- **Start-Main** (yyyy/mm/dd HH:MM:SS): Always on and always displayed in the time bar when the user is done with the operation
 
-- **Start-Main** (yyyy/mm/dd HH:MM:SS): Luôn bật và luôn được hiển thị trên thanh thời gian khi người dùng thao tác xong
+- **End-Main** (yyyy/mm/dd HH:MM:SS): The End-Main moment will automatically be calculated as "Start-Main Moment" + "Total duration of added assets".
 
-- **End-Main** (yyyy/mm/dd HH:MM:SS): Thời điểm End-Main sẽ tự động được tính bằng "Thời điểm Start-Main" + "Tổng thời lượng của các Asset" đã thêm.
+- **End-Post** (yyyy/mm/dd HH:MM:SS): calculated using the following formula End-Post = End-Main + Time for Post-Event
 
-- **End-Post** (yyyy/mm/dd HH:MM:SS): được tính theo công thức sau End-Post = End-Main + Time for Post-Event
+In between each event, the system calculates the total amount of time between the two events so that the user has more information.
 
-Ở giữa mỗi sự kiện, hệ thống tính tổng khoảng thời gian giữa hai sự kiện để người dùng có thêm thông tin.
+### Pre-Event Configuration Settings
 
-### Thiết lập cấu hình Pre-Event
+! [Pre-Event Configuration Settings] (/images/media-live/event-channel/create-event-channel-pre-event.png)
 
-![Thiết lập cấu hình Pre-Event](/images/media-live/event-channel/create-event-channel-pre-event.png)
+The user can enable or disable the setting for Pre-Event, if **enabled** the user must provide the following information to complete the setup:
 
-Người dùng có thể bật hoặc tắt thiết lập cho Pre-Event, nếu **bật** người dùng phải cung cấp các thông tin sau để hoàn thành thiết lập:
+- **Start Pre**: is the start time of the Pre-Event. Allow users to choose the Pre-Event start date and time (Pre-Event must be at least 5 minutes and maximum 7 days)
 
-- **Start Pre**: là thời gian bắt đầu Pre-Event. Cho phép user chọn ngày và thời gian bắt đầu Pre-Event (Pre-Event phải có thời lượng tối thiểu là 5 phút và tối đa là 7 ngày)
+- **Input**: The user selects the input of photos or videos from the gallery or uploads new content (only select 1 is allowed)
 
-- **Đầu vào**: Người dùng lựa chọn đầu vào là ảnh hoặc video từ thư viện hoặc tải nội dung mới lên (chỉ cho phép chọn 1)
+- **Countdown**: countdown events
 
-- **Đếm ngược**: đếm ngược sự kiện
+### Main-Event Configuration Settings
 
-### Thiết lập cấu hình Main-Event
+! [Main-Event Configuration Settings] (/images/media-live/event-channel/create-event-channel-main-event.png)
 
-![Thiết lập cấu hình Main-Event](/images/media-live/event-channel/create-event-channel-main-event.png)
+Mandatory user to configure Main-Event
 
-Bắt buộc người dùng phải thiết lập cấu hình cho Main-Event
+- **Start Main**: is the start time of the Main-Event (Main-Event must have a minimum duration of 5 minutes and a maximum of 2 days)
 
-- **Start Main**: là thời gian bắt đầu của Main-Event (Main-Event phải có thời lượng tối thiểu là 5 phút và tối đa là 2 ngày)
+- **End Main**: The End-Main time depends on the selection **Input**
+  - When the input selection is ASSET\*\*\*: The End-Main time will automatically be calculated as "Start-Main time" + "Total duration of added assets"
 
-- **End Main**: Thời điểm End-Main phụ thuộc vào lựa chọn **Đầu vào**
-  - _**Khi lựa chọn đầu vào là ASSET**_: Thời điểm End-Main sẽ tự động được tính bằng "Thời điểm Start-Main" + "Tổng thời lượng của các Asset" đã thêm
+  - When the input selection is INPUT\*\*\*: End-Main time the user will be selected (Main-Event must have a minimum duration of 5 minutes and a maximum of 2 days)
 
-  - _**Khi lựa chọn đầu vào là INPUT**_: Thời điểm End-Main người dùng sẽ được lựa chọn (Main-Event phải có thời lượng tối thiểu là 5 phút và tối đa là 2 ngày)
+- **Input**: Users can choose 2 types: _**INPUT**_ and \***ASSET**
+  - For type **INPUT**\* allow option 1 (can be selected from the input list or created new)
+  - For _**ASSET**_ allows a minimum selection of 1 and a maximum of 50 (can choose from the library or load a new file)
 
-- **Đầu vào**: Người dùng có thể lựa chọn 2 loại là _**INPUT**_ và \***ASSET**
-  - Đối với loại _**INPUT**_ cho phép lựa chọn 1 (có thể lựa chọn từ danh sách input hoặc tạo mới)
-  - Đối với loại _**ASSET**_ cho phép lựa chọn tối thiểu 1 và tối đa là 50 (có thể lựa chọn từ thư viện hoặc tải tệp mới)
+### Post-Event Setup
 
-### Thiết lập Post-Event
+! [Post-Event Configuration Settings] (/images/media-live/event-channel/create-event-channel-post-event.png)
 
-![Thiết lập cấu hình Post-Event](/images/media-live/event-channel/create-event-channel-post-event.png)
+The user can enable or disable the setting for Pre-Event, if **enabled** the user must provide the following information to complete the setup:
 
-Người dùng có thể bật hoặc tắt thiết lập cho Pre-Event, nếu **bật** người dùng phải cung cấp các thông tin sau để hoàn thành thiết lập:
+- **Post-Event Interval**: is the catch time for Post-Event. Allow users to choose from a list of times 00:05 -> 23:55 (minutes)
 
-- **Khoảng thời gian Post-Event**: là thời gian bắt cho Post-Event. Cho phép user chọn từ danh sách thời gian 00:05 -> 23:55 (minutes)
+- **Input**: The user selects the input of photos or videos from the gallery or uploads new content (only select 1 is allowed)
 
-- **Đầu vào**: Người dùng lựa chọn đầu vào là ảnh hoặc video từ thư viện hoặc tải nội dung mới lên (chỉ cho phép chọn 1)
+## Step 3: Set up your profile
 
-## Bước 3: Thiết lập hồ sơ
+After the user has filled in the required information, press the "Next" button, the system switches to the Profile Setup screen.
 
-Sau khi người dùng đã điền đủ các thông tin được yêu cầu, bấm nút "Tiếp theo", hệ thống chuyển sang màn hình Thiết lập Hồ sơ.
+! [Profile Setup] (/images/media-live/event-channel/create-event-channel-profile.png)
 
-![Thiết lập hồ sơ](/images/media-live/event-channel/create-event-channel-profile.png)
+The system displays 4 profiles by default with default settings.
 
-Hệ thống hiển thị mặc định 4 hồ sơ với thiết lập mặc định.
+Users can set up to 20 profiles for the channel (can choose from the existing list or create a new one)
 
-Người dùng có thể thiết lập tối 20 hồ sơ cho kênh (có thể lựa chọn từ danh sách có sẵn hoặc tạo mới)
+## Step 4: Set Goals
 
-## Bước 4: Thiết lập Mục tiêu
+After the user has filled in the information in the **Set up profile** section, click the "Next" button, the system switches to the Profile Setup screen.
 
-Sau khi người dùng đã điền đủ các thông tin ở phần **Thiết lập hồ sơ**, bấm nút "Tiếp theo", hệ thống chuyển sang màn hình Thiết lập Hồ sơ.
+! [Goal Setting] (/images/media-live/event-channel/create-event-channel-target.png)
 
-![Thiết lập Mục tiêu](/images/media-live/event-channel/create-event-channel-target.png)
-
-Chọn phím _**Thêm**_ ở mục **Mục tiêu** để thêm 1 đầu ra mong muốn. Popup hiển thị các đầu ra mong muốn sẽ hiện ra. Hệ thống hỗ trợ các đầu ra như sau:
+Select the **Add**\* key in the **Target** field to add 1 desired output. A popup displaying the desired outputs will appear. The system supports the following outputs:
 
 - **HLS**: Apple Http Live Streaming
 - **DASH**: DASH
-- **UDP**: multicast hoặc unicast mpeg transport stream
+- **UDP**: multicast or unicast mpeg transport stream
 - **RTMP**: Realtime Message Protocol
 - **Mss**: Maximum Segment Size
 - **Hds**: HTTP Dynamic Streaming
 
-Sau khi đã khởi tạo 1 đầu ra mong muốn. Cấu hình của đầu ra sẽ hiện ra như sau. Trong đó:
+After initializing 1 desired output. The configuration of the output will appear as follows. Where:
 
-**Data**: Cấu hình cơ bản của đầu ra
+**Data**: Basic configuration of output
 
-**Manifest**: Cấu hình tập tin **manifest** và **segment**
+**Manifest**: Configure **manifest** and **segment** files
 
-- **Container**: Định dạng tập tin **segment**. Có giá trị là **mpeg-ts** hoặc **fmp4**. Mặc định là **mpeg-ts**
+- **Container**: **segment** file format. Has a value of **mpeg-ts** or **fmp4**. The default is **mpeg-ts**
 
-- **TS**: Độ dài của 1 tập tin **segment**. Mặc định là 6 giây
+- **TS**: The length of 1 **segment** file. The default is 6 seconds
 
-- **Counter**: Số lượng tập tin Segment được lưu trong file **manifest**
+- **Counter**: Number of Segment files saved in **manifest** file
 
-- **Thời gian**: bật/tắt chèn timestamp vào playlist
-  **Danh sách phát** bật/tắt chèn timestamp vào playlist
+- **Time**: enable/disable insert timestamp into playlist
+  **Playlist** enable/disable insertion timestamp into playlist
 
-- **DRM**: Cấu hình mã hoá DRM
-  - **Enable**: Cấu hình bật tắt DRM
+- **DRM**: Configure DRM encryption
+  - **Enable**: Configure DRM toggle
 
-  - **Key provider**: Phương thức cung cấp key mã hoá, tĩnh hoặc lấy từ server chứa key mã hoá
+  - **Key provider**: A method of providing an encryption key, static or obtained from the server containing the encryption key
 
-    - **static**: key mã hoá tĩnh
-    - **sigma-drm**: Hệ thống mã hoá Sigma Drm
-    - **Sigma-drm-v1**: Hệ thống mã hoá Sigma DRM V1
-    - **Sigma-multi-drm**: Hệ thống mã hoá Multi-DRM hỗ trợ Widevine, PlayReady, FairPlay được triển khai bởi Sigma drm
-    - **drmtoday**: Hệ thống mã hoá Multi-DRM hỗ trợ Widevine, PlayReady, FairPlay được triển khai bởi castlab
+    - **static**: static encryption key
+    - **sigma-drm**: Sigma Drm encryption system
+    - **Sigma-drm-v1**: Sigma DRM V1 Encryption System
+    - **Sigma-multi-drm**: Multi-DRM encryption system supporting Widevine, PlayReady, FairPlay implemented by Sigma drm
+    - **drmtoday**: Multi-DRM encryption system supporting Widevine, PlayReady, FairPlay implemented by castlab
 
-  - Thiết lập **DRM Credential** nếu có đối với **Sigma Multi DRM** và **DRMtoday**
+  - Set up **DRM Credential** if applicable for **Sigma Multi DRM** and **DRMtoday**
 
-## Bước 5: Xác nhận Preview và hoàn thành tạo kênh
+## Step 5: Confirm Preview and complete channel creation
 
-Sau khi đã hoàn thành tất cả các bước trên, người dùng bấm nút **Tiếp theo**, hệ thống hiển thị màn hình Preview bao gồm những thông tin đã được cấu hình ở những bước trước, mục đích giúp người dùng có thể kiểm tra lại nội dung trước khi hoàn thành bước tạo kênh.
+After completing all the above steps, the user presses the **Next** button, the system displays the Preview screen including the information configured in the previous steps, so that the user can check the content before completing the channel creation step.
 
-![Xác nhận Preview](/images/media-live/event-channel/create-event-channel-preview.png)
+! [Preview Confirmed] (/images/media-live/event-channel/create-event-channel-preview\.png)
 
-Sau khi kiểm tra lại thông, người dùng bấm nút **Xác nhận** để hoàn thành bước tạo kênh sự kiện. Sau khi kênh sự kiện được thêm mới thành công, sẽ hiển thị tại danh sách kênh sự kiện
+After double-checking the information, the user clicks the **Confirm** button to complete the event funnel creation step. Once a new event channel is successfully added, it will show up in the event channel list
