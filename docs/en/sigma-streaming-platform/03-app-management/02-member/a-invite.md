@@ -1,113 +1,113 @@
 ---
-title: Mời thành viên
+title: Invite members
 order: 1
 ---
 
-# Quản lý thành viên
+# Member Management
 
-Để tăng cường quản lý, bảo mật thông tin và tối ưu hóa quá trình làm việc cũng như đảm bảo mọi thành viên tuân thủ quyền và trách nhiệm của mình, tính năng phân quyền và mời thêm thành viên trở thành yếu tố quan trọng trong dịch vụ Sigma streaming. Điều này mang lại những lợi ích như:
+In order to enhance management, information security and optimize the work process as well as ensure that all members comply with their rights and responsibilities, the feature of decentralizing and inviting more members becomes an important element of the Sigma streaming service. This brings benefits such as:
 
-- **Quản lý công việc hiệu quả**:
+- **Effective work management**:
 
-  - Bảo mật: Hạn chế quyền truy cập, ngăn chặn sự can thiệp từ người không có quyền.
-  - Quản lý hiệu quả: Phân chia rõ ràng vai trò và quyền hạn, giúp quản lý công việc một cách linh hoạt và dễ dàng.
-- **Phân chia trách nhiệm**: phân công công việc tương ứng với trách nhiệm vào từng thành viên chính xác và hiệu quả.
-- **Kiểm soát chất lượng**: Ngăn chặn việc chỉnh sửa, đảm bảo chất lượng nội dung và mở rộng đội ngũ một cách linh hoạt.
+  - Security: Restrict access, prevent interference from unauthorized persons.
+  - Effective management: Clearly divide roles and authority, making work management flexible and easy.
+- **Division of responsibilities**: assign tasks corresponding to responsibilities to each member accurately and effectively.
+- **Quality control**: Prevent editing, ensure content quality and expand the team flexibly.
 
-## Chuẩn bị
+## Prepare
 
-Trước khi bắt đầu, việc sử dụng dịch vụ Sigma Streaming yêu cầu các thành viên phải có tài khoản truy cập. Nếu bạn chưa có tài khoản, hãy tham khảo hướng dẫn để tạo tài khoản mới [Tạo tài khoản mới](../../02-user-management/a-sign-up.md#đăng-kí-tài-khoản).
+Before starting, using the Sigma Streaming service requires members to have an access account. If you do not have an account, please refer to the instructions for creating a new account [Create new account](.. /.. /02-user-management/a-sign-up.md#sign-account).
 
-## Thêm thành viên
+## Add members
 
-**Điều kiện**: Tại khoản có quyền truy cập vào quản lí ứng dụng
+**Condition**: Account with access to application management
 
-Trên giao diện hiển thị danh sách thành viên, người quản trị có thể mời thêm thành viên theo các bước sau:
+On the member list display interface, administrators can invite more members by following these steps:
 
-**Bước 1**: Nhấp vào nút `Thêm` trên danh sách thành viên.
+**Step 1**: Click the 'Add' button on the member list.
 
-Hiển thị một Pop-up mời thành viên với các phần sau:
+Displays a Pop-up member invitation with the following sections:
 
-![Mời Thành Viên](/images/streaming-platform/app-management/02-member/pop-up/create.png)
+! [Member Invite] (/images/streaming-platform/app-management/02-member/pop-up/create.png)
 
-- Nhập email:
-  - Không hỗ trợ ngôn ngữ có dấu, không chứa dấu cách, nhập theo định dạng `local-part@domainname`
-  - Để nâng cao tính chính xác, người dùng cần tuân thủ các quy định sau:
-    - Không nhập email của mình
-    - Không nhập email thành viên đã tham gia ứng dụng( email đã tồn tại trong hệ thống)
+- Enter your email:
+  - Does not support accented languages, does not contain spaces, type in 'local-part\@domainname' format
+  - To improve accuracy, users need to comply with the following regulations:
+    - Don't enter your email
+    - Do not enter the email of the member who joined the application (email already exists in the system)
 
-- Group mặc định- khi tạo ứng dụng, sẽ tự động có 3 nhóm mặc định:
-  - **Media-hub distributor**: nhà phân phối, phân quyền vào application VTVhub
-  - **Administration**: Full quyền trên cả 3 thành phần (Tài khoản tạo ứng dụng mặc định có quyền quản trị).
-  - **Editor**: Có tất cả quyền thực hiện hành động ngoại trừ quản lý ứng dụng.
-  - **Visitor**: Chỉ có quyền xem tất cả các ứng dụng ngoại trừ quản lý ứng dụng.
+- Default Group- when creating an app, there will automatically be 3 default groups:
+  - **Media-hub distributor**: distributor, delegate to VTVhub application
+  - **Administration**: Full permissions on all 3 components (The default app creation account has administrative rights).
+  - **Editor**: Has all permission to perform actions except application management.
+  - **Visitor**: Only have permission to view all applications except application management.
 
-**Bước 2**:
-Người dùng cung cấp địa chỉ email để gửi lời mời đến thành viên.
+**Step 2**:
+The user provides an email address to send invitations to members.
 
-_Cho phép mời nhiều người cùng lúc, tối đa 10 thành viên._
+_Multiple people can be invited at once, up to 10 members._
 
-Cthành viênn nhóm quyền và nhấn nút `Mời Thành Viên`.
+Members group permissions and click the 'Invite Members' button.
 
-**Bước 3**:
-Hệ thống kiểm tra thông tin tài khoản trong hệ thống:
+**Step 3**:
+The system checks account information in the system:
 
-- [Tài khoản đã tồn tại](a-invite#tài-khoản-đã-tồn-tại)
-- [Tài khoản không tồn tại](./a-invite#tài-khoản-thành-viên-không-tồn-tại)
+- [Account already exists] (a-invite#account-existed)
+- [Account does not exist] (./a-invite#member-account-non-existent)
 
-## Tài khoản thành viên đã tồn tại
+## Member Account already exists
 
-Nếu email **đã tồn tại** trong hệ thống, hệ thống sẽ tự động thêm email vào ứng dụng với tư cách thành viên.
+If the email **already exists** in the system, the system will automatically add the email to the application as a member.
 
-Sau khi quay lại giao diện danh sách thành viên, thông báo thành công sẽ xuất hiện phía trên màn hình:
+After returning to the member list interface, a success message will appear above the screen:
 
-![Thêm thành viên thành công](/images/streaming-platform/app-management/02-member/message/create.png)
+! [Add member successfully] (/images/streaming-platform/app-management/02-member/message/create.png)
 
-_Thông báo: Thêm thành viên thành công!_
+_Announcement: Added member successfully!_
 
-Thông tin của thành viên mới mời sẽ được hiển thị đầu danh sách, bao gồm các chi tiết sau:
+The information of the newly invited member will be displayed at the top of the list, including the following details:
 
-- **Email**: Địa chỉ email được nhập.
-- **Trạng thái**: `Joined`.
-- **Thời gian**: Thời gian khi thành viên được thêm vào.
+- **Email**: The email address entered.
+- **Status**: 'Joined'.
+- **Time**: The time when the member was added.
 
-_Trường hợp thành viên trở lại email, nhấp vào xác nhận tham gia. Đường dẫn không còn hiệu lực_
+_In case the member returns to the email, click confirm participation. The path is no longer valid_
 
-### Xác nhận thành viên
+### Membership confirmation
 
-Sau khi tài khoản người dùng được mời thành công, hệ thống sẽ gửi thông báo **ĐÃ TRỞ THÀNH THÀNH VIÊN** đến địa chỉ email đã được nhập.
+After the user account is successfully invited, the system will send a **BECAME MEMBER** notification to the email address entered.
 
-Khi người dùng nhấp vào email thông báo, thành viên sẽ được chuyển hướng đến trang tổng quan ứng dụng. Tùy thuộc vào trạng thái đăng nhập của trình duyệt và tài khoản, có hai trường hợp xảy ra trên màn hình đích:
+When a user clicks on the notification email, the member will be redirected to the app dashboard. Depending on the login status of the browser and account, two scenarios occur on the destination screen:
 
-1. Nếu trình duyệt đã đăng nhập và đang mở trang Sigma:
+1. If your browser is signed in and has the Sigma site open:
 
-   Tự động chuyển hướng đến trang tổng quan ứng dụng Sigma.
+   Automatic redirection to the Sigma application dashboard.
 
-2. Nếu trình duyệt chưa đăng nhập:
+2. If your browser isn't signed in:
 
-   Mở trang yêu cầu đăng nhập.
-   Sau khi đăng nhập thành công, tự động chuyển hướng đến trang tổng quan ứng dụng Sigma.
+   Open the sign-in request page.
+   After successful login, automatically redirect to the Sigma application dashboard.
 
-Ngoài ra, nếu trình duyệt Opera đang đăng nhập nhưng liên kết chuyển hướng tới trình duyệt Chrome, người dùng sẽ được yêu cầu đăng nhập lại.
+Also, if the Opera browser is logged in but the link redirects to the Chrome browser, the user will be asked to sign in again.
 
-Nếu người dùng nhấp vào nút `Home` dưới email, thành viên sẽ được chuyển hướng trực tiếp tới trang web Sigma.
+If the user clicks the 'Home' button under the email, the member will be redirected directly to the Sigma website.
 
-## Tài khoản thành viên không tồn tại
+## Member Account does not exist
 
-Nếu email không tồn tại trong hệ thống, hệ thống sẽ **tự động gửi lời mời** thông qua địa chỉ email được nhập.
+If the email does not exist in the system, the system will **automatically send an invitation** through the email address entered.
 
-Tại giao diện danh sách thành viên, thông tin của thành viên vừa được mời sẽ được hiển thị đầu danh sách với các chi tiết sau:
+At the member list interface, the information of the newly invited member will be displayed at the top of the list with the following details:
 
-- **Email**: Địa chỉ email đã được nhập.
-- **Trạng thái**: `Invited`.
-- **Thời gian**: Thời điểm khi gửi mail mời thêm thành viên.
+- **Email**: The email address entered.
+- **Status**: 'Invited'.
+- **Time**: The time when sending an email inviting more members.
 
-### Đăng ký thành viên
+### Membership Registration
 
-Người dùng sẽ nhận được email mời tham gia và chỉ cần nhấp vào `Truy cập vào app`
+Users will receive an invitation email and simply click on 'Access App'
 
-Thành viên sẽ được chuyển hướng đến hệ thống SSP| đăng ký tài khoản, sử dụng tài khoản email đã được mời. Lúc này, họ sẽ không có quyền chỉnh sửa thông tin và sẽ được yêu cầu đặt mật khẩu.
+Members will be redirected to SSP| Sign up for an account, using the email account that was invited. At this point, they will not have the right to edit the information and will be asked to set a password.
 
-Để thực hiện quy trình đăng ký, vui lòng xem hướng dẫn chi tiết [tại đây](../../02-user-management/a-sign-up.md#đăng-kí-tài-khoản).
+To go through the application process, please see detailed instructions [here]. /.. /02-user-management/a-sign-up.md#sign-account).
 
-Sau khi hoàn tất quá trình đăng ký, hệ thống sẽ mở giao diện Tổng quan ứng dụng cho người dùng.
+After completing the registration process, the system will open the Application Overview interface for the user.
