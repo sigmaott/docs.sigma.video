@@ -1,28 +1,28 @@
 ---
-title: Đăng xuất tài khoản
+title: Sign out of your account
 order: 4
 ---
 
-# Đăng xuất tài khoản
+# Sign out of your account
 
-Tính năng giúp người dùng có thể thực hiện đăng xuất tài khoản khi không có nhu cầu sử dụng sản phẩm và dịch vụ.
+The feature makes it possible for users to log out of their accounts when there is no need to use products and services.
 
-**Điều kiện**: Người dùng đã đăng nhập thành công hệ thống
+**Condition**: The user has successfully logged into the system
 
-**Bước 1**: Tại sidebar của hệ thống, người dùng bấm **email đăng nhập** của mình
+**Step 1**: In the sidebar of the system, users click their login email
 
-Hệ thống hiển thị màn hình Quản lý Người dùng
+The system displays the User Management screen
 
-**Bước 2**: Người dùng bấm nút **"Đăng xuất"** ở góc bên phải màn hình
+**Step 2**: User clicks the **"Sign out" button** in the right corner of the screen
 
-Hệ thống hiển thị pop-up xác nhận với thông tin:
+The system displays a confirmation pop-up with information:
 
-- Tiêu đề: Đăng xuất khỏi Sigma
+- Title: Logging out of Sigma
 
-- Nội dung: Bạn có chắc chắn muốn đăng xuất không?
+- Contents: Are you sure you want to sign out?
 
-- Nút **"Hủy bỏ"**: Hủy bỏ thực hiện, quay lại màn hình trước đó
+- Button **"Cancel"**: Cancel done, return to the previous screen
 
-- Nút **"Xác nhận"**: thực hiện đăng xuất khỏi hệ thống
+- **"Confirm" button**: perform logout from the system
 
-**Bước 3**: Người dùng bấm nút **"Xác nhận"**, hệ thống chuyển sang màn hình Đăng nhập của hệ thống
+**Step 3**: User presses the **"Confirm" button**\*, the system switches to the system's Login screen
