@@ -1,27 +1,27 @@
 ---
-title: Thực hiện Bắt đầu kênh sự kiện
+title: Perform Start Event Funnel
 order: 7
 ---
 
-# Thực hiện Bắt đầu kênh sự kiện
+# Perform Start Event Funnel
 
-**Điều kiện**: Kênh sự kiện đang ở trạng thái **Stop**
+**Condition**: The event channel is in **Stop** status
 
-**Bước 1**: Người dùng có 2 lựa chọn để bắt đầu:
+**Step 1**: Users have 2 options to get started:
 
-- Tại _**màn hình danh sách kênh sự kiện**_, bấm vào biểu tượng **Bắt đầu** của kênh muốn chỉnh sửa
+- At the event channel listing screen, click the **Start** icon of the channel you want to edit
 
-- Tại _**màn hình chi tiết kênh sự kiện**_, bấm vào biểu tượng **Bắt đầu** của kênh muốn chỉnh sửa
+- At the event channel details screen, click the **Start** icon of the channel you want to edit
 
-**Bước 2**: Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâm màn hình với các chi tiết sau:
+**Step 2**: The system will display a confirmation pop-up window in the center of the screen with the following details:
 
-- Tiêu đề: Cảnh báo
-- Nội dung: Bạn có chắc chắn bắt đầu kênh không?
-- Nút **Huỷ**: Không thực hiện thay đổi, quay lại màn hình Danh sách kênh sự kiện.
-- Nút **Đồng ý**: Hệ thống thực hiện bắt đầu kênh sự kiện.
+- Subject: Warning
+- Content: Are you sure to start the channel?
+- **Cancel** button: Make no changes, return to the Event Channel List screen.
+- **Agree** button: The execution system starts the event channel.
 
-\*\*Bước 3: Người dùng nhấn nút **Đồng ý** để xoá thông tin kênh sự kiện.
+\*\*Step 3: The user presses the **OK** button to delete the event channel information.
 
-Hệ thống hiển thị một thông báo **Bắt đầu kênh sự kiện thành công** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
+The system displays a successful event channel start message in the right corner of the screen and automatically closes the notification after 5 seconds.
 
-Đồng thời, hệ thống thực hiện **Bắt đầu kênh sự kiện** chuyển trạng thái kênh sự kiện thành là **Live**
+At the same time, the system executes **Start event channel** changes the event channel status to **Live**
