@@ -1,17 +1,17 @@
 ---
-title: "B4: Tạo kênh"
+title: "S4: Create a channel"
 order: 6
 ---
 
-## Bước 4: Tạo kênh
+## Step 4: Create a channel
 
-Bạn đã nhập thông tin bắt buộc tối thiểu, vì vậy bạn đã sẵn sàng tạo kênh .
+You've entered the minimum required information, so you're ready to create a \ channel.
 
-**Để tạo kênh**
+**To create a channel**
 
-- Trên trang **Tạo kênh**, trong phần **Kênh**, chọn **Tạo kênh** .
+- On the Create channel page, in the **Channel** section, select Create channel\*\* .
 
-  Tham khảo hướng dẫn tạo kênh tại
+  Refer to the guide to creating a channel at
 
-  - [Tạo Kênh đóng gói](../03-transcode-package-channel/02-create-package-channel.md)
-  - [Tạo kênh chuyển mã](../03-transcode-package-channel/03-create-transcode-channel.md)
+  - [Create Packing Channel] (.. /03-transcode-package-channel/02-create-package-channel.md)
+  - [Transcoding Channel Creation] (.. /03-transcode-package-channel/03-create-transcode-channel.md)
