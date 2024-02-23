@@ -1,4 +1,4 @@
 ---
-title: Hướng dẫn sử dụng
+title: Instructions for use
 order: 3
 ---
