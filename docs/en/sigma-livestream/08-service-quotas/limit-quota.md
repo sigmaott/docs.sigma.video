@@ -3,22 +3,22 @@ title: Service-quota
 order: 1
 ---
 
-# Giới hạn sử dụng
+# Usage Limitations
 
-Quota được thiết lập để đảm bảo rằng trang web hoạt động hiệu quả,ngăn chặn truy cập đồng thời của nhiều người dùng hoặc giảm nguy cơ bị quá tải hệ thống máy chủ, và bảo vệ tài nguyên của máy chủ khỏi sự lạm dụng.
+Quotas are set up to ensure that the website operates efficiently, prevent simultaneous access by multiple users or reduce the risk of server overload, and protect server resources from abuse.
 
-Trong một trang web, quota được sử dụng để mô tả giới hạn hoặc hạn chế về việc sử dụng một số lượng cụ thể của tài nguyên. Các tài nguyên này có thể bao gồm lưu trữ, số lượng kênh phát trực tiếp đồng thời, session hoặc bất kỳ tài nguyên nào mà trang web cung cấp cho người dùng.
+In a website, a quota is used to describe a limit or restriction on the use of a specific amount of resources. These resources may include hosting, the number of simultaneous live streaming channels, sessions, or any resources that the website makes available to users.
 
-### Mục đích
+### Purpose
 
-Để xác định giới hạn tài nguyên số lượng kênh phát trực tiếp đồng thời trong phạm vi gói mà người dùng được sử dụng. Khi người dùng đạt đến giới hạn tài nguyên, hệ thống sẽ chặn quyền đẩy input vào kênh để bắt đầu phát trực tiếp vào dịch vụ hệ thống, đảm bảo rằng họ không thể tiếp tục sử dụng dịch vụ miễn phí cho đến khi App được nâng cấp hoặc mở rộng giới hạn tài nguyên.
+To determine resource limits, the number of simultaneous live streaming channels within the range of packages used by the user. When the user reaches the resource limit, the system blocks the right to push input into the channel to start streaming directly into the system service, ensuring that they cannot continue using the free service until the App is upgraded or the resource limit is expanded.
 
-Việc chặn dịch vụ Livestream phải được thực thi bởi hệ thống để đảm bảo người dùng không thể sử dụng sản phẩm dịch vụ vượt quá giới hạn Pro App.
+The blocking of the Livestream service must be enforced by the system to ensure that users cannot use the product or service beyond the Pro App limit.
 
-### Phạm vi
+### Scope
 
-Giới hạn tài nguyên là độc lập giữa các app trong cùng 1 tài khoản. Nghĩa là với tài khoản A:
+Resource limits are independent between apps in the same account. That is, with account A:
 
-Ứng dụng 1 đạt giới hạn quota → hết tài nguyên sử dụng, update để tiếp tục sử dụng.
+Application 1 reaches the quota limit → runs out of resources used, update to continue using.
 
-Ứng dụng 2 chưa đạt giới hạn quota → tiếp tục sử dụng.
+App 2 has not reached the quota limit → continue to use it.
