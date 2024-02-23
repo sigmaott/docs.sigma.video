@@ -1,28 +1,28 @@
 ---
-title: Tạo bản sao profile
+title: Make a copy of your profile
 order: 4
 ---
 
-## Tạo bản sao Profile
+## Make a copy of your Profile
 
-**Điều kiện**: Profile đã được tạo ra trước đó và có hiển thị tại danh sách profile.
+**Condition**: The profile has been created before and is displayed in the profile list.
 
-Các tham số trong profile rất nhiều, và việc cấu hình từng tham số mất nhiều thời gian của người dùng. Do đó, bạn có thể tạo bản sao từ các profile đã tồn tại và chỉnh sửa một số thông tin mà bạn muốn.
+The parameters in the profile are many, and configuring each parameter takes a long time for the user. Therefore, you can make copies from existing profiles and edit some of the information you want.
 
-Người quản trị nội dung (CMS) có khả năng tạo bản sao cho tất cả các profile hiện có trong danh sách và chỉnh sửa các tham số của profile mới mà không gây ảnh hưởng đến các profile đã có.
+A content administrator (CMS) has the ability to make copies of all existing profiles in the list and edit the parameters of new profiles without affecting existing profiles.
 
-**Bước 1**:
+**Step 1**:
 
-Tại giao diện chính, người dùng có thể thực hiện tạo bản sao bằng cách di chuyển chuột vào biểu tượng `Nhân bản` trong cột hành động của profile mà họ muốn tạo bản sao.
+At the main interface, users can make copies by moving their mouse on the 'Clone' icon in the action column of the profile they want to clone.
 
-**Bước 2:** Khi người dùng nhấp vào biểu tượng `Nhân bản`, hệ thống sẽ mở một cửa sổ pop-up **Nhân bản Profile** giữa màn hình, hiển thị các dữ liệu đã nhập trước đó.
+**Step 2:** When the user clicks on the 'Duplicate' icon, the system will open a pop-up window **Duplicate Profile** in the middle of the screen, displaying the previously entered data.
 
-![Tạo bản sao profile](/images/media-live/profile/duplicate.png)
+! [Create a profile copy] (/images/media-live/profile/duplicate.png)
 
-_Pop-up Nhân bản Profile_
+_Pop-up Profile Cloning_
 
-**Bước 3:** Sau khi người dùng thực hiện các thay đổi và nhấn nút `Xác nhận`, hệ thống sẽ tự động tạo mới profile. Thông báo cập nhật thành công sẽ xuất hiện ở trên màn hình và sau đó cửa sổ sẽ tự động đóng sau 5 giây.
+**Step 3:** After the user makes changes and presses the 'Confirm' button, the system will automatically create a new profile. A successful update message will appear on the screen and then the window will close automatically after 5 seconds.
 
 <!-- ![]() -->
 
-_Thông báo: Preset nhân bản thành công!_
+_Announcement: Preset cloning successful!_
