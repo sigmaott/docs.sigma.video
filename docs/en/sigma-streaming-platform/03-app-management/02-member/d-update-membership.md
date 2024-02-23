@@ -1,38 +1,38 @@
 ---
-title: Cập nhật tư cách thành viên
+title: Update your membership
 order: 4
 ---
 
-# Cập nhật tư cách thành viên
+# Update your membership
 
-**Điều kiện**: Phải có ít nhất một thành viên khác và được hiển thị tại danh sách thành viên.
+**Condition**: There must be at least one other member and be displayed in the member list.
 
-Sau khi mời thành viên, quản trị viên muốn thay đổi quyền thực thi của thành viên và vì vậy quản trị viên cần cập nhật lại quyền cho thành viên đó.
+After inviting a member, the admin wants to change the member's enforcement permissions, and so the admin needs to update the member's permissions again.
 
-Giao diện tại danh sách thành viên:
+Interface at the member list:
 
-**Bước 1**: Người dùng nhấp vào biểu tượng `sửa` ở cột hành động.
+**Step 1**: The user clicks on the 'edit' icon in the action column.
 
-Hiển thị một cửa sổ **Chỉnh sửa thành viên**:
+Display a **Edit Member** window:
 
-![Chỉnh sửa thành viên](/images/streaming-platform/app-management/02-member/pop-up/edit.png)
+! [Edit member] (/images/streaming-platform/app-management/02-member/pop-up/edit.png)
 
-- **Tên**: Email của người dùng - không cho phép sửa.
-- **Các nhóm quyền**: Danh sách các nhóm quyền hiện tại được chọn.
+- **Name**: User email - no corrections allowed.
+- **Permission groups**: A list of currently selected permission groups.
 
-**Bước 2**: Nhấp vào `nhóm quyền` hoặc có thể tạo nhanh một nhóm theo hướng dẫn [tại đây](../03-group/b-create.md#tạo-nhóm).
+**Step 2**: Click on 'permission group' or you can quickly create one according to the instructions [here](.. /03-group/b-create.md#create-group).
 
-Nhấp vào nút `Lưu`.
+Click the 'Save' button.
 
-**Bước 3**: Ghi nhận thay đổi quyền và hiển thị thông báo:
+**Step 3**: Record the permission change and display the message:
 
-![Chỉnh sửa thành viên thành công](/images/streaming-platform/app-management/02-member/message/edit.png)
+! [Successful member edit] (/images/streaming-platform/app-management/02-member/message/edit.png)
 
-_Thông báo: Chỉnh sửa thành viên thành công!_
+_Notice: Member edit successful!_
 
-## Tài khoản thành viên
+## Member Account
 
-Sau khi quản trị viên cập nhật quyền, tài khoản thành viên sẽ được cập nhật và hiển thị:
+After the administrator updates the permissions, the member account will be updated and displayed:
 
-1. Hiển thị sidebar theo các quyền được phép.
-2. Hiển thị Trang tổng quan theo các quyền được phép.
+1. Display the sidebar according to allowed permissions.
+2. Display the Dashboard by permissions.
