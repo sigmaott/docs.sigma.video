@@ -1,41 +1,38 @@
 ---
-layout: home
-
+layout: Home
 title: Sigma Streaming Platform
-titleTemplate: New Generation Streaming Platform Video System
-
+titleTemplate: Next-generation Video Streaming Platform
 hero:
   name: Sigma Streaming Platform
-  text: New Generation Streaming Platform Video System
-  tagline: Our video solutions series is deployed globally in thousands of businesses, media companies, service providers and educational institutions, taking advantage of video to teach, learn, communicate, collaborate and entertain.
+  text: Next-generation Video Streaming Platform
+  tagline: Our wide range of video solutions are deployed globally at businesses, media companies, service providers, leveraging video to teach, learn, communicate, collaborate and entertain.
   image:
     src: /logo-with-shadow.png
     alt: Vite
   actions:
-    - theme: alt
+    - theme: Alt
       text: Why Sigma?
       link: /en/sigma-streaming-platform/01-get-started/1-introduction
-    - theme: alt
+    - theme: Alt
       text: View on Github
-      link: https://github.com/sigmaott
+      link: https://github.com/sigmaot
 features:
-  - icon: '💡'
-    title: Sigma Media Live
-    details: Convert video content directly from multiple threads
-  - icon: '⚡️'
+  - icon: 💡
+    title: Sigma Transcode Live
+    details: Transcode live video content from various streams
+  - icon: ⚡️
     title: Sigma Interactive
-    details: Television interacts with many interesting scenario content.
-  - icon: '🛠️'
+    details: Interactive TV with many interesting scripted content
+  - icon: 🛠️
     title: Sigma Live Streaming
-    details: Livestream directly with many custom features.
-  - icon: '📦'
+    details: Live stream with many customizable features
+  - icon: 📦
     title: Sigma Dynamic Ads Insert
-    details: Insert an active advertisement on the server
-  - icon: '🔩'
-    title: Sigma Media VOD
-    details: Convert video on demand content with Sigma VOD Server
-  - icon: '🔑'
+    details: Insert dynamic ads on a server
+  - icon: 🔩
     title: Sigma Linear Right Management
-    details: Close the live video content package from multiple threads
+    details: Direct access management for linear content
+  - icon: 🔑
+    title: Sigma Packager
+    details: Package live video content from a variety of streams
 ---
-

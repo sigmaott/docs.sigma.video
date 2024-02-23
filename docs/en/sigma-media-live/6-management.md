@@ -1,179 +1,185 @@
-
 # Management System
 
-User-managed administration system, api access token to the system
+User decentralization management system, api access token to the system
 
 ## Basic authentication
 
-Manage the system to use on the system.
+Manage tokens used on the system.
 
-### List of basic authentications
-![List of token](/images/media-live/um-basic-auth/list.png)
+### Basic authentication list
 
-Each token value will include the basic parameters:
+! [List of token] (/images/media-live/um-basic-auth/list.png)
+
+Each token value will consist of the following basic information:
 
 - Name.
 - Right.
 
-  To better understand the rights, access section **Decline**.
+  To better understand permissions, visit the Permissions section.
 
----
+***
 
-**\ * NOTE**
+**\* NOTE**
 
-A token will be assigned one or more rights.
+A token will be assigned one or more permissions.
 
----
+***
 
-### Create token
+### Create a token
 
-1. Click on button ![Add button](/images/media-live/um-member/btn-add.png).
-2. Enter the token information in form.
+1. Click on the ! [Add button] (/images/media-live/um-member/btn-add.png).
 
-    ![Add Form](/images/media-live/um-basic-auth/form-add.png)
+2. Enter the token information in the form.
 
-    When performing an assignment to the token, it is possible to select the permissions available in the list of groups. Then, the token will inherit all the rights of the selected group. It is possible to edit (add sur/delete) the inherited rights to the appropriate.
+   ! [Add Form] (/images/media-live/um-basic-auth/form-add.png)
 
-    Click the ![Add perm button](/images/media-live/um-basic-auth/btn-add-perm.png) button to display more lists of rights.
+   When assigning permissions to tokens, you can select the permissions available in the list of groups. At that time, the token will inherit all rights belonging to the selected group. Inherited permissions can be modified (added/deleted) accordingly.
 
-    ![Add Form](/images/media-live/um-basic-auth/form-add-2.png)
+   Click the ! [Add perm button] (/images/media-live/um-basic-auth/btn-add-perm.png) to display an additional list of permissions.
 
-3. Save the token by clicking the ![Submit button](/images/media-live/um-member/btn-submit.png) button.
+   ! [Add Form] (/images/media-live/um-basic-auth/form-add-2.png)
 
-  Token new execution system:
-  - If successful token information is created: ![Info token](/images/media-live/um-basic-auth/info.png)
+3. Save the token by clicking the ! [Submit button] (/images/media-live/um-member/btn-submit.png).
 
-    Click on ![Icon copy password](/images/media-live/um-member/icon-copy.png) symbols of Token ID and Token Secret. The Token Secret value will be deleted soon after.
+Token creation execution system:
 
-  - If the failure will show the error message.
+- If successfully displayed the newly created token information:
+  ! [Token info] (/images/media-live/um-basic-auth/info.png)
 
-### Edit token
+  Click on the icons ! [Icon copy password] (/images/media-live/um-member/icon-copy.png) copy the Token ID and Token Secret. The Secret Token value will be deleted shortly thereafter
 
-Click on the ![Edit button](/images/media-live/um-action-btns/edit.png) button to change the name, the permissions of the token.
+- If it fails, an error message will be displayed.
 
-![Edit token](/images/media-live/um-basic-auth/form-edit.png)
+### Edit tokens
 
+Click on the ! [Edit button] (/images/media-live/um-action-btns/edit.png) to change the name and permissions of the token.
+
+! [Edit token] (/images/media-live/um-basic-auth/form-edit.png)
 
 ## Group
 
-Manage User Groups
+Manage user groups
 
-### Group List
-![List of groups](/images/media-live/um-group/list.png)
+### Group list
 
+! [List of group] (/images/media-live/um-group/list.png)
 
-Each group will consist of two basic parameters:
+Each group will consist of two basic information:
 
-- Name (column **Name** in the above table).
-- List of rights (column **Permissions** in the above table).
+- Name (column **Name** in the table above).
+- List of permissions (**Permissions** column in the table above).
 
-  To better understand the rights, access section **Decline**.
+  To better understand permissions, visit the Permissions section.
 
----
+***
 
-**\ * NOTE**
+**\* NOTE**
 
-A group consists of one or several rights. The accounts in the group are inherited all of that group.
+A group will include one or several permissions. Accounts in a group that inherit all permissions belong to that group
 
----
+***
 
-### Create Group
+### Create a group
 
-1. Click on button ![Add button](/images/media-live/um-member/btn-add.png).
-2. Enter the account information in form.
+1. Click on the ! [Add button] (/images/media-live/um-member/btn-add.png).
+2. Enter your account information in the form.
 
-    ![Add Form](/images/media-live/um-group/form-add.png)
+   ! [Add Form] (/images/media-live/um-group/form-add.png)
 
-    The information to import includes:
-    - Name.
-    - Password.
-    - The powers.
-3. Save the group by clicking the ![Submit button](/images/media-live/um-member/btn-submit.png) button.
+   The information to enter includes:
 
-  Group new execution system:
-  - If successful display success is successful.
-  - If the failed display failure
+   - Name.
+   - Password.
+   - Powers.
+3. Save the group by clicking the ! [Submit button] (/images/media-live/um-member/btn-submit.png).
 
-### Edit account rights
+The execution system creates a new group:
 
-Click on the ![Edit button](/images/media-live/um-action-btns/edit.png) button to edit the group ' s name information and rights.
+- If successful, display a success message.
+- If the failure displays an error
 
+### Edit account permissions
+
+Click on the ! [Edit button] (/images/media-live/um-action-btns/edit.png) to edit the group's name and permission information.
 
 ## Member
 
 Manage the list of user accounts on the system.
 
-### Account List
-![List of member](/images/media-live/um-member/list.png)
+### Account list
 
+! [List of member] (/images/media-live/um-member/list.png)
 
-Each account will include a few basic parameters:
+Each account will include a few basic information:
 
-- Login name (column **User** in the above table).
-- The group/rights to which the account is assigned (column **Group** in the above table).
+- Username (**User** column in the table above).
+- The group/permissions to which the account is assigned (column **Group** in the table above).
 
-Move the mouse into the group to show the copyright details.
+Move your mouse to the group to display permission details.
 
-  ![Permissions of group](/images/media-live/um-member/permission.png)
+! [Permissions of group] (/images/media-live/um-member/permission.png)
 
-  To better understand the rights, access section **Decline**.
+To better understand permissions, visit the Permissions section.
 
----
+***
 
-**\ * NOTE**
+**\* NOTE**
 
 An account will be a member of one and only one group.
 
----
+***
 
-### Create Account
+### Create an account
 
-1. Click on button ![Add button](/images/media-live/um-member/btn-add.png).
-2. Enter the account information in form.
+1. Click on the ! [Add button] (/images/media-live/um-member/btn-add.png).
+2. Enter your account information in the form.
 
-    ![Add Form](/images/media-live/um-member/form-add.png)
+   ! [Add Form] (/images/media-live/um-member/form-add.png)
 
-    The information to import includes:
-    - Login name.
-    - Password.
-    - The group will empower.
+   The information to enter includes:
 
-      The selected group will display the blue tick ![Selected group](/images/media-live/um-member/group-selected.png)
-3. Save the account by clicking the ![Submit button](/images/media-live/um-member/btn-submit.png) button.
+   - Username.
+   - Password.
+   - The team will empower.
 
-  The new implementation execution system:
-  - If the successful display of account information is generated including the login name and password: .![Account info](/images/media-live/um-member/account-info.png)
+     The selected group will display a blue tick! [Selected group] (/images/media-live/um-member/group-selected.png)
+3. Save the account by clicking the ! [Submit button] (/images/media-live/um-member/btn-submit.png).
 
-    Click on ![Icon show password](/images/media-live/um-member/icon-eye.png), ![Icon copy password](/images/media-live/um-member/icon-copy.png)  to display and copy passwords.
+The execution system creates a new account:
 
-  - If the failure will show the error message.
+- If successfully displays the newly created account information including username and password:
+  ! [Account info] (/images/media-live/um-member/account-info.png)
 
-### Edit account rights
+  Click on the icons ! [Icon show password] (/images/media-live/um-member/icon-eye.png), ! [Icon copy password] (/images/media-live/um-member/icon-copy.png) to display and copy the password.
 
-Click on the ![Edit button](/images/media-live/um-action-btns/edit.png) button to change the rights of the account by assigning an account to another group.
+- If it fails, an error message will be displayed.
 
-![Edit account](/images/media-live/um-member/form-edit.png)
+### Edit account permissions
 
+Click on the ! [Edit button] (/images/media-live/um-action-btns/edit.png) to change account permissions by assigning the account to another group.
+
+! [Edit account] (/images/media-live/um-member/form-edit.png)
 
 ## Permission
 
-An account is created and granted a certain number of powers and is only executed by the right to be executed.
+An account is created and granted certain permissions and may only perform operations corresponding to the allowed permissions.
 
-### Devolve Rules
+### Decentralization rules
 
-On the system will be divided into various rights, each of which will include two basic information:
+The system will be divided into many different permissions, each of which will include two basic information:
 
-- Identifier: in order to refer to the object, the entity in which the right will impact.
+- Identifier: refers to the object or entity that the right will influence.
 
-  For example, the power `Sigma Livestream` represents the object in which the right effect is `Livestream`.
-- Action: the expression of actions allowed on the entity to assign to the right. It &apos; s the answer to the *question, what can be done with the A?*
+  For example, the 'Sigma Livestream' permission denotes the object it affects as the 'Livestream'.
+- Actions: represent actions that are allowed to be executed on an entity assigned with permissions. It is about answering the question _What can a user do with entity A?_
 
-  The system defines two actions to work with the right:
-  - READ: The user can only view the entity information.
-  - FULL: The user can view and edit the entity information.
+  The system defines two actions for working with permissions:
 
-    When establishing the right, it is only possible to select one of the two actions.
+  - READ: Users can only view entity information.
+  - FULL: users can view and edit entity information.
 
-For example, the interface displays a right on the system
+    When setting permissions, only one of these two actions can be selected.
 
-  ![Permission](/images/media-live/um-permission/general.png)
+Example interface showing a permission on the system
+
+! [Permission] (/images/media-live/um-permission/general.png)
