@@ -1,32 +1,32 @@
 ---
-title: Xác thực tài khoản
+title: Account authentication
 order: 2
 ---
 
-# Xác thực tài khoản
+# Account authentication
 
-Quá trình xác thực email sau khi đăng ký là một bước quan trọng để đảm bảo tính bảo mật và chắc chắn rằng người dùng cung cấp thông tin chính xác.
+The process of authenticating emails after registration is an important step to ensure confidentiality and ensure that users provide accurate information.
 
-Quy trình xác thực bao gồm việc hệ thống gửi đến địa chỉ email mà người dùng đã cung cấp trong quá trình đăng ký một đường dẫn xác thực. Người dùng hoàn tất việc xác thực bằng cách truy cập vào email và nhấn vào đường dẫn đó.
+The authentication process involves the system sending to the email address that the user provided during registration an authentication link. The user completes the authentication by going to the email and clicking on the link.
 
-**Bước 1**: Người dùng hoàn thành các bước đăng kí thành công
+**Step 1**: Users complete the registration steps successfully
 
-Hệ thống gửi **email xác thực** đến người dùng, đồng thời hiển thị màn hình **Kích hoạt**, với các thông tin chính:
+The system sends **verification email** to the user, and displays the **Activation** screen, with the main information:
 
-- Tiêu đề: Đã gửi email kích hoạt!
+- Subject: Activation email sent!
 
-- Nội dung: Vui lòng kiểm tra hộp thư đến user-email\@gmail.com của bạn để biết thêm hướng dẫn. Nếu bạn chưa nhận được, bạn có muốn gửi lại liên kết?
+- What it's about: Please check your user-email\@gmail.com inbox for more instructions. If you haven't received it yet, would you like to resend the link?
 
-- Nút **"Gửi lại email xác minh"**: Hệ thống sẽ gửi lại email xác thực cho người dùng (Email mới nhất sẽ là email xác thực hợp lệ)
+- **"Resend verification email"**: The system will resend the authentication email to the user (The latest email will be a valid authentication email)
 
-- Nút **"Đăng xuất khỏi Sigma"**: Hệ thống hiển thị pop-up xác nhận:
-  - Tiêu đề: Đăng xuất khỏi Sigma
-  - Nội dung: Bạn có chắc chắn muốn đăng xuất không?
-  - Nút **"Hủy bỏ"**: Hủy bỏ thực hiện, quay lại màn hình trước đó
-  - Nút **"Xác nhận"**: hệ thống thực hiện đăng xuất khỏi tài khoản, quay lại màn hình **đăng nhập**
+- \*\*"Sign out of Sigma" button: The system displays a confirmation pop-up:
+  - Title: Logging out of Sigma
+  - Contents: Are you sure you want to sign out?
+  - Button **"Cancel"**: Cancel done, return to the previous screen
+  - **"Confirm" button**: the system performs a logout from the account, returns to the **login screen**
 
-Bước 2: Người dùng truy cập email kiểm tra hòm thư điện tử, và bấm vào đường dẫn.
+Step 2: Email access users check the email box, and click on the link.
 
-Đường dẫn hướng người dùng tới màn hình truy cập thành công, hệ thống hiển thị màn hình danh sách ứng dụng
+The path directs the user to the successful access screen, the system displays the application list screen
 
-**<u>Lưu ý</u>**: Thời gian hiệu lực của đường dẫn xác thực được giới hạn trong 24 giờ (sau khoảng thời gian này, người dùng phải thực hiện bấm nút **"Gửi lại email xác minh"** để hệ thống gửi lại email xác thực mới)
+**<u>Note</u>**: The validity period of the authentication path is limited to 24 hours (after this period, users must click the **"Resend verification email" button** for the system to resend a new authentication email)
