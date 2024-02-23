@@ -1,17 +1,17 @@
 ---
-title: Giám sát hiệu suất hoạt động của máy
+title: Monitor machine performance
 order: 8
 ---
 
-Chức năng "Giám sát hiệu suất hoạt động của máy" giúp theo dõi, đánh giá và bảo đảm hiệu suất ổn định của máy chủ để đảm bảo rằng hệ thống hoạt động một cách hiệu quả và đáng tin cậy.
+The "Machine Performance Monitoring" function helps monitor, evaluate and ensure stable server performance to ensure that the system operates efficiently and reliably.
 
-Người dùng có thể giám sát với các thông số:
-![Monitor](../image/getstarted/monitor.png)
+Users can monitor with parameters:
+! [Monitor] (.. /image/getstarted/monitor.png)
 
-1. Đầu vào Ingest:
-   1. Bandwidth: Thống kê thông số băng thông của tín hiệu nhận và gửi của đầu vào Ingest
-   2. Client Connecting: Thống kê số lượng Client đang kết nối với máy (nhóm máy) trong khoảng thời gian được cài
-   3. Streams: Thống kê số lượng streams
-2. Đầu ra Origin:
-   1. Ingress Request Rate (Response 2xx/5m): Thống kê 2 thông số Nginx Request (Tổng số Request) và Success Response
-   2. Bandwidth: Thống kê thông số băng thông của tín hiệu nhận và gửi của đầu ra Origin
+1. Ingest Input:
+   1. Bandwidth: Statistics of bandwidth parameters of receiving and sending signals of Ingest input
+   2. Client Connecting: Statistics on the number of clients connecting to the machine (group of machines) during the installed time period
+   3. Streams: Statistics on the number of streams
+2. Origin output:
+   1. Ingress Request Rate (Response 2xx/5m): Statistics of 2 parameters Nginx Request (Total number of requests) and Success Response
+   2. Bandwidth: Statistics of bandwidth parameters of receiving and sending signals of Origin output
