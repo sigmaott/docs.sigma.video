@@ -1,23 +1,23 @@
 ---
-title: Tạo ứng dụng
+title: Create an app
 order: 2
 ---
 
-Sau khi đã có tài khoản và thực hiện đăng nhập thành công trên Sigma Streaming. Người dùng có thể bắt đầu tạo ứng dụng để trải nghiệm những tài nguyên và dịch vụ mà chúng tôi cung cấp.
+Once you have an account and successfully log in on Sigma Streaming. Users can start creating apps to experience the resources and services we offer.
 
-Để bắt đầu trải nghiệm, sử dụng dịch vụ chúng tôi cung cấp. Người dùng có thể bắt đầu tạo ứng dụng theo các bước:
-![App list](../image/getstarted/app-list.png)
+To start the experience, use the service we provide. Users can start creating the app by following the steps:
+! [App list] (.. /image/getstarted/app-list.png)
 
-1. Nhấp nút "Tạo ứng dụng"
+1. Click the "Create App" button
 
-2. Điền đầy đủ thông tin cho ứng dụng. Xác nhận tạo ứng dụng.
+2. Complete the application information. Confirm the creation of the app.
 
-   Ứng dụng được tạo thành công sẽ ở trạng thái "**Khởi tạo**".  Người dùng cần kích hoạt ứng dụng với 2 lựa chọn:
-   ![Activate App](../image/getstarted/app-initialized.png)
+   The successfully created application will be in the state "**Initialized**".  Users need to activate the application with 2 options:
+   ! [Activate App] (.. /image/getstarted/app-initialized.png)
 
-   1. Bắt đầu với phiên bản **Dùng thử**: Người dùng sẽ có 14 ngày trải nghiệm dùng thử với tài nguyên được giới hạn
-   2. Bắt đầu với phiên bản **Kích hoạt**: Người dùng được trải nghiệm và sử dụng tài nguyên thoải mái
+   1. Get started with the **Trial** version: Users will have 14 days of trial experience with limited resources
+   2. Get started with the **Activation** version: Users can experience and use resources freely
 
-   Với thông tin chi tiết về giá và giới hạn sử dụng của các phiên bản của ứng dụng tại
+   With detailed information about the price and usage limits of the versions of the application at
 
    [Pricing Page]:
