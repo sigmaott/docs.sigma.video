@@ -1,21 +1,21 @@
 ---
 id: doc-guideline-General-LRM
-title: Điểm mạnh
+title: Strengths
 order: 3
 ---
 
-Giải pháp Linear Rights Management (LRM) không phải là một khái niệm mới hoàn toàn, đã được phát triển và triển khai ở các quốc gia khác như PRISMA-MediaKind và COMCAST TECHNOLOGY SOLUTIONS. Tuy nhiên, tại Việt Nam có các quy định đặc biệt của địa phương và yêu cầu tuân thủ các nguyên tắc phân phối quyền đa dạng, chúng tôi tự hào là đơn vị đầu tiên và duy nhất tại Việt Nam phát triển giải pháp LRM. Chính vì vậy, giải pháp của chúng tôi được thiết kế để hoàn toàn đáp ứng và phù hợp với ngữ cảnh đặc biệt của thị trường Việt Nam.
+The Linear Rights Management (LRM) solution is not an entirely new concept, having been developed and implemented in other countries such as PRISMA-MediaKind and COMCAST TECHNOLOGY SOLUTIONS. However, in Vietnam with special local regulations and requirements to adhere to diverse rights distribution principles, we are proud to be the first and only company in Vietnam to develop LRM solutions. Therefore, our solutions are designed to be completely responsive and suitable for the special context of the Vietnamese market.
 
-Việc phát triển một giải pháp LRM mang lại nhiều lợi ích cho người sử dụng:
+Developing an LRM solution brings many benefits to users:
 
-- Cung cấp các tùy chọn nội dung thay thế trong các trường hợp mất tín hiệu, mất nội dung và hạn chế thiết bị.
+- Provide alternative content options in cases of signal loss, content loss, and device restrictions.
 
-- Đảm bảo rằng nội dung thay thế được truyền tải đến đúng đối tượng vào đúng thời điểm.
+- Make sure that alternative content is delivered to the right audience at the right time.
 
-- LRM hoạt động để làm rõ các sự kiện và quy trình làm việc, cung cấp các công cụ rõ ràng và đơn giản có thể điều chỉnh lịch trình, hẹn lịch xuất bản cho biên tập viên, và đáp ứng nhu cầu đa dạng của từng người xem và thiết bị.
+- LRM works to clarify events and workflows, provide clear and simple tools that can adjust schedules, schedule publications for editors, and meet the diverse needs of individual viewers and devices.
 
-- Người dùng có thể sử dụng bảng điều khiển LRM để xem toàn bộ dữ liệu sự kiện, xác định khoảng trống trong chương trình, tuỳ chọn nội dung để chỉnh sửa/mở rộng sự kiện trong thời gian thực và xác minh nội dung thay thế phù hợp.
+- Users can use the LRM console to view all event data, identify gaps in the program, optional assets to edit/expand events in real time, and verify appropriate alternate content.
 
-- Cung cấp một nguồn cấp dữ liệu duy nhất để quản lý dữ liệu cho cả người lập trình và người vận hành thông qua tổng hợp các sự kiện SCTE 224.
+- Provides a single feed for data management for both programmers and operators through aggregation of SCTE 224 events.
 
-- Có thể chọn nhiều nguồn dữ liệu khác nhau tổng hợp thông qua các sự kiện SCTE 224 nhưng vẫn đảm bảo tính đồng bộ của các chương trình chạy trong kênh.
+- It is possible to select many different data sources aggregated through SCTE 224 events but still ensure the synchronization of programs running in the channel.
