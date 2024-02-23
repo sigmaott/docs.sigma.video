@@ -1,38 +1,38 @@
 ---
-title: Tạo mới Cluster
+title: Create a new Cluster
 order: 7
 ---
 
-## Tạo mới Cluster Server
+## Create a new Cluster Server
 
-Việc tạo những Cluster Server giúp người dùng có thể gộp các máy lại với nhau thành một cụm, giúp cho việc hỗ trợ nhau xử lý các task giữa các máy trở nên dễ dàng hơn. Cụ thể, các máy được gộp lại có thể hỗ trợ nhau trong trường hợp có máy bị chết hoặc gặp sự cố.
+Creating cluster servers helps users to group machines together into a cluster, making it easier to support each other to handle tasks between machines. Specifically, the combined machines can support each other in the event of a machine death or malfunction.
 
-Giúp cải thiện tốc độ và hiệu suất làm việc, đồng thời giảm thiểu rủi ro mất mát dữ liệu và đảm bảo sự liên tục của các quy trình xử lý Job.
+Help improve work speed and efficiency, while minimizing the risk of data loss and ensuring the continuity of job processing processes.
 
-Người dùng có thể thực hiện tạo mới Cluster Server theo các bước sau:
+Users can create a new Cluster Server by following these steps:
 
-1. Truy cập vào phần quản lý Cluster Server với loại máy muốn thêm
+1. Access the Cluster Server management section with the type of machine you want to add
 
-2. Nhấn chọn "Thêm mới cụm máy chủ"
+2. Click "Add new server cluster"
 
-3. Tại form cấu hình cụm máy chủ, người dùng thực hiện cấu hình với những thông tin:
-   ![Create Cluster](../image/getstarted/create-cluster.png)
-   ![](../image/getstarted/create-cluster-2.png)
+3. In the server cluster configuration form, users perform configuration with the following information:
+   ! [Create Cluster] (.. /image/getstarted/create-cluster.png)
+   ! [](.. /image/getstarted/create-cluster-2.png)
 
-   1. Tên cụm.
+   1. Cluster name.
 
-   2. Mô tả.
+   2. Describe.
 
-   3. Cấu hình Ingest: Người dùng có thể nhập địa chỉ RTMP Public URI/ SRT Public URI/ Web RTC Public URI.
+   3. Ingest configuration: Users can enter RTMP Public URI/ SRT Public URI / Web RTC Public URI addresses.
 
-   4. Thêm máy: Người dùng có thể thêm những máy mong muốn gộp thành cụng tại đây.
+   4. Add machines: Users can add the desired machines in clusters here.
 
-      Với môi máy người dùng cần chọn máy, nhập địa chỉ IP của máy, nhập tiền tố định tuyến.
+      For the machine environment, the user needs to select the machine, enter the IP address of the machine, enter the routing prefix.
 
-      ::: tip Mỗi máy chỉ được thêm vào một Cluster Server. :::
+      :::tip Each machine can only add to one Cluster Server. :::
 
-   5. Cấu hình Origin: Người dùng nhập địa chỉ HTTP public URI.
+   5. Origin configuration: The user enters the HTTP public URI address.
 
-4. Sau khi cấu hình và kiểm tra thông tin, người dùng nhấn chọn "Gửi" để thêm Cluster Server
+4. After configuring and checking the information, users click "Send" to add Cluster Server
 
-Thêm thành công, Cluster Server sẵn sàng cho người dùng sử dụng.
+More successfully, the Cluster Server is ready for users to use.
