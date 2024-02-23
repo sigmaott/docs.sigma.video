@@ -1,49 +1,49 @@
 ---
-title: Bật xác thực hai yếu tố cho tài khoản người dùng
+title: Enable two-factor authentication for user accounts
 order: 1
 ---
 
-# Bật xác thực hai yếu tố cho tài khoản người dùng
+# Enable two-factor authentication for user accounts
 
-Chức năng này cho phép người dùng CMS bật xác thực hai yếu tố cho tài khoản người dùng, giúp bổ sung thêm một lớp bảo vệ chống lại việc truy cập trái phép và giúp ngăn chặn các hình thức tấn công mạng khác nhau, như lừa đảo và trộm mật khẩu.
+This functionality allows CMS users to enable two-factor authentication for user accounts, which adds an extra layer of protection against unauthorized access and helps prevent various forms of cyberattacks, such as phishing and password theft.
 
-**Điều kiện**:
+**Condition**:
 
-- Tài khoản người dùng đang **Tắt** xác thực hai yếu tố
-- Người dùng đã cài đặt và có tài khoản của ứng dụng xác thực (Authentication App)
+- The user account is **Disable** for two-factor authentication
+- The user has installed and has an account of the authentication app (Authentication App)
 
-**Bước 1**: Tại sidebar, người dùng nhấn vào tài khoản gmail đăng nhập. Hệ thống hiển thị màn hình **Thông tin người dùng**, người dùng nhấn chuyển sang tab `Cài đặt`
+**Step 1**: In the sidebar, users click on gmail account to log in. The system displays the **User Information** screen, the user presses the switch to the 'Settings' tab
 
-**Bước 2**: Người dùng thực hiện **Bật** xác thực hai yếu tố. Hệ thống hiển thị pop-up **Thiết lập thông qua trình xác thực của bên thứ ba** bao gồm các thông tin:
+**Step 2**: The user performs **Enable** two-factor authentication. The system displays a pop-up **Set up through a third-party authenticator** that includes:
 
-![Pop-up xác thực](/images/streaming-platform/2-factor-authen/pop-up-verify-config.png)
+! [Authentication pop-up] (/images/streaming-platform/2-factor-authen/pop-up-verify-config.png)
 
-- **Mã QR code**: mục đích để người dùng quét mã bằng ứng dụng xác thực
-- **Mã code**: mục đích để người dùng nhập mã code vào ứng dụng xác thực
-- **Nhập mã xác nhận**: người dùng nhập mã xác thực (thấy trên ứng dụng xác thực) vào mục này để hoàn thành việc cấu hình
-- Nút **Hủy**: hủy bỏ thực hiện hành động, quay lại màn hình trước đó
-- Nút **Hoàn thành**: Xác nhận hoàn thành bước cấu hình
+- **QR code**: the purpose for users to scan the code with an authenticator application
+- **Code**: the purpose for users to enter the code into the authentication application
+- **Enter verification code**: the user enters the authentication code (found on the authentication app) in this field to complete the configuration
+- **Cancel** button: cancel the action execution, return to the previous screen
+- Button **Finish**: Confirm completion of the configuration step
 
-**Bước 3**: Người dùng sử dụng ứng dụng xác thực của mình để **quét mã QR code** hoặc **nhập mã code (ở pop-up)**
+**Step 3**: Users use their authenticator app to scan the QR code\*\* or enter the code (in the pop-up)\*\*
 
-**Bước 4**: Sau khi hoàn thành, tại ứng dụng xác thực hiển thị `Mã xác thực`
+**Step 4**: Once completed, at the authentication app display 'Authentication Code'
 
-Người dùng sử dụng `Mã xác thực` này để nhập vào phần **Nhập mã xác nhận** ở popup
+Users use this 'Authentication Code' to enter in the **Enter verification code** section in the popup
 
-![Pop-up xác nhận](/images/streaming-platform/2-factor-authen/pop-up-enter-verify-code.png)
+! [Confirmation pop-up] (/images/streaming-platform/2-factor-authen/pop-up-enter-verify-code.png)
 
-**Bước 5**: Sau khi nhập hoàn thành, người dùng nhấn nút **"Hoàn thành"**
+**Step 5**: After the import is completed, the user presses the **"Finish" button**
 
-Hệ thống sẽ kiểm tra sự đúng đắn của mã xác nhận với ứng dụng xác thực
+The system will check the correctness of the confirmation code with the authenticator application
 
-Nếu kiểm tra mã xác thực đúng, hệ thống sẽ hiển thị thông báo **Chúc mừng! Bạn đã kích hoạt xác thực hai yếu tố!** đồng thời hiển thị pop-up **Mã khôi phục** dành cho tài khoản người dùng
+If the authentication code check is correct, the system will display the message **Congratulations! You have enabled two-factor authentication!** and display a **Recovery code** pop-up for user accounts
 
-![Kích hoạt thành công](/images/streaming-platform/2-factor-authen/enable-2FA-user-successful.png)
+! [Activation Successful] (/images/streaming-platform/2-factor-authen/enable-2FA-user-successful.png)
 
-Với các thông tin chính:
+With the main information:
 
-- Danh sách mã khôi phục gồm 10 mã khôi phục. Mỗi 1 mã đều thực hiện được hành động sao chép
-- Nút **Sao chép mã**: thực hiện sao chép toàn bộ danh sách mã khôi phục
-- Nút **Tạo lại mã khôi phục**: thực hiện tạo danh sách mã khôi phục mới
+- The list of recovery codes includes 10 recovery codes. Each 1 code performs the copy action
+- Button **Copy code**: make a copy of the entire list of recovery codes
+- **Regenerate recovery codes**: create a new list of recovery codes
 
-_**<u>Note</u>**_: Sau khi bật thành công xác thực hai yếu tố, hệ thống sẽ yêu cầu người dùng xác thực hai yếu tố để có thể đăng nhập thành công ở những lần đăng nhập.
+<u>Notes</u>: After successfully enabling two-factor authentication, the system will ask users for two-factor authentication to be able to successfully log in at logins.
