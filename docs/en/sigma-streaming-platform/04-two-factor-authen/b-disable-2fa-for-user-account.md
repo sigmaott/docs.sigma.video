@@ -1,28 +1,28 @@
 ---
-title: Tắt xác thực hai yếu tố cho tài khoản người dùng
+title: Disable two-factor authentication for user accounts
 order: 2
 ---
 
-# Tắt xác thực hai yếu tố cho tài khoản người dùng
+# Disable two-factor authentication for user accounts
 
-Chức năng này cho phép người dùng CMS tắt xác thực hai yếu tố cho tài khoản người dùng khi không có nhu cầu sử dụng.
+This function allows CMS users to disable two-factor authentication for user accounts when there is no need to use it.
 
-**Điều kiện**:
+**Condition**:
 
-- Tài khoản người dùng đang **Bật** xác thực hai yếu tố
-- Người dùng đã cài đặt và có tài khoản của ứng dụng xác thực (Authentication App)
+- The user account is **Enable** two-factor authentication
+- The user has installed and has an account of the authentication app (Authentication App)
 
-**Bước 1**: Tại sidebar, người dùng nhấn vào tài khoản gmail đăng nhập. Hệ thống hiển thị màn hình **Thông tin người dùng**, người dùng nhấn chuyển sang tab `Cài đặt`
+**Step 1**: In the sidebar, users click on gmail account to log in. The system displays the **User Information** screen, the user presses the switch to the 'Settings' tab
 
-**Bước 2**: Người dùng thực hiện **Tắt** xác thực hai yếu tố. Hệ thống hiển thị pop-up xác nhận bao gồm các thông tin:
+**Step 2**: Users perform **Disable** two-factor authentication. The system displays a confirmation pop-up that includes the following information:
 
-- Tiêu đề: Tắt xác thực hai yếu tố?
-- Nội dung: Bạn có chắc chắn muốn tắt xác thực hai yếu tố không?
-- Nút **Huỷ bỏ**: Không thực hiện thay đổi, quay lại màn hình trước đó
-- Nút **Xác nhận**: Hệ thống thực hiện **Tắt** xác thực hai yếu tố đối với tài khoản người dùng
+- Subject: Turn off two-factor authentication?
+- Content: Are you sure you want to turn off two-factor authentication?
+- **Cancel** button: Do not make changes, return to the previous screen
+- Button **Confirm**: The system performs **Disable** two-factor authentication for user accounts
 
-**Bước 3**: Người dùng nhấn nút **Xác nhận** để thực hiện tắt xác thực hai yếu tố
+**Step 3**: The user presses the **Confirm** button to disable two-factor authentication
 
-Hệ thống hiển thị một cửa sổ pop-up thông báo **Tắt xác thực hai yếu tố thành công**! ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
+The system displays a pop-up message **Disable successful two-factor authentication**! in the right corner of the screen and automatically close notifications after 5 seconds.
 
-Đồng thời, hệ thống thực hiện **Tắt xác thực hai yếu tố**, những lần đăng nhập tiếp theo của người dùng hệ thống không yêu cầu xác thực hai yếu tố.
+At the same time, the system performs **Disable two-factor authentication**, subsequent logins of system users do not require two-factor authentication.
