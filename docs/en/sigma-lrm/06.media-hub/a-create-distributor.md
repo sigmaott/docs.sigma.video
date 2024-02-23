@@ -1,35 +1,35 @@
 ---
-title: Tạo nhà phân phối
+title: Create a distributor
 order: 1
 ---
 
-# Tạo mới nhà phân phối
+# Create a new distributor
 
-Đối tượng sử dụng chức năng:  Tài khoản CMS được cấp quyền Quản trị viên VTVhub.
+Who uses the function: The CMS account is granted VTVhub Administrator rights.
 
-Chức năng này cho phép CMS thêm mới nhà phân phối trên vtvhub để quản lý, chia sẻ, và phân phối nội dung đa phương tiện một cách hiệu quả.
+This functionality allows CMS to add new distributors on vtvhub to manage, share, and distribute multimedia content efficiently.
 
-**Bước 1**: Truy cập CMS, tại sidebar chọn VTVhub, hiển thị giao diện danh sách nhà phân phối
+**Step 1**: Access CMS, at the sidebar select VTVhub, display the distributor list interface
 
-**Bước 2**: Tại giao diện màn hình chính Danh sách nhà phân phối, người dùng click vào nút **Tạo nhà phân phối**.
+**Step 2**: At the Distributor List main screen interface, users click on the **Create Distributor** button.
 
-Hệ thống hiển thị pop-up **_Thêm nhà phân phối mới_**
+Pop-up display system **_Thêm distributor mới_**
 
-![Tạo nhà phân phối](/images/application-vtvhub/create-distributor.png)
+! [Create Distributor] (/images/application-vtvhub/create-distributor.png)
 
-Với các thông tin chính:
+With the main information:
 
-| Tên       | Mô tả                   | Yêu cầu                                                                                                                 |
-| --------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Tên**   | Tên của nhà phân phối   | Yêu cầu nhập, tối đa 50 kí tự (gồm các ký tự hợp lệ: A-Z, a-z, 0-9 và ”-”, “_”) |
-| **Email** | Email của nhà phân phối | Yêu cầu nhập, cho phép chọn những member của ứng dụng có quyền truy cập VTVhub                                          |
-| **Kênh**  | Kênh của nhà phân phối  | Yêu cầu nhập, chọn 1 kênh trong danh sách và chọn luồng kênh. Không được nhập trùng kênh, không giới hạn số lượng kênh  |
+| Name        | Describe             | Request                                                                                                                                        |
+| ----------- | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Name**    | Name of distributor  | Input required, up to 50 characters (including valid characters: A-Z, a-z, 0-9, and "-", "_")          |
+| **Email**   | Distributor email    | Request entry, allowing to select members of the application that have access to VTVhub                                                        |
+| **Channel** | Distributor channels | For an input request, select 1 channel in the list and select a channel stream. Do not import duplicate channels, unlimited number of channels |
 
-Click nút **_Xác nhận_** để tạo tài khoản cho nhà phân phối và lưu lại các thông tin được nhập.
-Click nút **_Hủy bỏ_** để hủy bỏ thao tác và trở lại giao diện màn hình chính.
+Click the **_Xác nhận_** button to create an account for the distributor and save the information entered.
+Click the **_Hủy bỏ_** button to cancel the operation and return to the main screen interface.
 
-**Bước 3**: Người dùng cung cấp các thông tin cần thiết.
+**Step 3**: The user provides the necessary information.
 
-**Bước 4**: Sau khi hoàn tất, nhấn vào nút **_Xác nhận_** tại cuối cửa sổ pop-up.
+**Step 4**: Once done, click the **_Xác nhận_** button at the bottom of the pop-up window.
 
-Hệ thống sẽ lưu lại thông tin và hiển thị thông báo `Tạo nhà phân phối thành công` ở giữa màn hình, sau đó tự động đóng trong vòng 5 giây.
+The system will save the information and display the message "Create a successful distributor" in the middle of the screen, then automatically close within 5 seconds.
