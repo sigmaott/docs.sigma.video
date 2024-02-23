@@ -1,4 +1,4 @@
 ---
-title: Quản lý và giám sát
+title: Management and monitoring
 order: 5
 ---
