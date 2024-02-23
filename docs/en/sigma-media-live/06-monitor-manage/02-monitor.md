@@ -1,139 +1,139 @@
 ---
-title: Giám sát
+title: Supervise
 order: 2
 ---
 
 # {{ $frontmatter.title }}
 
-## Giám sát kênh
+## Channel Monitoring
 
-Với mỗi một kênh trên hệ thống sẽ có 1 hay nhiều các **job** thực thi việc chuyển mã hay đóng gói kênh. Trạng thái của kênh sẽ là tổng hợp trạng thái của các **job** ứng với kênh tương ứng
+For each channel on the system, there will be 1 or more **jobs** that perform channel transcoding or encapsulation. The status of the channel will be the sum of the status of the **job** corresponding to the corresponding channel
 
-- Số lượng Job của kênh sẽ tương ứng với số lượng đầu ra tương ứng của kênh, bên cạnh đó nếu đầu ra có bật tính năng catchup, timeshift, thì hệ thống sẽ tạo thêm 1 **job catchup** tương ứng với đầu ra này (việc phân tách job này giúp hệ thống hoạt động ổn định khi có 1 trong các job có thể gặp sự cố)
-- Khi cấu hình tạo kênh mới, hệ thống sẽ tự động tạo sẵn các job cần thiết đối với kênh
+- The number of jobs of the channel will correspond to the corresponding output of the channel, besides, if the output has the catchup and timeshift feature enabled, the system will create 1 more **job catchup** corresponding to this output (splitting this job helps the system operate stably when 1 of the jobs may have problems)
+- When configuring to create a new channel, the system will automatically create the necessary jobs for the channel
   ::: warning
-  Việc thay đổi cấu hình kênh có thể làm thay đổi số lượng job của kênh và có thể dẫn tới việc mất các job cần thiết
+  Changing the channel configuration can change the number of jobs in the channel and may result in the loss of necessary jobs
   :::
 
-### Trạng thái của kênh
+### Channel status
 
-Hệ thống kênh có các trạng thái như sau
+The channel system has the following statuses
 
-- **live**: kênh đang được bật
-- **stop**: Kênh đang được tắt
-- **error**: Kênh đang lỗi
-  - Kênh có thể gặp trạng thái lỗi khi có 1 jobs thực thi tác vụ trong kênh đang gặp lỗi
+- **live**: channel is on
+- **stop**: The channel is being turned off
+- **error**: Channel is failing
+  - The channel may encounter an error status when there is 1 job executing the task in the channel that is experiencing the error
 
-### Trạng thái của job
+### Status of job
 
-Với mỗi Job trong kênh sẽ là 1 dịch vụ chạy riêng trên các máy chủ được quy định khác nhau, nhận đầu vào và đầu ra theo yêu cầu của job. Trong đó Job sẽ có các loại tương ứng như sau:
+For each Job in the channel, there will be 1 service running separately on different specified servers, receiving inputs and outputs according to the requirements of the job. In which Job will have the corresponding types as follows:
 
-1. **Transcode**: đây là job thực hiện việc chuyển mã nôi dung kênh dành cho kênh chuyển mã (transcode). Với mỗi kênh chuyển mã sẽ chỉ có job này.
-2. **Package**: Job đóng gói, số lượng tương ứng với số lượng đầu ra cài đặt
-3. **Catchup**: Job đóng gói cho nội dung catchup, timeshift, số lượng tương ứng với số lượng đầu ra cài đặt
+1. **Transcode**: This is the job that performs the transcoding of channel content for the transcode channel. For each transcoding channel, there will only be this job.
+2. **Package**: Job packing, quantity corresponding to the number of output installed
+3. **Catchup**: Job packing for catchup content, timeshift, quantity corresponding to the number of output settings
 
-Với mỗi Job ta sẽ có các trạng thái của job như sau:
+For each job, we will have the following job statuses:
 
-| Trạng thái    | Miêu tả                                                                                              |
-| ------------- | ---------------------------------------------------------------------------------------------------- |
-| **starting**  | Job đang trong quá trình khởi chạy ban đầu                                                           |
-| **preparing** | Job đang trong quá trình chuẩn bị tài nguyên như lấy thông tin của đầu vào, lấy thông tin đầu ra ... |
-| **started**   | Job đã khởi chạy thành công                                                                          |
-| **error**     | Job bị lỗi. Vui lòng xem mã lỗi của job bên dưới để phát hiện nguyên nhân                            |
-| **stop**      | Job đã bị dừng                                                                                       |
+| Condition     | Depict                                                                                                                |
+| ------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **starting**  | Job is in the process of initial launch                                                                               |
+| **preparing** | Job is in the process of preparing resources such as obtaining information of input, obtaining output information ... |
+| **started**   | Job successfully launched                                                                                             |
+| **error**     | Job is faulty. Please see the job error code below to detect the cause                                                |
+| **Stop**      | Job has been stopped                                                                                                  |
 
-Việc thao tác với job hệ thống cung cấp đẩy đủ các **action** như **start**, **stop**, **reset**, được thực hiện qua danh sách **action** của job
+The operation with the system job provides pushing all \*\*\*\* actions such as **start**, **stop**, **reset**, done through the **action** list of the job
 
-- Bạn có thể thao tác với Job từ bên ngoài của danh sách kênh mục **Jobs** hoặc trong trang giám sát kênh
+- You can manipulate Jobs from outside of the channel list under Jobs or from the channel monitoring page
 
-### Giám sát kênh
+### Channel Monitoring
 
-Từ danh sách của kênh thao tác **click** vào tên của kênh giao diện chi tiết kênh sẽ hiện ra
+From the list of channels, clicking \*\*\*\* on the name of the channel, the detailed channel interface will appear:
 
-![Thông tin chi tiết kênh](/images/media-live/um-channel-detail.png)
+! [Channel Insights] (/images/media-live/um-channel-detail.png)
 
-Các component giám sát bao gồm:
+Monitoring components include:
 
-- **Thumbnail**: Hình ảnh thumbnail của kênh được trích xuất định kì trong quá trình xử lý
-- **job Speed**: Biểu đồ dây theo thời gian biểu thị tốc độ của các **job**
-  - Tốc độ của **job** được tính theo mốc 100%
-    - Với các giá trị nhỏ hơn 90% job đang gặp vấn đề trong quá trình xử lý như nguồn đầu vào, đầu ra gặp vấn đề
-- **INPUTS**: Danh sách đầu vào của kênh
-- **TRANSCODE**: Thông tin về Hệ thống xử lý chuyển mã (Transcode)
-  - Bao gồm: chi tiết về Job transcode
-  - Thông tin Profile Transcode
-- **PACKAGES**: Thông tin đầu ra đóng gói của kênh
-  - Danh sách các đầu ra cùng với các job đính kém
-  - Với mỗi danh sách đầu ra sẽ có tối đa 2 job bao gồm **package job** và **catchup job**
+- **Thumbnail**: The channel thumbnail image is periodically extracted during processing
+- **job Speed**: A timed string chart showing the speed of the **job**
+  - The speed of **job** is calculated according to the 100% mark
+    - With values less than 90% of jobs are having problems in processing such as input source, output problem
+- **INPUTS**: Channel input list
+- **TRANSCODE**: Information about Transcode Processing System (Transcode)
+  - Includes: details about Job transcode
+  - Transcode Profile Information
+- **PACKAGES**: Channel's packaged output information
+  - List of outputs along with job attachments
+  - For each output list, there will be up to 2 jobs including **package job** and **catchup job**
 
-### Giám sát job
+### Job Supervisor
 
-![Bảng giám sát Job](/images/media-live/um-job-detail/um-job-detail.png){ width=400px }
+! [Job Monitoring Panel] (/images/media-live/um-job-detail/um-job-detail.png) { width=400px }
 
-Bảng giám sát job Bao gồm
+Job Monitoring Panel Includes
 
-- ![status](/images/media-live/um-job-detail/1.png){ height=17px }  **status**: Trạng thái của job
+- ! [status] (/images/media-live/um-job-detail/1.png) { height=17px } **status**: The status of the job
 
-- ![status](/images/media-live/um-job-detail/2.png){ height=17px }  **Speed**: Tốc độ hiện tại của job
+- ! [status] (/images/media-live/um-job-detail/2.png) { height=17px } **Speed**: The current speed of the job
 
-- ![status](/images/media-live/um-job-detail/3.png){ height=17px }  **Lifetime**: Thời gian job chạy được từ lần cuối retry vì lỗi hoặc restart
+- ! [status] (/images/media-live/um-job-detail/3.png) { height=17px } **Lifetime**: The job time that ran from the last time it was retried because of an error or restart
 
-- ![status](/images/media-live/um-job-detail/4.png){ height=17px }  **created**: thời gian job được tạo (utc time)
+- ! [status] (/images/media-live/um-job-detail/4.png) { height=17px } **created**: job time created (utc time)
 
-- ![status](/images/media-live/um-job-detail/5.png){ height=17px }  **outputs**: Đầu ra của job
+- ! [status] (/images/media-live/um-job-detail/5.png) { height=17px } **outputs**: Job output
 
-- ![status](/images/media-live/um-job-detail/6.png){ height=17px }  **action**: Các nút thao tác với job
+- ! [status] (/images/media-live/um-job-detail/6.png) { height=17px } **action**: Job buttons
 
-- ![status](/images/media-live/um-job-detail/7.png){ height=17px }  **Errors**: log lỗi của job (lấy 3 lỗi gần nhất)
+- ! [status] (/images/media-live/um-job-detail/7.png) { height=17px } **Errors**: job error log (get the last 3 errors)
 
 - Note:
-  - Bảng giám sát **Job** có thể theo dõi ở danh sách kênh hoặc trong trang chi tiết kênh
+  - **Job** monitoring panel can be tracked in the channel list or in the channel detail page
 
-Cấu trúc log lỗi của job
+Job error log structure
 
 ```
 [05-26 02:32:55] Input timeout (code: INPUT_TIMEOUT)
 ```
 
-Trong đó:
+Where:
 
-- **[05-26 02:32:55]**: Giá trị thời gian, tính theo giờ UTC
-- **Input timeout** : Message thông báo lỗi
-- **(code: INPUT_TIMEOUT)** : Mã lỗi
+- **[05-26 02:32:55]**: Time value, in UTC
+- **Input timeout** : Error message
+- **(code: INPUT_TIMEOUT)** : Error code
 
-Một vài mã lỗi phổ biến và chú thích đi kèm
+A few common error codes and accompanying annotations
 
-| Code                                                                                    | description                                                                                                    |
-| --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| TIMEOUT                                                                                 | Job bị timeout (Nguồn đầu vào mất sóng video)                                               |
-| **PACKET_QUEUE_IS_FULL** | Gói tin trong hàng đợi không kịp xử lý (thiếu tài nguyên)                                   |
-| MEMORY_IS_FULL                                | Hết bộ nhớ Ram                                                                                                 |
-| **INPUT_TIMEOUT**                                                  | Đầu vào Timeout (mất sóng đầu vào)                                                          |
-| **OUTPUT_TIMEOUT**                                                 | Đầu ra Timeout (phụ thuộc vào từng luồng đầu ra)                                            |
-| **TRANSCODE_TIMEOUT**                                              | Máy chủ Xử lý gặp vấn đề                                                                                       |
-| GOP_INVALID                                                        | Lỗi GOP cache của đầu vào                                                                                      |
-| ASYNC_STREAM                                                       | Không đồng bộ được các luồng đầu vào (ABR streaming)                                        |
-| **ASYNC_PROFILE**                                                  | Không đồng bộ được luồng đầu ra (ABR streaming)                                             |
-| INPUT_OUTPUT_ERROR                            | Luồng đầu vào và luồng đầu ra gặp sự cố                                                                        |
-| IO_ERROR                                                           | Lỗi trong quá trình đọc ghi                                                                                    |
-| **CONNECTION_REFUSED**                                             | Kết nối bị đầu ra bị refused (Lỗi thường xảy ra khi không thể kết nối đến manifest service) |
-| CONNECTION_TIMEOUT                                                 | Kết nối đầu ra timeout                                                                                         |
-| CANNOT_OPEN_CONNECTION                        | Không tạo được kết nối                                                                                         |
-| URL_READ_ERROR                                | Lỗi đọc dữ liệu URL                                                                                            |
-| OPTION_NOTFOUND `*`                                                | Cấu hình truyền lên không đúng                                                                                 |
-| PROTOCOL_NOTFOUND `*`                                              | Không tìm thấy Protocol                                                                                        |
-| STREAM_NOT_FOUND `*`                          | Không tìm thấy luồng đầu vào                                                                                   |
-| UNABLE_TO_OPEN_RESOURCE  | Không thể khởi tạo tài nguyên                                                                                  |
-| NO_ROUTE_TO_HOST `*`     | Không mở được kết nối                                                                                          |
-| INVALID_ARGUMENT \*\*\*\*\*                                        | Sai tham số                                                                                                    |
-| INITIALIZING_OUTPUT_STREAM `*`                | Lỗi Khởi tạo luồng đầu ra                                                                                      |
-| CONNECTION_RESET_BY_PEER | Kết nối bị reset                                                                                               |
-| BROKEN_PIPE                                                        | Broken pipe                                                                                                    |
-| NO_AUDIO_DATA `*`                             | Luồng khởi tạo không có AUDIO data                                                                             |
-| NO_VIDEO_DATA `*`                             | Luồng khởi tạo không có VIDEO data                                                                             |
+| Code                                                                                    | description                                                                                                                   |
+| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| TIMEOUT                                                                                 | Job is timed out (The input source loses video waves)                                                      |
+| **PACKET_QUEUE_IS_FULL** | Packets in the queue cannot be processed in time (lack of resources)                                       |
+| MEMORY_IS_FULL                                | Out of Ram memory                                                                                                             |
+| **INPUT_TIMEOUT**                                                  | Input Timeout (loss of input wave)                                                                         |
+| **OUTPUT_TIMEOUT**                                                 | Output Timeout (depends on each output stream)                                                             |
+| **TRANSCODE_TIMEOUT**                                              | The Processing Server encountered a problem                                                                                   |
+| GOP_INVALID                                                        | GOP cache error of input                                                                                                      |
+| ASYNC_STREAM                                                       | Asynchronous input streams (ABR streaming)                                                                 |
+| **ASYNC_PROFILE**                                                  | ABR streaming                                                                                                                 |
+| INPUT_OUTPUT_ERROR                            | Input and output streams crash                                                                                                |
+| IO_ERROR                                                           | Errors during read and write                                                                                                  |
+| **CONNECTION_REFUSED**                                             | The connection has a failed output (An error usually occurs when the manifest service cannot be connected) |
+| CONNECTION_TIMEOUT                                                 | Connect timeout output                                                                                                        |
+| CANNOT_OPEN_CONNECTION                        | Failed to create connection                                                                                                   |
+| URL_READ_ERROR                                | URL data reading errors                                                                                                       |
+| OPTION_NOTFOUND'\*'                                                | Incorrect upload configuration                                                                                                |
+| PROTOCOL_NOTFOUND'\*'                                              | Protocol Not Found                                                                                                            |
+| STREAM_NOT_FOUND'\*'                          | Input stream not found                                                                                                        |
+| UNABLE_TO_OPEN_RESOURCE  | Unable to initialize resource                                                                                                 |
+| NO_ROUTE_TO_HOST'\*'     | Failed to open connection                                                                                                     |
+| INVALID_ARGUMENT \*\*\*\*\*                                        | Wrong parameter                                                                                                               |
+| INITIALIZING_OUTPUT_STREAM'\*'                | Error Initializing output stream                                                                                              |
+| CONNECTION_RESET_BY_PEER | Connection reset                                                                                                              |
+| BROKEN_PIPE                                                        | Broken pipe                                                                                                                   |
+| NO_AUDIO_DATA'\*'                             | Initialization flow without AUDIO data                                                                                        |
+| NO_VIDEO_DATA'\*'                             | Initialization flow without VIDEO data                                                                                        |
 
-- Các Lỗi in đậm có nhiều khả năng xảy ra khi **job** đã chạy thành công hơn so với các lỗi khác
-- Với các lỗi liên quan đến đầu ra: kiểm tra các
-- Các lỗi `*` chỉ xảy ra khi tạo mới **job**
-- Khi gặp lỗi hệ thống sẽ tự thử lại các **job** đã bị lỗi đến khi lỗi được xử lý
-  - Đối với các lỗi xảy ra khi khởi tạo job sẽ cần khởi động lại job để xử lý
+- Bold errors are more likely to occur when **job** has run successfully than other errors
+- With errors related to output: check the
+- Errors '\*\*' only occur when creating new **job**
+- When encountering an error, the system will automatically retry the faulty **job** until the error is resolved
+  - For errors that occur when initializing the job, it will be necessary to restart the job to handle it
