@@ -1,165 +1,165 @@
 ---
 id: doc-guideline-General-LRM
-title: Tạo mới sự kiện
+title: Create a new event
 order: 2
 ---
 
-# Tạo mới sự kiện
+# Create a new event
 
-Sự kiện là một hoạt động cho phép biên tập viên sẽ có khả năng thay đổi nội dung của luồng trực tiếp( live), luồng đã phát sóng trước đó( catchup) hoặc tín hiệu SCTE 35 để quản lý sóng. Hãy thử tạo một sự kiện mới.
+An event is an activity that gives editors the ability to change the content of a live, catchup, or SCTE 35 signal to manage the airwaves. Try creating a new event.
 
-## Tạo mới sự kiện onetime
+## Create a new onetime event
 
-Có 2 cách để tạo sự kiện mới.
+There are 2 ways to create a new event.
 
-### Tạo mới sự kiện từ chương trình có sẵn
+### Create new events from existing programs
 
-1. Tại dòng thời gian sự kiện, nhấp chuột vào chương trình có sẵn trên lịch phát sóng.
-2. Hệ thống hiển thị pop-up Thông tin chương trình
-3. Nhấp vào nút Tạo sự kiện
-4. Hiển thị pop-up thêm sự kiện với khoảng thời gian của lịch phát sóng.
+1. At the event timeline, click on the program available on the broadcast schedule.
+2. Pop-up display system Program Information
+3. Click the Create Event button
+4. Display pop-ups adding events with the duration of the broadcast schedule.
 
-### Tạo mới sự kiện
+### Create a new event
 
-Trong giao diện Sự kiện, hãy nhấn nút **Thêm sự kiện**.
-Một cửa sổ Pop-up sẽ xuất hiện trung tâm giao diện để thêm sự kiện mới.
+In the Events view, press the **Add Event** button.
+A pop-up window will appear in the center of the interface to add new events.
 
-![](/images/lrm/pop-up/create-event.png)
+! 
 
-Các thông tin hiển thị:
+The information displayed:
 
-| Tên trường                      | Mô tả                                                                                                                                    | Bắt buộc | Kiểu dữ liệu | Mặc định                                                                                | Rule                                                                                                                                                           |
-| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Tên sự kiện**                 | Tên của sự kiện dùng để phân biệt và tìm kiếm sự kiện ở danh sách sự kiện                                                                | Có       | Textbox      | Placeholder: Vui lòng nhập tên sự kiện                                                  | Chặn kí tự đặc biệt, hỗ trợ dấu cách, gạch dưới, gạch ngang<br />Không hỗ trợ ngôn ngữ tiếng Việt                                                              |
-| **Loại sự kiện**                | Có 3 loại sự kiện: **SCTE35, Live, VOD**.                                                                                                | Có       | Select       | SCTE 35                                                                                 | Không hỗ trợ ngôn ngữ tiếng Việt. Tùy thuộc vào từng lựa chọn, hệ thống sẽ mở ra các tùy chọn phụ như mô tả trong bảng bên dưới.                               |
-| **Bao gồm các kênh media live** | Danh sách người dùng lựa chọn, các lựa chọn ở đây là kênh Sigma của kênh với mục đích **chỉ gồm kênh mong muốn hiển thị** tới người xem. | Có       | Radio        | Chọn tất cả các kênh                                                                    | Hỗ trợ dấu cách, gạch dưới, gạch ngang                                                                                                                         |
-| **Kiểu xuất bản**               | Có 2 kiểu xuất bản:  onetime và lập lịch                                                                                                 | Có       | Radio        | onetime                                                                                 |                                                                                                                                                                |
-| **Khoảng thời gian**            | Là khoảng thời gian sự kiện diễn ra                                                                                                      | Có       | Date time    | Thời gian bắt đầu: Thời gian hiện tại- thời gian kết thúc: thời gian hiện tại + 10 phút | sự kiện với giới hạn thời lượng **24 tiếng**( cho phép chọn qua ngày) <br />Ngày bắt đầu tính từ 00:00:00 - ngày kết thúc tính đến 23:59:59 |
+| School name                      | Describe                                                                                                                                               | Compulsory | Data type | Default                                                     | Rule                                                                                                                                     |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Event Name**                   | The name of the event is used to distinguish and search for events in the event list                                                                   | Have       | Textbox   | Placeholder: Please enter an event name                     | Block special characters, support spaces, underscores, strikethrough<br />No Vietnamese language support                                 |
+| **Event Type**                   | There are 3 types of events: **SCTE35, Live, VOD**.                                                                                                    | Have       | Select    | SCTE 35                                                     | Vietnamese language is not supported. Depending on the choice, the system will open sub-options as described in the table below.         |
+| **Includes live media channels** | User selection list, the choices here are the channel's Sigma channel for the purpose of **only including the channel desired to display** to viewers. | Have       | Radio     | Select all channels                                         | Support spaces, underscores, strikethrough                                                                                               |
+| **Publication type**             | There are 2 types of publishing: onetime and scheduling                                                                                                | Have       | Radio     | OneTime                                                     |                                                                                                                                          |
+| **Period**                       | Is the length of time the event takes place                                                                                                            | Have       | Date time | Start time: Current time- end time: Current time+10 minutes | Events with duration limit **24 hours** (selected over day) <br />Start date as of 00:00:00 - end date as of 23:59:59 |
 
-_Mô tả các loại sự kiện_
+_Description of event types_
 
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0pky" style="font-weight:bold" >Loại sự kiện</th>
-    <th class="tg-0pky" style="font-weight:bold" >Nội dung đa phương tiện</th>
+    <th class="tg-0pky" style="font-weight:bold" >Event Type</th>
+    <th class="tg-0pky" style="font-weight:bold" >Multimedia content</th>
     <th class="tg-0pky" style="font-weight:bold" >Asset</th>
-    <th class="tg-0pky" style="font-weight:bold">Hình thức</th>
-    <th class="tg-0pky" style="font-weight:bold">Chế độ</th>
-    <th class="tg-0pky" style="font-weight:bold">Mô tả</th>
-    <th class="tg-0pky" style="font-weight:bold">Các quy định</th>
+    <th class="tg-0pky" style="font-weight:bold">Form</th>
+    <th class="tg-0pky" style="font-weight:bold">Regime</th>
+    <th class="tg-0pky" style="font-weight:bold">Describe</th>
+    <th class="tg-0pky" style="font-weight:bold">Regulations</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0pky">SCTE35</td>
-    <td class="tg-0pky">Không</td>
+    <td class="tg-0pky">Not</td>
     <td class="tg-0pky"> Video, image</td>
     <td class="tg-0pky">N/A</td>
     <td class="tg-0pky">N/A</td>
-    <td class="tg-0pky">Sử dụng để thông báo về tất cả loại sự kiện chương trình và quảng cáo trong các luồng vận chuyển tuyến tính và ở các định dạng phân phối ABR tiên tiến như HLS và Dash.</td>
-    <td class="tg-0pky" rowspan="2" >Chỉ được phép tạo với StopTime lớn hơn thời điểm hiện tại 1 phút Stop Time > current time + 1 minute</td>
+    <td class="tg-0pky">Used to inform all types of events, programs, and promotions in linear transport streams and in advanced ABR delivery formats like HLS and Dash.</td>
+    <td class="tg-0pky" rowspan="2" >Only creation is allowed with a StopTime greater than the current time of 1 minute Stop Time > current time + 1 minute</td>
   </tr>
   <tr>
     <td class="tg-0pky">Live</td>
-    <td class="tg-0pky">Có</td>
+    <td class="tg-0pky">Have</td>
     <td class="tg-0pky">Video, image</td>
     <td class="tg-0pky">N/A</td>
     <td class="tg-0pky">N/A</td>
-    <td class="tg-0pky">Luồng thay thế nội dung trực tuyến</td>
+    <td class="tg-0pky">Online content replacement streams</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="6">VOD</td>
-    <td class="tg-0pky" rowspan="6">Có</td>
+    <td class="tg-0pky" rowspan="6">Have</td>
     <td class="tg-0pky" rowspan="6">Video</td>
-    <td class="tg-0pky" colspan="3">Luồng thay thế nội dung video theo yêu cầu, thay thế bản phác thảo,khi luồng kết thúc, có thể replay lại, thực hiện sửa, xoá event</td>
-    <td class="tg-0pky" rowspan="6">Được phép tạo event với khoảng thời gian (Start Date+ Start Time), (Stop date + Stop Time) trong quá khứ</td>
+    <td class="tg-0pky" colspan="3">The stream replaces video content on demand, replaces sketches, when the stream ends, can replay, make edits, delete events</td>
+    <td class="tg-0pky" rowspan="6">Allowed to create events with intervals (Start Date + Start Time), (Stop date + Stop Time) in the past</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Cắt</td>
+    <td class="tg-0pky">Cut</td>
     <td class="tg-0pky">N/A</td>
-    <td class="tg-0pky">Xoá luôn luồng gốc, không chọn nội dung thay thế( người dùng gọi không thấy được nội dung gốc)</td>
+    <td class="tg-0pky">Delete the original stream, do not select alternate content (the calling user cannot see the original content)</td>
   </tr>
   <tr>
-    <td class="tg-0pky" rowspan="4">Nội dung thay thế</td>
-    <td class="tg-0pky" colspan="2">Video thay thế được sử dụng để thay thế một phần của đoạn. Trong trường hợp video thay thế (15 phút) ngắn hơn đoạn cần thay thế (60 phút), giải pháp xử lý được thực hiện theo từng lựa chọn.</td>
+    <td class="tg-0pky" rowspan="4">Alternative content</td>
+    <td class="tg-0pky" colspan="2">The alternate video is used to replace part of the paragraph. In the event that the replacement video (15 minutes) is shorter than the one to be replaced (60 minutes), the processing solution is carried out according to each option.</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Thay thế</td>
-    <td class="tg-0pky">Thay thế một phần của sự kiện(ví dụ: thay thế 15 phút đầu) và giữ nguyên nội dung còn lại( 45 phút) của đoạn gốc</td>
+    <td class="tg-0pky">Replace</td>
+    <td class="tg-0pky">Replace part of the event (e.g. replace the first 15 minutes) and leave the remaining content (45 minutes) of the original paragraph intact</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Lặp lại</td>
-    <td class="tg-0pky">Video refill được điều chỉnh để khớp với thời lượng của đoạn cần thay thế và lặp lại nếu cần để đảm bảo thời lượng đủ (ví dụ: lặp lại video thay thế 15 phút cho đến khi đạt được thời lượng cần thay thế của đoạn gốc là 60 phút).</td>
+    <td class="tg-0pky">Repeat</td>
+    <td class="tg-0pky">The refill video is adjusted to match the duration of the segment to be replaced and repeated as needed to ensure sufficient length (for example, repeat the replacement video for 15 minutes until the length of the original paragraph is 60 minutes to be replaced).</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Thay thế và cắt</td>
-    <td class="tg-0pky">Điều chỉnh để phù hợp với thời gian, phần còn lại của video bị loại bỏ (bỏ đi đoạn gốc, đoạn đã sẵn có). Video chỉ chạy 15 phút đầu, và 45 phút còn lại của đoạn gốc không được hiển thị.</td>
+    <td class="tg-0pky">Substitution and cutting</td>
+    <td class="tg-0pky">Adjust to fit the time, the rest of the video is removed (remove the original, existing paragraph). The video only runs for the first 15 minutes, and the remaining 45 minutes of the original segment are not shown.</td>
   </tr>
 </tbody>
 </table>
 
-## Tạo mới sự kiện lập lịch
+## Create a new scheduling event
 
-Đối với trường hợp bạn chỉ cần thay đổi nội dung trong một khoảng thời gian cụ thể, việc tạo mới sự kiện là phù hợp. Tuy nhiên, trong trường hợp sự kiện lặp lại qua nhiều ngày, việc biên tập từng sự kiện riêng lẻ có thể tốn nhiều thời gian và công sức. Do đó, bạn có thể chọn kiểu xuất bản lập lịch để giúp người dùng CMS có thể đặt thời gian và quản lý các video biên tập tích hợp một cách thuận tiện.
+For cases where you only need to change the content within a specific time period, creating a new event is appropriate. However, in cases where events repeat over multiple days, editing each individual event can be time-consuming and laborious. Therefore, you can choose a scheduling publishing type to make it convenient for CMS users to set time and manage built-in video editors.
 
-### Ưu điểm
+### Advantage
 
-So với lập lịch Overlay, khi người dùng tạo sự kiện thành công bằng chức năng lên lịch mới, sự kiện sẽ ngay lập tức xuất hiện trên timeline với trạng thái **Preparing** giúp người dùng dễ theo dõi và quan sát.
+Compared to Overlay scheduling, when a user successfully creates an event using the new scheduling function, the event will immediately appear on the timeline with a status of **Preparing** making it easy for users to track and observe.
 
-### Phương thức hoạt động
+### Mode of operation
 
-Lập lịch sự kiện: Bao gồm một hoặc nhiều sự kiện được cấu hình dựa trên khoảng thời gian và hiển thị theo chu kỳ được đặt cấu hình.
+Event scheduling: Consists of one or more events that are configured based on the interval and displayed at configured intervals.
 
-Hệ thống hỗ trợ 2 phương thức:
+The system supports 2 methods:
 
-- Lập lịch chặn sóng (Alternate Content, Blackout) cho toàn bộ hoặc một số đối tác đã được cài đặt trước.
-- Lập lịch chặn sóng thủ công hoặc từ EPG được đánh dấu trước.
+- Alternate Content (Blackout) scheduling for all or some pre-installed partners.
+- Schedule wave blocking manually or from a pre-marked EPG.
 
-### Cấu hình sự kiện lập lịch
+### Configure scheduling events
 
-Việc lên lịch biên tập nội dung là quan trọng trong chiến lược sự kiện trên kênh, vì vậy việc sắp xếp và lên lịch biên tập đòi hỏi sự cẩn trọng. Lịch trình xem giúp quy hoạch nội dung trên kênh trở nên khoa học và hiệu quả. Bằng cách sử dụng tính năng lập lịch, người dùng CMS có thể duy trì sự chính xác và đảm bảo rằng nội dung biên tập được xuất bản đúng vào thời điểm phù hợp với đối tượng khán giả.
+Editorial content scheduling is important in your channel's event strategy, so curating and scheduling editorials requires care. Watch schedules help plan content on the channel become scientific and effective. By using scheduling, CMS users can maintain accuracy and ensure that editorial content is published at the right time for an audience.
 
-**Bước 2**: Lựa chọn kiểu xuất bản là **Lập lịch**
+**Step 2**: Select the publishing type as **Scheduling**
 
-Hệ thống hiển thị các trường bổ sung trong danh sách xổ xuống.
+The system displays additional fields in a drop-down list.
 
-![](/images/lrm/pop-up/create-event-schedule.png)
+! 
 
-_Các cấu hình thông tin sự kiện lập lịch_
+_Scheduling event information configurations_
 
-| Tên trường            | Mô tả                                                                                                                                | Bắt buộc | Kiểu dữ liệu | Mặc định           | Rule                                                                                                                                                                                                                                                                                                                  |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------ | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Thẻ**               | Không hiển thị lên client, thẻ được sử dụng để đánh dấu, liên quan đến nhau để giúp người đọc dễ dàng tìm kiếm và theo dõi nội dung. | Không    | Tag          | Thẻ mới            | Các ký tự được hỗ trợ là số, chữ cái, dấu gạch dưới ( _ ) và dấu gạch ngang ( - ). Không cho phép trùng, từ 1 đến 35 ký tự, không hiển thị thêm từ ký tự thứ 36<br />Trường hợp thẻ dài sẽ hiển thị “Abc…..”<br />Không giới hạn số lượng thẻ được tạo ra. |
-| **Loại lập lịch**     | Chọn cài đặt lặp lại cho sự kiện, có ba loại lập lịch: hàng ngày, hàng tuần và tùy chỉnh.                                            | Có       | Select       | Hằng ngày          | Với tùy chọn hàng tuần, bạn có thể chọn các ngày cụ thể trong tuần.                                                                                                                                                                                                                                                   |
-| **Khoảng thời gian**  | Khoảng thời gian sự kiện diễn ra                                                                                                     | Có       | Date         |                    | Thời gian của sự kiện mới không trùng với **thời gian của sự kiện đã có**( trong cùng một kênh, cùng một loại sự kiện)<br />                                                                                                                                                                       |
-| **Chi tiết lập lịch** | Danh sách các thời gian xuất bản tương ứng lựa chọn bên trên, có thể thực hiện xoá bằng dấu trừ.                                     | Có       | Time         | Thời gian hiện tại | Tổng số lượng sự kiện được tạo ra **không quá 500 sự kiện**.<br /> Không có thời gian trùng lặp trong danh sách.<br />Click button **thêm lập lịch** để thêm lựa chọn                                                                                                                                                 |
+| School name            | Describe                                                                                                                       | Compulsory | Data type | Default      | Rule                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Tag**                | Not visible on the client, tags are used for markup, related to each other to help readers easily find and follow the content. | Not        | Tag       | New card     | Supported characters are numbers, letters, underscores ( _ ) and dashes ( - ). No duplication, between 1 and 35 characters, no additional displays from the 36th character<br />The long card case will show "Abc…..”<br />There is no limit to the number of cards generated. |
+| **Scheduling type**    | Choose recurrence settings for events, there are three types of scheduling: daily, weekly, and custom.                         | Have       | Select    | Daily        | With the weekly option, you can select specific days of the week.                                                                                                                                                                                                                                                                         |
+| **Period**             | About the time the event takes place                                                                                           | Have       | Date      |              | The time of the new event does not coincide with the time of an existing event\*\*( in the same channel, same event type)<br />                                                                                                                                                                                        |
+| **Scheduling details** | The list of corresponding publication times selected above, can be deleted with a minus sign.                                  | Have       | Time      | Current time | The total number of events generated **no more than 500 events**.<br /> There are no duplicate times in the list.<br />Click the add scheduling button to add options                                                                                                                                                                     |
 
-- **Nút Huỷ**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
-- **Nút Lưu**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
+- **Cancel button**: Do not make a new creation, return to the main screen interface.
+- **Save button**: Save the newly created information, return to the main screen interface.
 
-**Bước 3**: Sau khi nhập thông tin, nhấn nút **Lưu** ở phía dưới cửa sổ Pop-up.
+**Step 3**: After entering the information, click the **Save** button at the bottom of the Pop-up window.
 
-Quá trình tạo sự kiện được thực hiện, và một thông báo sẽ xuất hiện ở góc phải màn hình
+Event creation is done, and a notification appears in the right corner of the screen
 
-_Thông báo: tạo sự kiện thành công!_
+_Notifications: successful event creation!_
 
-Đồng thời, tất cả các sự kiện được tạo ra từ kiểu xuất bản lập lịch có **chung shceduleID**.
+Also, all events generated from the scheduling publishing type have generic shceduleID\*\*.
 
-_Lưu ý: Sự kiện chỉ hiển thị trên các kênh Media live được chọn khi người dùng cấu hình._
+_Note: Events are only visible on selected Media live channels when the user is configured._
 
-## Hiển thị trên timeline
+## Show on timeline
 
-Sau khi tạo mới sự kiện, thông tin về sự kiện bao gồm **Tên sự kiện** và **khoảng thời gian** tương ứng sẽ xuất hiện trên dòng thời gian.
+After creating a new event, information about the event including **Event Name** and **duration** respectively will appear on the timeline.
 
-Xem các trạng thái và hiển thị trên [dòng thời gian](../a-open-detail.md).
+View statuses and display on [timeline](.. /a-open-detail.md).
 
-## Hiển thị trên danh sách tương ứng
+## Display on the corresponding list
 
-Sau khi tạo mới sự kiện, tất cả thông tin của sự kiện sẽ được chuyển đến Tab tương ứng.
+After creating a new event, all information of the event will be moved to the corresponding Tab.
 
-Chủ đề:
+Subject:
 
-[Danh sách sự kiện](../c-event/3-event/3.1-view.md)
+[List of events] (.. /c-event/3-event/3.1-view\.md)
 
-[Danh sách sự kiện lập lịch](../c-event/2-event-echedule/2.1-view.md)
+[List of scheduling events] (.. /c-event/2-event-echedule/2.1-view\.md)
