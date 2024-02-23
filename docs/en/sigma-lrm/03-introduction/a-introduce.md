@@ -1,60 +1,60 @@
 ---
 id: doc-guideline-General-LRM
-title: Giới thiệu
+title: Introduce
 order: 1
 ---
 
-# Giới thiệu về giải pháp quản lý sóng trực tuyến
+# About online wave management solutions
 
-Hệ thống quản lý quản lý sóng trực tuyến (Linear Rights Management System) là một phần mềm hoặc hệ thống tự động giúp quản lý và kiểm soát quyền sở hữu, phân phối, và sử dụng các tài sản kỹ thuật số như video, âm thanh. Hệ thống này giúp đảm bảo tính toàn vẹn và bảo mật cho các tài sản số, đồng thời cho phép tổ chức kiểm soát quyền truy cập và sử dụng chúng một cách hiệu quả. Hỗ trợ kiểm soát nội dung trực tiếp hoặc Video On Demand (VOD) đến từng đối tượng khách hàng trong các tình huống như **mất tín hiệu, mất nội dung** và **hạn chế thiết bị**.
+A Linear Rights Management System is an automated software or system that helps manage and control the ownership, distribution, and use of digital assets such as video and audio. This system helps ensure the integrity and security of digital assets, and allows the organization to control their access and use effectively. Support live content control or Video On Demand (VOD) to each customer in situations such as **loss of signal, loss of content** and **device restrictions**.
 
-Hệ thống Linear Rights Management đóng vai trò quan trọng trong việc bảo vệ tài sản kỹ thuật số của tổ chức, đồng thời quản lý quyền truy cập và sử dụng chúng một cách hiệu quả để đảm bảo tính toàn vẹn và giá trị của tài sản này.
+The Linear Rights Management system plays an important role in protecting an organization's digital assets, while managing access and using them effectively to ensure the integrity and value of these assets.
 
-Không chỉ đảm bảo rằng nội dung được **truyền tải đến đúng đối tượng** vào đúng thời điểm, nó hoạt động để làm rõ các sự kiện và quy trình làm việc của bạn:
+Not only does it ensure that content is delivered to the right audience at the right time, it works to clarify your events and workflow:
 
-- Cung cấp các công cụ rõ ràng,
-- Đơn giản có thể điều chỉnh lịch trình,
-- Hẹn lịch xuất bản cho các nhu cầu riêng của từng người xem và từng thiết bị.
+- Provide clear tools,
+- Simple adjustable schedule,
+- Schedule publishing for the unique needs of each viewer and each device.
 
-## Mục đích
+## Purpose
 
-Tài liệu này được tạo ra với mục đích hướng dẫn chi tiết về cách sử dụng các chức năng trong phần mềm. Nội dung của tài liệu được trình bày một cách ngắn gọn, theo trình tự các chức năng và cung cấp hướng dẫn từng bước, giúp người dùng dễ dàng thực hiện các thao tác trong chương trình thông qua tài liệu này.
+This document was created for the purpose of detailed instructions on how to use the functions in the software. The content of the document is presented briefly, in sequence of functions and provides step-by-step instructions, which makes it easy for the user to perform operations in the program through this document.
 
-Hệ thống này được phát triển để hỗ trợ các biên tập viên trong việc:
+This system was developed to assist editors in:
 
-- Biên tập các kênh và quản lý danh sách kênh.
-- Biên tập và theo dõi sự kiện diễn ra, cấu hình thay thế nội dung timeshift.
-- Lên lịch hẹn giờ xuất bản và thay đổi nội dung trong luồng trực tiếp.
+- Editorial channels and channel list management.
+- Edit and track events that take place, configure timeshift content replacement.
+- Schedule a publishing timer and change content in your live stream.
 
-Bản cập nhật mới nhất, CMS đã được cải tiến để tăng tính dễ sử dụng và tính trực quan.
+The latest update, CMS has been improved to increase ease of use and intuitiveness.
 
-### Môi trường
+### Environment
 
-Trình duyệt web có thể được sử dụng để biên tập trên desktop, bao gồm các trình duyệt phổ biến như Chrome, Cốc Cốc, Firefox, Opera, Microsoft Edge, và Safari.
+Web browsers can be used for desktop editing, including popular browsers such as Chrome, Coc Coc, Firefox, Opera, Microsoft Edge, and Safari.
 
-Tuy nhiên, chúng tôi khuyến khích sử dụng trình duyệt Chrome để có trải nghiệm tốt nhất.
+However, we recommend using the Chrome browser for the best experience.
 
-### Phạm vi sử dụng
+### Scope of use
 
-Người sử dụng: Là người thao tác trực tiếp trên hệ thống.
+User: A person who manipulates directly on the system.
 
-## Cách giải pháp quản lý sóng trực tuyến hoạt động
+## How an online wave management solution works
 
-Dựa trên **Thay thế 1 nội dung timeshift** theo quy trình lịch phát sóng( EPG- Electronic Program Guide) hoặc **theo thời gian định sẵn** với các nội dung hình ảnh, video.
+Based on **Replace 1 timeshift content** according to the broadcast schedule process (EPG - Electronic Program Guide) or **according to a preset time** with image and video content.
 
-### Phương thức
+### Procedure
 
-Hệ thống hỗ trợ 2 phương thức kiểm soát nội dung bao gồm:
+The system supports 2 content control methods including:
 
-- Quản lý **theo kênh**: Hỗ trợ các Transcoder và Packager tích hợp giao thức ESAM
-- Quản lý **theo người dùng**: Khi sử dụng cùng bộ giải pháp Sigma DAI (Dynamic Ads Insert)
+- Management **by channel**: Support Transcoders and Packagers integrating ESAM protocol
+- Management **by user**: When using the same Sigma DAI (Dynamic Ads Insert) solution suite
 
-### Quy trình
+### Process
 
-Tín hiệu kênh được nhận vào từ hệ thống của Thudo JSC, đóng vai trò là một nguồn cấp dữ liệu tuyến tính IP cho API Linear Rights Management (LRM). Người lập trình và người vận hành có thể sử dụng nhiều định dạng khác nhau được hỗ trợ thông qua dịch vụ nhập dữ liệu LRM, và sau đó dữ liệu được chuẩn hóa thành định dạng SCTE 224, lưu trữ tại cục bộ.
+The channel signal is received from Thudo JSC's system, which serves as an IP linear feed for the Linear Rights Management (LRM) API. Programmers and operators can use a variety of formats supported through the LRM data entry service, and then the data is normalized into SCTE 224 format, stored locally.
 
-Tiếp theo, dữ liệu được phân phối đến nhiều điểm cuối của các đối tác phân phối, và sau đó hiển thị cho người xem (đầu ra) thông qua:
+Next, the data is distributed to multiple endpoints of the distribution partners, and then displayed to the viewer (output) through:
 
-- **Định dạng**: UDP/ HLS
-- **Profiles** chất lượng: 1080p, 720p, 480p, 360p,
-- **Watermark**: Logo theo từng đối tác.
+- **Format**: UDP/ HLS
+- **Profiles** quality: 1080p, 720p, 480p, 360p,
+- **Watermark**: Logo by partner.
