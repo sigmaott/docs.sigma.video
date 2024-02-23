@@ -1,23 +1,23 @@
 ---
-title: Kiểm tra watermark
+title: Check watermark
 order: 4
 ---
 
-# Kiểm tra watermark
+# Check watermark
 
-Chức năng Kiểm tra watermark của dịch vụ Sigma Media-live được thiết kế để hỗ trợ detect, phát hiện và kiểm tra tệp âm thanh được nhúng watermark vào tín hiệu âm thanh gốc, nhằm mục đích bảo vệ quyền sở hữu và phát hiện các bản sao chép không được phép.
+The Watermark Check function of the Sigma Media-live service is designed to support detection, detection and inspection of audio files embedded watermarked into the original audio signal, for the purpose of protecting ownership and detecting unauthorized reproductions.
 
-Phạm vi áp dụng: Cấu hình cho tất cả các thành phần thuộc dịch vụ Sigma Media-live.
+Scope: Profiles for all components of the Sigma Media-live service.
 
-Có hai phương thức để thực hiện kiểm tra watermark.
+There are two methods to perform a watermark check.
 
-## Kiểm tra watermark bằng tệp
+## Check watermark with file
 
-### Chuẩn bị tệp
+### Prepare the file
 
-Trước khi bắt đầu, bạn cần chuẩn bị một tệp âm thanh hợp lệ.
+Before you start, you need to prepare a valid audio file.
 
-- Chúng tôi hỗ trợ nhiều định dạng tệp âm thanh, bao gồm:
+- We support many audio file formats, including:
 
   - MP3 (MPEG Audio Layer III)
 
@@ -39,112 +39,112 @@ Trước khi bắt đầu, bạn cần chuẩn bị một tệp âm thanh hợp 
 
   - APE (Monkey's Audio)
 
-- Hỗ trợ codec: aac, mp3, pcm\*, mp2, opus
+- Supported codecs: aac, mp3, pcm\*, mp2, opus
 
-- Kích thước tệp âm thanh hợp lệ nhỏ hơn 50 MB.
+- A valid audio file size is less than 50 MB.
 
-### Bắt đầu kiểm tra
+### Start testing
 
-**Bước 1**: Nhấp vào Watermarking trong menu header TOOL.
+**Step 1**: Click Watermarking in the TOOL header menu.
 
-Một cửa sổ pop-up Kiểm tra watermarking sẽ xuất hiện.
+A Check Watermarking pop-up window will appear.
 
-![Kiểm tra watermarking](/images/media-live/watermark/upload.png)
+! [Check watermarking] (/images/media-live/watermark/upload.png)
 
-Mặc định, hiển thị lựa chọn `Upload.`
+By default, display the 'Upload' option.
 
-Người dùng có thể thực hiện các hành động sau:
+Users can perform the following actions:
 
-- Kéo và thả tệp
-- Chọn tệp từ máy tính cá nhân.
+- Drag and drop files
+- Select the file from a personal computer.
 
-**Bước 2**:
-Người dùng tải tệp lên.
+**Step 2**:
+The user uploads the file.
 
-Sau khi chọn tệp, hiển thị kết quả bao gồm:
+After selecting the file, the results displayed include:
 
-- Tên tệp đã chọn
-- Biểu tượng `dấu X` cho phép xóa tệp.
+- Selected filename
+- The 'X' icon allows deleting files.
 
-Người dùng nhấp vào nút kiểm tra.
+The user clicks the test button.
 
-**Bước 3**: Hiển thị quá trình kiểm tra.
+**Step 3**: Show the test process.
 
-**Hệ thống thực hiện quá trình kiểm tra trong khoảng thời gian 20 giây.** Người dùng có thể hủy quá trình kiểm tra watermarking bằng cách nhấp vào nút `Cancel`, làm quay lại giao diện tải lên.
+**The system performs the watermarking test at intervals of 20 seconds.** Users can cancel the watermarking check by clicking the 'Cancel' button, which returns to the upload interface.
 
-## Kiểm tra watermark bằng ghi âm trực tiếp
+## Check watermark with live recording
 
-Nếu bạn muốn thực hiện quá trình nhanh chóng, hãy sử dụng tính năng ghi âm.
-Trước khi bắt đầu, đảm bảo nội dung kiểm tra audio watermark được ghi âm từ luồng cần kiểm tra thông qua một thiết bị điện tử, với điều kiện mức tạp âm xung quanh được duy trì ở mức tối thiểu để nâng cao độ chính xác.
+If you want to make the process quick, use the recording feature.
+Before you begin, make sure the audio watermark test content is recorded from the stream to be tested through an electronic device, provided that the ambient noise level is maintained at a minimum to improve accuracy.
 
-Cấp quyền sử dụng micro cho công cụ, kết nối thiết bị của bạn với thiết bị tích hợp micro.
+Give permission to use the microphone for the tool, connect your device to the device with the microphone integration.
 
-### Bắt đầu kiểm tra
+### Start testing
 
-**Bước 1**: Người dùng chọn Record trong cửa sổ pop-up Kiểm tra watermarking. Hiển thị thông tin yêu cầu ghi âm tương ứng trong cửa sổ pop-up Kiểm tra watermarking.
+**Step 1**: User selects Record in the pop-up Check watermarking window. Display the corresponding recording request information in the watermarking Test pop-up window.
 
-![Kiểm tra watermarking](/images/media-live/watermark/record.png)
+! [Check watermarking] (/images/media-live/watermark/record.png)
 
-**Bước 2**: Nhấp vào biểu tượng ghi âm. Kết nối thiết bị thành công.
+**Step 2**: Click the recording icon. Connect the device successfully.
 
-- Thực hiện ghi âm.
+- Make a recording.
 
-- Disable nút `kiểm tra`.
+- Disable the 'check' button.
 
-**Bước 3**: Nhấp vào biểu tượng dừng.
+**Step 3**: Click the stop icon.
 
-_Trong trường hợp người dùng không dừng, hệ thống sẽ tự động dừng khi đạt đến giới hạn 20 giây._
+_In case the user does not stop, the system will automatically stop when the 20-second limit is reached._
 
-- Hiển thị bản ghi
+- Show records
 
-- Biểu tượng quay về và nội dung **Kiểm tra các bản ghi** khác cho phép người dùng thực hiện ghi âm lại.
+- The back icon and other **Check recordings** allow the user to make a recording.
 
-- Bật nút `kiểm tra`.
+- Turn on the 'test' button.
 
-_Trong trường hợp người dùng nhấp vào biểu tượng **Kiểm tra các bản ghi khác** hệ thống sẽ thực hiện ghi âm lại theo bước 2._
+_In case the user clicks the **Check other records** icon the system will perform the recording again according to step 2._
 
-**Bước 4**: Nhấp vào nút `Kiểm tra`.
+**Step 4**: Click the 'Check' button.
 
-**Hệ thống thực hiện quá trình kiểm tra trong suốt khoảng thời gian ghi âm trực tiếp**.
+**The system performs the testing process during the live recording period**.
 
-![Kiểm tra watermarking](/images/media-live/watermark/check.png)
+! [Check watermarking] (/images/media-live/watermark/check.png)
 
-Người dùng có thể hủy quá trình kiểm tra watermarking bằng cách nhấp vào nút `Cancel`, làm quay lại giao diện tải lên.
+Users can cancel the watermarking check by clicking the 'Cancel' button, which returns to the upload interface.
 
-## Kết quả kiểm tra
+## Test results
 
-Sau khi kiểm tra trong khoảng thời gian xác định, kết quả sẽ được hiển thị như sau:
+After checking within the specified time period, the result will be displayed as follows:
 
-![Kiểm tra watermarking](/images/media-live/watermark/result.png)
+! [Check watermarking] (/images/media-live/watermark/result.png)
 
-1. Nếu **không tìm thấy watermark**: Thông báo **Không tìm thấy watermark.**
-2. Tìm thấy watermark
+1. If **watermark not found**: Message **No watermark found.**
+2. Find watermark
 
-- Hiển thị ID của watermarking và cung cấp tùy chọn sao chép.
+- Show the ID of the watermarking and offer the option to copy.
 
-- Nếu tìm thấy **1 kênh**: Hiển thị thông tin chi tiết của kênh đó, biểu tượng trỏ thẳng tới chi tiết kênh tương ứng, tất cả trên cùng một tab.
+- If **1 channel is found**: Displays the details of that channel, the icon points directly to the corresponding channel details, all on the same tab.
 
-- Nếu tìm thấy **nhiều kênh**: Hiển thị **tổng số kênh**, hiển thị thanh cuộn, biểu tượng trỏ thẳng tới chi tiết kênh tương ứng, tất cả trên cùng một tab.
+- If **multiple channels**: Display **total channels**, display scrollbar, icon pointing directly to corresponding channel details, all on the same tab.
 
-- Nếu **không tìm thấy kênh** nào: Hiển thị chuỗi string, có thể sao chép để sử dụng.
+- If \*\*no channel found: Displays string, which can be copied for use.
 
-## Quá trình kiểm tra không thành công
+## The test failed
 
-### Tệp tải lên không hợp lệ
+### Invalid upload
 
-Chỉ cho phép tải lên các tệp đáp ứng các quy định được liệt kê trước đó. Khi người dùng nhấp vào nút kiểm tra, hệ thống sẽ tiến hành kiểm tra, phát hiện tệp không được hỗ trợ và hiển thị thông báo ở góc phải của màn hình:
+Only allow uploads of files that meet the regulations listed earlier. When the user clicks the test button, the system conducts a check, detects an unsupported file and displays a message in the right corner of the screen:
 
-**File không hợp lệ, vui lòng chọn file khác.**
+**Invalid file, please select another file.**
 
-### Không có quyền truy cập thiết bị thu âm
+### No speakerphone access
 
-Quyền truy cập vào thiết bị là điều kiện tiên quyết trong quá trình kiểm tra ghi âm. Khi người dùng nhấp vào biểu tượng ghi âm và quá trình không thể tiếp tục, hệ thống sẽ hiển thị thông báo như sau:
+Access to equipment is a prerequisite during the recording test. When the user clicks the recording icon and the process cannot continue, the system displays a message like this:
 
-- Tiêu đề: Vui lòng cấp quyền sử dụng micrô cho công cụ.
-- Nội dung: Kiểm tra cài đặt hệ thống của bạn để đảm bảo Sigma streaming có quyền truy cập micrô của bạn và thử lại.
+- Subject: Please grant permission to use the microphone for the tool.
+- Contents: Check your system settings to make sure Sigma streaming has access to your microphone and try again.
 
-### Quá thời gian hệ thống kiểm tra
+### Exceeding system test time
 
-Trong quá trình kiểm tra, đã xảy ra sự cố. Sau thời gian kiểm tra hơn 20 giây mà không có kết quả, hệ thống hiển thi thông báo:
+During the inspection, something went wrong. After a test time of more than 20 seconds without results, the system displays the message:
 
-**Quá trình xảy ra lỗi, vui lòng thử lại.**
+**Process error, please try again.**
