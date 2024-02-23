@@ -1,15 +1,15 @@
 ---
-title: Kiến trúc hệ thống
+title: System architecture
 order: 2
 ---
 
 # Infrastructure of Sigma Live Streaming System
 
-![about-2](/images/livestream/livestream-about-2.png)
+! [about-2] (/images/livestream/livestream-about-2.png)
 
 ## Broadcaster
 
-Sigma live stream platform có sdk hỗ trợ cho các nền tảng như android, ios với những tính năng quan trọng:
+Sigma live stream platform has SDK support for platforms such as android, ios with important features:
 
 - AAC audio encoding, H.264 video encoding (supports soft/hard editing, supports baseline/main/high profile)
 
@@ -25,7 +25,7 @@ Sigma live stream platform có sdk hỗ trợ cho các nền tảng như android
 
 ## Viewer playback
 
-Trên các thiết bị mobile sử dụng hệ điều hành android và ios, Sigma live stream platform hỗ trợ player playback:
+On mobile devices using android and ios operating systems, Sigma live stream platform supports player playback:
 
 - Plugin SDK for Exoplayer (required version 2.6 or above)
 
@@ -39,19 +39,19 @@ Trên các thiết bị mobile sử dụng hệ điều hành android và ios, S
 
 - Support ABR (Adaptive bitrate) for Low Latency HLS
 
-  - **Setting a suitable initial start position**: Chọn thời điểm start mong muốn để có thể có độ trễ thấp nhất só với luồng trực tiếp. Ví dụ ở chế độ ultra low latency, hệ thống cho bắt đầu luồng phát ở độ trễ 3 giây so với live
+  - **Setting a suitable initial start position**: Choose the desired start time to get the lowest latency compared to the live stream. For example, in ultra low latency mode, the system starts the stream at a delay of 3 seconds compared to live
 
-  - **Adjusting the playback speed**: Tốc độ của luồng phát được điều trỉnh trong khoảng từ 0.8-1.2 để người xem không phát hiện ra sự thay đổi. Mục đích nhắm kéo dãn buffer của luồng phát đạt đến được độ trễ mong muốn
+  - **Adjusting the playback speed**: The speed of the stream is adjusted between 0.8-1.2 so that the viewer does not detect the change. The purpose is to stretch the buffer of the broadcast stream to the desired latency
 
 ## RTMP Server
 
-Hệ thống RTMP Server được chia theo khu vực để kết nối với broadcast nhanh nhất có thể, với tính năng tự động scale, hệ thống có thể xử lý được hàng ngàn kết nối
+The RTMP Server system is divided by region to connect to the broadcast as quickly as possible, with the auto-scaling feature, the system can handle thousands of connections
 
 ## Sigma Live Server
 
-Máy chủ xử lý dữ liệu media bao gồm các tính năng sau
+The media data processing server includes the following features:
 
-- Hỗ trợ transmux & transcode kênh live stream với độ trễ thấp, hiệu năng cao
+- Support transmux & transcode live stream channels with low latency, high performance
 
 - Transcode resolution up to UltraHD (4K)
 
@@ -71,39 +71,39 @@ Máy chủ xử lý dữ liệu media bao gồm các tính năng sau
 
 ## Api Server
 
-Hệ thống Api Server cung cấp API giao tiếp với App Server live stream:
+The Api Server system provides API to communicate with App Server live stream:
 
-- Quản lý livestream event (create, update, remove ...)
-- Quản lý livestream asset (DVR, catchup, thumbnail ... )
+- Manage livestream events (create, update, remove ...)
+- Manage livestream assets (DVR, catchup, thumbnail... )
 - Webhook livestream event
 
 ## Monitor
 
-- Theo dõi hệ thống qua các thông số quan trọng
-- Cảnh báo khi hệ thống gặp sự cố
+- Monitor the system through critical parameters
+- Alerts when the system crashes
 
 ## Streaming flow using Sigma Live Streaming platform
 
-![livestream/about-3](/images/livestream/livestream-about-3.png)
+! [livestream/about-3] (/images/livestream/livestream-about-3.png)
 
-- **Luồng dữ liệu từ người phát**:
+- **Data stream from the broadcaster**:
 
-  1. Đăng nhập hệ thống và yêu cầu tạo luồng phát
+  1. Log in to the system and request to create a broadcast
 
-  2. Hệ thống sinh và trả về **RTMP Server** (tương ứng với vị trí của nguồn phát) và **token** xác thực nguồn phát
+  2. The system generates and returns **RTMP Server** (corresponding to the location of the source) and **token** authenticates the source
 
-  3. Bắt đầu phát trực tiếp lên **RTMP Server**
+  3. Start live streaming to **RTMP Server**
 
-  4. **RTMP Server** xác thực nguồn phát dựa trên token cập nhật metadata vào danh sách kênh
+  4. **RTMP Server** token-based source authentication updates metadata to channel list
 
-  5. Tương tác với người xem
+  5. Engage with viewers
 
-- **Luồng dữ liệu từ người xem**:
+- **Viewer Data Stream**:
 
-  1. Đăng nhập hệ thống à liệt kê danh sách kênh đang phát hoặc đã phát phù hợp (dựa trên vị trí địa lý, độ ưu tiên của kênh, các kênh đã thích …)
+  1. Log in to the system and list the appropriate currently playing or played channels (based on geographical location, channel priority, preferred channels …)
 
-  2. Chọn kênh muốn xem
+  2. Select the channel you want to watch
 
-  3. Hệ thống trả về Edge server (CDN) phù hợp với người xem
+  3. The system returns the right Edge server (CDN) for the viewer
 
-  4. Xem kênh và tương tác (tán gẫu, gửi quà …)
+  4. Watch channels and interact (chat, send gifts …)
