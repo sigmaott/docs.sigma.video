@@ -1,14 +1,14 @@
 ---
-title: Giới thiệu
+title: Introduce
 order: 1
 ---
 
-Sigma Server bao gồm ba loại:
+Sigma Server consists of three types:
 
 1. Sigma Live Server
 2. Sigma VOD Server
 3. Component Server
 
-### Cách thức hoạt động của máy chủ
+### How the server works
 
 BE-support
