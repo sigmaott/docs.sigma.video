@@ -23,7 +23,7 @@ Deinterlaicing is necessary for comfortable viewing of legacy TV video on PC/mob
 
 ## DVR
 
-This is a set of Flussonic features related to recording streams to an archive and then playing the archive via different protocols or export the selected part of it to an MP4 file.
+This is a set of Flussonic features related to recording streams to an archive and then playing the archive via different protocols or exporting the selected part of it to an MP4 file.
 
 ## Frame
 
@@ -89,7 +89,7 @@ The sender of a DASH or HLS stream transfers video segment by segment, and it se
 
 Transcoder is a component that performs the direct digital-to-digital conversion of the initial video stream to provide a multi-bitrate stream, to change video parameters (codec, image size, bitrate), or to place a logo on top of a video stream.
 
-## Video codec
+## Video codecs
 
 It is a technology for compressing raw video for subsequent packaging into a container, which, in turn, will be used for delivery via a specific streaming protocol.
 
