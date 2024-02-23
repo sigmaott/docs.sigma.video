@@ -1,30 +1,30 @@
 ---
-title: Bật xác thực hai yếu tố cho ứng dụng
+title: Enable two-factor authentication for apps
 order: 3
 ---
 
-# Bật xác thực hai yếu tố cho ứng dụng
+# Enable two-factor authentication for apps
 
-Chức năng này cho phép người dùng CMS bật xác thực hai yếu tố cho ứng dụng, giúp **người dùng có quyền management yêu cầu mọi thành viên truy cập vào ứng dụng phải bật xác thực hai yếu tố.** Tài khoản người dùng bật tính năng Xác thực hai yếu tố nhằm bổ sung thêm một lớp bảo vệ chống lại việc truy cập trái phép và giúp ngăn chặn các hình thức tấn công mạng khác nhau, như lừa đảo và trộm mật khẩu.
+This functionality allows CMS users to enable two-factor authentication for the application, allowing users with management permissions to require all members accessing the app to enable two-factor authentication.\*\* User accounts enable Two-Factor Authentication to add an extra layer of protection against unauthorized access and help prevent attacks various networks, like phishing and password theft.
 
-**Điều kiện**:
+**Condition**:
 
-- Tài khoản người dùng **có quyền management** và **đã BẬT xác thực hai yếu tố**
-- Ứng dụng đang ở trạng thái **Tắt xác thực hai yếu tố**
+- User account **has management permissions** and **has two-factor authentication ENABLED**
+- The app is in **Disable two-factor authentication**
 
-**Bước 1**: Tại sidebar, người dùng nhấn vào mục **Quản lý App**. Hệ thống hiển thị mặc định tab **Thông tin chung** của ứng dụng
+**Step 1**: In the sidebar, users click on **Manage App**. The system displays the default tab **General Information** of the application
 
-**Bước 2**: Người dùng thực hiện **Bật** xác thực hai yếu tố của ứng dụng ở mục **Bảo mật**
+**Step 2**: Users perform **Enable** two-factor authentication of the application in **Security**
 
-Hệ thống hiển thị pop-up xác nhận bao gồm các thông tin:
+The system displays a confirmation pop-up that includes the following information:
 
-- Tiêu đề: Bật xác thực hai yếu tố?
-- Nội dung: Hành động này sẽ yêu cầu tất cả thành viên của ứng dụng kích hoạt xác thực 2 yếu tố khi truy cập. Bạn có chắc chắn muốn bật xác thực hai yếu tố không?
-- Nút **Huỷ**: Không thực hiện thay đổi, quay lại màn hình trước đó
-- Nút **OK**: Hệ thống thực hiện **Bật** xác thực hai yếu tố đối với ứng dụng, yêu cầu các thành viên của ứng dụng bật xác thực hai yếu tố
+- Subject: Enable two-factor authentication?
+- Content: This action will require all members of the app to enable 2-factor authentication upon access. Are you sure you want to enable two-factor authentication?
+- **Cancel** button: No changes, go back to the previous screen
+- **OK** button: The system implements **Enable** two-factor authentication for the app, requiring its members to enable two-factor authentication
 
-**Bước 3**: Người dùng nhấn nút **OK** để thực hiện bật xác thực hai yếu tố cho ứng dụng
+**Step 3**: Users press the **OK** button to enable two-factor authentication for the application
 
-Hệ thống hiển thị một cửa sổ pop-up thông báo **Bật xác thực hai yếu tố cho ứng dụng thành công!** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
+The system displays a pop-up message **Enable two-factor authentication for successful application!** in the right corner of the screen and automatically closes the notification after 5 seconds.
 
-Đồng thời, hệ thống thực hiện **Bật xác thực hai yếu tố cho ứng dụng**, đồng thời yêu cầu tất cả thành viên trong ứng dụng khi truy cập ứng dụng phải bật xác thực hai yếu tố cho tài khoản
+At the same time, the system implements **Enable two-factor authentication for the application**, and requires all members of the application when accessing the application to enable two-factor authentication for the account
