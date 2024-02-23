@@ -1,22 +1,22 @@
 ---
-title: Tạo bản sao đầu vào
+title: Create input copies
 order: 4
 ---
 
-# Tạo bản sao đầu vào
+# Create input copies
 
-Người dùng muốn tạo 1 bản sao với đầu vào đã có trước đó, giữ các cài đặt bắt buộc trước đó của đầu vào
+The user wants to make 1 copy with the previously existing input, keeping the previously required settings of the input
 
-**Điều kiện**: Để thực hiện quá trình này, cần phải có ít nhất 1 đầu vào đã được tạo trước đó và hiển thị tại danh sách đầu vào (Transcode/Package)
+**Condition**: To perform this process, it is necessary to have at least 1 input that was previously generated and displayed in the input list (Transcode/Package)
 
-**Bước 1:** Tại màn hình danh sách đầu vào, nhấp vào biểu tượng **Tạo bản sao** ở cột Hành động tại trường bạn muốn tạo bản sao
+**Step 1:** At the input list screen, click the **Make copy** icon in the Action column at the field you want to duplicate
 
-Sau đó, một cửa sổ pop-up **Tạo bản sao đầu vào** sẽ xuất hiện, hiển thị các thông tin đã nhập trước đó, cho phép người dùng chỉnh sửa tất cả các trường thông tin
+After that, a pop-up window will appear, displaying the previously entered information, allowing the user to edit all the information fields
 
-**Tên mặc định của đầu vào: Copy of [Tên đầu vào] - nếu người dùng không thay đổi tên.**
+**Default input name: Copy of [Input Name] - if the user does not change the name.**
 
-**Bước 2:** Người dùng nhập thông tin cần thiết.
+**Step 2:** The user enters the required information.
 
-**Bước 3:** Sau khi hoàn tất, người dùng nhấn nút **Xác nhận**
+**Step 3:** Once completed, the user presses the **Confirm** button
 
-Hệ thống hiển thị thông báo thực hiện **Tạo bản sao thành công** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
+The system displays a notification of successful execution in the right corner of the screen and automatically closes the notification after 5 seconds.
