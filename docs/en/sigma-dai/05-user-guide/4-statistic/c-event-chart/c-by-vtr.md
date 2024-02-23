@@ -1,42 +1,42 @@
 ---
-title: By view-through rate
+title: Theo tỷ lệ xem qua
 order: 3
 ---
 
-# Event graph by view-through rate
+# Biểu đồ sự kiện theo tỷ lệ xem qua
 
-**VTR**- This is the basic scale for the performance of display advertising campaigns, which also indicates the effectiveness of the content.
+**VTR**- Đây là thang đo cơ bản cho thành quả của các chiến dịch quảng cáo hiển thị, chỉ số này còn cho biết tính hiệu quả của nội dung.
 
-## To open view-through scaling
+## Để mở tỷ lệ xem qua
 
-**Step 1:** At Header click Tab view rate tab
+**Bước 1:** Tại Header click chuyển Tab tỷ lệ xem qua
 
-Show view-through scale interface:
+Hiển thị giao diện tỷ lệ xem qua:
 
-! 
+![](/images/dai/event-chart-by-vtr.png)
 
 <center>
 
-_Figure 1: VTR event graph interface_
+_Hình 1: Giao diện biểu đồ sự kiện theo VTR_
 
 </center>
 
-The interface is displayed with the default information described at [default information](.. /a-open-statistics)
+Giao diện hiển thị với các thông tin mặc định mô tả tại [thông tin mặc định](../a-open-statistic)
 
-_Note:_ Quick filter display interface adds field: Ads- list of ads available on channel/ or select all
+_Lưu ý:_ Giao diện hiển thị quick filter thêm trường: Quảng cáo- danh sách các quảng cáo đang có trên kênh/ hoặc chọn tất cả
 
-**Step 2:** Select the desired channel to search
-Display area:
+**Bước 2:** Chọn kênh mong muốn tìm kiếm
+Khu vực hiển thị:
 
-- Dashboards:
-  - Total of Impressions
-  - Total of Complete View
+- Bảng thông tin:
+  - Tổng số lần quảng cáo được hiển thị trên màn hình ( Total of Impression)
+  - Tổng số lần quảng cáo được hiển thị đến hết thời lượng( Total of Complete View)
 
 ```
-VTR= (Total of Complete View/ Total of Impression) x 100%
+VTR= (Total of Complete View/ Total of  Impression) x 100%
 ```
 
-- **Pie Chart** depicts the proportion of elements in a whole, showing VTR figures with 2 indicators Total of Complete View and Total of Not Complete.
+- **Biểu đồ tròn( Pie Chart)** mô tả tỉ lệ các thành phần trong một tổng thể, thể hiện các số liệu của VTR với 2 chỉ số Total of Complete View và Total of Not Complete.
 
 ```
 Total of Impression= (Total of Impression/ Total) x 100%
