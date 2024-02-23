@@ -12,7 +12,7 @@ import {
 const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/62163604',
-    name: 'Son Hong Do',
+    name: 'Red Pink Son',
     title: 'Frontend Developer',
     links: [
       { icon: 'github', link: 'https://github.com/sondh0127' }
