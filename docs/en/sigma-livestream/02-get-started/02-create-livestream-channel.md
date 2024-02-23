@@ -1,4 +1,4 @@
 ---
-title: Tạo kênh Livestream
+title: Create a Livestream channel
 order: 2
 ---
