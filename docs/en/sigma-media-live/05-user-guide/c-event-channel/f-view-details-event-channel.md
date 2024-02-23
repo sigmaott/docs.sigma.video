@@ -1,32 +1,32 @@
 ---
-title: Xem chi tiết kênh sự kiện
+title: View event channel details
 order: 6
 ---
 
-# Xem chi tiết kênh sự kiện
+# View event channel details
 
-**Điều kiện**: Kênh sự kiện đã được tạo ra trước đó và có hiển thị tại danh sách kênh sự kiện. Chức năng này giúp người dùng CMS thực hiện xem các thông tin chi tiết của kênh
+**Condition**: The event channel was created earlier and is visible in the event channel list. This function helps CMS users view channel details
 
-**Bước 1:** Tại giao diện Danh sách kênh sự kiện
+**Step 1:** At the Event Channel List interface
 
-→ Click vào **[Tên kênh sự kiện]** mong muốn xem thông tin chi tiết kênh sự kiện.
+→ Click on **[Event channel name]** to view event channel details.
 
-**Bước 2:** Hiển thị giao diện chi tiết kênh sự kiện với các thông tin sau:
+**Step 2:** Display the event channel details interface with the following information:
 
-![Xem chi tiết kênh sự kiện](/images/media-live/event-channel/view-details-event-channel.png)
+! [View event channel details] (/images/media-live/event-channel/view-details-event-channel.png)
 
-- Trạng thái của kênh sự kiện, biểu tượng _**sao chép**_ (thực hiện sao chép mã ID của kênh)
+- Status of the event channel, icon _**copy**_ (make a copy of the channel's ID)
 
-- Hình ảnh thu nhỏ của kênh sự kiện
+- Thumbnail image of your event channel
 
-- Các biểu tượng tương ứng với các hành động được phép thực hiện với kênh sự kiện: `Bắt đầu`, `Dừng lại`, `Khởi động lại`, `Chỉnh sửa` và `Tải xuống MP4`
+- The icons correspond to the actions allowed to be performed with the event channel: 'Start', 'Stop', 'Restart', 'Edit' and 'Download MP4'
 
-- Thông tin cấu hình Kênh, bao gồm: _**Tên kênh, Mô tả, Thẻ, Tạo MP4 và Tương tác**_
+- Channel configuration information, including: _**Channel Name, Description, Tags, MP4 Creation and Interactive**_
 
-- Thanh thời gian của kênh sự kiện: giúp người dùng có thể theo dõi được hiện kênh đang ở trạng thái nào.
+- Event channel timeline: helps users keep track of what status the channel is currently in.
 
-- Thông tin của Đầu vào: hiển thị danh sách các đầu vào của các phần Pre-Event, Main-Event, Post-Event
+- Input Information: displays a list of inputs of Pre-Event, Main-Event, Post-Event sections
 
-- Thông tin của Hồ sơ: hiển thị chi tiết thông số của mỗi Hồ sơ
+- Profile Information: displays details of each Profile
 
-- Thông tin Mục tiêu: Hiển thị các thông tin chi tiết của mỗi Mục tiêu
+- Goal Information: Displays the details of each Goal
