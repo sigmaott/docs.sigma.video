@@ -13,7 +13,7 @@ The user selects **Impression Ratio**.
 
 Interface Display System Display Ratio:
 
-! 
+![](/images/dai/statistic-fillrate.png)
 
 <center>
 

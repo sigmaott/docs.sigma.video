@@ -1,7 +1,7 @@
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 import SidebarBuilder from '@sigmaott/vitepress-sidebar-builder'
 
-const ogUrl = 'https://sigmaott.com'
+const ogUrl = 'https://sigma.video'
 const ogDescription = 'Sigma Streaming Platform Document site'
 
 export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {

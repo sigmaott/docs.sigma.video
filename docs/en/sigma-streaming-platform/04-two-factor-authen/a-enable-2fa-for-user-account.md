@@ -16,7 +16,7 @@ This functionality allows CMS users to enable two-factor authentication for user
 
 **Step 2**: The user performs **Enable** two-factor authentication. The system displays a pop-up **Set up through a third-party authenticator** that includes:
 
-! [Authentication pop-up] (/images/streaming-platform/2-factor-authen/pop-up-verify-config.png)
+![Authentication pop-up](/images/streaming-platform/2-factor-authen/pop-up-verify-config.png)
 
 - **QR code**: the purpose for users to scan the code with an authenticator application
 - **Code**: the purpose for users to enter the code into the authentication application
@@ -30,7 +30,7 @@ This functionality allows CMS users to enable two-factor authentication for user
 
 Users use this 'Authentication Code' to enter in the **Enter verification code** section in the popup
 
-! [Confirmation pop-up] (/images/streaming-platform/2-factor-authen/pop-up-enter-verify-code.png)
+![Confirmation pop-up](/images/streaming-platform/2-factor-authen/pop-up-enter-verify-code.png)
 
 **Step 5**: After the import is completed, the user presses the **"Finish" button**
 
@@ -38,7 +38,7 @@ The system will check the correctness of the confirmation code with the authenti
 
 If the authentication code check is correct, the system will display the message **Congratulations! You have enabled two-factor authentication!** and display a **Recovery code** pop-up for user accounts
 
-! [Activation Successful] (/images/streaming-platform/2-factor-authen/enable-2FA-user-successful.png)
+![Activation Successful](/images/streaming-platform/2-factor-authen/enable-2FA-user-successful.png)
 
 With the main information:
 

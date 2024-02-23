@@ -45,7 +45,7 @@ For example, Apple's original HTTP Live Streaming (HLS) protocol, released in 20
 
 With a delay of 20-40 seconds or more, it is not a problem for users to watch VOD. But for live streams, parking too high will affect the interaction between viewers and broadcasters. The image below shows the effects of latency and the components that create latency when transmitting content
 
-! [about-1] (/images/livestream/livestream-about-1.png)
+![about-1](/images/livestream/livestream-about-1.png)
 
 ## Sigma Live Stream Platform
 

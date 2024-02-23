@@ -24,7 +24,7 @@ There are 2 ways to create a new event.
 In the Events view, press the **Add Event** button.
 A pop-up window will appear in the center of the interface to add new events.
 
-! 
+![](/images/lrm/pop-up/create-event.png)
 
 The information displayed:
 
@@ -124,7 +124,7 @@ Editorial content scheduling is important in your channel's event strategy, so c
 
 The system displays additional fields in a drop-down list.
 
-! 
+![](/images/lrm/pop-up/create-event-schedule.png)
 
 _Scheduling event information configurations_
 
@@ -160,6 +160,6 @@ After creating a new event, all information of the event will be moved to the co
 
 Subject:
 
-[List of events] (.. /c-event/3-event/3.1-view\.md)
+[List of events](.. /c-event/3-event/3.1-view\.md)
 
-[List of scheduling events] (.. /c-event/2-event-echedule/2.1-view\.md)
+[List of scheduling events](.. /c-event/2-event-echedule/2.1-view\.md)

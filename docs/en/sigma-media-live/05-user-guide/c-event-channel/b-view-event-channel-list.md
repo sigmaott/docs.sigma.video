@@ -11,7 +11,7 @@ On the main screen of the system, the user moves the mouse cursor to **Channel**
 
 The system main screen displays the event channel list screen interface, with key information including:
 
-! [Event channel list] (/images/media-live/event-channel/event-list.png)
+![Event channel list](/images/media-live/event-channel/event-list.png)
 
 | Column names       | Function                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -11,7 +11,7 @@ On the main screen of the system, the user selects Inputs in the header tab.
 
 The system main screen displays the default Transcode tab, with the Transcode type input list screen interface. Users can select the Package tab to see a list of inputs with type as Package.
 
-! [input list] (/images/media-live/input/view-transcode-input-list.png)
+![input list](/images/media-live/input/view-transcode-input-list.png)
 
 Key information includes:
 

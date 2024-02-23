@@ -15,13 +15,13 @@ The user wants to create 1 copy with the previously existing ad insert endpoint,
 
 After that, a pop-up window will appear, allowing all fields to be edited. after:
 
-! 
+![](/images/dai/pop-up-duplicate-endpoint.png)
 
   <center>
 
 _Figure 1: Pop-up creating a copy of the endpoint_
 
-  
+  </center>
 
 **Allow** edit all fields.
 
@@ -35,7 +35,7 @@ The system displays a notification of successful copying in the right corner of 
 
  <center>
 
-! 
+![](/images/dai/success-duplicate.png)
 
 _Figure 2: Notification of successful ad insert endpoint replication!_
 

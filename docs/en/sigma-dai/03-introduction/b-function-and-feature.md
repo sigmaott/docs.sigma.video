@@ -25,14 +25,14 @@ First, you create an ad insert endpoint, and then add VOD sources and direct sou
 
 Topic:
 
-- [List of ad insert endpoints] (.. /05-user-guide/2-ad-insert-endpoint/a-view-list.md)
-- [Create new ad insert endpoint] (.. /05-user-guide/2-ad-insert-endpoint/b-create.md)
-- [Update ad insert endpoint] (.. /05-user-guide/2-ad-insert-endpoint/c-edit.md)
-- [Create an ad insert endpoint copy] (.. /05-user-guide/2-ad-insert-endpoint/d-duplicate.md)
-- [Remove ad insert endpoint] (.. /05-user-guide/2-ad-insert-endpoint/e-delete.md)
-- [Bumper ad] (.. /05-user-guide/2-ad-insert-endpoint/f-bumper-ad.md)
-- [Ad slate] (.. /05-user-guide/2-ad-insert-endpoint/g-ad-slate.md)
-- [Delay ad] (.. /05-user-guide/2-ad-insert-endpoint/h-delay.md)
+- [List of ad insert endpoints](.. /05-user-guide/2-ad-insert-endpoint/a-view-list.md)
+- [Create new ad insert endpoint](.. /05-user-guide/2-ad-insert-endpoint/b-create.md)
+- [Update ad insert endpoint](.. /05-user-guide/2-ad-insert-endpoint/c-edit.md)
+- [Create an ad insert endpoint copy](.. /05-user-guide/2-ad-insert-endpoint/d-duplicate.md)
+- [Remove ad insert endpoint](.. /05-user-guide/2-ad-insert-endpoint/e-delete.md)
+- [Bumper ad](.. /05-user-guide/2-ad-insert-endpoint/f-bumper-ad.md)
+- [Ad slate](.. /05-user-guide/2-ad-insert-endpoint/g-ad-slate.md)
+- [Delay ad](.. /05-user-guide/2-ad-insert-endpoint/h-delay.md)
 
 ## Ad listing
 
@@ -40,8 +40,8 @@ Once ads have been transcoded and are eligible for insertion into content, ad li
 
 Topic:
 
-- [Ad List] (.. /05-user-guide/3-ads-list/a-ads-list.md)
-- [Ad moderation] (.. /05-user-guide/3-ads-list/b-approval.md)
+- [Ad List](.. /05-user-guide/3-ads-list/a-ads-list.md)
+- [Ad moderation](.. /05-user-guide/3-ads-list/b-approval.md)
 
 ## Statistics
 
@@ -49,7 +49,7 @@ The inserted advertising statistics feature allows management, publishers, and a
 
 Topic:
 
-- [Data Report] (.. /05-user-guide/4-statistic/b-data-report.md)
-- [Event Chart] (.. /05-user-guide/4-statistic/c-event-chart/a-by-endpoint.md)
-- [Fillrate] (.. /05-user-guide//4-statistic/d-fillrate.md)
-- [System Tracking] (.. /05-user-guide/4-statistic/f-monitor-system.md)
+- [Data Report](.. /05-user-guide/4-statistic/b-data-report.md)
+- [Event Chart](.. /05-user-guide/4-statistic/c-event-chart/a-by-endpoint.md)
+- [Fillrate](.. /05-user-guide//4-statistic/d-fillrate.md)
+- [System Tracking](.. /05-user-guide/4-statistic/f-monitor-system.md)

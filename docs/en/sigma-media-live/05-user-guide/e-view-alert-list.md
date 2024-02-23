@@ -11,7 +11,7 @@ On the main screen of Media Live, select **Alerts** in the header tab.
 
 The system home screen displays the alert list screen interface.
 
-! [View alert list] (/images/media-live/event-channel/view-alerts-list1.png)
+![View alert list](/images/media-live/event-channel/view-alerts-list1.png)
 
 Key information includes:
 

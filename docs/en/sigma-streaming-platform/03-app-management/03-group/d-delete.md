@@ -15,7 +15,7 @@ At the main screen interface, select the field to delete. The system will displa
 
 The user clicks on the 'Delete' icon, the system will open a confirmation pop-up window in the center of the screen
 
-! [Delete group] (/images/streaming-platform/app-management/03-group/pop-up/delete.png)
+![Delete group](/images/streaming-platform/app-management/03-group/pop-up/delete.png)
 
 _Pop-up delete group_
 
@@ -41,6 +41,6 @@ _Group Removal Success Message!_
 
 After editing the group, members assigned to the group will lose access to the system. In this scenario, a UI 403 error page will be displayed to inform about not having access.
 
-! [Error 403] (/images/streaming-platform/app-management/03-group/error-403.png)
+![Error 403](/images/streaming-platform/app-management/03-group/error-403.png)
 
 Users can click the 'About Overview' button to return to the app list, and the sidebar shows only products that have access.

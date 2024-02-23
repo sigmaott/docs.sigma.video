@@ -10,7 +10,7 @@ order: 1
 For lists of content, the app allows users to interact with each list element through a group of function buttons (See illustration below).
 These buttons will show up in the last column of the list table.
 
-! [Action Buttons] (/images/media-live/manager-list-action.png)
+![Action Buttons](/images/media-live/manager-list-action.png)
 
 ***
 
@@ -30,7 +30,7 @@ Because each piece of content on the application has different features and oper
 
 ## Auto Refresh
 
-! [Auto Refresh] (/images/media-live/um-auto-refresh.jpg)
+![Auto Refresh](/images/media-live/um-auto-refresh.jpg)
 
 Allows automatic data re-updating after a certain period of time on and off.
 
@@ -44,7 +44,7 @@ After completing the search/filter, valid elements will be displayed on the inte
 
 ### Channel Filter
 
-! [Channel Filter] (/images/media-live/um-filter/channel.png)
+![Channel Filter](/images/media-live/um-filter/channel.png)
 
 Channel filters allow users to search for data fields such as the following (from left to right on the description figure):
 
@@ -52,7 +52,7 @@ Channel filters allow users to search for data fields such as the following (fro
 
 - 'Type' channel type, including 2 options 'Package', 'Transcode'.
 
-  ! [Channel Type] (/images/media-live/um-filter/type-channel.jpg)
+  ![Channel Type](/images/media-live/um-filter/type-channel.jpg)
 
 - 'Tag' tag assigned to channel, user enters tag.
 
@@ -60,7 +60,7 @@ Channel filters allow users to search for data fields such as the following (fro
 
 ## Pagination
 
-! [Pagination] (/images/media-live/um-pagination/main.png)
+![Pagination](/images/media-live/um-pagination/main.png)
 
 Make pagination adjustments to content sections that take the form of a list.
 
@@ -68,26 +68,26 @@ The paging interface consists of 4 main components:
 
 - The total number of existing elements.
 
-  ! [Counter Pagination] (/images/media-live/um-pagination/counter.png)
+  ![Counter Pagination](/images/media-live/um-pagination/counter.png)
 
 - Option the number of elements visible on a page.
 
   <!-- ![Fontsize Menu](/images/media-live/um-pagination/page-size.png) -->
 
-  ! [Page Size] (/images/media-live/um-pagination/page-size-selection.jpg)
+  ![Page Size](/images/media-live/um-pagination/page-size-selection.jpg)
 
   The optional '5', '10', '15', '20', '50', '100' elements can be displayed on a page by selecting the corresponding values in the paging menu, the default value is '10'.
 
 - Current page order.
 
-  ! [Page Select] (/images/media-live/um-pagination/page-selection.png)
+  ![Page Select](/images/media-live/um-pagination/page-selection.png)
 
   - List existing pages.
-  - The current page is highlighted with a blue background color! [Active Page] (/images/media-live/um-pagination/actived-page.png) { height=17px } .
-  - Scroll to the previous/next page one by one by selecting the ! [Previous] (/images/media-live/um-pagination/previous.png) { height=17px } and ! [Next] (/images/media-live/um-pagination/next.png) { height=17px } .
+  - The current page is highlighted with a blue background color![Active Page](/images/media-live/um-pagination/actived-page.png) { height=17px } .
+  - Scroll to the previous/next page one by one by selecting the ![Previous](/images/media-live/um-pagination/previous.png) { height=17px } and ![Next](/images/media-live/um-pagination/next.png) { height=17px } .
 
 - Navigate to any page.
 
-  ! [Next] (/images/media-live/um-pagination/jump-to.jpg)
+  ![Next](/images/media-live/um-pagination/jump-to.jpg)
 
   You can move to any page by entering the page number in the box in the image above

@@ -19,7 +19,7 @@ This function allows CMS users to access the application when the application ha
 - **<u>Case 1</u>**: If the user _**enable two-factor authentication**_, go to **step 5**
 - **<u>Case 2</u>**: If the user is disabling two-factor authentication, the system displays an access denial message and asks the user to enable two-factor authentication of the user account:
 
-! [Deny access] (/images/streaming-platform/2-factor-authen/deny-access.png)
+![Deny access](/images/streaming-platform/2-factor-authen/deny-access.png)
 
 With the following information
 

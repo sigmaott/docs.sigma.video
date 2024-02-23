@@ -14,11 +14,11 @@ This function provides users with a recovery code (which can be used as an alter
 
 At the Settings screen (user accounts), the user clicks the "View list of recovery codes" button
 
-! [See recovery code list] (/images/streaming-platform/2-factor-authen/view-recovery-code.png)
+![See recovery code list](/images/streaming-platform/2-factor-authen/view-recovery-code.png)
 
 Displays the Recovery code list screen with the following information:
 
-! [See recovery code list] (/images/streaming-platform/2-factor-authen/view-recovery-code-2.png)
+![See recovery code list](/images/streaming-platform/2-factor-authen/view-recovery-code-2.png)
 
 - Description: If you lose your phone or access to your one-time secret password, each of these recovery codes can be used once to regain access to your account. Please save them in a safe place, or you will lose access to your account.
 

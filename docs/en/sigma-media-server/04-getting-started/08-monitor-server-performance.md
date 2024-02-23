@@ -6,7 +6,7 @@ order: 8
 The "Machine Performance Monitoring" function helps monitor, evaluate and ensure stable server performance to ensure that the system operates efficiently and reliably.
 
 Users can monitor with parameters:
-! [Monitor] (.. /image/getstarted/monitor.png)
+![Monitor](.. /image/getstarted/monitor.png)
 
 1. Ingest Input:
    1. Bandwidth: Statistics of bandwidth parameters of receiving and sending signals of Ingest input

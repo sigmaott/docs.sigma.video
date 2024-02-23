@@ -15,8 +15,8 @@ You can edit any existing channel by editing, adding, or removing r and output g
 
 1. On the **channel** page, select the option by channel name
 2. Select the action, then select **edit** . The channel edit page appears . The details on this page are the same as those on the **create funnel**\ page. For information on how to work with this page, drive
-   1. [Create Packing Channel] (02-create-package-channel.md) .
-   2. [Transcoding Channel Creation] (03-create-transcode-channel.md)
+   1. [Create Packing Channel](02-create-package-channel.md) .
+   2. [Transcoding Channel Creation](03-create-transcode-channel.md)
 3. When finished, select update channel
 
 ## Delete a channel

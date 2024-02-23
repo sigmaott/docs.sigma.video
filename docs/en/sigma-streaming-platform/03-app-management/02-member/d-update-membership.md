@@ -15,7 +15,7 @@ Interface at the member list:
 
 Display a **Edit Member** window:
 
-! [Edit member] (/images/streaming-platform/app-management/02-member/pop-up/edit.png)
+![Edit member](/images/streaming-platform/app-management/02-member/pop-up/edit.png)
 
 - **Name**: User email - no corrections allowed.
 - **Permission groups**: A list of currently selected permission groups.
@@ -26,7 +26,7 @@ Click the 'Save' button.
 
 **Step 3**: Record the permission change and display the message:
 
-! [Successful member edit] (/images/streaming-platform/app-management/02-member/message/edit.png)
+![Successful member edit](/images/streaming-platform/app-management/02-member/message/edit.png)
 
 _Notice: Member edit successful!_
 

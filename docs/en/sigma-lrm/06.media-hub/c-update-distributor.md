@@ -15,7 +15,7 @@ Who uses the function: The CMS account is granted VTVhub Administrator rights.
 
 The system will open a pop-up window **Edit distributor** with the information previously entered, allowing editing the information fields: **_Tên and kênh_**
 
-! [Edit distributor] (/images/application-vtvhub/update-distributor.png)
+![Edit distributor](/images/application-vtvhub/update-distributor.png)
 
 **Step 3:** The user makes edits and then presses the **Confirm** button
 

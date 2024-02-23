@@ -31,7 +31,7 @@ Function Description:
 
 **Default interface** :
 
-! 
+![](/images/dai/list-ad-default-off.png)
 
 App moderation is off by default (auto approval)
 
@@ -42,7 +42,7 @@ All ad moderation features are hidden.
 
 <center>
 
-! 
+![](/images/dai/pop-up-confirm-approval-app.png)
 
 </center>
 
@@ -78,7 +78,7 @@ Business description:
 
 **Default interface** :
 
-! 
+![](/images/dai/list-ad-default-off.png)
 
 Default state- app moderation is off.
 
@@ -90,7 +90,7 @@ By default, ads are inserted, independent of moderation features.
 
 <center>
 
-! 
+![](/images/dai/pop-up-confirm-approval-ad.png)
 
 _Figure 1: Pop-up confirming ad censorship_
 
@@ -107,13 +107,13 @@ _Figure 1: Pop-up confirming ad censorship_
 **Step 3**: Users press the **Confirm** button to enable the moderation feature by app.
 The system remains in the Ad list.
 
-! 
+![](/images/dai/list-ad-approval.png)
 
 <center>
 
 _Figure 2: Enabling ad-based moderation_
 
-  
+  </center>
 
 - Show switch switch: approve, message successfully transferred.
 

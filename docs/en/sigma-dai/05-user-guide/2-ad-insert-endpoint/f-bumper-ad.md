@@ -31,7 +31,7 @@ To use Bumpers ad, users select assets stored on ThudoJSC servers or users uploa
 
 Users can configure ad bumpers at the beginning, end, or both.
 
-! 
+![](/images/dai/bumper.png)
 
 <center>
 
