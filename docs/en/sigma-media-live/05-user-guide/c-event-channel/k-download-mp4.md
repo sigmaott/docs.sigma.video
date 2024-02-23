@@ -1,24 +1,24 @@
 ---
-title: Thực hiện Tải dữ liệu video Main-event dưới dạng MP4
+title: Perform Main-event Video Data Download as MP4
 order: 10
 ---
 
-# Thực hiện Tải dữ liệu video Main-event dưới dạng MP4
+# Perform Main-event Video Data Download as MP4
 
-**Điều kiện**:
+**Condition**:
 
-- Kênh sự kiện được cấu hình cho phép **Tạo Mp4**
-- Đầu vào của Main-Event có nguồn là INPUT
-- Kênh ở trạng thái **Done**
+- Event channel configured to allow **Create Mp4**
+- The input of the Main-Event whose source is INPUT
+- Channel in **Done** status
 
-**Bước 1**: Người dùng có 2 lựa chọn để bắt đầu:
+**Step 1**: Users have 2 options to get started:
 
-- Tại _**màn hình danh sách kênh sự kiện**_, bấm vào biểu tượng **Tải xuống MP4** của kênh muốn chỉnh sửa
+- At the event channel list screen, click the MP4 download icon of the channel you want to edit
 
-- Tại _**màn hình chi tiết kênh sự kiện**_, bấm vào biểu tượng **Tải xuống MP4** của kênh muốn chỉnh sửa
+- At the event channel details screen, click the MP4 download icon of the channel you want to edit
 
-**Bước 2**: Hệ thống kiểm tra điều kiện để thực hành động.
+**Step 2**: The system checks conditions to practice actions.
 
-- Nếu đủ điều kiện, hệ thống cho phép tải dữ liệu dưới dạng MP4 về thiết bị của người dùng
+- If eligible, the system allows downloading data in MP4 to the user's device
 
-- Nếu không đủ điều kiện, hệ thống hiển thị thông báo lỗi chi tiết để người dùng nắm được thông tin
+- If not eligible, a detailed error message is displayed for the user to stay informed
