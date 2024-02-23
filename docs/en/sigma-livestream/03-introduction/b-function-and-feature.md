@@ -3,38 +3,38 @@ title: Function & Feature
 order: 2
 ---
 
-# Tổng quan về các chức năng và tính năng của sản phẩm (từng tính năng sẽ gắn link sang bài chi tiết tính năng)
+# Overview of product functions and features (each feature will link to feature detail article)
 
-(dưới mỗi page, hiển thị những resource liên quan)
+(under each page, display related resources)
 
-Livestream không chỉ đơn giản là một công cụ biên tập nội dung video và phát sóng các buổi trực tiếp (livestream) trên các nền tảng trực tuyến như YouTube, Facebook, Twitch và nhiều nền tảng khác, mà nó còn mang đến một loạt các chức năng và tính năng hỗ trợ mạnh mẽ truyền video từ nhiều nguồn khác nhau.
-Hệ thống này bao gồm các công cụ và quy trình giúp quản lý, điều hành, và tạo ra nội dung trực tiếp trên internet để tương tác với khán giả trực tiếp.
+Livestream is not simply a tool for editing video content and broadcasting livestreams on online platforms such as YouTube, Facebook, Twitch, and many others, but it also offers a wide range of functions and features that powerfully support streaming videos from a variety of sources.
+The system includes tools and processes that help manage, operate, and create live content on the internet to interact with live audiences.
 
-Hãy đi sâu vào các chức năng và tính năng tuyệt vời mà Livestream mang lại để hiểu rõ hơn về cách nó có thể cải thiện trải nghiệm của người xem và tăng cường hiệu suất cho các doanh nghiệp và nhà xuất bản trực tuyến.
+Let's dive into the amazing functions and features that Livestream has to offer to better understand how it can improve viewer experience and enhance performance for online businesses and publishers.
 
-# Customer dashboard( Giao diện mặc định)
+# Customer dashboard (Default theme)
 
-Customer dashboard mô tả về những tính năng giúp người dùng CMS có thể theo dõi được tổng quan những thông tin chỉ số liên quan đến SSAI ngoài ra tính năng này còn cung cấp thông tin liên quan đến hướng dẫn sử dụng (getting started - giúp người dùng có thể sử dụng sản phẩm một cách dễ dàng), phần Document (liên quan đến sản phẩm) để người dùng nắm rõ được cách sử dụng sản phẩm.
+Customer dashboard describes the features that help CMS users to track an overview of SSAI-related indicator information, in addition, this feature also provides information related to the user manual (getting started - helping users to use the product easily),  Document section (related to the product) for users to understand how to use the product.
 
-Chủ đề:
+Subject:
 
-# Cấu hình ứng dụng
+# Application configuration
 
-Cấu hình ứng dụng thiết lập chung cho toàn bộ các kênh trong hệ thống Sigma Livestream.
+Application configuration is common to all channels in the Sigma Livestream system.
 
-Cấu hình ứng dụng sẽ ảnh hưởng đến link phát (người xem sẽ không truy cập được video hoặc sẽ phải sử dụng link phát mới) và máy chuyển mã (thay đổi cấu hình kênh: link live streaming, link push rtmp, chọn transcode) khi thực hiện phát trực tiếp. Sử dụng đám mây của chúng tôi để tối ưu hóa thời gian cấu hình của bạn hoặc chọn tự cấu hình máy. Cấu hình chuyển đổi video của bạn thành định dạng kỹ thuật số, cung cấp đầu vào, đầu ra gốc và lưu trữ các tệp đã chuyển đổi để bạn có thể truy cập và quản lý chúng một cách thuận tiện.
+Application configuration will affect the broadcast link (viewers will not be able to access the video or will have to use a new broadcast link) and transcoder (change channel configuration: link live streaming, link push rtmp, select transcode) when performing live streaming. Use our cloud to optimize your configuration time or choose to configure the machine yourself. Configure your video conversion into digital format, provide original input, output, and storage of converted files so that you can access and manage them conveniently.
 
-Chủ đề:
+Subject:
 
-# Kênh
+# Channel
 
-Một kênh tập hợp các bảng kê khai nguồn của bạn thành một luồng tuyến tính sử dụng để phát sóng trực tuyến. Cho phép chỉnh sửa nội dung trực tiếp trong quá trình trực tiếp để đảm bảo rằng nó phù hợp với mục tiêu của buổi trực tuyến và đáp ứng nhu cầu của người xem.
+A channel gathers your source manifests into a linear stream that can be used for online broadcasting. Allows editing of live content during the live session to ensure that it aligns with the goals of the online session and meets the viewer's needs.
 
-Chủ đề:
+Subject:
 
 # Session
 
-Do hệ thống sinh ra sau khi phát hiện kênh được đẩy input từ bên thứ 3. Một cách để tổ chức và quản lý nội dung trực tiếp trên một kênh, giúp tạo ra sự tổ chức và dễ theo dõi cho cả người dùng. Mỗi session đại diện cho một khoảnh khắc thời gian cụ thể hoặc một nội dung cụ thể trong quá trình livestream.
+Because the system generated after detecting the channel is pushed input from 3rd parties. A way to organize and manage content directly across a channel, helping to create organization and follow-up for both users. Each session represents a specific moment of time or a specific content during the livestream.
 
-Session trong livestream có thể được tổ chức để chia thành các đợt thời gian cố định( cấu hình timeout), hoặc do người dùng chủ động dừng, mỗi session có thông tin riêng biệt. Đối với người xem, việc theo dõi các session giúp theo kịp với lịch trình và chọn lựa nội dung quan tâm.
-Chủ đề:
+Sessions in the livestream can be organized to be divided into fixed time batches (timeout configuration), or actively stopped by the user, each session has its own unique information. For viewers, keeping track of sessions helps keep up with schedules and select content of interest.
+Subject:
