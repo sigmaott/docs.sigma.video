@@ -25,7 +25,7 @@ Người dùng có thể thực hiện thêm máy mới, theo các bước:
 
 2.  Thực hiện lấy mã token để cài đặt máy
 
-      [Lấy mã token](/vi/sigma-engine-server/03-getting-started/04-install-new-machine#lay-ma-token-đe-thuc-hien-cai-đat-may)
+      [Lấy mã token](/vi/sigma-media-server/03-getting-started/04-install-new-machine#lay-ma-token-đe-thuc-hien-cai-đat-may)
 
 3. Cài đặt máy chủ
 
@@ -211,38 +211,38 @@ Người dùng có thể thực hiện thêm máy mới, theo các bước:
 
 2.  Thực hiện lấy mã token để cài đặt máy
 
-    [Lấy mã token](/vi/sigma-engine-server/03-getting-started/04-install-new-machine#lay-ma-token-đe-thuc-hien-cai-đat-may)
+    [Lấy mã token](/vi/sigma-media-server/03-getting-started/04-install-new-machine#lay-ma-token-đe-thuc-hien-cai-đat-may)
 
 3. Cài đặt máy chủ
-   [Install Server](/vi/sigma-engine-server/03-getting-started/04-install-new-machine#with-server-community)
+   [Install Server](/vi/sigma-media-server/03-getting-started/04-install-new-machine#with-server-community)
 
 ----
 
 ### 2. Drain Job
-  Người dùng thực hiện hành động [Drain Job](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_2-drain-job)
+  Người dùng thực hiện hành động [Drain Job](/vi/sigma-media-server/04-user-guide/02-sigma-live-server#_2-drain-job)
 
 ----
 ### 3. Pause/ Resume 
-​    Người dùng thực hiện hành động [Pause/ Resume](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_3-pause-resume)
+​    Người dùng thực hiện hành động [Pause/ Resume](/vi/sigma-media-server/04-user-guide/02-sigma-live-server#_3-pause-resume)
 
 ----
 
 ### 4. Config Route
-​    Người dùng thực hiện hành động [Config Route](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_4-config-route)
+​    Người dùng thực hiện hành động [Config Route](/vi/sigma-media-server/04-user-guide/02-sigma-live-server#_4-config-route)
 
 ------
 
 ### 5. Config App
-   Người dùng thực hiện hành động [Config App](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_6-config-app)
+   Người dùng thực hiện hành động [Config App](/vi/sigma-media-server/04-user-guide/02-sigma-live-server#_6-config-app)
 
 -----
 
 ### 6. Actions to App
-   Người dùng thực hiện hành động  [Action to App](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_7-actions-to-app)
+   Người dùng thực hiện hành động  [Action to App](/vi/sigma-media-server/04-user-guide/02-sigma-live-server#_7-actions-to-app)
 
 -----
 ### 7. Delete Server
-  Người dùng thực hiện hành động  [Delete Server](/vi/sigma-engine-server/04-user-guide/02-sigma-live-server#_8-delete-server)
+  Người dùng thực hiện hành động  [Delete Server](/vi/sigma-media-server/04-user-guide/02-sigma-live-server#_8-delete-server)
 
  
 
@@ -254,7 +254,7 @@ Giúp cải thiện tốc độ và hiệu suất làm việc, đồng thời gi
 
 ### 1. Add Cluster Server 
 
-Người dùng thực hiện hành động [Add Cluster](/vi/sigma-engine-server/03-getting-started/07-create-cluster#tao-moi-cluster-server)
+Người dùng thực hiện hành động [Add Cluster](/vi/sigma-media-server/03-getting-started/07-create-cluster#tao-moi-cluster-server)
 
 
 ----
