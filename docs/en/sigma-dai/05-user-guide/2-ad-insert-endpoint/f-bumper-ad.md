@@ -1,73 +1,73 @@
 ---
-title: Chèn quảng cáo bumpers
+title: Insert ad bumpers
 order: 6
 ---
 
-# Chèn quảng cáo bumpers
+# Insert ad bumpers
 
-Bumpers ad là **video ngắn,** **không thể bỏ qua** video được chèn vào **đầu** hoặc **cuối** trước khi kết thúc điểm quảng cáo **nếu đủ thời gian**.
+Bumpers ad is a short video, \*\* _non-skippable_\* video inserted into **beginning** or **end** before the end of the ad score **if enough time**.
 
-Bumpers ad được cấu hình trong phần **cài đặt Nâng cao** và **không bắt buộc**.
+Bumpers ad are configured in Advanced settings and optional.
 
-## Điều kiện
+## Condition
 
-Các điều kiện sau áp dụng để chèn bumpers ad:
+The following conditions apply to inserting ad bumpers:
 
-- Loại asset mặc định **Video**.
-- Giới hạn thời lượng bumpers ad là **10 giây hoặc ít hơn**.
-- Bumpers ad có thể được chèn vào **điểm đầu hoặc kết thúc** của quảng cáo( ad break) hoặc **cả hai.**
-- Bumpers ad **được chuyển mã** để phù hợp với nội dung nguồn.
+- Default asset type **Video**.
+- The bumpers ad duration limit is 10 seconds or less.
+- Ad bumpers can be inserted into ad breaks or both.
+- Bumpers ad **transcoded** to match the source content.
 
-## Loại
+## Kind
 
-Có 2 loại Bumpers ads:
+There are 2 types of bumpers ads:
 
-- Bumpers ad **start** : Bumpers chèn vào trước quảng cáo.
-- Bumpers ad **end** : Bumpers chèn vào sau quảng cáo.
+- Bumpers ad **start** : Bumpers inserted before the ad.
+- Bumpers ad **end** : Bumpers inserted after the ad.
 
-## Cấu hình Bumpers ad
+## Configuring Bumpers ad
 
-Để sử dụng Bumpers ad, người dùng chọn asset được lưu trữ ở máy chủ ThudoJSC hoặc người dùng upload file video trực tiếp lên hệ thống Sigma.
+To use Bumpers ad, users select assets stored on ThudoJSC servers or users upload video files directly to the Sigma system.
 
-Người dùng có thể cấu hình Bumpers ad ở đầu, cuối hoặc cả hai.
+Users can configure ad bumpers at the beginning, end, or both.
 
-![](/images/dai/bumper.png)
+! 
 
 <center>
 
-_Hình 1: chèn bumper ad_
+_Figure 1: inserting bumper ad_
 
 </center>
 
-**Ví dụ:**
+**Example:**
 
-Điểm chèn quảng cáo( availDuration/ ad break): 70s
+Ad break (availDuration/ ad break): 70 seconds
 
-Quảng cáo được trả về( filledDuration): 50s
+Ad returned(filledDuration): 50 seconds
 
 Bumpers ad start: 10s
 
 Bumpers ad end: 10s
 
-Người dùng cấu hình Bumpers ad start và Bumpers ad end, trong trường hợp này sẽ được phép **chèn cả 2**.
+Users who configure Bumpers ad start and Bumpers ad end, in which case will be allowed to insert both 2\*\*.
 
-**Cách Bumpers ad được cấu hình vào**
+**How Bumpers ad is configured on**
 
-| **Formula**                                                                                                                                                                   | availDuration | filledDuration | startBumper<br />AssetDuration | endBumper<br />AssetDuration | **Result**                     |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | -------------- | ------------------------------ | ---------------------------- | ------------------------------ |
-| (availDuration - filledDuration) >= **startBumperAssetDuration + endBumperAssetDuration**                                                                  | 60            | 30             | 10                             | 5                            | chèn cả 2                      |
-| (availDuration - filledDuration) >= **startBumperAssetDuration**                                                                                           | 60            | 50             | 10                             | 10                           | chèn start Bumper video        |
-| (availDuration - filledDuration) > **endBumperAssetDuration** and<br /> (availDuration - filledDuration) > **startBumperAssetDuration** | 60            | 55             | 10                             | 10                           | không chèn cái nào             |
-| **startBumperAssetDuration >**(availDuration - filledDuration) **>=** **endBumperAssetDuration**                                                           | 60            | 55             | 10                             | 5                            | Chỉ chèn end, không chèn start |
+| **Formula**                                                                                                                                                                   | availDuration | filledDuration | startBumper<br />AssetDuration | endBumper<br />AssetDuration | **Result**                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | -------------- | ------------------------------ | ---------------------------- | --------------------------------- |
+| (availDuration - filledDuration) >= **startBumperAssetDuration + endBumperAssetDuration**                                                                  | 60            | 30             | 10                             | 5                            | insert both 2                     |
+| (availDuration - filledDuration) >= **startBumperAssetDuration**                                                                                           | 60            | 50             | 10                             | 10                           | insert start bumper video         |
+| (availDuration - filledDuration) > **endBumperAssetDuration** and<br /> (availDuration - filledDuration) > **startBumperAssetDuration** | 60            | 55             | 10                             | 10                           | don't insert any                  |
+| **startBumperAssetDuration >**(availDuration - filledDuration) **>=** **endBumperAssetDuration**                                                           | 60            | 55             | 10                             | 5                            | Only insert end, not start insert |
 
-## Các quy định khác
+## Miscellaneous
 
-1. Trường hợp người dùng chọn hay Upload **video quá 10s**, hệ thống vẫn ghi nhận video, việc chèn bumpers ad sẽ **được thực hiện** sau khi người dùng bấm nút **Create.**
+1. In case the user selects or Uploads **video more than 10 seconds**, the system still records the video, the insertion of bumpers ad will **be done**\* after the user presses the **Create button.**
 
-2. Bumpers ad **bắt buộc chèn hết thời lượng video**, không được phép cắt.
+2. Bumpers ad **compulsory insertion of the full length of the video**, no trimming allowed.
 
-3. Trường hợp asset được cấu hình nhưng sau đó asset bị xoá khỏi hệ thống ở **Chi tiết ad insert endpoint** bumpers ad sẽ hiển thị **Không có dữ liệu** .
+3. In case the asset is configured but then the asset is deleted from the system at **Details ad insert endpoint** bumpers ad will show **No data** .
 
-## Yêu cầu đầu ra
+## Output requirements
 
-Người dùng tạo mới ad insert endpoint và chạy ad insert endpoint thành công, quan sát bumpers ad  **hiển thị thành công lên luồng Live**, người xem coi được bumpers ad.
+The user creates a new ad insert endpoint and runs the ad insert endpoint successfully, observes the bumpers ad **displayed successfully on the Live stream**, viewers see the bumpers ad.
