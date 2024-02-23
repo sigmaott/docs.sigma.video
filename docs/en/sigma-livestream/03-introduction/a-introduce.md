@@ -3,51 +3,51 @@ title: Product overview
 order: 1
 ---
 
-# What is an online TV solution?
+# Giải pháp truyền hình trực tuyến là gì?
 
-Livestream services are designed to create a live channel on the internet, allowing users to transmit their video content to a large number of viewers in the simplest and most effective way in real time. This means that users have the ability to broadcast and share live video, allowing viewers to experience the event or content while it's happening.
+Dịch vụ truyền hình trực tuyến (Livestream) được thiết kế để tạo ra một kênh trực tiếp trên internet, cho phép người dùng truyền tải nội dung video của họ với lượng lớn người xem một cách đơn giản và hiệu quả nhất theo thời gian thực. Điều này có nghĩa là người dùng có khả năng phát sóng và chia sẻ video trực tiếp, cho phép người xem trải nghiệm sự kiện hoặc nội dung ngay lúc đang diễn ra.
 
-Livestreaming is not only limited to live video broadcasting, but also provides the possibility of replaying live content that has ended. This allows users to re-leverage their content and provide a high-quality, pre-edited video viewing experience.
+Livestream không chỉ giới hạn trong việc phát sóng video trực tiếp mà còn cung cấp khả năng tái phát lại nội dung trực tiếp đã kết thúc. Điều này cho phép người dùng tận dụng lại nội dung của họ và cung cấp một trải nghiệm xem video chất lượng cao, được biên tập sẵn.
 
-Building a great live streaming experience for your audience requires a large technical project, high cost, and great risk. With live streams, any minor incident is likely to end up on a live stream. Therefore, we prioritize ensuring that content is delivered smoothly to users with no incidents is of the utmost importance.
+Để xây dựng một trải nghiệm live stream tuyệt vời đến người xem của bạn đòi hỏi một dự án kĩ thuật lớn, chi phí cao và rủi ro lớn. Với sự kiện trực tiếp bất cứ một sự cố nhỏ nào đều có khả năng kết thúc trên luồng phát trực tiếp. Vì vậy, chúng tôi ưu tiên việc đảm bảo nội dung được truyền tải đến người dùng một cách mượt mà ít sự cố là điều quan trọng nhất.
 
-The software facilitates individuals or businesses to create and manage their online channels, providing flexible platforms and utilities for communicating and interacting with audiences through online television platforms.
+Phần mềm này tạo điều kiện thuận lợi cho cá nhân hoặc doanh nghiệp để tạo ra và quản lý kênh trực tuyến của họ, cung cấp nền tảng linh hoạt và tiện ích cho việc giao tiếp và tương tác với khán giả thông qua nền tảng truyền hình trực tuyến.
 
-# How the online TV system works
+# Cách hệ thống truyền hình trực tuyến hoạt động
 
-## Get started with your channel
+## Bắt đầu với kênh của bạn
 
-After a user creates a new channel, the system automatically generates the channel's information, and the user has the ability to perform actions (e.g. copying tokens,...).
+Sau khi người dùng tạo mới một kênh, hệ thống tự động tạo ra các thông tin của kênh, và người dùng có khả năng thực hiện các action( ví dụ copy token,...).
 
 Livestream Channel:
 
-A Livestream channel is a space that users create and manage themselves.
+Kênh Livestream là một không gian mà người dùng tạo ra và tự quản lý.
 
-The status of the IDLE initiation channel (free- no sessions)
+Trạng thái của kênh khởi tạo IDLE (rảnh rỗi- không có session)
 
--> switch to active state when channel is activated
+->  chuyển đổi sang trạng thái active khi kênh được kích hoạt
 
--> switches to the STOP state when the user actively stops the channel.
+-> chuyển sang trạng thái STOP khi người dùng chủ động dừng kênh.
 
-View status conversion details in
+Chi tiết chuyển đổi trạng thái xem ở
 
-## Channel of operation
+## Kênh hoạt động
 
-Session Initiation Process:
+Quá trình khởi tạo Session:
 
-After the channel is initialized, the user transmits the input through a third party. The system automatically generates a session and assigns it to an init state.
+Sau khi kênh được khởi tạo, người dùng truyền input thông qua bên thứ ba. Hệ thống tự động sinh ra session và gán nó với trạng thái init.
 
-Session Status:
+Trạng thái Session:
 
-A session is a real-time transmission of video data.
-The state of the session changes in order: init, procession/error/live, and finally ended.
+Session là quá trình truyền dữ liệu video theo thời gian thực.
+Trạng thái của session thay đổi theo thứ tự: init (khởi tạo), chuyển sang processing/error/live, và cuối cùng là ended.
 
-This session ends (end state) when the maximum duration (timeout) is reached or when the user actively stops the channel.
+Session này kết thúc( trạng thái end) khi đạt đến thời lượng tối đa (timeout) hoặc khi người dùng chủ động dừng kênh.
 
-## The relationship between Livestream Channel and Session:
+## Mối quan hệ giữa Livestream Channel và Session:
 
-Each Livestream channel can contain from 1 to more sessions.
+Mỗi Livestream channel có thể chứa từ 1 đến nhiều session.
 
-Each Livestream channel links to the corresponding playing session in the session list, creating a unified link between the channel and the live content.
+Mỗi kênh Livestream liên kết với session đang phát tương ứng trong danh sách session, tạo nên một liên kết hợp nhất giữa kênh và nội dung trực tiếp.
 
-The session is unique, when the session ends, cannot be reused, the newly born session continues to operate the task.
+Session là duy nhất, khi session kết thúc, không thể tái sử dụng, session mới được sinh ra tiếp tục hoạt động nhiệm vụ.
