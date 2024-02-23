@@ -1,120 +1,120 @@
 ---
-title: Kiểm duyệt quảng cáo
+title: Ad moderation
 order: 2
 ---
 
-# Kiểm duyệt
+# Censor
 
-Sau khi quảng cáo được transcode và đủ điều kiện chèn, quảng cáo được chèn. Mong muốn quản lý chặt hơn tính năng chèn quảng cáo nên hệ thống hỗ tính năng kiểm duyệt, được quản lí theo 2 tính năng:
+After the ad is transcoded and eligible for insertion, the ad is inserted. Wishing to more strictly manage the ad insertion feature, the system supports moderation features, managed according to 2 features:
 
-## Kiểm duyệt theo app
+## App moderation
 
-**Điều kiện**:
+**Condition**:
 
-- Mặc định khi truy cập vào app lần đầu tiên: đang tắt tính năng kiểm duyệt( auto approval).
-- Đã có ad insert endpoint được tạo và chứa nó.
-- Đã có ít nhất 1 quảng cáo được tạo ra.
+- Default when accessing the app for the first time: turning off auto approval.
+- There is already an ad insert endpoint created and containing it.
+- At least 1 ad has been created.
 
-Mô tả chức năng:
+Function Description:
 
 - Not-approve:
 
-  - Chức năng: Ẩn toàn bộ switch tính năng kiểm duyệt của danh sách quảng cáo.
-  - Mặc định tất cả quảng cáo được chèn, không phụ thuộc vào tính năng kiểm duyệt.
-  - Quảng cáo mới được tạo →  mặc định trạng thái khởi tạo là được bật = approval( dưới BE) nhưng ẩn( phía UI).
+  - Function: Hide the entire switch moderation feature of the ad list.
+  - By default, all ads are inserted, independent of moderation.
+  - New ads are created → the default initialization status is enabled = approval ( under BE) but hidden ( UI side).
 
 - Approve:
-  - Chức năng: Cho phép active tính năng kiểm duyệt của tất cả quảng cáo.
-  - Chèn quảng cáo phụ thuộc vào trạng thái kiểm duyệt của app.
+  - Functionality: Allows active moderation of all ads.
+  - Ad insertion depends on the app's moderation status.
 
-### Để bật tính năng kiểm duyệt theo app
+### To enable per-app moderation
 
-**Giao diện mặc định** :
+**Default interface** :
 
-![](/images/dai/list-ad-default-off.png)
+! 
 
-Tính năng kiểm duyệt theo app mặc định đang tắt( auto approval)
+App moderation is off by default (auto approval)
 
-Tất cả tính năng kiểm duyệt ad đang ẩn.
-**Bước 1** :  Người dùng bật tính năng kiểm duyệt theo app.
+All ad moderation features are hidden.
+**Step 1**: Users enable app-based moderation.
 
-**Bước 2**: Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâm màn hình với các chi tiết sau:
+**Step 2**: The system will display a confirmation pop-up window in the center of the screen with the following details:
 
 <center>
 
-![](/images/dai/pop-up-confirm-approval-app.png)
+! 
 
 </center>
 
-- Tiêu đề: Kiểm duyệt cho ứng dụng?
+- Subject: Moderation for Apps?
 
-- Nội dung: Áp dụng cho ứng dụng, chèn quảng cáo phụ thuộc vào trạng thái kiểm duyệt.Thực hiện hành động?
+- Content: Applies to apps, ad insertion depends on moderation status. Take action?
 
-- Nút **Huỷ bỏ**: Không thực hiện thay đổi, ở lại màn hình Danh sách quảng cáo.
+- Button **Cancel**: Do not make changes, stay in the Ad list screen.
 
-- Nút **Xác nhận**: Hệ thống thực hiện việc hành động.
+- Button **Confirm**: The system performs the action.
 
-**Bước 3** : Người dùng nhấn nút **Xác nhận** để bật tính năng kiểm duyệt theo app.
+**Step 3**: Users press the **Confirm** button to enable the moderation feature by app.
 
-Hệ thống vẫn ở Danh sách quảng cáo.
+The system remains in the Ad list.
 
-- Cho phép active tính năng kiểm duyệt của tất cả quảng cáo.
+- Enable active moderation of all ads.
 
-- Chèn quảng cáo phụ thuộc vào trạng thái kiểm duyệt.
+- Ad insertion depends on moderation status.
 
-## Kiểm duyệt theo quảng cáo
+## Censorship by ads
 
-**Điều kiện**: Bắt buộc thực hiện action tính năng kiểm duyệt theo app trước.
+**Condition**: Mandatory implementation of the moderation feature according to the previous app.
 
-Mô tả nghiệp vụ:
+Business description:
 
-- Quảng cáo mới được tạo → mặc định trạng thái khởi tạo là được bật = approval( dưới BE) nhưng ẩn( phía UI).
+- New ads are created → the default initialization status is enabled = approval ( under BE) but hidden ( UI side).
 
-- Quảng cáo tổng tắt → ẩn action kiểm duyệt của từng quảng cáo.
+- Ads summarize → hide the moderation action of each ad.
 
-- Trạng thái quảng cáo ban đầu not-approve → quảng cáo cho phép chèn.
+- The original ad state is not-approve → the ad allows insertion.
 
-### Để bật tính năng kiểm duyệt theo quảng cáo
+### To enable ad-based moderation
 
-**Giao diện mặc định** :
+**Default interface** :
 
-![](/images/dai/list-ad-default-off.png)
+! 
 
-Trạng thái mặc định- tính năng kiểm duyệt theo app đang tắt.
+Default state- app moderation is off.
 
-Mặc định quảng cáo được chèn, không phụ thuộc vào tính năng kiểm duyệt.
+By default, ads are inserted, independent of moderation features.
 
-**Bước 1** :  Người dùng bật tính năng kiểm duyệt từng quảng cáo.
+**Step 1**: Users enable the moderation feature of each ad.
 
-**Bước 2**: Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâm màn hình với các chi tiết sau:
+**Step 2**: The system will display a confirmation pop-up window in the center of the screen with the following details:
 
 <center>
 
-![](/images/dai/pop-up-confirm-approval-ad.png)
+! 
 
-_Hình 1: Pop-up xác nhận kiểm duyệt theo quảng cáo_
+_Figure 1: Pop-up confirming ad censorship_
 
 </center>
 
-- Tiêu đề: Kiểm duyệt cho quảng cáo?
+- Title: Moderation for ads?
 
-- Nội dung: Điều kiện đủ để chèn quảng cáo. Thực hiện hành động?
+- Content: Eligibility for ad insertion. Take action?
 
-- Nút **Huỷ bỏ**: Không thực hiện thay đổi, quay lại màn hình Danh sách quảng cáo.
+- **Cancel** button: Make no changes, return to the Ad list screen.
 
-- Nút **Xác nhận**: Hệ thống thực hiện việc hành động.
+- Button **Confirm**: The system performs the action.
 
-**Bước 3** : Người dùng nhấn nút **Xác nhận** để bật tính năng kiểm duyệt theo app.
-Hệ thống vẫn ở Danh sách quảng cáo.
+**Step 3**: Users press the **Confirm** button to enable the moderation feature by app.
+The system remains in the Ad list.
 
-![](/images/dai/list-ad-approval.png)
+! 
 
 <center>
 
-_Hình 2: Bật tính năng kiểm duyệt theo quảng cáo_
+_Figure 2: Enabling ad-based moderation_
 
   
 
-- Hiển thị chuyển switch: approve, thông báo đã chuyển thành công.
+- Show switch switch: approve, message successfully transferred.
 
-- Cho phép chèn quảng cáo.
+- Allow ad insertion.
