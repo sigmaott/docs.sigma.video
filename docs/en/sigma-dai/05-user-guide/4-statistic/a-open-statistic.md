@@ -1,52 +1,52 @@
 ---
-title: Mở Thống kê
+title: Open Statistics
 order: 1
 ---
 
-# Để mở Thống kê
+# To open Statistics
 
-Có 2 cách để mở Thống kê
+There are 2 ways to open Statistics:
 
-## Cách 1- từ Danh sách ad insert endpoint
+## Method 1- From the list ad insert endpoint
 
-1. Tại giao diện **Danh sách ad insert endpoint**, click vào nút thống kê để điều hướng xem thống kê với ad insert endpoint mong muốn.
+1. At the ad insert endpoint list, click the statistics button to navigate the statistics view with the desired ad insert endpoint.
 
-Hệ thống xổ xuống danh sách lựa chọn:
+Drop-down system for the selection list:
 
-- [Giám sát hệ thống](./f-monitor-system.md)
+- [System Monitoring] (./f-monitor-system.md)
 
-- [Tỷ lệ hiển thị](./d-fillrate)
+- [Impression Ratio] (./d-fillrate)
 
-- [Biểu đồ sự kiện](./c-event-chart/a-by-endpoint.md)
+- [Event Chart] (./c-event-chart/a-by-endpoint.md)
 
-- [Báo cáo dữ liệu](./b-data-report.md)
+- [Data Report] (./b-data-report.md)
 
-2. Hệ thống điều hướng đến lựa chọn của bạn.
+2. The system navigates to your choice.
 
-## Cách 2- từ Sidebar
+## Way 2- from the Sidebar
 
-**Bước 1:** Tại Sidebar, click vào thống kê, hệ thống xổ xuống danh sách lựa chọn.
+**Step 1:** In the Sidebar, click on statistics, the system drops down the selection list.
 
-- [Giám sát hệ thống](./f-monitor-system.md)
+- [System Monitoring] (./f-monitor-system.md)
 
-- [Tỷ lệ hiển thị](./d-fillrate)
+- [Impression Ratio] (./d-fillrate)
 
-- [Biểu đồ sự kiện](./c-event-chart/a-by-endpoint.md)
+- [Event Chart] (./c-event-chart/a-by-endpoint.md)
 
-- [Báo cáo dữ liệu](./b-data-report.md)
+- [Data Report] (./b-data-report.md)
 
-**Bước 2:**
-Mở ra/ điều hướng tới giao diện người dùng vừa chọn.
+**Step 2:**
+Open/navigate to the user interface just selected.
 
-## Hệ thống hiển thị giao diện với các thông tin mặc định
+## The system displays the interface with default information
 
 - Quick filter:
-  - **Ad insert endpoint:** hiển thị mặc định tất cả ad insert endpoint các ad insert endpoint thuộc danh sách ad insert endpoint hiện có.
-  - **Sub-endpoint:** không cho phép chọn ad insert endpoint phụ trường hợp người dùng chưa chọn ad insert endpoint cụ thể.
-  - **Khoảng thời gian:** hiển thị mặc định **Hôm nay** thời gian truy vấn **tối đa 3 tháng.**
-- Icon đồng bộ
-- Phân trang: **Ngoại trừ Biểu đồ Sự kiện.**
-- Nút CSV xuất ra file dưới dạng CSV.
-- Nút Excel xuất ra file dưới dạng Excel.
+  - \*\*Ad insert endpoint: \*\* displays all ad insert endpoints by default, ad insert endpoints belong to the list of existing ad insert endpoints.
+  - \*\*Sub-endpoint: \*\* does not allow selecting a secondary ad insert endpoint in case the user has not selected a specific ad insert endpoint.
+  - **Duration:** displays default **Today** query duration **up to 3 months.**
+- Sync icon
+- Pagination: **Except Event Chart.**
+- The CSV button exports to the file as a CSV.
+- Excel button exports to file as Excel.
 
 1
