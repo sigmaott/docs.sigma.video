@@ -1,18 +1,18 @@
 ---
-title: Chỉnh sửa preset
+title: Edit presets
 order: 3
 ---
 
-# Chỉnh sửa preset
+# Edit presets
 
-**Điều kiện**: Preset đã được tạo ra trước đó và có hiển thị tại danh sách preset. Chức năng này giúp người dùng CMS thực hiện chỉnh sửa các thông tin của preset.
+**Condition**: The preset has been created previously and is displayed in the preset list. This function helps CMS users edit the information of the preset.
 
-**Bước 1**: Tại màn hình danh sách preset, người dùng bấm  biểu tượng _**Chỉnh sửa**_ ở cột Hành động đối với preset cần chỉnh sửa
+**Step 1**: At the preset list screen, the user clicks the **Edit**\* icon in the Action column for the preset to be edited
 
-Hệ thống sẽ mở một cửa sổ pop-up **Chỉnh sửa preset** với các thông tin đã được nhập trước đó, \*\*cho phép chỉnh sửa tất cả các trường \*\*
+The system will open a pop-up window with the information previously entered, allowing to edit all fields
 
-![Chỉnh sửa preset](/images/media-live/preset/update-preset.png)
+! [Edit preset] (/images/media-live/preset/update-preset.png)
 
-**Bước 2**: Người dùng thực hiện chỉnh sửa thông tin và sau đó nhấn nút **Xác nhận**
+**Step 2**: The user makes an edit to the information and then presses the **Confirm** button
 
-Hệ thống sẽ lưu lại thông tin mới và hiển thị thông báo **Đã cập nhật cài đặt trước thành công!** ở giữa màn hình, sau đó tự động đóng trong vòng 5 giây.
+The system will save the new information and display the message **Presetting updated successfully!** in the center of the screen, then automatically close within 5 seconds.
