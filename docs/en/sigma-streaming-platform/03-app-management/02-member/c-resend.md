@@ -1,35 +1,35 @@
 ---
-title: Gửi lại lời mời
+title: Resend invitations
 order: 3
 ---
 
-# Gửi lại lời mời
+# Resend invitations
 
-Sau khi mời thành viên, nếu kiểm tra phát hiện rằng **email chưa tồn tại** trong hệ thống và lời mời trước đó chưa nhận được phản hồi, người dùng có thể chọn gửi lại lời mời.
+After inviting members, if the check finds that **email does not yet exist** in the system and the previous invitation has not received a response, the user can choose to resend the invitation.
 
-Khi người dùng đang ở giao diện danh sách thành viên, họ có thể thực hiện các bước sau:
+Once users are in the members list view, they can perform the following steps:
 
-Bước 1: Nhấp vào nút `Resend` ở cột `Hành động` của email trong danh sách với trạng thái là `Invited`.
+Step 1: Click the 'Resend' button in the email's 'Actions' column in the list with the status as 'Invited'.
 
-Hiển thị một cửa sổ xác nhận với các tùy chọn:
+Display a confirmation window with options:
 
-![Gửi lại thư mời](/images/streaming-platform/app-management/02-member/pop-up/resend.png)
+! [Resend invitation] (/images/streaming-platform/app-management/02-member/pop-up/resend.png)
 
-_Gửi lại thư mời_
+_Resend invitation_
 
-- **Tiêu đề**: Gửi lại thư mời?
-- **Nội dung**: Bạn có chắc chắn muốn gửi lại thư mời không?
-- Nút `Cancel`: Trở về danh sách thành viên mà không lưu thông tin.
-- Nút `Confirm`: Xác nhận việc gửi lại lời mời.
+- **Subject**: Resend invitation?
+- **Content**: Are you sure you want to resend the invitation?
+- 'Cancel' button: Returns to the members list without saving the information.
+- 'Confirm' button: Confirm the re-sending of the invitation.
 
-**Bước 2**: Nhấp vào nút `Confirm.`
+**Step 2**: Click the 'Confirm' button.
 
-Người dùng sẽ được đưa trở lại danh sách thành viên và nhìn thấy thông báo xác nhận rằng lời mời đã được gửi lại thành công.
+The user will be taken back to the members list and see a message confirming that the invitation was successfully resent.
 
-Đồng thời, hệ thống sẽ tự động gửi lại email mời thông qua địa chỉ email đã được chọn.
+At the same time, the system will automatically resend the invitation email through the selected email address.
 
-Một số lưu ý:
+Some notes:
 
-- Không có hạn chế về việc gửi liên tục các email mời, token mới nhất là hợp lệ.
-- Token sẽ tự động hết hiệu lực sau `24 giờ` kể từ thời điểm mà hệ thống gửi lại email mời cuối cùng.
-- Nội dung của email mời khi gửi lại sẽ không thay đổi so với lần gửi trước đó.
+- There are no restrictions on the continuous sending of invitation emails, the latest token is valid.
+- The token will automatically expire after '24 hours' from the moment the last invitation email is resent.
+- The content of the invitation email when resent will not change from the previous send.
