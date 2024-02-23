@@ -1,42 +1,42 @@
 ---
-title: Tạo bản sao
+title: Make a copy
 order: 4
 ---
 
-# Tạo bản sao
+# Make a copy
 
-Người dùng muốn tạo 1 bản sao với ad insert endpoint đã có trước đó, giữ các cài đặt bắt buộc của ad insert endpoint.
+The user wants to create 1 copy with the previously existing ad insert endpoint, keeping the required settings of the ad insert endpoint.
 
-**Điều kiện**: Để thực hiện quá trình này, cần phải có ít nhất 1 ad insert endpoint đã được tạo trước đó và hiển thị trong danh sách.
+**Condition**: To perform this process, it is necessary to have at least 1 ad insert endpoint that was previously created and displayed in the list.
 
-## Để tạo bản sao
+## To make a copy
 
-**Bước 1:** Trong danh sách, di chuột vào biểu tượng **nhân bản** ở cột Hành động tại trường bạn muốn tạo bản sao, hiển thị tooltip text **nhân bản**, nhấp vào biểu tượng.
+**Step 1:** In the list, hover over the **duplicate** icon in the Action column in the field you want to duplicate, display the tooltip text **duplicate**, click the icon.
 
-Sau đó, một cửa sổ pop-up **Tạo bản sao ad insert endpoint** sẽ xuất hiện, cho phép chỉnh sửa tất cả các trường thông tin. sau:
+After that, a pop-up window will appear, allowing all fields to be edited. after:
 
-![](/images/dai/pop-up-duplicate-endpoint.png)
+! 
 
   <center>
 
-_Hình 1: Pop-up tạo bản sao endpoint_
+_Figure 1: Pop-up creating a copy of the endpoint_
 
   
 
-**Cho phép** chỉnh sửa tất cả các trường.
+**Allow** edit all fields.
 
-**Tên mặc định: Copy of [Tên kênh] - nếu người dùng không thay đổi tên.**
+**Default name: Copy of [Channel Name] - if the user does not change the name.**
 
-**Bước 2:** Người dùng nhập thông tin cần thiết.
+**Step 2:** The user enters the required information.
 
-**Bước 3:** Sau khi hoàn tất, người dùng nhấn nút **Lưu.**
+**Step 3:** Once done, the user presses the **Save.** button
 
-Hệ thống hiển thị thông báo thực hiện **tạo bản sao thành công** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
+The system displays a notification of successful copying in the right corner of the screen and automatically closes the notification after 5 seconds.
 
  <center>
 
-![](/images/dai/success-duplicate.png)
+! 
 
-_Hình 2: Thông báo tạo bản sao ad insert endpoint thành công!_
+_Figure 2: Notification of successful ad insert endpoint replication!_
 
 </center>
