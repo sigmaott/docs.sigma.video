@@ -1,101 +1,101 @@
 ---
-title: Tạo mới đầu vào
+title: Create new input
 order: 1
 ---
 
-# Tạo mới đầu vào
+# Create new input
 
-Tính năng **Quản lý đầu vào** giúp người dùng quản lý dữ liệu đầu vào một cách hiệu quả và dễ dàng hơn. Người dùng có thể thêm, chỉnh sửa và xóa các đầu vào, tạo ra các bản ghi dữ liệu đầu vào. Mỗi đầu vào được tạo có thể thêm 1 máy hoặc 1 cluster cụ thể thuận tiện cho việc điều phối và xử lý Job khi kênh được tạo.
+The Input Management feature helps users manage input data more efficiently and easily. Users can add, edit, and delete inputs, creating input data records. Each input created can add 1 machine or 1 specific cluster, which is convenient for coordinating and processing jobs when the channel is created.
 
-Có 2 loại đầu vào: Đầu vào kênh Transcode và đầu vào kênh Package
+There are 2 types of input: Transcode channel input and Package channel input
 
-## Tạo mới đầu vào kênh Transcode
+## Create new Transcode channel input
 
-Chức năng này cho phép người dùng CMS tạo mới Đầu vào loại Transcode
+This function allows CMS users to create new Transcode type inputs
 
-**Bước 1**: Truy cập sản phẩm Media Live, người dùng chọn tab Inputs.
+**Step 1**: To access the Media Live product, the user selects the Inputs tab.
 
-Hệ thống hiển thị mặc định với tab Transcode, giao diện màn hình danh sách đầu vào loại Transcode.
+The system displays by default with the Transcode tab, the Transcode type input list screen interface.
 
-![Tạo mới đầu vào kênh Transcode](/images/media-live/input/create-transcode-input.png)
+! [Create new Transcode channel input] (/images/media-live/input/create-transcode-input.png)
 
-**Bước 2**: Tại giao diện màn hình danh sách Đầu vào Transcode (Tab Transcode), người dùng bấm nút **Thêm**
+**Step 2**: At the Transcode Input list screen interface (Transcode tab), the user clicks the **Add** button
 
-Hệ thống hiển thị pop-up thêm mới đầu vào Transcode ở bên phải màn hình.
+The system displays a pop-up that adds new Transcode input on the right side of the screen.
 
-Với các thông tin chung:
+With general information:
 
-| Tên                  | Chức năng                                                                                                                                                                  |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Tên**              | Tên của đầu vào Transcode                                                                                                                                                  |
-| **Mô tả**            | Mô tả của đầu vào Transcode                                                                                                                                                |
-| **Based on Machine** | Cho phép kích hoạt Based on machine                                                                                                                                        |
-| **Loại**             | Loại của nguồn đầu vào bao gồm UDP, RTMP_PUSH, RTMP_PULL, SRT_PUSH, SRT_PULL, HLS, SDI |
-| **Loại máy**         | Loại máy để sử dụng bao gồm: Sigma Machine, Sigma Machine cluster, Sigma Component Cluster                                                                                 |
-| **Máy**              | Máy cụ thể phù hợp để thực hiện nhiệm vụ                                                                                                                                   |
-| **Redundancy**       | Input Class: _**Single**_ (1 nguồn đầu vào chính), _**Redundancy**_ (Nguồn đầu vào chính + nguồn đầu vào phụ)                        |
-| **Nguồn chính**      | Thông tin nguồn đầu vào chính                                                                                                                                              |
-| **Nguồn phụ**        | Thông tin nguồn đầu vào thứ 2 (Chọn **Nguồn phụ** nếu **Loại** là UDP, RTMP Pull, SRT Pull)                                                             |
+| Name                  | Function                                                                                                                                                                   |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Name**              | Name of Transcode input                                                                                                                                                    |
+| **Describe**          | The description of Transcode Input App                                                                                                                                     |
+| **Based on Machine**  | Enable Based on machine activation                                                                                                                                         |
+| **Kind**              | Types of input sources include UDP, RTMP_PUSH, RTMP_PULL, SRT_PUSH, SRT_PULL, HLS, SDI |
+| **Machine type**      | Type of machine to use includes: Sigma Machine, Sigma Machine cluster, Sigma Component Cluster                                                                             |
+| **Machine**           | The specific machine is suitable for performing the task                                                                                                                   |
+| **Redundancy**        | Input Class: _**Single**_ (1 main input source), _**Redundancy**_ (Main input source + secondary input source)                       |
+| **Primary source**    | Main input source information                                                                                                                                              |
+| **Secondary sources** | 2nd input source information (Select **Secondary source** if **Type** is UDP, RTMP Pull, SRT Pull)                                                      |
 
-- Các thông tin đối với loại của nguồn đầu vào là UDP (Trường loại = "UDP"):
+- The information for the type of the input source is UDP (Type field = "UDP"):
 
-| Tên                             | Chức năng                                                                                         |
-| ------------------------------- | ------------------------------------------------------------------------------------------------- |
-| **Primary Network Interface**   | Network Interface chính đối với nguồn đầu vào loại UDP                                            |
-| **Secondary Network Interface** | Network Interface phụ đối với nguồn đầu vào loại UDP, cho phép nhập khi Input Class là Redundancy |
+| Name                            | Function                                                                                            |
+| ------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **Primary Network Interface**   | Main Network Interface for UDP type input source                                                    |
+| **Secondary Network Interface** | Network interface secondary to UDP type input source, allowing input when Input Class is Redundancy |
 
-- Nút **Hủy**: Hủy bỏ thao tác thêm mới Đầu vào Transcode
-- Nút **Cài lại**: Cài lại toàn bộ dữ liệu đã nhập, form trở về mặc định
-- Nút **Xác nhận**: Xác nhận lưu cấu hình của Đầu vào Transcode
+- **Cancel** button: Cancel the operation of adding new Transcode input
+- **Reset** button: Reset all entered data, form back to default
+- Button **Confirm**: Confirm saving the configuration of Transcode Input
 
-**Bước 3**: Người dùng nhập các thông tin cần thiết
+**Step 3**: User enters the necessary information
 
-**Bước 4**: Sau khi hoàn tất, nhấn vào nút **Xác nhận** tại cuối cửa sổ pop-up.
+**Step 4**: Once done, click the **Confirm** button at the bottom of the pop-up window.
 
-Hệ thống thực hiện tạo mới đầu vào Transcode với các thông tin vừa được nhập, hiển thị Pop-up thông báo **Tạo đầu vào Transcode thành công** ở giữa màn hình để thông báo quá trình tạo đã được thực hiện thành công.
+The system creates a new Transcode input with the newly entered information, displaying a Pop-up message **Create Transcode input successful** in the middle of the screen to notify that the creation process has been successfully performed.
 
-## Tạo mới đầu vào Package
+## Create New Package Input
 
-Chức năng này cho phép người dùng CMS tạo mới Đầu vào loại Transcode
+This function allows CMS users to create new Transcode type inputs
 
-**Bước 1**: Truy cập sản phẩm Media Live, người dùng chọn tab Inputs.
+**Step 1**: To access the Media Live product, the user selects the Inputs tab.
 
-Tại đây hệ thống hiển thị mặc định với tab Transcode, người dùng lựa chọn tab Package để chuyển sang giao diện màn hình danh sách đầu vào loại Package.
+Here the system is displayed by default with the Transcode tab, the user selects the Package tab to switch to the Package type input list screen interface.
 
-**Bước 2**: Tại giao diện màn hình danh sách Đầu vào Package (Tab Package), người dùng bấm nút **Thêm**
+**Step 2**: At the Package Input list screen interface (Package tab), the user clicks the **Add** button
 
-Hệ thống hiển thị pop-up thêm mới đầu vào Package ở bên phải màn hình
+The system displays a pop-up that adds new Package input on the right side of the screen
 
-![Tạo mới đầu vào kênh Package](/images/media-live/input/create-package-input.png)
+! [Create new input channel Package] (/images/media-live/input/create-package-input.png)
 
-Với các thông tin chung:
+With general information:
 
-| Tên                  | Chức năng                                                                                                                                                        |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Tên**              | Tên của đầu vào Package                                                                                                                                          |
-| **Mô tả**            | Mô tả của đầu vào Package                                                                                                                                        |
-| **Based on Machine** | Cho phép kích hoạt Based on machine                                                                                                                              |
-| **Loại**             | Loại của nguồn đầu vào bao gồm UDP, RTMP_PUSH, RTMP_PULL, SRT_PUSH, SRT_PULL |
-| **Loại máy**         | Loại máy để sử dụng bao gồm: Sigma Machine, Sigma Machine cluster, Sigma Component Cluster                                                                       |
-| **Máy**              | Máy cụ thể phù hợp để thực hiện nhiệm vụ                                                                                                                         |
-| **Redundancy**       | Input Class: _**Single**_ (1 nguồn đầu vào chính), _**Redundancy**_ (Nguồn đầu vào chính + nguồn đầu vào phụ)              |
-| **Nguồn chính**      | Thông tin nguồn đầu vào chính                                                                                                                                    |
-| **Nguồn phụ**        | Thông tin nguồn đầu vào thứ 2 (Chọn **Nguồn phụ** nếu **Loại** là UDP, RTMP Pull, SRT Pull)                                                   |
+| Name                  | Function                                                                                                                                                            |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Name**              | Name of Package input                                                                                                                                               |
+| **Describe**          | The description of Input Package App                                                                                                                                |
+| **Based on Machine**  | Enable Based on machine activation                                                                                                                                  |
+| **Kind**              | The type of input source includes UDP, RTMP_PUSH, RTMP_PULL, SRT_PUSH, SRT_PULL |
+| **Machine type**      | Type of machine to use includes: Sigma Machine, Sigma Machine cluster, Sigma Component Cluster                                                                      |
+| **Machine**           | The specific machine is suitable for performing the task                                                                                                            |
+| **Redundancy**        | Input Class: _**Single**_ (1 main input source), _**Redundancy**_ (Main input source + secondary input source)                |
+| **Primary source**    | Main input source information                                                                                                                                       |
+| **Secondary sources** | 2nd input source information (Select **Secondary source** if **Type** is UDP, RTMP Pull, SRT Pull)                                               |
 
-- Các thông tin đối với loại của nguồn đầu vào là UDP (Trường loại = "UDP"):
+- The information for the type of the input source is UDP (Type field = "UDP"):
 
-| Tên                             | Chức năng                                                                                         |
-| ------------------------------- | ------------------------------------------------------------------------------------------------- |
-| **Primary Network Interface**   | Network Interface chính đối với nguồn đầu vào loại UDP                                            |
-| **Secondary Network Interface** | Network Interface phụ đối với nguồn đầu vào loại UDP, cho phép nhập khi Input Class là Redundancy |
+| Name                            | Function                                                                                            |
+| ------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **Primary Network Interface**   | Main Network Interface for UDP type input source                                                    |
+| **Secondary Network Interface** | Network interface secondary to UDP type input source, allowing input when Input Class is Redundancy |
 
-- Nút **Xóa** tại các nguồn: Cho phép xóa nguồn đã thêm
-- Nút **Hủy**: Hủy bỏ thao tác thêm mới Đầu vào Transcode
-- Nút **Cài lại**: Cài lại toàn bộ dữ liệu đã nhập, form trở về mặc định
-- Nút **Xác nhận**: Xác nhận lưu cấu hình của Đầu vào Transcode
+- **Delete** button at sources: Allows deleting added sources
+- **Cancel** button: Cancel the operation of adding new Transcode input
+- **Reset** button: Reset all entered data, form back to default
+- Button **Confirm**: Confirm saving the configuration of Transcode Input
 
-**Bước 3**: Người dùng nhập các thông tin cần thiết
+**Step 3**: User enters the necessary information
 
-**Bước 4**: Sau khi hoàn tất, nhấn vào nút **Xác nhận** tại cuối cửa sổ pop-up.
+**Step 4**: Once done, click the **Confirm** button at the bottom of the pop-up window.
 
-Hệ thống thực hiện tạo mới đầu vào Package với các thông tin vừa được nhập, hiển thị Pop-up thông báo **Tạo đầu vào Package thành công** ở giữa màn hình để thông báo quá trình tạo đã được thực hiện thành công.
+The system creates a new Package input with the newly entered information, displaying a Pop-up notification **Create Package input successful** in the middle of the screen to announce that the creation process has been successfully performed.
