@@ -1,63 +1,63 @@
 ---
-title: Tạo mới ad insert endpoint
+title: Create a new ad insert endpoint
 order: 2
 ---
 
-# Tạo mới ad insert endpoint
+# Create a new ad insert endpoint
 
-Chức năng này cho phép CMS tạo mới ad insert endpoint để chạy và chứa quảng cáo
+This functionality allows CMS to create new ad insert endpoints to run and contain ads
 
-**Bước 1**: Tại giao diện màn hình chính Danh sách ad insert endpoint, người dùng click vào nút **Tạo ad insert endpoint**
+**Step 1**: At the main screen interface List of ad insert endpoints, users click on the button **Create ad insert endpoint**
 
-Hệ thống hiển thị Pop-up Thêm ad insert endpoint mới bên phải giao diện
+Pop-up display system Add new ad insert endpoint on the right side of the interface
 
-![](/images/dai/pop-up-create-endpoint.png)
+! 
 
   <center>
 
-_Hình 1: Pop-up tạo mới endpoint_
+_Figure 1: Pop-up creating a new endpoint_
 
   
 
-Với các thông tin chính:
+With the main information:
 
-- Cài đặt bắt buộc:
+- Required installation:
 
-| Tên                                                               | Chức năng                                                              |
-| ----------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| **Tên**                                                           | Tên ad insert endpoint do nguời dùng tự cấu hình.                      |
-| **Thẻ**                                                           | Một thẻ giúp phân biệt và dễ dàng tìm kiếm ad insert endpoint khi cần. |
-| **Nguồn nội dung video(video content source)** | Link Origin gốc.                                                       |
-| **Máy chủ quảng cáo(AdDecisionServer)**        | là 1 link vastID do bên quảng cáo cung cấp .                           |
+| Name                     | Function                                                                      |
+| ------------------------ | ----------------------------------------------------------------------------- |
+| **Name**                 | The name of the ad insert endpoint is self-configured by the user.            |
+| **Tag**                  | A tag that distinguishes and easily searches ad insert endpoints when needed. |
+| **Video content source** | Original Origin Link.                                                         |
+| **AdDecisionServer**     | is 1 vastID link provided by the advertiser.                                  |
 
-- Cài đặt nâng cao( không bắt buộc): với người xem, không thể yêu cầu thẳng tới origin, **để xem được quảng cáo cần có thêm link CDN**( có thể xem CDN là bên thứ 3), sử dụng CDN để gửi yêu cầu phát lại tới SSAI, tại đây CDN sẽ chuyển đổi link để có thể gọi Origin tới người dùng.
+- Advanced settings (optional): for viewers, it is not possible to request directly to origin, **to view ads, additional CDN links are required** (CDN can be considered 3rd party), use CDN to send playback requests to SSAI, where CDN will convert the link to be able to call Origin to users.
 
-_2 link CDN này có sự khác nhau giữa các segment
-→ Phần đuôi gán vào link để xem quảng cáo do người dùng tự cấu hình._
+_2 This CDN link differs between segments
+→ The extension is assigned to the link to view user-configured ads._
 
-| Tên                                                                       | Chức năng                                                                                               |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Phân đoạn nội dung CDN(CDN content segment prefix)** | Link gốc đã được chuyển đổi.                                                                            |
-| **Phân đoạn quảng cáo CDN( CDN ad segment prefix)**    | Link gốc đã được chuyển đổi.                                                                            |
-| **Giữ lại đánh dấu quảng cáo(Ad martket passthrough)** | Không cho phép( bỏ)/ Cho phép( giữ) điểm đánh dấu chèn quảng cáo. |
-| [Bumpers chèn trước quảng cáo](../2-ad-insert-endpoint/f-bumper-ad.md)    | Bumpers chèn vào trước quảng cáo.                                                                       |
-| [Bumpers chèn sau quảng cáo](../2-ad-insert-endpoint/f-bumper-ad.md)      | Bumpers chèn vào sau quảng cáo.                                                                         |
-| [Ad slate](../2-ad-insert-endpoint/g-ad-slate.md)                         | Nội dung đa phương tiện chèn vào quảng cáo thay thế trường hợp gặp lỗi.                                 |
-| [Delay ad](../2-ad-insert-endpoint/h-delay.md)                            | Cấu hình thời gian chờ để chèn sau khi có tín hiệu chèn quảng cáo.                                      |
+| Name                                                                                                                                          | Function                                                                                        |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **CDN content segment prefix**                                                                                                                | The original link has been converted.                                                           |
+| **CDN ad segment prefix**                                                                                                                     | The original link has been converted.                                                           |
+| **Ad martket passthrough**                                                                                                                    | Disallow (remove) / Allow (keep) the ad insertion marker. |
+| [Bumpers pre-inserted ad] (.. /2-ad-insert-endpoint/f-bumper-ad.md)    | Bumpers inserted before the ad.                                                                 |
+| [Bumpers inserted after ads] (.. /2-ad-insert-endpoint/f-bumper-ad.md) | Bumpers inserted after the ad.                                                                  |
+| [Ad slate] (.. /2-ad-insert-endpoint/g-ad-slate.md)                    | Media content inserted into the ad is replaced in case of errors.                               |
+| [Delay ad] (.. /2-ad-insert-endpoint/h-delay.md)                       | Configure the timeout for insertion after an ad insertion signal.                               |
 
-- **Nút Huỷ**: Hủy bỏ quá trình tạo mới và trở lại giao diện màn hình chính.
-- **Nút Lưu**: Hệ thống sẽ thực hiện việc tạo mới kênh và lưu lại các thông tin được nhập.
+- **Cancel button**: Cancel the new creation process and return to the main screen interface.
+- **Save button**: The system will create a new channel and save the entered information.
 
-**Bước 2**: Người dùng cung cấp thông tin cần thiết.
+**Step 2**: The user provides the necessary information.
 
-**Bước 3**:  Sau khi hoàn tất, nhấn vào nút **Lưu** tại cuối cửa sổ pop-up.
+**Step 3**: Once done, click the Save button at the bottom of the pop-up window.
 
-Hệ thống thực hiện tạo mới ad insert endpoint với lưu các thông tin vừa được nhập, hiển thị Pop-up thông báo **Tạo ad insert endpoint thành công** ở giữa màn hình để thông báo quá trình tạo kênh đã được thực hiện thành công.
+The system creates a new ad insert endpoint with saving the newly entered information, displaying a pop-up message **Create ad insert endpoint successful** in the middle of the screen to notify that the channel creation process has been successfully performed.
 
 <center>
 
-![](/images/dai/success-create.png)
+! 
 
-_Hình 2: Thông báo tạo mới ad insert endpoint thành công!_
+_Figure 2: Notification of successful creation of new ad insert endpoint!_
 
 </center>
