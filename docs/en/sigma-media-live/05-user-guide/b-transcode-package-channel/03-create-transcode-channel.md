@@ -1,5 +1,5 @@
 ---
-title: Tạo kênh chuyển mã
+title: Create a transcoding channel
 order: 3
 ---
 
