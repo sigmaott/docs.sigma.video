@@ -71,20 +71,20 @@ Sau đó, hệ thống sẽ hiện thị thông báo đổi mật khẩu thành 
 
   ![Error Message](/images/media-live/um-change-pwd/error-msg.jpg) -->
 
-## Cấu hình dịch vụ cơ bản
+## Basic service configuration
 
-Đây là hướng dẫn cấu hình dịch vụ ở mức cơ bản nhất không bao gồm các cấu hình nâng cao
+This is a service configuration guide at the most basic level, excluding advanced configurations
 
-Các bước cơ bản:
+Basic steps:
 
-Bước 1: [Cài đặt luồng tín hiệu](./b-step1.md)
+Step 1: [Signal flow settings](./b-step1.md)
 
-Bước 2: [Tạo mới đầu vào](./c-step2.md)
+Step 2: [Create new input](./c-step2.md)
 
-Bước 3(optional): [Tạo DRM Credential](./d-step3-drm.md)
+Step 3(optional): [Create DRM Credential](./d-step3-drm.md)
 
-Bước 4:  [Tạo kênh và chạy kênh mong muốn](./e-step4.md)
+Step 4: [Create the desired channel and run it](./e-step4.md)
 
-Bước 5:  [Quản lý và giám sát kênh](./f-step5.md)
+Step 5: [Channel Management and Monitoring](./f-step5.md)
 
-Bước 6:  [Xoá kênh.](./g-step6.md)
+Step 6: [Delete channel.] (./g-step6.md)
