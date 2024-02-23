@@ -1,7 +1,7 @@
 ---
 id: doc-guideline-media-live
-title: Giới hạn
+title: Limit
 order: 5
 ---
 
-## Giới hạn sử dụng
+## Usage Limitations
