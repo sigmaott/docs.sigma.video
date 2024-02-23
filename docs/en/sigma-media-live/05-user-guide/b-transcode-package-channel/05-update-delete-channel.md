@@ -1,31 +1,31 @@
 ---
-title: Chỉnh sửa và xóa kênh
+title: Edit and delete channels
 order: 5
 ---
 
 # {{ $frontmatter.title }}
 
-Bạn có thể chỉnh sửa một kênh  hiện có để thay đổi cách nó xử lý đầu vào và bạn cthể xóa một kênh . Tuy nhiên, bạn chỉ có thể  xóa kênh khi kênh không chạy
+You can edit an existing channel to change how it handles input, and you can delete a \ channel. However, you can only delete a channel when it's not running
 
-## Chỉnh sửa kênh
+## Edit your channel
 
-Bạn có thể chỉnh sửa bất kỳ kênh hiện có nào bằng cách chỉnh sửa, thêm hoặc xóa các nhóm đầu rvà đầu ra . bạn cũng có thể chỉnh sửa, thêm hoặc xóa mã hóa video, âm thanh và phụ đề của kên
+You can edit any existing channel by editing, adding, or removing r and output groups. You can also edit, add, or remove your video, audio, and subtitle encodings
 
-**Để chỉnh sửa kênh**
+**To edit channels**
 
-1. Trên trang **kênh**, chọn tùy chọn theo tên kênh
-2. Chọn hành động, sau đó chọn **chỉnh sửa** . Trang chỉnh sửa kênh xuất hiện . Các chi tiếtrên trang này giống với các chi tiết trên trang **tạo kênh** . Để biết thông tin về cách làviệc với trang này, hãy xe
-   1. [Tạo kênh Đóng gói](02-create-package-channel.md) .
-   2. [Tạo kênh chuyển mã](03-create-transcode-channel.md)
-3. Khi hoàn tất, hãy chọn cập nhật kênh
+1. On the **channel** page, select the option by channel name
+2. Select the action, then select **edit** . The channel edit page appears . The details on this page are the same as those on the **create funnel**\ page. For information on how to work with this page, drive
+   1. [Create Packing Channel] (02-create-package-channel.md) .
+   2. [Transcoding Channel Creation] (03-create-transcode-channel.md)
+3. When finished, select update channel
 
-## Xóa kênh
+## Delete a channel
 
-Bạn có thể xóa một kênh khỏi danh sách **Kênh** hoặc chế độ xem chi tiết
-Kênh phải ở chế độ **stop**  (không chạy)
+You can remove a channel from the **Channel** list or detailed view
+The channel must be in **stop** mode (not running)
 
-**Để xóa kênh**
+**To delete a channel**
 
-1. Trên trang **Kênh**, chọn tùy chọn theo tên kênh
-2. Nếu kênh đang chạy, hãy chọn **Dừng**
-3. Chọn **Xóa** .
+1. On the **Channel** page, select the option by channel name
+2. If the channel is running, select **Stop**
+3. Select **Delete** .
