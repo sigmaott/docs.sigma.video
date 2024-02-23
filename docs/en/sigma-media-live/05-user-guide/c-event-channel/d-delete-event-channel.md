@@ -1,27 +1,27 @@
 ---
-title: Xóa kênh sự kiện
+title: Delete an event channel
 order: 4
 ---
 
-# Xóa kênh sự kiện
+# Delete an event channel
 
-**Điều kiện**: Để thực hiện chức năng này, cần phải có ít nhất một kênh sự kiện đã được tạo trước đó và hiển thị trong danh sách kênh sự kiện
+**Condition**: To perform this function, at least one event channel needs to be previously created and visible in the event channel list
 
-Chỉ thực hiện được khi kênh sự kiện đang ở trạng thái **Stop hoặc Done**.
+This is only possible when the event channel is in **Stop or Done** status.
 
-**Bước 1** : Trên màn hình danh sách kênh sự kiện, tại kênh mà bạn muốn xoá, di chuột vào biểu tượng **Xoá** ở cột Hành động, và sau đó nhấn vào biểu tượng **Xoá**.
+**Step 1**: On the event channel list screen, at the channel you want to delete, hover over the **Delete** icon in the Action column, and then tap the **Delete** icon.
 
-Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâm màn hình với các chi tiết sau:
+The system will display a confirmation pop-up window in the center of the screen with the following details:
 
-- Tiêu đề: Cảnh báo
-- Nội dung: Bạn có chắc chắn xóa kênh sự kiện. Tiếp tục?
-- Nút **Huỷ**: Không thực hiện thay đổi, quay lại màn hình Danh sách kênh sự kiện.
-- Nút **Đồng ý**: Hệ thống thực hiện việc xoá toàn bộ thông tin của kênh sự kiện.
+- Subject: Warning
+- Content: Are you sure to delete the event channel. Continue?
+- **Cancel** button: Make no changes, return to the Event Channel List screen.
+- **Agree** button: The system deletes all information of the event channel.
 
-**Bước 2** : Người dùng nhấn nút **Đồng ý** để xoá thông tin kênh sự kiện.
+**Step 2**: The user presses the **OK** button to delete the event channel information.
 
-Hệ thống hiển thị một thông báo **Xoá kênh sự kiện thành công** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
+The system displays a message **Delete event channel successfully** in the right corner of the screen and automatically closes the notification after 5 seconds.
 
-Đồng thời, hệ thống thực hiện **xoá toàn bộ kênh sự kiện**
+At the same time, the system performs **delete the entire event channel**
 
-Lưu ý: Hạn chế sử dụng tính năng này vì khi xóa sẽ không khôi phục lại được
+Note: Refrain from using this feature because deleting it will not be restored
