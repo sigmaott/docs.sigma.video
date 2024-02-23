@@ -1,31 +1,31 @@
 ---
-title: Xem danh sách mã khôi phục
+title: See a list of recovery codes
 order: 7
 ---
 
-# **Xem danh sách mã khôi phục**
+# **View recovery code list**
 
-Chức năng này cung cấp cho người dùng CMS mã khôi phục (có thể sử dụng thay thế cho mã xác thực khi thực hiện truy cập tài khoản) trong trường hợp mất điện thoại hoặc mất quyền truy cập vào tài khoản.
+This function provides users with a recovery code (which can be used as an alternative to an authentication code when performing account access) in case of loss of phone or loss of access to the account.
 
-**Điều kiện**:
+**Condition**:
 
-- Tài khoản người dùng **bật xác thực hai yếu tố**
-- Thực hiện đăng nhập thành công
+- User account **enable two-factor authentication**
+- Perform login successfully
 
-Tại màn hình Cài đặt (tài khoản người dùng), người dùng bấm nút "Xem danh sách mã khôi phục"
+At the Settings screen (user accounts), the user clicks the "View list of recovery codes" button
 
-![Xem danh sách mã khôi phục](/images/streaming-platform/2-factor-authen/view-recovery-code.png)
+! [See recovery code list] (/images/streaming-platform/2-factor-authen/view-recovery-code.png)
 
-Hiển thị màn hình Danh sách mã khôi phục với các thông tin sau:
+Displays the Recovery code list screen with the following information:
 
-![Xem danh sách mã khôi phục](/images/streaming-platform/2-factor-authen/view-recovery-code-2.png)
+! [See recovery code list] (/images/streaming-platform/2-factor-authen/view-recovery-code-2.png)
 
-- Mô tả: Nếu bạn bị mất điện thoại hoặc quyền truy cập vào mật khẩu bí mật dùng một lần của mình, mỗi mã khôi phục này có thể được sử dụng một lần để lấy lại quyền truy cập vào tài khoản của bạn. Vui lòng lưu chúng ở nơi an toàn, nếu không bạn sẽ mất quyền truy cập vào tài khoản của mình.
+- Description: If you lose your phone or access to your one-time secret password, each of these recovery codes can be used once to regain access to your account. Please save them in a safe place, or you will lose access to your account.
 
-- Hệ thống tự động hiển thị 10 mã khôi phục, mỗi 1 mã người dùng có thể thực hiện sao chép từng mã
+- The system automatically displays 10 recovery codes, each 1 code users can copy each code
 
-- Mỗi 1 mã khôi phục chỉ có hiệu lực nhập thành công 1 lần duy nhất, sau khi đã sử dụng xác nhận thành công, mã trở nên vô hiệu (không xuất hiện tại danh sách mã khôi phục, để tránh nhầm lẫn)
+- Each 1 recovery code is valid for successful entry only 1 time, after successful confirmation has been used, the code becomes invalid (does not appear in the recovery code list, to avoid confusion)
 
-- Nút **"Sao chép mã"**: Thực hiện sao chép toàn bộ danh sách mã khôi phục đang hiển thị
+- "Copy Code" button: Copies the entire list of recovery codes currently displayed
 
-- Nút **"Tạo lại mã khôi phục"**: hệ thống thực hiện tạo ra danh sách mã khôi phục mới
+- \*\*"Regenerate recovery code" button: the executing system generates a new list of recovery codes
