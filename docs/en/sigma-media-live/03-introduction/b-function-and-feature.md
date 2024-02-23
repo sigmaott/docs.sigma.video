@@ -1,9 +1,9 @@
 ---
 id: doc-guideline-media-live
-title: Tính năng
+title: Feature
 order: 2
 ---
 
-## Tổng quan về các chức năng và tính năng của sản phẩm
+## Overview of product functions and features
 
-(dưới mỗi page, hiển thị những resource liên quan)
+(under each page, display related resources)
