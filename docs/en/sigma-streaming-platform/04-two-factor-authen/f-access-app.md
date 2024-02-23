@@ -1,36 +1,36 @@
 ---
-title: Truy cập ứng dụng khi ứng dụng bật xác thực hai yếu tố
+title: Access the app when it turns on two-factor authentication
 order: 6
 ---
 
-# Truy cập ứng dụng khi ứng dụng bật xác thực hai yếu tố
+# Access the app when it turns on two-factor authentication
 
-Chức năng này cho phép người dùng CMS truy cập ứng dụng khi ứng dụng bật xác thực hai yếu tố, mục đích **Yêu cầu mọi thành viên truy cập vào ứng dụng phải bật xác thực 2 yếu tố của tài khoản người dùng**, nhằm bổ sung thêm một lớp bảo vệ chống lại việc truy cập trái phép và giúp ngăn chặn các hình thức tấn công mạng khác nhau, như lừa đảo và trộm mật khẩu.
+This function allows CMS users to access the application when the application has two-factor authentication enabled, the purpose **Requires all members accessing the application to enable 2-factor authentication of the user account**, to add an extra layer of protection against unauthorized access and help prevent various forms of cyberattacks,  like phishing and password theft.
 
-**Điều kiện**:
+**Condition**:
 
-- Người dùng có tài khoản và có quyền truy cập vào ứng dụng
-- Ứng dụng muốn truy cập BẬT xác thực 2 yếu tố
+- Users who have an account and have access to the app
+- Apps that want to access 2-factor authentication ON
 
-**Bước 1**: Tại màn hình danh sách ứng dụng, người dùng lựa chọn ứng dụng (_**đã bật xác thực hai yếu tố**_) để truy cập
+**Step 1**: At the app list screen, users select the application (\*_**with two-factor authentication enabled**_) to access
 
-**Bước 2**: Hệ thống kiểm tra tài khoản người dùng về xác thực hai yếu tố
+**Step 2**: The system checks user accounts for two-factor authentication
 
-- **<u>Trường hợp 1</u>**: Nếu người dùng _**bật xác thực hai yếu tố**_, chuyển sang **bước 5**
-- **<u>Trường hợp 2</u>**: Nếu người dùng đang _**tắt xác thực hai yếu tố**_, hệ thống hiển thị thông báo từ chối truy cập và yêu cầu người dùng bật xác thực hai yếu tố của tài khoản người dùng:
+- **<u>Case 1</u>**: If the user _**enable two-factor authentication**_, go to **step 5**
+- **<u>Case 2</u>**: If the user is disabling two-factor authentication, the system displays an access denial message and asks the user to enable two-factor authentication of the user account:
 
-![Từ chối truy cập](/images/streaming-platform/2-factor-authen/deny-access.png)
+! [Deny access] (/images/streaming-platform/2-factor-authen/deny-access.png)
 
-Với các thông tin sau
+With the following information
 
-- Tiêu đề: Truy cập ứng dụng không thành công
+- Title: Application Access Failed
 
-- Nội dung: Tài khoản của bạn hiện chưa bật xác thực hai yếu tố. Bạn nên kích hoạt xác thực hai yếu tố để truy cập ứng dụng
+- Content: Your account doesn't currently have two-factor authentication enabled. You should enable two-factor authentication to access the app
 
-- Nút **"Bật xác thực hai yếu tố"**: khi người dùng bấm nút này, hệ thống sẽ chuyển sang màn hình cấu hình xác thực hai yếu tố của tài khoản người dùng.
+- Button **"Enable two-factor authentication"**: when the user clicks this button, the system will switch to the two-factor authentication configuration screen of the user account.
 
-**Bước 3**: Người dùng bấm nút **"Bật xác thực hai yếu tố"**, hệ thống sẽ chuyển sang màn hình cấu hình xác thực hai yếu tố của tài khoản người dùng.
+**Step 3**: The user presses the **"Enable two-factor authentication" button**, the system will switch to the two-factor authentication configuration screen of the user account.
 
-**Bước 4**: Người dùng thực hiện bật xác thực hai yếu tố thành công, sau đó thực hiện lại **Bước 1**
+**Step 4**: The user successfully enables two-factor authentication, then does it again **Step 1**
 
-**Bước 5**: Truy cập thành công ứng dụng, hiển thị màn hình tổng quan ứng dụng
+**Step 5**: Access the application successfully, display the application overview screen
