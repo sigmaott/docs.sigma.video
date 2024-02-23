@@ -1,5 +1,5 @@
 ---
-title: Ghi chú phat hanh
+title: Release notes
 order: 1
 ---
 
