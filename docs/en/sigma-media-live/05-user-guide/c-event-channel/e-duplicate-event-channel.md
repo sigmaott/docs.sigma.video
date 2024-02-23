@@ -1,24 +1,24 @@
 ---
-title: Nhân bản kênh sự kiện
+title: Duplicate an event channel
 order: 5
 ---
 
-# Nhân bản kênh sự kiện
+# Duplicate an event channel
 
-Người dùng muốn tạo 1 bản sao kênh sự kiện với thông tin đã có trước đó, giữ các cài đặt bắt buộc và thông tin của kênh sự kiện.
+The user wants to create 1 copy of the event channel with previously available information, keeping the required settings and information of the event channel.
 
-**Điều kiện**: Để thực hiện quá trình này, cần phải có ít nhất 1 kênh sự kiện đã được tạo trước đó và hiển thị trong danh sách.
+**Condition**: To perform this process, at least 1 event channel needs to be previously created and visible in the list.
 
-**Bước 1:** Trong danh sách, di chuột vào biểu tượng **nhân bản** ở cột Hành động tại trường bạn muốn tạo bản sao, hiển thị tooltip text **nhân bản**, nhấp vào biểu tượng.
+**Step 1:** In the list, hover over the **duplicate** icon in the Action column in the field you want to duplicate, display the tooltip text **duplicate**, click the icon.
 
-Sau đó hiển thị màn hình thông tin cấu hình kênh sự kiện với thông tin đã được thiết lập trước đó
+Then display the event channel configuration information screen with the previously set up information
 
-**Cho phép** chỉnh sửa tất cả các trường.
+**Allow** edit all fields.
 
-**Tên mặc định: Copy of [Tên kênh] - nếu người dùng không thay đổi tên.**
+**Default name: Copy of [Channel Name] - if the user does not change the name.**
 
-**Bước 2:** Người dùng nhập thông tin cần thiết.
+**Step 2:** The user enters the required information.
 
-**Bước 3:** Sau khi hoàn tất, người dùng nhấn nút **Xác nhận**
+**Step 3:** Once completed, the user presses the **Confirm** button
 
-Hệ thống hiển thị thông báo thực hiện **tạo bản sao thành công** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
+The system displays a notification of successful copying in the right corner of the screen and automatically closes the notification after 5 seconds.
