@@ -1,25 +1,25 @@
 ---
-title: Kích hoạt ứng dụng
+title: Activate the application
 order: 3
 ---
 
-## Kích hoạt ứng dụng
+## Activate the application
 
-Ứng dụng được tạo thành công sẽ ở trạng thái **Khởi tạo**. Người dùng cần kích hoạt ứng dụng với 2 lựa chọn:
+The successfully created application will be in **Initialized** state. Users need to activate the application with 2 options:
 
-- Bắt đầu với phiên bản **Dùng thử**: Người dùng sẽ có 14 ngày trải nghiệm dùng thử với tài nguyên được giới hạn
-- Bắt đầu với phiên bản **Kích hoạt**: Người dùng được trải nghiệm và sử dụng tài nguyên thoải mái
+- Get started with the **Trial** version: Users will have 14 days of trial experience with limited resources
+- Get started with the **Activation** version: Users can experience and use resources freely
 
-Với việc kích hoạt ứng dụng qua cả 2 lựa chọn trên, người dùng sẽ cần kích hoạt bằng cách thêm **Phương thức thanh toán**
+By activating the application through both options, users will need to activate by adding **Payment Method**
 
-Thêm phương thức thanh toán:
+Add a payment method:
 
-- Điền thông tin của phương thức thanh toán
+- Fill in your payment method's information
 
-  ::: tip Các loại thẻ chấp nhận: JCB, MASTERCARD, UPI, VISA
+  ::: tip Accepted cards: JCB, MASTERCARD, UPI, VISA
 
-- Xác nhận thêm phương thức thanh toán
+- Confirm more payment methods
 
-Hệ thống xử lý thành công thông tin của phương thức thanh toán của người dùng sẽ điều hướng tới phần quản lý thanh toán của ứng dụng.
+The system that successfully processes the user's payment method information will navigate to the billing management section of the app.
 
-Lúc này người dùng đã kích hoạt ứng dụng thành công. Ứng dụng sẵn sàng cho người dùng trải nghiệm và sử dụng tài nguyên.
+At this point, the user has successfully activated the application. The application is ready for users to experience and use resources.
