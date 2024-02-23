@@ -1,21 +1,21 @@
 ---
-title: Cấu hình kênh cơ bản
+title: Basic channel configuration
 order: 1
 ---
 
 # {{ $frontmatter.title }}
 
-1. Nhấn nút **Add** ở danh sách channel khi chọn  menu **channel** trong mục **Transcode** ở sidebar. Giao diện khởi tạo lựa chọn khởi tạo kênh sẽ hiện ra
+1. Click the Add button in the channel list when selecting the **channel** menu in the Transcode section in the sidebar. The channel initialization selection interface will appear
 
-![Tạo Kênh](/images/media-live/um-create-channel/um-create-channel-button.png){ width=400px }
+! [Create Channel] (/images/media-live/um-create-channel/um-create-channel-button.png) { width=400px }
 
-2. Tại giao diện lựa chọn khi khởi tạo kênh, bạn sẽ có 2 lựa chọn là:
-   1. khởi tạo thủ công với 2 loại kênh được liệt kê sẵn:
-      1. **Transcode**: Kênh chuyển mã
-      2. **Package**: Kênh đóng gói
+2. At the selection interface when creating a channel, you will have 2 options:
+   1. Manual initialization with 2 types of channels listed:
+      1. **Transcode**: Transcoding channel
+      2. **Package**: Packing channel
 
-         ![um-create-channel-1](/images/media-live/um-create-channel/um-create-channel-1.png)
-   2. khởi tạo kênh dựa trên 1 mẫu có sẵn đã được lưu (**From Template**)
-   ![Tạo kênh từ 1 mẫu có sẵn](/images/media-live/um-create-channel/um-create-channel-2.png)
+         ! [um-create-channel-1] (/images/media-live/um-create-channel/um-create-channel-1.png)
+   2. Channel initialization based on 1 saved template (**From Template**)
+   ! [Create a channel from 1 template] (/images/media-live/um-create-channel/um-create-channel-2.png)
 
-3. Chọn **Next** để tiến hành bước tiếp theo
+3. Select Next\*\*\* to proceed to the next step
