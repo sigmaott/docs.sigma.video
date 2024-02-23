@@ -1,50 +1,50 @@
 ---
-title: Thêm giấy phép
+title: Add licenses
 order: 5
 ---
 
-Sau khi thực hiện cài đặt máy thành công, người dùng có thể quản lý máy trên hệ thống Sigma CMS.
+After performing a successful machine installation, users can manage the machine on the Sigma CMS system.
 
-Trước khi máy có thể hoạt động, người dùng cần thực hiện thêm giấy phép khả dụng cho máy.
+Before the machine can operate, the user needs to make additional licenses available for the machine.
 
-Với việc thêm giấy phép người dùng có thể thực hiện bằng 2 cách:
+With adding licenses users can do it in 2 ways:
 
-## Cách 1: Truy cập vào phần Quản lý giấy phép
+## Method 1: Go to Manage licenses
 
-Thực hiện các thao tác:
+Perform the manipulations:
 
-1. Nhấp "Thêm giấy phép".
+1. Click "Add license".
 
-2. Chọn loại giấy phép (Lưu ý: Giấy phép sử dụng kích hoạt cho máy phải cùng loại với máy)
+2. Select the license type (Note: The activation usage license for the machine must be of the same type as the machine)
 
-3. Kiểm tra thông tin của giấy phép
+3. Check the license information
 
-4. Thực hiện thanh toán hóa đơn đầu tiên của giấy phép
+4. Make payment of the first bill of the license
 
    ::: warning
 
-   Giấy phép có khả năng sử dụng khi được thanh toán trước.
+   The license is usable when paid in advance.
 
-5. Xác nhận thanh toán
+5. Payment confirmation
 
-6. Hệ thống thanh toán thành công giấy phép sẽ ở trạng thái khả dụng
+6. System successfully billed license will be available
 
-7. Nhấp hành động "Sử dụng"
+7. Click the "Use" action
 
-8. Chọn máy cần kích hoạt hoạt động
+8. Select the machine to activate the operation
 
-9. Xác nhận sử dụng giấy phép
+9. Confirm license usage
 
-Giấy phép lúc này đã gán thành công cho máy, máy sẵn sàng nhận job để xử lý.
-::: tip
-Nếu bạn đã có giấy phép ở trạng thái "Available" có thể thực hiện "Sử dụng" giấy phép ngay (Thực hiện từ bước 7).
+The license has now been successfully assigned to the machine, the machine is ready to receive jobs for processing.
+:::Tip
+If you already have a license in an "Available" status, you can perform "Use" the license immediately (Done from step 7).
 
-## Cách 2: Truy cập vào phần Quản lý máy chủ
+## Method 2: Access the Server Management section
 
-Người dùng có thể thực hiện "Add License" trược tiếp cho máy chủ theo các bước:
+Users can perform "Add License" directly to the server by following the steps:
 
-1. Với máy mới cài đặt chưa được gán giấy phép, nhấp hành động "Add License"
-2. Người dùng có thể thực hiện:
-   - **Chọn giấy phép có sẵn**: Trong trường hợp ứng dụng đã có giấy phép cùng loại với máy ở trạng thái "Avaiable".
+1. For newly installed machines that have not been assigned a license, click the "Add License" action
+2. Users can do:
+   - **Select available license**: In case the application already has a license of the same type as the machine in the "Avaiable" state.
 
-   - **Lựa chọn thêm giấy phép mới**: Người dùng thực hiện các bước thêm giấy phép như bước 2, 3, 4, 5, 6 tại **Cách 1**. Sau khi giấy phép được thanh toán thành công, giấy phép sẽ tự động được chọn làm giấy phép để sử dụng kích hoạt máy
+   - **Option to add new license**: Users perform the steps to add licenses such as steps 2, 3, 4, 5, 6 at **Method 1**. After the license is successfully paid, the license will automatically be selected as the license to use for machine activation
