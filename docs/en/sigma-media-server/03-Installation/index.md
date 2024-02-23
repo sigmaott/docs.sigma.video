@@ -1,4 +1,4 @@
 ---
-title: Cài đặt
+title: Install
 order: 3
 ---
