@@ -1,49 +1,49 @@
 ---
-title: Xoá quảng cáo
+title: Remove an ad
 order: 3
 ---
 
-# Xóa quảng cáo
+# Remove ads
 
-**Điều kiện**: Để thực hiện chức năng này, cần phải có ít nhất một quảng cáo đã được tạo trước đó và hiển thị trong danh sách quảng cáo.
+**Condition**: To perform this function, at least one ad needs to have been previously created and shown in the list of ads.
 
-Khi người dùng CMS không muốn phát lại quảng cáo, thực hiện xoá một quảng cáo không khả dụng.
+When a CMS user does not want to play back an ad, perform removing an unavailable ad.
 
-## Yêu cầu đầu vào
+## Entry Requirements
 
-- Cho phép xoá quảng cáo ở trạng thái available.
+- Allows ads to be removed in an available state.
 
-- Trạng thái notAvailable disable icon xoá.
+- The notAvailable state disables the deleted icon.
 
-## Để xoá quảng cáo
+## To remove an ad
 
-**Bước 1** :
-Trên màn hình chính, tại quảng cáo mà bạn muốn xoá, di chuột vào biểu tượng **Xoá** ở cột Hành động, và sau đó nhấn vào biểu tượng **Xoá**.
+**Step 1** :
+On the home screen, at the ad you want to remove, hover over the **Delete** icon in the Action column, and then tap the **Delete** icon.
 
-Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâm màn hình với các chi tiết sau:
-
-<center>
-
-![](/images/dai/pop-up-delete-ad.png)
-
-_Hình 1: Pop-up xoá quảng cáo_
-
-</center>
-
-- Tiêu đề: Xoá quảng cáo
-- Nội dung: Bạn có chắc chắn muốn xoá quảng cáo này không?
-- Nút **Huỷ bỏ**: Vẫn ở danh sách quảng cáo, không thực hiện xoá quảng cáo.
-- Nút **Xác nhận**: Vẫn ở danh sách quảng cáo, thực hiện xoá quảng cáo và hiển thị thông báo delete successful. Quảng cáo vừa xoá không hiển thị ở danh sách quảng cáo.
-
-**Bước 2** : Người dùng nhấn nút **Xác nhận** để xoá thông tin quảng cáo
-Hệ thống hiển thị một cửa sổ pop-up thông báo **Xoá quảng cáo thành công** ở giữa màn hình và tự động đóng thông báo sau 5 giây.
+The system will display a confirmation pop-up window in the center of the screen with the following details:
 
 <center>
 
-![](/images/dai/success-delete.png)
+! 
 
-_Hình 2: Thông báo xoá quảng cáo thành công!_
+_Figure 1: Pop-up deleting ads_
 
 </center>
 
-Đồng thời, hệ thống thực hiện **xoá quảng cáo** và quảng cáo vừa xoá không hiển thị ở danh sách quảng cáo.
+- Headline: Remove ad
+- Content: Are you sure you want to remove this ad?
+- **Cancel** button: Remain in the list of ads, do not remove ads.
+- **Confirm** button: Remain in the list of ads, perform ad removal, and display a delete successful message. The recently deleted ad doesn't show in the list of ads.
+
+**Step 2**: Users press the **Confirm** button to delete advertising information
+The system displays a pop-up message **Remove ad successfully** in the middle of the screen and automatically closes the notification after 5 seconds.
+
+<center>
+
+! 
+
+_Figure 2: Successful ad removal notification!_
+
+</center>
+
+At the same time, the system performs **ad removal** and the removed ad does not show in the list of ads.
