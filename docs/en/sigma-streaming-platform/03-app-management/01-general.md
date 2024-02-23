@@ -1,30 +1,30 @@
 ---
-title: Xem thông tin chung của ứng dụng
+title: View general app info
 order: 1
 ---
 
-# Xem thông tin chung của ứng dụng
+# View general app info
 
-Tính năng **Xem thông tin chung của ứng dụng** giúp người dùng có cái nhìn tổng quan về ứng dụng bao gồm những thông tin cơ bản của ứng dụng như: ID, Tên,... Ngoài ra còn cung cấp tính năng nâng cấp bảo mật dành cho ứng dụng
+The **View general information of the application** feature helps users have an overview of the application including basic information of the application such as: ID, Name,... There is also a security upgrade feature for the app
 
-Truy cập vào giao diện thông tin chung của ứng dụng, có 2 cách người dùng có thể truy cập
+Access to the general information interface of the application, there are 2 ways users can access
 
-- _**<u>Cách 1:</u>**_ Tại màn hình tổng quan của ứng dụng, người dùng nhấp vào **Quản lý App** ở sidebar
+- <u>Method 1:</u>At the overview screen of the application, users click on Manage Apps in the sidebar
 
-- _**<u>Cách 2:</u>**_ Tại màn hình tổng quan của ứng dụng, người dùng nhấp vào **Tên ứng dụng** ở phần **Thông tin ứng dụng**
+- <u>Method 2:</u>At the overview screen of the application, the user clicks on **Application name** in the **Application information** section
 
-Sau đó, hệ thống sẽ hiển thị màn hình Thông tin chung của ứng dụng, với các thông tin chính:
+After that, the system will display the General Information screen of the application, with the main information:
 
-![Xem thông tin chung của ứng dụng](/images/streaming-platform/app-management/view-general.png)
+! [See general information of the application] (/images/streaming-platform/app-management/view-general.png)
 
-- **ID**: mã định danh duy nhất đối với ứng dụng (có thể thực hiện sao chép)
+- **ID**: unique identifier for the app (replication can be performed)
 
-- **Tên ứng dụng**: Tên của ứng dụng (có thể thực hiện chỉnh sửa)
+- **App name**: The name of the app (edits can be made)
 
-- **Tên bí danh**: Tên gọi khác của ứng dụng (có thể thực hiện sao chép)
+- **Alias name**: Another name for the application (clone can be performed)
 
-- **Micro-frontend secret**: mã bí mật để tích hợp với ứng dụng khác thông qua micro-frontend
+- Micro-frontend secret: secret code for integration with other applications via micro-frontend
 
-Ngoài ra, hệ thống còn cung cấp thêm chức năng bảo mật xác thực 2 yếu tố dành cho ứng dụng, nhằm nâng cao bảo mật cho ứng dụng
+In addition, the system also provides 2-factor authentication security for the application, to improve the security of the application
 
-Xem chi tiết tại [Bật xác thực hai yếu tố cho ứng dụng](../04-two-factor-authen/c-enable-2fa-for-app.md)
+See details at [Enable two-factor authentication for the app](.. /04-two-factor-authen/c-enable-2fa-for-app.md)
