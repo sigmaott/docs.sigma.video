@@ -1,27 +1,27 @@
 ---
-title: Các bước cơ bản
+title: Basic steps
 order: 1
 ---
 
-### Các bước cơ bản
+### Basic steps
 
-- Bước 1:
-  [Cách thức truy cập](b-get-started#Bước-1-Truy-cập-vào-hệ-thống-Sigma-Dynamic-Ads-Insert)
+- Step 1:
+  [How to Access] (b-get-started#Step-1-Access-System-Sigma-Dynamic-Ads-Insert)
 
-- Bước 2:
-  [Chuẩn bị luồng](b-get-started#bước-2-chuẩn-bị-luồng)
+- Step 2:
+  [Stream preparation] (b-get-started#step-2-prepare-flow)
 
-- Bước 3:
-  [Cấu hình các tham số URL yêu cầu quảng cáo và các tham số truy vấn](b-get-started#bước-3-optional-chuẩn-bị-cấu-hình-các-tham-số-url-của-máy-chủ-quảng-cáo-ads-request-và-các-tham-số-truy-vấn-parameter)
+- Step 3:
+  [Configure ad request URL parameters and query parameters] (b-get-started#step-3-optional-prepare-shape-shape-number-url-of-server-ads-request-and-parameter-number-request-parameter)
 
-- Bước 4:
-  [Tạo mới cấu hình ad insert endpoint SSAI ](b-get-started#bước-4-tạo-mới-cấu-hình-ad-insert-endpoint-ssai)
+- Step 4:
+  [Create new SSAI ad insert endpoint configuration] (b-get-started#step-4-create-new-shape-ad-insert-endpoint-ssai)
 
-- Bước 5:
-  [Kiểm tra cấu hình ](b-get-started#bước-5-kiểm-tra-cấu-hình)
+- Step 5:
+  [Configuration Test] (b-get-started#step-5-check-shape)
 
-- Bước 6:
-  [Gửi yêu cầu phát lại đến SSAI ](b-get-started#bước-6-gửi-thông-tin-yêu-cầu-đến-máy-chủ-ssai)
+- Step 6:
+  [Send a replay request to SSAI] (b-get-started#step-6-send-request-information-to-server-ssai)
 
-- Bước 7:
-  [Dọn dẹp (Xoá ad insert endpoint) ](b-get-started#bước-7-dọn-dẹp-xoá-ad-insert-endpoint)
+- Step 7:
+  [Clean up (Remove ad insert endpoint) ] (b-get-started#step-7-clean-up-delete-ad-insert-endpoint)
