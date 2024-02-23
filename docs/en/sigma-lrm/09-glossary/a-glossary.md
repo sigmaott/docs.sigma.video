@@ -1,12 +1,12 @@
 ---
-title: Giải thích thuật ngữ
+title: Explanation of terminology
 order: 1
 ---
 
-# Thuật ngữ
+# Terminology
 
-Các thuật ngữ được sử dụng trong tài liệu hướng dẫn sử dụng.
+Terms used in the user manual.
 
-- **SCTE-224**: là phương pháp tiếp cận toàn diện giúp chuyển đổi các quy trình phức tạp thành quy trình công việc có thể quản lý được, kiểm soát chi tiết hơn về phát lại giúp bạn tập trung vào chất lượng nội dung của mình.
-- **Thời gian sự kiện**: Sử dụng để chỉ về thời gian của event đã được tạo ra, đầy đủ thông tin và hiển thị lên Timeline
-- **Thời gian lập lịch**: Sử dụng để chỉ sự kiện chưa được tạo ra khi tạo mới, tại trường chọn thời gian( Ngày/ giờ).
+- **SCTE-224**: is a holistic approach that transforms complex processes into manageable workflows, with more granular control over playback that helps you focus on the quality of your content.
+- **Event Time**: Used to refer to the time of the event that was created, complete information and displayed on the Timeline
+- **Scheduling Time**: Used to refer to events that were not created when creating a new one, in the time selection field (Date/Time).
