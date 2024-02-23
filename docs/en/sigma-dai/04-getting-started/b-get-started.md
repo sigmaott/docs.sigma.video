@@ -1,72 +1,72 @@
 ---
-title: Get started with SSAI
+title: Bắt đầu với SSAI
 order: 2
 ---
 
-# Get started with SSAI
+# Bắt đầu với SSAI
 
-## Set up ad insert endpoints
+## Thiết lập ad insert endpoint
 
-To set up an ad insert endpoint you need to prepare the following tasks:
+Để thiết lập ad insert endpoint bạn cần chuẩn bị các tác vụ sau:
 
-- Prepare your HLS or DASH content stream.
-- Prepare an Ads Request path.
-- Create an SSAI ad insert endpoint configuration.
-- Use the generated SSAI path to configure ad insert endpoints on the application.
-- Collect, monitor the necessary parameters.
+- Chuẩn bị luồng nội dung HLS hoặc DASH của bạn.
+- Chuẩn bị đường dẫn yêu cầu quảng cáo (Ads Request).
+- Tạo cấu hình ad insert endpoint SSAI.
+- Sử dụng đường dẫn SSAI sinh ra để cấu hình ad insert endpoint trên ứng dụng.
+- Thu thập, theo dõi các thông số cần thiết.
 
-When you're done, you'll be able to submit a replay request to SSAI for personalized ad content in your stream.
+Khi hoàn tất, bạn sẽ có thể gửi yêu cầu phát lại tới SSAI cho nội dung quảng cáo được cá nhân hóa trong luồng của mình.
 
-## Prepare
+## Chuẩn bị
 
-Before you start, you need to prepare the following tasks:
+Trước khi bắt đầu, bạn cần chuẩn bị các tác vụ sau:
 
-- Have an account that accesses the management system of **Sigma Streaming Platform**\* 'https\://portal.sigmaott.com'
-- Accounts with authorized app access with SSAI.
+- Có tài khoản truy cập hệ thống quản lý của **Sigma Streaming Platform** `https://portal.sigmaott.com`
+- Tài khoản có quyền truy cập app được phân quyền với SSAI.
 
-## Step 1: Access the Sigma Dynamic Ads Insert system
+## Bước 1: Truy cập vào hệ thống Sigma Dynamic Ads Insert
 
-To use Sigma Dynamic Ads Insert (DAI), you need an account and permission to access, view, and perform allowed actions.
+Để sử dụng Sigma Dynamic Ads Insert( DAI), bạn cần có tài khoản và quyền truy cập, xem và thực hiện các hành động được phép.
 
-1. Visit the 'https\://portal.sigmaott.com/app' link
-2. Display the App List, **select the app** to access.
-3. Display by default to the **App Overview.**
-4. In the sidebar, select the DAI product.
-5. Display the default page in the Customer Dashboard.
+1. Truy cập vào đường link `https://portal.sigmaott.com/app`
+2. Hiển thị Danh sách App, **chọn ứng dụng** cần truy cập.
+3. Hiển thị mặc định vào trang **tổng quan ứng dụng.**
+4. Ở sidebar, chọn sản phẩm DAI.
+5. Hiển thị trang mặc định ở Trang Thông tin Khách hàng (Customer Dashboard).
 
-## Step 2: Prepare the flow
+## Bước 2: Chuẩn bị luồng
 
-### Prepare the HLS stream
+### Chuẩn bị luồng HLS
 
-The HLS manifest file must meet the following requirements:
+Các tập tin HLS manifest phải đáp ứng các yêu cầu sau:
 
-- Manifest files must be accessible on the internet
-- The manifest must have an 'EXT-X-VERSION' of '3' or higher.
+- Các tệp tin manifest phải có thể truy cập được trên internet
+- Tệp kê khai phải có `EXT-X-VERSION` từ `3` trở lên.
 
-For live content, the HLS manifest must contain markers to describe the ad broadcast schedule. This is optional for VOD content, a VMAP timer can be used instead.
+Đối với nội dung trực tiếp, HLS manifest phải chứa các điểm đánh dấu để mô tả lịch phát sóng quảng cáo. Đây là tùy chọn đối với nội dung VOD, thay vào đó có thể sử dụng bộ định thời gian VMAP.
 
-The HLS manifest must have ad slots marked with the following tags:
+HLS manifest phải có vùng quảng cáo được đánh dấu bằng các thẻ sau:
 
-- '#EXT-X-CUE-OUT' / '#EXT-X-CUE-IN' (more common) with the duration as shown in the following example:
+- `#EXT-X-CUE-OUT` / `#EXT-X-CUE-IN` (phổ biến hơn) với thời lượng như minh họa trong ví dụ sau:
 
 ```
-#EXT-X-CUE-OUT:60.00
+#EXT-X-CUE-OUT:60,00
 #EXT-X-CUE-IN
 ```
 
-How you configure ad markers in your manifest affects whether ads are inserted into the stream or replaced with other segments in the stream
+Cách bạn định cấu hình điểm đánh dấu quảng cáo trong tệp kê khai ảnh hưởng đến việc quảng cáo được chèn vào luồng hay thay thế các đoạn khác trong luồng
 
-The HLS Manifest Master must comply with the definition of HLS. In particular, #EXT-X-STREAM-INF must include fields **RESOLUTION**, **BANDWIDTH** and **CODEC**.
+HLS Manifest Master phải tuân thủ theo định nghĩa của HLS. Đặc biệt, #EXT-X-STREAM-INF phải bao gồm các trường **RESOLUTION**, **BANDWIDTH** và **CODEC**.
 
-### Prepare your DASH stream
+### Chuẩn bị luồng DASH
 
-The DASH manifest (mpd) must meet the following requirements:
+DASH manifest (mpd) phải đáp ứng các yêu cầu sau:
 
-- The 'DASH manifest' must be accessible on the internet.
+- `DASH manifest` phải có thể truy cập được trên internet.
 
-- The 'DASH manifest' must be live or video on demand (VOD).
+- `DASH manifest` phải trực tiếp hoặc video theo yêu cầu (VOD).
 
-- The following example shows an event specified as an ad broadcast schedule using the 'EventStream' marker. The length for this ad is the length of the event.
+- Ví dụ sau đây cho thấy một sự kiện được chỉ định là lịch phát sóng quảng cáo bằng cách sử dụng điểm đánh dấu` EventStream`. Thời lượng cho quảng cáo này là thời lượng của sự kiện.
 
 ```
    <Period start="PT444806.040S" id="123586" duration="PT15.000S">
@@ -86,155 +86,155 @@ The DASH manifest (mpd) must meet the following requirements:
    </Period>
 ```
 
-- Ad avails need to have 'AdaptationSet' and 'Representation' configurations that coincide with the original content stream. 'Sigma Dynamic Ads Insert' uses these configurations to be able to transcode the right ad streams.
+- Ad avails cần phải có cấu hình `AdaptationSet` and `Representation`  trùng với luồng nội dung ban đầu. `Sigma Dynamic Ads Insert`  sử dụng những cấu hình này để có thể chuyển mã các luồng quảng cáo phù hợp.
 
-## Step 3: (Optional) Prepare to configure the URL parameters of the ad server (Ads Request) and query parameters (parameter)
+## Bước 3: (Optional) Chuẩn bị cấu hình các tham số URL của máy chủ quảng cáo (Ads Request) và các tham số truy vấn( parameter)
 
-The parameter, often abbreviated as "Param," is a value chosen for each specific case and related to other variables that can be expressed, describing important characteristics used to define a particular problem.
+Parameter, thường được viết tắt là "Param," là một giá trị được lựa chọn cho từng trường hợp cụ thể và liên quan đến các biến khác có thể biểu thị, mô tả những đặc điểm quan trọng sử dụng để định rõ một vấn đề cụ thể.
 
-To configure SSAI to pass data from the player to ADS via the ADS template URL, you need to specify variables 'player_params' using '\<query_parameter_name>.\`
+Để cấu hình SSAI để chuyển dữ liệu từ trình phát đến ADS qua URL mẫu ADS, bạn cần chỉ định các biến `player_params` bằng cách sử dụng `<query_parameter_name>.`
 
-For example, if the player sends a query parameter named 'user_id' in its request to SSAI, you can specify 'user_id' in the ADS request by including '[play_params.user_id]' in the ADS URL configuration.
+Ví dụ: Nếu trình phát gửi tham số truy vấn có tên `user_id` trong yêu cầu của mình đến SSAI, bạn có thể xác định `user_id` trong yêu cầu ADS bằng cách bao gồm `[play_params.user_id]`  trong cấu hình URL ADS.
 
-### When to configure param?
+### Khi nào cần cấu hình param?
 
-In order to be able to transmit information such as **age** and **gender** of the user, we need to identify this information when calling advertisements or when requesting information from the origin.
+Để có khả năng truyền các thông tin như **tuổi** và **giới tính** của người dùng, chúng ta cần xác định các thông tin này khi gọi quảng cáo hoặc khi yêu cầu thông tin từ origin.
 
-Example:
+Ví dụ:
 
-CDN content segmentation to CDN ad segmentation.
+Phân đoạn nội dung CDN đến Phân đoạn quảng cáo CDN.
 
-In case the ad link runs on the CDN in order, if CDN 1 does not work, CDN 2 will replace it.
+Trong trường hợp liên kết quảng cáo chạy trên CDN theo thứ tự, nếu CDN 1 không hoạt động, CDN 2 sẽ thay thế nó.
 
-### Kind
+### Loại
 
-There are two types of parameters (params):
+Có hai loại tham số (param):
 
-- **play_params**: Is the information that the player sends through the playback path, and the server side will replace based on the parameters that the player transmits.
+- **play_params**: Là thông tin mà trình phát gửi lên thông qua đường dẫn phát lại, và phía máy chủ sẽ thay thế dựa trên các tham số mà trình phát truyền lên.
 
-- **session param**: Available parameters include:
+- **session param**: Các tham số sẵn có bao gồm:
 
-  - 'session.ip' : The IP address of the user's machine.
-  - 'session.user_agent': The User Agent of the user's machine.
-  - 'stce.duration' : Considered as the access time available, marking the duration available.
+  - `session.ip` : Địa chỉ IP của máy người dùng.
+  - `session.user_agent` : User Agent của máy người dùng.
+  - `stce.duration` : Được xem xét là thời gian truy cập có sẵn, đánh dấu thời lượng sẵn có.
 
-**Example URL playback using play_params**
+**Ví dụ URL playback sử dụng play_params**
 
 ```
 http://dai.sigmaott.com/manifest/manipulation/master/xxx/master.m3u8?play_params.devideId=abc&play_params.gender=male
 
 ```
 
-Of which 2 **play_params** are transmitted:
+Trong đó có 2 **play_params** được truyền lên:
 
 - **play_params.devideId**: abc
 - **play_params.gender**: male
 
-The client will perform a playback with the above path and the SSAI server will record information about **parameters**
+Client sẽ thực hiện playback với đường dẫn trên và server SSAI sẽ ghi nhận thông tin về **parameters**
 
-You can use the **parameters** template parameter for your vast ads server path like this example:
+Bạn có thể sử dụng tham số template **parameters** cho đường dẫn vast ads server như ví dụ sau:
 
 ```
 http://ads.com/tags.xml?gender=[play_params.gender]&did=[play_params.devideId]
 ```
 
-The SSAI system replaces the above parameters with corresponding values transmitted from the client. We get the following value
+Hệ thống SSAI sẽ thay thế các tham số trên bằng các giá trị tương ứng được truyền lên từ client. ta được giá trị sau
 
 ```
 http://ads.com/tags.xml?gender=male&did=abc
 ```
 
-Thus, the parameter information will be transmitted from the client to the ads server through the request to retrieve ads.
+Như vậy các thông tin của parameter sẽ được truyền từ client lên ads server thông qua yêu cầu lấy quảng cáo.
 
-## Step 4: Create a new SSAI ad insert endpoint configuration
+## Bước 4: Tạo mới cấu hình ad insert endpoint SSAI
 
-To set up SSAI and connect information between the origin server and the ad, you need to create an ad insert endpoint to help the ad perform its task while controlling the online content to each customer.
+Để thiết lập SSAI và kết nối thông tin giữa máy chủ gốc và quảng cáo, bạn cần tạo một ad insert endpoint để chứa giúp quảng cáo thực hiện nhiệm vụ của nó đồng thời kiểm soát các nội dung trực tuyến đến từng đối tượng khách hàng.
 
-### To create a new ad insert endpoint
+### Để tạo mới ad insert endpoint
 
-1. In the ad insert endpoint list, click the button **Create ad insert endpoint**
-2. Pop-up display system Create ad insert endpoint.
-3. The user enters the required information.
-4. Make a new creation.
+1. Tại mục danh sách ad insert endpoint, click vào button **Tạo ad insert endpoint**
+2. Hệ thống hiển thị Pop-up Tạo ad insert endpoint.
+3. Người dùng nhập các thông tin theo yêu cầu.
+4. Thực hiện tạo mới.
 
-Configuration example:
+Ví dụ cấu hình:
 
-- Video Content Source: 'https\://origin.com/manifest'
-  - With the above configuration, we can use it for multiple HLS and DASH streams with ad markup initiated by the above prefix such as:
-    - 'https\://origin.com/manifest/channel1/master.m3u8'
-    - 'https\://origin.com/manifest/channel2/master.m3u8'
+- Nguồn nội dung video: `https://origin.com/manifest`
+  - Với cấu hình trên, ta có thể sử dụng cho nhiều luồng HLS, DASH có đánh dấu quảng cáo được bắt đầu bởi prefix trên như:
+    - `https://origin.com/manifest/channel1/master.m3u8`
+    - `https://origin.com/manifest/channel2/master.m3u8`
 
-- Ad server: 'https\://ads.sdp.com/vast-tag'
+- Máy chủ quảng cáo: `https://ads.sdp.com/vast-tag`
 
-- CDN content segmentation: 'https\://example.cdn.net'
-  - The segment content files will be replaced by the cdn configured above.
+- Phân đoạn nội dung CDN: `https://example.cdn.net`
+  - Các tệp tin nội dung segment sẽ được thay thế bởi cdn được cấu hình trên.
 
-When you're done, you'll be able to open a browser, enter the playback URL for your ad insert endpoint, and view the stream of the ad insert endpoint that contains the ad.
+Khi hoàn tất, bạn sẽ có thể mở trình duyệt, nhập URL phát lại cho ad insert endpoint của mình và xem luồng của ad insert endpoint có chứa quảng cáo.
 
-## Step 5: Check the configuration
+## Bước 5: Kiểm tra cấu hình
 
-Users can view a list of ads displayed on ad insert endpoints, with information related to the ads. Test the stream using the URL in the appropriate format for your streaming protocol.
+Người dùng có thể xem danh sách các quảng cáo hiển thị trên ad insert endpoint, với các thông tin liên quan tới quảng cáo. Kiểm tra luồng bằng URL ở định dạng thích hợp cho giao thức phát trực tuyến của bạn.
 
-### To view ad insert endpoint details
+### Để xem chi tiết ad insert endpoint
 
-1. At the ad insert endpoint list interface, display the tooltip **see details** when hover the mouse, users click on the name ad insert endpoint \*\*\* to view detailed information.
-2. The system displays detailed information ad insert endpoint.
-3. Users view the ad insert endpoint details and can use the URLs to run the desired ad insert endpoint.
+1. Tại giao diện danh sách ad insert endpoint, hiển thị tooltip**xem chi tiết** khi hover chuột, người dùng click vào **tên ad insert endpoint** để xem thông tin chi tiết.
+2. Hệ thống hiển thị thông tin chi tiết ad insert endpoint.
+3. Người dùng xem các thông tin chi tiết ad insert endpoint và có thể **sử dụng các URL** để chạy ad insert endpoint mong muốn.
 
-_After the user configures the ad insert endpoint, SSAI returns Playback Endpoint Prefixes including:_
+_Sau khi người dùng cấu hình ad insert endpoint, SSAI trả về Playback Endpoint Prefixes gồm:_
 
-1. For example, link Session initalization playback prefix. (**Use when using Client Side Tracking**)
+1. Ví dụ link Session initalization playback prefix( link khởi tạo). (**Sử dụng khi dùng Client Side Tracking**)
 
 ```
 http://dai.sigmaott.com/manifest/manipulation/session/0f18d489-6b27-4832-9849-ff9b9e7c35f0
 ```
 
-2. HLS playback prefix example:
+2. Ví dụ HLS playback prefix:
 
 ```
 http://dai.sigmaott.com/manifest/manipulation/master/0f18d489-6b27-4832-9849-ff9b9e7c35f0
 ```
 
-3. DASH playback prefix example:
+3. Ví dụ DASH playback prefix:
 
 ```
 http://dai.sigmaott.com/manifest/manipulation/dash/0f18d489-6b27-4832-9849-ff9b9e7c35f0
 ```
 
-**Where**:
+**Trong đó**:
 
-- 'http\://dai.sigmaott.com/manifest/manipulation/' is **playback-endpoint** path to be able to call and run the thread through **Sigma DAI**
-- '0f18d489-6b27-4832-9849-ff9b9e7c35f0': Equivalent to the unique identifier of the ad insert endpoint configuration.
+- `http://dai.sigmaott.com/manifest/manipulation/` là **playback-endpoint** đường dẫn để để có thể gọi lấy chạy được luồng thông qua **Sigma DAI**
+- `0f18d489-6b27-4832-9849-ff9b9e7c35f0`: tương đương với định danh duy nhất của cấu hình ad insert endpoint.
 
-**Pair with the actual running stream**
+**Ghép nối với luồng chạy thực tế**
 
-From the above configuration, you can pair with content streams with ads as follows:
+Từ cấu hình trên bạn có thể ghép nối với các luồng nội dung có quảng cáo như sau
 
-- For example, you have 2 HLS and DASH streams from the content source as follows:
-  - HLS: 'https\://origin.com/manifest/channel1/master.m3u8'
-  - DASH: 'https\://origin.com/manifest/channel1/master.mpd'
-- In an ad insert endpoint configuration, you configure the content source as 'https\://origin.com/manifest'
-- We will have 2 threads that can be concatenated into the prefix above as follows:
-  - HLS: '/channel1/master.m3u8'
-  - DASH: '/channel1/master.mpd'
-- Grafting into the above prefix configurations we get:
+- Ví dụ bạn có 2 luồng HLS và DASH từ nguồn nội dung như sau:
+  - HLS: `https://origin.com/manifest/channel1/master.m3u8`
+  - DASH: `https://origin.com/manifest/channel1/master.mpd`
+- Trong cấu hình ad insert endpoint bạn cấu hình nguồn nội dung là `https://origin.com/manifest`
+- Ta sẽ có 2 luồng có thể ghép nối vào prefix ở trên như sau:
+  - HLS: `/channel1/master.m3u8`
+  - DASH: `/channel1/master.mpd`
+- Ghép vào các cấu hình prefix ở trên ta được:
   - HLS:
     `http://dai.sigmaott.com/manifest/manipulation/master/0f18d489-6b27-4832-9849-ff9b9e7c35f0/channel1/master.m3u8`
 
   - DASH:
     `http://dai.sigmaott.com/manifest/manipulation/dash/0f18d489-6b27-4832-9849-ff9b9e7c35f0/channel1/master.mpd`
 
-## Step 6: Send the required information to the SSAI server
+## Bước 6: Gửi thông tin yêu cầu đến máy chủ SSAI
 
-Let's say your sample ADS URL is as follows:
+Giả sử URL ADS mẫu của bạn là như sau:
 
 ```
 https://my.ads.com/ad?output=vast&content_id=12345678&playerSession=[session.id]&cust_params=[play_params.cust_params]
 ```
 
-Then, specify [**play_params.cust_params**] in the manifest file's request by preserving the key-value pair with the ad.
+Sau đó, xác định [**play_params.cust_params**] trong yêu cầu của tệp tin manifest bằng cách đặt trước cặp khóa-giá trị với quảng cáo.
 
-Example: After **step 5** we have the following HLS and DASH stream URLs:
+Ví dụ Sau **bước 5** ta có URL của luồng  HLS và DASH sau đây:
 
 ```
 http://dai.sigmaott.com/manifest/manipulation/master/0f18d489-6b27-4832-9849-ff9b9e7c35f0/channel1/master.m3u8?play_params.cust_params=viewerinfo
@@ -244,18 +244,18 @@ http://dai.sigmaott.com/manifest/manipulation/master/0f18d489-6b27-4832-9849-ff9
 http://dai.sigmaott.com/manifest/manipulation/master/0f18d489-6b27-4832-9849-ff9b9e7c35f0/channel1/master.mpd?play_params.cust_params=viewerinfo
 ```
 
-When the Sigma Dynamic Ads Insert (SDAI) system receives a request from a specific URL, it determines the player's variables based on the information in the URL. When there is a request to insert an ad, a variation of the URL is generated based on these variables as follows:
+Khi hệ thống Sigma Dynamic Ads Insert (SDAI) tiếp nhận một yêu cầu từ một URL cụ thể, nó sẽ xác định các biến của player dựa trên thông tin trong URL. Khi có yêu cầu để chèn quảng cáo, hệ thống sẽ tạo ra một biến thể của URL dựa trên các biến này như sau:
 
 ```
 https://my.ads.com/ad?output=vast&content_id=12345678&playerSession=<filled_in_session_id>&cust_params=viewerinfo
 ```
 
-For more information on how to configure key-value pairs to pass to the Ad Server,
+Để biết thêm thông tin về cách định cấu hình các cặp khóa-giá trị để chuyển đến Máy chủ quảng cáo,
 
-## Step 7: Clean up (Remove ad insert endpoint)
+## Bước 7: Dọn dẹp (Xoá ad insert endpoint)
 
-Once you've created and launched an ad insert endpoint, and then, to decommission or close an unnecessary ad insertion connector, you need to remove the ad insert endpoint as follows:
+Khi bạn đã tạo và khởi chạy điểm kết nối chèn quảng cáo (ad insert endpoint), sau đó, để ngừng hoạt động hoặc đóng điểm kết nối chèn quảng cáo không cần thiết, bạn cần thực hiện thao tác xoá ad insert endpoint như sau:
 
-1. On the ad insert endpoint list view, select the ad insertion connection point that you want to delete, and then click the **Delete.** icon
-2. A confirmation dialog box will appear. Select the **Confirm** button to continue.
-3. The system will delete the ad insert endpoint and you will return to the Ad insert endpoint list interface after completing the deletion process.
+1. Trên giao diện danh sách ad insert endpoint, hãy chọn điểm kết nối chèn quảng cáo mà bạn muốn xoá, và sau đó nhấp vào icon **Xoá.**
+2. Một hộp thoại xác nhận sẽ xuất hiện. Hãy chọn nút **Xác nhận** để tiếp tục.
+3. Hệ thống sẽ thực hiện xoá ad insert endpoint và bạn sẽ trở về giao diện Danh sách ad insert endpoint sau khi hoàn thành quá trình xoá.
