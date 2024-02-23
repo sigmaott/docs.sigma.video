@@ -1,55 +1,55 @@
 ---
-title: Insert slate ads
+title: Chèn quảng cáo slate
 order: 7
 ---
 
-# Insert slate ads
+# Chèn quảng cáo slate
 
-_Ad slate is only available for live workflows._
+_Ad slate chỉ có sẵn cho các quy trình công việc trực tiếp._
 
-An ad slate is a default MP4 asset inserted into a stream, e.g. a still image or looped video, playing instead of live content.
+**Ad slate là một asset MP4 mặc định** được chèn vào một luồng, ví dụ hình ảnh tĩnh hoặc video được lặp, phát thay vì nội dung trực tiếp.
 
-Slate ad insertion is not required.
+Không bắt buộc chèn quảng cáo slate.
 
-## When to insert a slate ad?
+## Khi nào cần chèn quảng cáo slate?
 
-Support inserting slate ads (default ads) for the following cases:
+Hỗ trợ chèn slate ads (default ads) cho các trường hợp như sau:
 
-- To fill at an incomplete time by an ad replacement (e.g. ad time needs 15 seconds but ADS only returns 10 seconds, slate will fill the remaining 5 seconds).
-- If the ad decision server (ADS) responds with an empty VAST or VMAP response.
-- For error conditions, such as ADS-ad decision server timeout.
-- If the duration of the ad is longer than the ad break.
-- If an ad is not available.
+- Để fill vào thời gian không được đầy đủ bởi một thay thế quảng cáo( ví dụ thời gian quảng cáo cần 15s nhưng ADS chỉ trả về 10s, slate sẽ fill vào 5s còn lại).
+- Nếu ad decision server (ADS) phàn hồi với một phản hồi VAST or VMAP trống.
+- Đối với các **điều kiện lỗi**, chẳng hạn như **ADS-ad decision server timeout**.
+- Nếu thời lượng của quảng cáo **dài hơn** quá trình chèn quảng cáo( ad break).
+- Nếu một quảng cáo không có sẵn.
 
-## Kind
+## Loại
 
-**Unlike Bumpers ad, ad slate supports 2 types of assets.**
+**Khác với Bumpers ad, ad slate hỗ trợ 2 loại asset.**
 
-- Video: Video no older than 120 seconds.
-- Image
+- Video: Video không quá 120 giây.
+- Hình ảnh
 
-## Configure ad slate
+## Cấu hình ad slate
 
-Ad slate is configured in Advanced settings.
+Ad slate được cấu hình trong phần **cài đặt Nâng cao**.
 
-To use ad slate, users select pre-configured assets from the ThudoJSC server or users **upload** files **videos/images** directly to the Sigma system.
+Để sử dụng ad slate, người dùng chọn asset **được cấu hình sẵn** từ server ThudoJSC hoặc người dùng **upload** file **video/ hình ảnh** trực tiếp lên hệ thống Sigma.
 
-1. In case the user selects or uploads **video less than or equal to 120s**, the video recording system, the ad slate insertion will be performed after the user presses the **Create button.**
+1. Trường hợp người dùng chọn hay Upload **video nhỏ hơn hoặc bằng 120s**, hệ thống ghi nhận video, việc chèn ad slate sẽ được thực hiện sau khi người dùng bấm nút **Create.**
 
-2. Ad slate **requires expiry of video length**, no trimming allowed.
+2. Ad slate **bắt buộc chèn hết thời lượng video**, không được phép cắt.
 
-3. In case the ad slate duration is empty more than the ad slate duration, the ad slate will repeat until the fill is full.
+3. Trường hợp thời lượng điểm quảng cáo trống nhiều hơn thời lượng ad slate, ad slate sẽ lặp đi lặp lại đến khi fill đủ.
 
-   Number of adslate insertions by formula:
+   Số lần chèn adslate theo công thức:
 
    ```
    int((availDuration - filledDuration)/adslateDuration)
    ```
 
-4. **How ad slate is configured on**
+4. **Cách ad slate được cấu hình vào**
 
-   | **Formula**                                                                      | availDuration | filledDuration | Ad slate | **Result**     |
-   | :------------------------------------------------------------------------------- | :------------ | :------------- | :------- | :------------- |
-   | (availDuration - filledDuration) >= **ad slateAssetDuration** | 60            | 50             | 10       | insert         |
-   | 60                                                                               | 40            | 10             | 10       | insert 2 times |
-   | (availDuration - filledDuration) < **ad slateAssetDuration**  | 60            | 51             | 10       | No insertion   |
+   | **Formula**                                                                      | availDuration | filledDuration | Ad slate | **Result** |
+   | :------------------------------------------------------------------------------- | :------------ | :------------- | :------- | :--------- |
+   | (availDuration - filledDuration) >= **ad slateAssetDuration** | 60            | 50             | 10       | chèn       |
+   | 60                                                                               | 40            | 10             | 10       | chèn 2 lần |
+   | (availDuration - filledDuration) < **ad slateAssetDuration**  | 60            | 51             | 10       | Không chèn |
