@@ -1,29 +1,29 @@
 ---
-title: Xóa nhà phân phối
+title: Remove a distributor
 order: 4
 ---
 
-# Xóa nhà phân phối
+# Remove a distributor
 
-Đối tượng sử dụng chức năng: Tài khoản CMS được cấp quyền Quản trị viên VTVhub.
+Who uses the function: The CMS account is granted VTVhub Administrator rights.
 
-**Điều kiện**: Để thực hiện chức năng này, cần phải có ít nhất một nhà phân phối đã được tạo trước đó và hiển thị trong danh sách nhà phân phối.
+**Condition**: To perform this function, at least one distributor must have been previously created and displayed in the distributor list.
 
-**Bước 1**:  Truy cập CMS, tại sidebar chọn VTVhub, hiển thị giao diện danh sách nhà phân phối
+**Step 1**: Access CMS, at the sidebar select VTVhub, display the distributor list interface
 
-**Bước 2**: Click nút **Xóa** ở cột Hành động tại nhà phân phối muốn xóa
+**Step 2**: Click the **Delete** button in the Distributor Action column you want to delete
 
-Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâm màn hình với các chi tiết sau:
+The system will display a confirmation pop-up window in the center of the screen with the following details:
 
-![Xóa nhà phân phối](/images/application-vtvhub/delete-distributor.png)
+! [Remove distributor] (/images/application-vtvhub/delete-distributor.png)
 
-- Tiêu đề: Xoá nhà phân phối
-- Nội dung: Bạn có chắc chắn muốn xóa nhà phân phối này?
-- Nút **Huỷ bỏ**: Không thực hiện thao tác, quay lại màn hình Danh sách nhà phân phối.
-- Nút **Xác nhận**: Hệ thống thực hiện việc xoá toàn bộ thông tin của nhà phân phối.
+- Title: Remove Distributor
+- Content: Are you sure you want to remove this distributor?
+- **Cancel** button: Do not perform, return to the Distributor List screen.
+- Button **Confirm**: The system performs the deletion of all distributor information.
 
-**Bước 3**: Người dùng nhấn nút **Xác nhận** để xoá thông tin của nhà phân phối. Hệ thống hiển thị một cửa sổ pop-up thông báo `Xoá nhà phân phối thành công` ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
+**Step 3**: Users press the **Confirm** button to delete the distributor's information. The system displays a pop-up message "Remove distributor successful" in the right corner of the screen and automatically closes the notification after 5 seconds.
 
-Đồng thời, hệ thống thực hiện xoá toàn bộ thông tin của nhà phân phối.
+At the same time, the system deletes all distributor information.
 
-- Lưu ý: Hạn chế sử dụng tính năng này vì khi xóa sẽ không khôi phục lại được
+- Note: Refrain from using this feature because deleting it will not be restored
