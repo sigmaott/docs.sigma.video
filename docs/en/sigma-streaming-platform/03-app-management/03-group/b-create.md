@@ -1,45 +1,45 @@
 ---
-title: Tạo nhóm
+title: Create a group
 order: 2
 ---
 
-# Nhóm
+# Group
 
-Hệ thống phân quyền truy cập theo nhóm giúp đảm bảo rằng mỗi thành viên chỉ có thể sử dụng các tính năng phù hợp với vai trò và quyền hạn của họ. Để tối ưu hóa quy trình quản lý nhóm và quyền, hệ thống hỗ trợ việc tạo nhiều group quyền khác nhau. Mỗi group có thể được cá nhân hóa với tên và cấu hình quyền truy cập đặc biệt.
+A group access hierarchy helps ensure that each member can only use features that are appropriate for their roles and permissions. To optimize the process of managing groups and permissions, the system supports the creation of many different permission groups. Each group can be personalized with a special access name and configuration.
 
-Bằng cách phân quyền, người quản trị có thể linh hoạt thiết lập và quản lý các nhóm quyền, tối ưu hóa trải nghiệm người dùng và bảo mật thông tin trong quá trình sử dụng ứng dụng.
+By decentralizing, administrators can flexibly set up and manage permission groups, optimize user experience, and secure information during application usage.
 
-## Tạo nhóm
+## Create a group
 
-Để tạo một nhóm quyền mới, thành viên có quyền truy cập vào ứng dụng quản lý và thực hiện quá trình tạo nhóm theo các bước sau:
+To create a new permission group, members have access to the management app and perform the group creation process by following these steps:
 
-1. Truy cập giao diện **Danh sách Nhóm** trong ứng dụng quản lý.
-2. Nhấn vào nút `Thêm` để mở pop-up tạo nhóm quyền.
+1. Access the **Group List** interface in the management app.
+2. Click the 'Add' button to open the permission group creation pop-up.
 
-Pop-up tạo nhóm quyền bao gồm các trường sau:
+The pop-up creates permission groups that include the following fields:
 
-![Tạo nhóm](/images/streaming-platform/app-management/03-group/pop-up/create.png)
+! [Create Group] (/images/streaming-platform/app-management/03-group/pop-up/create.png)
 
-- Tiêu đề: Tạo nhóm
-- Tên Nhóm: Nhập tên cho nhóm quyền mới.
-- Quyền: Chọn quyền cho nhóm, có hai tùy chọn:
-  - `Admin`: Có quyền truy cập đầy đủ vào tất cả các chức năng.
-  - `Viewer`: Chỉ có quyền truy cập để xem.
-- Quyền Truy Cập Chi Tiết:
+- Title: Create Group
+- Group Name: Enter a name for the new permission group.
+- Permissions: Select permissions for the group, there are two options:
+  - 'Admin': Has full access to all functions.
+  - 'Viewer': Only access is available for viewing.
+- Detailed Access Permissions:
 
-  - Product: Kiểm soát quyền truy cập cho từng sản phẩm trong ứng dụng.
-  - Library: Quản lý, điều chỉnh máy móc, tài sản trong ứng dụng đảm bảo hoạt động hiệu quả, tối ưu, mặc định với quyền `Viewer`.
+  - Product: Control access for each in-app product.
+  - Library: Manage and adjust machines and assets in the application to ensure efficient, optimal, default operation with 'Viewer' permissions.
 
-Hệ thống giới hạn tối đa 20 nhóm (không tính 4 nhóm mặc định). Để đảm bảo tính tiện ích và rõ ràng trong quá trình quản lý, nút tạo nhóm sẽ không được hiển thị trong pop-up **Mời thành viên** nếu đã đạt đến giới hạn này.
+The system limits a maximum of 20 groups (not counting the default 4 groups). To ensure convenience and clarity in the management process, the create group button will not be displayed in the **Invite members** pop-up if this limit has been reached.
 
-3. Nhập thông tin Nhóm và Thiết lập Quyền
-   Nhập tên cho nhóm và chọn mức quyền tương ứng.
-   Nhấn nút `Lưu` để hoàn tất quá trình tạo nhóm.
-4. Tạo nhóm thành công
-   Sau khi nhấn `Lưu`, hệ thống sẽ hiển thị trở lại danh sách nhóm, thông báo thành công ở phía trên màn hình. Nhóm vừa được tạo sẽ được hiển thị ở đầu danh sách, giúp người dùng dễ dàng nhận biết và quản lý nhóm mới của mình.
+3. Enter Group Information and Set Permissions
+   Enter a name for the group and select the corresponding permission level.
+   Press the 'Save' button to complete the group creation process.
+4. Create a successful team
+   After pressing 'Save', the system will display the group list again, a success message at the top of the screen. The newly created group will be displayed at the top of the list, making it easy for users to identify and manage their new group.
 
 <!-- ![Tạo nhóm thành công](/images/streaming-platform/app-management/03-group/message/) -->
 
-_Thông báo: Tạo nhóm thành công!_
+_Announcement: Successful team creation!_
 
-Ngoài ra, thông báo về nhóm mới cũng sẽ xuất hiện trong pop-up **Mời Thành Viên**, giúp người dùng mời thành viên vào nhóm một cách thuận lợi và nhanh chóng. Điều này giúp tối ưu hóa trải nghiệm người dùng và giữ cho quá trình quản lý nhóm linh hoạt và dễ dàng.
+In addition, notifications about new groups will also appear in the **Invite Members** pop-up, helping users invite members to the group conveniently and quickly. This helps optimize the user experience and keeps the team management process flexible and easy.
