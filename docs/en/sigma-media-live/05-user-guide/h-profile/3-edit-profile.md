@@ -1,32 +1,32 @@
 ---
-title: Chỉnh sửa profile
+title: Edit profile
 order: 3
 ---
 
-## Cập nhật Profile
+## Update Profile
 
-**Điều kiện**: Profile đã được tạo ra trước đó và có hiển thị tại danh sách profile.
+**Condition**: The profile has been created before and is displayed in the profile list.
 
-Những điều chỉnh trong sau khi chỉnh sửa profile sẽ **không ảnh hưởng** đến profile được gán cho kênh.
+Adjustments after editing the profile will **not affect** the profile assigned to the channel.
 
-Người quản trị nội dung (CMS) có thể thực hiện sửa đổi trên các tham số của profile, kể cả khi profile đang được gán cho kênh.
+Content administrators (CMS) can make modifications to profile parameters, even when the profile is being assigned to the channel.
 
-**Bước 1**:
+**Step 1**:
 
-Tại giao diện chính, người dùng có thể thực hiện sửa đổi bằng cách di chuyển chuột vào biểu tượng `Sửa` trong cột hành động của profile mà họ muốn chỉnh sửa.
+At the main interface, users can make modifications by moving their mouse on the 'Edit' icon in the action column of the profile they want to edit.
 
-**Bước 2:**
+**Step 2:**
 
-Khi người dùng nhấp vào biểu tượng `chỉnh sửa`, hệ thống sẽ mở một cửa sổ pop-up **Cập nhật Profile** giữa màn hình, hiển thị các dữ liệu đã nhập trước đó.
+When the user clicks on the 'edit' icon, the system will open a pop-up window **Update Profile** in the middle of the screen, displaying the previously entered data.
 
-![Cập nhật profile](/images/media-live/profile/update.png)
+! [Profile update] (/images/media-live/profile/update.png)
 
-_Pop-up Cập nhật Profile_
+_Pop-up Update Profile_
 
-**Bước 3:**
+**Step 3:**
 
-Sau khi người dùng thực hiện các thay đổi và nhấn nút `Xác nhận`, hệ thống sẽ tự động lưu thông tin mới được cập nhật. Thông báo cập nhật thành công sẽ xuất hiện ở góc phải của màn hình và sau đó cửa sổ sẽ tự động đóng sau 5 giây.
+After the user makes changes and presses the 'Confirm' button, the system will automatically save the newly updated information. A successful update message will appear in the right corner of the screen, and then the window will automatically close after 5 seconds.
 
 <!-- ![]() -->
 
-_Thông báo: Cập nhật thành công!_
+_Notification: Update successful!_
