@@ -1,6 +1,6 @@
 ## Requirement
 
-- Videojs version 5,6
+- Videojs version 5.6
 - Browser support Media Source Extensions
 - SDK Shls plugin for videojs version 1.0.0-poc
 
@@ -22,15 +22,15 @@
 ### Initialization
 
 ```javascript
-// html5 for html hls
+html5 for html hls
 videojs(video, {html5: {
-  hls: {
+  HLS: {
     withCredentials: true
   }
 }});
 ```
 
-### source
+### Source
 
 Some options, such as withCredentials can be passed in to hls during player.src
 
@@ -62,7 +62,7 @@ player.src({
     <script> 
         videojs('#player', {
             autoplay: true,
-            html5: {
+            HTML5: {
             hls: {
                 maxBufferSize: 0,
                 liveSyncDurationCount: 10,
