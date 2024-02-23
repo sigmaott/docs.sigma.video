@@ -1,26 +1,26 @@
 ---
-title: Danh sách nhóm
+title: Group list
 order: 1
 ---
 
-## Danh sách nhóm
+## Group list
 
-Để quản lý nhóm và hiển thị các thông tin cơ bản của chúng, hệ thống được thiết kế dưới dạng danh sách, cung cấp khả năng thực hiện các thao tác quản lý linh hoạt. Đối với hiển thị, hệ thống giới hạn số lượng nhóm hiển thị tối đa là 20 (không tính 4 nhóm mặc định).
+To manage groups and display their basic information, the system is designed in the form of lists, which provides the ability to perform flexible management operations. For displays, the maximum number of display groups is limited to 20 (excluding the default 4 groups).
 
-Người dùng có thể truy cập danh sách nhóm từ màn hình chính của hệ thống bằng cách chọn **Danh sách nhóm**. Giao diện của màn hình chính bao gồm:
+Users can access the group list from the main screen of the system by selecting **Group list**. The interface of the home screen includes:
 
-![Danh sách nhóm](/images/streaming-platform/app-management/03-group/list.png)
+! [Bucket List] (/images/streaming-platform/app-management/03-group/list.png)
 
-_Danh sách nhóm_
+_Group list_
 
-Các thông tin được hiển thị trong giao diện danh sách nhóm:
+The following information is displayed in the group list view:
 
-- **STT (Số Thứ Tự)**: Dọc theo danh sách từ 1 đến 20.
-- **Tên Nhóm**: Được cấu hình bởi người dùng CMS.
-- **Thời Gian Tạo**: Thời điểm mà hệ thống ghi nhận việc tạo nhóm, định dạng là YYYY/MM/DD HH:mm:ss.
-- **Quyền**: Mô tả quyền hạn mà mỗi thành viên trong nhóm - có trong ứng dụng.
-- **Hành Động**:
-  - Xoá: Cho phép người dùng CMS xoá nhóm.
-  - Chỉnh Sửa: Cho phép người dùng CMS chỉnh sửa thông tin của nhóm.
+- **STT (Ordinal Number)**: Along the list from 1 to 20.
+- **Group Name**: Configured by CMS users.
+- **Creation Time**: The time when the system records the creation of the group, the format is YYYY/MM/DD HH:mm:ss.
+- **Permissions**: Describes the permissions that each team member - has in the app.
+- **Action**:
+  - Delete: Allows CMS users to delete groups.
+  - Edit: Allows CMS users to edit group information.
 
-Danh sách nhóm bao gồm 4 nhóm mặc định, tuy nhiên chúng sẽ không xuất hiện trực tiếp trên danh sách, mà chỉ hiển thị trong pop-up **mời thành viên**.
+The group list includes 4 default groups, but they will not appear directly on the list, but only show up in the **invite members** pop-up.
