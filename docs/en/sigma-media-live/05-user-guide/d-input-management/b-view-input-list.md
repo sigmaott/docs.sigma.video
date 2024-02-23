@@ -1,38 +1,38 @@
 ---
-title: Xem danh sách đầu vào
+title: View the input list
 order: 2
 ---
 
-# Xem danh sách đầu vào
+# View the input list
 
-Giao diện danh sách đầu vào là một phần quan trọng trong việc quản lí đầu vào trên hệ thống. Giao diện trong danh sách bao gồm các thông tin cơ bản về đầu vào loại Transcode và đầu vào loại Package như ID, tên, loại,... và cho phép tìm kếm, giúp người quản trị viên quản lý đầu vào có cái nhìn tổng quan.
+The input list interface is an important part of managing inputs on the system. The interface in the list includes basic information about Transcode type input and Package type input such as ID, name, type,... and enables search to help administrators manage inputs with an overview.
 
-Trên màn hình chính của hệ thống, người dùng lựa chọn Inputs ở tab header.
+On the main screen of the system, the user selects Inputs in the header tab.
 
-Màn hình chính hệ thống hiển thị mặc định tab Transcode, với giao diện màn hình danh sách đầu vào loại Transcode. Người dùng có thể chọn tab Package để xem danh sách đầu vào với loại là Package.
+The system main screen displays the default Transcode tab, with the Transcode type input list screen interface. Users can select the Package tab to see a list of inputs with type as Package.
 
-![danh sách đầu vào](/images/media-live/input/view-transcode-input-list.png)
+! [input list] (/images/media-live/input/view-transcode-input-list.png)
 
-Các thông tin chính bao gồm:
+Key information includes:
 
-| Tên cột                | Chức năng                                                                                                                                                                                                                                                                                                       |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**                 | Sau khi người dùng tạo mới đầu vào (Transcode/Package), hệ thống sinh ra ID riêng cho mỗi đầu vào với mục đích nhận diện.                                                                                                                                                                    |
-| **Tên**                | Tên của đầu vào (do người dùng CMS cấu hình)                                                                                                                                                                                                                                                 |
-| **Loại**               | Loại của đầu vào                                                                                                                                                                                                                                                                                                |
-| **Lớp**                | Chế độ nguồn đầu vào: single, redundancy                                                                                                                                                                                                                                                                        |
-| **Máy**                | Bấm vào để hiển thị thông tin chi tiết của Máy được gán đầu vào                                                                                                                                                                                                                                                 |
-| **Nguồn**              | Thông tin nguồn của đầu vào                                                                                                                                                                                                                                                                                     |
-| **Mô tả**              | Mô tả của đầu vào                                                                                                                                                                                                                                                                                               |
-| **Thời gian tạo**      | Thời gian thêm thành công đầu vào                                                                                                                                                                                                                                                                               |
-| **Thời gian cập nhật** | Thời gian cập nhật gần nhất của đầu vào (được sắp xếp mặc định hiển thị lên đầu trang với đầu vào được cập nhật mới nhất)                                                                                                                                                                    |
-| **Hành động**          | _**Tạo bản sao:**_ Tạo nhanh 1 bản sao với thông tin bắt buộc được cấu hình sẵn.<br/>_**Chỉnh sửa:**_ Cho phép người dùng chỉnh sửa các thông tin của đầu vào đã tạo (Transcode/Package)<br/>_**Xoá:**_ Cho phép người dùng CMS thực hiện xoá đầu vào (Transcode/Package) |
+| Column names      | Function                                                                                                                                                                                                                                                                                                 |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID**            | After the user creates a new input (Transcode/Package), the system generates a unique ID for each input for identification purposes.                                                                                                                                                  |
+| **Name**          | Name of input (configured by CMS user)                                                                                                                                                                                                                                                |
+| **Kind**          | Type of input                                                                                                                                                                                                                                                                                            |
+| **Class**         | Input power mode: single, redundancy                                                                                                                                                                                                                                                                     |
+| **Machine**       | Click to display the details of the Machine to which the input is assigned                                                                                                                                                                                                                               |
+| **Source**        | Source information of the input                                                                                                                                                                                                                                                                          |
+| **Describe**      | Description of Input                                                                                                                                                                                                                                                                                     |
+| **Creation Time** | Time to successfully add input                                                                                                                                                                                                                                                                           |
+| **Update time**   | Last updated time of input (arranged by default displayed to top of page with latest updated input)                                                                                                                                                                                   |
+| **Action**        | Make a copy:\*\*\* Quickly create 1 copy with required information preconfigured.<br/>Edit:\*\*\* Allows users to edit the information of the generated input (Transcode/Package)<br/>Delete:\*\*\* Allows CMS users to perform input deletion (Transcode/Package) |
 
-- Các nút khác
+- Other buttons
 
-| Tên nút             | Chức năng                                                                                                                                                          |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Icon đồng bộ**    | Góc phải bên dưới giao diện, luôn thực hiện đồng bộ hệ thống liên tục trong 10s                                                                                    |
-| Icon **Phân trang** | Bao gồm các thông tin: Tổng số trang, lựa chọn số items/1 trang (mặc định 10 items/1 trang), trang hiện tại, nhảy tới trang mong muốn tìm kiếm. |
-| **Quick filter**    | Bộ lọc nhanh hỗ trợ tìm kiếm thông tin gồm: Máy và Tên (đầu vào)                                                                                |
-| Nút **Lọc**         | Thực hiện lọc các thông tin chi tiết hơn.                                                                                                                          |
+| Button name         | Function                                                                                                                                                                 |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sync icon**       | Right corner below the interface, always perform continuous system synchronization for 10 seconds                                                                        |
+| Icon **Pagination** | Include information: Total number of pages, selection of number of items/1 page (default 10 items/1 page), current page, jump to desired search page. |
+| **Quick filter**    | Quick filter supports searching for information including: Machine and Name (input)                                                                   |
+| Button **Filter**   | Perform filtering of more detailed information.                                                                                                                          |
