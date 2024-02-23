@@ -1,5 +1,5 @@
 ---
 id: doc-guideline-General-LRM
-title: Bắt đầu
+title: Begin
 order: 4
 ---
