@@ -1,6 +1,6 @@
 ---
-title: Ưu điểm
+title: Advantage
 order: 3
 ---
 
-## Ưu điểm
+## Advantage
