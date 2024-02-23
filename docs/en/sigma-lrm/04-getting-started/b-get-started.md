@@ -1,148 +1,148 @@
 ---
-title: Bắt đầu với sigma Linear Right Management
+title: Get started with sigma Linear Right Management
 order: 2
 ---
 
-# Bắt đầu với dịch vụ quản lí sóng trực tuyến
+# Get started with an online signal management service
 
-Để sử dụng Linear Right Management, chúng tôi khuyên bạn nên trước khi bạn bắt đầu tạo kênh, bạn lên kế hoạch cho quy trình làm việc và lên kế hoạch cho kênh. Trong quy trình lập kế hoạch này, bạn có thông tin mà bạn cần để tạo kênh.
+To use Linear Right Management, we recommend that before you start creating your funnel, you plan your workflow and plan your channel. In this planning process, you have the information that you need to create a funnel.
 
-Khi hoàn tất, bạn sẽ có thể tạo các sự kiện, chương trình với nội dung video mà bạn muốn biên tập.
+When you're done, you'll be able to create events and programs with the video content you want to edit.
 
-Đây là hướng dẫn cấu hình dịch vụ ở mức cơ bản nhất không bao gồm các cấu hình nâng cao.
+This is a service configuration guide at the most basic level, excluding advanced configurations.
 
-## Cách thức truy cập
+## How to access
 
-### Chuẩn bị
+### Prepare
 
-Trước khi bắt đầu, bạn cần chuẩn bị các tác vụ sau:
+Before you start, you need to prepare the following tasks:
 
-- Có tài khoản truy cập hệ thống quản lý của **Sigma Streaming Platform** `https://portal.sigmaott.com`
-- Tài khoản có quyền truy cập app được phân quyền và thực hiện các thao tác với dịch vụ quản lí sóng trực tuyến.
+- Have an account that accesses the management system of **Sigma Streaming Platform**\* 'https\://portal.sigmaott.com'
+- The account has the right to access the authorized app and perform operations with the online wave management service.
 
-### Bước 1: Truy cập vào hệ thống quản lí sóng trực tuyến
+### Step 1: Access the online wave management system
 
-Để sử dụng dịch vụ quản lí sóng trực tuyến, bạn cần có tài khoản và quyền truy cập, xem và thực hiện các hành động được phép.
+To use an online management service, you need an account and permission to access, view, and perform authorized actions.
 
-1. Truy cập vào đường link `https://portal.sigmaott.com/app`
-2. Hiển thị Danh sách App, **chọn ứng dụng** cần truy cập.
-3. Hiển thị mặc định vào trang **tổng quan ứng dụng.**
-4. Ở sidebar, chọn **sản phẩm|quản lí sóng trực tuyến**.
-5. Hiển thị trang mặc định ở danh sách kênh.
+1. Visit the 'https\://portal.sigmaott.com/app' link
+2. Display the App List, **select the app** to access.
+3. Display by default to the **App Overview.**
+4. In the sidebar, select **product|manage live waves**.
+5. Display the default page in the channel list.
 
-## Bước 2: Chuẩn bị thông tin nguồn
+## Step 2: Prepare source information
 
-Để triển khai kênh LRM, bạn cần trước tiên thiết lập kênh Media live với chức năng luồng catchup. Dưới đây là cách tạo một kênh mới với các đầu ra quan trọng:
+To implement an LRM channel, you need to first set up a Media live channel with the catchup stream function. Here's how to create a new channel with important outputs:
 
-- **Catchup**: Hỗ trợ bên thứ ba truy cập và lấy nội dung thông qua giao thức HLS.
-- **Udp**: Cung cấp bên thứ ba khả năng đóng gói lại và chuyển đổi thành các luồng như HLS, DASH có thể phát qua internet.
+- **Catchup**: Supports third parties to access and retrieve content via HLS protocol.
+- **Udp**: Provides third parties with the ability to repackage and convert into streams such as HLS, DASH that can be played over the internet.
 
-Hướng dẫn tạo kênh media live như sau:
+Instructions for creating a live media channel are as follows:
 
-1. Đảm bảo người dùng có quyền truy cập vào Media live. Truy cập thanh menu và chọn **kênh | kênh transcode**.
+1. Make sure users have access to Media live. Go to the menu bar and select **channel | Transcode channel**.
 
-Hệ thống sẽ chuyển hướng bạn đến trang kênh transcode.
+The system will redirect you to the transcode channel page.
 
-2. Nhấn vào nút `+ Thêm` ở góc phải của màn hình.
+2. Tap the '+ Add' button in the right corner of the screen.
 
-Bạn sẽ được dẫn đến cửa sổ cấu hình, thực hiện theo hướng dẫn chi tiết tại đây.
+You will be directed to the configuration window, following the detailed instructions here.
 
-3. Cấu hình mục tiêu của kênh bằng cách nhấp vào biểu tượng `dấu +`.
+3. Configure your channel's goals by clicking on the '+' icon.
 
-![](/images/media-live/get-started/select-target.png)
+! 
 
-- Hiển thị pop-up chọn đầu ra.
+- Display the output selection pop-up.
 
-### Chuẩn bị kênh Media Live với đầu ra udp
+### Prepare Media Live channel with udp output
 
-4. Lựa chọn đầu ra là `udp`.
+4. The output choice is 'udp'.
 
-![](/images/media-live/get-started/target-output-udp.png)
+! 
 
-- Sau đó, đặt tên cho mục tiêu:
+- Then, name the goal:
 
-![](/images/media-live/get-started/target-name.png)
-Tên: `catchup-flow`
-Tên thay thế( không bắt buộc): `su-dung-cho-kenh-LRM`
+! 
+Name: 'catchup-flow'
+Optional name: 'use-for-channel-LRM'
 
-Hiển thị trở về trang thông tin mục tiêu:
+Show back to goal information page:
 
-![](/images/media-live/get-started/target-udp.png)
+! 
 
-- Tên và tên thay thế được hiển thị theo cấu hình trước.
-- **Định dạng**:  `udp` không cho phép sửa.
+- The name and alternate name are displayed according to the previous configuration.
+- **Format**: 'udp' does not allow editing.
 
-5. Lựa chọn profile:
+5. Profile selection:
 
-Nhấp vào nút thêm để chọn profile.
+Click the add button to select a profile.
 
-![](/images/media-live/get-started/select-profile.png)
+! 
 
-Hiển thị các dữ liệu của profile và nhập đường dẫn udp.
+Display the profile data and enter the udp path.
 
-Ví dụ: `udp://239.32.42.1:5000`
+For example, 'udp\://239.32.42.1:5000'
 
-![](/images/media-live/get-started/profile-udp.png)
+! 
 
-### Chuẩn bị kênh Media Live luồng cathup
+### Prepare the Media Live channel cathup stream
 
-Lựa chọn đầu ra là `HLS`.
-Người dùng tiếp tục bằng cách nhập tên cho đầu ra `HLS`.
+The output choice is 'HLS'.
+The user continues by entering a name for the output 'HLS'.
 
-Hiển thị thông tin cấu hình HLS, khi chức năng catchup được bật, các tùy chọn **profile| storage** cũng sẽ tự động được kích hoạt.
+Display HLS configuration information, when catchup function is enabled, **profile options| Storage** will also be automatically enabled.
 
-![](/images/media-live/get-started/target-catchup.png)
+! 
 
-Sau khi tạo, kênh được lấy dữ liệu từ [kênh media live](../../sigma-media-live/05-user-guide/b-transcode-package-channel).
+After creation, the channel is crawled from [live media channel](.. /.. /sigma-media-live/05-user-guide/b-transcode-package-channel).
 
-### Chuẩn bị Dữ liệu kênh nguồn VTV
+### Prepare VTV Source Channel Data
 
-Với dữ liệu nguồn mặc định VTV, người dùng cần thêm các thông tin để lấy danh sách lịch phát sóng.
+With the default VTV source data, users need more information to get the broadcast schedule list.
 
-Ví dụ:
+Example:
 
-- Endpoint: `https://vtvapi1.vtv.vn/services/programschedules.ashx`
-- Mã chương trình: `3`
-- Khoá API: `111aaa7890zz`
+- Endpoint: 'https\://vtvapi1.vtv.vn/services/programschedules.ashx'
+- Program code: '3'
+- API Key: '111aaa7890zz'
 
-## Bước 3: Tạo mới kênh LRM
+## Step 3: Create a new LRM channel
 
-Để quản lí sóng và các nội dung thay thế có thể thực hiện nhiệm vụ của nó, phân phối nội dung tới người xem. Bạn cần tạo 1 kênh để chứa nó đồng thời kiểm soát các nội dung trực tiếp hoặc VOD đến từng đối tượng khách hàng. Luồng đầu vào tín hiệu kênh được ingest từ hệ thống của Thudo JSC.
-Bạn lựa chọn với 1 kênh sẵn do hệ thống sinh ra, hoặc chuẩn bị sẵn nguồn, mã chương trình, khoá API trường hợp bạn mong muốn sử dụng cấu hình kênh riêng của mình.
+To manage the wave and alternative content can perform its task, distributing content to viewers. You need to create 1 channel to contain it and control the live content or VOD to each customer. The channel signal input stream is ingest from Thudo JSC's system.
+You choose with 1 pre-channel generated by the system, or prepare the source, program code, API key in case you want to use your own channel configuration.
 
-### Để tạo mới kênh
+### To create a new channel
 
-Để thêm một kênh mới, hãy thực hiện các bước sau tại mục danh sách kênh:
+To add a new channel, follow these steps in the channel list section:
 
-1. Nhấn vào nút `+ Thêm` ở góc phải của màn hình.
-2. Một cửa sổ pop-up Tạo mới kênh sẽ xuất hiện.
-3. Nhập đầy đủ thông tin theo yêu cầu để tạo kênh mới. Điền vào các trường thông tin cần thiết trong cửa sổ pop-up để cá nhân hóa và xác định đặc điểm của kênh của bạn.
-4. Thực hiện tạo kênh và chạy kênh mong muốn.
+1. Tap the '+ Add' button in the right corner of the screen.
+2. A Create New Channel pop-up window will appear.
+3. Enter all required information to create a new channel. Fill in the necessary information fields in the pop-up window to personalize and characterize your channel.
+4. Perform funnel creation and run the desired channel.
 
-Trường hợp kênh có bật cấu hình tự động đồng bộ. Khi hoàn tất, hệ thống sẽ tự động đồng bộ lịch phát sóng từ dữ liệu nguồn theo đúng thời điểm cấu hình.
+If the channel has auto-sync configuration enabled. When finished, the system will automatically synchronize the broadcast schedule from the source data at the configured time.
 
-## Bước 4: Kiểm tra các cấu hình, chương trình, sự kiện
+## Step 4: Check configurations, programs, events
 
-Người dùng có thể xem các thông tin cơ bản kênh LRM được hiển thị trong danh sách. Kiểm tra các chương trình sự kiện người dùng phải vào thông tin chi tiết.
+Users can view the basic LRM channel information displayed in the list. Check the event program the user must enter the details.
 
-Chi tiết về kênh bao gồm nhiều sự kiện khác nhau, với sự kiện được định nghĩa là một tính năng hỗ trợ người dùng của CMS chuyển đổi video/hình ảnh thành các kênh livestream truyền tải đến khách hàng. Mỗi kênh có thể chứa nhiều sự kiện nhỏ với nội dung đa dạng, cung cấp tùy chọn nội dung thay thế trong trường hợp sự cố về tín hiệu, mất nguồn nội dung và hạn chế thiết bị.
+Channel details include a variety of events, with events defined as a feature that helps CMS users convert videos/images into livestream channels that convey to customers. Each channel can contain multiple mini-events with diverse content, providing alternative content options in case of signal issues, content source losses, and device restrictions.
 
-- Hỗ trợ các trường dữ liệu nâng cao bao gồm quyền **xem lại** và **bắt đầu lại**.
+- Support for advanced data fields including **review** and **start over** permissions.
 
-- Tính năng lập lịch giúp chuyển đổi lịch đầu vào thành các sự kiện SCTE 224 với một API cho phép nhiều định dạng nhập lập lịch.
+- The scheduling feature converts input calendars into SCTE 224 events with an API that allows multiple scheduling import formats.
 
-### Để xem thông tin chi tiết
+### To view details
 
-1. Tại giao diện danh sách, hiển thị chi tiết khi hover vào icon Lịch. Người dùng click vào icon Lịch.
-2. Hệ thống hiển thị giao diện được chia thành hai phần chính:
-   - Phần thông tin kênh: Các thông tin kênh sẽ được hiển thị ở phần tab chi tiết kênh, click chuyển tab để xem.
-   - Phần thông tin sự kiện: Bao gồm timeline và danh sách(gồm các chương trình/ sự kiện/ sự kiện lập lịch) .
-3. Người dùng có thể xem các thông tin cần.
+1. At the list interface, display details when hover on the Calendar icon. The user clicks on the Calendar icon.
+2. The interface display system is divided into two main parts:
+   - Channel information section: The channel information will be displayed in the channel details tab, click switch tab to view.
+   - Event information section: Includes timeline and list (including programs/events/scheduling events).
+3. Users can view the necessary information.
 
-## Bước 5: Dọn dẹp( Xoá kênh)
+## Step 5: Clean up (Delete channel)
 
-Khi bạn đã khởi tạo và chạy kênh LRM, sau đó để ngừng hoạt động hoặc đóng các chương trình, sự kiện không cần thiết, bạn cần thực hiện thao tác xoá kênh LRM như sau:
+Once you have initialized and run the LRM channel, and then to deactivate or close unnecessary programs and events, you need to perform the following operation to delete the LRM channel:
 
-1. Trên giao diện danh sách kênh LRM, hãy chọn kênh mà bạn muốn xoá, và sau đó nhấp vào icon **Xoá.**
-2. Một hộp thoại xác nhận sẽ xuất hiện. Hãy chọn nút **Xác nhận** để tiếp tục.
-3. Hệ thống sẽ thực hiện xoá kênh LRM và bạn sẽ trở về giao diện Danh sách kênh LRM sau khi hoàn thành quá trình xoá.
+1. On the LRM channel list view, select the channel that you want to delete, and then click the **Delete.** icon
+2. A confirmation dialog box will appear. Select the **Confirm** button to continue.
+3. The system will perform LRM channel deletion and you will return to the LRM Channel List interface after completing the deletion process.
