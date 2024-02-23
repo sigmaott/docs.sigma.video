@@ -1,16 +1,16 @@
 ---
-title: "B6: Xoá kênh"
+title: "B6: Delete the channel"
 order: 8
 ---
 
-## Bước 6: Xoá kênh
+## Step 6: Delete the channel
 
-Sau khi đã tạo kênh và khởi chạy, khi bạn bạn cần dừng kênh và đóng kênh thì vui lòng thao tác sau:
+After you have created the channel and launched, when you need to stop the channel and close it, please do the following:
 
-**Để xoá kênh**
+**To delete a channel**
 
-1. Tại mục **danh sách kênh**, chọn kênh cần xoá.
-2. Nếu cần vui lòng chọn **Stop** kênh.
-3. Chọn xoá.
-4. Tại danh sách **Input**, chọn **Input** cần xoá.
-5. Chọn xoá.
+1. In the **channel list** section, select the channel to delete.
+2. If necessary, please select **Stop** channel.
+3. Select Delete.
+4. In the **Input** list, select **Input** to delete.
+5. Select Delete.
