@@ -1,49 +1,49 @@
 ---
-title: Danh sách thành viên
+title: List of members
 order: 2
 ---
 
-# Danh sách thành viên
+# List of members
 
-Danh sách thành viên để quản lý, theo dõi và điều chỉnh thành viên. Danh sách này được cập nhật tự động để phản ánh mọi sự thay đổi trong cộng đồng thành viên.
+Member lists to manage, track, and adjust members. This list is automatically updated to reflect any changes in the member community.
 
-Để đảm bảo tính bảo mật, chỉ những người dùng có quyền truy cập mới có thể xem danh sách thành viên. Tài khoản tạo ra ứng dụng sẽ được thiết lập mặc định với đầy đủ quyền, bao gồm quyền xem và quản lý danh sách thành viên.
+To ensure security, only users with access can view the member list. The account that created the application will be set up by default with full permissions, including permission to view and manage the member list.
 
-Ngoài ra, tính năng này giúp quản trị viên hiểu rõ về cấu trúc, số lượng và nhiệm vụ của từng thành viên, từ đó tối ưu hóa quá trình quản lý và tương tác với thành viên.
+In addition, this feature helps administrators understand the structure, number and tasks of each member, thereby optimizing the process of managing and interacting with members.
 
-## Xem danh sách thành viên
+## View member list
 
-Khi người dùng đang ở bất kì trang nào trong ứng dụng, họ có thể thực hiện các bước sau để xem và quản lý danh sách thành viên:
+When users are on any page in the app, they can take the following steps to view and manage the membership list:
 
-**Bước 1**: Nhấp vào `App Settings` trên Sidebar.
+**Step 1**: Click 'App Settings' on the Sidebar.
 
-Trang mặc định hiển thị **thông tin ứng dụng**.
+The default page displays **app information**.
 
-**Bước 2**: Chuyển sang tab `Members`.
+**Step 2**: Switch to the 'Members' tab.
 
-![Danh sách thành viên](/images/streaming-platform/app-management/02-member/list.png)
+! [List of members] (/images/streaming-platform/app-management/02-member/list.png)
 
-_Giao diện danh sách thành viên_
+_Member list interface_
 
-Sau khi **tạo ứng dụng**, trong danh sách thành viên mặc định, chỉ có một thành viên là tài khoản chính của người dùng. Thông tin về thành viên này bao gồm:
+After creating the application, in the default members list, only one member is the user's main account. Information about this member includes:
 
-- Thời gian tạo, được ghi nhận là thời điểm tạo ứng dụng.
-- Trạng thái `Joined`.
-- Biểu tượng `xoá` bị tắt.
+- Creation time, recorded as the time the app was created.
+- 'Joined' status.
+- The 'delete' icon is disabled.
 
-Khi **thêm thành viên mới** vào danh sách, hệ thống sẽ hiển thị các thông tin sau:
+When a new member is added to the list, the system displays the following information:
 
-- **STT**: Thứ tự từ 1 đến n( trong đó n là số lượng thành viên, bao gồm cả tài khoản người dùng).
-- **Email**: Địa chỉ email chính của người dùng.
-- **Nhóm** : Thể hiện nhóm mà người dùng đã cấu hình khi mời thêm thành viên.
-- **Trạng thái**:
-  - Joined: Đã tham gia.
-  - Invited: Gửi lời mời qua email nhưng chưa tham gia.
-- **Thời gian**: Thời điểm gửi lời mời.
-- **Hành động**:
-  - Biểu tượng `Resend`: gửi lại lời mời.
-  - Biểu tượng `Delete` (xoá): cho phép người dùng thực hiện các hành động tương ứng.
+- **STT**: Order from 1 to n (where n is the number of members, including user accounts).
+- **Email**: The user's primary email address.
+- **Group** : Shows the group that the user configured when inviting additional members.
+- **Condition**:
+  - Joined: Joined.
+  - Invited: Send an email invitation but haven't joined yet.
+- **Time**: When to send the invitation.
+- **Action**:
+  - 'Resend' icon: resend the invitation.
+  - 'Delete' icon: allows the user to perform corresponding actions.
 
-**Bước 3**: Xem các thông tin.
+**Step 3**: View the information.
 
-Ngoài ra, người dùng có thể thực hiện lọc nhanh bằng cách `tìm kiếm email` hoặc chọn `trạng thái`.
+Alternatively, users can perform a quick filter by 'searching emails' or selecting 'status'.
