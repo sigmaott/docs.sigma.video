@@ -1,23 +1,23 @@
 ---
-title: Xóa preset
+title: Remove a preset
 order: 5
 ---
 
-# Xóa preset
+# Remove a preset
 
-**Điều kiện**: Để thực hiện chức năng này, cần phải có ít nhất một preset đã được tạo trước đó và hiển thị trong danh sách preset.
+**Condition**: To perform this function, at least one preset must have been previously created and displayed in the preset list.
 
-**Bước 1** : Trên màn hình danh sách preset, nhấn vào biểu tượng **Xoá** ở cột Hành động với preset mà bạn muốn xoá.
+**Step 1** : On the preset list screen, click the **Delete** icon in the Action column with the preset you want to delete.
 
-Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâm màn hình với các chi tiết sau:
+The system will display a confirmation pop-up window in the center of the screen with the following details:
 
-- Tiêu đề: Cảnh báo
-- Nội dung: Điều này sẽ xóa vĩnh viễn cài đặt trước. Tiếp tục?
-- Nút **Huỷ bỏ**: Không thực hiện thay đổi, quay lại màn hình Danh sách preset
-- Nút **Xác nhận**: Hệ thống thực hiện việc xoá toàn bộ thông tin của preset.
+- Subject: Warning
+- Content: This will permanently delete the preset. Continue?
+- **Cancel** button: Do not make changes, return to the Preset list screen
+- Button **Confirm**: The system performs the deletion of all information of the preset.
 
-**Bước 2** : Người dùng nhấn nút **Xác nhận** để xoá thông tin đầu vào
+**Step 2**: User presses **Confirm** button to delete input information
 
-Hệ thống hiển thị một cửa sổ pop-up thông báo **Đã xoá thành công!** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
+The system displays a pop-up message **Successfully deleted!** in the right corner of the screen and automatically closes the notification after 5 seconds.
 
-Đồng thời, hệ thống thực hiện **Xóa toàn bộ thông tin của preset**, không còn hiển thị thông tin tại danh sách preset.
+At the same time, the system performs **Delete all information of the preset**, no longer displaying information in the preset list.
