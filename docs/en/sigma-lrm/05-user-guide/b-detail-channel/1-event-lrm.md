@@ -1,100 +1,100 @@
 ---
 id: doc-guideline-General-LRM
-title: Sự kiện
+title: Event
 order: 1
 ---
 
-## Điều kiện tiên quyết
+## Prerequisites
 
-Để tạo sự kiện, đảm bảo rằng đã có kênh chứa các sự kiện.
+To create an event, make sure that there is already a channel containing events.
 
-## Giao diện chi tiết kênh
+## Channel detail interface
 
-Màn hình mặc định ở giao diện danh sách kênh
+The default screen in the channel list interface
 
-Khi di chuyển chuột vào biểu tượng lịch, hệ thống sẽ hiển thị dòng **chi tiết**.
+When moving the mouse on the calendar icon, the system will display the line **details**.
 
-Người dùng CMS có thể nhấp vào biểu tượng Chi tiết trong cột hành động.
+CMS users can click the Details icon in the action column.
 
-Sau đó, hệ thống sẽ mở giao diện sự kiện với tiêu đề là **tên kênh đang được chọn**.
+After that, the system will open the event interface with the title **channel name being selected**.
 
-Trường hợp cấu hình đồng bộ kênh, một nút chủ động đồng bộ sẽ được hiển thị.
+In case of channel synchronization configuration, an active sync button will be displayed.
 
-Giao diện bao gồm hai phần:
+The interface consists of two parts:
 
-- Tab hiển thị danh sách chương trình và sự kiện.
-- Tab cung cấp thông tin chi tiết kênh.
+- The tab displays a list of programs and events.
+- The tab provides channel insights.
 
-## Dòng thời gian sự kiện
+## Event timeline
 
-Hiển thị mặc định trung tâm giao diện chi tiết kênh. Bắt đầu từ 00:00:00 đến 23:59:59 hiển thị tất cả các chương trình, loại sự kiện trong ngày.
+Displays the default hub view of channel details. Starting from 00:00:00 to 23:59:59 displays all programs, types of events of the day.
 
-### Trạng thái
+### Condition
 
-Mỗi sự kiện, ngay sau khi được tạo, sẽ được phân loại vào 4 trạng thái khác nhau: Chuẩn bị, Sẵn sàng, Hoàn thành và Lỗi. Các trạng thái này được xác định dựa trên sự so sánh giữa thời gian của sự kiện và thời gian thực.
+Each event, as soon as it is created, will be categorized into 4 different statuses: Prepared, Ready, Complete, and Faulty. These states are determined based on a comparison between the time of the event and the real-time.
 
-- **Chuẩn bị**: Thời gian hiện tại là **trước** thời gian bắt đầu chạy của sự kiện.
-- **Sẵn sàng:** Sự kiện đang trong thời gian chạy. Hiển thị nội dung đa phương tiện
-- **Hoàn thành:** Thời gian hiện tại là **sau** thời gian kết thúc chạy của sự kiện.
-- **Lỗi:** Trong quá trình hệ thống kiểm tra sự kiện gặp vấn đề( mất tín hiệu, gián đoạn,...).
+- **Prepare**: The current time is **previous** of the event's start time.
+- **Ready:** The event is in runtime. Display multimedia content
+- **Complete:** The current time is **after** the end time of the event.
+- **Error:** During the system check the event encountered a problem (signal loss, interruption,...).
 
-_Trường hợp loại sự kiện là VOD, sự kiện mới luôn ở trạng thái sẵn sàng._
+_Where the event type is VOD, the new event is always available._
 
 ### Button
 
-Đầu tiên, bạn cần lựa chọn một ngày làm bộ lọc tìm kiếm, hỗ trợ người dùng trong quá trình tìm kiếm và cung cấp cái nhìn tổng quan.
+First, you need to select a date as a search filter, assist users in the search process and provide an overview.
 
-_Lưu ý: Tất cả các chương trình thực hiện được giới hạn trong phạm vi ngày mà bạn đã chọn._
+_Note: All programs performed are limited to the date range you selected._
 
-Mỗi nút thực hiện một nhiệm vụ riêng biệt, vui lòng xem cách mỗi button thực hiện chức năng của mình.
+Each button performs a distinct task, please see how each button performs its function.
 
-- [Nhập chương trình](./2-epg/2.5-import-epg.md)
+- [Import program] (./2-epg/2.5-import-epg.md)
 
-- [Xuất chương trình](./2-epg/2.6-export-epg.md)
+- [Export program] (./2-epg/2.6-export-epg.md)
 
-- [Tạo chương trình](./2-epg/2.1-create-epg.md)
+- [Create program] (./2-epg/2.1-create-epg.md)
 
-- [Thêm sự kiện](./3-event/1-create-event.md)
+- [Add event] (./3-event/1-create-event.md)
 
-### Hiển thị
+### Display
 
-Sau khi tạo mới sự kiện, thông tin về sự kiện bao gồm **Tên sự kiện** và **khoảng thời gian** tương ứng sẽ xuất hiện trên dòng thời gian.
+After creating a new event, information about the event including **Event Name** and **duration** respectively will appear on the timeline.
 
-Chia làm 2 loại:
+Divided into 2 types:
 
-1. Chương trình
+1. Program
 
-Các chương trình gốc có thời lượng chạy xuyên suốt trong ngày. Thời gian kết thúc của chương trình liền trước là thời gian bắt đầu của chương trình liền sau.
+Original shows run throughout the day. The end time of the preceding program is the start time of the next program.
 
-- Hiển thị các tag **ẩn** với các chương trình đã được ẩn.
-- Nhấp vào chương trình hiển thị cửa sổ [thông tin chương trình](2-epg/2.2-epg-list.md#xem-thông-tin-từng-chương-trình).
+- Show hidden tags with programs that have been hidden.
+- Clicking on the program displays the [program information] window(2-epg/2.2-epg-list.md#view-info-per-program).
 
-2. Sự kiện
-   Hiển thị thêm nội dung đa phương tiện
-   Ba loại sự kiện: SCTE35, Live, VOD
+2. Event
+   Show more media content
+   Three types of events: SCTE35, Live, VOD
 
-- Hiển thị **nội dung đa phương tiện** với loại sự kiện **Live** và loại sự kiện **VOD**|hình thức **nội dung thay thế**.
-- Hiển thị biểu tượng **đồng hồ** (hover để xem Lịch sự kiện) cho những sự kiện với kiểu xuất bản là lập lịch.
+- Display **rich media content** with event type \*\*Live \*\* and event type **VOD**|form **alternate content**.
+- Display a **clock** icon (hover to view Event Calendar) for events with scheduling publishing type.
 
 <!-- - Hiển thị biểu tượng **đồng bộ** (hover để xem Đã đồng bộ) cho những sự kiện đã được đồng bộ. -->
 
-- Nhấp vào sự kiện hiển thị cửa sổ [cập nhật sự kiện](./3-event/3-event/3.2-edit.md).
+- Clicking the event displays the [update event] window(./3-event/3-event/3.2-edit.md).
 
-Các element khác trong giao diện:
+Other elements in the interface:
 
-- **Thanh trượt** chạy từ 00:00 đến 24:00 của 1 ngày và cách đều nhau 6 tiếng, người dùng có thể thực hiện các thao tác trượt đoạn thời gian giúp lọc thông tin trên dòng dự kiện.
-- **Phân đoạn thời gian** bắt đầu từ 00:00 đến 24:00 trong một ngày, được chia đều thành các đoạn thời gian 1 giờ giúp hiển thị đánh dấu mốc thời gian trên dòng thời gian và người dùng có thể thực hiện các thao tác trượt trên đoạn thời gian.
-- **Di chuyển đến hiện tại**: **Chỉ sử dụng với ngày hiện tại**, nhấp vào biểu tượng và dòng thời gian sẽ chuyển đến mốc thời gian hiện tại.
-- **Phóng to**: Cung cấp mức độ phóng to từ 50% đến 200% cho khoảng thời gian đều để xem chi tiết các sự kiện. Mặc định 100%.
-- **Trục thời gian thực**: là dấu gạch đứng trên giao diện, luôn biến động theo thời gian thực.
-- **Thanh cuộn ngang**
+- **Slider** runs from 00:00 to 24:00 of 1 day and 6 hours apart, users can perform time sliding operations to help filter information on the event line.
+- **Time Segment** starts from 00:00 to 24:00 in a day, is evenly divided into 1-hour time segments that display timestamp markers on the timeline and users can perform sliding operations on the timeline.
+- **Move to current**: **Use only with current date**, click the icon and the timeline will move to the current timeline.
+- **Zoom in**: Provides a zoom level of 50% to 200% for an even period of time to drill down into events. 100% default.
+- **Real-time axis**: is a dash on the interface, always fluctuating in real time.
+- **Horizontal scrollbar**
 
-## Danh sách
+## List
 
-Ba danh sách ở section cuối, mặc định hiển thị danh sách chương trình.
+The three lists in the last section, by default, show the program list.
 
-- [Danh sách chương trình](./2-epg/2.2-epg-list.md)
+- [Program List] (./2-epg/2.2-epg-list.md)
 
-- [Danh sách sự kiện](./3-event/3-event/3.1-view.md)
+- [List of events] (./3-event/3-event/3.1-view\.md)
 
-- [Danh sách sự kiện lập lịch](./3-event/2-event-echedule/2.1-view.md)
+- [List of scheduling events] (./3-event/2-event-echedule/2.1-view\.md)
