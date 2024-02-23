@@ -1,13 +1,13 @@
 ---
-title: "B2: Tạo mới đầu vào"
+title: "Step 2: Create new input"
 order: 4
 ---
 
-# Bước 2: Tạo mới đầu vào
+# Step 2: Create new input
 
-Bạn phải tạo một đầu vào. Đầu vào xác định luồng dữ liệu media mà hệ thống Sigma Transcode Live sử dụng để chuyển mã hoặc đóng gói.
+You must create an input. The input identifies the media data stream that the Sigma Transcode Live system uses for transcoding or packaging.
 
-Hệ thống Sigma Streaming Platform hỗ trợ các chuẩn đầu vào sau:
+The Sigma Streaming Platform system supports the following input standards:
 
 - MPEG-TS over multicast UDP
 - RTMP push
@@ -17,26 +17,26 @@ Hệ thống Sigma Streaming Platform hỗ trợ các chuẩn đầu vào sau:
 - SRT push
 - SRT pull
 
-**Ví dụ về tạo 1 đầu vào UDP multi cast**
+**Example of creating 1 multi cast UDP input**
 
-1. Đăng nhập vào Sigma Streaming portal và mở Transcode Live
+1. Log in to the Sigma Streaming portal and open Transcode Live
 
-2. Nhấn nút **Add** ở menu **Input** trong mục **Transcode**. Giao diện khởi tạo Input sẽ hiện lên
+2. Click the Add\*\*\* button in the **Input** menu in the Transcode\*\* section. The Input initialization interface will appear
 
-3. Nhập các thông tin cần thiết
-   1. **Tên** của input
-   2. **Redundancy** chọn **single**
-   3. **Type** chọn **UDP**
-   4. **Primary Source** điền thông tin về luồng đã chuẩn bị ở bước 1 [Cài đặt luồng đầu vào](./b-step1.md)
-   5. **Primary Interface Network** vui lòng chọn 1 card mạng nhận luồng udp multicast này bỏ qua
+3. Enter the required information
+   1. **Name** of input
+   2. **Redundancy** select **single**
+   3. **Type** select **UDP**
+   4. **Primary Source** fill in the prepared flow information in step 1 [Input Flow Settings](./b-step1.md)
+   5. **Primary Interface Network** Please select 1 network card that receives this multicast UDP stream bypassing
 
-![Tạo Input](/images/media-live/um-create-input.png)
+! [Create Input] (/images/media-live/um-create-input.png)
 
-_Lưu ý: Nếu không điền thông tin về card mạng thì hệ thống sẽ tự lấy ở card mạng mặc định của máy_
+_Note: If you do not fill in the information about the network card, the system will automatically get it from the default network card of the machine_
 
-### Chi tiết cấu hình đầu vào
+### Input configuration details
 
-Vui lòng xem tại:
+Please visit:
 
-1. [Cấu hình đầu vào cho kênh Transcode](../05-resource-input/01-transcode-input.md)
-2. [Cấu hình đầu vào cho kênh Package](../05-resource-input/02-package-input.md)
+1. [Input configuration for Transcode channel] (.. /05-resource-input/01-transcode-input.md)
+2. [Input Configuration for Package Channel] (.. /05-resource-input/02-package-input.md)
