@@ -1,14 +1,14 @@
 ---
-title: Begin
+title: Bắt đầu
 order: 1
 ---
 
-The steps to prepare to be able to create 1 livestream channel you can refer to the following:
+Các bước chuẩn bị để có thể khởi tạo 1 kênh livestream bạn có thể tham khảo sau đây:
 
-1. First, it is necessary to prepare 1 **Sigma Live Server** to be able to do full tasks related to video content processing. Sigma Live Server provides components that handle the following steps:
-   - **Ingest Server**: Receive input signal from RTMP or WebRTC via WHIP protocol
-   - **Encoding**: Transcoding and processing media data
-   - **Packaging**: Package content into HLS or DASH
-   - **Origin**: Store packaged content and serve as a feed to distribute content to users
+1. Đầu tiên cần chuẩn bị 1 máy chủ **Sigma Live Server** để có thể làm các tác vụ đầy đủ liên quan đến việc xử lý nội dung video. **Sigma Live Server** cung cấp các component xử lý các bước như sau:
+   - **Ingest Server**: Nhận tín hiệu đầu vào từ RTMP hoặc WebRTC qua giao thức WHIP
+   - **Encoding**: Chuyển mã và xử lý dữ liệu media data
+   - **Packaging**: Đóng gói nội dung thành HLS hoặc DASH
+   - **Origin**: Lưu trữ nội dung đóng gói và làm nguồn cấp phân phối nội dung đến cho người dùng
 
-2. Server configuration **Sigma Live Server** for livestream
+2. Cấu hình máy chủ **Sigma Live Server** phục vụ cho livestream

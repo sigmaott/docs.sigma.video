@@ -1,45 +1,45 @@
 ---
-title: Get started with Livestream
+title: Bắt đầu với Livestream
 order: 2
 ---
 
-# Get started with Livestream
+# Bắt đầu với Livestream
 
-## Prepare access
+## Chuẩn bị quyền truy cập
 
-Before you start, you need to prepare the following tasks:
+Trước khi bắt đầu, bạn cần chuẩn bị các tác vụ sau:
 
-- Have an account that accesses the management system of **Sigma Streaming Platform**\* 'https\://portal.sigmaott.com'
-- Accounts with authorized app access with Livestream.
+- Có tài khoản truy cập hệ thống quản lý của **Sigma Streaming Platform** `https://portal.sigmaott.com`
+- Tài khoản có quyền truy cập app được phân quyền với Livestream.
 
-## Step 1: How to access the Sigma Livestream system
+## Bước 1: Cách thức truy cập vào hệ thống Sigma Livestream
 
-To use Sigma Livestream, you need to have an account and access to, view and perform allowed actions.
+Để sử dụng Sigma Livestream, bạn cần có tài khoản và quyền truy cập, xem và thực hiện các hành động được phép.
 
-1. Visit the 'https\://portal.sigmaott.com/app' link
-2. Display the App List, **select the app** to access.
-3. Display by default to the **App Overview.**
-4. In the sidebar, select the Livestream product.
-5. Displays the default **application configuration** page with first-time accounts.
+1. Truy cập vào đường link `https://portal.sigmaott.com/app`
+2. Hiển thị Danh sách App, **chọn ứng dụng** cần truy cập.
+3. Hiển thị mặc định vào trang **tổng quan ứng dụng.**
+4. Ở sidebar, chọn sản phẩm Livestream.
+5. Hiển thị trang mặc định **cấu hình ứng dụng** với tài khảon lần đầu truy cập.
 
-## Step 2:Prepare the flow
+## Bước 2:Chuẩn bị luồng
 
-The steps to prepare to be able to create 1 livestream channel you can refer to the following:
+Các bước chuẩn bị để có thể khởi tạo 1 kênh livestream bạn có thể tham khảo sau đây:
 
-1. First, it is necessary to prepare 1 **Sigma Live Server** to be able to do full tasks related to video content processing. Sigma Live Server provides components that handle the following steps:
-   - **Ingest Server**: Receive input signal from RTMP or WebRTC via WHIP protocol
-   - **Encoding**: Transcoding and processing media data
-   - **Packaging**: Package content into HLS or DASH
-   - **Origin**: Store packaged content and serve as a feed to distribute content to users
+1. Đầu tiên cần chuẩn bị 1 máy chủ **Sigma Live Server** để có thể làm các tác vụ đầy đủ liên quan đến việc xử lý nội dung video. **Sigma Live Server** cung cấp các component xử lý các bước như sau:
+   - **Ingest Server**: Nhận tín hiệu đầu vào từ RTMP hoặc WebRTC qua giao thức WHIP
+   - **Encoding**: Chuyển mã và xử lý dữ liệu media data
+   - **Packaging**: Đóng gói nội dung thành HLS hoặc DASH
+   - **Origin**: Lưu trữ nội dung đóng gói và làm nguồn cấp phân phối nội dung đến cho người dùng
 
-2. Server configuration **Sigma Live Server** for livestreaming.
+2. Cấu hình máy chủ **Sigma Live Server** phục vụ cho livestream.
 
-### Step 3: Configure the app
+### Bước 3: Cấu hình ứng dụng
 
-### Step 4: Create a new channel
+### Bước 4: Tạo mới kênh
 
-### Step 5: Create a new session
+### Bước 5: Tạo mới session
 
-### Step 6: Check the configuration
+### Bước 6: Kiểm tra cấu hình
 
-### Step 7: Clean up (Delete channel)
+### Bước 7: Dọn dẹp( Xoá kênh)

@@ -1,27 +1,27 @@
 ---
-title: Check the information
+title: Kiểm tra thông tin
 order: 3
 ---
 
-# Check the information
+# Kiểm tra thông tin
 
-Once the SSAI ad insert endpoint has been up and running, the system sends the resulting logs for tracking and fact-checking purposes. This gives users the ability to identify and offer immediate remedial solutions when needed.
+Sau khi đã thiết lập và chạy ad insert endpoint SSAI, hệ thống sẽ gửi các bản ghi kết quả cho mục đích theo dõi và kiểm tra thông tin. Điều này giúp người dùng có khả năng xác định và đưa ra các giải pháp khắc phục ngay lập tức khi cần thiết.
 
-Quality assessment monitoring information inspection interfaces include:
+Các giao diện kiểm tra thông tin theo dõi đánh giá chất lượng bao gồm:
 
-1. Customer Dashboard: This listing provides a getting started guide to make it easy for users to use the product. It includes documentation related to the product, helping users understand how to use the product in detail.
+1. Trang Customer Dashboard: Trang thông tin này cung cấp hướng dẫn sử dụng (getting started) để giúp người dùng sử dụng sản phẩm dễ dàng. Nó bao gồm tài liệu (document) liên quan đến sản phẩm, giúp người dùng hiểu rõ cách sử dụng sản phẩm một cách chi tiết.
 
-See details at [Dashboard](.. /05-user-guide/1-customer-dashboard.md)
+Xem chi tiết tại [Dashboard](../05-user-guide/1-customer-dashboard.md)
 
-2. Monitor System: This system monitoring process involves monitoring system health, checking for errors, and evaluating the load capacity of the system. This involves troubleshooting issues that cause problems successfully displaying ads.
+2. Giám sát Hệ thống (Monitor System): Quá trình giám sát hệ thống này liên quan đến theo dõi tình trạng hệ thống, kiểm tra lỗi, và đánh giá khả năng tải của hệ thống. Điều này liên quan đến việc xử lý các sự cố gây ra sự cố trong việc hiển thị quảng cáo một cách thành công.
 
-See details at [System Monitoring](.. /05-user-guide/4-statistic/f-monitor-system.md)
+Xem chi tiết tại [Giám sát hệ thống](../05-user-guide/4-statistic/f-monitor-system.md)
 
-3. Continuous Performance Review Report: The system continuously evaluates performance to provide information about operational status. This helps monitor and ensure that SSAI ad insert endpoints work stably and efficiently.
+3. Báo cáo Đánh giá Hiệu suất Liên tục: Hệ thống sẽ liên tục đánh giá hiệu suất để cung cấp thông tin về tình trạng hoạt động. Điều này giúp theo dõi và đảm bảo rằng ad insert endpoint SSAI hoạt động ổn định và hiệu quả.
 
 Topic:
 
-- [Data Report] (.. /05-user-guide/4-statistic/b-data-report.md)
-- [Event Chart] (.. /05-user-guide/4-statistic/c-event-chart/a-by-endpoint.md)
-- [Fillrate] (.. /05-user-guide//4-statistic/d-fillrate.md)
-- [System Tracking] (.. /05-user-guide/4-statistic/f-monitor-system.md)
+- [Báo cáo dữ liệu](../05-user-guide/4-statistic/b-data-report.md)
+- [Biểu đồ sự kiện](../05-user-guide/4-statistic/c-event-chart/a-by-endpoint.md)
+- [Fillrate](../05-user-guide//4-statistic/d-fillrate.md)
+- [Theo dõi hệ thống](../05-user-guide/4-statistic/f-monitor-system.md)
