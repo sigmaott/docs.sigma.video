@@ -1,28 +1,28 @@
 ---
-title: Xem thông tin chi tiết của đầu vào
+title: View the details of the input
 order: 6
 ---
 
-# Xem thông tin chi tiết của đầu vào
+# View the details of the input
 
-**Điều kiện**: Để thực hiện chức năng này, cần phải có ít nhất một đầu vào đã được tạo trước đó và hiển thị trong danh sách đầu vào.
+**Condition**: To perform this function, at least one input must have been previously created and displayed in the input list.
 
-Trên màn hình danh sách đầu vào (Transcode/Package), tại đầu vào mà bạn muốn xem thông tin
+On the input list screen (Transcode/Package), at the input where you want to view the information
 
-- Nhấn vào biểu tượng ở cột **Máy** để xem thông tin cơ bản của máy được gán, bao gồm
+- Click the icon in the **Machine** column to view basic information of the assigned machine, including
 
-![chi tiết của đầu vào](/images/media-live/input/view-input-info-1.png)
+! [details of input] (/images/media-live/input/view-input-info-1.png)
 
-- Biểu tượng trạng thái (Running, Paused, Dead , Frezeed)
-- Tên máy
-- Dung lượng bộ xử lý của máy đã sử dụng (%)
-- Dung lượng bộ nhớ của máy đã sử dụng (%)
-- Nhấn vào biểu tượng ở cột **Nguồn** để xem thông tin nguồn của đầu vào, bao gồm:
+- Status icons (Running, Paused, Dead, Frezeed)
+- Machine name
+- Processor capacity of the machine used (%)
+- Memory capacity of the machine used (%)
+- Click the icon in the **Source** column to view the source information of the input, including:
 
-![chi tiết của đầu vào](/images/media-live/input/view-input-info-2.png)
+! [details of input] (/images/media-live/input/view-input-info-2.png)
 
-- Hiển thị dữ liệu Private (Secondary) Network Interface
-- Hiển thị dữ liệu nguồn chính/phụ của từng nguồn
-- Hiển thị các thông số Video của đầu vào
-- Hiển thị các thông số Audio của đầu vào
-- Hiển thị các thông số Data của đầu vào
+- Display Private (Secondary) Network Interface data
+- Display primary/secondary source data for each source
+- Display the Video parameters of the input
+- Display the Audio parameters of the input
+- Display the Data parameters of the input
