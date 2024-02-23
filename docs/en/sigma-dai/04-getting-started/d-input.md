@@ -1,77 +1,77 @@
 ---
-title: Thao tác nhập liệu
+title: Input operations
 order: 4
 ---
 
-# Hướng dẫn cấu hình cơ bản
+# Basic configuration guide
 
-Xem mô tả các thao tác nhập liệu và submit dữ liệu.
+View descriptions of data entry operations and data submissions.
 
-## Thao tác nhập liệu
+## Input operations
 
-Có một số lưu ý và thông tin tổng quan khi người dùng tương tác với việc thêm hoặc chỉnh sửa dữ liệu trong một biểu mẫu:
+There are several caveats and overviews when users interact with adding or editing data in a form:
 
-Mỗi biểu mẫu sẽ bao gồm nhiều trường dữ liệu, và mỗi trường dữ liệu sẽ có hai phần chính: **Tiêu đề** và **Ô nhập/chọn dữ liệu**.
+Each form will consist of multiple data fields, and each data field will have two main parts: **Title** and **Data input/selector**.
 
-Phần **Tiêu đề** hiển thị thông tin về tên của trường dữ liệu. Dưới đây là một số quy tắc hiển thị chung của chương trình/hệ thống:
+The **Title** section displays information about the name of the data field. Here are some general program/system display rules:
 
-- Các trường dữ liệu bắt buộc sẽ được đánh dấu bằng **dấu sao đỏ phía sau**. Trường dữ liệu không được bỏ trống, người dùng phải nhập dữ liệu trước khi có thể lưu thông tin.
-- Định dạng ngày giờ sẽ theo mẫu YYYY/MM/DD HH:mm:ss.
+- Required data fields will be marked with a red asterisk after them. The data field must not be left blank, the user must enter data before the information can be saved.
+- The date and time format will follow the form YYYY/MM/DD HH:mm:ss.
 
-Phần **Ô nhập/chọn dữ liệu** cho phép người dùng nhập hoặc chọn dữ liệu theo mong muốn của họ.
+The Data input/selection box allows users to enter or select data according to their wishes.
 
-Ngoài ra, một số trường sẽ có **giới hạn ký tự**, và chỉ cho phép một số ký tự nhất định.
+In addition, some fields will have a **character limit**, and only allow certain characters.
 
-Ví dụ, một trường có thể giới hạn là 0/50, nghĩa là người dùng không thể nhập thêm ký tự thứ 51 và sau đó.
+For example, a field can be limited to 0/50, meaning that users cannot enter additional 51st characters and later.
 
-![](/images/dai/limit-text.png)
+! 
 
-Dữ liệu người dùng đôi khi cần được xác thực để đảm bảo hợp lệ, khi dữ liệu người dùng nhập không hợp lệ sẽ có **thông báo lỗi màu đỏ** hiển thị ngay phía dưới.
+User data sometimes needs to be validated to ensure validity, when the user data entered is invalid, there will be a red error message displayed just below.
 
-Việc xác thực dữ liệu người dùng là cần thiết để đảm bảo tính hợp lệ. Trong trường hợp dữ liệu người dùng nhập không hợp lệ, hệ thống sẽ hiển thị **thông báo lỗi màu đỏ** ngay bên dưới.
+Validation of user data is necessary to ensure validity. In case the user data entered is invalid, the system will display a red \*\*\* error message directly below.
 
-Nội dung của thông báo lỗi sẽ thay đổi tùy thuộc vào từng trường hợp cụ thể. Dưới đây là ví dụ về một số loại thông báo khác:
+The content of the error message will vary depending on the specific case. Here are examples of some other types of notifications:
 
-![](/images/dai/error-empty.png)
+! 
 
-_Hình 1. Lỗi bỏ trống trường_
+_Figure 1. Field blank error_
 
-![](/images/dai/error-invalid.png)
+! 
 
-_Hình 2. Lỗi nhập ký tự không hợp lệ_
+_Figure 2. Invalid character input error_
 
-![](/images/dai/error-invalid-link.png)
+! 
 
-_Hình 3. Lỗi nhập không đúng định dạng_
+_Figure 3. Misformatted import error_
 
-## Submit dữ liệu
+## Submit data
 
-### Thực hiện tác vụ thành công
+### Perform the task successfully
 
-Khi người dùng xác nhận lưu trữ dữ liệu trong biểu mẫu bằng cách nhấn nút **Lưu**, hệ thống sẽ thực hiện tác vụ và sau đó thông báo kết quả cho người dùng.
+When the user confirms to store data in the form by pressing the **Save** button, the system performs the task and then communicates the result to the user.
 
-Nếu tác vụ được thực hiện thành công, sẽ hiển thị một thông báo ở phía trên của màn hình trình duyệt với các đặc điểm sau:
+If the task is performed successfully, a message is displayed at the top of the browser screen with the following characteristics:
 
-- Tiêu đề: Hiển thị câu lệnh và chi tiết (không bắt buộc).
-- Nền màu: màu xanh lá
-- Biểu tượng:
-  - Icon dấu tick màu xanh lá - phía trước: đánh dấu thông báo.
-  - Biểu tượng X: Nhấp vào đây để đóng thông báo ngay lập tức.
+- Title: Shows statements and details (optional).
+- Background color: green
+- Symbol:
+  - Green tick icon - front: notification marker.
+  - X icon: Click here to close the notification immediately.
 
-Hiển thị trong vòng 5 giây và tự động biến mất sau khi đã **thực hiện lệnh**.
+Displays within 5 seconds and automatically disappears after **executing command**.
 
-### Thực hiện tác vụ không thành công
+### Task execution failed
 
-Nếu tác vụ không thành công, sẽ hiển thị một thông báo màu đỏ, kèm theo nội dung lỗi ở phía trên của màn hình trình duyệt. Nội dung lỗi sẽ thay đổi tùy theo từng trường hợp lỗi cụ thể.
+If the task fails, a red message with error content will be displayed at the top of the browser screen. The content of the error will vary depending on the specific case of the error.
 
-![](/images/dai/error-500.png)
+! 
 
-_Hình 4. Lỗi hệ thống_
+_Figure 4. System error_
 
-- Tiêu đề: ghi rõ lí do không hợp lệ.
-- Nền màu: màu đỏ
-- Biểu tượng:
-  - Biểu tượng X:- phía trước: đánh dấu thông báo.
-  - Biểu tượng X: Nhấp vào đây để đóng thông báo ngay lập tức.
+- Title: specify the reason for the invalidity.
+- Background color: red
+- Symbol:
+  - X icon:- ahead: bookmark the notification.
+  - X icon: Click here to close the notification immediately.
 
-Hiển thị trong vòng 5 giây và tự động biến mất- hệ thống **không thực hiện lệnh**.
+Displays within 5 seconds and disappears automatically- system **does not execute command**.
