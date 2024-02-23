@@ -1,4 +1,4 @@
 ---
-title: Quản lí đầu vào
+title: Input Management
 order: 4
 ---
