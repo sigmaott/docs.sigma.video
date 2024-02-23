@@ -1,28 +1,28 @@
 ---
-title: "B1: Cài đặt luồng tín hiệu"
+title: "S1: Signal flow settings"
 order: 3
 ---
 
-## Cách thức truy cập
+## How to access
 
-1. Kết nối đến hệ thống giao diện biện tập của Sigma Media Live
-2. Trên **Sidebar Menu** chọn **Media live** rồi chọn \*\* Transcode Channel\*\*. Giao diện danh sách kênh sẽ mở ra
-3. Nhấn **Add** để mở giao diện tạo kênh mới. Trong giao diện tuỳ chọn tạo kênh vui lòng chọn **manual** => **package** để vào màn hình tạo kênh đóng gói
-4. Tại màn hình cấu hình kênh đóng gói. Cấu hình đầu vào (**Input**) mong muốn đóng gói. Bạn có thêm 1 hoặc nhiều **Input** mong muốn
-5. Chọn đầu ra (**Target**) muốn đóng gói và cấu hình các tham số cơ bản
-6. Tạo kênh và chạy kênh mong muốn
+1. Connect to Sigma Media Live's editorial interface system
+2. On the Sidebar Menu, select Media live, and then select Transcode Channel. The channel list interface opens
+3. Click **Add** to open the new channel creation interface. In the channel creation options interface, please select **manual** => **package** to enter the packaged channel creation screen
+4. At the packaging channel configuration screen. Configure the desired input (**Input**) to encapsulate. You have 1 or more more desired inputs
+5. Select the output (**Target**) you want to encapsulate and configure the basic parameters
+6. Create a channel and run the desired channel
 
-## Bước 1: Cài đặt luồng tín hiệu
+## Step 1: Set up the signal flow
 
-Hệ thống **tín hiệu đầu vào** là hệ thống truyền tải các nội dung đa phương tiện tới Sigma Machine (Máy xử lý nội dung). Bạn phải thực hiện một số thiết lập hệ thống tín hiệu đầu vào của mình trước khi bắt đầu làm việc với **Sigma Media Live**.
+An input system is a system that transmits multimedia content to a Sigma Machine. You must do some setup of your input signal system before you start working with Sigma Media Live.
 
-Có 2 phương thức truyền tín hiệu đầu vào là :
+There are 2 input signal transmission methods:
 
-- Phương thức đẩy
-- Phương thức kéo
+- Propulsion method
+- Drag method
 
-Trong hướng dẫn này sẽ ví dụ việc thiết lập tín hiệu đầu vào đối với dạng tín hiệu là **MPEG-TS** truyền qua giao thức **multicast UDP**.
+In this tutorial, we will for example setting the input signal to MPEG-TS\*\* transmitted over the **multicast UDP protocol**.
 
-Với giao thức lấy tín hiệu từ multicast UDP, cần sẵn sàng luồng tín hiệu có thể kéo được từ máy đóng gói (Sigma Packager) đã được chuẩn bị sẵn cho tín hiệu này qua một card mạng đã được định sẵn.
+With the protocol for retrieving the signal from UDP multicast, it is necessary to have ready the signal stream that can be pulled from the prepared package (Sigma Packager) for this signal through a predetermined network card.
 
-Ghi lại các địa chỉ IP của luồng UDP và card mạng chứa tín hiệu đó để có thể thiết lập ở bước tiếp theo.
+Make a note of the IP addresses of the UDP stream and the network card containing that signal so that it can be set up in the next step.
