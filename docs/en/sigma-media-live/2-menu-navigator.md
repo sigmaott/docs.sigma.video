@@ -1,124 +1,124 @@
 # Menu And Navigator
 
-Có nhiều tùy chọn điều hướng trong Bộ điều khiển. Một số tùy chọn menu phụ thuộc vào phiên bản Sigma OTT mà bạn đã cài đặt.
+There are multiple navigation options in the Controller. Some menu options depend on the version of Sigma OTT that you have installed.
 
 ## Home page and dashboard overviews
 
-Màn hình Dashboard hiển thị các thông tin cơ bản, tổng quan về các dịch vụ đang chạy trên hệ thống. Trong đó:
+The Dashboard screen displays basic information, an overview of the services running on the system. Where:
 
 1. Transcode state
 
-Hiển thị các thông tin tổng quan về dịch vụ **Transcode & Package**
+Display service overview **Transcode & Package**
 
-![Trạng thái Kênh transcode / packager](/images/media-live/um-dashboard/transcode.png)
+! [Transcode/packager Channel Status] (/images/media-live/um-dashboard/transcode.png)
 
 2. Machine state
 
-Hiển thị các thông tin liên quan đến máy chủ **Transcode & Package**
+Display server-related information **Transcode & Package**
 
-![Trạng thái máy chủ](/images/media-live/um-dashboard/machine.png)
+! [Server Status] (/images/media-live/um-dashboard/machine.png)
 
 1. Origin state
 
-Hiển thị thông tin liên quan đến KPI hệ thống Origin bao gồm
+Display information related to Origin system KPIs including:
 
-- **Request Rate**: Tỷ lệ request yêu cầu hệ thống
+- **Request Rate**: The rate of system requests
 
-- **Response success rate**: Tỷ lệ request thành công / thất bại
+- **Response success rate**: Success / failure rate
 
-- **Bandwidth**: Băng thông hệ thống trả về
+- **Bandwidth**: The returned system bandwidth
 
-- **quantile Response Times**: Cung cấp các giá trị **P99**, **P90**, **P50** ứng với các request
+- **quantile Response Times**: Provide the values **P99**, **P90**, **P50** corresponding to requests
 
-- Note: Các request đến Origin được chia làm 2 loại **segment** (Request yêu cầu tập tin media- ts, m4v), **manifest** (request yêu cầu tập tin manifest - m3u8, mpd)
+- Note: Requests to Origin are divided into 2 types **segment** (Request for media- ts, m4v file), **manifest** (request for manifest file - m3u8, mpd)
 
-![Trạng thái hệ thống origin](/images/media-live/um-dashboard/origin.png)
+! [System status origin] (/images/media-live/um-dashboard/origin.png)
 
 ## **Menu panel**
 
-Danh sách menu tính năng hệ thống. Danh sách này sẽ phụ thuộc vào gói tính năng hệ thống mà bạn được cung cấp
+List of system features menus. This list will depend on the system feature pack you are provided with
 
-![Danh sách menu](/images/media-live/um-panel-menu.png){ width=150px }
+! [Menu List] (/images/media-live/um-panel-menu.png) { width=150px }
 
 ## Breadcrumb
 
-Breadcrumb hiển thị các liên kết người dùng đã truy cập trước đó. Nội dung breadcrumb hiển thị phía trên của màn hình trình duyệt.
+Breadcrumbs show links users have visited before. The breadcrumb content is displayed at the top of the browser screen.
 
-![Breadcrumb](/images/media-live/um-breadcrumb/sample.png)
+! [Breadcrumb] (/images/media-live/um-breadcrumb/sample.png)
 
 ## Header Menu
 
-![Header Menu](/images/media-live/um-header-menu/main.png)
+! [Header Menu] (/images/media-live/um-header-menu/main.png)
 
-Bao gồm 3 tùy chọn:
+Includes 3 options:
 
-- Bật/tắt chế độ xem toàn bộ màn hình.
-- Tùy chỉnh kích thước font chữ.
-- Thao tác với tài khoản người dùng.
+- Toggle full screen view on/off.
+- Customize the font size.
+- Manipulation of user accounts.
 
-### Bật/tắt chế độ xem toàn bộ màn hình
+### Enable/disable full screen view
 
-![Fullscreen Menu](/images/media-live/um-header-menu/fullscreen.jpg)
+! [Fullscreen Menu] (/images/media-live/um-header-menu/fullscreen.jpg)
 
-Cho phép người dùng bật/tắt chế độ xem toàn bộ màn hình.
+Allows users to enable/disable full screen view.
 
-Mặc định chế độ này được không được kích hoạt.
+By default, this behavior is not enabled.
 
-Khi được kích hoạt, nội dung ứng dụng sẽ hiển thị tràn ra toàn bộ màn hình.
+When activated, the app content will overflow to the entire screen.
 
-### Tùy chỉnh kích thước font chữ
+### Customize font size
 
-![Fontsize Menu](/images/media-live/um-header-menu/font-size.jpg)
+! [Fontsize Menu] (/images/media-live/um-header-menu/font-size.jpg)
 
-Thiết lập kích thước font chữ cho toàn bộ ứng dụng.
+Set the font size for the entire application.
 
-Bao gồm 4 tùy chọn `Default`, `Medium`, `Small` và `Mini` tương ứng với 4 kích thước _Mặc định_, _Trung bình_, _Nhỏ_ và _Rất nhỏ_.
+Includes 4 options 'Default', 'Medium', 'Small' and 'Mini' corresponding to 4 sizes _Default_, _Medium_, _Small_ and _Very small_.
 
-Sau khi chọn 1 trong 4 tùy chọn trên, kích thước font chữ ứng dụng sẽ thay đổi tương ứng.
+After selecting 1 of the 4 options above, the application font size will change accordingly.
 
-### Theo tác với tài khoản người dùng
+### Follow the interaction with the user account
 
-![Profile User](/images/media-live/um-header-menu/profile.jpg)&ensp;
-![Home Profile User](/images/media-live/um-header-menu/home-profile.jpg)&ensp;
-![Change Password Profile User](/images/media-live/um-header-menu/change-pwd-profile.jpg)&ensp;
-![Logout Profile User](/images/media-live/um-header-menu/logout-profile.jpg)
+! [Profile User] (/images/media-live/um-header-menu/profile.jpg)&ensp;
+! [Home Profile User] (/images/media-live/um-header-menu/home-profile.jpg)&ensp;
+! [Change Password Profile User] (/images/media-live/um-header-menu/change-pwd-profile.jpg)&ensp;
+! [Logout Profile User] (/images/media-live/um-header-menu/logout-profile.jpg)
 
-Cho phép người dùng thao tác với tài khoản sau khi đăng nhập vào hệ thống.
+Allows users to manipulate accounts after logging into the system.
 
-Bao gồm 4 tùy chọn `Home`, `Change password` và `Log out`.
+Includes 4 options 'Home', 'Change password' and 'Log out'.
 
-- `Home` điều hướng người dùng về **Trang chủ**.
-- `Change password` thay đổi mật khẩu tài khoản người dùng. Tùy chọn này sẽ điều hướng người dùng sang trang **Đổi mật khẩu**.
-- `Logout` đăng xuất tài khoản hiện tại và điều hướng người dùng sang trang **Đăng nhập**.
+- 'Home' redirects the user back to **Home**.
+- 'Change password' changes the user account password. This option will redirect the user to the **Change password** page.
+- 'Logout' logs out of the current account and redirects the user to the **Login** page.
 
-## Danh sách quản lý máy chủ
+## List of managed servers
 
-Mục  **Máy chủ** hiển thị thông tin hệ thống để giám sát và quản lý máy chủ. Các trạng thái của máy chủ gồm:
+The **Server** section displays system information for monitoring and managing the server. The status of the server includes:
 
-- **live**: Máy chủ đã đăng kí và còn kết nối đến hệ thống điểu khiển
-- **dead**: Máy chủ đã đăng kí nhưng không còn kết nối đến hệ thống điều khiển
+- **live**: The server is registered and still connected to the control system
+- **dead**: The server is registered but no longer connected to the control system
 
-Hệ thống **Sigma Transcoder** quản lý 2 dạng máy chủ:
+The Sigma Transcoder system manages 2 types of servers:
 
-- **Transcode**: Thực hiện các tác vụ chuyển mã nội dung đa phương tiện
-- **Package**: Thực hiện các tác vụ đóng gói
+- **Transcode**: Performs multimedia content transcoding tasks
+- **Package**: Perform packaging tasks
 
-![Phân loại máy chủ](/images/media-live/um-machine-tab.png)
+! [Server classification] (/images/media-live/um-machine-tab.png)
 
-Trên màn hình giao diện hệ thống bạn có thể liệt kê và theo dõi các máy chủ theo các mục khác nhau
+On the system interface screen, you can list and monitor servers by different items:
 
-![Danh sách máy chủ](/images/media-live/um-machine-list.png)
+! [Server List] (/images/media-live/um-machine-list.png)
 
-Trong đó:
+Where:
 
-| tiêu đề     | Mô tả                                                                  |
-| ----------- | ---------------------------------------------------------------------- |
-| **#**       | Số thứ tự của máy chủ                                                  |
-| **Machine** | Địa chỉ của máy chủ đăng kí                                            |
-| **GPU**     | Máy có sử dụng **GPU** hay không                                       |
-| **CPU**     | Máy có sử dụng **CPU**                                                 |
-| **Task**    | Số lượng tác vụ đang được thực thi trên máy chủ                        |
-| **Speed**   | Tốc độ thực thi tác vụ thấp nhất trên máy chủ (0-1) |
-| **Percent** | % tải của máy chủ đang thực thi tác vụ                                 |
-| **Ram**     | % Ram máy chủ đang sử dụng                                             |
-| **status**  | Trạng thái của máy chủ **live** hoặc **dead**                          |
+| headline    | Describe                                                       |
+| ----------- | -------------------------------------------------------------- |
+| **#**       | Server sequence number                                         |
+| **Machine** | Address of the registered server                               |
+| **GPU**     | Does the machine use **GPU** or not                            |
+| **CPU**     | The machine uses **CPU**                                       |
+| **Task**    | The number of tasks being executed on the server               |
+| **Speed**   | Lowest task execution speed on server (0-1) |
+| **Percent** | %load of the server executing the task                         |
+| **Ram**     | % Ram server in use                                            |
+| **Status**  | Server status **live** or **dead**                             |
