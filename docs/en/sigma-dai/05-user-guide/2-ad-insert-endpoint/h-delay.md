@@ -3,60 +3,60 @@ title: Delay ad
 order: 8
 ---
 
-# What is an ad delay?
+# Delay quảng cáo là gì?
 
-SCT35 signal will come before 1 interval, the desired insertion time With the time of delay configuration, when creating a new channel or inserting ads, the user will be configured to specify the desired delay period in the pop-up to create a new channel with Actor CMS User via the Web platform.
+Tín hiệu SCT35 sẽ đến trước 1 khoảng thời gian, thời điểm chèn đúng mong muốn với thời điểm cấu hình delay,  khi tạo mới kênh hoặc chèn quảng cáo, người dùng sẽ được cấu hình để xác định khoảng thời gian delay mong muốn ở pop-up tạo mới kênh  với Actor CMS User thông qua nền tảng Web.
 
-The SCTE-35 (Society of Cable and Telecommunications Engineers 35) signal is part of the SCTE standard and is used in television and cable television systems to insert and manage advertisements. The SCTE-35 signal delay feature is used to ensure that the SCTE-35 signal will arrive a certain amount of time before the desired advertisement insertion time. This can make ad insertion more accurate and ensure that ads aren't cut across or excessively stretched.
+Tín hiệu SCTE-35 (Society of Cable and Telecommunications Engineers 35) là một phần của tiêu chuẩn SCTE và được sử dụng trong hệ thống truyền hình và truyền hình cáp để chèn và quản lý quảng cáo. Tính năng delay tín hiệu SCTE-35 được sử dụng để đảm bảo rằng tín hiệu SCTE-35 sẽ đến trước một khoảng thời gian nhất định so với thời điểm chèn quảng cáo mong muốn. Điều này có thể làm cho việc chèn quảng cáo trở nên chính xác hơn và đảm bảo rằng quảng cáo không bị cắt ngang hoặc kéo dài quá mức.
 
-The SCTE-35 signal delay feature helps ensure that ads appear in time and do not conflict with the main video content. This enhances the viewer experience and helps ads to be shown in the most effective way on television and cable systems.
+Tính năng delay tín hiệu SCTE-35 giúp đảm bảo rằng quảng cáo sẽ xuất hiện đúng lúc và không gây xung đột với nội dung video chính. Điều này làm tăng trải nghiệm của người xem và giúp quảng cáo được hiển thị theo cách hiệu quả nhất trên các hệ thống truyền hình và truyền hình cáp.
 
-## Configure delay ad
+## Cấu hình delay ad
 
-As a field in Create a new channel, the flow creates a new ad insert endpoint.
+Là một trường trong tạo mới kênh, luồng tạo mới ad insert endpoint.
 
-The rules displayed on the interface:
+Các rule hiển thị trên giao diện:
 
-- Enter input >60 → auto displays about 60
+- Nhập input >60 → auto hiển thị về 60
 
-- Button **"-"/"+"**: Click to increase/decrease 1 value
+- Nút **"-"/"+"**: Click để tăng/giảm 1 giá trị
 
-- Automatically removes special characters, letters, and spaces → returns default values when moving focus outside the textbox.
+- Tự động xóa ký tự đặc biệt, chữ và dấu cách →  trả về giá trị mặc định khi chuyển focus ra ngoài textbox.
 
-## Output requirements
+## Yêu cầu đầu ra
 
-Delay **exactly** the time of ad insertion must be later than the initial time attached in the SCTE-35 signal at set intervals.
+Delay **chính xác** thời điểm chèn quảng cáo phải trễ so với thời điểm ban đầu đã gắn kèm trong tín hiệu SCTE-35 theo khoảng thời gian đã đặt.
 
-Check that the HLS/DASH play link has the Advertisement Insertion Delay configuration.
+Kiểm tra play link HLS/ DASH có cấu hình Advertisement Insertion Delay.
 
-1. CMS implements:
+1. CMS thực hiện:
 
 ```
 Set Advertisement Insertion Delay= 0
 ```
 
-→ Player executes:
+→ Player thực hiện:
 
-- Play ads quickly, after running out of SCTE-35 (0s) signals.
+- Phát quảng cáo nhanh, sau khi chạy hết tín hiệu SCTE-35 (0s).
 
-- The user will not see the SCTE-35 signal.
+- User sẽ không nhìn thấy tín hiệu SCTE-35.
 
-2. CMS implements:
+2. CMS thực hiện:
 
 ```
 Set Advertisement Insertion Delay > 0
 ```
 
-→ Player executes:
+→ Player thực hiện:
 
-- Play ads slowly, after running out of SCTE-35 signals at the configured time (e.g., 20 seconds).
+- Phát quảng cáo chậm, sau khi chạy hết tín hiệu SCTE-35 theo thời gian đã cấu hình (vd: 20s).
 
-- The user will not see the SCTE-35 signal.
+- User sẽ không nhìn thấy tín hiệu SCTE-35.
 
-3. Check your ad's signal when SCTE-35 signals are available
+3. Kiểm tra tín hiệu của quảng cáo khi có tín hiệu SCTE-35
 
-→ Results:
+→ Kết quả:
 
-- The duration of the ad is not cut.
+- Thời lượng của quảng cáo không bị cắt.
 
-- The ad stream has no other errors.
+- Luồng quảng cáo không có lỗi phát sinh khác.
