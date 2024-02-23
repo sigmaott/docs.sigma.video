@@ -3,6 +3,6 @@ title: Cenarios
 order: 4
 ---
 
-# Common scenarios
+# Kịch bản phổ biến
 
-Describe common scenarios that can occur when using the product: specify the usecase, describe the usecase, and the solution (Recommended Feature).
+Mô tả những kịch bản phổ biến có thể diễn ra khi sử dụng sản phẩm: nêu rõ usecase, mô tả usecase và solution (Recommended Feature).
