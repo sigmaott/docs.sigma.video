@@ -3,42 +3,42 @@ title: Product overview
 order: 1
 ---
 
-# Giải pháp Chèn quảng cáo phía máy chủ là gì?
+# What is the Server-Side Ads Insertion solution?
 
-Giải pháp Chèn quảng cáo phía máy chủ (SSAI-server side ad insertion) dành riêng cho hệ thống để **quản lí** và **chạy những chiến dịch quảng cáo** Truyền hình, Sự kiện trực tuyến và VOD - cho phép lắp ráp ad insert endpoint và chèn quảng cáo có quy mô linh hoạt, ghép quảng cáo và kiếm tiền từ quảng cáo trên bất kỳ nền tảng video nào dựa trên đám mây.
+System-specific server-side ad insertion (SSAI) solution to manage and run TV, Online Events and VOD campaigns - enables scalable ad insertion and ad insertion, ad merging and ad monetization on any cloud-based video platform.
 
-Với SSAI, bạn có thể phân phát nội dung quảng cáo được nhắm mục tiêu tới người xem và tạo luồng tuyến tính trong khi vẫn duy trì chất lượng phát sóng trong các ứng dụng video vượt trội (OTT). Chèn quảng cáo SSAI **hỗ trợ xử lý với lượng lớn người dùng** đồng thời Sigma DAI cho phép thay thế một-một và chèn quảng cáo Truyền phát trực tiếp HTTP (HLS) và Truyền phát thích ứng động MPEG qua HTTP (DASH) cho video theo yêu cầu (VOD) và các luồng trực tiếp.
+With SSAI, you can serve ad content targeted to viewers and create linear streams while maintaining broadcast quality in superior video (OTT) applications. SSAI ad insertion **supports handling with a large number of users** and Sigma DAI allows one-to-one replacement and insertion of HTTP Direct Streaming (HLS) and MPEG over HTTP Dynamic Adaptive Streaming (DASH) ads for video on demand (VOD) and live streams.
 
-Tính năng chèn quảng cáo phía máy chủ là sự kết hợp của thao tác với tệp kê khai, giao tiếp với máy chủ quảng cáo cũng như chuẩn hóa tốc độ bit và độ phân giải của quảng cáo, tất cả đều diễn ra ở phía máy chủ trước khi hiển thị tệp kê khai cho khách hàng. Tính năng chèn quảng cáo phía máy chủ cũng có thể được gọi là chèn quảng cáo động hoặc ghép quảng cáo.
+Server-side ad insertion is a combination of manipulating the manifest, communicating with the ad server, and normalizing the ad bitrate and resolution, all of which happens on the server side before the manifest is rendered to the client. Server-side ad insertion can also be called dynamic ad insertion or ad stitching.
 
-## Phương thức kiểm soát
+## Control methods
 
-Hệ thống Server-side ad insertion (SSAI) là một cách để chèn quảng cáo vào nội dung video trước khi nó được gửi đến người xem, thay vì chèn quảng cáo trực tiếp trong video. Điều này cho phép bạn kiểm soát quảng cáo và nội dung dựa trên nhiều phương thức, bao gồm quản lý theo ad insert endpoint, quản lý theo người dùng và quản lý theo từng quảng cáo.
+Server-side ad insertion (SSAI) systems are a way to insert ads into video content before it's sent to viewers, rather than inserting ads directly within the video. This allows you to control ads and content based on multiple methods, including ad insert endpoint management, per-user management, and per-ad management.
 
-Dưới đây là cách thực hiện quản lý theo các phương thức này:
+Here's how to implement management using these methods:
 
-- Quản lý theo ad insert endpoint
+- Manage by ad insert endpoint
 
-  - Xác định các ad insert endpoint hoặc danh mục nội dung cụ thể mà bạn muốn áp dụng quảng cáo.
-  - Sử dụng hệ thống SSAI để liên kết các quảng cáo này với ad insert endpoint hoặc danh mục tương ứng.
-  - Khi người dùng truy cập nội dung từ ad insert endpoint hoặc danh mục đó, hệ thống SSAI sẽ tự động chèn quảng cáo phù hợp vào video.
+  - Identify the specific ad inserts endpoints or categories of content to which you want to apply ads.
+  - Use the SSAI system to associate these ads with the corresponding ad insert endpoint or category.
+  - When a user accesses content from that ad insert endpoint or category, the SSAI system automatically inserts relevant ads into the video.
 
-- Quản lý theo người dùng: Người dùng truyền đoạn thay thế param có xuất hiện trong link URL. Việc xuất hiện đoạn Param giúp hệ thống dễ phân biệt, lấy dữ liệu người xem để thực hiện các truy xuất, báo cáo, thống kê,…
+- Management by user: The user transmits the alternate param that appears in the URL link. The appearance of Param makes it easy for the system to distinguish, get viewer data to perform retrievals, reports, statistics,…
 
-- Quản lí theo từng ads
-  - Mỗi quảng cáo có thể có các thông số cụ thể như vastID, thời lượng, thời gian lần đầu xuất hiện.
-  - Sử dụng hệ thống SSAI để xác định cách chèn mỗi quảng cáo dựa trên các thông số này.
+- Manage by each ad
+  - Each ad can have specific parameters such as vastID, duration, time it first appeared.
+  - Use the SSAI system to determine how to insert each ad based on these parameters.
 
-# Cách SSAI hoạt động
+# How SSAI works
 
-Việc lắp ráp ad insert endpoint SSAI giúp bạn dễ dàng kiếm tiền từ ad insert endpoint của mình bằng cách chèn các điểm ngắt quảng cáo vào luồng của bạn mà không cần phải điều kiện hóa ad insert endpoint đó bằng các điểm đánh dấu SCTE-35. Bạn có thể sử dụng ad insert endpoint lắp ráp với chèn quảng cáo SSAI hoặc dịch vụ chèn quảng cáo phía máy chủ khác.
-SSAI tương tác giữa mạng phân phối nội dung (CDN), máy chủ gốc và máy chủ quảng cáo (ADS) để quá trình quảng cáo được cá nhân hóa vào trực tiếp và video về nội dung yêu cầu. Dưới đây là tổng quan về cách chèn quảng cáo SSAI hoạt động:
+SSAI ad insert endpoint assembly makes it easy to monetize your ad insert endpoint by inserting ad breakpoints into your stream without having to conditionalize that ad insert endpoint with SCTE-35 markers. You can use ad insert endpoint assembly with SSAI ad insertion or other server-side ad insertion service.
+SSAI interacts between a content delivery network (CDN), origin server, and ad server (ADS) so that the advertising process is personalized into live and video of the requested content. Here's an overview of how SSAI ad insertion works:
 
-- Điều hoà tín hiệu đánh dấu:
-  - Lọc / Xoá các chỉ mục SCTE35 không mong muốn.
-  - Xác thực, thêm thông tin đối với marker.
-  - Thêm hoặc sửa các đánh dấu SCTE 35 dựa trên lập lịch của chương trình.
-  - Điều chỉnh các tham số của SCTE 35 Marker.
-- Cách thao tác với tệp tin Manifest.
-  - Thay thế nội dung không mong muốn.
+- Signal conditioning marker:
+  - Filter/Delete unwanted SCTE35 indexes.
+  - Authenticate, add information for markers.
+  - Add or edit SCTE 35 markers based on the program's scheduling.
+  - Adjust the parameters of the SCTE 35 Marker.
+- How to manipulate the Manifest file.
+  - Replace unwanted content.
   - Blackout.
