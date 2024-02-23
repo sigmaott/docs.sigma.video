@@ -1,22 +1,22 @@
 ---
-title: Tạo bản sao preset
+title: Make a copy of the preset
 order: 4
 ---
 
-# Tạo bản sao preset
+# Make a copy of the preset
 
-Người dùng muốn tạo 1 bản sao với preset đã có trước đó, giữ các cài đặt bắt buộc trước đó của preset
+The user wants to make 1 copy with the preset that was previously available, keeping the previously required settings of the preset
 
-**Điều kiện**: Để thực hiện quá trình này, cần phải có ít nhất 1 preset đã được tạo trước đó và hiển thị tại danh sách preset.
+**Condition**: To perform this process, it is necessary to have at least 1 preset previously created and displayed in the preset list.
 
-**Bước 1:** Tại màn hình danh sách đầu vào, nhấp vào biểu tượng **Tạo bản sao** ở cột Hành động tại trường bạn muốn tạo bản sao
+**Step 1:** At the input list screen, click the **Make copy** icon in the Action column at the field you want to duplicate
 
-Sau đó, một cửa sổ pop-up **Nhân bản preset** sẽ xuất hiện, hiển thị các thông tin đã nhập trước đó, cho phép người dùng chỉnh sửa tất cả các trường thông tin
+After that, a pop-up window will appear, displaying the previously entered information, allowing the user to edit all information fields
 
-![Tạo bản sao preset](/images/media-live/preset/duplicate-preset.png)
+! [Create preset copy] (/images/media-live/preset/duplicate-preset.png)
 
-**Bước 2:** Người dùng nhập thông tin cần thiết.
+**Step 2:** The user enters the required information.
 
-**Bước 3:** Sau khi hoàn tất, người dùng nhấn nút **Xác nhận**
+**Step 3:** Once completed, the user presses the **Confirm** button
 
-Hệ thống hiển thị thông báo thực hiện **Preset nhân bản thành công!** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
+The system displays a **Preset cloning successful!** notification in the right corner of the screen and automatically closes the notification after 5 seconds.
