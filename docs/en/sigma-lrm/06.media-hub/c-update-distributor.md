@@ -1,22 +1,22 @@
 ---
-title: Chỉnh sửa nhà phân phối
+title: Edit distributor
 order: 3
 ---
 
-# Chỉnh sửa nhà phân phối
+# Edit distributor
 
-Đối tượng sử dụng chức năng: Tài khoản CMS được cấp quyền Quản trị viên VTVhub.
+Who uses the function: The CMS account is granted VTVhub Administrator rights.
 
-**Điều kiện**: nhà phân phối đã được tạo ra trước đó và có hiển thị tại danh sách nhà phân phối. Chức năng này giúp người dùng CMS thực hiện chỉnh sửa các thông tin của nhà phân phối.
+**Condition**: the distributor has been created previously and is displayed in the distributor list. This function helps CMS users edit distributor information.
 
-**Bước 1**:  Truy cập CMS, tại sidebar chọn VTVhub, hiển thị giao diện danh sách nhà phân phối
+**Step 1**: Access CMS, at the sidebar select VTVhub, display the distributor list interface
 
-**Bước 2**: Click nút **Sửa** ở cột Hành động tại nhà phân phối muốn chỉnh sửa
+**Step 2**: Click the **Edit** button in the Distributor Action column you want to edit
 
-Hệ thống sẽ mở một cửa sổ pop-up **Chỉnh sửa nhà phân phối** với các thông tin đã được nhập trước đó, cho phép chỉnh sửa các trường thông tin: **_Tên và kênh_**
+The system will open a pop-up window **Edit distributor** with the information previously entered, allowing editing the information fields: **_Tên and kênh_**
 
-![Chỉnh sửa nhà phân phối](/images/application-vtvhub/update-distributor.png)
+! [Edit distributor] (/images/application-vtvhub/update-distributor.png)
 
-**Bước 3:** Người dùng thực hiện chỉnh sửa và sau đó nhấn nút **Xác nhận**
+**Step 3:** The user makes edits and then presses the **Confirm** button
 
-Hệ thống sẽ lưu lại thông tin mới và hiển thị thông báo `Cập nhật nhà phân phối thành công` ở giữa màn hình, sau đó tự động đóng trong vòng 5 giây.
+The system will save the new information and display the message "Distributor update successful" in the center of the screen, then automatically close within 5 seconds.
