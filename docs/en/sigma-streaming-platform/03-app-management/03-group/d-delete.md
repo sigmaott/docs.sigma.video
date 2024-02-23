@@ -1,46 +1,46 @@
 ---
-title: Xoá nhóm
+title: Delete a group
 order: 4
 ---
 
-# Xóa nhóm
+# Delete a group
 
-**Điều kiện**: Nhóm đã được tạo trước đó và đã hiển thị trong danh sách nhóm.
+**Condition**: The group was created earlier and is visible in the group list.
 
-Sau khi đã tạo và thêm thành viên nhóm, quá trình xoá các nhóm không cần thiết có thể được thực hiện như sau:
+After group members have been created and added, the process of deleting unnecessary groups can be done as follows:
 
-**Bước 1** :
+**Step 1** :
 
-Tại giao diện màn hình chính, chọn trường cần xoá. Hệ thống sẽ hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào biểu tượng `Xoá` ở cột hành động.
+At the main screen interface, select the field to delete. The system will display the **Delete** line when moving the mouse on the 'Delete' icon in the action column.
 
-Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận ở trung tâm màn hình
+The user clicks on the 'Delete' icon, the system will open a confirmation pop-up window in the center of the screen
 
-![Xoá nhóm](/images/streaming-platform/app-management/03-group/pop-up/delete.png)
+! [Delete group] (/images/streaming-platform/app-management/03-group/pop-up/delete.png)
 
-_Pop-up xoá nhóm_
+_Pop-up delete group_
 
-- Tiêu đề: Toàn bộ thành viên nhóm sẽ bị xoá. Bạn có chắc chắn muốn xoá nhóm không?
-- Nút Huỷ bỏ: Không thực hiện thay đổi, quay lại màn hình Danh sách nhóm.
-- Nút Xác nhận: trở về danh sách, thực hiện xoá group. Thành viên đang được gán theo group sẽ không còn quyền truy cập.
+- Title: All group members will be deleted. Are you sure you want to delete the group?
+- Cancel button: Make no changes, return to the Group list screen.
+- Confirm button: return to the list, delete the group. Members who are currently assigned to the group will no longer have access.
 
-**Bước 2** :
+**Step 2** :
 
-Người dùng nhấp vào nút **Xác nhận** để xác nhận việc xoá thông tin nhóm. Hệ thống sẽ hiển thị một cửa sổ pop-up thông báo phía trên của màn hình.
+The user clicks the **Confirm** button to confirm the deletion of group information. The system will display a notification pop-up window at the top of the screen.
 
  <!-- ![]() -->
 
-_Thông báo Xoá nhóm thành công!_
+_Group Removal Success Message!_
 
-- Khi một nhóm phân quyền truy cập được xoá, tất cả thành viên trong nhóm đó sẽ mất quyền truy cập vào các tính năng đã được gán cho nhóm.
+- When an access decentralization group is deleted, all members of that group lose access to the features that were assigned to the group.
 
-- Sau khi xoá một nhóm phân quyền truy cập, các quyền truy cập của nhóm đó sẽ không còn có hiệu lực và không thể khôi phục lại.
+- After deleting an access permission group, its access rights are no longer valid and cannot be restored.
 
-- Việc xoá nhóm phân quyền truy cập không ảnh hưởng đến các nhóm khác và quyền truy cập của chúng.
+- Deleting an access permission group does not affect other groups and their access.
 
-## Thành viên nhóm
+## Team members
 
-Sau khi chỉnh sửa nhóm, các thành viên được gán vào nhóm sẽ mất quyền truy cập vào hệ thống. Trong trường hợp này, một trang lỗi UI 403 sẽ được hiển thị để thông báo về việc không có quyền truy cập.
+After editing the group, members assigned to the group will lose access to the system. In this scenario, a UI 403 error page will be displayed to inform about not having access.
 
-![Lỗi 403](/images/streaming-platform/app-management/03-group/error-403.png)
+! [Error 403] (/images/streaming-platform/app-management/03-group/error-403.png)
 
-Người dùng có thể nhấp vào nút `Về tổng quan` để trở lại danh sách ứng dụng và sidebar chỉ hiển thị các sản phẩm có quyền truy cập.
+Users can click the 'About Overview' button to return to the app list, and the sidebar shows only products that have access.
