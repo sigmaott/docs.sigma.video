@@ -1,13 +1,13 @@
 ---
-title: Nhập liệu đầu vào
+title: Input data
 order: 2
 ---
 
-# Hướng dẫn cấu hình cơ bản
+# Basic configuration guide
 
-## Thao tác nhập liệu
+## Input operations
 
-Một vài lưu ý, cũng như thông tin mô tả chung khi người dùng thao tác thêm, sửa dữ liệu trong form:
+A few notes, as well as general descriptive information when users add and edit data in the form:
 
 <!--
 - Giao diện:
@@ -16,81 +16,81 @@ Một vài lưu ý, cũng như thông tin mô tả chung khi người dùng thao
 
 1. Trường dữ liệu không được bỏ trống -->
 
-![Auto Refresh](/images/media-live/um-form-rules/required.png)
+! [Auto Refresh] (/images/media-live/um-form-rules/required.png)
 
-Trong một form sẽ bao gồm nhiều trường dữ liệu, mỗi trường dữ liệu sẽ bao gồm 2 thành phần: _Tiêu đề_ và _Ô nhập/chọn dữ liệu_.
+In a form will include multiple data fields, each data field will consist of 2 components: _Title_ and _Data input/selector_.
 
-- Phần _tiêu đề_ hiển thị thông tin tên. Thông tin mô tả trường dữ liệu sẽ hiển thị khi di chuyển con trỏ chuột vào biểu tượng ![Info Icon](/images/media-live/um-form-rules/info-icon.png).
+- The _title_ section displays the name information. The data field description information is displayed when the mouse pointer is moved to the ! [Info Icon] (/images/media-live/um-form-rules/info-icon.png).
 
-  ![More Info](/images/media-live/um-form-rules/description.png)
+  ! [More Info] (/images/media-live/um-form-rules/description.png)
 
   ***
 
   **\*Note**
 
-  Đối với trường dữ liệu có biểu tượng <span style="color: #f43f5e;">\*</span> phía trước, thì trường dữ liệu không được bỏ trống, bắt buộc người dùng phải nhập dữ liệu trước khi lưu form.
+  For data fields with icons <span style="color: #f43f5e;">\*</span> Previously, the data field must not be blank, forcing the user to enter data before saving the form.
 
   ***
 
-- Phần _Ô nhập/chọn dữ liệu_ cho phép người dùng nhập/chọn dữ liệu mong muốn.
+- The _Data input/selection box_ section allows users to enter/select the desired data.
 
-  Dữ liệu người dùng đôi khi cần được xác thực để đảm bảo hợp lệ, khi dữ liệu người dùng nhập không hợp lệ sẽ có thông báo lỗi **màu đỏ** hiển thị ngay phía dưới.
+  User data sometimes needs to be validated to ensure validity, when the user data entered is invalid, there will be an error message **red** displayed just below.
 
-  ![Error Msg](/images/media-live/um-form-rules/error-msg.png)
+  ! [Error Msg] (/images/media-live/um-form-rules/error-msg.png)
 
-  Nội dung thông báo lỗi tùy thuộc từng trường hợp cụ thể. Sau đây ví dụ thêm một vài loại thông báo khác:
+  The content of the error message depends on each specific case. Here are a few more types of notifications:
 
-  ![Other Error Msg](/images/media-live/um-form-rules/error-msg-regex.png)
+  ! [Other Error Msg] (/images/media-live/um-form-rules/error-msg-regex.png)
 
-  ![Other Error Msg](/images/media-live/um-form-rules/error-msg-range.png)
+  ! [Other Error Msg] (/images/media-live/um-form-rules/error-msg-range.png)
 
-  ![Other Error Msg](/images/media-live/um-form-rules/error-msg-enum.png)
+  ! [Other Error Msg] (/images/media-live/um-form-rules/error-msg-enum.png)
 
-## Submit dữ liệu
+## Submit data
 
-Khi người dùng thực hiện xác nhận dữ liệu lưu trữ trong form bằng cách ấn nút **Submit** hoặc **Save**. Hệ thống thực thi tác vụ và sau đó sẽ trả về thông báo cho người dùng:
+When the user verifies the data stored in the form by pressing the **Submit** or \*\*Save \*\*\* button. The system executes the task and then returns a message to the user:
 
-- Nếu tác vụ thực thi thành công, sẽ có thông báo màu xanh hiển thị phía trên của màn hình trình duyệt.
+- If the execution is successful, a blue message will be displayed at the top of the browser screen.
 
-  ![Error Notification](/images/media-live/um-form-rules/success-noti.png)
+  ! [Error Notification] (/images/media-live/um-form-rules/success-noti.png)
 
-- Nếu tác vụ thực thi không thành công, sẽ có thông báo màu đỏ, kèm nội dung lỗi hiển thị phía trên của màn hình trình duyệt.
+- If the execution fails, there will be a red message, with an error displayed at the top of the browser screen.
 
-  ![Error Notification](/images/media-live/um-form-rules/error-noti.png)
+  ! [Error Notification] (/images/media-live/um-form-rules/error-noti.png)
 
-Khi thao tác với form tạo/chỉnh sửa kênh, template sẽ yêu cầu nhiều đơn vị dữ liệu khác nhau, các đơn vị dữ liệu này được nhóm lại thành các mục trong form.
+When manipulating the funnel creation/editing form, the template will require many different data units, which are grouped into items in the form.
 
-Trong quá trình hệ thống xử lý dữ liệu, trường hợp có lỗi xuất hiện, những mục nào trong form hiện có lỗi sẽ đổi thành **màu đỏ**, khi nhấp vào những phần đó, người dùng sẽ thấy được chi tiết lỗi.
+In the process of data processing system, in case an error appears, the items in the form that currently have errors will change to **red**, when clicking on those parts, the user will see error details.
 
-![Msg](/images/media-live/um-form-rules/transcode-modify.png)
+! [msg] (/images/media-live/um-form-rules/transcode-modify.png)
 
-![Msg](/images/media-live/um-form-rules/transcode-detail-msg.png)
+! [msg] (/images/media-live/um-form-rules/transcode-detail-msg.png)
 
-Khi thao tác với form tạo/chỉnh sửa kênh/template, người dùng cần thực hiện lần lượt nhiều bước để có thể hoàn thành tác vụ.
+When manipulating the funnel/template creation/editing form, users need to perform many steps in turn to be able to complete the task.
 
-Ví dụ: đối với việc tạo mới kênh, cần thực hiện 2 bước chính:
+For example, for creating a new channel, 2 main steps should be performed:
 
-![Channel Steps](/images/media-live/um-transcode-forms/channel-step-01.png)
+! [Channel Steps] (/images/media-live/um-transcode-forms/channel-step-01.png)
 
-1. Chọn loại kênh, bao gồm 2 loại là _Tạo mới từ đầu_ và _Tạo từ template_.
-   Sau khi người dùng hoàn thành **bước 1** và nhấp vào nút ![Next step button](/images/media-live/um-transcode-forms/next-step-btn.png), toàn bộ dữ liệu người dùng tại bước này sẽ được ghi nhận trước khi chuyển sang **bước 2**.
+1. Select a channel type, including 2 types: _Create from scratch_ and _Create from template_.
+   After the user completes **step 1** and clicks the ! [Next step button] (/images/media-live/um-transcode-forms/next-step-btn.png), all user data at this step will be recorded before moving to **step 2**.
 
-2. Nhập đầy đủ thông tin cần thiết.
-   Giao diện cũng như dữ liệu sẽ hiện thị tùy thuộc vào những tùy chọn mà người dùng đã thiết lập từ **bước 1** trước đó.
+2. Enter all required information.
+   The interface as well as the data will be displayed depending on the options that the user has set from **step 1** before.
 
-Tại bước 2, có một vài tùy chọn để người dùng điều hướng việc thiết lập dữ liệu của mình:
+In step 2, there are a few options for users to navigate their data setup:
 
-![Channel Redirection Options](/images/media-live/um-transcode-forms/channel-redirection-options.png)
+! [Channel Redirection Options] (/images/media-live/um-transcode-forms/channel-redirection-options.png)
 
-- Nếu người nhấn **Submit** sẽ có thêm 3 tùy chọn sau khi tạo thành công
-  - `Submit then stay` người dùng vẫn tiếp tục ở lại trang hiện tại và dữ liệu không bị mất.
-  - `Submit then back` người dùng sẽ được điều hướng sang trang danh sách kênh/template.
-  - `Save as template` tin được lưu lại như một template mới.
+- If the person clicks **Submit** there will be 3 more options after successful creation
+  - 'Submit then stay' the user continues to stay on the current page and data is not lost.
+  - 'Submit then back' the user will be redirected to the channel/template list page.
+  - The 'Save as template' message is saved as a new template.
 
-Ngoài ra, nếu muốn quay lại **bước 1** trước đó, nhấp vào nút ![Previous Button](/images/media-live/um-transcode-forms/previous-btn.png). Tuy nhiên toàn bộ dữ liệu được nhập hiện tại sẽ bị xóa, đồng thời hệ thống cũng đưa ra thông báo hiển thị giữa màn hình để người dùng xác nhận trước khi thực hiện.
+Alternatively, if you want to go back to **step 1** earlier, click the ! [Previous Button] (/images/media-live/um-transcode-forms/previous-btn.png). However, all currently entered data will be deleted, and the system also issues a message displayed in the middle of the screen for the user to confirm before performing.
 
-![Redirection Confirmation](/images/media-live/um-transcode-forms/redirection-confirmation.png)
+! [Redirection Confirmation] (/images/media-live/um-transcode-forms/redirection-confirmation.png)
 
-Nếu nhấn `OK`, giao diện sẽ quay lại bước 1 và toàn bộ dữ liệu bị xóa.
+If you press 'OK', the interface will return to step 1 and all data is deleted.
 
-Nếu nhấn `Cancel`, hệ thống hủy thao tác quay lại.
+If 'Cancel' is pressed, the system cancels the operation again.
