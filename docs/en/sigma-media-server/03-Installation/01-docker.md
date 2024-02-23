@@ -3,4 +3,4 @@ title: Docker
 order: 1
 ---
 
-# Cài đặt Sigma Media Server qua Docker
+# Install Sigma Media Server via Docker
