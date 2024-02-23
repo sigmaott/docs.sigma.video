@@ -1,1 +1,0 @@
-# Sigma Dynamic Ad Insert
