@@ -1,4 +1,4 @@
 ---
-title: Kênh event
+title: Event channel
 order: 3
 ---
