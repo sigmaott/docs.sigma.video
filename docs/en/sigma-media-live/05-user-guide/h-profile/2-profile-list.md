@@ -1,36 +1,36 @@
 ---
-title: Danh sách profile
+title: List of profiles
 order: 2
 ---
 
-## Danh sách profile
+## List of profiles
 
-Để quản lý profile và hiển thị các thông tin cơ bản của profile, hệ thống hiển thị dưới dạng danh sách giúp người dùng lọc thông tin, tìm kiếm profile mong muốn và cho phép thực hiện các thao tác khác.
+To manage the profile and display the basic information of the profile, the system is displayed as a list to help users filter information, search for desired profiles and allow other operations.
 
-**Mặc định**: Hiển thị ở giao diện Dashboard
+**Default**: Display in Dashboard interface
 
-**Bước 1**: Trên menu header chọn `Channel template`
-Xổ xuống dropdownlist các lựa chọn:
-Template
-Preset
-[Profile](./2-profile-list.md)
+**Step 1**: On the header menu select 'Channel template'
+Dropdownlist options:
+[Template] ()
+[Preset] ()
+[Profile] (./2-profile-list.md)
 
-Người dùng chọn `profile`
+The user selects 'profile'
 
-Giao diện hiển thị:
+Display interface:
 
-![Danh sách profile](/images/media-live/profile/list.png)
+! [Profile List] (/images/media-live/profile/list.png)
 
-Các thông tin được hiển thị trong giao diện:
+The information is displayed in the interface:
 
-- ID: Sau khi người dùng tạo mới profile, hệ thống sinh ra ID riêng cho profile với mục đích nhận diện.
-- Tên: Do người dùng CMS cấu hình tên profile.
-- Video: Hiển thị ngắn gọn biểu tượng và tham số cấu hình, tối đa 1 video.
-- Audio: Hiển thị ngắn gọn biểu tượng và tham số cấu hình, tối đa 10 audio.
-- Data: Hiển thị ngắn gọn biểu tượng và tham số cấu hình, tối đa 10 data.
+- ID: After the user creates a new profile, the system generates a unique ID for the profile for the purpose of identification.
+- Name: Configured by the CMS user for the profile name.
+- Video: Briefly displays icons and configuration parameters, up to 1 video.
+- Audio: Briefly displays icons and configuration parameters, up to 10 audios.
+- Data: Briefly displays icons and configuration parameters, up to 10 data.
 - Action:
-  - [Update](3-edit-profile.md): Cho phép người dùng chỉnh sửa các thông tin của profile.
-  - [Nhân bản](4-duplicate.md): Cho phép người dùng tạo bản sao với các thông tin của profile .
-  - [Xoá](5-delete.md): Cho phép người dùng CMS thực hiện xoá
+  - [Update] (3-edit-profile.md): Allows users to edit the profile information.
+  - [Cloning] (4-duplicate.md): Allows users to make copies with profile information.
+  - [Delete] (5-delete.md): Allows CMS users to perform deletion
 
-**Bước 2**: Người dùng xem các thông tin.
+**Step 2**: User views the information.
