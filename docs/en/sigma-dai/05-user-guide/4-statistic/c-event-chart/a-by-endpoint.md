@@ -3,44 +3,44 @@ title: By endpoint
 order: 1
 ---
 
-# Biểu đồ sự kiện
+# Event charts
 
-**Bước 1:** Tại sidebar, chọn Thống kê
+**Step 1:** In the sidebar, select Statistics
 
-Hiển thị xổ xuống danh sách lựa chọn
+Display a drop-down list of choices
 
-**Bước 2:** Người dùng chọn Biểu đồ sự kiện
+**Step 2:** User selects Event Chart
 
-**Hệ thống hiển thị giao diện mặc định Theo ad insert endpoint**
+**The system displays the default interface According to ad insert endpoint**
 
-Giao diện gồm các thông tin mô tả ở [Hiển thị mặc định](../a-open-statistic.md)
+The interface includes the information described in [Default Display](.. /a-open-statistic.md)
 
-## Biểu đồ sự kiện theo ad insert endpoint
+## Event chart by ad insert endpoint
 
-Đây là thống kê số lượng hiển thị quảng cáo hiển thị trên ad insert endpoint của bạn.
+This is a statistics on the number of ad impressions shown on your ad insert endpoint.
 
-Hệ thống hiển thị **mặc định** giao diện theo ad insert endpoint.
+The system displays the interface according to ad insert endpoint.
 
-![](/images/dai/event-chart-by-endpoint.png)
+! 
 
 <center>
 
-_Hình 1: Giao diện biểu đồ sự kiện theo endpoint_
+_Figure 1: Endpoint event chart interface_
 
 </center>
 
-Giao diện hiển thị với các thông tin mặc định mô tả tại [thông tin mặc định](../a-open-statistic.md)
+The interface is displayed with the default information described at [default information](.. /a-open-statistic.md)
 
-Chọn quick filter endpoint/ sub-endpoint mong muốn( Không bắt buộc).
+Select the desired quick filter endpoint/sub-endpoint (Optional).
 
-**Biểu đồ cột( Column Chart)** của ad insert endpoint thể hiện các số liệu của từng quảng cáo đã/ đang chạy trên ad insert endpoint đó với 2 Series Tổng số lần hiển thị quảng cáo( Impression) và Tổng số lượt xem hết quảng cáo( complete View).
+**Column Chart** of the ad insert endpoint shows the metrics of each ad that has been / is running on that ad insert endpoint with 2 Series Total Impressions and Total Complete View.
 
-| Tên                                               | Chức năng                                                                                                  |
-| ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Tiêu đề biểu đồ**                               | Tên ad insert endpoint bạn chọn ở quick filter.                                                            |
-| **Trục hoành**                                    | tên quảng cáo- các quảng cáo đã chạy trong ad insert endpoint/ad insert endpoint phụ theo lộ lọc tìm kiếm. |
-| **Trục tung**                                     | Các mốc giá trị, khoảng cách giữa giá trị 100.                                                             |
-| **Cột biều đồ**                                   | Hiển thị giá trị ở trên( số).                                                           |
-| **Legend – chú thích**                            | Tổng số lần hiển thị quảng cáo màu xanh dương và  Tổng số lượt xem hết quảng cáo màu xanh lá.              |
-| **Tổng số quảng cáo trên ad insert endpoint**     | Tổng số lượng quảng cáo **đã/đang** được chạy trên ad insert endpoint đó( số).          |
-| **Tổng số quảng cáo trên ad insert endpoint phụ** | Tổng số lượng quảng cáo **đã/đang** chạy trên sub-endpoint.                                                |
+| Name                                                    | Function                                                                                                        |
+| ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **Chart title**                                         | Name the ad insert endpoint you select in the quick filter.                                                     |
+| **Horizontal axis**                                     | Ad Name - Ads that have run in an Ad Insert Endpoint/Ad Insert Secondary Endpoint by exposing search filtering. |
+| **Vertical shaft**                                      | Value milestones, the distance between values 100.                                                              |
+| **Chart column**                                        | Displays the value above ( number).                                                          |
+| **Legend – Note**                                       | Total blue ad impressions and Total green ad end-views.                                                         |
+| **Total number of ads on ad insert endpoint**           | Total number of ads **were/are** running on that ad insert endpoint (number).                |
+| **Total number of ads on secondary ad insert endpoint** | Total number of ads **were/are** running on the sub-endpoint.                                                   |
