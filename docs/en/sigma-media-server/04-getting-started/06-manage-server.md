@@ -1,57 +1,57 @@
 ---
-title: Quản lý máy chủ
+title: Server Management
 order: 6
 ---
 
-## Quản lý máy chủ
+## Server Management
 
-Hệ thống Sigma Streaming cung cấp giao diện thân thiện, thuận tiện cho người dùng quản lý danh sách máy chủ. Tại siderbar, nhấp chọn **Server** để truy cập vào phần quản lý máy chủ theo từng loại.
+The Sigma Streaming system provides a friendly, convenient interface for users to manage server lists. In the siderbar, click **Server** to access server management by type.
 
-Mỗi loại máy chủ sẽ được quản lý trên một giao diện riêng biệt. Ngoài ra, hệ thống cũng cung cấp cho người dùng giao diện để quản lý toàn bộ giấy phép của ứng dụng và phần Giám sát hiệu suất hoạt động của toàn bộ máy chủ.
+Each type of server will be managed on a separate interface. In addition, the system also provides users with an interface to manage the entire license of the application and the Performance Monitoring section of the entire server.
 
-### Cấu trúc tổ chức quản lý máy chủ
+### Server management organization structure
 
-![Structure Manage Server](../image/getstarted/structure-manage-server.png)
+! [Structure Manage Server] (.. /image/getstarted/structure-manage-server.png)
 
-Cấu trúc tổ chức quản lý máy chủ được chia thành các phần và phân ra như sau:
+The organizational structure of server management is divided into sections and broken down as follows:
 
-1. Sigma Live Server: Quản lý loại máy Live Server, bao gồm
-   1. Loại máy Live Server (bản thường)
-   2. Loại máy Live Server Community (bản cộng đồng)
-   3. Cluster Server (cụm máy)
-2. Sigma VOD Server: Quản lý loại máy VOD Server, bao gồm
-   1. Loại máy VOD Server (bản thường)
-   2. Loại máy VOD Server Community (bản cộng đồng)
-   3. Cluster Server (cụm máy)
-3. Component Server: Quản lý loại máy Component Server
-   1. Danh sách máy: gồm 5 loại máy
+1. Sigma Live Server: Manage types of Live Server machines, including
+   1. Live Server machine type (regular version)
+   2. Live Server Community machine type
+   3. Cluster Server (cluster)
+2. Sigma VOD Server: Manage types of VOD Server machines, including
+   1. Type of VOD Server (normal version)
+   2. VOD Server Community machine type (community edition)
+   3. Cluster Server (cluster)
+3. Component Server: Manage machine types Component Server
+   1. List of machines: including 5 types of machines
       1. Transcoder Live
       2. Transcoder VOD
       3. Packager Live
       4. Packager Start Over
       5. Packager Catchup
-   2. Cluster Server (cụm máy)
-4. Monitor: Giám sát hiệu suất hoạt động cua máy trong Ứng dụng
-5. License: Quản lý giấy phép trong Ứng dụng
+   2. Cluster Server (cluster)
+4. Monitor: Monitor the performance of the machine in the Application
+5. License: Manage licenses in the App
 
-### Các hành động với máy
+### Actions with the machine
 
-Với việc quản lý máy chủ, người dùng có khả năng thực hiện các hành động lên từng máy chủ với các hành động như:
+With server management, users have the ability to perform actions on each server with actions such as:
 
-- Add License: Hành động được phép đối với các máy mới được cài đặt thành công lên hệ thống mà chưa được kích hoạt hoạt động, người dùng có thể thực hiện hành động này để gán giấy phép cho máy để máy có thể hoạt động xử lý job. Các bước thực hiện
+- Add License: The action is allowed for new machines successfully installed on the system that have not been activated, the user can perform this action to assign a license to the machine so that the machine can handle the job. Steps to follow
 
   [Add License]:
 
-- Config Route: Hành động cho phép người dùng cấu hình route giúp qua hệ thống có thể định tuyến máy một cách dễ dàng hỗ trợ cho quá trình điều phối máy xử lý Job
+- Config Route: An action that allows users to configure a route through the system to easily route the machine to support the process of coordinating the Job processor
 
-- Drain Job: Hành động cho phép hệ thống đẩy toàn bộ Job đang được xử lý bởi máy đó ra ngoài
+- Drain Job: The action that allows the system to push out all the jobs being processed by that machine
 
-- Pause/ Resume: Hành động cho phép hệ thống Tạm dừng/ Khôi phục khả năng hoạt động của máy
+- Pause/ Resume: The action that allows the system to Pause/ Restore machine operability
 
-- Delete: Hành động cho phép người dùng thực hiện xóa máy ở trạng thái DEAD/ FREEZE
+- Delete: An action that allows users to perform a wipe in a DEAD/FREEZE state
 
-Đối với **Cluster Server**, khi người dùng đã tạo cụm máy sẽ được phép thực hiện các hành động sau:
+For Cluster Server, once the user has created the cluster, the following actions will be allowed:
 
-- Edit Cluster: Hành động cho phép người dùng chỉnh sửa cấu hình/ thay đổi thành phần máy trong Cluster
-- View Logs: Hành động cho phép người dùng xem nhật ký hoạt động của Cluster
-- Delete: Hành động cho phép người dùng thực hiện xóa Cluster
+- Edit Cluster: An action that allows users to edit the configuration / change machine components in the Cluster
+- View Logs: Actions that allow users to view cluster activity logs
+- Delete: An action that allows the user to delete the cluster
