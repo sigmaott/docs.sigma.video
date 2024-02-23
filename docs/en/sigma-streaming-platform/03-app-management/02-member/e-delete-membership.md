@@ -1,49 +1,49 @@
 ---
-title: Xoá tư cách thành viên
+title: Remove membership
 order: 5
 ---
 
-# Xoá tư cách thành viên
+# Remove membership
 
-**Điều kiện**: Phải có ít nhất một thành viên khác và được hiển thị trong danh sách thành viên.
-**Actor**: Thành viên đc phân quyền vào quản lý ứng dụng.
+**Condition**: Must have at least one other member and be displayed in the member list.
+**Actor**: The member is authorized to manage the application.
 
-Sau khi tạo ứng dụng và thêm thành viên hoặc khi các thành viên không còn cần tham gia, quản trị viên thực hiện việc xoá các thành viên không cần thiết như sau:
+After creating the app and adding members, or when members no longer need to join, the administrator performs the removal of unnecessary members as follows:
 
-**Bước 1** :
+**Step 1** :
 
-Tại màn hình chính, quản trị viên chọn thành viên cần xoá. Hệ thống sẽ hiển thị tooltip **Xoá** khi di chuyển chuột vào biểu tượng `Xoá` trong cột hành động.
+At the main screen, the administrator selects the member to delete. The system will display the tooltip **Delete** when moving the mouse on the 'Delete' icon in the action column.
 
-Lưu ý: Nút `Xoá` sẽ bị vô hiệu hóa, không cho phép xoá tài khoản của chính mình.
+Note: The 'Remove' button will be disabled, not allowing deletion of one's own account.
 
-Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận ở trung tâm màn hình.
+The user clicks on the 'Delete' icon, the system will open a confirmation pop-up window in the center of the screen.
 
-![Xoá thành viên](/images/streaming-platform/app-management/02-member/pop-up/delete.png)
+! [Remove member] (/images/streaming-platform/app-management/02-member/pop-up/delete.png)
 
-_Pop-up xoá thành viên_
+_Pop-up delete member_
 
-- Tiêu đề: Bạn có chắc chắn muốn xoá thành viên?
-- Nút Huỷ bỏ: Không thực hiện thay đổi, quay lại màn hình danh sách thành viên.
-- Nút Xác nhận: Hệ thống sẽ thực hiện việc xoá tư cách thành viên.
+- Subject: Are you sure you want to delete members?
+- Cancel button: Make no changes, return to the members list screen.
+- Confirm button: Membership removal will be performed.
 
-**Bước 2** :
+**Step 2** :
 
-Người dùng nhấp vào nút **Xác nhận** để xác nhận việc xoá tư cách thành viên khác. Hệ thống sẽ hiển thị một cửa sổ pop-up thông báo phía trên của màn hình.
+The user clicks the **Confirm** button to confirm the removal of another membership. The system will display a notification pop-up window at the top of the screen.
 
-![Xoá thành viên](/images/streaming-platform/app-management/02-member/message/delete.png)
+! [Remove member] (/images/streaming-platform/app-management/02-member/message/delete.png)
 
-_Thông báo Xoá thành viên thành công!_
+_Member Removal Success Notice!_
 
-Thành viên sẽ bị **xoá tư cách** thành viên khỏi ứng dụng, nhưng tài khoản của họ vẫn được giữ nguyên và không hiển thị trong danh sách thành viên.
+Members will be **removed** members from the app, but their account will remain the same and not show up in the list of members.
 
-Tuy nhiên, trong trường hợp cần thiết, quản trị viên vẫn có thể mời thành viên đã bị xoá tư cách thành viên để họ tham gia lại.
+However, if necessary, admins can still invite members whose membership has been removed to rejoin.
 
-## Tài khoản bị xoá tư cách
+## Account disqualified
 
-Nếu thành viên đang trong ứng dụng và bị người khác xoá tư cách thành viên, hệ thống sẽ kiểm tra và thực hiện các bước sau:
+If a member is in an app and someone else removes their membership, the system checks and performs the following steps:
 
-1. Hiển thị thông báo 403 với nội dung:
+1. Display a 403 message that says:
 
-> Xin lỗi, bạn không có quyền truy cập trang này.
+> Sorry, you don't have permission to access this page.
 
-Người dùng có thể nhấp vào nút `Về tổng quan` để trở về danh sách ứng dụng. Ứng dụng không hiển thị trong danh sách ứng dụng của người dùng do không có quyền truy cập.
+Users can click the 'About Overview' button to return to the app list. The app doesn't show up in the user's list of apps because there's no access.
