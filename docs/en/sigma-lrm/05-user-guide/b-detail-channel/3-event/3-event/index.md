@@ -1,5 +1,5 @@
 ---
 id: doc-guideline-General-LRM
-title: Sự kiện một khoảng
+title: Interval events
 order: 3
 ---
