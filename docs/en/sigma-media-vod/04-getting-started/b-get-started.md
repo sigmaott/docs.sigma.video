@@ -1,164 +1,164 @@
 ---
-title: Bắt đầu với Media Video On Demand (Media VOD)
+title: Get started with Media Video On Demand (Media VOD)
 order: 2
 ---
 
-# Bắt đầu với Media Video On Demand (Media VOD)
+# Get started with Media Video On Demand (Media VOD)
 
-## Thiết lập công việc (job)
+## Job Setup
 
-Để thiết lập job, bạn cần chuẩn bị các tác vụ sau:
+To set up a job, you need to prepare the following tasks:
 
-- Thiết lập hoạt động của máy chủ
-- Chuẩn bị luồng đầu vào
-- Xác định điểm đến của luồng đầu ra
-- Thiết lập cấu hình job theo mong muốn
-- Tạo công việc (job)
+- Set up server operation
+- Prepare the input stream
+- Determine the destination of the output stream
+- Set up job configuration as desired
+- Create a job
 
-Sau khi hoàn tất, bạn có thể tạo job thành công trong Sigma Media VOD. Bên cạnh đó, bạn có thể thực hiện lưu lại cấu hình của job thành **bản mẫu** để tiết kiệm thời gian cho lần tiếp theo.
+Once done, you can create a successful job in Sigma Media VOD. Besides, you can save the configuration of the job as **template** to save time for the next time.
 
-## Chuẩn bị
+## Prepare
 
-Trước khi bắt đầu, bạn cần chuẩn bị các tác vụ sau:
+Before you start, you need to prepare the following tasks:
 
-- Có tài khoản truy cập hệ thống quản lý của **Sigma Streaming Platform** `https://portal.sigmaott.com`
-- Tài khoản có quyền truy cập app được phân quyền với Media VOD
+- Have an account that accesses the management system of **Sigma Streaming Platform**\* 'https\://portal.sigmaott.com'
+- Accounts with authorized app access with Media VOD
 
-## Bước 1: Truy cập vào hệ thống Sigma Media VOD
+## Step 1: Access the Sigma Media VOD system
 
-Để sử dụng , bạn cần có tài khoản và quyền truy cập, xem và thực hiện các hành động được phép.
+To use , you need to have an account and permission to access, view, and perform allowed actions.
 
-1. Truy cập vào đường link `https://portal.sigmaott.com/app`
-2. Hiển thị Danh sách App, **chọn ứng dụng** cần truy cập.
-3. Hiển thị mặc định vào trang **tổng quan ứng dụng.**
-4. Ở sidebar, chọn sản phẩm Media VOD.
-5. Hiển thị trang mặc định ở Trang Dashboard (cung cấp cái nhìn tổng quan về tình trạng hoạt động, thống kê, và thông tin quan trọng khác khi sử dụng sản phẩm).
+1. Visit the 'https\://portal.sigmaott.com/app' link
+2. Display the App List, **select the app** to access.
+3. Display by default to the **App Overview.**
+4. In the sidebar, select the Media VOD product.
+5. Display the default page in the Dashboard Page (which provides an overview of operational status, statistics, and other important information when using the product).
 
-## Bước 2: Chuẩn bị máy chủ
+## Step 2: Prepare the server
 
-Đảm bảo rằng trong quá trình bạn sử dụng, máy chủ phải đang trong trạng thái hoạt động
+Make sure that during your use, the server is in an active state
 
-Nếu bạn chưa kích hoạt cho hoạt động của máy chủ, bạn nên thực hiện cài đặt máy trên máy của bạn (local)
+If you have not enabled the operation of the server, you should perform the installation of the machine on your machine (local)
 
-1. Tại sidebar, chọn mục Server
-2. Chọn tab trên header mục **Sigma VOD Server**
-3. Hiển thị danh sách máy chủ VOD, **chọn thêm máy chủ**
-4. Hiển thị thông tin cài đặt máy, trong đó bao gồm Registation Token
-5. Sao chép `Registation Token` và thực hiện cài máy trên máy của bạn (local)
-6. Máy được cài đặt thành công hiển thị lên đầu danh sách máy
+1. In the sidebar, select Server
+2. Select the tab on the header of **Sigma VOD Server**
+3. Display VOD server list, **select add server**
+4. Display machine installation information, including Registation Token
+5. Copy the 'Registation Token' and perform the installation on your machine (local)
+6. Successfully installed machines display at the top of the list of machines
 
-## Bước 3: Chuẩn bị luồng đầu vào
+## Step 3: Prepare the input stream
 
-Hệ thống cho phép hỗ trợ các luồng đầu vào, bao gồm
+The system allows support for input flows, including
 
-- File từ máy của bạn
-- Trên Thư viện (Library) của hệ thống
-- Đường dẫn từ bên thứ 3
-- Video mẫu có trên hệ thống
+- Files from your machine
+- On the system's Library
+- 3rd party links
+- Sample video available on the system
 
-### File đầu vào từ máy của bạn
+### Input file from your machine
 
-Hệ thống cho phép lựa chọn file đầu vào từ máy của bạn, chấp nhận với các định dạng file media live như `tệp âm thanh (MP3)` , `tệp video (MP4)` ` HLS (HTTP Live Streaming)`hoặc `DASH (Dynamic Adaptive Streaming over HTTP)`.
+The system allows the selection of input files from your machine, accepted with live media file formats such as 'audio file (MP3)', 'video file (MP4)'' 'HLS (HTTP Live Streaming)' or 'DASH (Dynamic Adaptive Streaming over HTTP)'.
 
-Hệ thống hiển thị thông tin liên quan về file như tên file, định dạng, kích thước, và thời gian tạo hoặc chỉnh sửa gần nhất.
+The system displays relevant information about the file such as file name, format, size, and time of last creation or edit.
 
-### Trên Thư viện (Library) của hệ thống
+### On the system's Library
 
-Hệ thống cung cấp Thư viện (Library) có sẵn, bạn có thể lựa chọn **asset audio và video**
+The Library system is available, you can choose from **asset audio and video**
 
-Các thông tin về mỗi asset như tên, định dạng, thời lượng và hình ảnh đại diện được hiển thị.
+Information about each asset such as name, format, duration and avatar is displayed.
 
-Cho phép bạn xem trước các asset audio và video trước khi chọn làm đầu vào, giúp đảm bảo rằng bạn chọn đúng asset phù hợp với nhu cầu.
+Allows you to preview audio and video assets before selecting them as inputs, helping to ensure that you choose the right asset for your needs.
 
-### Đường dẫn từ bên thứ 3
+### 3rd party links
 
-Nếu những file đầu vào từ máy hoặc những video trên thư viện của hệ thống chưa phù hợp với nhu cầu của bạn, bạn có thể sử dụng đường dẫn video từ bên thứ 3.
+If the input files from your computer or the videos on the system's library do not suit your needs, you can use a video link from a 3rd party.
 
-Hệ thống chỉ hỗ trợ **đường dẫn URL http hoặc http(s)**
+The system only supports http or http(s)\*\* URLs
 
-Ví dụ:
+Example:
 
 ```
 http://test.com/manifest
 https://example.com/test
 ```
 
-### Video mẫu có trên hệ thống
+### Sample video available on the system
 
-Ngoài những lựa chọn trên, hệ thống cung cấp cho bạn những video mẫu, hiển thị những thông tin liên quan đến video (như tên video, độ phân giải, thời lượng,...) giúp bạn có thể có thể đưa ra lựa chọn dễ dàng và phù hợp hơn.
+In addition to the above options, the system provides you with sample videos, displaying information related to the video (such as video title, resolution, duration, ,...) so that you may be able to make an easier and more appropriate choice.
 
-## Bước 4: Xác định điểm đến của luồng đầu ra
+## Step 4: Determine the destination of the output stream
 
-Sau quá trình xử lý chuyển mã luồng đầu vào (video), bạn nên xác định điểm đến để lưu trữ luồng đầu ra (video đã được chuyển mã), hệ thống hỗ trợ điểm đến luồng đầu ra:
+After processing input stream (video) transcoding, you should define a destination to store the output stream (video already transcoded), the system supports the output stream destination:
 
-- Lưu tại folder tại máy của bạn
-- Lưu tại Thư viện (Library) của hệ thống
-- Lưu tại bên thứ 3
+- Save in a folder at your computer
+- Save at the system's Library
+- Save at 3rd party
 
-### Lưu tại folder tại máy của bạn
+### Save in a folder at your computer
 
-Sau quá trình xử lý chuyển mã luồng đầu vào (video), bạn có thể lưu tại thư mục trên máy của bạn.
+After processing the input stream (video) transcoding, you can save it in a folder on your machine.
 
-### Lưu tại Thư viện của hệ thống
+### Save at System Library
 
-Hệ thống hỗ trợ sau quá trình xử lý chuyển mã video, bạn có thể lưu trực tiếp tại Thư viện của hệ thống, giúp bạn có thể quản lý được thư viện ứng dụng tốt hơn
+The system supports after video transcoding processing, you can save directly at the system's library, helping you to better manage the application library
 
-### Lưu tại bên thứ 3
+### Save at 3rd party
 
-Hệ thống hỗ trợ lưu tại bên thứ 3 như **FTP(S)** và **Generic S3**
+3rd party storage support systems such as **FTP(S)** and **Generic S3**
 
-Đối với bên thứ 3 là **FPT(S)**, bạn nên chuẩn bị những thông tin liên quan như:
+For 3rd party **FPT(S)**, you should prepare relevant information such as:
 
-- _**Host**_: Địa chỉ IP
-- _**Port**_: với máy sử dụng nhiều dịch vụ, port để phân biệt.
-- _**Username**_: Tên tài khoản đăng nhập
-- _**Password**_: mật khẩu đăng nhập
+- Host\*\*\*: IP address
+- Port\*\*\*: for machines using many services, port to distinguish.
+- Username\*\*\*: Login account name
+- Password\*\*\*: login password
 
-Đối với bên thứ 3 là **Generic S3**, bạn nên chuẩn bị những thông tin liên quan như:
+For third party **Generic S3**, you should prepare relevant information such as:
 
-- _**Bucket name**_: Tên của thùng( bucket) chứa các tệp.
-- _**Endpoint**_: URL endpoint để truy cập vào S3
-- _**Access key ID**_: ID Khóa truy cập (tên người dùng) cho phép truy cập vào S3
-- _**Secret access key**_: Mật khẩu được liên kết với ID khóa truy cập (Access key ID) cho phép truy cập vào S3
-- _**Public permission**_ (không bắt buộc)
+- Bucket name\*\*\*: The name of the bucket containing the files.
+- Endpoint\*\*\*: URL endpoint to access S3
+- Access key ID\*\*\*: The Access Key ID (user name) that allows access to S3
+- Secret access key\*\*\*: The password associated with the Access key ID that allows access to S3
+- Public permission\*\*\* (optional)
 
-## Bước 5: Thiết lập cấu hình job
+## Step 5: Set up job configuration
 
-Bạn có thể chọn template cấu hình có sẵn, hoặc tùy chỉnh cấu hình. Bạn cần chuẩn bị những thông tin sau để có thể hoàn thành bước thiết lập cấu hình job nhanh chóng và dễ dàng hơn
+You can choose from the available configuration template, or customize the configuration. You need to prepare the following information to be able to complete the job configuration step more quickly and easily
 
-- Các thông tin liên quan đến profile
-- Các thông tin liên quan đến target
+- Information related to the profile
+- Target-related information
 
-### Các thông tin liên quan đến profile
+### Information related to the profile
 
-Hệ thống hiển thị mặc định 6 profile gồm **1080, 720, 480, 360, 240, 144**
+The system displays 6 profiles by default including **1080, 720, 480, 360, 240, 144**
 
-Bạn có thể thêm profile bằng cách chọn nút _**“Thêm profile”**_, hệ thống sẽ hiển thị popup bao gồm những thông tin để bạn thiết lập profile bao gồm: thông tin kĩ thuật về **Video, Audio, Watermark**
+You can add a profile by selecting the \*\*\*"Add profile" button, the system will display a popup with information for you to set up the profile including: technical information about **Video, Audio, Watermark**
 
-**Lưu ý** khi thiết lập thông tin profile:
+**Note** when setting up profile information:
 
-- Tổng tối đa trong 1 job là 10 profile
+- The maximum total in 1 job is 10 profiles
 
 - 1 profile - 1 video
 
 - 1 profile -10 audio
 
-- video 1-1 watermark
+- Video 1-1 watermark
 
-- audio 1-1 watermark
+- Audio 1-1 watermark
 
-### Các thông tin liên quan đến target
+### Target-related information
 
-Hệ thống hỗ trợ định dạng đầu ra: **MP3, MP4, Multi MP4, HLS, DASH**
+The system supports output format: **MP3, MP4, Multi MP4, HLS, DASH**
 
-Với định dạng đầu ra **HLS, DASH, MultiMP4** cho chọn **manifest, DRM và NHIỀU profile**.
+With output format **HLS, DASH, MultiMP4** for select **manifest, DRM and MULTIPLE profile**.
 
-Với định dạng đầu ra **MP4, MP3** cho chọn **MỘT profile**.
+With output format **MP4, MP3** for selecting **ONE profile**.
 
-Khi tạo job, được **lựa chọn tối đa 5 target**
+When creating a job, a maximum of 5 targets are selected\*\*\*
 
-Trường hợp người dùng chọn đầu ra là thư viện, định dạng đầu ra chỉ có MP3 và MP4.
+Where the user chooses the output as a library, the output format is only MP3 and MP4.
 
-## Bước 6: Tạo công việc (job)
+## Step 6: Create a job
 
-Sau khi hoàn thành các bước trên, bạn có thể chọn nút **“Tạo job”** để hệ thống chuyển mã video của bạn. Bên cạnh đó, Sigma Media VOD còn hỗ trợ bạn có thể **lưu Bản mẫu** bao gồm các thông tin cấu hình job, để bạn có thể tiết kiệm thời gian cho lần tiếp theo.
+After completing the above steps, you can select the "Create job" button for the system to transcode your video. Besides, Sigma Media VOD also supports you to save Templates\*\* including job configuration information, so that you can save time for next time.
