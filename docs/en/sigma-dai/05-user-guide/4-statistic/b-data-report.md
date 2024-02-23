@@ -1,35 +1,35 @@
 ---
-title: Báo cáo dữ liệu
+title: Data reporting
 order: 2
 ---
 
-# Báo cáo dữ liệu
+# Data reporting
 
-Báo cáo dữ liệu là quá trình thu thập và định dạng dữ liệu thô và chuyển nó thành một định dạng có thể chuyển hoá để đánh giá hiệu suất liên tục.
+Data reporting is the process of collecting and formatting raw data and converting it into a transformative format for continuous performance evaluation.
 
-## Để mở Báo cáo dữ liệu
+## To open a Data Report
 
-Người dùng chọn **Báo cáo dữ liệu**.
+The user selects **Report data**.
 
-Hệ thống hiển thị giao diện Báo cáo dữ liệu:
+The system displays the Data Reporting interface:
 
-![](/images/dai/statistic-data-report.png)
+! 
 
 <center>
 
-_Hình 1: Giao diện báo cáo dữ liệu_
+_Figure 1: Data reporting interface_
 
 </center>
 
-### Các thông tin hiển thị trên giao diện
+### The information displayed on the interface
 
-Bảng dưới đây giải thích các thông tin hiển thị trên giao diện.
+The table below explains the information displayed on the interface.
 
-| Số thứ tự | Tên                                                                  | Giải thích                                                                                                                                                                                                                     |
-| --------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1         | Tổng số quảng cáo( Total ads)                     | Tổng số lượng ads đã chạy                                                                                                                                                                                                      |
-| 2         | Số phiên xem-total Session View                                      | Lượt xem quảng cáo=  số user= 1 User xem quảng cáo →  tính 1 lượt view                                                                                                                                                         |
-| 3         | Tổng số lượt yêu cầu quảng cáo( total Ad Request) | = Tổng số lượng vast Request(= trường hợp gọi, chèn ad thành công(imps) + trường hợp gọi nhưng chèn ad không thành công(fails))<br />Số lượng request gọi lên server. |
-| 4         | Số lần hiển thị quảng cáo( Impression)            | (= ad insert)<br />Số lượng ad chèn vào luồng video tới user,<br />Số lần quảng cáo được hiển thị thành công lên màn hình.                                                                                  |
-| 5         | Số lượt xem hết quảng cáo( Complete View)         | Số lần quảng cáo được hiển thị đến hết thời lượng.                                                                                                                                                                             |
-| 6         | VTR                                                                  | = Complete View/ Impression x 100%<br />(Số lần xem hết quảng cáo/ số lần hiển thị thành công).                                                                                                             |
+| Sequence number | Name               | Explain                                                                                                                                                                                                                                           |
+| --------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1               | Total ads          | Total number of ads run                                                                                                                                                                                                                           |
+| 2               | Total Session View | Ad view= number of users = 1 user viewing the ad → counting 1 view                                                                                                                                                                                |
+| 3               | Total Ad Requests  | = Total number of vast Requests(= cases of calling, inserting successful ad (imps) + cases of calling but inserting ad failed (fails))<br />The number of requests called to the server. |
+| 4               | Impressions        | (= ad insert)<br />The number of ads inserted into the video stream to the user,<br />The number of times the ad was successfully displayed on screen.                                                                         |
+| 5               | Complete View      | The number of times the ad was shown until the end of its duration.                                                                                                                                                                               |
+| 6               | VTR                | = Complete View/ Impression x 100%<br />(Successful ad views/impressions).                                                                                                                                                     |
