@@ -3,8 +3,8 @@ title: Limit
 order: 5
 ---
 
-# Usage Limitations
+# Giới hạn sử dụng
 
-Describe the limitations related to resource usage, maximum number of profiles, number of targets…
+Diễn tả những giới hạn liên quan đến việc sử dụng tài nguyên, số lượng profile tối đa, số lượng target…
 
-or other limitations related to the use of the product
+hoặc những giới hạn khác liên quan đến quá trình sử dụng sản phẩm
