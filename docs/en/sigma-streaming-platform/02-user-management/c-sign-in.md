@@ -1,30 +1,30 @@
 ---
-title: Đăng nhập tài khoản
+title: Account login
 order: 3
 ---
 
-# Đăng nhập tài khoản
+# Account login
 
-Tính năng đăng nhập tài khoản là một phần quan trọng của hệ thống xác thực và quản lý tài khoản người dùng.
+The account login feature is an important part of the user account management and authentication system.
 
-Tính năng giúp người dùng có thể thực hiện đăng nhập tài khoản, truy cập hệ thống để sử dụng sản phẩm và dịch vụ
+The feature makes it possible for users to perform account login, access the system to use products and services
 
-**Điều kiện**: Người dùng đã tạo tài khoản và được xác thực thành công
+**Condition**: User has created an account and successfully authenticated
 
-**Bước 1**: Người dùng truy cập vào đường dẫn `https://portal.sigmaott.com/auth/login`
+**Step 1**: User accesses the path 'https\://portal.sigmaott.com/auth/login'
 
-Hệ thống hiển thị màn hình **Đăng nhập** với các thông tin
+The system displays the **Login** screen with the following information
 
-![Đăng nhập tài khoản ](/images/streaming-platform/user-management/sign-in-1.png)
+! [Account Login] (/images/streaming-platform/user-management/sign-in-1.png)
 
-- **Email:** yêu cầu nhập, không hỗ trợ ngôn ngữ có dấu, không chứa dấu cách
-- **Mật khẩu:** yêu cầu nhập, bắt buộc phải chứa ít nhất 1 kí tự in hoa, 1 kí tự in thường và số
-- Nút **"Đăng nhập":** thực hiện truy cập hệ thống
-- Nút **"Quên mật khẩu":** thực hiện tạo lại mật khẩu cho tài khoản
-- Nút **"Tạo tài khoản mới":** khi người dùng bấm nút này, hệ thống chuyển sang trang Đăng kí
+- **Email:** requires entry, no accented languages supported, no spaces
+- **Password:** requires entry, must contain at least 1 uppercase character, 1 lowercase character and number
+- **"Login":** button performs system access
+- **"Forgot password" button:** performs a password reset for the account
+- **"Create new account":** button when the user clicks this button, the system switches to the Register page
 
-**Bước 2**: Người dùng nhập Email và mật khẩu của tài khoản.
+**Step 2**: User enters the Email and password of the account.
 
-**Bước 3**: Sau khi hoàn thành, người dùng bấm nút **"Đăng nhập"**. Hệ thống kiểm tra thông tin đăng nhập hợp lệ
+**Step 3**: After completion, the user presses the \*\*"Login" button. System checks for valid credentials
 
-Nếu thông tin đăng nhập hợp lệ, hiển thị màn hình danh sách ứng dụng
+If the credentials are valid, display the application list screen
