@@ -1,42 +1,42 @@
 ---
-title: Tạo tài khoản Sigma
+title: Create a Sigma account
 order: 1
 ---
 
-Người dùng truy cập vào hệ thống Sigma Streaming để thực hiện tạo tài khoản.
+Users access the Sigma Streaming system to perform account creation.
 
-Người dùng có thể thực hiện đăng nhập/ đăng ký tài khoản qua **2 phương thức**:
+Users can perform account login/registration via **2 methods**:
 
-- **Phương thức 1**: Bằng địa chỉ email và mật khẩu.
-- **Phương thức 2**: Bằng tài khoản Third Party, có thể là:
-  - Tài khoản Github.
-  - Tài khoảng Google.
+- **Method 1**: By email address and password.
+- **Method 2**: By Third Party account, it can be:
+  - Github account.
+  - Google Account.
 
-## Đăng ký tài khoản
+## Sign up for an account
 
-Người dùng có thể thực hiện đăng ký tài khoản mới qua các bước:
+Users can register a new account through the following steps:
 
-1. Nhấp nút "Đăng ký" .
+1. Click the "Register" button.
 
-2. Chọn phương thức đăng ký:
+2. Choose a registration method:
 
-   ![Màn hình đăng ký tài khoản](../image/getstarted/sign-up.png)
+   ! [Account registration screen] (.. /image/getstarted/sign-up.png)
 
-   - Phương thức 1:
-     - Nhập email, mật khẩu, nhập lại mật khẩu và nhấp chấp thuận **Điều khoản & Điều kiện** trong form đăng ký.
-     - Sau đó, người dùng cần xác thực tài khoản qua địa chỉ gmail dùng đăng ký.
-   - Phương thức 2:
-     - Chọn Third party muốn sử dụng để đăng ký \*\*Github \*\* hoặc **Google**.
-     - Hệ thống sẽ gọi đến Third Party Integration, người dùng chọn tài khoản muốn sử dụng để đăng ký.
-     - Người dùng sẽ nhận được mật khẩu đăng nhập từ hệ thống gửi về qua địa chỉ gmail của tài khoản Third Party.
+   - Method 1:
+     - Enter your email, password, re-enter your password and click approve **Terms & Conditions** in the registration form.
+     - After that, users need to authenticate their account via the gmail address used for registration.
+   - Method 2:
+     - Select the third party you want to use to sign up for Github or Google.
+     - The system will call Third Party Integration, the user selects the account you want to use to register.
+     - Users will receive a login password from the system sent via the gmail address of the Third Party account.
 
-3. Sau khi đã có tài khoản, người dùng có thể thực hiện đăng nhập.
+3. Once an account is in place, users can log in.
 
-## Đăng nhập tài khoản
+## Account login
 
-Khi đã có tài khoản trên hệ thống Sigma Streaming, tương tự người dùng có thể thực hiện đăng nhập qua 2 phương thức:
+Once there is an account on the Sigma Streaming system, similarly, users can log in via 2 methods:
 
-![Màn hình đăng nhập tài khoản](../image/getstarted/sign-in.png)
+! [Account login screen] (.. /image/getstarted/sign-in.png)
 
-- Phương thức 1: Nhập email và mật khẩu.
-- Phương thức 2: Chọn Third party muốn sử dụng để đăng nhập là \*\*Github \*\* hoặc **Google**.
+- Method 1: Enter your email and password.
+- Method 2: Select the Third party you want to use to log in as **Github** or **Google**.
