@@ -1,38 +1,38 @@
 ---
-layout: home
+layout: Home
 title: Sigma Streaming Platform
-titleTemplate: Video Streaming Platform thế hệ mới
+titleTemplate: Next-generation Video Streaming Platform
 hero:
   name: Sigma Streaming Platform
-  text: Hệ thống Video Streaming Platform thế hệ mới
-  tagline: Hàng loạt giải pháp video của chúng tôi được triển khai trên toàn cầu tại các doanh nghiệp, công ty truyền thông, nhà cung cấp dịch vụ, tận dụng video để dạy, học, giao tiếp, cộng tác và giải trí.
+  text: Next-generation Video Streaming Platform
+  tagline: Our wide range of video solutions are deployed globally at businesses, media companies, service providers, leveraging video to teach, learn, communicate, collaborate and entertain.
   image:
     src: /logo-with-shadow.png
     alt: Vite
   actions:
-    - theme: alt
-      text: Tại sao là Sigma?
-      link: /vi/sigma-streaming-platform/01-get-started/1-introduction
-    - theme: alt
-      text: Xem trên Github
+    - theme: Alt
+      text: Why Sigma?
+      link: /en/sigma-streaming-platform/01-get-started/1-introduction
+    - theme: Alt
+      text: View on Github
       link: https://github.com/sigmaot
 features:
   - icon: 💡
     title: Sigma Transcode Live
-    details: Chuyển mã nội dung video trực tiếp từ nhiều luồng khác nhau
+    details: Transcode live video content from various streams
   - icon: ⚡️
     title: Sigma Interactive
-    details: Truyền hình tương tác với nhiều nội dung kịch bản thú vị
+    details: Interactive TV with many interesting scripted content
   - icon: 🛠️
     title: Sigma Live Streaming
-    details: Livestream trực tiếp với nhiều tính năng tùy chỉnh
+    details: Live stream with many customizable features
   - icon: 📦
     title: Sigma Dynamic Ads Insert
-    details: Chèn quảng cáo động trên máy chủ
+    details: Insert dynamic ads on a server
   - icon: 🔩
     title: Sigma Linear Right Management
-    details: Quản lý quyền truy cập trực tiếp cho nội dung tuyến tính
+    details: Direct access management for linear content
   - icon: 🔑
     title: Sigma Packager
-    details: Đóng gói nội dung video trực tiếp từ nhiều luồng khác nhau
+    details: Package live video content from a variety of streams
 ---
