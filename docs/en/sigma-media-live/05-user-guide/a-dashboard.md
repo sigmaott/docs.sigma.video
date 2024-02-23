@@ -3,52 +3,52 @@ title: Dashboard
 order: 1
 ---
 
-# Giao diện mặc định Dashboard
+# Dashboard default theme
 
-Dashboard mô tả về những tính năng giúp người dùng CMS có thể theo dõi được tổng quan những thông tin chỉ số liên quan đến Media Live, ngoài ra tính năng này còn cung cấp thông tin liên quan đến hướng dẫn sử dụng (getting started - giúp người dùng có thể sử dụng sản phẩm một cách dễ dàng), phần Document (liên quan đến sản phẩm) để người dùng nắm rõ được cách sử dụng sản phẩm.
+Dashboard describes features that help CMS users to track an overview of indicator information related to Media Live, in addition to this feature also provides information related to the user manual (getting started - helping users to use the product easily),  Document section (related to the product) for users to understand how to use the product.
 
-Hệ thống hiển thị mặc định thông tin, chỉ số thống kê và biểu đồ dựa theo thời gian.
+The system defaults to time-based information, statistics, and charts.
 
-Màn hình bao gồm 3 phần/mục thông tin:
+The screen consists of 3 sections/items of information:
 
-## Thông tin tổng quan về thông tin sử dụng của người dùng
+## Overview of user usage information
 
-- Quick filter về thời gian: Lựa chọn thời gian ngày/khoảng thời gian tùy chỉnh để theo dõi biểu đồ
+- Quick filter on time: Select a custom date/interval time to track the chart
 
-- Các chỉ số thống kê bao gồm:
+- Statistical indicators include:
 
-  - Total running transcode channels (Tổng số lượng kênh transcode đang chạy): hiển thị thống kê tổng lượng kênh transcode hiện đang chạy
-  - Total error transcode channels (Tổng số lượng kênh bị lỗi): hiển thị thống kê tổng số lượng kênh bị lỗi
-  - Running alerts (Tổng số lượng cảnh báo đang chạy): hiển thị thống kê tổng số lượng cảnh báo hiện đang chạy
-  - Total running jobs (Tổng số lượng công việc đang chạy): hiển thị thống kê tổng số lượng công việc (job) hiện đang chạy
-  - Total error jobs (Tổng số lượng công việc bị lỗi): hiển thị thống kê tổng số lượng công việc (job) bị lỗi
+  - Total running transcode channels: displays statistics on the total number of transcode channels currently running
+  - Total error transcode channels: displays statistics on the total number of faulty channels
+  - Running alerts: displays statistics on the total number of alerts currently running
+  - Total running jobs: displays statistics on the number of jobs currently running
+  - Total error jobs: displays statistics on the number of defective jobs
 
-- Biểu đồ cột giúp người dùng theo dõi được tổng số lượng cảnh báo xuất hiện theo thời gian.
+- Bar charts help users track the total number of alerts that appear over time.
 
-| Tên                 | Chức năng                                                                      |
-| ------------------- | ------------------------------------------------------------------------------ |
-| **Tiêu đề biểu đồ** | Alerts (Số lượng cảnh báo xuất hiện)                        |
-| **Trục hoành**      | Các mốc thời gian, được chia theo giờ                                          |
-| **Trục tung**       | Các mốc giá trị, khoảng cách giữa giá trị **30.**                              |
-| **Đường biểu diễn** | Hiển thị giá trị khi di chuyển chuột vào cột                                   |
-| **Thanh kéo ngang** | Không chia nhỏ giá trị khi kéo, kéo giãn biểu đồ hỗ trợ người xem dễ nhìn hơn. |
+| Name                    | Function                                                                                           |
+| ----------------------- | -------------------------------------------------------------------------------------------------- |
+| **Chart title**         | Alerts                                                                                             |
+| **Horizontal axis**     | Timelines, broken down by hours                                                                    |
+| **Vertical shaft**      | Value milestones, the gap between values **30.**                                                   |
+| **Performance track**   | Show values when moving the mouse to a column                                                      |
+| **Horizontal pull bar** | Do not split the value when dragging or stretching the chart to make it easier for viewers to see. |
 
-## Tài liệu hướng dẫn sử dụng của sản phẩm
+## Product documentation
 
-Người dùng có thể truy cập vào từng đường dẫn muốn xem, hệ thống sẽ dẫn người dùng đến trang tài liệu người dùng mong muốn. người dùng có thể chọn **Xem thêm**, hệ thống sẽ dẫn người dùng màn hình chính của trang tài liệu
+Users can access each link they want to view, the system will lead users to the desired user document page. users can select **See more**, the system will lead the user to the main screen of the document page
 
-Bao gồm các mục tài liệu:
+Includes document items:
 
-- Tài liệu hướng dẫn sử dụng sử dụng sản phẩm.
+- Documentation for use of the product.
 
-- Tài liệu kỹ thuật hướng dẫn nhà phát triển.
+- Technical documentation to guide the developer.
 
-- Tài liệu mô tả cách sử dụng API.
+- The documentation describes how to use the API.
 
-- Bảng chú giải các thuật ngữ khi sử dụng sản phẩm.
+- Glossary of terms when using the product.
 
-- Câu hỏi thường gặp trong quá trình sử dụng sản phẩm.
+- Frequently asked questions during the use of the product.
 
-## Hướng dẫn sử dụng trước khi bắt đầu sử dụng sản phẩm
+## Instructions for use before starting the use of the product
 
-Bao gồm các bước người dùng cần chuẩn bị để có thể trải nghiệm sản phẩm một cách dễ dàng. Ở mỗi bước chuẩn bị, người dùng có thể bấm vào nội dung hệ thống sẽ dẫn người dùng đến trang tài liệu chi tiết tương ứng cho bước chuẩn bị.
+Includes the steps users need to prepare to be able to experience the product easily. At each preparation step, the user can click on the system content which will lead the user to the corresponding detailed documentation page for the preparation step.
