@@ -3,58 +3,58 @@ title: Dashboard
 order: 1
 ---
 
-# Dashboard default theme
+# Giao diện mặc định Dashboard
 
-Customer dashboard describes the features that help CMS users to track an overview of SSAI-related indicator information, in addition, this feature also provides information related to the user manual (getting started - helping users to use the product easily),  Document section (related to the product) for users to understand how to use the product.
+Customer dashboard mô tả về những tính năng giúp người dùng CMS có thể theo dõi được tổng quan những thông tin chỉ số liên quan đến SSAI ngoài ra tính năng này còn cung cấp thông tin liên quan đến hướng dẫn sử dụng (getting started - giúp người dùng có thể sử dụng sản phẩm một cách dễ dàng), phần Document (liên quan đến sản phẩm) để người dùng nắm rõ được cách sử dụng sản phẩm.
 
-The system defaults to time-based information, statistics, and charts.
+Hệ thống hiển thị mặc định thông tin, chỉ số thống kê và biểu đồ dựa theo thời gian.
 
-The screen consists of 3 sections/items of information:
+Màn hình bao gồm 3 phần/mục thông tin:
 
-## Overview of user usage information
+## Thông tin tổng quan về thông tin sử dụng của người dùng
 
-- Quick filter on time: Select a custom date/interval time
+- Quick filter về thời gian: Lựa chọn thời gian ngày/khoảng thời gian tùy chỉnh
 
-- Statistical indicators include:
+- Các chỉ số thống kê bao gồm:
 
-- Total Impression: displays the total number of times the ad was successfully displayed on the screen
+- Total Impression: hiển thị số lượng thống kê tổng số lần quảng cáo được hiển thị thành công lên màn hình
 
-- VTR (%): shows the percentage of total ad complete views/total successful impressions
+- VTR (%): hiển thị tỉ lệ phần trăm tổng số lần xem hết quảng cáo/tổng số lần hiển thị thành công
 
 - VTR (%) = (Complete View/ Impression) x 100%
 
-- Fill rate (%): Shows the percentage of total successful impressions/total ad requests
+- Fill rate (%): Hiển thị tỉ lệ phần trăm tổng số lần hiển thị thành công/tổng số lượt yêu cầu quảng cáo
 
 ```
 Fill rate (%) = (Total of Impression/ Total ad request) x 100%
 ```
 
-- Bar charts help users track the total number of successfully displayed ads on the screen over time.
+- Biểu đồ cột giúp người dùng theo dõi được tổng số lượng quảng cáo được hiển thị thành công lên màn hình theo thời gian.
 
-| Name                    | Function                                                                                           |
-| ----------------------- | -------------------------------------------------------------------------------------------------- |
-| **Chart title**         | Impression (Number of times the ad was successfully displayed on screen)        |
-| **Horizontal axis**     | Timelines, broken down by hours                                                                    |
-| **Vertical shaft**      | Value milestones, the gap between values **30.**                                                   |
-| **Performance track**   | Show values when moving the mouse to a column                                                      |
-| **Horizontal pull bar** | Do not split the value when dragging or stretching the chart to make it easier for viewers to see. |
+| Tên                 | Chức năng                                                                              |
+| ------------------- | -------------------------------------------------------------------------------------- |
+| **Tiêu đề biểu đồ** | Impression (Số lần quảng cáo được hiển thị thành công lên màn hình) |
+| **Trục hoành**      | Các mốc thời gian, được chia theo giờ                                                  |
+| **Trục tung**       | Các mốc giá trị, khoảng cách giữa giá trị **30.**                                      |
+| **Đường biểu diễn** | Hiển thị giá trị khi di chuyển chuột vào cột                                           |
+| **Thanh kéo ngang** | Không chia nhỏ giá trị khi kéo, kéo giãn biểu đồ hỗ trợ người xem dễ nhìn hơn.         |
 
-## Product documentation
+## Tài liệu hướng dẫn sử dụng của sản phẩm
 
-Users can access each link they want to view, the system will lead users to the desired user document page. users can select **See more**, the system will lead the user to the main screen of the document page
+Người dùng có thể truy cập vào từng đường dẫn muốn xem, hệ thống sẽ dẫn người dùng đến trang tài liệu người dùng mong muốn. người dùng có thể chọn **Xem thêm**, hệ thống sẽ dẫn người dùng màn hình chính của trang tài liệu
 
-Includes document items:
+Bao gồm các mục tài liệu:
 
-- Documentation for use of the product.
+- Tài liệu hướng dẫn sử dụng sử dụng sản phẩm.
 
-- Technical documentation to guide the developer.
+- Tài liệu kỹ thuật hướng dẫn nhà phát triển.
 
-- The documentation describes how to use the API.
+- Tài liệu mô tả cách sử dụng API.
 
-- Glossary of terms when using the product.
+- Bảng chú giải các thuật ngữ khi sử dụng sản phẩm.
 
-- Frequently asked questions during the use of the product.
+- Câu hỏi thường gặp trong quá trình sử dụng sản phẩm.
 
-## Instructions for use before starting the use of the product
+## Hướng dẫn sử dụng trước khi bắt đầu sử dụng sản phẩm
 
-Includes the steps users need to prepare to be able to experience the product easily. At each preparation step, the user can click on the system content which will lead the user to the corresponding detailed documentation page for the preparation step.
+Bao gồm các bước người dùng cần chuẩn bị để có thể trải nghiệm sản phẩm một cách dễ dàng. Ở mỗi bước chuẩn bị, người dùng có thể bấm vào nội dung hệ thống sẽ dẫn người dùng đến trang tài liệu chi tiết tương ứng cho bước chuẩn bị.
