@@ -1,32 +1,32 @@
 ---
-title: Xoá kênh
+title: Delete a channel
 order: 4
 ---
 
-# Xóa kênh
+# Delete a channel
 
-**Điều kiện**: Kênh đã được tạo ra trước đó và có hiển thị tại danh sách kênh.
+**Condition**: The channel has been created before and is displayed in the channel list.
 
-Sau khi đã tạo và kích hoạt kênh, quá trình xoá các kênh không cần thiết có thể được thực hiện như sau:
+Once a channel has been created and activated, the process of deleting unnecessary channels can be done as follows:
 
-**Bước 1** :
+**Step 1** :
 
-Tại giao diện màn hình chính, chọn trường cần xoá. Hệ thống sẽ hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào biểu tượng `Xoá` ở cột hành động.
+At the main screen interface, select the field to delete. The system will display the **Delete** line when moving the mouse on the 'Delete' icon in the action column.
 
-Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận ở trung tâm màn hình.
+The user clicks on the 'Delete' icon, the system will open a confirmation pop-up window in the center of the screen.
 
-![](/images/lrm/pop-up/delete-channel.png)
+! 
 
-_Pop-up xoá kênh_
+_Pop-up deleting channel_
 
-- Tiêu đề: Bạn chắc chắn muốn xoá kênh này không?
-- Nút Huỷ bỏ: Không thực hiện thay đổi, quay lại màn hình Danh sách kênh.
-- Nút Xác nhận: Hệ thống sẽ thực hiện việc xoá toàn bộ thông tin của kênh.
+- Subject: Are you sure you want to delete this channel?
+- Cancel button: Make no changes, return to the Channel list screen.
+- Confirm button: All channel information will be deleted.
 
-**Bước 2** :
+**Step 2** :
 
-Người dùng nhấp vào nút **Xác nhận** để xác nhận việc xoá thông tin kênh. Hệ thống sẽ hiển thị một cửa sổ pop-up thông báo phía trên của màn hình.
+The user clicks the **Confirm** button to confirm the deletion of channel information. The system will display a notification pop-up window at the top of the screen.
 
-_Thông báo Xoá kênh thành công!_
+_Channel Removal Success Message!_
 
-Đồng thời, hệ thống thực hiện **xoá toàn bộ chương trình, sự kiện**( kể cả sự kiện đang diễn ra), sự kiện lập lịch tương lai trong kênh.
+At the same time, the system performs **delete all programs, events** (including current events), future scheduling events in the channel.
