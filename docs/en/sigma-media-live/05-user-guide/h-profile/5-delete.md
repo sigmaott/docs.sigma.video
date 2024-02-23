@@ -1,35 +1,35 @@
 ---
-title: Xoá profile
+title: Delete a profile
 order: 5
 ---
 
-## Xoá Profile
+## Delete Profile
 
-**Điều kiện**: Profile đã được tạo ra trước đó và có hiển thị tại danh sách profile.
-Xoá một profile từ danh sách không có tác động đến profile được gán cho kênh.
+**Condition**: The profile has been created before and is displayed in the profile list.
+Deleting a profile from the list has no impact on the profile assigned to the channel.
 
-Sau khi đã tạo và kích hoạt một profile, quá trình xoá các profile không cần thiết có thể được thực hiện như sau:
+After creating and activating a profile, the process of deleting unnecessary profiles can be done as follows:
 
-**Bước 1** :
+**Step 1** :
 
-Tại giao diện chính, chọn profile cần xoá. Hệ thống sẽ hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào biểu tượng `Xoá` trong cột hành động.
+At the main interface, select the profile to delete. The system will display the **Delete** line when moving the mouse on the 'Delete' icon in the action column.
 
-Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận giữa màn hình.
+The user clicks on the 'Delete' icon, the system will open a confirmation pop-up window in the middle of the screen.
 
-![Xoá profile](/images/media-live/profile/delete.png)
+! [Delete profile] (/images/media-live/profile/delete.png)
 
-_Pop-up xoá profile_
+_Pop-up profile deletion_
 
-- Tiêu đề: Điều này sẽ xóa vĩnh viễn profile. Tiếp tục?
-- Nút Huỷ bỏ: Không thực hiện thay đổi, quay lại màn hình Danh sách profile.
-- Nút Xác nhận: Hệ thống sẽ thực hiện xoá toàn bộ thông tin của profile.
+- Title: This will permanently delete the profile. Continue?
+- Cancel button: Make no changes, return to the Profile list screen.
+- Confirm button: The system will delete all profile information.
 
-**Bước 2** :
+**Step 2** :
 
-Người dùng nhấp vào nút `Xác nhận` để xác nhận việc xoá thông tin profile. Hệ thống sẽ hiển thị một cửa sổ pop-up thông báo trên màn hình.
+The user clicks on the 'Confirm' button to confirm the deletion of profile information. The system will display a notification pop-up window on the screen.
 
  <!-- ![]() -->
 
-_Thông báo: Đã xoá thành công!_
+_Notice: Successfully deleted!_
 
-Tuy nhiên, đối với các kênh đã được gán profile, các tham số của profile vẫn sẽ hiển thị trong chi tiết của kênh.
+However, for channels that have been assigned profiles, the parameters of the profile will still be visible in the channel details.
