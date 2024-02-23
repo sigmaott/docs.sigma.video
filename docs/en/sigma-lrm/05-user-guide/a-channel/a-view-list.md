@@ -1,27 +1,27 @@
 ---
-title: Xem giao diện danh sách kênh
+title: View the channel list interface
 order: 1
 ---
 
-# Danh sách kênh
+# Channel list
 
-Để quản lí kênh và hiển thị các thông tin cơ bản của kênh, hệ thống hiển thị dưới dạng danh sách giúp người dùng lọc thông tin, tìm kiếm kênh mong muốn và cho phép thực hiện các thao tác khác cho phép.
+To manage the channel and display the basic information of the channel, the system is displayed in the form of a list to help users filter information, search for the desired channel and allow other operations to be performed.
 
-Tại màn hình chính hệ thống chọn **Danh sách kênh**
+At the main screen, select **List of channels**
 
-Màn hình chính hệ thống hiển thị:
+The system main screen displays:
 
-![Danh sách kênh](/images/lrm/list/channel-lrm.png)
+! [Channel List] (/images/lrm/list/channel-lrm.png)
 
-- Các thông tin được hiển thị trong giao diện:
+- The information is displayed in the interface:
 
-  - **ID**: Sau khi người dùng tạo mới kênh, hệ thống sinh ra ID riêng cho kênh với mục đích nhận diện.
-    **Tên**: Do người dùng CMS cấu hình tên kênh.
-  - **Mô tả**: Thông tin không bắt buộc, do người dùng CMS cấu hình mô tả ngắn gọn các đặc điểm của kênh.
-  - **Kênh Media live**: Kênh media live có trong hệ thống do người dùng lựa chọn khi cấu hình.
-  - **Khởi tạo**: Thời gian hệ thống ghi nhận tạo mới kênh, định dạng YYYY/MM/DD HH:mm:ss.
-  - **Cập nhật**: Sắp xếp mặc định- kênh được khởi tạo/ cập nhật mới nhất hiển thị lên đầu trang.
-  - **Hành động**:
-    - **Chi tiết**: Mở ra trang mới với các thông tin chi tiết kênh.
-    - **Xoá**: Cho phép người dùng CMS thực hiện xoá kênh.
-    - **Chỉnh sửa**: Cho phép người dùng chỉnh sửa các thông tin của kênh.
+  - **ID**: After the user creates a new channel, the system generates a unique ID for the channel for the purpose of identification.
+    **Name**: Due to the CMS user's configuration of the channel name.
+  - **Description**: Optional information, configured by CMS users that briefly describes the characteristics of the channel.
+  - **Media live channel**: Media live channel is included in the system selected by the user when configuring.
+  - **Initialization**: The time the system recorded new channel creation, YYYY/MM/DD HH:mm:ss format.
+  - **Update**: Default sort- latest initialized/updated channel displayed at the top of the page.
+  - **Action**:
+    - **Details**: Opens a new page with channel details.
+    - **Delete**: Allows CMS users to perform channel deletion.
+    - **Edit**: Allows users to edit channel information.
