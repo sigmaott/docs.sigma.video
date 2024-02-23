@@ -3,285 +3,285 @@ title: Sigma Live Server
 order: 2
 ---
 
-Với loại máy Sigma Live Server, loại máy giúp xử lý luồng kênh Live. Người dùng có thể tạo, cấu hình với ba loại máy là:
+With the Sigma Live Server type, the type of machine that helps handle the Live channel stream. Users can create and configure with three types of machines:
 
-[TOC]
+[TEST]
 
 ## Máy Sigma Live Server:
 
-Loại máy phiên bản đầy đủ chức năng, người dùng có khả năng sử dụng với toàn bộ tính năng do chúng tôi cung cấp với loại máy này.
+Fully functional version machine, users have the ability to use with all the features provided by us with this type of machine.
 
-Với các hành động người dùng có thể thực hiện bao gồm:
+Actions users can perform include:
 
 ### 1. Add Server
 
-Người dùng có thể thực hiện thêm máy mới, theo các bước:
+Users can add new machines, following these steps:
 
-1. Tại màn hình danh sách máy Sigma Live, nhấp **Thêm máy chủ**
+1. At the Sigma Live machine list screen, click **Add Server**
 
-   ![add sever](../image/user-guide/add-server-1.png)
+   ! [add sever] (.. /image/user-guide/add-server-1.png)
 
-2. Thực hiện lấy mã token để cài đặt máy
+2. Perform to get the token to install the machine
 
-   [Lấy mã token](/vi/sigma-media-server/03-getting-started/04-install-new-machine#lay-ma-token-đe-thuc-hien-cai-đat-may)
+   [Get token] (/en/sigma-media-server/03-getting-started/04-install-new-machine#lay-code-token-to-implement-install-machine)
 
-3. Cài đặt máy chủ
+3. Server settings
 
-   [Install Server](../03-getting-started/04-install-new-machine#thuc-hien-cai-đat-may)
+   [Install Server] (.. /03-getting-started/04-install-new-machine#implement-set-machine)
 
 ***
 
 ### 2. Drain Job
 
-​		Chức năng giúp người dùng có khả năng thực hiện hành động **Drain Job**, khi máy được yêu cầu thực hiện **Drain Job** máy sẽ thực hiện đẩy toàn bộ Job đang được xử lý trong máy đó ra ngoài. Người dùng có thể thực hiện **Drain Job** theo các bước đơn giản:
+The function gives the user the ability to perform the **Drain Job** action, when the machine is asked to perform **Drain Job** the machine will eject all the Jobs being processed in that machine. Users can perform Drain Job in simple steps:
 
-1. Tại màn hình quản lý máy, nhấp chọn **Drain Job** tại máy ở trạng thái hoạt động (Running/ Paused)
+1. At the machine management screen, click **Drain Job** at the machine in the operating state (Running/ Paused)
 
-   ![](../image/user-guide/drain-job.png)
+   ! [](.. /image/user-guide/drain-job.png)
 
-2. Nhấp xác nhận thực hiện hành động
+2. Click Confirm action execution
 
-   ![](../image/user-guide/drain-job-confirm.png)
+   ! [](.. /image/user-guide/drain-job-confirm.png)
 
-Hệ thống sẽ xử lý việc đẩy toàn bộ job đang được thực hiện trong máy ra ngoài
+The system will handle pushing all the jobs being done in the machine out
 
 ***
 
 ### 3. Pause/ Resume
 
-Cho phép người dùng thực hiện Tạm dừng/ Khôi phục hoạt động của máy. Người dùng thực hiện các bước:
+Allows users to perform Pause/Restore machine operation. The user performs the steps:
 
-1. Tại màn hình quản lý máy, nhấp chọn **Pause** tại máy ở trạng thái Running
+1. At the machine management screen, click **Pause** at the machine in Running state
 
-   ![](../image/user-guide/pause.png)
+   ! [](.. /image/user-guide/pause.png)
 
-2. Nhấp xác nhận thực hiện hành động
+2. Click Confirm action execution
 
-   ![](../image/user-guide/pause-confirm.png)
+   ! [](.. /image/user-guide/pause-confirm.png)
 
-Máy sẽ về trạng thái "Paused"
+The machine will return to the "Paused" state
 
-Với máy ở trạng thái **Pause**, người dùng muốn thực hiện **Resume** khôi phục hoạt động của máy. Thực hiện các bước tương tự:
+With the machine in the **Pause** state, the user wants to perform **Resume** to restore the operation of the machine. Follow the same steps:
 
-1. Tại màn hình quản lý máy, nhấp chọn **Resume** tại máy ở trạng thái Paused
+1. At the machine management screen, click **Resume** at the machine in Paused status
 
-   ![](../image/user-guide/resume.png)
+   ! [](.. /image/user-guide/resume.png)
 
-2. Nhấp xác nhận thực hiện hành động
+2. Click Confirm action execution
 
-   ![](../image/user-guide/resume-confirm.png)
+   ! [](.. /image/user-guide/resume-confirm.png)
 
-Máy sẽ về trạng thái "Running"
+The machine will return to the "Running" state
 
 ***
 
 ### 4. Config Route
 
-Chắc năng **Config Route** cho phép người dùng cấu hình địa chỉ URI giúp hệ thống có thể định tuyển và kết nối với máy chỉ Ingest và Origin.
+The Config Route feature allows users to configure URI addresses so that the system can route and connect to Ingest and Origin addresses.
 
-Hệ thống cung cấp giao diện cho phép người dùng cấu hình định tuyến, bao gồm các thông tin:
+The system provides an interface that allows users to configure routing, including information:
 
-- Cấu hình Ingest: Người dùng có thể cấu hình địa chỉ RTMP Public URI, SRT Public URI, Web RTC Public URI
-- Cấu hình Origin:  Người dùng có thể cấu hình địa chỉ HTTP Public URI
+- Ingest Configuration: Users can configure RTMP Public URI, SRT Public URI, Web RTC Public URI addresses
+- Origin Configuration: Users can configure the HTTP Public URI address
 
-Để thực hiện **Config Route**, người dùng thực hiện các bước sau:
+To implement the Config Route, the user performs the following steps:
 
-1. Tại màn hình danh sách máy chủ, nhấp hành động **Config Route**
-   ![](../image/user-guide/config-route.png)
+1. At the server list screen, click the **Config Route** action
+   ! [](.. /image/user-guide/config-route.png)
 
-2. Thực hiện cấu hình thông tin cần thiết vào form cấu hình
-   ![](../image/user-guide/config-route-form.png)
+2. Configure the required information into the configuration form
+   ! [](.. /image/user-guide/config-route-form.png)
 
 ***
 
 ### 5. Add license
 
-Khi cài đặt máy thành công, người dùng cần gán giấy phép cho máy để kích hoạt hoạt động.
+When the installation of the machine is successful, the user needs to assign a license to the machine to activate the operation.
 
-Với việc thêm giấy phép người dùng có thể thực hiện bằng 2 cách:
+With adding licenses users can do it in 2 ways:
 
-##### Cách 1: Truy cập vào phần Quản lý giấy phép
+##### Method 1: Go to Manage licenses
 
-Thực hiện các thao tác:
+Perform the manipulations:
 
-1. Nhấp "Thêm giấy phép".
+1. Click "Add license".
 
-![](../image/user-guide/license.png)
+! [](.. /image/user-guide/license.png)
 
-2. Chọn loại giấy phép (Lưu ý: Giấy phép sử dụng kích hoạt cho máy phải cùng loại với máy)
-   ![](../image/user-guide/license-type.png)
+2. Select the license type (Note: The activation usage license for the machine must be of the same type as the machine)
+   ! [](.. /image/user-guide/license-type.png)
 
-3. Kiểm tra thông tin của giấy phép
-   ![](../image/user-guide/license-review.png)
+3. Check the license information
+   ! [](.. /image/user-guide/license-review\.png)
 
-4. Thực hiện thanh toán hóa đơn đầu tiên của giấy phép
-   ![](../image/user-guide/license-payment.png)
+4. Make payment of the first bill of the license
+   ! [](.. /image/user-guide/license-payment.png)
 
    ::: warning
 
-   Giấy phép có khả năng sử dụng khi được thanh toán trước.
+   The license is usable when paid in advance.
 
-5. Xác nhận thanh toán
+5. Payment confirmation
 
-6. Hệ thống thanh toán thành công giấy phép sẽ ở trạng thái khả dụng
+6. System successfully billed license will be available
 
-7. Nhấp hành động "Sử dụng"
-   ![](../image/user-guide/license-use.png)
+7. Click the "Use" action
+   ! [](.. /image/user-guide/license-use.png)
 
-8. Chọn máy cần kích hoạt hoạt động
-   ![](../image/user-guide/license-choose-server.png)
+8. Select the machine to activate the operation
+   ! [](.. /image/user-guide/license-choose-server.png)
 
-9. Xác nhận sử dụng giấy phép
-   ![](../image/user-guide/license-use-confirm.png)
+9. Confirm license usage
+   ! [](.. /image/user-guide/license-use-confirm.png)
 
-Giấy phép lúc này đã gán thành công cho máy, máy sẵn sàng nhận job để xử lý.
-::: tip
-Nếu bạn đã có giấy phép ở trạng thái "Available" có thể thực hiện "Sử dụng" giấy phép ngay (Thực hiện từ bước 7).
+The license has now been successfully assigned to the machine, the machine is ready to receive jobs for processing.
+:::Tip
+If you already have a license in an "Available" status, you can perform "Use" the license immediately (Done from step 7).
 
-##### Cách 2: Truy cập vào phần Quản lý máy chủ
+##### Method 2: Access the Server Management section
 
-Người dùng có thể thực hiện "Add License" trược tiếp cho máy chủ theo các bước:
+Users can perform "Add License" directly to the server by following the steps:
 
-1. Với máy mới cài đặt chưa được gán giấy phép, nhấp hành động "Add License"
-   ![](../image/user-guide/add-license.png)
+1. For newly installed machines that have not been assigned a license, click the "Add License" action
+   ! [](.. /image/user-guide/add-license.png)
 
-2. Người dùng có thể thực hiện:
+2. Users can do:
 
-   ![](../image/user-guide/add-license-2.png)
+   ! [](.. /image/user-guide/add-license-2.png)
 
-   - **Chọn giấy phép có sẵn**: Trong trường hợp ứng dụng đã có giấy phép cùng loại với máy ở trạng thái "Avaiable".
-     ![](../image/user-guide/add-license-choose.png)
+   - **Select available license**: In case the application already has a license of the same type as the machine in the "Avaiable" state.
+     ! [](.. /image/user-guide/add-license-choose.png)
 
-   - **Lựa chọn thêm giấy phép mới**: Người dùng thực hiện các bước thêm giấy phép như bước 2, 3, 4, 5, 6 tại **Cách 1**. Sau khi giấy phép được thanh toán thành công, giấy phép sẽ tự động được chọn làm giấy phép để sử dụng kích hoạt máy
+   - **Option to add new license**: Users perform the steps to add licenses such as steps 2, 3, 4, 5, 6 at **Method 1**. After the license is successfully paid, the license will automatically be selected as the license to use for machine activation
 
-     ![](../image/user-guide/add-license-create.png)
+     ! [](.. /image/user-guide/add-license-create.png)
 
 ***
 
 ### 6. Config App
 
-Chức năng **Config App** cho phép người dùng thực hiện cấu hình cổng kết nối cho máy chủ Ingest và Origin.
+The **Config App** function allows users to perform gateway configuration for Ingest and Origin servers.
 
-Các bước thực hiện cấu hình ứng dụng:
+Steps to perform application configuration:
 
-1. Nhấp chọn **Server Name** để xem thông tin chi tiết máy chủ
-   ![](../image/user-guide/config-app-1.png)
+1. Click **Server Name** to view server details
+   ! [](.. /image/user-guide/config-app-1.png)
 
-2. Tại phần thông tin cấu hình App, nhấp chọn **Config**
+2. In the App configuration information section, click **Config**
 
-![](../image/user-guide/config-app-2.png)
-3\. Thực hiện cấu hình và xác nhận lưu cấu hình
+! [](.. /image/user-guide/config-app-2.png)
+3\. Perform the configuration and confirm saving the configuration
 
-- Cấu hình Ingest: Người dùng có thể cấu hình cổng kết nối cho RTMP Server, SRT Server, Web RTC Server
-  ![](../image/user-guide/config-app-ingest.png)
+- Ingest Configuration: Users can configure connection ports for RTMP Server, SRT Server, Web RTC Server
+  ! [](.. /image/user-guide/config-app-ingest.png)
 
-- Cấu hình Origin:  Người dùng có thể cấu hình cổng kết nối cho HTTP Server ![](../image/user-guide/config-app-origin.png)
+- Origin Configuration: Users can configure the connection port for HTTP Server! [](.. /image/user-guide/config-app-origin.png)
 
 ***
 
 ### 7. Actions to App
 
-Ngoài việc cấu hình App, người dùng có thể thực hiện các hành động **Start/ Stop/ Reset** ứng dụng. Giúp xử lý các trường hợp ứng dụng gặp sự cố hoặc mong muốn của người dùng muốn khởi động lại úng dụng.
+In addition to configuring the App, users can perform **Start/ Stop/ Reset** application actions. Help handle cases where the application crashes or the user's desire to restart the application.
 
-Người dùng có thể thực hiện các hành động theo các bước đơn giản sau:
+Users can perform actions in the following simple steps:
 
-1. Truy cập xem thông tin chi tiết máy chủ, tại phần cấu hình App
-2. Nhấp nút hành động **Start/ Stop/ Reset** ứng dụng muốn thực hiện
+1. Access to view server details, at App configuration
+2. Click the action button **Start/ Stop/ Reset** the application you want to perform
 
-![](../image/user-guide/action-app.png)
+! [](.. /image/user-guide/action-app.png)
 
 ***
 
 ### 8. Delete Server
 
-Với những máy ở trạng thái **DEAD/ FREEZED** người dùng có thể thực hiện Xóa máy, giúp loại bỏ những máy không còn sử dụng để đảm bảo việc quản lý máy dễ dàng hơn. Người dùng sử dụng nút **Delete** với máy DEAD/ FREEZED
-![](../image/user-guide/delete-server.png)
+With machines in **DEAD/ FREEZED** state, users can perform Machine Wipe, helping to remove machines that are no longer in use to ensure easier machine management. Users use the **Delete** button with DEAD/ FREEZED machines
+! [](.. /image/user-guide/delete-server.png)
 
 ***
 
-## Máy Sigma Live Server Community
+## Sigma Live Server Community Machine
 
-Sigma Live Server Community là một phiên bản máy cộng đồng sử dụng miễn phí, cho phép người dùng sử dụng một số tính năng cơ bản của Sigma Live Server mà không cần trả phí.
+Sigma Live Server Community is a free-to-use community machine edition that allows users to use some of the basic features of Sigma Live Server without paying.
 
-Với loại máy cộng đồng, người dùng không cần thực hiện gán giấy phép cho máy. Hệ thống sẽ tự động tạo và gán giấy phép miễn phí cho người dùng sử dụng.
+With the community machine type, users do not need to perform a license assignment for the machine. The system will automatically create and assign free licenses for users to use.
 
-Người dùng vẫn được phép thực hiện đầy đủ các chức năng khác đổi với loại máy này tương tự loại máy Sigma Live bình thường
+Users are still allowed to perform all other functions with this machine similar to normal Sigma Live machines
 
 ### 1. Add Server
 
-Người dùng có thể thực hiện thêm máy mới, theo các bước:
+Users can add new machines, following these steps:
 
-1. Tại màn hình danh sách máy Sigma Live Community, nhấp **Thêm máy chủ**
+1. At the Sigma Live Community machine list screen, click Add Server
 
-2. Thực hiện lấy mã token để cài đặt máy
+2. Perform to get the token to install the machine
 
-   [Lấy mã token](/vi/sigma-media-server/03-getting-started/04-install-new-machine#lay-ma-token-đe-thuc-hien-cai-đat-may)
+   [Get token] (/en/sigma-media-server/03-getting-started/04-install-new-machine#lay-code-token-to-implement-install-machine)
 
-3. Cài đặt máy chủ
-   [Install Server](/vi/sigma-media-server/03-getting-started/04-install-new-machine#with-server-community)
+3. Server settings
+   [Install Server] (/en/sigma-media-server/03-getting-started/04-install-new-machine#with-server-community)
 
 ***
 
 ### 2. Drain Job
 
-Người dùng thực hiện hành động [Drain Job](/vi/sigma-media-server/04-user-guide/02-sigma-live-server#_2-drain-job)
+User performs action [Drain Job](/en/sigma-media-server/04-user-guide/02-sigma-live-server#_2-drain-job)
 
 ***
 
 ### 3. Pause/ Resume
 
-​    Người dùng thực hiện hành động [Pause/ Resume](/vi/sigma-media-server/04-user-guide/02-sigma-live-server#_3-pause-resume)
+User performs action [Pause/ Resume](/en/sigma-media-server/04-user-guide/02-sigma-live-server#_3-pause-resume)
 
 ***
 
 ### 4. Config Route
 
-​    Người dùng thực hiện hành động [Config Route](/vi/sigma-media-server/04-user-guide/02-sigma-live-server#_4-config-route)
+User performs action [Config Route](/en/sigma-media-server/04-user-guide/02-sigma-live-server#_4-config-route)
 
 ***
 
 ### 5. Config App
 
-Người dùng thực hiện hành động [Config App](/vi/sigma-media-server/04-user-guide/02-sigma-live-server#_6-config-app)
+User performs action [Config App](/en/sigma-media-server/04-user-guide/02-sigma-live-server#_6-config-app)
 
 ***
 
 ### 6. Actions to App
 
-Người dùng thực hiện hành động  [Action to App](/vi/sigma-media-server/04-user-guide/02-sigma-live-server#_7-actions-to-app)
+User performs action [Action to App](/en/sigma-media-server/04-user-guide/02-sigma-live-server#_7-actions-to-app)
 
 ***
 
 ### 7. Delete Server
 
-Người dùng thực hiện hành động  [Delete Server](/vi/sigma-media-server/04-user-guide/02-sigma-live-server#_8-delete-server)
+User performs action [Delete Server](/en/sigma-media-server/04-user-guide/02-sigma-live-server#_8-delete-server)
 
 ## Cluster Server
 
-Hệ thống đem đến một giải pháp nhằm giúp người dùng có thể gộp các máy lại với nhau thành một cụm, giúp cho việc hỗ trợ nhau xử lý các task giữa các máy trở nên dễ dàng hơn. Cụ thể, các máy được gộp lại có thể hỗ trợ nhau trong trường hợp có máy bị chết hoặc gặp sự cố.
+The system provides a solution to help users group machines together into a cluster, making it easier to support each other to handle tasks between machines. Specifically, the combined machines can support each other in the event of a machine death or malfunction.
 
-Giúp cải thiện tốc độ và hiệu suất làm việc, đồng thời giảm thiểu rủi ro mất mát dữ liệu và đảm bảo sự liên tục của các quy trình xử lý Job.
+Help improve work speed and efficiency, while minimizing the risk of data loss and ensuring the continuity of job processing processes.
 
 ### 1. Add Cluster Server
 
-Người dùng thực hiện hành động [Add Cluster](/vi/sigma-media-server/03-getting-started/07-create-cluster#tao-moi-cluster-server)
+User performs action [Add Cluster](/en/sigma-media-server/03-getting-started/07-create-cluster#create-moi-cluster-server)
 
 ***
 
 ### 2. Edit Cluster Server
 
-Người dùng được phép thực hiện chỉnh sửa cấu hình của cụm máy chủ, thay đổi cấu hình hoặc thay đổi thành phần máy trong cụm
+Users are allowed to make modifications to the configuration of the server cluster, change the configuration or change the machine components in the cluster
 
 ***
 
 ### 3. Delete Cluster Server
 
-Người dùng có thể thực hiện xóa cụm máy không còn nhu cầu sử dụng bằng hành động **Delete** tại phần quản lý Cluster Server
+Users can delete the cluster that no longer needs to be used by the action **Delete** in the Cluster Server management section
 
 ***
 
 ### 4. View Logs
 
-Hệ thống đem đến cho người dùng chức năng xem nhật lý hoạt động của cụm máy chủ. Mỗi cụm máy chủ sẽ có giao diện hiển thị toàn bộ nhật ký hoạt động của tất cả các máy chủ nằm trong cụm.
+The system gives users the function to view the operation log of the server cluster. Each cluster will have an interface that displays the entire activity log of all servers located in the cluster.
 
-Người dùng có thể xem danh sách nhật ký hoạt động của cụm máy chủ bằng cách nhấp hành động **View Logs** tại phần quản lý Cluster Server.
+Users can view a list of cluster activity logs by clicking the **View Logs** action in the Cluster Server management section.
