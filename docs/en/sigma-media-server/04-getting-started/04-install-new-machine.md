@@ -1,35 +1,35 @@
 ---
-title: Hướng dẫn cài đặt máy chủ
+title: Server Installation Guide
 order: 4
 ---
 
-Cài đặt máy chủ lên hệ thống Sigma theo quá trình đơn giản:
+Installing the server on the Sigma system follows a simple process:
 
-[[toc]]
+[[hair]]
 
-### Chuẩn bị
+### Prepare
 
 BE-support
 
-### Lấy mã token để thực hiện cài đặt máy
+### Get the token to perform the installation of the machine
 
-Thực hiện truy cập vào ứng dụng mong muốn sử dụng máy. Tại phần quản lý máy, nhấp "Thêm máy mới"
+Make access to the desired application using the machine. At the machine management section, click "Add new machine"
 
 /image-server-list
 
-Hệ thống sẽ trả về cho người dùng thông tin cài đặt máy cho người dùng, bao gồm:
+The system will return to the user machine installation information for the user, including:
 
-- Đường dẫn [Install Server](http://example.net/) : Hướng dẫn chi tiết các bước trong quá trình cài đặt máy
+- Path [Install Server](http://example.net/): Detailed instructions on the steps in the installation process
 
-- Mã đăng ký: Hỗ trợ trong quá trình cài đặt
+- Registration code: Support during installation
 
-  Ngoài ra, người dùng có thể thực hiện thao tác "Đổi mã đăng ký"
+  Alternatively, the user can perform the operation "Redeem registration code"
 
-  ![Add Server](../image/getstarted/add-server.png)
+  ! [Add Server] (.. /image/getstarted/add-server.png)
 
-### Thực hiện cài đặt máy
+### Perform machine installation
 
-Tiếp theo, thực hiện cài đặt máy trên máy local
+Next, perform the installation of the machine on the local machine
 
 #### With Server Enterprise
 
