@@ -1,70 +1,70 @@
 ---
-title: Tạo mới preset
+title: Create a new preset
 order: 1
 ---
 
-# Tạo mới preset
+# Create a new preset
 
-Chức năng này cho phép người dùng CMS tạo mới preset để tiết kiệm thời gian khi tạo profiles (hồ sơ)
+This function allows CMS users to create new presets to save time when creating profiles
 
-**Bước 1**: Truy cập sản phẩm Media Live, người dùng di chuyển con trỏ chuột vào **Channel templates** và chọn tab **Presets**
+**Step 1**: To access the Media Live product, the user moves the mouse cursor to **Channel templates** and selects the tab **Presets**
 
-Hệ thống hiển thị giao diện màn hình danh sách preset hiện có
+The system displays the interface of the existing preset list
 
-**Bước 2**: Tại giao diện màn hình danh sách preset, người dùng bấm nút **Thêm**
+**Step 2**: At the preset list screen interface, users click the **Add** button
 
-Hệ thống hiển thị pop-up tạo mới preset ở giữa màn hình. Với các thông tin chung:
+The system displays a new pop-up preset in the middle of the screen. With general information:
 
-![Tạo mới preset](/images/media-live/preset/create-preset.png)
+! [Create new preset] (/images/media-live/preset/create-preset.png)
 
-- **Tên**: Tên của preset (bắt buộc nhập, nhập tối đa 50 kí tự)
-- **Mô tả**: Mô tả preset (không bắt buộc nhập, nhập tối đa 200 kí tự)
-- **Loại**: Có 3 loại là _**Video, Audio**_ và _**Data**_
-- **Nút "Huỷ bỏ"**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
-- **Nút "Xác nhận"**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
+- **Name**: Name of the preset (required, maximum 50 characters)
+- **Description**: Preset description (optional, maximum 200 characters)
+- **Type**: There are 3 types: _**Video, Audio**_ and _**Data**_
+- **"Remove" button**: Do not perform new creation, return to the main screen interface.
+- **"Confirm" button**: Save the newly created information, return to the main screen interface.
 
-Khi người dùng lựa chọn loại là **Video** (chỉ cho phép chọn tối đa _**1 video**_), hệ thống hiển thị thông tin:
+When the user selects the type as **Video** (only maximum _**1 video**_ is allowed), the system displays the information:
 
-| **Tên cột**              | **Mô tả**                                                                                             | **Yêu cầu**                                                                                                                                                                              |
-| ------------------------ | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Codec**                | Sử dụng để nén và giải nén dữ liệu âm thanh hoặc video để giảm dung lượng và tăng khả năng truyền tải | Bắt buộc nhập, cho phép các lựa chọn: <br/>- **h264** (_mặc định hiển thị_)<br/>- **hevc<br/>- copy** (không cho phép chỉnh sửa các cấu hình khác) |
-| **Video rate**           | Đo lường tốc độ truyền dữ liệu của video hoặc âm thanh                                                | Không bắt buộc nhập, hệ thống hiển thị giá trị mặc định _**4000000**_ (cho phép giá trị nằm trong khoảng _**64000 <= birate <= 60000000**_)                           |
-| **FPS**                  | Số khung hình được hiển thị trong một giây                                                            | Không bắt buộc nhập, hệ thống hiển thị giá trị mặc định _**25**_ (cho phép giá trị nằm trong khoảng \*\*\* 10 <= FPS <= 60\*\*\*)                                     |
-| **Width**                | Chiều rộng của khung hình video                                                                       | Không bắt buộc nhập, hệ thống hiển thị giá trị mặc định _**1920**_ (cho phép giá trị nằm trong khoảng _**0 <= Width <=7680**_)                                        |
-| **Height**               | Chiều cao của khung hình video                                                                        | Không bắt buộc nhập, hệ thống hiển thị giá trị mặc định _**1080**_ (cho phép giá trị nằm trong khoảng _**0 <= Height <= 4320**_)                                      |
-| **Hdr**                  | Cho phép màn hình hiển thị hình ảnh rõ nét, đặc biệt là các chi tiết trong vùng nổi và vùng bóng đổ   | Không bắt buộc nhập, cho phép các lựa chọn: **Copy, none, HDR10, HLG10, PQ10**                                                                                                           |
-| **Bframe**               | Sử dụng để tối ưu hóa việc nén và chất lượng video                                                    | Không bắt buộc nhập, cho phép giá trị nằm trong khoảng _**0.0 <= Bframe <= 3.0**_                                                                                                        |
-| **Pixel format**         | Là cách mà thông tin màu sắc của mỗi điểm ảnh được biểu diễn trong một hình ảnh số                    | Không bắt buộc nhập, cho phép các lựa chọn: **yuv420p, yuv444p, yuv420p10le, yuv444p10le**                                                                                               |
-| **Scale Type**           | Xác định cách tỷ lệ kích thước của video                                                              | Không bắt buộc nhập, cho phép các lựa chọn: **fitWidth, fitHeight, fitInside, fitCrop, fitBoth, source**                                                                                 |
-| **Constant quality**     | Đảm bảo chất lượng của video không thay đổi                                                           | Không bắt buộc nhập, hệ thống hiển thị giá trị mặc định _**0**_ (cho phép giá trị nằm trong khoảng _**0 <= Constant quality <= 51**_)                                 |
-| **Interlaced mode**      | Các dòng lẻ và chẵn được hiển thị xen kẽ để tạo ra hình ảnh trong video                               | Không bắt buộc nhập, hệ thống hiển thị giá trị mặc định _**vô hiệu hóa**_                                                                                                                |
-| **Constant birate mode** | Giữ cho tốc độ bit không đổi trong trường hợp có sự thay đổi về nội dung hoặc khả năng truyền tải     | Không bắt buộc nhập, hệ thống hiển thị giá trị mặc định _**vô hiệu hóa**_                                                                                                                |
+| **Column name**          | **Describe**                                                                                         | **Request**                                                                                                                                                                  |
+| ------------------------ | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Codec**                | Use to compress and decompress audio or video data to reduce size and increase transmission capacity | Force entry, allow choices: <br/>- **h264** (_display default_)<br/>- **HEVC<br/>- copy** (no editing of other configurations allowed) |
+| **Video rate**           | Measure the data transfer speed of video or audio                                                    | Input is not required, the system displays the default value _**4000000**_ (allow values in the range _**64000 <= birate <= 60000000**_)                  |
+| **FPS**                  | Number of frames displayed per second                                                                | Input is not required, the system displays the default value _**25**_ (allow values in the range \*\*\* 10 <= FPS <= 60\*\*\*)                            |
+| **Width**                | The width of the video frame                                                                         | Input is not required, the system displays the default value _**1920**_ (allows values in the range _**0 <= Width <=7680**_)                              |
+| **Height**               | The height of the video frame                                                                        | Input is not required, the system displays the default value _**1080**_ (allow values within _**0 range <= Height <= 4320**_)                             |
+| **Hdr**                  | Allows the screen to display clear images, especially details in floating and shadow areas           | Optional import, options allowed: **Copy, none, HDR10, HLG10, PQ10**                                                                                                         |
+| **Bframe**               | Use to optimize video compression and quality                                                        | Not required, allow values within _**0.0 <= Bframe <= 3.0**_                                                                                                                 |
+| **Pixel format**         | The way in which the color information of each pixel is represented in a digital image               | Optional entry, choices allowed: **yuv420p, yuv444p, yuv420p10le, yuv444p10le**                                                                                              |
+| **Scale Type**           | Determine how to scale a video's size                                                                | Optional, choices allowed: **fitWidth, fitHeight, fitInside, fitCrop, fitBoth, source**                                                                                      |
+| **Constant quality**     | Make sure the quality of your video doesn't change                                                   | Entry is not required, the system displays the default value _**0**_ (allows values within _**0 range <= Constant quality <= 51**_)                       |
+| **Interlaced mode**      | Odd and even lines are displayed alternately to create images in the video                           | Optional entry, system displays default value _**disabled**_                                                                                                                 |
+| **Constant birate mode** | Keep the bitrate constant in the event of a change in content or transmission capacity               | Optional entry, system displays default value _**disabled**_                                                                                                                 |
 
-Khi người dùng lựa chọn loại là **Audio** (chỉ cho phép chọn tối đa_**10 audio**_), hệ thống hiển thị thông tin:
+When the user selects the type as **Audio** (only maximum _**10 audio**_ is allowed), the system displays the information:
 
-| **Tên cột** | **Mô tả**                                                                                                         | **Yêu cầu**                                                                                                                                                                                                                                              |
-| ----------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Codec       | Sử dụng để nén và giải nén dữ liệu âm thanh hoặc video để giảm dung lượng và tăng khả năng truyền tải             | Bắt buộc nhập, cho phép các lựa chọn: <br/>- **aac** (_mặc định hiển thị_)<br/>- **ac3** <br/>- \*\*eac3 \*\*<br/>- **mp2** <br/>- **copy** (không cho phép chỉnh sửa các cấu hình khác)                           |
-| Audio Rate  | Xác định chất lượng và độ chi tiết của âm thanh                                                                   | Không bắt buộc nhập, hệ thống hiển thị giá trị mặc định _**64000**_ (cho phép giá trị nằm trong khoảng _**64000 <= birate <= 60000000**_)                                                                                             |
-| Sample rate | Số mẫu âm thanh được lấy trong một giây                                                                           | Không bắt buộc nhập, cho phép các lựa chọn: **44100, 48000**                                                                                                                                                                                             |
-| Channel     | Số lượng kênh âm thanh được truyền tải                                                                            | Không bắt buộc nhập, cho phép các lựa chọn: **1, 2, 6**                                                                                                                                                                                                  |
-| Profile     | Một tập hợp các thông số cấu hình được sử dụng để định rõ cách dữ liệu video hoặc âm thanh được mã hóa và giải mã | Không bắt buộc nhập, cho phép các lựa chọn: **aac_low, aac_he, aac_he_v2, aac_main, aac_ld, aac_eld** |
-| Volume      | Đo lường mức độ âm thanh, điều chỉnh để tương thích với người nghe                                                | Không bắt buộc nhập, cho phép các lựa chọn: **+5dB, -10dB, 0.5, 2, loudnorm**                                                                                                                                                                            |
-| Ngôn ngữ    | Ngôn ngữ sử dụng cho nội dung âm thanh hoặc văn bản                                                               | Không bắt buộc nhập, cho phép các lựa chọn theo tiêu chuẩn quốc tế                                                                                                                                                                                       |
-| Nhãn        | Các thông tin đặc tả sử dụng để phân loại hoặc nhận dạng nội dung                                                 | Không bắt buộc nhập, nhập tối đa 50 kí tự                                                                                                                                                                                                                |
+| **Column name** | **Describe**                                                                                         | **Request**                                                                                                                                                                                                                                   |
+| --------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Codec           | Use to compress and decompress audio or video data to reduce size and increase transmission capacity | Force entry, allow choices: <br/>- **aac** (_default display_)<br/>- **ac3** <br/>- **eac3**<br/>- **mp2** <br/>- **copy** (no editing of other configurations allowed)                                 |
+| Audio Rate      | Determine the quality and detail of the sound                                                        | Input is not required, the system displays the default value _**64000**_ (allow values in the range _**64000 <= birate <= 60000000**_)                                                                                     |
+| Sample rate     | Number of audio samples taken per second                                                             | Optional entry, choices allowed: **44100, 48000**                                                                                                                                                                                             |
+| Channel         | Number of audio channels transmitted                                                                 | Optional entry, options allowed: **1, 2, 6**                                                                                                                                                                                                  |
+| Profile         | A set of configuration parameters used to specify how video or audio data is encoded and decoded     | Optional entry, choices allowed: **aac_low, aac_he, aac_he_v2, aac_main, aac_ld, aac_eld** |
+| Volume          | Measure sound level, adjust to compatible with listeners                                             | Optional entry, options allowed: **+5dB, -10dB, 0.5, 2, loudnorm**                                                                                                                                                                            |
+| Language        | Languages used for audio or text content                                                             | No entry required, international standard options allowed                                                                                                                                                                                     |
+| Label           | Specifications used to classify or identify content                                                  | Optional, enter up to 50 characters                                                                                                                                                                                                           |
 
-Khi người dùng lựa chọn loại là **Data** (chỉ cho phép chọn tối đa _**10 data**_), hệ thống hiển thị thông tin:
+When the user selects the type as **Data** (only maximum _**10 data**_ is allowed), the system displays the information:
 
-- **Codec**: Sử dụng để nén và giải nén dữ liệu âm thanh hoặc video để giảm dung lượng và tăng khả năng truyền tải.
+- **Codec**: Used to compress and decompress audio or video data to reduce size and increase transmission capacity.
 
-  Bắt buộc nhập, cho phép các lựa chọn:
+  Force entry, allow choices:
 
-  - **copy** (_mặc định hiển thị_)
+  - **copy** (_display default_)
   - **scte35**
   - \*\*id3 \*\*
 
-**Bước 3**: Người dùng lựa chọn loại presey và điền các thông tin bắt buộc
+**Step 3**: Users select the type of presey and fill in the required information
 
-**Bước 4**: Sau khi hoàn tất, nhấn vào nút **Xác nhận** tại cuối cửa sổ pop-up.
+**Step 4**: Once done, click the **Confirm** button at the bottom of the pop-up window.
 
-Hệ thống thực hiện tạo mới preset với các thông tin vừa được nhập, hiển thị thông báo **Đã tạo cài đặt trước thành công!** ở giữa màn hình để thông báo quá trình tạo đã được thực hiện thành công.
+The system creates a new preset with the newly entered information, displaying the message **Preset created successful!** in the middle of the screen to notify that the creation process has been successfully performed.
