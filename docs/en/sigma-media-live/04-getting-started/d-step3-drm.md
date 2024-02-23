@@ -1,38 +1,38 @@
 ---
-title: "B3(optional): Tạo DRM Credential"
+title: "B3(optional): Create DRM Credential"
 order: 5
 ---
 
-# Bước 3(optional): Tạo DRM Credential
+# Step 3 (optional): Create DRM Credential
 
-Nếu kênh của bạn có sử dụng tính năng đóng gói DRM cho luồng đầu ra của kênh, thì cần cài đặt tạo trước DRM Credential để có thể thiết lập việc đóng gói
+If your channel uses DRM encapsulation for its output stream, DRM Credential pre-creation needs to be installed so that encapsulation can be set up
 
-DRM Credential hiện tại hệ thống **Sigma Streaming Platform** hỗ trợ 2 loại là
+The current DRM Credential system **Sigma Streaming Platform** supports 2 types:
 
 - Sigma Multi DRM
 - DRMtoday
 
-## Hướng dẫn cấu hình DRM Credential với DRMtoday
+## DRM Credential Configuration Guide with DRMtoday
 
-**Điều kiện ban đầu**: bạn cần có tài khoản DRM today
+**Initial condition**: you need a DRM today account
 
-1. Truy cập  Menu `DRM Credential`. Chọn tab Drm today
-2. Chọn `Thêm` mới để tạo mới `DRM Credential`
-3. Điền các thông tin cần thiết của Drm today
-   - `MerchantID` :  Định danh của Drm today Merchant
-   - `Tên tài khoản`: Tên tài khoản truy cập Drm today
-   - `Mật khẩu`: Mật khẩu truy cập Drm today
-4. `Xác nhận` để lưu lại
+1. Access the 'DRM Credential' Menu. Select the Drm today tab
+2. Select 'Add' new to create a new 'DRM Credential'
+3. Fill in the required information of Drm today
+   - 'MerchantID': Identifier of Drm today Merchant
+   - 'Username': Drm today username
+   - 'Password': Drm today Access Password
+4. 'Confirm' to save
 
-## Hướng dẫn cấu hình DRM Credential với Sigma Multi Drm
+## Guide to configure DRM Credential with Sigma Multi Drm
 
-**Điều kiện ban đầu**: bạn cần có tài khoản DRM today
+**Initial condition**: you need a DRM today account
 
-1. Truy cập  Menu `DRM Credential`. Chọn tab `Sigma DRM`
-2. Chọn `Thêm` mới để tạo mới `DRM Credential`
-3. Điền các thông tin cần thiết của `Sigma DRM`
-   - `MerchantID` :  Định danh của `Sigma DRM` Merchant
-   - `AppId`: Định danh của App
-   - `Email`: Tên tài khoản truy cập `Sigma DRM`
-   - `Mật khẩu`: Mật khẩu truy cập `Sigma DRM`
-4. `Xác nhận` để lưu lại
+1. Access the 'DRM Credential' Menu. Select the 'Sigma DRM' tab
+2. Select 'Add' new to create a new 'DRM Credential'
+3. Fill in the required 'Sigma DRM' information
+   - 'MerchantID': The identifier of the 'Sigma DRM' Merchant
+   - 'AppId': App identifier
+   - 'Email': Access account name 'Sigma DRM'
+   - 'Password': Access password 'Sigma DRM'
+4. 'Confirm' to save
