@@ -1,8 +1,8 @@
 ***
 
-id: docs-guide-sigma-ssai
+ID: docs-guide-sigma-ssai
 title: Getting started
 
-order: 4
+Order: 4
 
 ***
