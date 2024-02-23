@@ -1,4 +1,4 @@
 ---
-title: Begin
+title: Bắt đầu
 order: 2
 ---
