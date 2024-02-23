@@ -1,73 +1,73 @@
 ---
-title: Xem Danh sách quảng cáo
+title: View List of ads
 order: 1
 ---
 
-# Xem Danh sách quảng cáo
+# View List of ads
 
-**Điều kiện**:
+**Condition**:
 
-- Đã có ad insert endpoint được tạo và chứa nó.
-- Đã có ít nhất 1 quảng cáo được tạo ra.
+- There is already an ad insert endpoint created and containing it.
+- At least 1 ad has been created.
 
-Các thông tin hiển thị ở đây giúp người dùng theo dõi các quảng cáo đã được cấu hình, hiển thị lên luồng trực tuyến.
+The information displayed here helps users keep track of the ads that have been configured, displayed on the online stream.
 
-_Giao diện mặc định hiển thị đang ở Dashboard._
+_The default view displayed is in Dashboard._
 
-Tại sidebar, chọn Danh sách quảng cáo.
+In the sidebar, select Ad list.
 
-Hệ thống hiển thị giao diện Danh sách quảng cáo gồm các thông tin sau:
+The system displays the Ad List interface with the following information:
 
-![](/images/dai/list-ad-default-off.png)
+! 
 
 <center>
 
-_Hình 1: Danh sách quảng cáo mặc định_
+_Figure 1: Default ad list_
 
   
 
-- **Tiêu đề**: Danh sách quảng cáo.
-- **Kiểm duyệt theo ứng dụng**: mặc định đang tắt.
-- **Nút bộ lọc tìm kiếm nhanh**: tiêu đề( ALl)/ vastID( All)/ trạng thái( All).
-- **Icon làm mới dữ liệu**: mặc định tự động cập nhật dữ liệu với thời lượng 10 giây, người dùng có thể click vào làm mới **thủ công**.
-- **Phân trang**
+- **Title**: List of ads.
+- **Moderation by app**: disabled by default.
+- **Quick search filter button**: title ( ALl) / vastID ( All) / status ( All).
+- **Data refresh icon**: by default automatically update data with a duration of 10 seconds, users can click refresh **manual**.
+- **Pagination**
 
-### Bảng thông tin quảng cáo
+### Ad dashboards
 
-| Tên cột                    | Chức năng                                                                                                                     |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| **ID**                     | Một mã định danh của quảng cáo(adID) mục đích nhận diện                                                    |
-| **Xem trước**              | Một video MP4 đầy đủ thời lượng hiển thị của quảng cáo tới người xem, người dùng có thể thực hiện thao tác xem trước tại đây. |
-| **Tiêu đề**                | Tên quảng cáo                                                                                                                 |
-| **VastID**                 | Một mã định danh của quảng cáo (adID) trong **file vast trả về.**                                          |
-| **Thời lượng**             | Thời lượng hiển thị của quảng cáo                                                                                             |
-| **Trạng thái**             | có 2 loại trạng thái: có sẵn và không có sẵn                                                                                  |
-| **Lần đầu tiên xuất hiện** | Điểm đánh dấu quảng cáo(cue-tone) đầu tiên trên luồng trực tuyến.                                          |
+| Column names         | Function                                                                                               |
+| -------------------- | ------------------------------------------------------------------------------------------------------ |
+| **ID**               | An advertising identifier (adID) that identifies                                    |
+| **Preview**          | A full-length MP4 video of the ad is displayed to viewers, users can perform a preview operation here. |
+| **Headline**         | Ad name                                                                                                |
+| **VastID**           | An advertising identifier (adID) in the returned vast file.\*\*                     |
+| **Duration**         | The duration of your ad's impression                                                                   |
+| **Condition**        | There are 2 types of statuses: available and unavailable                                               |
+| **First appearance** | The first cue-tone on an online stream.                                                                |
 
-## Quick filter( Không bắt buộc)
+## Quick filter (Optional)
 
-Người dùng thực hiện tìm kiếm nhanh bằng bộ lọc quick filter.
+Users perform quick searches using the quick filter.
 
-Quick filter: Bộ lọc hiển thị ngay trên giao diện hỗ trợ người dùng tìm kiếm nhanh, tại giao diện Danh sách quảng cáo bao gồm:
+Quick filter: Filters are displayed right on the interface to support users to search quickly, at the interface The list of ads includes:
 
-- Tiêu đề: **Hiển thị tất cả giá trị nào có chứa keyword ở bất kỳ vị trí nào.**
+- Title: **Displays all values containing keywords in any position.**
 - VastID
-- Trạng thái: Có sẵn/ không có sẵn.
+- Status: Available/Unavailable.
 
-## Xem trước( Không bắt buộc)
+## Preview(Optional)
 
-Người dùng thực hiện thao tác xem trước quảng cáo
+Users perform ad previews
 
-Tại giao diện Danh sách quảng cáo, người dùng click vào xem trước.
+At the Ad List interface, users click on preview.
 
-Hệ thống hiển thị **video mp4 của quảng cáo**.
+The system displays **mp4 video of the ad**.
 
-Các hành động hiển thị:
+Actions shown:
 
-| Tên cột                                               | Chức năng                                                                                |
-| ----------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| **Icon chạy(play)**                | Hiển thị khi vừa truy cập vào, click vào để chạy video.                                  |
-| **Icon phát lại**                                     | Hiển thị sau khi video chạy xong, click vào để phát lại nếu người xem có nhu cầu.        |
-| **Phân đoạn nội dung:**                               | Tối đa là thời lượng quảng cáo.                                                          |
-| **Tỷ lệ phát lại (playback rate)** | 0,5x/ 0,75x/ 1x( mặc định)/ 1,5x/ 2x.                                 |
-| **Trình phát playing in picture-in-picture:**         | Phát video linh động ra khỏi Tab hiện tại. Bấm **Back to Tab** để trở về trang web SSAI. |
+| Column names                              | Function                                                                                     |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Play icon**                             | Display when you just access, click to play the video.                                       |
+| **Playback icon**                         | Display after the video has finished running, click to play it back if the viewer needs.     |
+| **Content segment:**                      | The maximum is the duration of the ad.                                                       |
+| **Playback rate**                         | 0.5x/ 0.75x/ 1x(default)/ 1.5x/ 2x.                                       |
+| **Player playing in picture-in-picture:** | Play dynamic videos out of the current Tab. Press Back to Tab to return to the SSAI website. |
