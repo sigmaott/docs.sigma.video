@@ -1,22 +1,22 @@
 ---
-title: "B5: Quản lý và giám sát kênh"
+title: "S5: Channel management and monitoring"
 order: 7
 ---
 
-## Bước 5: Quản lý và giám sát kênh
+## Step 5: Manage and monitor channels
 
-Sau khi đã khởi tạo kênh, bạn có thể quản lý và giám sát tình trạng kênh thông qua cms hoặc api
+Once you've initiated your channel, you can manage and monitor its health via cms or api
 
-## Để giám sát kênh
+## To monitor channels
 
-1. Truy cập vào danh sách kênh
-2. Chọn kênh cần giám sát và chọn vào tên kênh để mở giám sát kênh
+1. Access to the channel list
+2. Select the channel to monitor and select the channel name to open channel monitoring
 
-Thông tin bên trong giám sát kênh, bạn có thể xem tại  [Giám sát kênh](../06-monitor-manage/02-monitor.md).
+Information inside channel monitoring, you can see at [Channel monitoring](.. /06-monitor-manage/02-monitor.md).
 
-## Để quản lý kênh
+## To manage channels
 
-1. Truy cập vào danh sách kênh
-2. Chọn kênh cần quản lý và thực hiện các thao tác quản lý
+1. Access to the channel list
+2. Select channels to manage and perform management operations
 
-Thông tin về các thao tác có thể quản lý, bạn có thể xem tại  [Quản lý kênh](../06-monitor-manage/01-manage-service.md).
+Information about manageable operations can be found at [Channel Management](.. /06-monitor-manage/01-manage-service.md).
