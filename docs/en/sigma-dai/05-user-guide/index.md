@@ -1,8 +1,8 @@
 ***
 
-ID: docs-guide-sigma-ssai
+id: docs-guide-sigma-ssai
 title: User guide
 
-Order: 5
+order: 5
 
 ***
