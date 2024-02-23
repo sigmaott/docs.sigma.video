@@ -1,5 +1,5 @@
 ---
 id: user-guide-sigma-media-live
-title: Bắt đầu
+title: Begin
 order: 5
 ---
