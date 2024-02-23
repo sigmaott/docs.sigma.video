@@ -1,17 +1,17 @@
 ---
-title: Các bước cơ bản
+title: Basic steps
 order: 1
 ---
 
-### Các bước cơ bản
+### Basic steps
 
-- Bước 1:
-  [Cách thức truy cập](b-get-started.md#cách-thức-truy-cập)
+- Step 1:
+  [How to Access] (b-get-started.md#access-way)
 
-- Bước 2:  [Chuẩn bị thông tin nguồn](b-get-started.md#bước-2-chuẩn-bị-thông-tin-nguồn)
+- Step 2: [Prepare source information](b-get-started.md#step-2-prepare-information-source)
 
-- Bước 3:  [Tạo mới kênh](b-get-started.md#bước-3-tạo-mới-kênh-lrm)
+- Step 3: [Create new channel](b-get-started.md#step-3-create-new-channel-lrm)
 
-- Bước 4: [Kiểm tra các cấu hình, chương trình, sự kiện](b-get-started.md#bước-3-tạo-mới-kênh-lrm)
+- Step 4: [Check configurations, programs, events](b-get-started.md#step-3-create-new-channel-lrm)
 
-- Bước 5:  [Dọn dẹp( Xoá kênh)](b-get-started.md#bước-5-dọn-dẹp-xoá-kênh)
+- Step 5: [Clean up(Delete channel)](b-get-started.md#step-5-clean-up-delete-channel)
