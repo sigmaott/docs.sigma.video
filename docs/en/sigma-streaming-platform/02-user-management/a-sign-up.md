@@ -1,34 +1,34 @@
 ---
-title: Đăng kí tài khoản
+title: Sign up for an account
 order: 1
 ---
 
-# Đăng kí tài khoản
+# Sign up for an account
 
-Tính năng đăng ký của người dùng là một phần rất quan trọng, giúp người dùng có thế thực hiện đăng kí tài khoản một cách dễ dàng để có thể truy cập vào hệ thống Sigma Streaming.
+The user registration feature is a very important part, helping users to register an account easily to be able to access the Sigma Streaming system.
 
-**Bước 1**: Người dùng truy cập vào đường dẫn `https://portal.sigmaott.com/auth/login`
+**Step 1**: User accesses the path 'https\://portal.sigmaott.com/auth/login'
 
-Hệ thống hiển thị màn hình **Đăng nhập**
+Screen display system **Login**
 
-**Bước 2**: Người dùng bấm vào nút **"Tạo tài khoản mới"**
+**Step 2**: User clicks on **"Create new account" button**
 
-Hệ thống hiển thị màn hình **Đăng kí**, với các thông tin chính:
+The system displays the **Register** screen, with the main information:
 
-![Đăng kí tài khoản](/images/streaming-platform/user-management/sign-up-1.png)
+! [Sign up for an account] (/images/streaming-platform/user-management/sign-up-1.png)
 
-- **Email:** yêu cầu nhập, không hỗ trợ ngôn ngữ có dấu, không chứa dấu cách
-- **Mật khẩu:** yêu cầu nhập, bắt buộc phải chứa ít nhất 1 kí tự in hoa, 1 kí tự in thường và số
-- \*\*Nhập lại mật khẩu: \*\*yêu cầu nhập, người dùng nhập giống với phần `Mật khẩu`
-- **Điều khoản và điều kiện:** bắt buộc tích chọn
-- Nút **"Điều khoản và điều kiện":** khi người dùng bấm nút này, hệ thống chuyển sang trang Điều khoản và điều kiện của Sigma Streaming
-- Nút **"Đăng kí với email":** thực hiện đăng kí tài khoản
-- Nút **"Đăng nhập tại đây":** khi người dùng bấm nút này, hệ thống chuyển sang trang Đăng nhập
+- **Email:** requires entry, no accented languages supported, no spaces
+- **Password:** requires entry, must contain at least 1 uppercase character, 1 lowercase character and number
+- \*\*Re-enter password: \*\*requires entry, user input is the same as the 'Password' section
+- **Terms and conditions:** Tick required
+- **"Terms and Conditions":** button when the user clicks this button, the system switches to the Sigma Streaming Terms and Conditions page
+- **"Register with email":** button to register an account
+- **"Login here":** button when the user clicks this button, the system switches to the Login page
 
-**Bước 3**: Người dùng nhập thông tin bắt buộc và bấm nút **"Đăng kí với email"**
+**Step 3**: User enters the required information and clicks the **"Register with email" button**
 
-**Bước 4**: Hệ thống kiểm tra Email đã tồn tại trong hệ thống chưa
+**Step 4**: The system checks if Email already exists in the system
 
-Nếu chưa có, hệ thống thực hiện **tạo mới tài khoản** với thông tin được cung cấp.
+If not, the system will create a new account with the information provided.
 
-Hiển thị màn hình [Xác thực](b-verification.md)
+[Authentication] screen display(b-verification.md)
