@@ -1,27 +1,27 @@
 ---
-title: Xóa đầu vào
+title: Clear input
 order: 5
 ---
 
-# Xóa đầu vào
+# Clear input
 
-**Điều kiện**: Để thực hiện chức năng này, cần phải có ít nhất một đầu vào đã được tạo trước đó và hiển thị trong danh sách đầu vào.
+**Condition**: To perform this function, at least one input must have been previously created and displayed in the input list.
 
-- Đầu vào hiện không gán với kênh nào (không được sử dụng)
+- Input is currently not assigned to any channel (not used)
 
-**Bước 1** : Trên màn hình danh sách đầu vào (Transcode/Package), tại đầu vào mà bạn muốn xoá, nhấn vào biểu tượng **Xoá** ở cột Hành động.
+**Step 1**: On the input list screen (Transcode/Package), at the input you want to delete, click the **Delete** icon in the Action column.
 
-Hệ thống sẽ kiểm tra Đầu vào có đang được sử dụng (đang được gán với kênh nào không)
+The system will check if the Input is in use (being assigned to any channel)
 
-Nếu đầu vào hiện đang không được sử dụng (không gán với kênh nào) hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâm màn hình với các chi tiết sau:
+If the input is currently not in use (not assigned to any channel) the system displays a confirmation pop-up window in the center of the screen with the following details:
 
-- Tiêu đề: Cảnh báo
-- Nội dung: Bạn có chắc chắn xóa Input? Tiếp tục?
-- Nút **Huỷ bỏ**: Không thực hiện thay đổi, quay lại màn hình Danh sách đầu vào
-- Nút **Xác nhận**: Hệ thống thực hiện việc xoá toàn bộ thông tin của đầu vào.
+- Subject: Warning
+- Content: Are you sure to delete Input? Continue?
+- **Cancel** button: Do not make changes, return to the Input List screen
+- Button **Confirm**: The system performs the deletion of all information of the input.
 
-**Bước 2** : Người dùng nhấn nút **Xác nhận** để xoá thông tin đầu vào
+**Step 2**: User presses **Confirm** button to delete input information
 
-Hệ thống hiển thị một cửa sổ pop-up thông báo **Xoá đầu vào thành công** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
+The system displays a pop-up message **Remove input successful** in the right corner of the screen and automatically closes the notification after 5 seconds.
 
-Đồng thời, hệ thống thực hiện **Xóa toàn bộ thông tin của đầu vào**, không còn hiển thị thông tin tại danh sách đầu vào.
+At the same time, the system performs **Delete all information of the input**, no longer displaying information in the input list.
