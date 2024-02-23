@@ -1,8 +1,8 @@
 ***
 
-ID: docs-guide-sigma-ssai
+id: docs-guide-sigma-ssai
 title: Introduction
 
-Order: 3
+order: 3
 
 ***
