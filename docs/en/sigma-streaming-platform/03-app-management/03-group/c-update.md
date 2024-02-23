@@ -1,38 +1,38 @@
 ---
-title: Cập nhật nhóm
+title: Team updates
 order: 3
 ---
 
-# Chỉnh sửa nhóm
+# Edit a group
 
-Điều Kiện: Nhóm đã được tạo trước đó và đã hiển thị trong danh sách nhóm.
+Condition: The group was created earlier and is already visible in the group list.
 
-Các điều chỉnh trong quá trình chỉnh sửa nhóm sẽ ảnh hưởng đến thông tin của chính nhóm đó và sẽ được hiển thị trong pop-up **Mời Thành Viên**.
+Adjustments during group editing will affect the group's own information and will be displayed in the **Invite Members** pop-up.
 
-Thành viên có quyền truy cập vào ứng dụng quản lý có thể thực hiện các điều chỉnh trên các lựa chọn của nhóm, ngay cả nhóm đang hoạt động.
+Members with access to the management app can make adjustments on group selections, even if the group is active.
 
-**Bước 1**:
+**Step 1**:
 
-Tại màn hình chính, người dùng có thể thực hiện chỉnh sửa bằng cách di chuyển chuột vào biểu tượng `Sửa` ở cột `hành động` tương ứng với nhóm mong muốn.
+At the main screen, users can make edits by moving their mouse on the 'Edit' icon in the 'actions' column corresponding to the desired group.
 
-**Bước 2:**
-Khi người dùng nhấp vào biểu tượng `chỉnh sửa`, hệ thống sẽ hiển thị một cửa sổ pop-up **Chỉnh Sửa Nhóm** giữa màn hình, hiển thị các thông tin đã chọn trước đó.
+**Step 2:**
+When the user clicks on the 'edit' icon, the system displays a pop-up **Edit Group** in the middle of the screen, displaying the previously selected information.
 
-![Chỉnh Sửa Nhóm](/images/streaming-platform/app-management/03-group/pop-up/edit.png)
+! [Edit Group] (/images/streaming-platform/app-management/03-group/pop-up/edit.png)
 
-_Pop-up Chỉnh sửa nhóm_
+_Pop-up Edit Group_
 
-**Bước 3:**
-Sau khi người dùng thực hiện các thay đổi và nhấn nút `Lưu`, hệ thống sẽ tự động lưu thông tin mới được cập nhật. Thông báo cập nhật thành công sẽ xuất hiện ở phía trên màn hình và sau đó, cửa sổ sẽ tự động đóng sau 5 giây.
+**Step 3:**
+After the user makes changes and presses the 'Save' button, the system will automatically save the newly updated information. A successful update message will appear at the top of the screen, and after that, the window will automatically close after 5 seconds.
 
 <!-- ![]() -->
 
-_Thông báo: Cập nhật nhóm thành công!_
+_Announcement: Team update successful!_
 
-## Thành viên nhóm
+## Team members
 
-Sau khi chỉnh sửa nhóm, các thành viên được gán vào nhóm sẽ mất quyền truy cập vào hệ thống. Trong trường hợp này, một trang lỗi UI 403 sẽ được hiển thị để thông báo về việc không có quyền truy cập.
+After editing the group, members assigned to the group will lose access to the system. In this scenario, a UI 403 error page will be displayed to inform about not having access.
 
-![Lỗi 403](/images/streaming-platform/app-management/03-group/error-403.png)
+! [Error 403] (/images/streaming-platform/app-management/03-group/error-403.png)
 
-Người dùng có thể nhấp vào nút `Về tổng quan` để trở lại danh sách ứng dụng và sidebar chỉ hiển thị các sản phẩm có quyền truy cập.
+Users can click the 'About Overview' button to return to the app list, and the sidebar shows only products that have access.
