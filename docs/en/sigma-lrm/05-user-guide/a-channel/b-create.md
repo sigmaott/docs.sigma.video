@@ -1,83 +1,83 @@
 ---
-title: Tạo mới kênh LRM
+title: Create a new LRM channel
 order: 2
 ---
 
-# Tạo mới kênh LRM
+# Create a new LRM channel
 
-Quá trình cập nhật và đồng bộ thông tin lịch phát sóng giữa các nguồn dữ liệu khác nhau, đảm bảo thông tin về lịch phát sóng của các kênh truyền hình hoặc đài phát thanh trực tuyến là chính xác và đúng lịch trình.
+The process of updating and synchronizing broadcast schedule information between different data sources, ensuring that information about the broadcast schedule of online TV channels or radio stations is accurate and on schedule.
 
-Sau khi chuẩn bị sẵn nguồn, mã chương trình, khoá API sử dụng để cấu hình kênh riêng của mình. Bạn có thể tạo mới kênh theo hướng dẫn sau:
+After preparing the source, program code, and API key to use to configure your own channel. You can create a new channel using these instructions:
 
-## Bước 1: Tạo kênh
+## Step 1: Create a channel
 
-Tại giao diện màn hình chính Danh sách kênh, người dùng click vào nút **Thêm kênh**
+At the Channel List main screen interface, users click on the button **Add channel**
 
-Hệ thống hiển thị **Pop-up thêm kênh mới** giữa giao diện:
+Display system **Pop-up add new channel** between interfaces:
 
-![](/images/lrm/pop-up/create-channel.png)
+! 
 
-Các thông tin hiển thị:
+The information displayed:
 
-| Tên trường       | Mô tả                                                                                                                                                                           | Bắt buộc | Kiểu dữ liệu  | Placeholder                                 | Rule                                                                                                                             |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Tên              | Tên kênh để chứa các chương trình sự kiện, mục đích phân biệt.                                                                                                                  | Có       | Textbox       | Vui lòng nhập tên kênh                      | Cho phép nhập các ký tự hợp lệ: A-Z, a-z, 0-9 và ”-”, “_”                                                   |
-| Mô tả            | Phần mô tả hiển thị với người dùng CMS, không hiển thị tới người xem với mục đích nhận biết. Vui lòng nhập mô tả dễ hiểu, ngắn gọn nội dung chính của kênh và dễ dàng tìm kiếm. | Không    | Textbox       | Vui lòng nhập mô tả kênh                    | Hỗ trợ tất cả ngôn ngữ, ký tự, số, dấu cách, khoảng trắng và tất cả ký tự đặc biệt.                                              |
-| Kênh media live  | Là danh sách kênh media live đang có trong hệ thống, danh sách thay đổi theo thời gian thực.                                                                                    | Có       | Select        | Chọn tối thiểu 1 kênh media live            | Cho phép chọn tất cả kênh trong hệ thống                                                                                         |
-| Múi giờ          | Theo tiêu chuẩn múi giờ UTC.                                                                                                                                                    | Có       | Single select | Mặc định: múi giờ theo tài khoản người dùng | Theo tiêu chuẩn quy định.                                                                                                        |
-| Đồng bộ hoá kênh | Cấu hình đồng bộ kênh                                                                                                                                                           | Không    | Switch        | Mặc định: Bật                               | **Enable**: hiển thị các group bên dưới tương ứng <br />**Disable:** disable các button và thông tin liên quan sau khi tạo kênh. |
+| School name             | Describe                                                                                                                                                                                | Compulsory | Data type     | Placeholder                          | Rule                                                                                                                                    |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Name                    | Channel name to contain event programs, distinguishing purposes.                                                                                                                        | Have       | Textbox       | Please enter a channel name          | Allows entering valid characters: A-Z, a-z, 0-9 and "-", "_"                                                       |
+| Describe                | The description is visible to CMS users, not to viewers for awareness purposes. Please enter an easy-to-understand, concise description of your channel's main content and easy search. | Not        | Textbox       | Please enter a channel description   | Support all languages, characters, numbers, spaces, spaces and all special characters.                                                  |
+| Live media channels     | As the list of live media channels available in the system, the list changes in real time.                                                                                              | Have       | Select        | Choose at least 1 live media channel | Allows selecting all channels in the system                                                                                             |
+| Time zone               | According to UTC time zone standards.                                                                                                                                                   | Have       | Single select | Default: time zone by user account   | According to regulatory standards.                                                                                                      |
+| Channel synchronization | Channel sync configuration                                                                                                                                                              | Not        | Switch        | Default: On                          | **Enable**: displays the groups below respectively <br />**Disable:** disable buttons and related information after creating a channel. |
 
-### Bật cấu hình đồng bộ kênh
+### Enable channel sync profiles
 
-Việc duy trì lịch phát sóng đồng bộ là rất quan trọng để cung cấp trải nghiệm xem tốt nhất cho người xem. Chúng tôi khuyên bạn bật cấu hình đồng bộ kênh để có thể chủ động đồng bộ khi cần.
-Xem hướng dẫn [chủ động đồng bộ](../b-detail-channel/2-epg/2.7-manual-sync.md)
+Maintaining a synchronized broadcast schedule is critical to providing the best viewing experience for viewers. We recommend that you enable channel sync profiles so that you can proactively sync as needed.
+See [proactive sync] instructions(.. /b-detail-channel/2-epg/2.7-manual-sync.md)
 
-Bật cấu hình đồng bộ, hiển thị các trường:
+Enable synchronous configuration, displaying fields:
 
-| Tên trường      | Mô tả                                       | Bắt buộc | Kiểu dữ liệu | Placeholder                  | Rule                                                             |
-| --------------- | ------------------------------------------- | -------- | ------------ | ---------------------------- | ---------------------------------------------------------------- |
-| Nguồn           | Nguồn dữ liệu để lấy lịch phát sóng         | Có       | Textbox      | Mặc định: VTV                | Không cho phép sửa                                               |
-| Endpoint        | Địa chỉ nguồn dữ liệu để lấy lịch phát sóng | Không    | Textbox      | http\://example-endpoint.com | Hỗ trợ hỗ trợ ký tự đặc biệt, có dấu,…<br />Bắt buộc đúng format |
-| ID chương trình | ID chương trình để lấy lịch phát sóng       | Có       | Textbox      | Vui lòng nhập ID cấu hình    | N/A<br />( Do bên vtv cung cấp)               |
-| Khoá API        | Token để truy cập                           | Có       | Textbox      | Vui lòng nhập khoá API       | N/A<br />( Do bên vtv cung cấp)               |
+| School name | Describe                                          | Compulsory | Data type | Placeholder                       | Rule                                                                        |
+| ----------- | ------------------------------------------------- | ---------- | --------- | --------------------------------- | --------------------------------------------------------------------------- |
+| Source      | Data source to get the broadcast schedule         | Have       | Textbox   | Default: VTV                      | Don't allow corrections                                                     |
+| Endpoint    | Data source address to get the broadcast schedule | Not        | Textbox   | http\://example-endpoint.com      | Support for special characters, accents,…<br />Required in the right format |
+| Program ID  | Program ID to get the broadcast schedule          | Have       | Textbox   | Please enter the configuration ID | N/A<br />( Provided by vtv)                              |
+| API Key     | Tokens to access                                  | Have       | Textbox   | Please enter the API key          | N/A<br />( Provided by vtv)                              |
 
-### Bật cấu hình tự động đồng bộ
+### Turn on auto-sync profiles
 
-Việc chủ động đồng bộ có thể làm mất thời gian của người dùng. Vì vậy, chúng tôi khuyên bạn bật cấu hình khung giờ tự động đồng bộ để tối ưu thời gian của bạn.
+Proactive synchronization can take up user time. Therefore, we recommend that you enable auto-sync time frame configuration to optimize your time.
 
-Bật tự động đồng bộ, hiển thị các trường:
+Turn on auto-sync, which displays fields:
 
-| Tên trường                 | Mô tả                                                                                                | Bắt buộc | Kiểu dữ liệu | Placeholder    | Rule                                                                                                   |
-| -------------------------- | ---------------------------------------------------------------------------------------------------- | -------- | ------------ | -------------- | ------------------------------------------------------------------------------------------------------ |
-| Thời gian được đồng bộ hóa | Các mốc thời gian tự động đồng bộ trong ngày để lấy lịch phát sóng.                                  | Có       | Select       | Chọn thời gian | Giới hạn tối đa 10 mốc thời gian.                                                                      |
-| **Số ngày đồng bộ**        | Là số ngày hệ thống sẽ tiến hành quá trình đồng bộ lịch phát sóng tính từ thời điểm tự động đồng bộ. | Không    | Textbox      | Mặc định: 3    | Nhập số nguyên<br />Giá trị nhỏ nhất=1( chỉ ngày thực hiện đồng bộ) và lớn nhất =14 |
+| School name             | Describe                                                                                                                        | Compulsory | Data type | Placeholder   | Rule                                                                                                                         |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Time synced             | Timelines automatically sync throughout the day to get broadcast schedules.                                                     | Have       | Select    | Choose a time | Maximum limit of 10 timelines.                                                                                               |
+| **Number of sync days** | Is the number of days the system will proceed to synchronize the broadcast schedule from the time of automatic synchronization. | Not        | Textbox   | Default: 3    | Enter an integer<br />Minimum value = 1 (only the date the synchronization was performed) and maximum =14 |
 
-### Các button
+### Buttons
 
-- **Nút "Huỷ"**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
+- **"Cancel" button**: Do not perform a new creation, return to the main screen interface.
 
-- **Nút "lưu"**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
+- **"Save" button**: Save the newly created information, return to the main screen interface.
 
-## Bước 2: Lưu cấu hình
+## Step 2: Save the configuration
 
-Người dùng nhập các thông tin hợp lệ.
+The user enters valid credentials.
 
-Nhấp vào nút **Xác nhận** ở cuối Pop-up.
+Click the **Confirm** button at the bottom of the Pop-up.
 
-Hệ thống thực hiện tạo mới kênh với các thông tin vừa được nhập, hiển thị Pop-up thông báo **Tạo mới thành công** ở phía trên giao diện.
+The system creates a new channel with the newly entered information, displaying a Pop-up notification **Create new successfully** at the top of the interface.
 
-- Kênh bật cấu hình đồng bộ.
+- The channel turns on synchronous configuration.
 
-- Hiển thị đầy đủ các thông tin liên quan ở chi tiết kênh.
+- Display all relevant information in channel details.
 
-- Cho phép thực hiện các thao tác chủ động đồng bộ.
+- Allows synchronous active operations.
 
-## Bước 3: Tự động đồng bộ
+## Step 3: Auto-sync
 
-**Điều kiện**: Kênh đã được bật tự động đồng bộ và đến mốc thời gian được cấu hình tự động đồng bộ.
+**Condition**: The channel has been enabled for auto-sync and up to the timestamp is configured to sync automatically.
 
-1. Hệ thống tự động đồng bộ lịch phát sóng.
-2. Sau khi đồng bộ
+1. The system automatically synchronizes the broadcast schedule.
+2. After synchronization
 
-- Hiển thị các lịch phát sóng mới trên dòng thời gian và danh sách chương trình
-- Thay đổi thông tin lần đồng bộ gần nhất và lần đồng bộ tiếp theo( nếu có).
+- Show new broadcast schedules on the timeline and program list
+- Change the last and next sync information (if applicable).
