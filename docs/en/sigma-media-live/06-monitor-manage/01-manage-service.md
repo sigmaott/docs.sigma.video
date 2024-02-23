@@ -1,93 +1,93 @@
 ---
-title: Quản lý dịch vụ
+title: Service Management
 order: 1
 ---
 
 # {{ $frontmatter.title }}
 
-## Các thao tác với dịch vụ
+## Operations with the service
 
-Đối với những phần nội dung có dạng danh sách, ứng dụng cho phép người dùng tương tác với từng phần tử trong danh sách thông qua một nhóm các nút chức năng (Xem hình minh họa dưới đây).
-Các nút này sẽ hiển thị tại cột cuối cùng của bảng danh sách.
+For lists of content, the app allows users to interact with each list element through a group of function buttons (See illustration below).
+These buttons will show up in the last column of the list table.
 
-![Action Buttons](/images/media-live/manager-list-action.png)
+! [Action Buttons] (/images/media-live/manager-list-action.png)
 
 ***
 
 :::info
-Do mỗi phần nội dung trên ứng dụng có những tính năng và nghiệp vụ khác nhau, do đó, phần giao diện hiển thị các nút chức năng có thể khác nhau đôi chút.
+Because each piece of content on the application has different features and operations, the interface showing the function buttons may differ slightly.
 :::
 
 ***
 
-### Mô tả chi tiết
+### Detailed description
 
-- `Start`: Bắt đầu kênh.
-- `Stop`: Dừng kênh
-- `Reset`: Dừng và bắt đầu lại kênh
-- `Clone` tạo một đối tượng mới có dữ liệu giống hệt với đối tượng ban đầu, đồng thời cũng có thể tùy chỉnh một vài thông số của đối tượng mới để phù hợp.
-- `Delete` xóa đối tượng được chọn. Trước khi ứng dụng thực hiện xóa sẽ yêu cầu người dùng xác thực lại một lần nữa.
+- 'Start': Start the channel.
+- 'Stop': Stop the channel
+- 'Reset': Stop and restart the channel
+- 'Clone' creates a new object with identical data to the original object, while also customizing some parameters of the new object to match.
+- 'Delete' deletes the selected object. Before the application performs the deletion, it will ask the user to authenticate again.
 
 ## Auto Refresh
 
-![Auto Refresh](/images/media-live/um-auto-refresh.jpg)
+! [Auto Refresh] (/images/media-live/um-auto-refresh.jpg)
 
-Cho phép bật tắt tính năng tự động cập nhật lại dữ liệu sau từng khoảng thời gian nhất định.
+Allows automatic data re-updating after a certain period of time on and off.
 
-Có 5 giá trị để lựa chọn: _Tắt_ và các khoảng thời gian _Thời gian 5s_, _Thời gian 10s_, _Thời gian 15s_, _Thời gian 20s_ tương ứng với các giá trị thời gian 5 giây, 10 giây, 15 giây và 20 giây sẽ tự động cập nhật dữ liệu mới cho người dùng.
+There are 5 values to choose from: _Off_ and intervals _Time 5s_, _Time 10s_, _Time 15s_, _Time 20s_ corresponding to time values of 5 seconds, 10 seconds, 15 seconds and 20 seconds will automatically update new data for users.
 
 ## Filter
 
-Trong các phần nội dung có dạng danh sách bảng, có hỗ trợ tính năng lọc, tìm kiếm các phần tử theo một hoặc một vài điều kiện cụ thể. Bộ lọc được hiển thị phía trên của mỗi bảng.
+In content sections in the form of table lists, there is support for filtering, searching for elements by one or a few specific conditions. Filters are displayed above each table.
 
-Sau khi hoàn thành tìm kiếm/lọc, các phần tử hợp lệ sẽ được hiển thị trên giao diện.
+After completing the search/filter, valid elements will be displayed on the interface.
 
 ### Channel Filter
 
-![Channel Filter](/images/media-live/um-filter/channel.png)
+! [Channel Filter] (/images/media-live/um-filter/channel.png)
 
-Bộ lọc kênh cho phép người dùng tìm kiếm dữ liệu theo các trường dữ liệu như sau (từ trái sang phải trên hình mô tả):
+Channel filters allow users to search for data fields such as the following (from left to right on the description figure):
 
-- `Status` trạng thái kênh, bao gồm 4 lựa chọn: `All`, `Live`, `Stopped`, `Error`.
+- 'Status' channel status, including 4 options: 'All', 'Live', 'Stopped', 'Error'.
 
-- `Type` loại kênh, bao gồm 2 lựa chọn `Package`, `Transcode`.
+- 'Type' channel type, including 2 options 'Package', 'Transcode'.
 
-  ![Channel Type](/images/media-live/um-filter/type-channel.jpg)
+  ! [Channel Type] (/images/media-live/um-filter/type-channel.jpg)
 
-- `Tag` tag gán cho kênh, người dùng nhập tag.
+- 'Tag' tag assigned to channel, user enters tag.
 
-- `Name` định danh kênh, người dùng nhập tên kênh cần tìm kiếm.
+- 'Name' identifies the channel, the user enters the channel name to be searched.
 
-## Phân trang
+## Pagination
 
-![Pagination](/images/media-live/um-pagination/main.png)
+! [Pagination] (/images/media-live/um-pagination/main.png)
 
-Thực hiện các thao tác điều chỉnh phân trang với các phần nội dung có dạng danh sách liệt kê.
+Make pagination adjustments to content sections that take the form of a list.
 
-Giao diện phân trang bao gồm 4 thành phần chính:
+The paging interface consists of 4 main components:
 
-- Tổng số lượng phần tử hiện có.
+- The total number of existing elements.
 
-  ![Counter Pagination](/images/media-live/um-pagination/counter.png)
+  ! [Counter Pagination] (/images/media-live/um-pagination/counter.png)
 
-- Tùy chọn số lượng phần tử hiển thị trên một trang.
+- Option the number of elements visible on a page.
 
   <!-- ![Fontsize Menu](/images/media-live/um-pagination/page-size.png) -->
 
-  ![Page Size](/images/media-live/um-pagination/page-size-selection.jpg)
+  ! [Page Size] (/images/media-live/um-pagination/page-size-selection.jpg)
 
-  Có thể tùy chọn `5`, `10`, `15`, `20`, `50`, `100` phần tử hiển thị trên một trang bằng cách chọn các giá trị tương ứng trong menu phân trang, giá trị mặc định là `10`.
+  The optional '5', '10', '15', '20', '50', '100' elements can be displayed on a page by selecting the corresponding values in the paging menu, the default value is '10'.
 
-- Thứ tự trang hiện tại.
+- Current page order.
 
-  ![Page Select](/images/media-live/um-pagination/page-selection.png)
+  ! [Page Select] (/images/media-live/um-pagination/page-selection.png)
 
-  - Liệt kê các trang hiện có.
-  - Trang hiện tại được tô bằng màu nền xanh ![Active Page](/images/media-live/um-pagination/actived-page.png){ height=17px } .
-  - Di chuyển tới trang trước đó/trang kế tiếp lần lượt bằng cách chọn vào biểu tượng ![Previous](/images/media-live/um-pagination/previous.png){ height=17px } và ![Next](/images/media-live/um-pagination/next.png){ height=17px } .
+  - List existing pages.
+  - The current page is highlighted with a blue background color! [Active Page] (/images/media-live/um-pagination/actived-page.png) { height=17px } .
+  - Scroll to the previous/next page one by one by selecting the ! [Previous] (/images/media-live/um-pagination/previous.png) { height=17px } and ! [Next] (/images/media-live/um-pagination/next.png) { height=17px } .
 
-- Di chuyển tới một trang bất kỳ.
+- Navigate to any page.
 
-  ![Next](/images/media-live/um-pagination/jump-to.jpg)
+  ! [Next] (/images/media-live/um-pagination/jump-to.jpg)
 
-  Có thể di chuyển tới một trang bất kỳ bằng cách nhập số thứ tự của trang vào ô trong hình trên
+  You can move to any page by entering the page number in the box in the image above
