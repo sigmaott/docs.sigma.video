@@ -1,48 +1,48 @@
 ---
-title: Đăng nhập hệ thống khi bật xác thực hai yếu tố
+title: System login when two-factor authentication is enabled
 order: 5
 ---
 
-# Đăng nhập hệ thống khi bật xác thực hai yếu tố
+# System login when two-factor authentication is enabled
 
-Chức năng này cho phép người dùng CMS đăng nhập hệ thống khi bật xác thực hai yếu tố. Hệ thống bổ sung thêm một bước xác thực sau khi người dùng đăng nhập chính xác tài khoản và mật khẩu của mình.
+This function allows CMS users to log into the system when two-factor authentication is enabled. The system adds an additional authentication step after the user correctly logs in to his account and password.
 
-**Điều kiện**:
+**Condition**:
 
-- Có tài khoản và mật khẩu dùng để đăng nhập thành công
-- Tài khoản người dùng **BẬT** xác thực hai yếu tố
+- Have an account and password to successfully log in
+- User account **ENABLE** two-factor authentication
 
-**Bước 1**: Người dùng ở màn hình đăng nhập của hệ thống gồm các thông tin:
+**Step 1**: The user at the login screen of the system includes the following information:
 
-![Đăng nhập](/images/streaming-platform/2-factor-authen/login-1.png)
+! [Login] (/images/streaming-platform/2-factor-authen/login-1.png)
 
-- Email: Tên email của người dùng (bắt buộc nhập)
-- Mật khẩu: Mật khẩu của tài khoản người dùng (bắt buộc nhập)
-- Nút **Đăng nhập**: Hệ thống kiểm tra tài khoản và mật khẩu có trùng khớp thông tin để cho phép người dùng truy cập hệ thống
-- Nút **Quên mật khẩu**: khi người dùng bấm nút này, hệ thống chuyển sang màn hình **Quên mật khẩu**
-- Nút **Tạo tài khoản mới**: khi người dùng chưa có tài khoản trên hệ thống, bấm vào nút này, hệ thống chuyển sang màn hình **Tạo tài khoản mới**
+- Email: The user's email name (required)
+- Password: The password of the user account (required)
+- **Login** button: The system checks the account and password for matching information to allow users to access the system
+- **Forgot password** button: when the user presses this button, the system switches to the **Forgot password** screen
+- Create new account button\*\*: when the user does not have an account on the system, click this button, the system switches to the **Create new account** screen
 
-**Bước 2**: Người dùng nhập email và mật khẩu của tài khoản đã được đăng kí trên hệ thống
+**Step 2**: User enters email and password of the account registered on the system
 
-**Bước 3**: Người dùng bấm nút **Đăng nhập**, hệ thống kiểm tra thực hiện thông tin người dùng vừa nhập
+**Step 3**: The user clicks the **Login** button, the system checks the implementation of the user information just entered
 
-- Nếu sai thông tin đăng nhập, người dùng cần thực hiện lại bước 2
-- Nếu đúng thông tin đăng nhập, chuyển sang bước 4
+- If the credentials are incorrect, the user needs to perform step 2 again
+- If the credentials are correct, skip to step 4
 
-**Bước 4**: Hệ thống hiển thị màn hình Xác nhận mã đăng nhập
+**Step 4**: The system displays the Login Code Confirmation screen
 
-![Xác nhận mã đăng nhập](/images/streaming-platform/2-factor-authen/login-2.png)
+! [Confirm login code] (/images/streaming-platform/2-factor-authen/login-2.png)
 
-yêu cầu người dùng nhập _**mã đăng nhập**_ để hệ thống xác thực tài khoản, cho phép đăng nhập
+Requires the user to enter _**login code**_ for the system to authenticate the account, allowing login
 
-- **Mã đăng nhập:** là mã xác thực ở ứng dụng xác thực của người dùng hoặc có thể sử dụng mã khôi phục (còn khả dụng)
-- Nút **Gửi mã**: hệ thống thực hiện kiểm tra sự chính xác của mã xác thực
+- **Login code:** is an authentication code in the user's authenticator app, or recovery codes can be used (still available)
+- Button **Send code**: the system performs an authentication code accuracy check
 
-**Bước 5**: Người dùng sử dụng mã xác thực hoặc mã khôi phục để nhập
+**Step 5**: User uses authentication code or recovery code to enter
 
-- **Mã xác thực:** người dùng kiểm tra mã đăng nhập được hiển thị ở ứng dụng xác thực.
-- **Mã khôi phục:** người dùng thu thập được ở danh sách mã khôi phục.
+- **Authentication code:** The user checks the login code displayed in the authentication app.
+- \*\*Recovery code: \*\* user collected in the recovery code list.
 
-**Bước 6**: Sau khi hoàn thành, người dùng bấm nút **Gửi mã**, hệ thống thực hiện kiểm tra sự chính xác của mã xác thực.
+**Step 6**: After completion, the user presses the **Send code** button, the system checks the accuracy of the authentication code.
 
-Nếu đúng, hệ thống cho phép người dùng truy cập hệ thống, hiển thị màn hình danh sách ứng dụng.
+If true, the system allows the user to access the system, displaying the application list screen.
