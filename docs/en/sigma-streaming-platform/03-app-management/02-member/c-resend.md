@@ -13,7 +13,7 @@ Step 1: Click the 'Resend' button in the email's 'Actions' column in the list wi
 
 Display a confirmation window with options:
 
-![Resend invitation](/images/streaming-platform/app-management/02-member/pop-up/resend.png)
+! [Resend invitation] (/images/streaming-platform/app-management/02-member/pop-up/resend.png)
 
 _Resend invitation_
 
