@@ -5,7 +5,7 @@ order: 2
 
 # Infrastructure of Sigma Live Streaming System
 
-![about-2](/images/livestream/livestream-about-2.png)
+! [about-2] (/images/livestream/livestream-about-2.png)
 
 ## Broadcaster
 
@@ -84,7 +84,7 @@ The Api Server system provides API to communicate with App Server live stream:
 
 ## Streaming flow using Sigma Live Streaming platform
 
-![livestream/about-3](/images/livestream/livestream-about-3.png)
+! [livestream/about-3] (/images/livestream/livestream-about-3.png)
 
 - **Data stream from the broadcaster**:
 
