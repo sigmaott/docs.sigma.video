@@ -11,7 +11,7 @@ On the Media Live home screen, point to Channel templates and select the Preset 
 
 The system main screen displays the preset list screen interface
 
-![View preset list](/images/media-live/preset/view-preset-list.png)
+! [View preset list] (/images/media-live/preset/view-preset-list.png)
 
 Key information includes:
 
