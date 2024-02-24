@@ -15,7 +15,7 @@ Who uses the function: The CMS account is granted VTVhub Administrator rights.
 
 The system will display a confirmation pop-up window in the center of the screen with the following details:
 
-![Remove distributor](/images/application-vtvhub/delete-distributor.png)
+! [Remove distributor] (/images/application-vtvhub/delete-distributor.png)
 
 - Title: Remove Distributor
 - Content: Are you sure you want to remove this distributor?
