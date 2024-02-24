@@ -20,7 +20,7 @@ sudo apt-get install ./sigma-server-live_3.0.8-2_amd64.deb
 After a successful installation, you need to start the Sigma Media Server service:
 
 ```bash
-sudo systemctl start sigma-server.service
+sudo systemctl start sigma-media-server
 ```
 
 ## Register Server
