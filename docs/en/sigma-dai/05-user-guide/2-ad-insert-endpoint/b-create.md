@@ -11,7 +11,7 @@ This functionality allows CMS to create new ad insert endpoints to run and conta
 
 Pop-up display system Add new ad insert endpoint on the right side of the interface
 
-! 
+![](/images/dai/pop-up-create-endpoint.png)
 
   <center>
 
@@ -56,7 +56,7 @@ The system creates a new ad insert endpoint with saving the newly entered inform
 
 <center>
 
-! 
+![](/images/dai/success-create.png)
 
 _Figure 2: Notification of successful creation of new ad insert endpoint!_
 
