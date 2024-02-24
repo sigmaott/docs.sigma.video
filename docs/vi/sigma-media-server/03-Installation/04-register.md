@@ -52,3 +52,6 @@ Example:
   /etc/sigma-machine/script/.sh --server-name=live-server-01 --enable-origin=true --enable-ingest=true --server-token=kKLyAqeQlcWImVciTrWW- --server-data-dir=/data/transcode
 ```
 
+## Thêm giấy phép cho máy chủ
+
+Sau khi đăng kí máy chủ, bạn cần thêm giấy phép cho máy chủ. Bạn có thể thực hiện việc này bằng cách theo hướng dẫn tại đây [license](../04-getting-started/05-add-license.md#cách-2-truy-cập-vào-phần-quản-lý-máy-chủ)
