@@ -13,7 +13,7 @@ Display by specific timeline
 
 Display the interface Over time
 
-![](/images/dai/event-chart-by-timeseries.png)
+! 
 
 <center>
 
