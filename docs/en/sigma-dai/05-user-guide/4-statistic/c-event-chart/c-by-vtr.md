@@ -13,7 +13,7 @@ order: 3
 
 Show view-through scale interface:
 
-![](/images/dai/event-chart-by-vtr.png)
+! 
 
 <center>
 
