@@ -18,7 +18,7 @@ At the main screen, users can make edits by moving their mouse on the 'Edit' ico
 **Step 2:**
 When the user clicks on the 'edit' icon, the system displays a pop-up **Edit Group** in the middle of the screen, displaying the previously selected information.
 
-![Edit Group](/images/streaming-platform/app-management/03-group/pop-up/edit.png)
+! [Edit Group] (/images/streaming-platform/app-management/03-group/pop-up/edit.png)
 
 _Pop-up Edit Group_
 
@@ -33,6 +33,6 @@ _Announcement: Team update successful!_
 
 After editing the group, members assigned to the group will lose access to the system. In this scenario, a UI 403 error page will be displayed to inform about not having access.
 
-![Error 403](/images/streaming-platform/app-management/03-group/error-403.png)
+! [Error 403] (/images/streaming-platform/app-management/03-group/error-403.png)
 
 Users can click the 'About Overview' button to return to the app list, and the sidebar shows only products that have access.
