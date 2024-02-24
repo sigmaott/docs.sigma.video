@@ -21,7 +21,7 @@ See details at [System Monitoring](.. /05-user-guide/4-statistic/f-monitor-syste
 
 Topic:
 
-- [Data Report](.. /05-user-guide/4-statistic/b-data-report.md)
-- [Event Chart](.. /05-user-guide/4-statistic/c-event-chart/a-by-endpoint.md)
-- [Fillrate](.. /05-user-guide//4-statistic/d-fillrate.md)
-- [System Tracking](.. /05-user-guide/4-statistic/f-monitor-system.md)
+- [Data Report] (.. /05-user-guide/4-statistic/b-data-report.md)
+- [Event Chart] (.. /05-user-guide/4-statistic/c-event-chart/a-by-endpoint.md)
+- [Fillrate] (.. /05-user-guide//4-statistic/d-fillrate.md)
+- [System Tracking] (.. /05-user-guide/4-statistic/f-monitor-system.md)
