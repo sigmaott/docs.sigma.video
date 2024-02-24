@@ -5,7 +5,7 @@ order: 2
 
 # Glossary
 
-Here you can learn about terms and concepts that you meet in the documentation on Flussonic Media Server.
+Here you can learn about terms and concepts that you meet in the documentation on Sigma Media Server.
 
 ## Adaptive bitrate streaming
 
@@ -13,17 +13,17 @@ Adaptive bitrate is a method of video streaming over HTTP where the source conte
 
 ## Deinterlacing
 
-Deinterlaicing is converting an interlaced video to a progressive video.
+Deinterlacing is converting an interlaced video to a progressive video.
 
 The interlaced video demonstrates even and odd scan lines as two individual fields. At first, the even lines pass on the screen and then the odd lines pass. Two of such even and odd scan line fields make one video frame. Interlaced videos are great for broadcasting as video images can be processed onto the screen with very little bandwidth. The drawback of interlaced video is that in fast motion, it may be blurred as only half of the image is captured at a time, movement along the frame causes motion artifacts.
 
 Progressive video content shows the even and odd scan lines, that is the entire video frame on the screen at the same time.
 
-Deinterlaicing is necessary for comfortable viewing of legacy TV video on PC/mobile devices.
+Deinterlacing is necessary for comfortable viewing of legacy TV video on PC/mobile devices.
 
 ## DVR
 
-This is a set of Flussonic features related to recording streams to an archive and then playing the archive via different protocols or exporting the selected part of it to an MP4 file.
+This is a set of Sigma features related to recording streams to an archive and then playing the archive via different protocols or exporting the selected part of it to an MP4 file.
 
 ## Frame
 
@@ -51,13 +51,13 @@ B-frames contain links to I-frames and P-frames before and after themselves. It 
 
 ## GOP size
 
-GOP size (the number of frames between two neighbor keyframes) – the number of frames in one GOP. This number can be variable or constant for a stream. When Flussonic transcodes a stream, it creates GOPs of a constant size, so all GOPs have the same size.
+GOP size (the number of frames between two neighbor keyframes) – the number of frames in one GOP. This number can be variable or constant for a stream. When Sigma transcodes a stream, it creates GOPs of a constant size, so all GOPs have the same size.
 
 ## Multicast
 
 Multicast is a method of video distribution in a local network. A multicast is a set of UDP packets transmitted from the same source to a group of subscribers at one time. A special multicast IP address is used.
 
-Learn more in the Flussonic documentation
+Learn more in the Sigma documentation
 
 ## Prepush
 
@@ -67,17 +67,17 @@ With prepush, a streaming server saves each GOP in the buffer before sending it 
 
 ## Publishing
 
-Publishing is transmitting video to Flussonic Media Server from external systems and devices that initiate the connection. Flussonic is the party that awaits the connection.
+Publishing is transmitting video to Sigma Media Server from external systems and devices that initiate the connection. Sigma is the party that awaits the connection.
 
-What we call publishing to Flussonic:
+What we call publishing to Sigma:
 
-Transmitting video from a mobile device to Flussonic.
-Transmitting video from OBS (Open Broadcaster Software) or vMix to Flussonic. Learn more
-Transmitting video from a webpage to Flussonic via WebRTC. Learn more
+Transmitting video from a mobile device to Sigma.
+Transmitting video from OBS (Open Broadcaster Software) or vMix to Sigma. Learn more
+Transmitting video from a webpage to Sigma via WebRTC. Learn more
 And this is what we don't call publishing:
 
 Receiving a multicast
-Ingesting a stream from some source (in this case it's Flussonic that initiates the connection).
+Ingesting a stream from some source (in this case it's Sigma that initiates the connection).
 
 ## Segments
 
