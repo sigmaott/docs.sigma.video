@@ -13,7 +13,7 @@ On the main screen of the system, the user selects the list of ad insert endpoin
 
 The system main screen displays:
 
-! 
+![](/images/dai/list-endpoint.png)
 
 In the main screen of the system, you will see the information displayed on the interface including:
 
