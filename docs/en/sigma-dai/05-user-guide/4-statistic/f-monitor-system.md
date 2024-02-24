@@ -13,7 +13,7 @@ The user selects System Monitoring\*\*.
 
 System Display interface System Monitor:
 
-![](/images/dai/statistic-monitor-system.png)
+! 
 
 <center>
 
