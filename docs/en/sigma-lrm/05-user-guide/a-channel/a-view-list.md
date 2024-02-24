@@ -11,7 +11,7 @@ At the main screen, select **List of channels**
 
 The system main screen displays:
 
-![Channel List](/images/lrm/list/channel-lrm.png)
+! [Channel List] (/images/lrm/list/channel-lrm.png)
 
 - The information is displayed in the interface:
 
