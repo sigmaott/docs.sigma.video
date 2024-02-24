@@ -31,7 +31,3 @@ Hệ thống sẽ trả về cho người dùng thông tin cài đặt máy cho 
 ### Thực hiện cài đặt máy
 
 Tiếp theo, thực hiện cài đặt máy trên máy local
-
-#### With Server Enterprise 
-
-#### With Server Community
