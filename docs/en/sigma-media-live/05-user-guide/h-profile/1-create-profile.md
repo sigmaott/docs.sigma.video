@@ -21,7 +21,7 @@ Create a new profile by following these steps:
 **Step 1**: In the profile list, click the '+Add New' button in the right corner of the screen.
 The system will display a pop-up **Add new profile**\* in the middle of the screen.
 
-![Create New](/images/media-live/profile/create.png)
+! [Create New] (/images/media-live/profile/create.png)
 
 - Default display of profile name in the form: 'profile_[number due to random system]' helps users optimize time during the configuration process.
 - Preset style selection
@@ -30,15 +30,15 @@ The system will display a pop-up **Add new profile**\* in the middle of the scre
 
 After clicking on the preset type, display a dropdownlist of 2 options:
 
-- [Existing preset](./1-create-profile#existing-preset)
-- [New preset](./1-create-profile#new-preset)
+- [Existing preset] (./1-create-profile#existing-preset)
+- [New preset] (./1-create-profile#new-preset)
 
 ### Presets already exist
 
 For quick configuration, users can select 'existing presets' – presets configured in the system.
 The system will display a window.
 
-![Preset already exists](/images/media-live/profile/existing-video.png)
+! [Preset already exists] (/images/media-live/profile/existing-video.png)
 
 The list of presets includes:
 
@@ -67,9 +67,9 @@ Names and descriptions are displayed by default in all preset types:
 
 Details of each preset:
 
-- [Video](./create-profile#video)
-- [Audio](./create-profile#audio)
-- [Data](./create-profile#data)
+- [Video] (./create-profile#video)
+- [Audio] (./create-profile#audio)
+- [Data] (./create-profile#data)
 
 ### Video
 
@@ -77,7 +77,7 @@ Only **1 video is allowed**.
 
 The user selects the 'video' item, then displays the following information:
 
-![video](/images/media-live/profile/create-data.png)
+! [video] (/images/media-live/profile/create-data.png)
 
 | School name          | Describe                                                                                                                                                                     | Compulsory | Data type     | Default   | Rule                                                                                         |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------- | --------- | -------------------------------------------------------------------------------------------- |
@@ -101,7 +101,7 @@ Allows maximum selection **10 audio**.
 
 The user selects the 'audio' item, then displays the following information:
 
-![Audio](/images/media-live/profile/audio.png)
+! [Audio] (/images/media-live/profile/audio.png)
 
 | School name | Describe                                                                                                                                    | Compulsory | Data type | Default   | Rule                                                                                                                                                                                                     |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -121,7 +121,7 @@ Allows selecting the most **10 data**.
 
 The user selects the 'audio' item, then displays the following information:
 
-![Data](/images/media-live/profile/data.png)
+! [Data] (/images/media-live/profile/data.png)
 
 | School name | Describe                                                                                              | Compulsory | Data type | Default  | Rule                             |
 | ----------- | ----------------------------------------------------------------------------------------------------- | ---------- | --------- | -------- | -------------------------------- |
