@@ -24,7 +24,7 @@ The system will display a confirmation pop-up window in the center of the screen
 
 <center>
 
-! 
+![](/images/dai/pop-up-delete-ad.png)
 
 _Figure 1: Pop-up deleting ads_
 
@@ -40,7 +40,7 @@ The system displays a pop-up message **Remove ad successfully** in the middle of
 
 <center>
 
-! 
+![](/images/dai/success-delete.png)
 
 _Figure 2: Successful ad removal notification!_
 
