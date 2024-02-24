@@ -21,7 +21,7 @@ The default page displays **app information**.
 
 **Step 2**: Switch to the 'Members' tab.
 
-![List of members](/images/streaming-platform/app-management/02-member/list.png)
+! [List of members] (/images/streaming-platform/app-management/02-member/list.png)
 
 _Member list interface_
 
