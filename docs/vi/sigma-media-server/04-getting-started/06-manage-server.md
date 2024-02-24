@@ -11,7 +11,7 @@ Mỗi loại máy chủ sẽ được quản lý trên một giao diện riêng 
 
 ### Cấu trúc tổ chức quản lý máy chủ
 
-![Structure Manage Server](../image/getstarted/structure-manage-server.png)
+![Structure Manage Server](/images/media-server/getstarted/structure-manage-server.png)
 
 Cấu trúc tổ chức quản lý máy chủ được chia thành các phần và phân ra như sau:
 

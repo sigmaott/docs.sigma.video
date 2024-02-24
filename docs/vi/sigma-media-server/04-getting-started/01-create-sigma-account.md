@@ -20,7 +20,7 @@ Người dùng có thể thực hiện đăng ký tài khoản mới qua các b�
 
 2. Chọn phương thức đăng ký:
 
-   ![Màn hình đăng ký tài khoản](\../image/getstarted/sign-up.png)
+   ![Màn hình đăng ký tài khoản](/images/media-server/getstarted/sign-up.png)
 
    - Phương thức 1: 
      - Nhập email, mật khẩu, nhập lại mật khẩu và nhấp chấp thuận **Điều khoản & Điều kiện** trong form đăng ký.
@@ -36,7 +36,7 @@ Người dùng có thể thực hiện đăng ký tài khoản mới qua các b�
 
 Khi đã có tài khoản trên hệ thống Sigma Streaming, tương tự người dùng có thể thực hiện đăng nhập qua 2 phương thức:
 
-![Màn hình đăng nhập tài khoản](\../image/getstarted/sign-in.png)
+![Màn hình đăng nhập tài khoản](/images/media-server/getstarted/sign-in.png)
 
 - Phương thức 1: Nhập email và mật khẩu.
 - Phương thức 2: Chọn Third party muốn sử dụng để đăng nhập là **Github ** hoặc **Google**.

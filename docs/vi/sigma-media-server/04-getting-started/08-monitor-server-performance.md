@@ -6,7 +6,7 @@ order: 8
  Chức năng "Giám sát hiệu suất hoạt động của máy" giúp theo dõi, đánh giá và bảo đảm hiệu suất ổn định của máy chủ để đảm bảo rằng hệ thống hoạt động một cách hiệu quả và đáng tin cậy. 
 
 Người dùng có thể giám sát với các thông số:
-![Monitor](\../image/getstarted/monitor.png)
+![Monitor](/images/media-server/getstarted/monitor.png)
 
 1. Đầu vào Ingest:
    1. Bandwidth: Thống kê thông số băng thông của tín hiệu nhận và gửi của đầu vào Ingest

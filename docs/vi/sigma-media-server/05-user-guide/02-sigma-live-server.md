@@ -21,7 +21,7 @@ Người dùng có thể thực hiện thêm máy mới, theo các bước:
 
 1. Tại màn hình danh sách máy Sigma Live, nhấp **Thêm máy chủ** 
 
-   ![add sever](\../image/user-guide/add-server-1.png)
+   ![add sever](/images/media-server/user-guide/add-server-1.png)
 
 2.  Thực hiện lấy mã token để cài đặt máy
 
@@ -39,11 +39,11 @@ Người dùng có thể thực hiện thêm máy mới, theo các bước:
 
    1. Tại màn hình quản lý máy, nhấp chọn **Drain Job** tại máy ở trạng thái hoạt động (Running/ Paused)
 
-      ![](../image/user-guide/drain-job.png)
+      ![](/images/media-server/user-guide/drain-job.png)
 
    2. Nhấp xác nhận thực hiện hành động
    
-      ![](../image/user-guide/drain-job-confirm.png)
+      ![](/images/media-server/user-guide/drain-job-confirm.png)
 
 Hệ thống sẽ xử lý việc đẩy toàn bộ job đang được thực hiện trong máy ra ngoài
 
@@ -54,22 +54,22 @@ Cho phép người dùng thực hiện Tạm dừng/ Khôi phục hoạt động
 
   1. Tại màn hình quản lý máy, nhấp chọn **Pause** tại máy ở trạng thái Running
 
-        ![](\../image/user-guide/pause.png)
+        ![](/images/media-server/user-guide/pause.png)
         
   2. Nhấp xác nhận thực hiện hành động
 
-        ![](\../image/user-guide/pause-confirm.png)
+        ![](/images/media-server/user-guide/pause-confirm.png)
 
 Máy sẽ về trạng thái "Paused"
 
 Với máy ở trạng thái **Pause**, người dùng muốn thực hiện **Resume** khôi phục hoạt động của máy. Thực hiện các bước tương tự:
   1. Tại màn hình quản lý máy, nhấp chọn **Resume** tại máy ở trạng thái Paused
 
-        ![](\../image/user-guide/resume.png)
+        ![](/images/media-server/user-guide/resume.png)
         
   2. Nhấp xác nhận thực hiện hành động
 
-        ![](\../image/user-guide/resume-confirm.png)
+        ![](/images/media-server/user-guide/resume-confirm.png)
 
 Máy sẽ về trạng thái "Running"
 
@@ -85,10 +85,10 @@ Hệ thống cung cấp giao diện cho phép người dùng cấu hình định
 
 Để thực hiện **Config Route**, người dùng thực hiện các bước sau:
 1. Tại màn hình danh sách máy chủ, nhấp hành động **Config Route** 
-   ![](../image/user-guide/config-route.png)
+   ![](/images/media-server/user-guide/config-route.png)
 
 2. Thực hiện cấu hình thông tin cần thiết vào form cấu hình 
-   ![](\../image/user-guide/config-route-form.png)
+   ![](/images/media-server/user-guide/config-route-form.png)
 
 ------
 ### 5. Add license
@@ -103,16 +103,16 @@ Thực hiện các thao tác:
 
 1. Nhấp "Thêm giấy phép".
 
-![](../image/user-guide/license.png)
+![](/images/media-server/user-guide/license.png)
 
 2. Chọn loại giấy phép (Lưu ý: Giấy phép sử dụng kích hoạt cho máy phải cùng loại với máy)
-   ![](../image/user-guide/license-type.png)
+   ![](/images/media-server/user-guide/license-type.png)
 
 3. Kiểm tra thông tin của giấy phép
-   ![](../image/user-guide/license-review.png)
+   ![](/images/media-server/user-guide/license-review.png)
 
 4. Thực hiện thanh toán hóa đơn đầu tiên của giấy phép 
-   ![](../image/user-guide/license-payment.png)
+   ![](/images/media-server/user-guide/license-payment.png)
 
    ::: warning 
 
@@ -123,13 +123,13 @@ Thực hiện các thao tác:
 6. Hệ thống thanh toán thành công giấy phép sẽ ở trạng thái khả dụng
 
 7. Nhấp hành động "Sử dụng"
-   ![](../image/user-guide/license-use.png)
+   ![](/images/media-server/user-guide/license-use.png)
 
 8. Chọn máy cần kích hoạt hoạt động
-![](../image/user-guide/license-choose-server.png)
+![](/images/media-server/user-guide/license-choose-server.png)
 
 9.  Xác nhận sử dụng giấy phép
-![](../image/user-guide/license-use-confirm.png)
+![](/images/media-server/user-guide/license-use-confirm.png)
 
 Giấy phép lúc này đã gán thành công cho máy, máy sẵn sàng nhận job để xử lý.
       ::: tip
@@ -140,18 +140,18 @@ Giấy phép lúc này đã gán thành công cho máy, máy sẵn sàng nhận 
 Người dùng có thể thực hiện "Add License" trược tiếp cho máy chủ theo các bước:
 
 1. Với máy mới cài đặt chưa được gán giấy phép, nhấp hành động "Add License"
-    ![](../image/user-guide/add-license.png)
+    ![](/images/media-server/user-guide/add-license.png)
 
 2. Người dùng có thể thực hiện: 
 
-    ![](../image/user-guide/add-license-2.png)
+    ![](/images/media-server/user-guide/add-license-2.png)
 
    - **Chọn giấy phép có sẵn**: Trong trường hợp ứng dụng đã có giấy phép cùng loại với máy ở trạng thái "Avaiable".
-    ![](../image/user-guide/add-license-choose.png)
+    ![](/images/media-server/user-guide/add-license-choose.png)
 
    - **Lựa chọn thêm giấy phép mới**: Người dùng thực hiện các bước thêm giấy phép như bước 2, 3, 4, 5, 6 tại **Cách 1**. Sau khi giấy phép được thanh toán thành công, giấy phép sẽ tự động được chọn làm giấy phép để sử dụng kích hoạt máy
 
-      ![](\../image/user-guide/add-license-create.png)
+      ![](/images/media-server/user-guide/add-license-create.png)
       
       
       
@@ -163,16 +163,16 @@ Chức năng **Config App** cho phép người dùng thực hiện cấu hình c
 Các bước thực hiện cấu hình ứng dụng:
 
 1. Nhấp chọn **Server Name** để xem thông tin chi tiết máy chủ
-![](\../image/user-guide/config-app-1.png)
+![](/images/media-server/user-guide/config-app-1.png)
 
 2. Tại phần thông tin cấu hình App, nhấp chọn **Config**
 
- ![](../image/user-guide/config-app-2.png)
+ ![](/images/media-server/user-guide/config-app-2.png)
 3. Thực hiện cấu hình và xác nhận lưu cấu hình
    - Cấu hình Ingest: Người dùng có thể cấu hình cổng kết nối cho RTMP Server, SRT Server, Web RTC Server
-      ![](../image/user-guide/config-app-ingest.png)
+      ![](/images/media-server/user-guide/config-app-ingest.png)
 
-   - Cấu hình Origin:  Người dùng có thể cấu hình cổng kết nối cho HTTP Server ![](../image/user-guide/config-app-origin.png)
+   - Cấu hình Origin:  Người dùng có thể cấu hình cổng kết nối cho HTTP Server ![](/images/media-server/user-guide/config-app-origin.png)
 
 ------
 
@@ -185,14 +185,14 @@ Người dùng có thể thực hiện các hành động theo các bước đơ
 1. Truy cập xem thông tin chi tiết máy chủ, tại phần cấu hình App
 2. Nhấp nút hành động **Start/ Stop/ Reset** ứng dụng muốn thực hiện
 
-![](../image/user-guide/action-app.png)
+![](/images/media-server/user-guide/action-app.png)
 
 ------
 
 ### 8. Delete Server 
 
 Với những máy ở trạng thái **DEAD/ FREEZED** người dùng có thể thực hiện Xóa máy, giúp loại bỏ những máy không còn sử dụng để đảm bảo việc quản lý máy dễ dàng hơn. Người dùng sử dụng nút **Delete** với máy DEAD/ FREEZED
-![](../image/user-guide/delete-server.png)
+![](/images/media-server/user-guide/delete-server.png)
 
 ------
 

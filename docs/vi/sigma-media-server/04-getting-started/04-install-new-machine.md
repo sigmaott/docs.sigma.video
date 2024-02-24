@@ -24,7 +24,7 @@ Hệ thống sẽ trả về cho người dùng thông tin cài đặt máy cho 
 
   Ngoài ra, người dùng có thể thực hiện thao tác "Đổi mã đăng ký"
 
-  ![Add Server](../image/getstarted/add-server.png)
+  ![Add Server](/images/media-server/getstarted/add-server.png)
 
   
 

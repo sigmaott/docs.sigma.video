@@ -16,8 +16,8 @@ Người dùng có thể thực hiện tạo mới Cluster Server theo các bư�
 2. Nhấn chọn "Thêm mới cụm máy chủ"
 
 3. Tại form cấu hình cụm máy chủ, người dùng thực hiện cấu hình với những thông tin:
-   ![Create Cluster](../image/getstarted/create-cluster.png) 
-   ![](../image/getstarted/create-cluster-2.png)
+   ![Create Cluster](/images/media-server/getstarted/create-cluster.png) 
+   ![](/images/media-server/getstarted/create-cluster-2.png)
 
    1. Tên cụm.
 
