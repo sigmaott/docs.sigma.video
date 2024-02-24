@@ -27,19 +27,19 @@ User data can sometimes be authenticated to make sure valid, when the user input
 The error message content depends on each specific case. The following examples include a few other types of notifications:
 <center>
 
-! [in] \images\special_charater.png)
+![in] \images\special_charater.png)
 
 *Figure 1. Misentry error * 
 
-! [is] \images\error_field2.png)
+![is] \images\error_field2.png)
 
 *Figure 2. Error entering time error * 
 
-! [is] \images\error_field3.png)
+![is] \images\error_field3.png)
 
 *Figure 3. Incorrect entry error date * 
 
-! [is] \images\error_field4.png)
+![is] \images\error_field4.png)
 
 *Figure 4. Failed to import field 
 
@@ -53,11 +53,11 @@ If the task is successful, there will be a blue message showing the top of the b
 If the execs failed, there will be a red message, with a bug content showing the top of the browser screen. Depending on the error case, it is shown with different content.
 <center>
 
-! [in] \images\Data_invalid.png)
+![in] \images\Data_invalid.png)
 
 *Figure 5. Enter unvalid information * 
 
-! [is] \images\Data_invalid1.png)
+![is] \images\Data_invalid1.png)
 
 *Figure 6. Enter unvalid information * 
 </center>

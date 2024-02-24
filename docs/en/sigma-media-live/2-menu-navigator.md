@@ -1,50 +1,50 @@
 # Menu And Navigator
 
-There are many navigation options in the Controller. Some menu options depend on the Sigma OTT version you installed.
+There are multiple navigation options in the Controller. Some menu options depend on the version of Sigma OTT that you have installed.
 
-## Home page and dashboard overview
+## Home page and dashboard overviews
 
-Dashboard displays displays basic information, overview of the services that are running on the system. In it:
+The Dashboard screen displays basic information, an overview of the services running on the system. Where:
 
 1. Transcode state
 
-Display information overview **Transcode & Package**
+Display service overview **Transcode & Package**
 
-![Transcode Channel Status/packager](/images/media-live/um-dashboard/transcode.png)
+![Transcode/packager Channel Status](/images/media-live/um-dashboard/transcode.png)
 
 2. Machine state
 
-Display information related to server **Transcode & Package**
+Display server-related information **Transcode & Package**
 
-![Server State](/images/media-live/um-dashboard/machine.png)
+![Server Status](/images/media-live/um-dashboard/machine.png)
 
 1. Origin state
 
-Display information related to the Origin KPI including:
+Display information related to Origin system KPIs including:
 
-*  **Request Rate**: Request Rate requires system
-*  **Response success rate**: Request rate success/failure.
-*  **Bandwidth**: System bandwidth returns
-*  **quantile Response Times**: Provides **P99**, **P90**, **P50**
+- **Request Rate**: The rate of system requests
 
-* Note: The request to Origin is divided into two types **segment** (Request request media file-ts, m4v), **manifest** (request requires manifest file-m3u8, mpd)
+- **Response success rate**: Success / failure rate
 
+- **Bandwidth**: The returned system bandwidth
 
-![Origin System Status](/images/media-live/um-dashboard/origin.png)
+- **quantile Response Times**: Provide the values **P99**, **P90**, **P50** corresponding to requests
 
-## **Panel menu**
+- Note: Requests to Origin are divided into 2 types **segment** (Request for media- ts, m4v file), **manifest** (request for manifest file - m3u8, mpd)
 
-The list of system features menus. This list will depend on the system features package that you are offered.
+![System status origin](/images/media-live/um-dashboard/origin.png)
 
-![Menu list](/images/media-live/um-panel-menu.png){width =150px}
+## **Menu panel**
 
+List of system features menus. This list will depend on the system feature pack you are provided with
+
+![Menu List](/images/media-live/um-panel-menu.png) { width=150px }
 
 ## Breadcrumb
 
-Breadcrumb displays previously accessed user links. The breadcrumb content displays the top of the browser screen.
+Breadcrumbs show links users have visited before. The breadcrumb content is displayed at the top of the browser screen.
 
 ![Breadcrumb](/images/media-live/um-breadcrumb/sample.png)
-
 
 ## Header Menu
 
@@ -52,19 +52,19 @@ Breadcrumb displays previously accessed user links. The breadcrumb content displ
 
 Includes 3 options:
 
-- Enable/disable the entire screen view.
-- Custom font size.
-- Action with a user account.
+- Toggle full screen view on/off.
+- Customize the font size.
+- Manipulation of user accounts.
 
-### Enable/disable the full screen view
+### Enable/disable full screen view
 
 ![Fullscreen Menu](/images/media-live/um-header-menu/fullscreen.jpg)
 
-Allow users to enable/disable the entire screen view.
+Allows users to enable/disable full screen view.
 
-This mode is not enabled.
+By default, this behavior is not enabled.
 
-When activated, the application content will spread out the entire screen.
+When activated, the app content will overflow to the entire screen.
 
 ### Customize font size
 
@@ -72,54 +72,53 @@ When activated, the application content will spread out the entire screen.
 
 Set the font size for the entire application.
 
-Bao gồm 4 tùy chọn `Default`, `Medium`, `Small` và `Mini` tương ứng với 4 kích thước *Mặc định*, *Trung bình*, *Nhỏ* và *Rất nhỏ*.
+Includes 4 options 'Default', 'Medium', 'Small' and 'Mini' corresponding to 4 sizes _Default_, _Medium_, _Small_ and _Very small_.
 
-After selecting one of the top four options, the font size is changed.
+After selecting 1 of the 4 options above, the application font size will change accordingly.
 
-### In a User Account
+### Follow the interaction with the user account
 
-![Profile User](/images/media-live/um-header-menu/profile.jpg)&ensp; ![Home Profile User](/images/media-live/um-header-menu/home-profile.jpg)&ensp; ![Change Password Profile User](/images/media-live/um-header-menu/change-pwd-profile.jpg)&ensp; ![Logout Profile User](/images/media-live/um-header-menu/logout-profile.jpg)
+![Profile User](/images/media-live/um-header-menu/profile.jpg)&ensp;
+![Home Profile User](/images/media-live/um-header-menu/home-profile.jpg)&ensp;
+![Change Password Profile User](/images/media-live/um-header-menu/change-pwd-profile.jpg)&ensp;
+![Logout Profile User](/images/media-live/um-header-menu/logout-profile.jpg)
 
-Allows users to manipulate with the account after login to the system.
+Allows users to manipulate accounts after logging into the system.
 
-These include 4 options `Home`, `Change password` and `Log out`.
+Includes 4 options 'Home', 'Change password' and 'Log out'.
 
-- `Home` navigation User on **Page**.
-- `Change password` changes the password of the user account. This option will navigate the user to page **Exchange**.
-- `Logout` registers the current account and the user navigation to page **Logout**.
+- 'Home' redirects the user back to **Home**.
+- 'Change password' changes the user account password. This option will redirect the user to the **Change password** page.
+- 'Logout' logs out of the current account and redirects the user to the **Login** page.
 
+## List of managed servers
 
-## Server Manager List
+The **Server** section displays system information for monitoring and managing the server. The status of the server includes:
 
-Section  **Server** displays system information to monitor and manage the server. Host states:
+- **live**: The server is registered and still connected to the control system
+- **dead**: The server is registered but no longer connected to the control system
 
-* **live**: Server registered and also connected to the control system.
-* **dead**: The server registered but no longer connected to the control system
+The Sigma Transcoder system manages 2 types of servers:
 
-System **Sigma Transcoder** managing two types of servers:
-
-* **Transcode**: Perform multimedia content code transfer tasks
-* **Package**: Impleming of packaged tasks
+- **Transcode**: Performs multimedia content transcoding tasks
+- **Package**: Perform packaging tasks
 
 ![Server classification](/images/media-live/um-machine-tab.png)
 
-On a system interface screen you can list and monitor servers in different items.
-
+On the system interface screen, you can list and monitor servers by different items:
 
 ![Server List](/images/media-live/um-machine-list.png)
 
-In it:
+Where:
 
-
-| title       | Description                                      |
-| ----------- | ------------------------------------------------ |
-| **#**       | Server order number                              |
-| **Machine** | Register server address                          |
-| **GPU**     | Does the machine use **GPU** or not              |
-| **CPU**     | The machine uses **CPU**                         |
-| **Task**    | The number of tasks being executed on the server |
-| **Speed**   | Lowest task execution speed on server (0-1)      |
-| **Percent** | The% of the server's downloads are performing    |
-| **Ram**     | %Ram server is using                             |
-| **Status**  | State of Server **live** or **dead**             |
-
+| headline    | Describe                                                       |
+| ----------- | -------------------------------------------------------------- |
+| **#**       | Server sequence number                                         |
+| **Machine** | Address of the registered server                               |
+| **GPU**     | Does the machine use **GPU** or not                            |
+| **CPU**     | The machine uses **CPU**                                       |
+| **Task**    | The number of tasks being executed on the server               |
+| **Speed**   | Lowest task execution speed on server (0-1) |
+| **Percent** | %load of the server executing the task                         |
+| **Ram**     | % Ram server in use                                            |
+| **Status**  | Server status **live** or **dead**                             |

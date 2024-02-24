@@ -1,5 +1,4 @@
 ---
-title: 'Start.'
+title: Begin
 order: 1
 ---
-
