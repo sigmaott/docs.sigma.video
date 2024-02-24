@@ -15,7 +15,7 @@ At the Channel List main screen interface, users click on the button **Add chann
 
 Display system **Pop-up add new channel** between interfaces:
 
-![](/images/lrm/pop-up/create-channel.png)
+! 
 
 The information displayed:
 
