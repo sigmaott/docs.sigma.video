@@ -18,7 +18,7 @@ To create a new permission group, members have access to the management app and 
 
 The pop-up creates permission groups that include the following fields:
 
-![Create Group](/images/streaming-platform/app-management/03-group/pop-up/create.png)
+! [Create Group] (/images/streaming-platform/app-management/03-group/pop-up/create.png)
 
 - Title: Create Group
 - Group Name: Enter a name for the new permission group.
