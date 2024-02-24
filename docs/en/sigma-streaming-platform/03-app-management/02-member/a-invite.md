@@ -28,7 +28,7 @@ On the member list display interface, administrators can invite more members by 
 
 Displays a Pop-up member invitation with the following sections:
 
-![Member Invite](/images/streaming-platform/app-management/02-member/pop-up/create.png)
+! [Member Invite] (/images/streaming-platform/app-management/02-member/pop-up/create.png)
 
 - Enter your email:
   - Does not support accented languages, does not contain spaces, type in 'local-part\@domainname' format
@@ -52,8 +52,8 @@ Members group permissions and click the 'Invite Members' button.
 **Step 3**:
 The system checks account information in the system:
 
-- [Account already exists](a-invite#account-existed)
-- [Account does not exist](./a-invite#member-account-non-existent)
+- [Account already exists] (a-invite#account-existed)
+- [Account does not exist] (./a-invite#member-account-non-existent)
 
 ## Member Account already exists
 
@@ -61,7 +61,7 @@ If the email **already exists** in the system, the system will automatically add
 
 After returning to the member list interface, a success message will appear above the screen:
 
-![Add member successfully](/images/streaming-platform/app-management/02-member/message/create.png)
+! [Add member successfully] (/images/streaming-platform/app-management/02-member/message/create.png)
 
 _Announcement: Added member successfully!_
 
