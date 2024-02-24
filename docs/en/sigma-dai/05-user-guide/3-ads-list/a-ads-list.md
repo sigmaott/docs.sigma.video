@@ -18,7 +18,7 @@ In the sidebar, select Ad list.
 
 The system displays the Ad List interface with the following information:
 
-! 
+![](/images/dai/list-ad-default-off.png)
 
 <center>
 
