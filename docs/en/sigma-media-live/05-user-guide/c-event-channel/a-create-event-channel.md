@@ -13,7 +13,7 @@ At the Event channel main screen interface, users click on the "Create new chann
 
 Screen system **Configuration settings for Event Channel**, general configuration settings for Event channel
 
-![General Configuration Settings](/images/media-live/event-channel/create-event-channel-1.png)
+! [General Configuration Settings] (/images/media-live/event-channel/create-event-channel-1.png)
 
 [](.. /d-input-management/d-duplicate-input.md#create-input)
 
@@ -59,7 +59,7 @@ In between each event, the system calculates the total amount of time between th
 
 ### Pre-Event Configuration Settings
 
-![Pre-Event Configuration Settings](/images/media-live/event-channel/create-event-channel-pre-event.png)
+! [Pre-Event Configuration Settings] (/images/media-live/event-channel/create-event-channel-pre-event.png)
 
 The user can enable or disable the setting for Pre-Event, if **enabled** the user must provide the following information to complete the setup:
 
@@ -71,7 +71,7 @@ The user can enable or disable the setting for Pre-Event, if **enabled** the use
 
 ### Main-Event Configuration Settings
 
-![Main-Event Configuration Settings](/images/media-live/event-channel/create-event-channel-main-event.png)
+! [Main-Event Configuration Settings] (/images/media-live/event-channel/create-event-channel-main-event.png)
 
 Mandatory user to configure Main-Event
 
@@ -88,7 +88,7 @@ Mandatory user to configure Main-Event
 
 ### Post-Event Setup
 
-![Post-Event Configuration Settings](/images/media-live/event-channel/create-event-channel-post-event.png)
+! [Post-Event Configuration Settings] (/images/media-live/event-channel/create-event-channel-post-event.png)
 
 The user can enable or disable the setting for Pre-Event, if **enabled** the user must provide the following information to complete the setup:
 
@@ -100,7 +100,7 @@ The user can enable or disable the setting for Pre-Event, if **enabled** the use
 
 After the user has filled in the required information, press the "Next" button, the system switches to the Profile Setup screen.
 
-![Profile Setup](/images/media-live/event-channel/create-event-channel-profile.png)
+! [Profile Setup] (/images/media-live/event-channel/create-event-channel-profile.png)
 
 The system displays 4 profiles by default with default settings.
 
@@ -110,7 +110,7 @@ Users can set up to 20 profiles for the channel (can choose from the existing li
 
 After the user has filled in the information in the **Set up profile** section, click the "Next" button, the system switches to the Profile Setup screen.
 
-![Goal Setting](/images/media-live/event-channel/create-event-channel-target.png)
+! [Goal Setting] (/images/media-live/event-channel/create-event-channel-target.png)
 
 Select the **Add**\* key in the **Target** field to add 1 desired output. A popup displaying the desired outputs will appear. The system supports the following outputs:
 
@@ -153,6 +153,6 @@ After initializing 1 desired output. The configuration of the output will appear
 
 After completing all the above steps, the user presses the **Next** button, the system displays the Preview screen including the information configured in the previous steps, so that the user can check the content before completing the channel creation step.
 
-![Preview Confirmed](/images/media-live/event-channel/create-event-channel-preview\.png)
+! [Preview Confirmed] (/images/media-live/event-channel/create-event-channel-preview\.png)
 
 After double-checking the information, the user clicks the **Confirm** button to complete the event funnel creation step. Once a new event channel is successfully added, it will show up in the event channel list
