@@ -47,5 +47,9 @@ Options:
   -ae, --api-endpoint=VALUE API endpoint for register server (default https://api.sigma.video)
 
 Example:
-  /etc/sigma-machine/script/.sh --server-name=live-server-01 --enable-origin=true --enable-ingest=true --server-token=kKLyAqeQlcWImVciTrWW- --server-data-dir=/data/transcode 
+  /etc/sigma-machine/script/.sh --server-name=live-server-01 --enable-origin=true --enable-ingest=true --server-token=kKLyAqeQlcWImVciTrWW- --server-data-dir=/data/transcode
 ```
+
+## Add licenses to the server
+
+After registering the server, you need to add licenses to the server. You can do this by following the instructions here [license](.. /04-getting-started/05-add-license.md#way-2-access-to-server-management)
