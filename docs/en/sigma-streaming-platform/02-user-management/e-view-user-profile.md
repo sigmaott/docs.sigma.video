@@ -9,9 +9,9 @@ User account information should be securely protected and managed to ensure user
 
 This information includes key sections such as:
 
-- [Profile](#hồ-sister)
-- [Change password](#đổi-password-password)
-- [App Management](#quản-storage-app)
+- [Profile] (#hồ-sister)
+- [Change password] (#đổi-password-password)
+- [App Management] (#quản-storage-app)
 
 ## File
 
