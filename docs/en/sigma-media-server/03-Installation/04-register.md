@@ -30,7 +30,7 @@ Alternatively, the user can perform the operation "Redeem registration code"
 Use the registration code to register the server via the following script:
 
 ```bash
-/etc/sigma-machine/script/register.sh --server-name=live-server-83 --enable-origin=true --enable-ingest=true --server-token=xamBWB0CZpXgI9VXkP68c --server-data-dir=/data/transcode --api-endpoint=https://dev-streaming.gviet.vn:8783
+/etc/sigma-machine/script/register.sh --server-name=live-server-83 --enable-origin=true --enable-ingest=true --server-token=xamBWB0CZpXgI9VXkP68c --server-data-dir=/data/transcode
 ```
 
 Where:
@@ -39,13 +39,17 @@ Where:
 Usage: /etc/sigma-machine/script/register.sh [OPTIONS]
 
 Options:
-  -sn, --server-name=VALUE Your server name (required)
-  -st, --server-token=VALUE Token get from portal server add page (required)
-  -eo, --enable-origin=VALUE Enable or disable origin server (port 8080 for http streaming hls, dash) (default true)
-  -ei, --enable-ingest=VALUE Enable or disable ingest server for incomming streaming(port 1935 for rtmp, rtsp, srt) (default true)
-  -sd, --server-data-dir=VALUE Set your data dir save data (default /data/transcode)
-  -ae, --api-endpoint=VALUE API endpoint for register server (default https://api.sigma.video)
+  -sn, --server-name=VALUE       Your server name (required)
+  -st, --server-token=VALUE      Token get from portal server add page (required)
+  -eo, --enable-origin=VALUE     Enable or disable origin server (port 8080 for http streaming hls, dash) (default true)
+  -ei, --enable-ingest=VALUE     Enable or disable ingest server for incomming streaming(port 1935 for rtmp, rtsp, srt) (default true)
+  -sd, --server-data-dir=VALUE   Set your data dir save data (default /data/transcode)
+  -ae, --api-endpoint=VALUE      API endpoint for register server (default https://api.sigma.video)
 
 Example:
-  /etc/sigma-machine/script/.sh --server-name=live-server-01 --enable-origin=true --enable-ingest=true --server-token=kKLyAqeQlcWImVciTrWW- --server-data-dir=/data/transcode --api-endpoint=https://dev-streaming.gviet.vn:8783
+  /etc/sigma-machine/script/.sh --server-name=live-server-01 --enable-origin=true --enable-ingest=true --server-token=kKLyAqeQlcWImVciTrWW- --server-data-dir=/data/transcode
 ```
+
+## Thêm giấy phép cho máy chủ
+
+Sau khi đăng kí máy chủ, bạn cần thêm giấy phép cho máy chủ. Bạn có thể thực hiện việc này bằng cách theo hướng dẫn tại đây [license](../04-getting-started/05-add-license.md#cách-2-truy-cập-vào-phần-quản-lý-máy-chủ)
