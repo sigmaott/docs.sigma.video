@@ -65,7 +65,7 @@ Table describing the information in the Pop-up filter
 CMS users enter search conditions and press the **Confirm** button.
 
 The system displays **channel list** that satisfies search conditions.
-! 
+![](/images/lrm/list/channel-lrm-filter.png)
 
 ## Site-by-page search
 
