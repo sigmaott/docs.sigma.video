@@ -24,7 +24,7 @@ In addition, some fields will have a **character limit**, and only allow certain
 
 For example, a field can be limited to 0/50, meaning that users cannot enter additional 51st characters and later.
 
-! 
+![](/images/dai/limit-text.png)
 
 User data sometimes needs to be validated to ensure validity, when the user data entered is invalid, there will be a red error message displayed just below.
 
@@ -32,15 +32,15 @@ Validation of user data is necessary to ensure validity. In case the user data e
 
 The content of the error message will vary depending on the specific case. Here are examples of some other types of notifications:
 
-! 
+![](/images/dai/error-empty.png)
 
 _Figure 1. Field blank error_
 
-! 
+![](/images/dai/error-invalid.png)
 
 _Figure 2. Invalid character input error_
 
-! 
+![](/images/dai/error-invalid-link.png)
 
 _Figure 3. Misformatted import error_
 
@@ -64,7 +64,7 @@ Displays within 5 seconds and automatically disappears after **executing command
 
 If the task fails, a red message with error content will be displayed at the top of the browser screen. The content of the error will vary depending on the specific case of the error.
 
-! 
+![](/images/dai/error-500.png)
 
 _Figure 4. System error_
 
