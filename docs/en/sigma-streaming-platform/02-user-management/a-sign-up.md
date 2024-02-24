@@ -15,7 +15,7 @@ Screen display system **Login**
 
 The system displays the **Register** screen, with the main information:
 
-![Sign up for an account](/images/streaming-platform/user-management/sign-up-1.png)
+! [Sign up for an account] (/images/streaming-platform/user-management/sign-up-1.png)
 
 - **Email:** requires entry, no accented languages supported, no spaces
 - **Password:** requires entry, must contain at least 1 uppercase character, 1 lowercase character and number
