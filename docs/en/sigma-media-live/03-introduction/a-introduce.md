@@ -15,8 +15,8 @@ Sigma Media Live helps you convert live video content from one format and packag
 
 **Topics**
 
-- [Related Services](03-relate-services.md)
-- [Visit Sigma Transcode Live](04-what-is-accessing.md)
+- [Related Services] (03-relate-services.md)
+- [Visit Sigma Transcode Live] (04-what-is-accessing.md)
 
 ## How live media works
 
