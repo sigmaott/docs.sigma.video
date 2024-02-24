@@ -19,7 +19,7 @@ yum install sigma-media-server
 Sau khi cài đặt thành công, bạn cần khởi động dịch vụ Sigma Media Server:
 
 ```bash
-sudo systemctl start sigma-server
+sudo systemctl start sigma-media-server
 ```
 
 ## Đăng kí máy chủ

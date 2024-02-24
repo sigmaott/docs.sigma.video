@@ -21,7 +21,7 @@ sudo apt-get install ./sigma-server-live_3.0.8-2_amd64.deb
 Sau khi cài đặt thành công, bạn cần khởi động dịch vụ Sigma Media Server:
 
 ```bash
-sudo systemctl start sigma-server.service
+sudo systemctl start sigma-media-server
 ```
 
 ## Register Server

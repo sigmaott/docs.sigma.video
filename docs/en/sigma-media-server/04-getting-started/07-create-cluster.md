@@ -16,8 +16,8 @@ Users can create a new Cluster Server by following these steps:
 2. Click "Add new server cluster"
 
 3. In the server cluster configuration form, users perform configuration with the following information:
-   ![Create Cluster](.. /image/getstarted/create-cluster.png)
-   ![](.. /image/getstarted/create-cluster-2.png)
+   ![Create Cluster](/images/media-server/getstarted/create-cluster.png)
+   ! 
 
    1. Cluster name.
 

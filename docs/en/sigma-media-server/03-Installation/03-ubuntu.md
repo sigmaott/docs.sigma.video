@@ -1,27 +1,29 @@
 ---
-title: Install:Centos
-order: 2
+title: Install:Ubuntu
+order: 3
 ---
 
-# How to Install Sigma Media Server on CentOS
+# Install Sigma Media Server on Ubuntu
 
 First, we will install Sigma Media Server. It is a powerful software application that allows you to stream video and audio over a network.
 
+Example installation of version **sigma media server** **3.0.8** on ubuntu
+
 ```bash
-sudo wget https://repo.sigma.video/centos/sigma-media-server.repo -O /etc/yum.repos.d/media-server.repo 
-# or use curl : curl -s https://repo.sigma.video/centos/sigma-transcoder.repo | sudo tee /etc/yum.repos.d/sigma-transcoder.repo >/dev/null
-yum install sigma-media-server
+wget https://minio.sigma.video:9000/debian/sigma-server-live_3.0.8-2_amd64.deb
+chmod +x sigma-server-live_3.0.8-2_amd64.deb
+sudo apt-get install ./sigma-server-live_3.0.8-2_amd64.deb
 ```
 
-## Start the service
+## Start Service
 
 After a successful installation, you need to start the Sigma Media Server service:
 
 ```bash
-sudo systemctl start sigma-server
+sudo systemctl start sigma-server.service
 ```
 
-## Server registration
+## Register Server
 
 Finally, you need to register your server with Sigma. You can do this by following the instructions here [register](./04-register.md)
 

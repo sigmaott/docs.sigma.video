@@ -5,9 +5,9 @@ order: 1
 
 # Sigma Media Server
 
-**Sigma Media Server** is a server-side software for launching a high-load video streaming service of any scale. Flussonic Media Server can receive, store, transcode, and deliver video to any number of viewers on any device.
+**Sigma Media Server** is a server-side software for launching a high-load video streaming service of any scale. Sigma Media Server can receive, store, transcode, and deliver video to any number of viewers on any device.
 
-Flussonic is written in a programming language called Erlang, which achieves:
+Sigma is written in a programming language called Erlang, which achieves:
 
 - parallel processing efficiency
 - high fault tolerance of the server
@@ -19,7 +19,7 @@ Flussonic is written in a programming language called Erlang, which achieves:
 - VSaaS and CCTV
 - video streaming
 
-## Flussonic Media Server features
+## Sigma Media Server features
 
 - **Live streaming**. Captures live from satellite, IP camera, capture card or video encoding program. Supports VMix, OBS, Atemi, HDMI-to-RTMP converters, video editing consoles and browsers. Supports SDI, ASI, SRT, RTMP, WebRTC, WebRTC with ABR and WebRTC playback (WHEP) with retransmitting settings. Plays multibitrate live and streams from the archive via HLS, DASH, or MSS over the Internet. Plays multibitrate live streams via WebRTC with low latency.
 
@@ -35,7 +35,7 @@ Flussonic is written in a programming language called Erlang, which achieves:
 - **DVR archive**. Records video streams to disk and manages the archive, supports the required archive depth and hard disk capacity. Plays multibitrate DVR via HLS, DASH, and MSS. DVR API.
 
 - **Delayed playback**. Plays multibitrate live streams with delay via HLS, DASH or MSS.
-  DRM. Supports Widevine, PlayReady, Solocoo, Conax, EzDRM, BuyDRM KeyOS, and other DRM systems. See Flussonic API Reference for a complete list.
+  DRM. Supports Widevine, PlayReady, Solocoo, Conax, EzDRM, BuyDRM KeyOS, and other DRM systems. See Sigma API Reference for a complete list.
 
 - **Cloud storage**. Fetches files from HTTP servers and cloud storages like Amazon S3 and OpenStack Storage (Swift), and stores the archive in cloud storages.
 
@@ -61,13 +61,13 @@ Flussonic is written in a programming language called Erlang, which achieves:
 
 - **Project Support**
 
-## Start working with Flussonic Media Server
+## Start working with Sigma Media Server
 
-To start working with Flussonic Media Server, do the following:
+To start working with Sigma Media Server, do the following:
 
 - Request a trial by filling out the trial form on our website
 - Follow the steps in the Quick start with Media Server.
 
 ## What's new
 
-Find the changes added in the latest Flussonic versions in our blog.
+Find the changes added in the latest Sigma versions in our blog.

@@ -11,7 +11,7 @@ Each type of server will be managed on a separate interface. In addition, the sy
 
 ### Server management organization structure
 
-![Structure Manage Server](.. /image/getstarted/structure-manage-server.png)
+![Structure Manage Server](/images/media-server/getstarted/structure-manage-server.png)
 
 The organizational structure of server management is divided into sections and broken down as follows:
 
