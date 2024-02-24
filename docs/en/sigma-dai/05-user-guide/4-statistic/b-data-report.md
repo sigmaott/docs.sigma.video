@@ -13,7 +13,7 @@ The user selects **Report data**.
 
 The system displays the Data Reporting interface:
 
-![](/images/dai/statistic-data-report.png)
+! 
 
 <center>
 
