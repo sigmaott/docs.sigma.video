@@ -32,7 +32,7 @@ Ngoài ra, người dùng có thể thực hiện thao tác "Đổi mã đăng k
 Sử dụng mã đăng ký để thực hiện đăng kí máy chủ qua script sau:
 
 ```bash
-/etc/sigma-machine/script/register.sh --server-name=live-server-83 --enable-origin=true --enable-ingest=true --server-token=xamBWB0CZpXgI9VXkP68c --server-data-dir=/data/transcode --api-endpoint=https://dev-streaming.gviet.vn:8783
+/etc/sigma-machine/script/register.sh --server-name=live-server-83 --enable-origin=true --enable-ingest=true --server-token=xamBWB0CZpXgI9VXkP68c --server-data-dir=/data/transcode
 ```
 
 Trong đó: 
@@ -49,6 +49,6 @@ Options:
   -ae, --api-endpoint=VALUE      API endpoint for register server (default https://api.sigma.video)
 
 Example:
-  /etc/sigma-machine/script/.sh --server-name=live-server-01 --enable-origin=true --enable-ingest=true --server-token=kKLyAqeQlcWImVciTrWW- --server-data-dir=/data/transcode --api-endpoint=https://dev-streaming.gviet.vn:8783
+  /etc/sigma-machine/script/.sh --server-name=live-server-01 --enable-origin=true --enable-ingest=true --server-token=kKLyAqeQlcWImVciTrWW- --server-data-dir=/data/transcode
 ```
 
