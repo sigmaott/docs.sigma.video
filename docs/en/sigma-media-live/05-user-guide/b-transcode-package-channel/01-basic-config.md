@@ -14,7 +14,7 @@ order: 1
       1. **Transcode**: Transcoding channel
       2. **Package**: Packing channel
 
-         ! [um-create-channel-1] (/images/media-live/um-create-channel/um-create-channel-1.png)
+         ![um-create-channel-1](/images/media-live/um-create-channel/um-create-channel-1.png)
    2. Channel initialization based on 1 saved template (**From Template**)
    ! [Create a channel from 1 template] (/images/media-live/um-create-channel/um-create-channel-2.png)
 
