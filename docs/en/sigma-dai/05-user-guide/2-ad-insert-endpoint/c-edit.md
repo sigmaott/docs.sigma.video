@@ -17,13 +17,12 @@ In the field you want to edit, move your mouse on the **Edit** icon in the Actio
 
 The system will open an ad insert endpoint pop-up window in the right corner of the screen, with the information previously entered, allowing all fields to be edited.
 
-![](/images/dai/pop-up-update-endpoint.png)
+! 
 
   <center>
 
 _Figure 1: Pop-up endpoint update_
 
-</center>
   
 
 **Step 3:** The user makes edits and then presses the **Save.** button
@@ -32,7 +31,7 @@ The system will save the new information and display the message **Update ad ins
 
  <center>
 
-![](/images/dai/success-update.png)
+! 
 
 _Figure 2: Notification of successful ad insert endpoint update!_
 
