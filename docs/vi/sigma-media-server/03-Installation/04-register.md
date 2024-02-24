@@ -55,3 +55,15 @@ Example:
 ## Thêm giấy phép cho máy chủ
 
 Sau khi đăng kí máy chủ, bạn cần thêm giấy phép cho máy chủ. Bạn có thể thực hiện việc này bằng cách theo hướng dẫn tại đây [license](../04-getting-started/05-add-license.md#cách-2-truy-cập-vào-phần-quản-lý-máy-chủ)
+
+## Khởi động lại dịch vụ
+
+Sau khi đăng kí máy chủ, bạn cần khởi động lại dịch vụ Sigma Media Server:
+
+```bash
+sudo systemctl restart sigma-media-server
+```
+
+Chúc bạn thành công trong việc cài đặt và sử dụng Sigma Media Server! Nếu bạn gặp bất kỳ vấn đề nào, đừng ngần ngại liên hệ với chúng tôi để nhận được sự hỗ trợ. Chúng tôi luôn sẵn lòng giúp đỡ bạn.
+
+Truy cập portal của dịch vụ để thực hiện các thao tác liên quan đến máy chủ [Portal Sigma Streaming Platform](https://portal.sigmaott.com/auth/login)
