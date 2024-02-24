@@ -6,7 +6,7 @@ order: 1
 ### Basic steps
 
 - Step 1:
-  [How to Access](b-get-started.md#access-way)
+  [How to Access] (b-get-started.md#access-way)
 
 - Step 2: [Prepare source information](b-get-started.md#step-2-prepare-information-source)
 
