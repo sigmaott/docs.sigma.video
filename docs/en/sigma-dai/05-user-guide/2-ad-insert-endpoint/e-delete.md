@@ -18,7 +18,7 @@ The system will display a confirmation pop-up window in the center of the screen
 
 <center>
 
-![](/images/dai/pop-up-delete-endpoint.png)
+! 
 
 _Figure 1: Pop-up deleting endpoint_
 
@@ -34,7 +34,7 @@ The system displays a pop-up message "Remove ad insert endpoint successfully" in
 
 <center>
 
-![](/images/dai/success-delete.png)
+! 
 
 _Figure 2: Notification of successful ad insert endpoint copy deletion!_
 
