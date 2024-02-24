@@ -54,14 +54,14 @@ Example:
 
 After registering the server, you need to add licenses to the server. You can do this by following the instructions here [license](.. /04-getting-started/05-add-license.md#way-2-access-to-server-management)
 
-## Khởi động lại dịch vụ
+## Restart the service
 
-Sau khi đăng kí máy chủ, bạn cần khởi động lại dịch vụ Sigma Media Server:
+After registering the server, you need to restart the Sigma Media Server service:
 
 ```bash
 sudo systemctl restart sigma-media-server
 ```
 
-Chúc bạn thành công trong việc cài đặt và sử dụng Sigma Media Server! Nếu bạn gặp bất kỳ vấn đề nào, đừng ngần ngại liên hệ với chúng tôi để nhận được sự hỗ trợ. Chúng tôi luôn sẵn lòng giúp đỡ bạn.
+Good luck in installing and using Sigma Media Server! If you face any problems, do not hesitate to contact us to get assistance. We're always happy to help you.
 
-Truy cập portal của dịch vụ để thực hiện các thao tác liên quan đến máy chủ [Portal Sigma Streaming Platform](https://portal.sigmaott.com/auth/login)
+Access the service's portal to perform server-related operations [Portal Sigma Streaming Platform](https://portal.sigmaott.com/auth/login)
