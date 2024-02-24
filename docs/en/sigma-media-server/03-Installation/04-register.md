@@ -30,7 +30,7 @@ Alternatively, the user can perform the operation "Redeem registration code"
 Use the registration code to register the server via the following script:
 
 ```bash
-/etc/sigma-machine/script/register.sh --server-name=live-server-83 --enable-origin=true --enable-ingest=true --server-token=xamBWB0CZpXgI9VXkP68c --server-data-dir=/data/transcode --api-endpoint=https://dev-streaming.gviet.vn:8783
+/etc/sigma-machine/script/register.sh --server-name=live-server-83 --enable-origin=true --enable-ingest=true --server-token=xamBWB0CZpXgI9VXkP68c --server-data-dir=/data/transcode
 ```
 
 Where:
@@ -47,5 +47,5 @@ Options:
   -ae, --api-endpoint=VALUE API endpoint for register server (default https://api.sigma.video)
 
 Example:
-  /etc/sigma-machine/script/.sh --server-name=live-server-01 --enable-origin=true --enable-ingest=true --server-token=kKLyAqeQlcWImVciTrWW- --server-data-dir=/data/transcode --api-endpoint=https://dev-streaming.gviet.vn:8783
+  /etc/sigma-machine/script/.sh --server-name=live-server-01 --enable-origin=true --enable-ingest=true --server-token=kKLyAqeQlcWImVciTrWW- --server-data-dir=/data/transcode 
 ```
