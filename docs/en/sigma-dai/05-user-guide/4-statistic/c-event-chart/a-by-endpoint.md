@@ -21,7 +21,7 @@ This is a statistics on the number of ad impressions shown on your ad insert end
 
 The system displays the interface according to ad insert endpoint.
 
-![](/images/dai/event-chart-by-endpoint.png)
+! 
 
 <center>
 
