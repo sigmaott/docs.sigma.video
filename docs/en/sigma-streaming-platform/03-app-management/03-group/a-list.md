@@ -9,7 +9,7 @@ To manage groups and display their basic information, the system is designed in 
 
 Users can access the group list from the main screen of the system by selecting **Group list**. The interface of the home screen includes:
 
-![Bucket List](/images/streaming-platform/app-management/03-group/list.png)
+! [Bucket List] (/images/streaming-platform/app-management/03-group/list.png)
 
 _Group list_
 
