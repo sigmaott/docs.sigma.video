@@ -15,7 +15,7 @@ The system displays the interface of the existing preset list
 
 The system displays a new pop-up preset in the middle of the screen. With general information:
 
-![Create new preset](/images/media-live/preset/create-preset.png)
+! [Create new preset] (/images/media-live/preset/create-preset.png)
 
 - **Name**: Name of the preset (required, maximum 50 characters)
 - **Description**: Preset description (optional, maximum 200 characters)
