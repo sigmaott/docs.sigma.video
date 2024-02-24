@@ -18,7 +18,7 @@ yum install sigma-media-server
 After a successful installation, you need to start the Sigma Media Server service:
 
 ```bash
-sudo systemctl start sigma-server
+sudo systemctl start sigma-media-server
 ```
 
 ## Server registration
