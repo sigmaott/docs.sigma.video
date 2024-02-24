@@ -17,7 +17,7 @@ At the main screen interface, users can make edits by moving the mouse on the Ed
 
 **Step 2:** When the user clicks on the edit icon, the system will display a pop-up **Update channel edit** in the middle of the screen, displaying the previously entered information.
 
-![](/images/lrm/pop-up/update-lrm.png)
+! 
 
 _Pop-up Update channel edits_
 
