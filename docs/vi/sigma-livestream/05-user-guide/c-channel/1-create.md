@@ -38,4 +38,4 @@ Người dùng nhập các thông tin hợp lệ.
 
 Nhấp vào nút **Lưu** ở cuối Pop-up.
 
-Hệ thống thực hiện tạo mới kênh với các thông tin vừa được nhập, hiển thị Pop-up thông báo **Tạo mới thành công** ở phía trên giao diện. Đồng thời, kện vừa được tạo hiển thị lên đầu trang
+Hệ thống thực hiện tạo mới kênh với các thông tin vừa được nhập, mở giao diện chi tiết kênh và hiển thị Pop-up thông báo **Tạo mới thành công** ở phía trên giao diện. Đồng thời, kện vừa được tạo hiển thị lên đầu trang.
