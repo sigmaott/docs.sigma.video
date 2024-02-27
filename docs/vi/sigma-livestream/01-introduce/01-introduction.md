@@ -3,11 +3,9 @@ title: Giới thiệu
 order: 1
 ---
 
-# Sigma Live Streaming
+# Sigma Livestream
 
-## Giải pháp truyền hình trực tuyến là gì?
-
-Dịch vụ **Live Streaming** nơi mà bất kì ai có kết nối internet cũng có thể sáng tạo và đưa nội dung đa phương tiện trực tiếp đến với lượng lớn người xem một cách đơn giản và hiệu quả nhất. Để xây dựng một trải nghiệm live stream tuyệt vời đến người xem của bạn đòi hỏi một dự án kĩ thuật lớn, chi phí cao và rủi ro lớn. Với sự kiện trực tiếp bất cứ một sự cố nhỏ nào đều có khả năng kết thúc trên luồng phát trực tiếp. Vì vậy, chúng tôi ưu tiên việc đảm bảo nội dung được truyền tải đến người dùng một cách mượt mà ít sự cố là điều quan trọng nhất.
+Dịch vụ **Livestream** nơi mà bất kì ai có kết nối internet cũng có thể sáng tạo và đưa nội dung đa phương tiện trực tiếp đến với lượng lớn người xem một cách đơn giản và hiệu quả nhất. Để xây dựng một trải nghiệm live stream tuyệt vời đến người xem của bạn đòi hỏi một dự án kĩ thuật lớn, chi phí cao và rủi ro lớn. Với sự kiện trực tiếp bất cứ một sự cố nhỏ nào đều có khả năng kết thúc trên luồng phát trực tiếp. Vì vậy, chúng tôi ưu tiên việc đảm bảo nội dung được truyền tải đến người dùng một cách mượt mà ít sự cố là điều quan trọng nhất.
 
 Livestream không chỉ giới hạn trong việc phát sóng video trực tiếp mà còn cung cấp khả năng tái phát lại nội dung trực tiếp đã kết thúc. Điều này cho phép người dùng tận dụng lại nội dung của họ và cung cấp một trải nghiệm xem video chất lượng cao, được biên tập sẵn.
 
