@@ -1,34 +1,34 @@
 ---
-title: Xoá kênh Livestream
+title: Delete a Livestream channel
 order: 5
 ---
 
-# Xóa kênh
+# Delete a channel
 
-**Điều kiện**:
-Kênh đã được tạo ra trước đó và có hiển thị tại danh sách kênh.
-Các session ở trạng thái init, processing, error, live gán vào kênh trạng thái Active đều tính là kênh đang được phát, không cho phép Xoá kênh.
+**Condition**:
+The channel has been created before and is displayed in the channel list.
+Sessions in init, processing, error, live state assigned to Active status channel count as the channel being played, do not allow Channel Deletion.
 
-Sau khi đã tạo và kích hoạt kênh, xoá các kênh **không phải trạng thái Live** không cần thiết theo các bước sau:
+Once a channel has been created and activated, delete unnecessary non-Live channels by following these steps:
 
-**Bước 1** :
+**Step 1** :
 
-Tại giao diện màn hình chính, chọn trường cần xoá. Hệ thống sẽ hiển thị dòng **Xoá bỏ** khi di chuyển chuột vào biểu tượng `Xoá` ở cột hành động.
+At the main screen interface, select the field to delete. The system will display the **Delete** line when moving the mouse on the 'Delete' icon in the action column.
 
-Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận ở trung tâm màn hình.
+The user clicks on the 'Delete' icon, the system will open a confirmation pop-up window in the center of the screen.
 
 <!-- ![]() -->
 
-_Pop-up xoá kênh_
+_Pop-up deleting channel_
 
-- Tiêu đề: Bạn sẽ mất tất cả video, nội dung, phiên và thông tin trong kênh này.
-- Nút Huỷ bỏ: Không thực hiện thay đổi, quay lại màn hình Danh sách kênh.
-- Nút Xác nhận: Hệ thống sẽ thực hiện việc xoá toàn bộ thông tin của kênh.
+- Title: You'll lose all videos, content, sessions, and information in this channel.
+- Cancel button: Make no changes, return to the Channel list screen.
+- Confirm button: All channel information will be deleted.
 
-**Bước 2** :
+**Step 2** :
 
-Người dùng nhấp vào nút `Xoá` để xác nhận việc xoá thông tin kênh. Hệ thống sẽ hiển thị một cửa sổ pop-up thông báo phía trên của màn hình.
+The user clicks the 'Remove' button to confirm the deletion of channel information. The system will display a notification pop-up window at the top of the screen.
 
-_Thông báo Xoá kênh thành công!_
+_Channel Removal Success Message!_
 
-Hệ thống thực hiện xoá tất cả các thông tin kênh bao gồm cả danh sách session trạng thái **END**, kênh không còn hiển thị trong danh sách kênh khi người dùng thực hiện tải lại.
+The system deletes all channel information including the **END** status session list, the channel is no longer displayed in the channel list when the user performs a reload.
