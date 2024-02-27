@@ -1,30 +1,30 @@
 ---
-title: Cập nhật kênh Livestream
+title: Update Livestream channel
 order: 4
 ---
 
-# Chỉnh sửa kênh
+# Edit your channel
 
-**Điều kiện**: Kênh đã được tạo ra trước đó và có hiển thị tại danh sách kênh.
+**Condition**: The channel has been created before and is displayed in the channel list.
 
-Những điều chỉnh trong quá trình sửa đổi kênh livestream sẽ ảnh hưởng đến thông tin của chính kênh đó và hiển thị trong chi tiết kênh tương ứng.
+Adjustments during the modification of the livestream channel will affect the information of the channel itself and be displayed in the corresponding channel details.
 
-Người dùng của hệ thống quản lý nội dung (CMS) có thể thực hiện chỉnh sửa trên các thông số của kênh, kể cả trong trường hợp kênh đang hoạt động.
+Users of the content management system (CMS) can make edits on the parameters of the channel, including in the case of an active channel.
 
-**Bước 1**:
+**Step 1**:
 
-Tại giao diện màn hình chính, người dùng có thể thực hiện chỉnh sửa bằng cách di chuyển chuột vào biểu tượng `Sửa` ở cột Hành động tại trường mong muốn.
+At the main screen interface, users can make edits by moving the mouse on the 'Edit' icon in the Action column at the desired field.
 
-**Bước 2:** Khi người dùng nhấp vào biểu tượng chỉnh sửa, hệ thống sẽ hiển thị một cửa sổ pop-up **Cập nhật chỉnh sửa kênh** giữa màn hình, hiển thị các thông tin đã nhập trước đó.
+**Step 2:** When the user clicks on the edit icon, the system will display a pop-up **Update channel edit** in the middle of the screen, displaying the previously entered information.
 
 <!-- ![]() -->
 
-_Pop-up Cập nhật chỉnh sửa kênh_
+_Pop-up Update channel edits_
 
-**Bước 3:** Sau khi người dùng thực hiện các thay đổi và nhấn nút `Lưu`, hệ thống sẽ tự động lưu thông tin mới được cập nhật. Một thông báo về việc cập nhật thành công sẽ xuất hiện phía trên màn hình, và sau đó cửa sổ sẽ tự động đóng sau 5 giây.
+**Step 3:** After the user makes changes and presses the 'Save' button, the system will automatically save the newly updated information. A message about the successful update will appear above the screen, and then the window will automatically close after 5 seconds.
 
-_Thông báo:Cập nhật kênh thành công!_
+_Announcement: Channel update successful!_
 
-Thực hiện cập nhật kênh với các thông tin vừa chỉnh sửa, hiển thị lên đầu trang danh sách kênh.
+Make channel updates with the information just edited, displayed at the top of the channel list page.
 
-_Lưu ý:_ Các thay đổi của kênh không ảnh hưởng tới session đang thực hiện nhiệm vụ, chỉ làm thay đổi đối với session được tạo mới sau khi thực hiện cập nhật kênh.
+_Note:_ Channel changes do not affect the session being performed, only changes to the newly created session after updating the channel.
