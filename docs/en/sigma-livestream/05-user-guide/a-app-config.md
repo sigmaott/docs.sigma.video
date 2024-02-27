@@ -1,5 +1,5 @@
 ---
 id: docs-guideline-livestream
-title: Cấu hình ứng dụng
+title: Application configuration
 order: 1
 ---
