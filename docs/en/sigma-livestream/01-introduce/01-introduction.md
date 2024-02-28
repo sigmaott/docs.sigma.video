@@ -11,30 +11,6 @@ Livestreaming is not only limited to live video broadcasting, but also provides 
 
 Sigma Live Stream Platform provides a comprehensive service that brings the job of transmitting content from broadcaster to viewers as simple as a button.
 
-- **64% viewer** have watched a live online video in the past year.
-
-- **78% viewers** are already watching live video on Facebook live.
-
-- **82% viewer** prefer live video from a brand to social posts.
-
-_"I think it takes more than three seconds to build your brand, and consumers are willing to spend the time if your content is compelling, relevant, and valuable." – [Momentology](http://www.momentology.com/8936-video-marketing-trends-2016/)_
-
-## What make a live stream successful ?
-
-What guarantees the success of a live stream?
-
-For a live stream, the hallmark of success is that the content the provider creates is aimed at the widest audience. Growth in viewership simultaneously corresponds to the success of your live stream. To ensure that success, in addition to broadcasters offering unique content focused on viewers, the live streaming technology platform also plays a very important role.
-
-_62% of consumers are more likely to have a negative perception of a brand with a low-quality video experience_. - [KZO](https://kzoinnovations.com/video-quality-influence-brand-perception)
-
-The quality of service when broadcasting plays a very important role in the emotions of viewers. Besides, the broadcaster's channels interact with users (example: Q\&A, playing games with viewers ...) are always the top channels on online services. For direct interaction with users, the latency of the content transmission system to the viewer affects
-
-\*Since we started providing our player for apps 15 years ago, video streaming on mobile devices has drastically increased. Many people now expect to access the same content on multiple devices with broadcast quality, whether they are at home or on the go." \*
-
-\*"Having a multiscreen low latency solution is a top requirement for customers and opens the door for fascinating interactive use cases, leveraging the best end-to-end technology and synchronization of the stream among all end users." \*
-
-_Carlos Lucas, General Manager of NexPlayer at_ _NexStreaming_
-
 ## Key drivers of low latency for video streaming
 
 Early streaming formats, mainly developed for SVOD, focused on avoiding re-buffering when displaying video on the player. But for that feature to work anywhere on any device, caching must be used in the workflow, especially in the player. This contributes to the success of OTT but also creates end-to-end latency.
@@ -51,7 +27,7 @@ With a delay of 20-40 seconds or more, it is not a problem for users to watch VO
 
 The Sigma Live Stream platform allows users to deliver content from any device to anywhere desired. The most important point of the project is to create a platform that supports users to manipulate to become the simplest broadcaster. Supports multiple technology solutions for streamers and viewers. Broadcasters can customize the streaming delay to pull closer to the interaction distance with viewers. Viewers won't have to miss a moment during the live stream
 
-### Feature
+### Tính năng
 
 - Handle large amounts of streams **transmux & transcode** live stream channels
 - Manage content during and after the live stream ends
@@ -84,3 +60,50 @@ The Sigma Live Stream platform allows users to deliver content from any device t
 - Simple, easy-to-use API, and integrates with any system
   - Api with secure token
   - Webhook for live stream event
+
+## Giải pháp truyền hình trực tuyến là gì?
+
+Dịch vụ truyền hình trực tuyến (Livestream) được thiết kế để tạo ra một kênh trực tiếp trên internet, cho phép người dùng truyền tải nội dung video của họ với lượng lớn người xem một cách đơn giản và hiệu quả nhất theo thời gian thực. Điều này có nghĩa là người dùng có khả năng phát sóng và chia sẻ video trực tiếp, cho phép người xem trải nghiệm sự kiện hoặc nội dung ngay lúc đang diễn ra.
+
+Livestream không chỉ giới hạn trong việc phát sóng video trực tiếp mà còn cung cấp khả năng tái phát lại nội dung trực tiếp đã kết thúc. Điều này cho phép người dùng tận dụng lại nội dung của họ và cung cấp một trải nghiệm xem video chất lượng cao, được biên tập sẵn.
+
+Để xây dựng một trải nghiệm live stream tuyệt vời đến người xem của bạn đòi hỏi một dự án kĩ thuật lớn, chi phí cao và rủi ro lớn. Với sự kiện trực tiếp bất cứ một sự cố nhỏ nào đều có khả năng kết thúc trên luồng phát trực tiếp. Vì vậy, chúng tôi ưu tiên việc đảm bảo nội dung được truyền tải đến người dùng một cách mượt mà ít sự cố là điều quan trọng nhất.
+
+Phần mềm này tạo điều kiện thuận lợi cho cá nhân hoặc doanh nghiệp để tạo ra và quản lý kênh trực tuyến của họ, cung cấp nền tảng linh hoạt và tiện ích cho việc giao tiếp và tương tác với khán giả thông qua nền tảng truyền hình trực tuyến.
+
+## Bắt đầu với kênh của bạn
+
+Sau khi người dùng tạo mới một kênh, hệ thống tự động tạo ra các thông tin của kênh, và người dùng có khả năng thực hiện các action( ví dụ copy token,...).
+
+Livestream Channel:
+
+Kênh Livestream là một không gian mà người dùng tạo ra và tự quản lý.
+
+Trạng thái của kênh khởi tạo IDLE (rảnh rỗi- không có session)
+
+->  chuyển đổi sang trạng thái active khi kênh được kích hoạt
+
+-> chuyển sang trạng thái STOP khi người dùng chủ động dừng kênh.
+
+Chi tiết chuyển đổi trạng thái xem ở
+
+## Kênh hoạt động
+
+Quá trình khởi tạo Session:
+
+Sau khi kênh được khởi tạo, người dùng truyền input thông qua bên thứ ba. Hệ thống tự động sinh ra session và gán nó với trạng thái init.
+
+Trạng thái Session:
+
+Session là quá trình truyền dữ liệu video theo thời gian thực.
+Trạng thái của session thay đổi theo thứ tự: init (khởi tạo), chuyển sang processing/error/live, và cuối cùng là ended.
+
+Session này kết thúc( trạng thái end) khi đạt đến thời lượng tối đa (timeout) hoặc khi người dùng chủ động dừng kênh.
+
+## Mối quan hệ giữa Livestream Channel và Session:
+
+Mỗi Livestream channel có thể chứa từ 1 đến nhiều session.
+
+Mỗi kênh Livestream liên kết với session đang phát tương ứng trong danh sách session, tạo nên một liên kết hợp nhất giữa kênh và nội dung trực tiếp.
+
+Session là duy nhất, khi session kết thúc, không thể tái sử dụng, session mới được sinh ra tiếp tục hoạt động nhiệm vụ.
