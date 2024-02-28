@@ -12,13 +12,7 @@ Một kênh livestream có nhiều session được gán. Các thay đổi về 
 
 ## Khởi tạo kênh
 
-Không chủ động tạo mới session ở hệ thống Livestream, người dùng sử dụng bên thứ 3.
-
-**Bước 1:** Tại phần mềm bên thứ 3, thực hiện copy/paste thông tin chi tiết kênh cần sử dụng → đẩy luồng đầu vào.
-
-**Bước 2:** Trở về hệ thống livestream, hệ thống nhận được thông tin có luồng đầu vào được đẩy vào kênh. Thực hiện tạo session gán vào kênh với trạng thái `init`.
-
-→ Kênh chuyển trạng thái kênh từ `IDLE` sang `Active`, hiển thị tên session liên kết tại chi tiết kênh.
+Không chủ động tạo mới session ở hệ thống Livestream, người dùng sử dụng bên thứ 3 theo hướng dẫn [dẩy luồng dữ liệu đầu vào](../../02-get-started/03-push-data)
 
 ## Danh sách session
 Danh sách tất cả session hiện có trong hệ thống Sigma Livestream, mỗi session được gán với link play và kênh tương ứng, có thể nhấp vào để điều hướng sang các trang liên quan khác một cách nhanh chóng hơn.
@@ -30,11 +24,15 @@ Tại danh sách kênh Livestream, người dùng nhấp vào biểu tưởng `m
 
 Hệ thống điều hướng tới danh sách, hiển thị các session có ID kênh bạn chọn.
 
+![filter theo kênh](/images/livestream/session-filter.png)
+
 ### Cách 2: Xem danh sách session
 Để xem danh sách các session, bạn cần thực hiện hai bước sau:
 
-Bước 1: Chuyển sang tab **"Session"**.
-Bước 2: Hiển thị giao diện danh sách session các thông tin sau đây:
+**Bước 1:** Chuyển sang tab **"Session"**.
+**Bước 2:** Hiển thị giao diện danh sách session các thông tin sau đây:
+
+![list session](/images/livestream/list-session.png)
 
 * SessionID
 * Session Name: Click để mở trang chi tiết của session.

@@ -14,16 +14,16 @@ Màn hình bao gồm 3 phần/mục thông tin:
 
 ## Thông tin tổng quan về thông tin sử dụng của người dùng
 
-* Quick filter về thời gian: Lựa chọn thời gian ngày/khoảng thời gian tùy chỉnh để theo dõi biểu đồ
+- Quick filter về thời gian: Lựa chọn thời gian ngày/khoảng thời gian tùy chỉnh để theo dõi biểu đồ
 
-* Các chỉ số thống kê bao gồm: 
+- Các chỉ số thống kê bao gồm: 
 
   - Active channels: hiển thị thống kê tổng số lượng kênh đang phát trực tiếp (kênh có trạng thái là **Active**) - ***dữ liệu không thay đổi theo Quick filter về thời gian***
   - Sessions: hiển thị thống kê tổng số lượng sessions đã/ đang được sử dụng 
   - Time sessions: hiển thị tổng số thời lượng của session 
 
 
-* Biểu đồ cột giúp người dùng theo dõi được tổng số lượng session được tạo theo thời gian (ghi nhận theo thời gian kết thúc của session).
+- Biểu đồ cột giúp người dùng theo dõi được tổng số lượng session được tạo theo thời gian (ghi nhận theo thời gian kết thúc của session).
 
 | Tên                 | Chức năng                                                    |
 | ------------------- | ------------------------------------------------------------ |
