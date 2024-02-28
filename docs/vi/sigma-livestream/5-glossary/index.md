@@ -1,7 +1,7 @@
 ---
 id: docs-guide-sigma-livestream
-title: Getting started
+title: Glossary
 
-order: 4
+order: 5
 
 ---

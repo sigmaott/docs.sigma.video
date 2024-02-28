@@ -1,6 +1,6 @@
 ---
-title: Strength
-order: 3
+title: Điểm mạnh
+order: 4
 ---
 
 # Ưu điểm vượt trội

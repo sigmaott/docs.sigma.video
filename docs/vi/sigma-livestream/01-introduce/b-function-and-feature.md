@@ -1,7 +1,8 @@
 ---
-title: Function & Feature 
-order: 2
+title: Tính năng cơ bản
+order: 3
 ---
+
 # Tổng quan về các chức năng và tính năng của sản phẩm (từng tính năng sẽ gắn link sang bài chi tiết tính năng)
 (dưới mỗi page, hiển thị những resource liên quan)
 
