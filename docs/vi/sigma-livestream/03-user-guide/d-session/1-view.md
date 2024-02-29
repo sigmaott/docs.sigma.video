@@ -6,9 +6,11 @@ order: 1
 
 ## Session là gì?
    
-Sau khi kênh được khởi tạo, người dùng có thể đẩy luồng đầu vào và session tự động được gán vào với trạng thái init, kết thúc khi session chạy hết thời lượng( timeout) hoặc người dùng chủ động dừng kênh. Việc duy trì session chạy liên tục có thể giúp tạo ra sự liên tục trong trải nghiệm xem và giữ cho khán giả liên tục quan tâm đến nội dung và tránh tình trạng quá tải.
+Sau khi kênh được khởi tạo, người dùng có thể đẩy luồng đầu vào và session tự động được gán vào với trạng thái `init`, kết thúc khi session chạy hết thời lượng( timeout) hoặc người dùng chủ động dừng kênh. Việc duy trì session chạy liên tục có thể giúp tạo ra sự liên tục trong trải nghiệm xem và giữ cho khán giả liên tục quan tâm đến nội dung và tránh tình trạng quá tải.
 
 Một kênh livestream có nhiều session được gán. Các thay đổi về thông tin kênh của mỗi session có thể khác nhau, tuỳ thuộc vào lịch sử cập nhật chỉnh sửa của kênh. 
+
+Session là duy nhất, khi session kết thúc, không thể tái sử dụng, session mới được sinh ra tiếp tục hoạt động nhiệm vụ.
 
 ## Khởi tạo kênh
 
@@ -34,18 +36,21 @@ Hệ thống điều hướng tới danh sách, hiển thị các session có ID
 
 ![list session](/images/livestream/list-session.png)
 
-* SessionID
-* Session Name: Click để mở trang chi tiết của session.
-* Channel: Nhấp vào điều hướng đến chi tiết của kênh mà session thực hiện tác vụ.
-* Trạng thái (Status):
-    * Init: trạng thái khởi tạo
-    * Processing: kênh tự động chuyển
-    * Preparing: xuất hiện khi đường truyền không ổn định
-    * Error: các trường hợp không ổn định, không thể bắt sóng, hoặc quá trình xử lý lỗi
-    * Live: kênh ổn định
-    * Ended: kênh dừng phát sóng
-* Hành động (Action):
-    * Dừng session - tắt tính năng này khi trạng thái của session là `Ended`.
-    * Xoá session: Chỉ cho phép xoá session trạng thái `Ended`
+- SessionID
+- Tên Session: Nhấp vào mở trang chi tiết của session.
+- Kênh: Nhấp vào điều hướng đến chi tiết của kênh mà session thực hiện tác vụ.
+- Trạng thái (Status):
+
+![state diagram](/images/livestream/state-diagram-session.png)
+
+    - Init: trạng thái khởi tạo
+    - Processing: kênh tự động chuyển
+    - Preparing: xuất hiện khi đường truyền không ổn định
+    - Error: các trường hợp không ổn định, không thể bắt sóng, hoặc quá trình xử lý lỗi
+    - Live: kênh ổn định
+    - Ended: kênh dừng phát sóng
+- Hành động (Action):
+    - Dừng session - tắt tính năng này khi trạng thái của session là `Ended`.
+    - Xoá session: Chỉ cho phép xoá session trạng thái `Ended`
 
 Việc này giúp quản lý và điều chỉnh các session một cách thuận tiện, đồng thời giúp người dùng dễ dàng theo dõi trạng thái và tiến độ của từng session.
