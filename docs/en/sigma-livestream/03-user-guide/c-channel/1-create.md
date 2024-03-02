@@ -12,9 +12,9 @@ Sau khi cấu hình ứng dụng, chuẩn bị đầu vào. Bạn có thể tạ
 ### Bước 1
 
 Tại giao diện màn hình chính Danh sách kênh, người dùng click vào nút **Thêm kênh**
-Hệ thống hiển thị **Pop-up thêm kênh mới** giữa giao diện:
+Hệ thống hiển thị **Pop-up tạo kênh** giữa giao diện:
 
-<!-- ![]() -->
+![thêm kênh mới](/images/livestream/create-channel.png)
 
 Các thông tin hiển thị:
 
@@ -41,4 +41,4 @@ Người dùng nhập các thông tin hợp lệ.
 
 Nhấp vào nút **Lưu** ở cuối Pop-up.
 
-Hệ thống thực hiện tạo mới kênh với các thông tin vừa được nhập, mở giao diện chi tiết kênh và hiển thị Pop-up thông báo **Tạo mới thành công** ở phía trên giao diện. Đồng thời, kện vừa được tạo hiển thị lên đầu trang.
+Hệ thống thực hiện tạo mới kênh với các thông tin vừa được nhập, **mở giao diện chi tiết kênh** và hiển thị Pop-up thông báo **Tạo mới thành công!** ở phía trên giao diện. Đồng thời, kện vừa được tạo hiển thị lên đầu trang.
