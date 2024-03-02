@@ -11,7 +11,7 @@ Tại màn hình chính hệ thống chọn **Danh sách kênh**
 
 Màn hình chính hệ thống hiển thị:
 
-<!-- ![Danh sách kênh]() -->
+![Danh sách kênh](/images/livestream/list-channel.png)
 
 Các thông tin được hiển thị trong giao diện:
 
