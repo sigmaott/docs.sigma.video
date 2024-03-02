@@ -20,7 +20,9 @@ Hệ thống hiển thị giao diện chi tiết kênh gồm các thông tin:
 - Các thông tin do hệ thống sinh ra: 
     - **Thumbnail**: hình thu nhỏ, mặc định luôn hiển thị.
     - **Trạng thái**: trạng thái kênh
-    - **Session**: không có session nào được gán → Hiển thị không có dữ liệu
+    - **Session**: 
+        - Không có session nào được gán → Hiển thị không có dữ liệu
+        - Có session: nhấp vào tên session -> hiển thị trang chi tiết session.
     - **Stream ID**: mã định danh của kênh
     - **Stream token**: là token để chạy, hỗ trợ reset token mới
     - **Stream URL**: link URI, rtmp để người dùng push luồng live lên
@@ -40,8 +42,10 @@ Hệ thống hiển thị giao diện chi tiết kênh gồm các thông tin:
 
 **Bước 2**: Hệ thống sẽ hiển thị một cảnh báo pop-up với nội dung sau:
 
+![change token](/images/livestream/change-token.png)
+
 *"Hành động này không thể được hoàn tác. Token cũ sẽ không được sử dụng trong phiên tiếp theo."*
 
-**Bước 3**: Nhấp vào nút "Đổi token" để tiếp tục.
+**Bước 3**: Nhấp vào nút `Đổi token` để tiếp tục.
 
 Trở về trang chi tiết kênh và token mới được hiển thị. Người dùng không thể truy cập vào kênh qua bên thứ 3 bằng token cũ.

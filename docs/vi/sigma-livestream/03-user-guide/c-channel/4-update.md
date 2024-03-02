@@ -17,9 +17,9 @@ Tại giao diện màn hình chính, người dùng có thể thực hiện ch�
 
 **Bước 2:** Khi người dùng nhấp vào biểu tượng chỉnh sửa, hệ thống sẽ hiển thị một cửa sổ pop-up **Cập nhật chỉnh sửa kênh** giữa màn hình, hiển thị các thông tin đã nhập trước đó.
 
-<!-- ![]() -->
+![cập nhật kênh](/images/livestream/update-channel.png)
 
-*Pop-up Cập nhật chỉnh sửa kênh*
+*Pop-up Cập nhật cập nhật kênh*
 
 **Bước 3:** Sau khi người dùng thực hiện các thay đổi và nhấn nút `Lưu`, hệ thống sẽ tự động lưu thông tin mới được cập nhật. Một thông báo về việc cập nhật thành công sẽ xuất hiện phía trên màn hình, và sau đó cửa sổ sẽ tự động đóng sau 5 giây.
 

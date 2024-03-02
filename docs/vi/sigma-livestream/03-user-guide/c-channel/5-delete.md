@@ -17,13 +17,13 @@ Tại giao diện màn hình chính, chọn trường cần xoá. Hệ thống s
  
 Người dùng nhấp vào biểu tượng `Xoá`, hệ thống sẽ mở một cửa sổ pop-up xác nhận ở trung tâm màn hình.
 
-<!-- ![]() -->
+![xoá kênh](/images/livestream/delete-channel.png)
  
- *Pop-up xoá kênh*
+*Pop-up xoá kênh*
 
- * Tiêu đề: Bạn sẽ mất tất cả video, nội dung, phiên và thông tin trong kênh này.
- * Nút Huỷ bỏ: Không thực hiện thay đổi, quay lại màn hình Danh sách kênh.
- * Nút Xác nhận: Hệ thống sẽ thực hiện việc xoá toàn bộ thông tin của kênh.
+- **Nội dung**: Bạn sẽ mất tất cả video, nội dung, phiên và thông tin trong kênh này.
+- Nút **Huỷ bỏ**: Không thực hiện thay đổi, quay lại màn hình Danh sách kênh.
+- Nút **Xoá**: Hệ thống sẽ thực hiện việc xoá toàn bộ thông tin của kênh.
 
  **Bước 2** : 
  
