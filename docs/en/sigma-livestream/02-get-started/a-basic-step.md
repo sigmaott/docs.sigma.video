@@ -1,14 +1,14 @@
 ---
-title: Các bước cơ bản
+title: Basic steps
 order: 1
 ---
 
-### Các bước cơ bản
+### Basic steps
 
-- Bước 1: Cách thức truy cập vào hệ thống Sigma Livestream
-- Bước 2: Chuẩn bị luồng
-- Bước 3: Cấu hình ứng dụng
-- Bước 4: Tạo mới kênh
-- Bước 5: Tạo mới session
-- Bước 6: Kiểm tra cấu hình
-- Bước 7: Dọn dẹp( Xoá kênh)
+- Step 1: How to access the Sigma Livestream system
+- Step 2: Prepare the flow
+- Step 3: Configure the app
+- Step 4: Create a new channel
+- Step 5: Create a new session
+- Step 6: Check the configuration
+- Step 7: Clean up (Delete channel)
