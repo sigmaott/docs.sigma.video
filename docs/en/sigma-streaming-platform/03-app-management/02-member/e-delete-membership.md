@@ -18,7 +18,7 @@ Note: The 'Remove' button will be disabled, not allowing deletion of one's own a
 
 The user clicks on the 'Delete' icon, the system will open a confirmation pop-up window in the center of the screen.
 
-! [Remove member] (/images/streaming-platform/app-management/02-member/pop-up/delete.png)
+![Remove member](/images/streaming-platform/app-management/02-member/pop-up/delete.png)
 
 _Pop-up delete member_
 
