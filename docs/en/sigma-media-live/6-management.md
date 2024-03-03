@@ -27,7 +27,7 @@ A token will be assigned one or more permissions.
 
 ### Create a token
 
-1. Click on the ! [Add button] (/images/media-live/um-member/btn-add.png).
+1. Click on the ![Add button](/images/media-live/um-member/btn-add.png).
 
 2. Enter the token information in the form.
 
