@@ -1,60 +1,60 @@
 ---
 id: docs-guideline-livestream
-title: Cấu hình ứng dụng
+title: Application configuration
 order: 1
 ---
 
-## Cấu hình ứng dụng
+## Application configuration
 
-Người dùng truy cập lần đầu tiên vào dịch vụ Sigma Livestream, hiển thị mặc định trang cấu hình ứng dụng bắt buộc thiết lập cấu hình chung cho toàn bộ các kênh trong hệ thống Sigma Livestream.
+Users access the Sigma Livestream service for the first time, displaying the default application configuration page that requires general configuration settings for all channels in the Sigma Livestream system.
 
-**Bước 1:** Trang cấu hình hiển thị các thông tin sau:
+**Step 1:** The configuration page displays the following information:
 
 ![config app default](/images/livestream/config-app-default.png)
 
-- **Cảnh báo**: Thực hiện chỉnh sửa cấu hình ứng dụng làm thay đổi sẽ ảnh hưởng đến link play (người xem sẽ không thể truy cập vào video hoặc sẽ phải sử dụng một link play mới) và máy transcode (thay đổi các cấu hình kênh phát: link live stream, link push rtmp, chọn máy transcode) khi thực hiện livestream.
-- **Tiêu đề**: Máy
-- **Chọn loại máy**
-  - Sigma_machine: máy đơn
-  - Sigma_machine_cluster: cụm máy
-  - Sigma_component_cluster: cụm máy
-- **Chọn máy**: Máy cụ thể phù hợp để thực hiện nhiệm vụ
-  - Chỉ hiển thị các máy trạng thái `running`
-  - Cho phép thêm máy mới. Khi nhấn vào, một pop-up sẽ xuất hiện điều hướng người dùng tới trang cấu hình loại máy tương ứng.
+- **Warning**: Making changes to the application configuration will affect link play (viewers will not be able to access the video or will have to use a new play link) and transcode machine (change channel configurations: live stream link, rtmp push link, select transcode machine) when performing livestream.
+- **Title**: Machine
+- **Select machine type**
+  - Sigma_machine: single machine
+  - Sigma_machine_cluster: Cluster
+  - Sigma_component_cluster: Cluster
+- **Select the machine**: The specific machine suitable for performing the task
+  - Show only 'running' status machines
+  - Allows adding new machines. When clicked, a pop-up will appear directing the user to the corresponding machine type configuration page.
 
-**Bước 2:** Người dùng chọn máy phù hợp và nhấn nút `Lưu` để lưu thông tin.
+**Step 2:** The user selects the appropriate machine and presses the 'Save' button to save the information.
 
-**Bước 3:** Hệ thống lưu thông tin và hiển thị các tab: Dashboard, kênh, session, profile, cho phép người dùng dễ dàng tiếp tục quản lý và thực hiện các hoạt động trên nền tảng Sigma Livestream.
+**Step 3:** The system saves information and displays tabs: Dashboard, channel, session, profile, allowing users to easily continue to manage and perform activities on the Sigma Livestream platform.
 
-_**Lưu ý**_: Khi tạo kênh livestream, người dùng có thể cấu hình từng máy theo kênh. Trường hợp người dùng không cấu hình máy theo kênh, mặc định kênh sử dụng máy ở cấu hình ứng dụng.
+Note\*\*\*: When creating a livestream channel, users can configure each machine according to the channel. In case the user does not configure the machine according to the channel, the default channel uses the machine in the application configuration.
 
-### Thêm máy của riêng bạn
+### Add your own machine
 
-Người dùng có thể thêm máy để sử dụng trong hệ thống.
+Users can add machines for use in the system.
 
-**Bước 1:** Khi người dùng nhấp vào nút `Thêm` để thêm máy, một cửa sổ xác nhận sẽ xuất hiện giữa màn hình với
+**Step 1:** When the user clicks the 'Add' button to add a machine, a confirmation window will appear in the middle of the screen with
 
-- Máy đơn: thực hiện thêm máy theo hướng dẫn
-- Máy cụm: Cửa sổ hiển thị nội dung: "Bạn có muốn điều hướng đến [loại máy tương ứng]?".
+- Single machine: perform additional machines according to the instructions
+- Cluster machine: The window displays: "Do you want to navigate to [corresponding machine type]?".
 
-![add server](/images/livestream/add-server.png)
+! [add server] (/images/livestream/add-server.png)
 
-**Bước 2:** Người dùng chọn `Có`, một tab mới sẽ được mở để hiển thị trang danh sách [loại máy tương ứng]. Đồng thời, cửa sổ xác nhận sẽ được đóng trên tab hiện tại.
+**Step 2:** The user selects 'Yes', a new tab will be opened to display the [corresponding machine type] list page. At the same time, the confirmation window will be closed on the current tab.
 
-Sau khi người dùng đã cấu hình máy mới, và máy ở trạng thái `running`, tên và thông tin của máy mới sẽ được hiển thị trong danh sách chọn máy. Điều này giúp người dùng dễ dàng chọn và sử dụng máy phù hợp cho các nhiệm vụ trong hệ thống.
+After the user has configured the new machine, and the machine is in a 'running' state, the name and information of the new machine will be displayed in the machine selection list. This makes it easy for users to choose and use the right machine for tasks in the system.
 
-## Cập nhật cấu hình ứng dụng
+## Update application configuration
 
-Sau thời gian sử dụng, người dùng muốn thay đổi máy, thực hiện theo hướng dẫn sau:
+After the period of use, users who want to change the machine, follow these instructions:
 
-**Bước 1:** Chuyển đến trang cấu hình ứng dụng, cấu hình hiện tại và cảnh báo cố định được hiển thị.
+**Step 1:** Go to the application configuration page, the current configuration and fixed alerts are displayed.
 
-**Bước 2:** Người dùng nhấp chuột vào trường (điều này sẽ được coi là sửa đổi, ngay cả khi người dùng không thay đổi gì), đồng thời hiển thị nút `Lưu` và `Hủy bỏ` để cho phép người dùng chỉnh sửa cấu hình.
+**Step 2:** The user clicks on the field (this will be considered a modification, even if the user has changed nothing), and displays a 'Save' and 'Remove' buttons to allow the user to edit the configuration.
 
-Trong trường hợp máy đã được chọn nhưng máy ở trạng thái `DEAD`, `FREEZE` hoặc **đã bị xoá**, ID máy sẽ được hiển thị.
+In case the machine has been selected but the machine is in a 'DEAD', 'FREEZE' or **deleted** state, the machine ID will be displayed.
 
-![server dead](/images/livestream/server-dead.png)
+! [server dead] (/images/livestream/server-dead.png)
 
-Khi người dùng nhấp chuột vào trường, tên máy không còn trong danh sách, người dùng sẽ bắt buộc phải chọn máy khác.
+When the user clicks on the field, the hostname is no longer in the list, the user will be forced to select another machine.
 
-**Bước 3:** Nhấn nút `Lưu` để lưu lại thông tin, hệ thống chỉ thực hiện lưu thay đổi các cấu hình vừa thiết lập với các kênh được tạo sau đó hoặc các kênh ở trạng thái còn lại. **Không thực hiện thay đổi** với các phiên ở trạng thái đang Live và Ended. Điều này giúp đảm bảo rằng cấu hình mới được áp dụng cho các kênh mới và không ảnh hưởng các session ở trạng thái đang `Live`(đang diễn ra) và `Ended`(đã kết thúc).
+**Step 3:** Press the 'Save' button to save the information, the system only saves changes to the newly set profiles with the channels created later or channels in the remaining state. **No changes** to Live and Ended sessions. This helps ensure that the new configuration is applied to the new channels and does not affect sessions in the 'Live' and 'Ended' states.
