@@ -25,7 +25,7 @@ First, you create an ad insert endpoint, and then add VOD sources and direct sou
 
 Topic:
 
-- [List of ad insert endpoints] (.. /05-user-guide/2-ad-insert-endpoint/a-view-list.md)
+- [List of ad insert endpoints](.. /05-user-guide/2-ad-insert-endpoint/a-view-list.md)
 - [Create new ad insert endpoint] (.. /05-user-guide/2-ad-insert-endpoint/b-create.md)
 - [Update ad insert endpoint] (.. /05-user-guide/2-ad-insert-endpoint/c-edit.md)
 - [Create an ad insert endpoint copy] (.. /05-user-guide/2-ad-insert-endpoint/d-duplicate.md)
