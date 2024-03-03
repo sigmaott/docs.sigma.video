@@ -25,7 +25,7 @@ The system will return to the user machine installation information for the user
 
   Alternatively, the user can perform the operation "Redeem registration code"
 
-  ! [Add Server] (/images/media-server/getstarted/add-server.png)
+  ![Add Server](/images/media-server/getstarted/add-server.png)
 
 ### Perform machine installation
 
