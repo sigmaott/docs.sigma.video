@@ -20,7 +20,7 @@ A few notes, as well as general descriptive information when users add and edit 
 
 In a form will include multiple data fields, each data field will consist of 2 components: _Title_ and _Data input/selector_.
 
-- The _title_ section displays the name information. The data field description information is displayed when the mouse pointer is moved to the ! [Info Icon] (/images/media-live/um-form-rules/info-icon.png).
+- The _title_ section displays the name information. The data field description information is displayed when the mouse pointer is moved to the ![Info Icon](/images/media-live/um-form-rules/info-icon.png).
 
   ![More Info](/images/media-live/um-form-rules/description.png)
 
