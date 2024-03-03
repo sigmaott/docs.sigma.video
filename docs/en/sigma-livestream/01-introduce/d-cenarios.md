@@ -1,8 +1,8 @@
 ---
-title: Kịch bản sử dụng
+title: Usage scenarios
 order: 5
 ---
 
-# Kịch bản phổ biến
+# Common scenarios
 
-Mô tả những kịch bản phổ biến có thể diễn ra khi sử dụng sản phẩm: nêu rõ usecase, mô tả usecase và solution (Recommended Feature).
+Describe common scenarios that can occur when using the product: specify the usecase, describe the usecase, and the solution (Recommended Feature).
