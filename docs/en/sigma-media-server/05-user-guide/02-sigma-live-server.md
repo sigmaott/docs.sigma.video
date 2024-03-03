@@ -19,7 +19,7 @@ Users can add new machines, following these steps:
 
 1. At the Sigma Live machine list screen, click **Add Server**
 
-   ! [add sever] (/images/media-server/user-guide/add-server-1.png)
+   ![add sever](/images/media-server/user-guide/add-server-1.png)
 
 2. Perform to get the token to install the machine
 
