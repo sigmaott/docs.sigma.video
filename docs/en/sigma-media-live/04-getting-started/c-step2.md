@@ -30,7 +30,7 @@ The Sigma Streaming Platform system supports the following input standards:
    4. **Primary Source** fill in the prepared flow information in step 1 [Input Flow Settings](./b-step1.md)
    5. **Primary Interface Network** Please select 1 network card that receives this multicast UDP stream bypassing
 
-! [Create Input] (/images/media-live/um-create-input.png)
+![Create Input](/images/media-live/um-create-input.png)
 
 _Note: If you do not fill in the information about the network card, the system will automatically get it from the default network card of the machine_
 
