@@ -37,14 +37,14 @@ To view the list of sessions, you need to perform the following two steps:
 **Step 1:** Switch to the tab **"Session"**.
 **Step 2:** Displays the session list interface with the following information:
 
-![list session](/images/livestream/list-session.png)
+! [list session] (/images/livestream/list-session.png)
 
 - SessionID
 - Session Name: Click open the session details page.
 - Channel: Click navigate to the details of the channel the session performs the action on.
 - Status:
 
-![state diagram](/images/livestream/state-diagram-session.png)
+! [state diagram] (/images/livestream/state-diagram-session.png)
 
 ```
 - Init: initialization state
