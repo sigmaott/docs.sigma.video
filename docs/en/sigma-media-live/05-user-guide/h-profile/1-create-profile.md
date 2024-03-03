@@ -21,7 +21,7 @@ Create a new profile by following these steps:
 **Step 1**: In the profile list, click the '+Add New' button in the right corner of the screen.
 The system will display a pop-up **Add new profile**\* in the middle of the screen.
 
-! [Create New] (/images/media-live/profile/create.png)
+![Create New](/images/media-live/profile/create.png)
 
 - Default display of profile name in the form: 'profile_[number due to random system]' helps users optimize time during the configuration process.
 - Preset style selection
