@@ -35,24 +35,24 @@ A token will be assigned one or more permissions.
 
    When assigning permissions to tokens, you can select the permissions available in the list of groups. At that time, the token will inherit all rights belonging to the selected group. Inherited permissions can be modified (added/deleted) accordingly.
 
-   Click the ![Add perm button](/images/media-live/um-basic-auth/btn-add-perm.png) to display an additional list of permissions.
+   Click the ! [Add perm button] (/images/media-live/um-basic-auth/btn-add-perm.png) to display an additional list of permissions.
 
    ![Add Form](/images/media-live/um-basic-auth/form-add-2.png)
 
-3. Save the token by clicking the ![Submit button](/images/media-live/um-member/btn-submit.png).
+3. Save the token by clicking the ! [Submit button] (/images/media-live/um-member/btn-submit.png).
 
 Token creation execution system:
 
 - If successfully displayed the newly created token information:
-  ![Token info](/images/media-live/um-basic-auth/info.png)
+  ! [Token info] (/images/media-live/um-basic-auth/info.png)
 
-  Click on the icons ![Icon copy password](/images/media-live/um-member/icon-copy.png) copy the Token ID and Token Secret. The Secret Token value will be deleted shortly thereafter
+  Click on the icons ! [Icon copy password] (/images/media-live/um-member/icon-copy.png) copy the Token ID and Token Secret. The Secret Token value will be deleted shortly thereafter
 
 - If it fails, an error message will be displayed.
 
 ### Edit tokens
 
-Click on the ![Edit button](/images/media-live/um-action-btns/edit.png) to change the name and permissions of the token.
+Click on the ! [Edit button] (/images/media-live/um-action-btns/edit.png) to change the name and permissions of the token.
 
 ![Edit token](/images/media-live/um-basic-auth/form-edit.png)
 
@@ -81,7 +81,7 @@ A group will include one or several permissions. Accounts in a group that inheri
 
 ### Create a group
 
-1. Click on the ![Add button](/images/media-live/um-member/btn-add.png).
+1. Click on the ! [Add button] (/images/media-live/um-member/btn-add.png).
 2. Enter your account information in the form.
 
    ![Add Form](/images/media-live/um-group/form-add.png)
@@ -91,7 +91,7 @@ A group will include one or several permissions. Accounts in a group that inheri
    - Name.
    - Password.
    - Powers.
-3. Save the group by clicking the ![Submit button](/images/media-live/um-member/btn-submit.png).
+3. Save the group by clicking the ! [Submit button] (/images/media-live/um-member/btn-submit.png).
 
 The execution system creates a new group:
 
@@ -100,7 +100,7 @@ The execution system creates a new group:
 
 ### Edit account permissions
 
-Click on the ![Edit button](/images/media-live/um-action-btns/edit.png) to edit the group's name and permission information.
+Click on the ! [Edit button] (/images/media-live/um-action-btns/edit.png) to edit the group's name and permission information.
 
 ## Member
 
@@ -131,7 +131,7 @@ An account will be a member of one and only one group.
 
 ### Create an account
 
-1. Click on the ![Add button](/images/media-live/um-member/btn-add.png).
+1. Click on the ! [Add button] (/images/media-live/um-member/btn-add.png).
 2. Enter your account information in the form.
 
    ![Add Form](/images/media-live/um-member/form-add.png)
@@ -142,21 +142,21 @@ An account will be a member of one and only one group.
    - Password.
    - The team will empower.
 
-     The selected group will display a blue tick![Selected group](/images/media-live/um-member/group-selected.png)
-3. Save the account by clicking the ![Submit button](/images/media-live/um-member/btn-submit.png).
+     The selected group will display a blue tick! [Selected group] (/images/media-live/um-member/group-selected.png)
+3. Save the account by clicking the ! [Submit button] (/images/media-live/um-member/btn-submit.png).
 
 The execution system creates a new account:
 
 - If successfully displays the newly created account information including username and password:
-  ![Account info](/images/media-live/um-member/account-info.png)
+  ! [Account info] (/images/media-live/um-member/account-info.png)
 
-  Click on the icons ![Icon show password](/images/media-live/um-member/icon-eye.png), ![Icon copy password](/images/media-live/um-member/icon-copy.png) to display and copy the password.
+  Click on the icons ! [Icon show password] (/images/media-live/um-member/icon-eye.png), ! [Icon copy password] (/images/media-live/um-member/icon-copy.png) to display and copy the password.
 
 - If it fails, an error message will be displayed.
 
 ### Edit account permissions
 
-Click on the ![Edit button](/images/media-live/um-action-btns/edit.png) to change account permissions by assigning the account to another group.
+Click on the ! [Edit button] (/images/media-live/um-action-btns/edit.png) to change account permissions by assigning the account to another group.
 
 ![Edit account](/images/media-live/um-member/form-edit.png)
 

@@ -30,7 +30,7 @@ _Pop-up delete member_
 
 The user clicks the **Confirm** button to confirm the removal of another membership. The system will display a notification pop-up window at the top of the screen.
 
-![Remove member](/images/streaming-platform/app-management/02-member/message/delete.png)
+! [Remove member] (/images/streaming-platform/app-management/02-member/message/delete.png)
 
 _Member Removal Success Notice!_
 

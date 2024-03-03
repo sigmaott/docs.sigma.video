@@ -50,11 +50,11 @@ Each button performs a distinct task, please see how each button performs its fu
 
 - [Import program](./2-epg/2.5-import-epg.md)
 
-- [Export program](./2-epg/2.6-export-epg.md)
+- [Export program] (./2-epg/2.6-export-epg.md)
 
-- [Create program](./2-epg/2.1-create-epg.md)
+- [Create program] (./2-epg/2.1-create-epg.md)
 
-- [Add event](./3-event/1-create-event.md)
+- [Add event] (./3-event/1-create-event.md)
 
 ### Display
 
@@ -93,8 +93,8 @@ Other elements in the interface:
 
 The three lists in the last section, by default, show the program list.
 
-- [Program List](./2-epg/2.2-epg-list.md)
+- [Program List] (./2-epg/2.2-epg-list.md)
 
-- [List of events](./3-event/3-event/3.1-view\.md)
+- [List of events] (./3-event/3-event/3.1-view\.md)
 
-- [List of scheduling events](./3-event/2-event-echedule/2.1-view\.md)
+- [List of scheduling events] (./3-event/2-event-echedule/2.1-view\.md)
