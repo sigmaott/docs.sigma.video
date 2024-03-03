@@ -28,7 +28,7 @@ On the member list display interface, administrators can invite more members by 
 
 Displays a Pop-up member invitation with the following sections:
 
-! [Member Invite] (/images/streaming-platform/app-management/02-member/pop-up/create.png)
+![Member Invite](/images/streaming-platform/app-management/02-member/pop-up/create.png)
 
 - Enter your email:
   - Does not support accented languages, does not contain spaces, type in 'local-part\@domainname' format
