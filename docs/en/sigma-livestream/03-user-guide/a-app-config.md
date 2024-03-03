@@ -53,7 +53,7 @@ After the period of use, users who want to change the machine, follow these inst
 
 In case the machine has been selected but the machine is in a 'DEAD', 'FREEZE' or **deleted** state, the machine ID will be displayed.
 
-![server dead](/images/livestream/server-dead.png)
+! [server dead] (/images/livestream/server-dead.png)
 
 When the user clicks on the field, the hostname is no longer in the list, the user will be forced to select another machine.
 
