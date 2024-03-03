@@ -6,7 +6,7 @@ order: 2
 Once you have an account and successfully log in on Sigma Streaming. Users can start creating apps to experience the resources and services we offer.
 
 To start the experience, use the service we provide. Users can start creating the app by following the steps:
-! [App list] (/images/media-server/getstarted/app-list.png)
+![App list](/images/media-server/getstarted/app-list.png)
 
 1. Click the "Create App" button
 
