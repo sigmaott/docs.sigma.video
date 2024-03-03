@@ -14,7 +14,7 @@ This function provides users with a recovery code (which can be used as an alter
 
 At the Settings screen (user accounts), the user clicks the "View list of recovery codes" button
 
-! [See recovery code list] (/images/streaming-platform/2-factor-authen/view-recovery-code.png)
+![See recovery code list](/images/streaming-platform/2-factor-authen/view-recovery-code.png)
 
 Displays the Recovery code list screen with the following information:
 
