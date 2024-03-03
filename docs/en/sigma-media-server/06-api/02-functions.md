@@ -7,6 +7,10 @@ order: 1
 
 We provide ways to interact with Sigma Media Server services. These methods include methods for creating, updating, deleting, and retrieving information of resources. Sigma Media Server's resources include jobs.
 
+:::tip
+With system-type functions, you do not need to pass the mode value to the body of the request.
+:::
+
 | **Name**       | Description                                                            | **Mode**     | Docs Ref Link |
 | -------------- | ---------------------------------------------------------------------- | ------------ | ------------- |
 | **info**       | Get input information                                                  | **system**   | [Docs](#)     |
