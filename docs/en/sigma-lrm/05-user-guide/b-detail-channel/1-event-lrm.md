@@ -48,7 +48,7 @@ _Note: All programs performed are limited to the date range you selected._
 
 Each button performs a distinct task, please see how each button performs its function.
 
-- [Import program] (./2-epg/2.5-import-epg.md)
+- [Import program](./2-epg/2.5-import-epg.md)
 
 - [Export program] (./2-epg/2.6-export-epg.md)
 
