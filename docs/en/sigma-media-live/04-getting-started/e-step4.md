@@ -13,5 +13,5 @@ You've entered the minimum required information, so you're ready to create a \ c
 
   Refer to the guide to creating a channel at
 
-  - [Create Packing Channel] (.. /03-transcode-package-channel/02-create-package-channel.md)
+  - [Create Packing Channel](.. /03-transcode-package-channel/02-create-package-channel.md)
   - [Transcoding Channel Creation] (.. /03-transcode-package-channel/03-create-transcode-channel.md)
