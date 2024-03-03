@@ -160,6 +160,6 @@ After creating a new event, all information of the event will be moved to the co
 
 Subject:
 
-[List of events] (.. /c-event/3-event/3.1-view\.md)
+[List of events](.. /c-event/3-event/3.1-view\.md)
 
 [List of scheduling events] (.. /c-event/2-event-echedule/2.1-view\.md)
