@@ -13,7 +13,7 @@ To start the experience, use the service we provide. Users can start creating th
 2. Complete the application information. Confirm the creation of the app.
 
    The successfully created application will be in the state "**Initialized**".  Users need to activate the application with 2 options:
-   ![Activate App](/images/media-server/getstarted/app-initialized.png)
+   ! [Activate App] (/images/media-server/getstarted/app-initialized.png)
 
    1. Get started with the **Trial** version: Users will have 14 days of trial experience with limited resources
    2. Get started with the **Activation** version: Users can experience and use resources freely
