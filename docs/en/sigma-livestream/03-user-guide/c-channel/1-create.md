@@ -1,44 +1,44 @@
 ---
-title: Tạo kênh Livestream
+title: Create a Livestream channel
 order: 1
 ---
 
-# Tạo mới kênh livestream
+# Create a new livestream channel
 
-Cho phép người dùng tạo kênh live stream chuyên nghiệp từ các video đã biên tập sẵn. Bằng cách hỗ trợ livestream từ nhiều nguồn video khác nhau và phát trực tiếp trên nhiều nền tảng cùng một lúc, người dùng có thể mở rộng đối tượng khán giả trên các trang thương mại điện tử một cách dễ dàng và hiệu quả.
+Allows users to create professional live stream channels from pre-edited videos. By supporting livestreaming from various video sources and live streaming on multiple platforms at the same time, users can expand the audience on e-commerce sites easily and effectively.
 
-Sau khi cấu hình ứng dụng, chuẩn bị đầu vào. Bạn có thể tạo mới kênh theo hướng dẫn sau:
+After configuring the application, prepare the input. You can create a new channel using these instructions:
 
-### Bước 1
+### Step 1
 
-Tại giao diện màn hình chính Danh sách kênh, người dùng click vào nút **Thêm kênh**
-Hệ thống hiển thị **Pop-up tạo kênh** giữa giao diện:
+At the Channel List main screen interface, users click on the button **Add channel**
+Display system **Pop-up create channel** between interfaces:
 
-![thêm kênh mới](/images/livestream/create-channel.png)
+![add new channel](/images/livestream/create-channel.png)
 
-Các thông tin hiển thị:
+The information displayed:
 
-| Tên trường        | Mô tả                                                                                                         | Bắt buộc | Giá trị                                            | Mặc định                 |
-| ----------------- | ------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------- | ------------------------ |
-| Tên               | Tên kênh của bạn                                                                                              | Có       | Textbox                                            | placeholder "Nhập tên"   |
-| Mô tả             | Mục đích đánh dấu, không hiển thị lên video đầu ra, mô tả ngắn gọn nội dung chính của kênh.                   | Không    | Textbox                                            | placeholder "Nhập mô tả" |
-| Tag               | Một thẻ được sử dụng để đánh dấu, liên quan đến nhau để giúp người đọc dễ dàng tìm kiếm và theo dõi nội dung. | Không    | Tag                                                | Thẻ mới                  |
-| Kiểu              | Các loại chuyển mã.                                                                                           | Có       | Transcode/ Forward/  Hybrid                        | Transcode                |
-| Cách thức         | Khoảng cách thời gian khi một khung hình video được ghi lại và hiển thị để phát lại.                          | Có       | Normal/  Low-latency/  Ultra-low-latency           | Normal                   |
-| Định dạng đầu ra  | Một giao thức để streaming video trên toàn internet, người dùng có thể lựa chọn đuôi link.                    | Có       | DASH HLS                                           | HLS                      |
-| Lựa chọn          | Các tính năng khác hỗ trợ thêm cho người dùng.                                                                | Không    | Interaction/  Catchup/ Record                      | tắt cả 3 option          |
-| Transcode profile | Chất lượng hiển thị video tới người xem. Trường hợp  chọn **type forward → không hiển thị Transcode profile** | Có       | **select all** 360p 480p 720p 1080p 1440p          | 480p 720p                |
-| Stop Timeout      | Thời gian tối đa cho 1 session.                                                                               | Có       | Textbox                                            | 30                       |
-| Cấu hình máy chủ  | Máy chủ thiết lập cho kênh, người dùng không cấu hình, hệ thống mặc định sử dụng máy chủ ở cấu hình ứng dụng. | Không    | Hiển thị thêm loại máy và máy chủ khi bật cấu hình | Tắt                      |
+| School name          | Describe                                                                                                                     | Compulsory | Value                                                                  | Default                         |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------- | ------------------------------- |
+| Name                 | Your channel name                                                                                                            | Have       | Textbox                                                                | placeholder "Enter name"        |
+| Describe             | The purpose of marking, not showing up the output video, briefly describes the main content of the channel.                  | Not        | Textbox                                                                | placeholder "Enter description" |
+| Tag                  | A tag is used for markup, which relates to each other to make it easier for readers to find and follow content.              | Not        | Tag                                                                    | New card                        |
+| Type                 | Types of transcoding.                                                                                                        | Have       | Transcode/ Forward/ Hybrid                                             | Transcode                       |
+| How it works         | The time interval when a video frame is recorded and displayed for playback.                                                 | Have       | Normal/ Low-latency/ Ultra-low-latency                                 | Normal                          |
+| Output format        | A protocol for streaming video across the internet, users can choose the link tail.                                          | Have       | DASH HLS                                                               | HLS                             |
+| Select               | Other features further support for users.                                                                                    | Not        | Interaction/ Catchup/ Record                                           | Disable all 3 options           |
+| Transcode profile    | The quality of the video is displayed to viewers. In case of selecting **type forward → does not display Transcode profile** | Have       | **select all** 360p 480p 720p 1080p 1440p                              | 480p 720p                       |
+| Stop Timeout         | Maximum time for 1 session.                                                                                                  | Have       | Textbox                                                                | 30                              |
+| Server configuration | Server setup for channel, user not configured, default system uses server in application configuration.                      | Not        | Show additional machine and server types when configuration is enabled | Turn off                        |
 
-- **Nút "Huỷ"**: Không thực hiện tạo mới, trở lại giao diện màn hình chính.
+- **"Cancel" button**: Do not perform a new creation, return to the main screen interface.
 
-- **Nút "lưu"**: Lưu thông tin tạo mới, trở về giao diện màn hình chính.
+- **"Save" button**: Save the newly created information, return to the main screen interface.
 
-### Bước 2
+### Step 2
 
-Người dùng nhập các thông tin hợp lệ.
+The user enters valid credentials.
 
-Nhấp vào nút **Lưu** ở cuối Pop-up.
+Click the Save button at the bottom of the Pop-up.
 
-Hệ thống thực hiện tạo mới kênh với các thông tin vừa được nhập, **mở giao diện chi tiết kênh** và hiển thị Pop-up thông báo **Tạo mới thành công!** ở phía trên giao diện. Đồng thời, kện vừa được tạo hiển thị lên đầu trang.
+The system creates a new channel with the newly entered information, **opens the channel details interface** and displays a Pop-up notification **Create new successful!** at the top of the interface. At the same time, the newly created canteen displays at the top of the page.
