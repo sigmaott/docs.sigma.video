@@ -26,7 +26,7 @@ Click the 'Save' button.
 
 **Step 3**: Record the permission change and display the message:
 
-![Successful member edit](/images/streaming-platform/app-management/02-member/message/edit.png)
+! [Successful member edit] (/images/streaming-platform/app-management/02-member/message/edit.png)
 
 _Notice: Member edit successful!_
 
