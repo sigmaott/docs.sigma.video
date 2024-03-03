@@ -13,7 +13,7 @@ To create a manually packaged channel, perform the basic funnel creation steps. 
 
 The interface screen for configuring the packaging channel appears as follows:
 
-! [Create a manually packaged channel] (/images/media-live/um-create-channel/um-create-package-channel-1.png)
+![Create a manually packaged channel](/images/media-live/um-create-channel/um-create-package-channel-1.png)
 
 In which the menu bar on the right will have the following items:
 
