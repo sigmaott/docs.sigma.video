@@ -21,6 +21,6 @@ When the channel is streaming with the session in a 'Live' state, it displays pl
 
 Sessions in the state of 'init', 'processing', 'prepare', 'error' show playback, but may encounter errors due to transmission or other reasons.
 
-! [processing] (/images/livestream/session-processing.png)
+![processing](/images/livestream/session-processing.png)
 
 Users can use features such as zooming in, enabling/muting, downloading, … depending on the supportability of the browser they are using.

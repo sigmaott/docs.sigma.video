@@ -37,7 +37,7 @@ Users can add machines for use in the system.
 - Single machine: perform additional machines according to the instructions
 - Cluster machine: The window displays: "Do you want to navigate to [corresponding machine type]?".
 
-! [add server] (/images/livestream/add-server.png)
+![add server](/images/livestream/add-server.png)
 
 **Step 2:** The user selects 'Yes', a new tab will be opened to display the [corresponding machine type] list page. At the same time, the confirmation window will be closed on the current tab.
 
@@ -53,7 +53,7 @@ After the period of use, users who want to change the machine, follow these inst
 
 In case the machine has been selected but the machine is in a 'DEAD', 'FREEZE' or **deleted** state, the machine ID will be displayed.
 
-! [server dead] (/images/livestream/server-dead.png)
+![server dead](/images/livestream/server-dead.png)
 
 When the user clicks on the field, the hostname is no longer in the list, the user will be forced to select another machine.
 
