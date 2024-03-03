@@ -7,13 +7,16 @@ order: 1
 
 Chúng tôi cung cấp các phương thức để tương tác với các dịch vụ của Sigma Media Server. Các phương thức này bao gồm các phương thức để tạo, cập nhật, xóa và lấy thông tin của các tài nguyên. Các tài nguyên của Sigma Media Server bao gồm các Job.
 
+::: tip
+Với các function dạng system bạn không cần phải truyền giá trị mode vào body của request.
+:::
 
 | **Name**       | Description                                                       | **Mode**     | Docs Ref Link |
 | -------------- | ----------------------------------------------------------------- | ------------ | ------------- |
 | **info**       | Get input information                                             | **system**   | [Docs](#)     |
 | **dump**       | Get Sigma Media Server information                                | **system**   | [Docs](#)     |
 | **apps**       | Run integrated apps (nginx, rtmp, custom app)                     | **system**   | [Docs](#)     |
-| **log**        | View system log or app log                                                       | **system**   | [Docs](#)     |
+| **log**        | View system log or app log                                        | **system**   | [Docs](#)     |
 | **file**       | Write text file with content                                      | **system**   | [Docs](#)     |
 | **read/write** | Read/write file                                                   | **system**   | [Docs](#)     |
 | **start**      | Start a Job Task                                                  | **live/vod** | [Docs](#)     |
