@@ -15,7 +15,7 @@ This functionality allows CMS to add new distributors on vtvhub to manage, share
 
 Pop-up display system **_Thêm distributor mới_**
 
-! [Create Distributor] (/images/application-vtvhub/create-distributor.png)
+![Create Distributor](/images/application-vtvhub/create-distributor.png)
 
 With the main information:
 
