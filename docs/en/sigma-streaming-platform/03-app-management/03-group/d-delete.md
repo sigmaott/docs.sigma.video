@@ -15,7 +15,7 @@ At the main screen interface, select the field to delete. The system will displa
 
 The user clicks on the 'Delete' icon, the system will open a confirmation pop-up window in the center of the screen
 
-! [Delete group] (/images/streaming-platform/app-management/03-group/pop-up/delete.png)
+![Delete group](/images/streaming-platform/app-management/03-group/pop-up/delete.png)
 
 _Pop-up delete group_
 
