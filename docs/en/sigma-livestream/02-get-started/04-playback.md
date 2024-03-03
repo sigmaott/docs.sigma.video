@@ -5,22 +5,22 @@ order: 4
 
 ## Playback
 
-Sau khi tạo kênh, hỗ trợ playback tại chi tiết kênh để xem lại và theo dõi kênh của bạn.
+After creating a channel, support playback at channel details to review and monitor your channel.
 
-## Kênh chưa được truyền dữ liệu hoặc tạm dừng
+## The channel has not been transmitted or paused
 
-Trong trường hợp kênh chưa truyền dữ liệu, trạng thái `IDLE` hoặc `STOP` không hiển thị playback.
+In case the channel has not transmitted data, the status 'IDLE' or 'STOP' does not show playback.
 
 ![playback-idle](/images/livestream/playback-idle.png)
 
-Nhấp chuột vào ”trợ giúp tạo sự kiện phát trực tiếp” và làm theo hướng dẫn để thực hiện phát trực tiếp kênh.
+Click "help creating a live stream" and follow the instructions to go live to your channel.
 
-## Kênh đang phát trực tuyến
+## The channel is streaming
 
-Khi kênh đang phát trực tuyến với session ở trạng thái `Live`, kênh hiển thị playback và không cho phép tua. kênh sẽ hiển thị playback và không cho phép tua.
+When the channel is streaming with the session in a 'Live' state, it displays playback and does not allow rewinding. The channel will show playback and not allow rewinding.
 
-Các session ở trạng thái `init`, `processing`, `prepare`, `error` hiển thị playback, nhưng có thể gặp lỗi do đường truyền hoặc nguyên nhân khác.
+Sessions in the state of 'init', 'processing', 'prepare', 'error' show playback, but may encounter errors due to transmission or other reasons.
 
-![processing](/images/livestream/session-processing.png)
+! [processing] (/images/livestream/session-processing.png)
 
-Người dùng có thể sử dụng các tính năng như phóng to, bật/tắt tiếng, download, … tùy thuộc vào khả năng hỗ trợ của trình duyệt mà họ đang sử dụng.
+Users can use features such as zooming in, enabling/muting, downloading, … depending on the supportability of the browser they are using.
