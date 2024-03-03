@@ -13,7 +13,7 @@ At the Event channel main screen interface, users click on the "Create new chann
 
 Screen system **Configuration settings for Event Channel**, general configuration settings for Event channel
 
-! [General Configuration Settings] (/images/media-live/event-channel/create-event-channel-1.png)
+![General Configuration Settings](/images/media-live/event-channel/create-event-channel-1.png)
 
 [](.. /d-input-management/d-duplicate-input.md#create-input)
 
