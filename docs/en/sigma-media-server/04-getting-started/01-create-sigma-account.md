@@ -20,7 +20,7 @@ Users can register a new account through the following steps:
 
 2. Choose a registration method:
 
-   ! [Account registration screen] (/images/media-server/getstarted/sign-up.png)
+   ![Account registration screen](/images/media-server/getstarted/sign-up.png)
 
    - Method 1:
      - Enter your email, password, re-enter your password and click approve **Terms & Conditions** in the registration form.
