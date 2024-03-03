@@ -15,7 +15,7 @@ The feature makes it possible for users to perform account login, access the sys
 
 The system displays the **Login** screen with the following information
 
-! [Account Login] (/images/streaming-platform/user-management/sign-in-1.png)
+![Account Login](/images/streaming-platform/user-management/sign-in-1.png)
 
 - **Email:** requires entry, no accented languages supported, no spaces
 - **Password:** requires entry, must contain at least 1 uppercase character, 1 lowercase character and number
