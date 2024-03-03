@@ -49,7 +49,7 @@ Before you start, you need to prepare a valid audio file.
 
 A Check Watermarking pop-up window will appear.
 
-! [Check watermarking] (/images/media-live/watermark/upload.png)
+![Check watermarking](/images/media-live/watermark/upload.png)
 
 By default, display the 'Upload' option.
 
