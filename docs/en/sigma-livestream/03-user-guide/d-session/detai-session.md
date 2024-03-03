@@ -83,7 +83,7 @@ The system will display the details of the session including:
 
 4. Package Information: up to 10 items. Each item displays the following information:
 
-![session-package](/images/livestream/session-package.png)
+! [session-package] (/images/livestream/session-package.png)
 
 - ID_task: Format **livestream_[tasktype]_[livestreamId]**
 - Speed: Package Speed, Unit: %
@@ -99,7 +99,7 @@ The system will display the details of the session including:
 
 5. Event Information: displays the latest time-bound channel action statuses to the top of the list.
 
-![event](/images/livestream/session-event.png)
+! [event] (/images/livestream/session-event.png)
 
 - Init: Initialize.
 - Published: The user pushes the stream in.
