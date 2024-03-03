@@ -15,7 +15,7 @@ Interface at the member list:
 
 Display a **Edit Member** window:
 
-! [Edit member] (/images/streaming-platform/app-management/02-member/pop-up/edit.png)
+![Edit member](/images/streaming-platform/app-management/02-member/pop-up/edit.png)
 
 - **Name**: User email - no corrections allowed.
 - **Permission groups**: A list of currently selected permission groups.
