@@ -10,7 +10,7 @@ The Dashboard screen displays basic information, an overview of the services run
 
 Display service overview **Transcode & Package**
 
-! [Transcode/packager Channel Status] (/images/media-live/um-dashboard/transcode.png)
+![Transcode/packager Channel Status](/images/media-live/um-dashboard/transcode.png)
 
 2. Machine state
 
