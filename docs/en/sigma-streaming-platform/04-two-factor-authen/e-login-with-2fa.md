@@ -14,7 +14,7 @@ This function allows CMS users to log into the system when two-factor authentica
 
 **Step 1**: The user at the login screen of the system includes the following information:
 
-! [Login] (/images/streaming-platform/2-factor-authen/login-1.png)
+![Login](/images/streaming-platform/2-factor-authen/login-1.png)
 
 - Email: The user's email name (required)
 - Password: The password of the user account (required)
