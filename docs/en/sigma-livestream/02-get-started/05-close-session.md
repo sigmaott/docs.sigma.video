@@ -3,34 +3,34 @@ title: Close session
 order: 5
 ---
 
-Session được tạo ra liên tục, tuỳ thuộc vào cập nhật của kênh. Sau khi session về trạng thái `ended`, session không thể chạy lại, sử dụng session mới. Có thể đóng session bằng 2 cách:
+Sessions are created continuously, depending on the update of the channel. After the session reaches an 'ended' state, the session cannot run again, using the new session. The session can be closed in 2 ways:
 
-## Tự động dừng session
+## Automatically stop sessions
 
-Kênh tự động dừng khi timeout hoặc do người dùng chủ động dừng kênh( sớm hơn thời gian chạy).
+The channel stops automatically when the timeout or because the user actively stops the channel (earlier than the runtime).
 
-### Chủ động dừng session
+### Proactively stop sessions
 
-**Điều kiện**: Kênh ở trạng thái `Active`.
+**Condition**: The channel is in an 'Active' state.
 
-**Bước 1** :
+**Step 1** :
 
-Tại giao diện danh sách session, session không phải trạng thái `ended`. Hệ thống sẽ hiển thị dòng **Kết thúc session** khi di chuyển chuột vào biểu tượng `dừng` ở cột hành động.
+At the session list interface, the session is not in an 'ended' state. The system will display the **End session** when moving the mouse on the 'stop' icon in the action column.
 
-Người dùng nhấp vào biểu tượng `dừng`, hệ thống sẽ mở một cửa sổ pop-up cảnh báo ở trung tâm màn hình.
+The user clicks on the 'stop' icon, the system will open a warning pop-up window in the center of the screen.
 
-![kết thúc session](/images/livestream/stop-session.png)
+![end of session](/images/livestream/stop-session.png)
 
-_Pop-up kết thúc session_
+_Session end pop-up_
 
-- Tiêu đề: Bạn có chắc chắn để kết thúc session?
-- Nút Huỷ bỏ: Không thực hiện thay đổi, quay lại màn hình Danh sách session.
-- Nút Đồng ý: Thực hiện lênh.
+- Subject: Are you sure to end the session?
+- Cancel button: Make no changes, return to the Session List screen.
+- Agree button: Execute the command.
 
-**Bước 2** :
+**Step 2** :
 
-Người dùng nhấp vào nút **Đồng ý** để xác nhận việc kết thúc session. Hệ thống sẽ hiển thị một cửa sổ pop-up thông báo phía trên của màn hình.
+The user clicks the **OK** button to confirm the end of the session. The system will display a notification pop-up window at the top of the screen.
 
-_Thông báo kết thúc session thành công!_
+_Session end notification successful!_
 
-Session vừa được dừng hiển thị với trạng thái `ended`, ẩn icon `dừng`. Đồng thời hiển thị với thời lượng tương ứng.
+The session that has just been stopped is displayed with an 'ended' status, hiding the 'stop' icon. Simultaneously displayed with the corresponding duration.
