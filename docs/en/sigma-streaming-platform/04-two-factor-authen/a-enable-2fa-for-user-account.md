@@ -16,7 +16,7 @@ This functionality allows CMS users to enable two-factor authentication for user
 
 **Step 2**: The user performs **Enable** two-factor authentication. The system displays a pop-up **Set up through a third-party authenticator** that includes:
 
-! [Authentication pop-up] (/images/streaming-platform/2-factor-authen/pop-up-verify-config.png)
+![Authentication pop-up](/images/streaming-platform/2-factor-authen/pop-up-verify-config.png)
 
 - **QR code**: the purpose for users to scan the code with an authenticator application
 - **Code**: the purpose for users to enter the code into the authentication application
