@@ -17,7 +17,7 @@ This function allows CMS users to create new Transcode type inputs
 
 The system displays by default with the Transcode tab, the Transcode type input list screen interface.
 
-! [Create new Transcode channel input] (/images/media-live/input/create-transcode-input.png)
+![Create new Transcode channel input](/images/media-live/input/create-transcode-input.png)
 
 **Step 2**: At the Transcode Input list screen interface (Transcode tab), the user clicks the **Add** button
 
