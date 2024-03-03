@@ -1,6 +1,5 @@
 ---
 layout: home
-
 title: Sigma Streaming Platform
 titleTemplate: Next-generation Video Streaming Platform
 hero:
@@ -11,7 +10,6 @@ hero:
     src: /logo-with-shadow.png
     alt: Vite
   actions:
-  
     - theme: Alt
       text: Why Sigma?
       link: /en/sigma-streaming-platform/01-get-started/1-introduction
