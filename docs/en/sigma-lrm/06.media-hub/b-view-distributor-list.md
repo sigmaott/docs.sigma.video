@@ -11,7 +11,7 @@ The distributor list interface is an important part of the system for managing d
 
 Access CMS, in the sidebar select VTVhub, the distributor list interface displays:
 
-! [See distributor list] (/images/application-vtvhub/view-distributor-list.png)
+![See distributor list](/images/application-vtvhub/view-distributor-list.png)
 
 In the main screen of the system, you will see the information displayed on the interface including:
 
