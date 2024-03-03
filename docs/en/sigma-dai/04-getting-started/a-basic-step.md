@@ -6,7 +6,7 @@ order: 1
 ### Basic steps
 
 - Step 1:
-  [How to Access] (b-get-started#Step-1-Access-System-Sigma-Dynamic-Ads-Insert)
+  [How to Access](b-get-started#Step-1-Access-System-Sigma-Dynamic-Ads-Insert)
 
 - Step 2:
   [Stream preparation] (b-get-started#step-2-prepare-flow)
