@@ -11,7 +11,7 @@ To manage the profile and display the basic information of the profile, the syst
 
 **Step 1**: On the header menu select 'Channel template'
 Dropdownlist options:
-[Template] ()
+[Template]()
 [Preset] ()
 [Profile] (./2-profile-list.md)
 
@@ -19,7 +19,7 @@ The user selects 'profile'
 
 Display interface:
 
-! [Profile List] (/images/media-live/profile/list.png)
+![Profile List] (/images/media-live/profile/list.png)
 
 The information is displayed in the interface:
 
