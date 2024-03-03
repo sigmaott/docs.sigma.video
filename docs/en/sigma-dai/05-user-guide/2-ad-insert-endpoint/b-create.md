@@ -40,7 +40,7 @@ _2 This CDN link differs between segments
 | **CDN content segment prefix**                                                                                                                | The original link has been converted.                                                           |
 | **CDN ad segment prefix**                                                                                                                     | The original link has been converted.                                                           |
 | **Ad martket passthrough**                                                                                                                    | Disallow (remove) / Allow (keep) the ad insertion marker. |
-| [Bumpers pre-inserted ad] (.. /2-ad-insert-endpoint/f-bumper-ad.md)    | Bumpers inserted before the ad.                                                                 |
+| [Bumpers pre-inserted ad](.. /2-ad-insert-endpoint/f-bumper-ad.md)    | Bumpers inserted before the ad.                                                                 |
 | [Bumpers inserted after ads] (.. /2-ad-insert-endpoint/f-bumper-ad.md) | Bumpers inserted after the ad.                                                                  |
 | [Ad slate] (.. /2-ad-insert-endpoint/g-ad-slate.md)                    | Media content inserted into the ad is replaced in case of errors.                               |
 | [Delay ad] (.. /2-ad-insert-endpoint/h-delay.md)                       | Configure the timeout for insertion after an ad insertion signal.                               |
