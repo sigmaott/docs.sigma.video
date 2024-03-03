@@ -1,62 +1,62 @@
 ---
 id: docs-guideline-livestream
-title: Xem danh sách session
+title: View session list
 order: 1
 ---
 
-## Session là gì?
+## What is a session?
 
-Sau khi kênh được khởi tạo, người dùng có thể đẩy luồng đầu vào và session tự động được gán vào với trạng thái `init`, kết thúc khi session chạy hết thời lượng( timeout) hoặc người dùng chủ động dừng kênh. Việc duy trì session chạy liên tục có thể giúp tạo ra sự liên tục trong trải nghiệm xem và giữ cho khán giả liên tục quan tâm đến nội dung và tránh tình trạng quá tải.
+After the channel is initialized, the user can push the input stream and the session is automatically assigned with an 'init' state, ending when the session runs at the end of its duration (timeout) or the user actively stops the channel. Keeping sessions running continuously can help create continuity in the viewing experience and keep your audience constantly interested in the content and avoid overload.
 
-Một kênh livestream có nhiều session được gán. Các thay đổi về thông tin kênh của mỗi session có thể khác nhau, tuỳ thuộc vào lịch sử cập nhật chỉnh sửa của kênh.
+A livestream channel has multiple sessions assigned. Changes to each session's channel information may vary, depending on the channel's edit update history.
 
-Session là duy nhất, khi session kết thúc, không thể tái sử dụng, session mới được sinh ra tiếp tục hoạt động nhiệm vụ.
+The session is unique, when the session ends, cannot be reused, the newly born session continues to operate the task.
 
-## Khởi tạo kênh
+## Channel initialization
 
-Không chủ động tạo mới session ở hệ thống Livestream, người dùng sử dụng bên thứ 3 theo hướng dẫn [dẩy luồng dữ liệu đầu vào](../../02-get-started/03-push-data)
+Do not actively create new sessions in the Livestream system, users use 3rd parties according to the instructions [push input data stream](.. /.. /02-get-started/03-push-data)
 
-## Danh sách session
+## List of sessions
 
-Danh sách tất cả session hiện có trong hệ thống Sigma Livestream, mỗi session được gán với link play và kênh tương ứng, có thể nhấp vào để điều hướng sang các trang liên quan khác một cách nhanh chóng hơn.
+A list of all available sessions in the Sigma Livestream system, each session is assigned with the corresponding play link and channel, which can be clicked to navigate to other related pages more quickly.
 
-Sau khi khởi tạo kênh, người dùng có thể xem danh sách session mong muốn.
+After initializing the channel, users can view the desired list of sessions.
 
-### Cách 1: Xem session được gán theo kênh
+### Method 1: View assigned sessions by channel
 
-Tại danh sách kênh Livestream, người dùng nhấp vào biểu tưởng `mở danh sách session` cột action kênh mong muốn
+At the Livestream channel list, users click on the 'open session list' icon in the desired channel action column
 
-Hệ thống điều hướng tới danh sách, hiển thị các session có ID kênh bạn chọn.
+The system navigates to the list, displaying sessions with the channel ID of your choice.
 
-![filter theo kênh](/images/livestream/session-filter.png)
+![filter by channel](/images/livestream/session-filter.png)
 
-### Cách 2: Xem danh sách session
+### Method 2: View the session list
 
-Để xem danh sách các session, bạn cần thực hiện hai bước sau:
+To view the list of sessions, you need to perform the following two steps:
 
-**Bước 1:** Chuyển sang tab **"Session"**.
-**Bước 2:** Hiển thị giao diện danh sách session các thông tin sau đây:
+**Step 1:** Switch to the tab **"Session"**.
+**Step 2:** Displays the session list interface with the following information:
 
-![list session](/images/livestream/list-session.png)
+! [list session] (/images/livestream/list-session.png)
 
 - SessionID
-- Tên Session: Nhấp vào mở trang chi tiết của session.
-- Kênh: Nhấp vào điều hướng đến chi tiết của kênh mà session thực hiện tác vụ.
-- Trạng thái (Status):
+- Session Name: Click open the session details page.
+- Channel: Click navigate to the details of the channel the session performs the action on.
+- Status:
 
-![state diagram](/images/livestream/state-diagram-session.png)
+! [state diagram] (/images/livestream/state-diagram-session.png)
 
 ```
-- Init: trạng thái khởi tạo
-- Processing: kênh tự động chuyển
-- Preparing: xuất hiện khi đường truyền không ổn định
-- Error: các trường hợp không ổn định, không thể bắt sóng, hoặc quá trình xử lý lỗi
-- Live: kênh ổn định
-- Ended: kênh dừng phát sóng
+- Init: initialization state
+- Processing: automatic channel transfer
+- Preparing: occurs when the transmission line is unstable
+- Error: unstable cases, unable to catch waves, or error handling
+- Live: stable channel
+- Ended: channel stops broadcasting
 ```
 
-- Hành động (Action):
-  - Dừng session - tắt tính năng này khi trạng thái của session là `Ended`.
-  - Xoá session: Chỉ cho phép xoá session trạng thái `Ended`
+- Action:
+  - Stop session - disable this feature when the status of the session is 'Ended'.
+  - Session deletion: Only 'Ended' status session is allowed
 
-Việc này giúp quản lý và điều chỉnh các session một cách thuận tiện, đồng thời giúp người dùng dễ dàng theo dõi trạng thái và tiến độ của từng session.
+This makes it convenient to manage and adjust sessions, and makes it easy for users to track the status and progress of each session.
