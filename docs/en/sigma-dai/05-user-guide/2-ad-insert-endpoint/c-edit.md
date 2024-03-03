@@ -19,9 +19,9 @@ The system will open an ad insert endpoint pop-up window in the right corner of 
 
 ![](/images/dai/pop-up-update-endpoint.png)
 
-  
+  <center>
 
-<center> _Figure 1: Pop-up endpoint update_ </center>
+_Figure 1: Pop-up endpoint update_
 
   
 
