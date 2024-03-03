@@ -15,7 +15,7 @@ Access to the general information interface of the application, there are 2 ways
 
 After that, the system will display the General Information screen of the application, with the main information:
 
-! [See general information of the application] (/images/streaming-platform/app-management/view-general.png)
+![See general information of the application](/images/streaming-platform/app-management/view-general.png)
 
 - **ID**: unique identifier for the app (replication can be performed)
 
