@@ -1,76 +1,76 @@
 ---
-title: Xem danh sách session
+title: View session list
 order: 2
 ---
 
-## Chi tiết session
+## Session details
 
-Thông tin hiển thị được định cấu hình theo kênh, nhiệm vụ của session đảm bảo luôn duy trì kênh phát trực tiếp, vì vậy nhiều session sử dụng chung 1 link play, được gán với 1 kênh tương ứng. Mọi thay đổi của kênh sẽ ảnh hưởng đến thông tin của session.
+The displayed information is configured according to the channel, the task of the session ensures that the live streaming channel is always maintained, so many sessions use the same link play, assigned with 1 corresponding channel. Any channel changes will affect session information.
 
-## Để xem thông tin chi tiết session
+## To view session details
 
-Có hai phương pháp để xem chi tiết về session:
+There are two methods to view session details:
 
-### Theo thời gian thực
+### Real-time
 
-Người dùng có thể theo dõi kênh livestream với trạng thái Active tại chi tiết kênh. Để xem chi tiết về session, người dùng chỉ cần nhấp chuột vào tên session được gán.
+Users can follow the livestream channel with Active status in channel details. To view session details, users simply click on the assigned session name.
 
-### Xem lại
+### Review
 
-**Bước 1:** Truy cập vào danh sách session trên giao diện.
+**Step 1:** Access the session list on the interface.
 
-**Bước 2:** Nhấp chuột vào tên session muốn xem lại.
+**Step 2:** Click on the name of the session you want to review.
 
-Hệ thống sẽ hiển thị chi tiết của session bao gồm:
+The system will display the details of the session including:
 
 ![detail session](/images/livestream/session-detail.png)
 
-1. Biểu đồ
+1. Chart
 
-- Trục X: Là trục Bitrate, thể hiện tốc độ trung bình của bit trên 1 giây.
+- X-axis: A Bitrate axis, showing the average speed of bits per 1 second.
 
-- Trục Y: Hiển thị thời gian ghi nhận lần request dữ liệu của session.
+- Y-axis: Displays the recording time of the session's data request.
 
-- Trục Z: Là trục Speed/FPS, thể hiện số khung hình hiển thị trên mỗi giây.
+- Z-axis: Is the Speed/FPS axis, showing the number of frames displayed per second.
 
-- Hover vào biểu đồ sẽ hiển thị tooltip chứa dữ liệu 1 điểm trên biểu đồ.
+- Hover into the chart will display the tooltip containing 1-point data on the chart.
 
-- Thanh cuộn ngang: Cho phép cuộn sang trái/phải để xem biểu đồ.
+- Horizontal scrollbar: Allows left/right scrolling to view the chart.
 
-- Chú thích đồ thị biểu đồ:
+- Chart Graph Legend:
 
-  - Bitrate send: Đường biểu diễn màu xanh.
-  - Bitrate receive: Đường biểu diễn màu vàng.
-  - FPS: Đường biểu diễn màu tím.
+  - Bitrate send: Blue curve.
+  - Bitrate receive: Yellow line.
+  - FPS: Purple representation.
 
-- Hiển thị tooltip chứa dữ liệu của 1 điểm biểu đồ
-  - Thời gian request: Định dạng yyyy-mm-dd HH:MM.
-  - Bitrate send: Biểu thị tốc độ bit srs gửi dữ liệu với token x đến các thiết bị khác (ví dụ: máy transcoder).
-  - Bitrate receive: Biểu thị tốc độ bit srs nhận dữ liệu từ luồng push vào token x (từ người dùng).
-  - FPS: Biểu thị số khung hình hiển thị trên link play. Chỉ số FPS càng cao thì chất lượng hiển thị của màn hình sẽ càng mượt mà và ít giật lag.
+- Display the tooltip containing the data of 1 chart point
+  - Request time: Format yyyy-mm-dd HH:MM.
+  - Bitrate send: Represents the rate at which srs sends data with token x to other devices (e.g. transcoders).
+  - Bitrate receive: Denotes the rate at which srs receives data from the push stream to token x (from the user).
+  - FPS: Denotes the number of frames displayed on the play link. The higher the FPS, the smoother the display quality of the monitor will be and less lag.
 
-2. Thông tin session
+2. Session information
 
 - Client:
-  - Channel ID: mã định danh của kênh
-  - Client ID: mã định danh phía client
-  - Stream ID: mã định danh của luồng dữ liệu.
-  - IP: địa chỉ IP của client.
-- Ingest: các loại media
+  - Channel ID: channel identifier
+  - Client ID: client-side identifier
+  - Stream ID: the identifier of the data stream.
+  - IP: the IP address of the client.
+- Ingest: types of media
   - Video
   - Audio
   - Data
-- Output: Thông tin
-  - Live stream URL: Đường dẫn đến luồng phát trực tiếp.
-  - Catchup URL: Đường dẫn để xem lại khi luồng kết thúc. Hiển thị liên kết "[download catch]" để người dùng có thể mở và tải các video bên trong.
-  - Record URL: Đường dẫn đến file ghi lại dưới định dạng mp4. Hiển thị liên kết download mp4 dưới dạng [link1, link2,...,linkn] - tuỳ vào nguồn, nếu có nhiều liên kết thì sẽ cuộn để hiển thị.
+- Output: Information
+  - Live stream URL: The path to the live stream.
+  - Catchup URL: The path to review when the stream ends. Display a "[download catch]" link so that users can open and download the videos inside.
+  - Record URL: The path to the recorded file in mp4 format. Show mp4 download link as [link1, link2,...,linkn] - depending on the source, if there are multiple links, it will scroll to display.
 
-3. Thông tin transcode là duy nhất, gồm:
+3. Transcode information is unique, including:
 
-![session-transcode](../../../../public/images/livestream/session-transcode.png)
+! [session-transcode] (.. /.. /.. /.. /public/images/livestream/session-transcode.png)
 
-- ID_task: Định dạng **livestream_[tasktype]_[livestreamId]**
-- Speed: Tốc độ transcode, Đơn vị: %
+- ID_task: Format **livestream_[tasktype]_[livestreamId]**
+- Speed: Transcode speed, Unit: %
 - Status:
   - PREPARE
   - STARTING
@@ -79,14 +79,14 @@ Hệ thống sẽ hiển thị chi tiết của session bao gồm:
   - STOP
   - FINISHED
   - INIT_FAILED
-- Life: Định dạng thời lượng.
+- Life: Duration format.
 
-4. Thông tin Package: tối đa 10 items. mỗi items hiển thị các thông tin sau:
+4. Package Information: up to 10 items. Each item displays the following information:
 
-![session-package](/images/livestream/session-package.png)
+! [session-package] (/images/livestream/session-package.png)
 
-- ID_task: Định dạng **livestream_[tasktype]_[livestreamId]**
-- Speed: Tốc độ Package, Đơn vị: %
+- ID_task: Format **livestream_[tasktype]_[livestreamId]**
+- Speed: Package Speed, Unit: %
 - Status:
   - PREPARE
   - STARTING
@@ -95,17 +95,17 @@ Hệ thống sẽ hiển thị chi tiết của session bao gồm:
   - STOP
   - FINISHED
   - INIT_FAILED
-- Life: Định dạng thời lượng.
+- Life: Duration format.
 
-5. Thông tin Event: hiển thị các trạng thái theo hành động của kênh theo thời gian mới nhất lên đầu danh sách.
+5. Event Information: displays the latest time-bound channel action statuses to the top of the list.
 
-![event](/images/livestream/session-event.png)
+! [event] (/images/livestream/session-event.png)
 
-- Init: Khởi tạo.
-- Published: Người dùng push luồng vào.
-- Process: Đang xử lý.
-- Stable: Kênh ổn định.
-- Unpublished: Người dùng mất kết nối.
-- Unstable: Kênh không ổn định do lỗi đường truyền hoặc sóng.
-- Republished: Người dùng push lại luồng.
-- Ended: Kết thúc (hiển thị thông tin về actor tác động: thời gian timeout hoặc người dùng chủ động đóng kênh).
+- Init: Initialize.
+- Published: The user pushes the stream in.
+- Process: Processing.
+- Stable: Stable channel.
+- Unpublished: The user lost connection.
+- Unstable: The channel is unstable due to transmission or wave errors.
+- Republished: The user pushes the thread again.
+- Ended: End (displays information about the impact actor: timeout time or user actively closes the channel).
