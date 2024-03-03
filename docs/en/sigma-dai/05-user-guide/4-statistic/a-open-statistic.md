@@ -13,7 +13,7 @@ There are 2 ways to open Statistics:
 
 Drop-down system for the selection list:
 
-- [System Monitoring] (./f-monitor-system.md)
+- [System Monitoring](./f-monitor-system.md)
 
 - [Impression Ratio] (./d-fillrate)
 
