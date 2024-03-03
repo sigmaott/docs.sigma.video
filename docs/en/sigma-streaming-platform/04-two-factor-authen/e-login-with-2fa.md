@@ -31,7 +31,7 @@ This function allows CMS users to log into the system when two-factor authentica
 
 **Step 4**: The system displays the Login Code Confirmation screen
 
-![Confirm login code](/images/streaming-platform/2-factor-authen/login-2.png)
+! [Confirm login code] (/images/streaming-platform/2-factor-authen/login-2.png)
 
 Requires the user to enter _**login code**_ for the system to authenticate the account, allowing login
 

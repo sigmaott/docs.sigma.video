@@ -49,7 +49,7 @@ You will be directed to the configuration window, following the detailed instruc
 
 3. Configure your channel's goals by clicking on the '+' icon.
 
-![](/images/media-live/get-started/select-target.png)
+! 
 
 - Display the output selection pop-up.
 
@@ -57,17 +57,17 @@ You will be directed to the configuration window, following the detailed instruc
 
 4. The output choice is 'udp'.
 
-![](/images/media-live/get-started/target-output-udp.png)
+! 
 
 - Then, name the goal:
 
-![](/images/media-live/get-started/target-name.png)
+! 
 Name: 'catchup-flow'
 Optional name: 'use-for-channel-LRM'
 
 Show back to goal information page:
 
-![](/images/media-live/get-started/target-udp.png)
+! 
 
 - The name and alternate name are displayed according to the previous configuration.
 - **Format**: 'udp' does not allow editing.
@@ -76,13 +76,13 @@ Show back to goal information page:
 
 Click the add button to select a profile.
 
-![](/images/media-live/get-started/select-profile.png)
+! 
 
 Display the profile data and enter the udp path.
 
 For example, 'udp\://239.32.42.1:5000'
 
-![](/images/media-live/get-started/profile-udp.png)
+! 
 
 ### Prepare the Media Live channel cathup stream
 
@@ -91,7 +91,7 @@ The user continues by entering a name for the output 'HLS'.
 
 Display HLS configuration information, when catchup function is enabled, **profile options| Storage** will also be automatically enabled.
 
-![](/images/media-live/get-started/target-catchup.png)
+! 
 
 After creation, the channel is crawled from [live media channel](.. /.. /sigma-media-live/05-user-guide/b-transcode-package-channel).
 

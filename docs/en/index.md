@@ -3,7 +3,6 @@ layout: home
 
 title: Sigma Streaming Platform
 titleTemplate: Next-generation Video Streaming Platform
-
 hero:
   name: Sigma Streaming Platform
   text: Next-generation Video Streaming Platform
@@ -19,10 +18,9 @@ hero:
     - theme: Alt
       text: View on Github
       link: https://github.com/sigmaOTT
-
 features:
   - icon: 💡
-    title: Sigma Media Live
+    title: Sigma Transcode Live
     details: Transcode live video content from various streams
   - icon: ⚡️
     title: Sigma Interactive
@@ -37,6 +35,6 @@ features:
     title: Sigma Linear Right Management
     details: Direct access management for linear content
   - icon: 🔑
-    title: Sigma Media VOD
+    title: Sigma Packager
     details: Package live video content from a variety of streams
 ---

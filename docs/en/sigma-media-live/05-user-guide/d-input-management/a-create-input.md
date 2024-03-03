@@ -66,7 +66,7 @@ Here the system is displayed by default with the Transcode tab, the user selects
 
 The system displays a pop-up that adds new Package input on the right side of the screen
 
-![Create new input channel Package](/images/media-live/input/create-package-input.png)
+! [Create new input channel Package] (/images/media-live/input/create-package-input.png)
 
 With general information:
 
