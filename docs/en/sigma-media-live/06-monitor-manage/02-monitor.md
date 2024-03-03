@@ -50,7 +50,7 @@ The operation with the system job provides pushing all \*\*\*\* actions such as 
 
 From the list of channels, clicking \*\*\*\* on the name of the channel, the detailed channel interface will appear:
 
-! [Channel Insights] (/images/media-live/um-channel-detail.png)
+![Channel Insights](/images/media-live/um-channel-detail.png)
 
 Monitoring components include:
 
