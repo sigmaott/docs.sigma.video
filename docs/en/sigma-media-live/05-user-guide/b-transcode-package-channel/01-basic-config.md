@@ -7,7 +7,7 @@ order: 1
 
 1. Click the Add button in the channel list when selecting the **channel** menu in the Transcode section in the sidebar. The channel initialization selection interface will appear
 
-! [Create Channel] (/images/media-live/um-create-channel/um-create-channel-button.png) { width=400px }
+![Create Channel](/images/media-live/um-create-channel/um-create-channel-button.png) { width=400px }
 
 2. At the selection interface when creating a channel, you will have 2 options:
    1. Manual initialization with 2 types of channels listed:
