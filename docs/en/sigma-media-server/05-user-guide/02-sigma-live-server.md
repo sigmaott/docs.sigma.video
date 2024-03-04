@@ -27,7 +27,7 @@ Users can add new machines, following these steps:
 
 3. Server settings
 
-   [Install Server](.. /03-getting-started/04-install-new-machine#implement-set-machine)
+   [Install Server] (.. /03-getting-started/04-install-new-machine#implement-set-machine)
 
 ***
 
@@ -215,10 +215,10 @@ Users can add new machines, following these steps:
 
 2. Perform to get the token to install the machine
 
-   [Get token](/en/sigma-media-server/03-getting-started/04-install-new-machine#lay-code-token-to-implement-install-machine)
+   [Get token] (/en/sigma-media-server/03-getting-started/04-install-new-machine#lay-code-token-to-implement-install-machine)
 
 3. Server settings
-   [Install Server](/en/sigma-media-server/03-getting-started/04-install-new-machine#with-server-community)
+   [Install Server] (/en/sigma-media-server/03-getting-started/04-install-new-machine#with-server-community)
 
 ***
 

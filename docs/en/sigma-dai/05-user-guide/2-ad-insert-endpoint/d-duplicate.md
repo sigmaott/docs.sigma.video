@@ -22,6 +22,7 @@ After that, a pop-up window will appear, allowing all fields to be edited. after
 _Figure 1: Pop-up creating a copy of the endpoint_
 
   </center>
+  
 
 **Allow** edit all fields.
 

@@ -52,8 +52,8 @@ Members group permissions and click the 'Invite Members' button.
 **Step 3**:
 The system checks account information in the system:
 
-- [Account already exists](a-invite#account-existed)
-- [Account does not exist](./a-invite#member-account-non-existent)
+- [Account already exists] (a-invite#account-existed)
+- [Account does not exist] (./a-invite#member-account-non-existent)
 
 ## Member Account already exists
 
@@ -61,7 +61,7 @@ If the email **already exists** in the system, the system will automatically add
 
 After returning to the member list interface, a success message will appear above the screen:
 
-![Add member successfully](/images/streaming-platform/app-management/02-member/message/create.png)
+! [Add member successfully] (/images/streaming-platform/app-management/02-member/message/create.png)
 
 _Announcement: Added member successfully!_
 

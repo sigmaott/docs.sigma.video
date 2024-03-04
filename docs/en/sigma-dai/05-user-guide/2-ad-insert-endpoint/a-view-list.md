@@ -31,7 +31,7 @@ In the main screen of the system, you will see the information displayed on the 
 
 | Button name         | Function                                                                                                                                                                     |    |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -- |
-| **Sync icon**       | Right corner below the interface, always perform continuous system synchronization for 10 seconds                                                                            |  |
+| **Sync icon**       | Right corner below the interface, always perform continuous system synchronization for 10 seconds                                                                            | !  |
 | **Footer- footer**  | 2022@ By Sigma Streaming                                                                                                                                                     |    |
 | Icon **Pagination** | Include information: Total number of pages, selection of number of items/1 page (default 10 items/1 page), current page, jump to the desired search page. |    |
 | **Quick filter**    | Quick filters support searching for information including: Name and tags.                                                                                                    |    |

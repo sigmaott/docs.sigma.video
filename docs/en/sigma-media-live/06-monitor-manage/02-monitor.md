@@ -68,23 +68,23 @@ Monitoring components include:
 
 ### Job Supervisor
 
-![Job Monitoring Panel](/images/media-live/um-job-detail/um-job-detail.png) { width=400px }
+! [Job Monitoring Panel] (/images/media-live/um-job-detail/um-job-detail.png) { width=400px }
 
 Job Monitoring Panel Includes
 
-- ![status](/images/media-live/um-job-detail/1.png) { height=17px } **status**: The status of the job
+- ! [status] (/images/media-live/um-job-detail/1.png) { height=17px } **status**: The status of the job
 
-- ![status](/images/media-live/um-job-detail/2.png) { height=17px } **Speed**: The current speed of the job
+- ! [status] (/images/media-live/um-job-detail/2.png) { height=17px } **Speed**: The current speed of the job
 
-- ![status](/images/media-live/um-job-detail/3.png) { height=17px } **Lifetime**: The job time that ran from the last time it was retried because of an error or restart
+- ! [status] (/images/media-live/um-job-detail/3.png) { height=17px } **Lifetime**: The job time that ran from the last time it was retried because of an error or restart
 
-- ![status](/images/media-live/um-job-detail/4.png) { height=17px } **created**: job time created (utc time)
+- ! [status] (/images/media-live/um-job-detail/4.png) { height=17px } **created**: job time created (utc time)
 
-- ![status](/images/media-live/um-job-detail/5.png) { height=17px } **outputs**: Job output
+- ! [status] (/images/media-live/um-job-detail/5.png) { height=17px } **outputs**: Job output
 
-- ![status](/images/media-live/um-job-detail/6.png) { height=17px } **action**: Job buttons
+- ! [status] (/images/media-live/um-job-detail/6.png) { height=17px } **action**: Job buttons
 
-- ![status](/images/media-live/um-job-detail/7.png) { height=17px } **Errors**: job error log (get the last 3 errors)
+- ! [status] (/images/media-live/um-job-detail/7.png) { height=17px } **Errors**: job error log (get the last 3 errors)
 
 - Note:
   - **Job** monitoring panel can be tracked in the channel list or in the channel detail page

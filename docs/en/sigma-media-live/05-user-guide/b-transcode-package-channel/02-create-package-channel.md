@@ -105,7 +105,7 @@ After initializing 1 desired output. The configuration of the output will appear
 
 ### Instructions for configuring **preset** with output:
 
-1. choose![select profile](/images/media-live/um-create-channel/um-select-profile.png) { width=100px } to select the profiles that will be encapsulated in this output. The profile list panel will be displayed
+1. choose! [select profile] (/images/media-live/um-create-channel/um-select-profile.png) { width=100px } to select the profiles that will be encapsulated in this output. The profile list panel will be displayed
 2. Check the box to select the **profile** you want to add to the output => click **submit** to complete the operation
 3. The list of selected profiles will appear, you can manipulate the desired tasks for this list such as adding, deleting, editing
 

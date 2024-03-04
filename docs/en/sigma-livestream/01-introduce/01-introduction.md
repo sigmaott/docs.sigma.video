@@ -3,39 +3,13 @@ title: Introduce
 order: 1
 ---
 
-# Sigma Live Streaming
+# Sigma Livestream
 
-## What is an online TV solution?
-
-Live Streaming service where anyone with an internet connection can create and bring multimedia content directly to a large audience in the simplest and most effective way. Building a great live streaming experience for your audience requires a large technical project, high cost, and great risk. With live streams, any minor incident is likely to end up on a live stream. Therefore, we prioritize ensuring that content is delivered smoothly to users with no incidents is of the utmost importance.
+**Livestream** service where anyone with an internet connection can create and bring multimedia content directly to a large number of viewers in the simplest and most effective way. Building a great live streaming experience for your audience requires a large technical project, high cost, and great risk. With live streams, any minor incident is likely to end up on a live stream. Therefore, we prioritize ensuring that content is delivered smoothly to users with no incidents is of the utmost importance.
 
 Livestreaming is not only limited to live video broadcasting, but also provides the possibility of replaying live content that has ended. This allows users to re-leverage their content and provide a high-quality, pre-edited video viewing experience.
 
 Sigma Live Stream Platform provides a comprehensive service that brings the job of transmitting content from broadcaster to viewers as simple as a button.
-
-- **64% viewer** have watched a live online video in the past year.
-
-- **78% viewers** are already watching live video on Facebook live.
-
-- **82% viewer** prefer live video from a brand to social posts.
-
-_"I think it takes more than three seconds to build your brand, and consumers are willing to spend the time if your content is compelling, relevant, and valuable." – [Momentology](http://www.momentology.com/8936-video-marketing-trends-2016/)_
-
-## What make a live stream successful ?
-
-What guarantees the success of a live stream?
-
-For a live stream, the hallmark of success is that the content the provider creates is aimed at the widest audience. Growth in viewership simultaneously corresponds to the success of your live stream. To ensure that success, in addition to broadcasters offering unique content focused on viewers, the live streaming technology platform also plays a very important role.
-
-_62% of consumers are more likely to have a negative perception of a brand with a low-quality video experience_. - [KZO](https://kzoinnovations.com/video-quality-influence-brand-perception)
-
-The quality of service when broadcasting plays a very important role in the emotions of viewers. Besides, the broadcaster's channels interact with users (example: Q\&A, playing games with viewers ...) are always the top channels on online services. For direct interaction with users, the latency of the content transmission system to the viewer affects
-
-\*Since we started providing our player for apps 15 years ago, video streaming on mobile devices has drastically increased. Many people now expect to access the same content on multiple devices with broadcast quality, whether they are at home or on the go." \*
-
-\*"Having a multiscreen low latency solution is a top requirement for customers and opens the door for fascinating interactive use cases, leveraging the best end-to-end technology and synchronization of the stream among all end users." \*
-
-_Carlos Lucas, General Manager of NexPlayer at_ _NexStreaming_
 
 ## Key drivers of low latency for video streaming
 
@@ -86,3 +60,50 @@ The Sigma Live Stream platform allows users to deliver content from any device t
 - Simple, easy-to-use API, and integrates with any system
   - Api with secure token
   - Webhook for live stream event
+
+## What is an online TV solution?
+
+Livestream services are designed to create a live channel on the internet, allowing users to transmit their video content to a large number of viewers in the simplest and most effective way in real time. This means that users have the ability to broadcast and share live video, allowing viewers to experience the event or content while it's happening.
+
+Livestreaming is not only limited to live video broadcasting, but also provides the possibility of replaying live content that has ended. This allows users to re-leverage their content and provide a high-quality, pre-edited video viewing experience.
+
+Building a great live streaming experience for your audience requires a large technical project, high cost, and great risk. With live streams, any minor incident is likely to end up on a live stream. Therefore, we prioritize ensuring that content is delivered smoothly to users with no incidents is of the utmost importance.
+
+The software facilitates individuals or businesses to create and manage their online channels, providing flexible platforms and utilities for communicating and interacting with audiences through online television platforms.
+
+## Get started with your channel
+
+After a user creates a new channel, the system automatically generates the channel's information, and the user has the ability to perform actions (e.g. copying tokens,...).
+
+Livestream Channel:
+
+A Livestream channel is a space that users create and manage themselves.
+
+The status of the IDLE initiation channel (free- no sessions)
+
+-> switch to active state when channel is activated
+
+-> switches to the STOP state when the user actively stops the channel.
+
+View status conversion details in
+
+## Channel of operation
+
+Session Initiation Process:
+
+After the channel is initialized, the user transmits the input through a third party. The system automatically generates a session and assigns it to an init state.
+
+Session Status:
+
+A session is a real-time transmission of video data.
+The state of the session changes in order: init, procession/error/live, and finally ended.
+
+This session ends (end state) when the maximum duration (timeout) is reached or when the user actively stops the channel.
+
+## The relationship between Livestream Channel and Session:
+
+Each Livestream channel can contain from 1 to more sessions.
+
+Each Livestream channel links to the corresponding playing session in the session list, creating a unified link between the channel and the live content.
+
+The session is unique, when the session ends, cannot be reused, the newly born session continues to operate the task.
