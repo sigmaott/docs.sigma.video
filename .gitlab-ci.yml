@@ -39,9 +39,6 @@ app-image-build:
   needs: []
   script:
     - docker build -t $PRIVATE_APP_IMAGE_TAG:$CI_COMMIT_SHORT_SHA .
-  only:
-    refs:
-      - develop
 
 
 app-image-release-private:
@@ -52,10 +49,6 @@ app-image-release-private:
     - docker login -u $HARBOR_USERNAME -p $HARBOR_PASSWORD $REGISTRY
   script:
     - docker push $PRIVATE_APP_IMAGE_TAG:$CI_COMMIT_SHORT_SHA
-  only:
-    refs:
-      - develop
-
 
 app-deploy-dev:
   stage: deploy-dev

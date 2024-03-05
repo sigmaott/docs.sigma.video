@@ -30,7 +30,7 @@ Hệ thống Sigma Streaming Platform hỗ trợ các chuẩn đầu vào sau:
    5. **Primary Interface Network** vui lòng chọn 1 card mạng nhận luồng udp multicast này bỏ qua 
 
 
-![Tạo Input](../images/um-create-input.png)
+![Tạo Input](/images/media-live/um-create-input.png)
 
 *Lưu ý: Nếu không điền thông tin về card mạng thì hệ thống sẽ tự lấy ở card mạng mặc định của máy*
 

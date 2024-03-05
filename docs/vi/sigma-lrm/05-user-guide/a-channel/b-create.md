@@ -12,7 +12,9 @@ Sau khi chuẩn bị sẵn nguồn, mã chương trình, khoá API sử dụng �
  
 Tại giao diện màn hình chính Danh sách kênh, người dùng click vào nút **Thêm kênh**
 
-Hệ thống hiển thị **Pop-up thêm kênh mới** giữa giao diện
+Hệ thống hiển thị **Pop-up thêm kênh mới** giữa giao diện:
+
+![](/images/lrm/pop-up/create-channel.png)
  
  Các thông tin hiển thị:
 
@@ -27,7 +29,7 @@ Hệ thống hiển thị **Pop-up thêm kênh mới** giữa giao diện
 ### Bật cấu hình đồng bộ kênh
  
 Việc duy trì lịch phát sóng đồng bộ là rất quan trọng để cung cấp trải nghiệm xem tốt nhất cho người xem. Chúng tôi khuyên bạn bật cấu hình đồng bộ kênh để có thể chủ động đồng bộ khi cần.
-Xem hướng dẫn [chủ động đồng bộ](../2-detail-channel/b-epg/7-manual-sync.md)
+Xem hướng dẫn [chủ động đồng bộ](../b-detail-channel/2-epg/2.7-manual-sync.md)
 
 Bật cấu hình đồng bộ, hiển thị các trường:
 
@@ -58,7 +60,7 @@ Bật tự động đồng bộ, hiển thị các trường:
 ## Bước 2: Lưu cấu hình
  Người dùng nhập các thông tin hợp lệ.
 
- Click button **Xác nhận** ở cuối Pop-up.
+Nhấp vào nút **Xác nhận** ở cuối Pop-up.
 
 Hệ thống thực hiện tạo mới kênh với các thông tin vừa được nhập, hiển thị Pop-up thông báo **Tạo mới thành công** ở phía trên giao diện.
 

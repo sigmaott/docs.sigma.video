@@ -14,7 +14,7 @@ To create a manual packaging channel, we do basic channel creation. Please choos
 
 The interface view for the configuration of the packaging channel is now as follows:
 
-![Create the manual package channel](../images/um-create-channel/um-create-package-channel-1.png)
+![Create the manual package channel](/images/media-live/um-create-channel/um-create-package-channel-1.png)
 
 
 
@@ -111,7 +111,7 @@ After you've created a desired output. The configuration of the output will appe
 
 Configure configuration **preset** with output:
 
-1. select ![select profile](../images/um-create-channel/um-select-profile.png){width =17px} to select the profiles that will be packed in this output. The profile list will be shown
+1. select ![select profile](/images/media-live/um-create-channel/um-select-profile.png){width =17px} to select the profiles that will be packed in this output. The profile list will be shown
 2. integrate into squares to select **profile** you want to add to output => pressing **submit** to complete the operation
 3. The list of selected profiles will appear, you can manipulate the desired tasks for this list as added, delete, edit, and edit.
 

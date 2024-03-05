@@ -51,7 +51,7 @@ The operation with job systems provides enough **action** as **start**, **stop**
 
 From the list of the **click** on the name of the channel detailed channel present
 
-![Channel Details Information](../images/um-channel-detail.png)
+![Channel Details Information](/images/media-live/um-channel-detail.png)
 
 The monitoring commonent included:
 
@@ -70,17 +70,17 @@ The monitoring commonent included:
 
 ### Job monitoring
 
-![The Job Board.](../images/um-job-detail/um-job-detail.png){width =400px}
+![The Job Board.](/images/media-live/um-job-detail/um-job-detail.png){width =400px}
 
 Job monitoring board includes
 
-* ![Status](../images/um-job-detail/1.png){height=17px}  **status**: Status of job
-* ![Status](../images/um-job-detail/2.png){height=17px}  **Speed**: Current speed of job
-* ![Status](../images/um-job-detail/3.png){height=17px}  **Lifetime**: Time job runs from the last retry because of an error or restart
-* ![Status](../images/um-job-detail/4.png){height=17px}  **created**: time job is created (utc time)
-* ![Status](../images/um-job-detail/5.png){height=17px}  **outputs**: Head of job
-* ![Status](../images/um-job-detail/6.png){height=17px}  **action**: Action buttons with job
-* ![Status](../images/um-job-detail/7.png){height=17px}  **Errors**: log error of job.
+* ![Status](/images/media-live/um-job-detail/1.png){height=17px}  **status**: Status of job
+* ![Status](/images/media-live/um-job-detail/2.png){height=17px}  **Speed**: Current speed of job
+* ![Status](/images/media-live/um-job-detail/3.png){height=17px}  **Lifetime**: Time job runs from the last retry because of an error or restart
+* ![Status](/images/media-live/um-job-detail/4.png){height=17px}  **created**: time job is created (utc time)
+* ![Status](/images/media-live/um-job-detail/5.png){height=17px}  **outputs**: Head of job
+* ![Status](/images/media-live/um-job-detail/6.png){height=17px}  **action**: Action buttons with job
+* ![Status](/images/media-live/um-job-detail/7.png){height=17px}  **Errors**: log error of job.
 
 * Note:
   * **Job** can be monitored at the channel list or in the channel details page

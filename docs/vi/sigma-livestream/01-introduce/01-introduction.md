@@ -3,45 +3,13 @@ title: Giới thiệu
 order: 1
 ---
 
-# Sigma Live Streaming
+# Sigma Livestream
 
-## Giải pháp truyền hình trực tuyến là gì?
-
-Dịch vụ **Live Streaming** nơi mà bất kì ai có kết nối internet cũng có thể sáng tạo và đưa nội dung đa phương tiện trực tiếp đến với lượng lớn người xem một cách đơn giản và hiệu quả nhất. Để xây dựng một trải nghiệm live stream tuyệt vời đến người xem của bạn đòi hỏi một dự án kĩ thuật lớn, chi phí cao và rủi ro lớn. Với sự kiện trực tiếp bất cứ một sự cố nhỏ nào đều có khả năng kết thúc trên luồng phát trực tiếp. Vì vậy, chúng tôi ưu tiên việc đảm bảo nội dung được truyền tải đến người dùng một cách mượt mà ít sự cố là điều quan trọng nhất.
+Dịch vụ **Livestream** nơi mà bất kì ai có kết nối internet cũng có thể sáng tạo và đưa nội dung đa phương tiện trực tiếp đến với lượng lớn người xem một cách đơn giản và hiệu quả nhất. Để xây dựng một trải nghiệm live stream tuyệt vời đến người xem của bạn đòi hỏi một dự án kĩ thuật lớn, chi phí cao và rủi ro lớn. Với sự kiện trực tiếp bất cứ một sự cố nhỏ nào đều có khả năng kết thúc trên luồng phát trực tiếp. Vì vậy, chúng tôi ưu tiên việc đảm bảo nội dung được truyền tải đến người dùng một cách mượt mà ít sự cố là điều quan trọng nhất.
 
 Livestream không chỉ giới hạn trong việc phát sóng video trực tiếp mà còn cung cấp khả năng tái phát lại nội dung trực tiếp đã kết thúc. Điều này cho phép người dùng tận dụng lại nội dung của họ và cung cấp một trải nghiệm xem video chất lượng cao, được biên tập sẵn.
 
 Sigma Live Stream Platform cung cấp một dịch vụ toàn diện đưa công việc truyền tải nội dung từ broadcaster đến với người xem đơn giản như một nút bấm.
-
-
-- **64% viewer** have watched a live online video in the past year.
-
-- **78% viewer** are already watching live video on Facebook live.
-
-- **82% viewer** prefer live video from a brand to social posts.
-
-*“I think it takes more than three seconds to build your brand, and consumers are willing to spend the time if your content is compelling, relevant, and valuable.” – [Momentology](http://www.momentology.com/8936-video-marketing-trends-2016/)*
-
-
-
-## What make a live stream successful ? 
-
-Điều gì đảm bảo cho sự thành công của một luồng live stream ?
-
-Đối với một luồng phát trực tiếp, dấu hiệu đảm bảo cho sự thành công là nội dung mà nhà cung cấp tạo ra hướng tới được nhiều đối tượng mong muốn nhất. Tăng trưởng số lượng người xem đồng thời ứng với sự thành công của luồng phát trực tiếp. Để đảm bảo sự thành công đó ngoài việc broadcaster đưa ra những nội dung đặc sắc tập trung vào viewer thì nền tảng công nghệ live stream cũng đóng một vai trò rất quan trọng. 
-
-*62% of consumers are more likely to have a negative perception of a brand with a low-quality video experience*. – [KZO](https://kzoinnovations.com/video-quality-influence-brand-perception)
-
-Chất lượng dịch vụ khi phát sóng đóng vai trò vô cùng quan trọng đến cảm xúc của người xem. Bên cạnh đó những channel của broadcaster có tương tác với người dùng (example: Q&A, chơi game cùng người xem ...) luôn là những channel thuộc top đầu trên các dịch vụ trực tuyến. Đối với việc tương tác trực tiếp với người dùng độ trễ của hệ thống truyền tải nội dung đến người xem ảnh hưởng 
-
-
-
-*Since we started providing our player for apps 15 years ago, video streaming on mobile devices has drastically increased. Many people now expect to access the same content on multiple devices with broadcast quality, whether they are at home or on the go.”* 
-
-*“Having a multiscreen low latency solution is a top requirement for customers and opens the door for fascinating interactive use cases, leveraging the best end-to-end technology and synchronization of the stream among all end users.”* 
-
-*Carlos Lucas, General Manager of NexPlayer at* *NexStreaming* 
-
 
 
 ## Key drivers of low latency for video streaming 
@@ -63,7 +31,7 @@ Với độ trễ 20-40 giây hoặc hơn thì không phải là vấn đề cho
 
 The Sigma Live Stream platform cho phép người dùng cung cấp nội dung từ bất kì thiết bị nào đến bất kì đâu mong muốn. Điểm quan trọng nhất của dự án là tạo ra một nền tảng hỗ trợ người dùng thao tác để trở thành một broadcaster đơn giản nhất. Hỗ trợ nhiều giải pháp công nghệ cho người phát và người xem. Người phát có thể tuỳ chọn độ trễ truyền phát để kéo gần hơn khoảng cách tương tác với người xem. Người xem sẽ không phải bỏ lỡ bất kì khoảng khắc nào trong sự kiện trực tiếp
 
-### Feature
+### Tính năng
 
 - Xử lý lượng lớn luồng **transmux & transcode** các kênh live stream
 - Quản lý nội dung trong và sau khi luồng live stream kết thúc
@@ -96,3 +64,53 @@ The Sigma Live Stream platform cho phép người dùng cung cấp nội dung t�
 - API đơn giản, dễ sử dụng và tích hợp với mọi hệ thống
   - Api with secure token
   - Webhook for live stream event 
+
+
+## Giải pháp truyền hình trực tuyến là gì?
+
+Dịch vụ truyền hình trực tuyến (Livestream) được thiết kế để tạo ra một kênh trực tiếp trên internet, cho phép người dùng truyền tải nội dung video của họ với lượng lớn người xem một cách đơn giản và hiệu quả nhất theo thời gian thực. Điều này có nghĩa là người dùng có khả năng phát sóng và chia sẻ video trực tiếp, cho phép người xem trải nghiệm sự kiện hoặc nội dung ngay lúc đang diễn ra.
+
+Livestream không chỉ giới hạn trong việc phát sóng video trực tiếp mà còn cung cấp khả năng tái phát lại nội dung trực tiếp đã kết thúc. Điều này cho phép người dùng tận dụng lại nội dung của họ và cung cấp một trải nghiệm xem video chất lượng cao, được biên tập sẵn.
+
+Để xây dựng một trải nghiệm live stream tuyệt vời đến người xem của bạn đòi hỏi một dự án kĩ thuật lớn, chi phí cao và rủi ro lớn. Với sự kiện trực tiếp bất cứ một sự cố nhỏ nào đều có khả năng kết thúc trên luồng phát trực tiếp. Vì vậy, chúng tôi ưu tiên việc đảm bảo nội dung được truyền tải đến người dùng một cách mượt mà ít sự cố là điều quan trọng nhất.
+
+Phần mềm này tạo điều kiện thuận lợi cho cá nhân hoặc doanh nghiệp để tạo ra và quản lý kênh trực tuyến của họ, cung cấp nền tảng linh hoạt và tiện ích cho việc giao tiếp và tương tác với khán giả thông qua nền tảng truyền hình trực tuyến.
+
+
+
+## Bắt đầu với kênh của bạn
+
+Sau khi người dùng tạo mới một kênh, hệ thống tự động tạo ra các thông tin của kênh, và người dùng có khả năng thực hiện các action( ví dụ copy token,...).
+
+Livestream Channel:
+
+Kênh Livestream là một không gian mà người dùng tạo ra và tự quản lý.
+
+Trạng thái của kênh khởi tạo IDLE (rảnh rỗi- không có session)
+
+->  chuyển đổi sang trạng thái active khi kênh được kích hoạt
+
+-> chuyển sang trạng thái STOP khi người dùng chủ động dừng kênh.
+
+Chi tiết chuyển đổi trạng thái xem ở 
+
+## Kênh hoạt động
+
+Quá trình khởi tạo Session:
+
+Sau khi kênh được khởi tạo, người dùng truyền input thông qua bên thứ ba. Hệ thống tự động sinh ra session và gán nó với trạng thái init.
+
+Trạng thái Session:
+
+Session là quá trình truyền dữ liệu video theo thời gian thực.
+Trạng thái của session thay đổi theo thứ tự: init (khởi tạo), chuyển sang processing/error/live, và cuối cùng là ended.
+
+Session này kết thúc( trạng thái end) khi đạt đến thời lượng tối đa (timeout) hoặc khi người dùng chủ động dừng kênh.
+
+## Mối quan hệ giữa Livestream Channel và Session:
+
+Mỗi Livestream channel có thể chứa từ 1 đến nhiều session.
+
+Mỗi kênh Livestream liên kết với session đang phát tương ứng trong danh sách session, tạo nên một liên kết hợp nhất giữa kênh và nội dung trực tiếp.
+
+Session là duy nhất, khi session kết thúc, không thể tái sử dụng, session mới được sinh ra tiếp tục hoạt động nhiệm vụ.

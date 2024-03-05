@@ -14,7 +14,7 @@ Bằng cách phân quyền, người quản trị có thể linh hoạt thiết 
 
 Pop-up tạo nhóm quyền bao gồm các trường sau:
 
-![Tạo nhóm](/docs/images/streaming-platform/app-management/03-group/pop-up/create.png)
+![Tạo nhóm](/images/streaming-platform/app-management/03-group/pop-up/create.png)
 
 - Tiêu đề: Tạo nhóm
 - Tên Nhóm: Nhập tên cho nhóm quyền mới.
@@ -34,7 +34,7 @@ Nhấn nút `Lưu` để hoàn tất quá trình tạo nhóm.
 4. Tạo nhóm thành công
 Sau khi nhấn `Lưu`, hệ thống sẽ hiển thị trở lại danh sách nhóm, thông báo thành công ở phía trên màn hình. Nhóm vừa được tạo sẽ được hiển thị ở đầu danh sách, giúp người dùng dễ dàng nhận biết và quản lý nhóm mới của mình.
 
-<!-- ![Tạo nhóm thành công](/docs/images/streaming-platform/app-management/03-group/message/) -->
+<!-- ![Tạo nhóm thành công](/images/streaming-platform/app-management/03-group/message/) -->
 
 *Thông báo: Tạo nhóm thành công!*
 

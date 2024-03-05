@@ -30,7 +30,7 @@ Có 2 loại Bumpers ads:
 
 Người dùng có thể cấu hình Bumpers ad ở đầu, cuối hoặc cả hai. 
 
-![](/images/dai/bumper.PNG)
+![](/images/dai/bumper.png)
 
 <center>
 

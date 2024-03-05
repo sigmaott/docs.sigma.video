@@ -18,7 +18,7 @@ hero:
       link: /vi/sigma-streaming-platform/01-get-started/1-introduction
     - theme: alt
       text: Xem trên Github
-      link: https://github.com/sigmaot
+      link: https://github.com/sigmaOTT
 
 features:
   - icon: 💡

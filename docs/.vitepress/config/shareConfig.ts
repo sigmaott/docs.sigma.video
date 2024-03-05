@@ -48,8 +48,8 @@ export const versionLinks = ((): DefaultTheme.NavItemWithLink[] => {
   }
 })()
 
-const ogDescription = 'Next Generation Frontend Tooling'
-const ogImage = 'https://main.vitejs.dev/og-image.png'
+const ogDescription = 'Sigma Streaming Platform Document site'
+const ogImage = 'https://sigmaott.com/og/og-image.png'
 const ogTitle = 'Sigma Streaming Platform Docs'
 const ogUrl = 'https://sigma.video'
 

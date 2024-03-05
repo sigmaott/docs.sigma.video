@@ -1,7 +1,7 @@
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 import SidebarBuilder from '@sigmaott/vitepress-sidebar-builder'
 
-const ogUrl = 'https://sigmaott.com'
+const ogUrl = 'https://sigma.video'
 const ogDescription = 'Sigma Streaming Platform Document site'
 
 export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
@@ -26,11 +26,12 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         text: 'Components',
         items: [
           { text: 'Sigma Media Live', link: '/en/sigma-media-live/' },
+          { text: 'Sigma Media VOD', link: '/en/sigma-media-vod/' },
           { text: 'Sigma Livestream', link: '/en/sigma-livestream/' },
           { text: 'Sigma Interactive', link: '/en/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/en/sigma-lrm/' },
           { text: 'Sigma Dynamic Ads Insert', link: '/en/sigma-dai/' },
-          { text: 'Sigma Engine Server', link: '/en/sigma-engine-server/' }
+          { text: 'Sigma Engine Server', link: '/en/sigma-media-server/' }
         ]
       },
       {
@@ -85,8 +86,8 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           }
         )
       ],
-      '/en/sigma-engine-server/': [
-        ...SidebarBuilder.get.foldersAndOrder('./docs/en/sigma-engine-server', {
+      '/en/sigma-media-server/': [
+        ...SidebarBuilder.get.foldersAndOrder('./docs/en/sigma-media-server', {
           collapsed: false,
           collapsible: true,
           partialFileNamesToIgnore: ['_partial']

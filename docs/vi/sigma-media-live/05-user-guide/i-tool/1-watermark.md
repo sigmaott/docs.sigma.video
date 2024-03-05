@@ -44,7 +44,7 @@ Trước khi bắt đầu, bạn cần chuẩn bị một tệp âm thanh hợp 
 
 Một cửa sổ pop-up Kiểm tra watermarking sẽ xuất hiện.
 
-![Kiểm tra watermarking](/docs/images/media-live/watermark/upload.png)
+![Kiểm tra watermarking](/images/media-live/watermark/upload.png)
 
 Mặc định, hiển thị lựa chọn `Upload.`
 
@@ -77,7 +77,7 @@ Cấp quyền sử dụng micro cho công cụ, kết nối thiết bị của b
 
 **Bước 1**: Người dùng chọn Record trong cửa sổ pop-up Kiểm tra watermarking. Hiển thị thông tin yêu cầu ghi âm tương ứng trong cửa sổ pop-up Kiểm tra watermarking.
 
-![Kiểm tra watermarking](/docs/images/media-live/watermark/record.png)
+![Kiểm tra watermarking](/images/media-live/watermark/record.png)
 
 **Bước 2**: Nhấp vào biểu tượng ghi âm. Kết nối thiết bị thành công.
 - Thực hiện ghi âm.
@@ -100,7 +100,7 @@ Cấp quyền sử dụng micro cho công cụ, kết nối thiết bị của b
 
 **Hệ thống thực hiện quá trình kiểm tra trong suốt khoảng thời gian ghi âm trực tiếp**. 
 
-![Kiểm tra watermarking](/docs/images/media-live/watermark/check.png)
+![Kiểm tra watermarking](/images/media-live/watermark/check.png)
 
 Người dùng có thể hủy quá trình kiểm tra watermarking bằng cách nhấp vào nút `Cancel`, làm quay lại giao diện tải lên.
 
@@ -108,7 +108,7 @@ Người dùng có thể hủy quá trình kiểm tra watermarking bằng cách 
 
 Sau khi kiểm tra trong khoảng thời gian xác định, kết quả sẽ được hiển thị như sau:
 
-![Kiểm tra watermarking](/docs/images/media-live/watermark/result.png)
+![Kiểm tra watermarking](/images/media-live/watermark/result.png)
 
 1. Nếu **không tìm thấy watermark**: Thông báo **Không tìm thấy watermark.**
 2. Tìm thấy watermark

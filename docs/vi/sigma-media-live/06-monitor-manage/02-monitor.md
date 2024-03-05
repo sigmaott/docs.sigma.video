@@ -52,7 +52,7 @@ Việc thao tác với job hệ thống cung cấp đẩy đủ các **action** 
 
 Từ danh sách của kênh thao tác **click** vào tên của kênh giao diện chi tiết kênh sẽ hiện ra
 
-![Thông tin chi tiết kênh](../images/um-channel-detail.png)
+![Thông tin chi tiết kênh](/images/media-live/um-channel-detail.png)
 
 Các component giám sát bao gồm: 
 
@@ -71,17 +71,17 @@ Các component giám sát bao gồm:
 
 ### Giám sát job
 
-![Bảng giám sát Job](../images/um-job-detail/um-job-detail.png){ width=400px }
+![Bảng giám sát Job](/images/media-live/um-job-detail/um-job-detail.png){ width=400px }
 
 Bảng giám sát job Bao gồm
 
-* ![status](../images/um-job-detail/1.png){ height=17px }  **status**: Trạng thái của job
-* ![status](../images/um-job-detail/2.png){ height=17px }  **Speed**: Tốc độ hiện tại của job
-* ![status](../images/um-job-detail/3.png){ height=17px }  **Lifetime**: Thời gian job chạy được từ lần cuối retry vì lỗi hoặc restart 
-* ![status](../images/um-job-detail/4.png){ height=17px }  **created**: thời gian job được tạo (utc time)
-* ![status](../images/um-job-detail/5.png){ height=17px }  **outputs**: Đầu ra của job
-* ![status](../images/um-job-detail/6.png){ height=17px }  **action**: Các nút thao tác với job 
-* ![status](../images/um-job-detail/7.png){ height=17px }  **Errors**: log lỗi của job (lấy 3 lỗi gần nhất)
+* ![status](/images/media-live/um-job-detail/1.png){ height=17px }  **status**: Trạng thái của job
+* ![status](/images/media-live/um-job-detail/2.png){ height=17px }  **Speed**: Tốc độ hiện tại của job
+* ![status](/images/media-live/um-job-detail/3.png){ height=17px }  **Lifetime**: Thời gian job chạy được từ lần cuối retry vì lỗi hoặc restart 
+* ![status](/images/media-live/um-job-detail/4.png){ height=17px }  **created**: thời gian job được tạo (utc time)
+* ![status](/images/media-live/um-job-detail/5.png){ height=17px }  **outputs**: Đầu ra của job
+* ![status](/images/media-live/um-job-detail/6.png){ height=17px }  **action**: Các nút thao tác với job 
+* ![status](/images/media-live/um-job-detail/7.png){ height=17px }  **Errors**: log lỗi của job (lấy 3 lỗi gần nhất)
 
 * Note: 
   * Bảng giám sát **Job** có thể theo dõi ở danh sách kênh hoặc trong trang chi tiết kênh

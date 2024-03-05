@@ -32,15 +32,15 @@ Việc xác thực dữ liệu người dùng là cần thiết để đảm b�
 
 Nội dung của thông báo lỗi sẽ thay đổi tùy thuộc vào từng trường hợp cụ thể. Dưới đây là ví dụ về một số loại thông báo khác:
 
-![](/images/dai/error-empty.PNG)
+![](/images/dai/error-empty.png)
 
 *Hình 1. Lỗi bỏ trống trường* 
 
-![](/images/dai/error-invalid.PNG)
+![](/images/dai/error-invalid.png)
 
 *Hình 2. Lỗi nhập ký tự không hợp lệ* 
 
-![](/images/dai/error-invalid-link.PNG)
+![](/images/dai/error-invalid-link.png)
 
 *Hình 3. Lỗi nhập không đúng định dạng* 
 
@@ -51,8 +51,6 @@ Nội dung của thông báo lỗi sẽ thay đổi tùy thuộc vào từng tr�
 Khi người dùng xác nhận lưu trữ dữ liệu trong biểu mẫu bằng cách nhấn nút **Lưu**, hệ thống sẽ thực hiện tác vụ và sau đó thông báo kết quả cho người dùng.
 
 Nếu tác vụ được thực hiện thành công, sẽ hiển thị một thông báo ở phía trên của màn hình trình duyệt với các đặc điểm sau:
-
-![](/images/dai/create-success.PNG)
 
 * Tiêu đề: Hiển thị câu lệnh và chi tiết (không bắt buộc).
 * Nền màu: màu xanh lá
@@ -67,7 +65,7 @@ Hiển thị trong vòng 5 giây và tự động biến mất sau khi đã **th
 Nếu tác vụ không thành công, sẽ hiển thị một thông báo màu đỏ, kèm theo nội dung lỗi ở phía trên của màn hình trình duyệt. Nội dung lỗi sẽ thay đổi tùy theo từng trường hợp lỗi cụ thể.
 
 
-![](/images/dai/error-500.PNG)
+![](/images/dai/error-500.png)
 
 *Hình 4. Lỗi hệ thống* 
 

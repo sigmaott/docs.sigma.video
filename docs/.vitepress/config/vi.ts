@@ -26,11 +26,12 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         text: 'Các thành phần',
         items: [
           { text: 'Sigma Media Live', link: '/vi/sigma-media-live/' },
+          { text: 'Sigma Media VOD', link: '/vi/sigma-media-vod/' },
           { text: 'Sigma Livestream', link: '/vi/sigma-livestream/' },
           { text: 'Sigma Interactive', link: '/vi/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/vi/sigma-lrm/' },
           { text: 'Sigma Dynamic Ads Insert', link: '/vi/sigma-dai/' },
-          { text: 'Sigma Engine Server', link: '/vi/sigma-engine-server/' }
+          { text: 'Sigma Media Server', link: '/vi/sigma-media-server/' }
         ]
       },
       {
@@ -85,8 +86,8 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           }
         )
       ],
-      '/vi/sigma-engine-server/': [
-        ...SidebarBuilder.get.foldersAndOrder('./docs/vi/sigma-engine-server', {
+      '/vi/sigma-media-server/': [
+        ...SidebarBuilder.get.foldersAndOrder('./docs/vi/sigma-media-server', {
           collapsed: false,
           collapsible: true,
           partialFileNamesToIgnore: ['_partial']
