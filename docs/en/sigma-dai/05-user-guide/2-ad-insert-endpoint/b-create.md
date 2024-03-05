@@ -17,7 +17,6 @@ Pop-up display system Add new ad insert endpoint on the right side of the interf
 
 _Figure 1: Pop-up creating a new endpoint_
 
- </center>
   
 
 With the main information:
