@@ -24,7 +24,6 @@ The system displays the Ad List interface with the following information:
 
 _Figure 1: Default ad list_
 
-</center>
   
 
 - **Title**: List of ads.
