@@ -19,12 +19,11 @@ The system will open an ad insert endpoint pop-up window in the right corner of 
 
 ![](/images/dai/pop-up-update-endpoint.png)
 
-  <center>
+<center>
 
 _Figure 1: Pop-up endpoint update_
 
 </center>
-  
 
 **Step 3:** The user makes edits and then presses the **Save.** button
 
