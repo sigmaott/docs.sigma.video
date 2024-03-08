@@ -11,7 +11,7 @@ On the main screen of the system, the user moves the mouse cursor to the Watch f
 
 The system main screen displays the watch folder rule screen interface, with key information including:
 
-! [See directory rules list] (/images/media-vod/watch-folder-rule/view-watch-folder-rule-list.png)
+![See directory rules list](/images/media-vod/watch-folder-rule/view-watch-folder-rule-list.png)
 
 | Column names  | Function                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
