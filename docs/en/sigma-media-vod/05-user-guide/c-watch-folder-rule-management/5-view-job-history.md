@@ -16,4 +16,4 @@ The system will switch to the Job list screen with filters according to the corr
 Here the user can monitor the job list that triggered the transcoding process when there is a file that matches the condition described by the directory rule
 
 Read more here:
-[View job listing] (/docs/en/sigma-media-vod/05-user-guide/b-job-management/2-view-job-list.md)
+[View job listing](/docs/en/sigma-media-vod/05-user-guide/b-job-management/2-view-job-list.md)

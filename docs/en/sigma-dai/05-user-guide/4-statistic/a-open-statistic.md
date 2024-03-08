@@ -15,11 +15,11 @@ Drop-down system for the selection list:
 
 - [System Monitoring](./f-monitor-system.md)
 
-- [Impression Ratio] (./d-fillrate)
+- [Impression Ratio](./d-fillrate)
 
-- [Event Chart] (./c-event-chart/a-by-endpoint.md)
+- [Event Chart](./c-event-chart/a-by-endpoint.md)
 
-- [Data Report] (./b-data-report.md)
+- [Data Report](./b-data-report.md)
 
 2. The system navigates to your choice.
 
@@ -27,13 +27,13 @@ Drop-down system for the selection list:
 
 **Step 1:** In the Sidebar, click on statistics, the system drops down the selection list.
 
-- [System Monitoring] (./f-monitor-system.md)
+- [System Monitoring](./f-monitor-system.md)
 
-- [Impression Ratio] (./d-fillrate)
+- [Impression Ratio](./d-fillrate)
 
-- [Event Chart] (./c-event-chart/a-by-endpoint.md)
+- [Event Chart](./c-event-chart/a-by-endpoint.md)
 
-- [Data Report] (./b-data-report.md)
+- [Data Report](./b-data-report.md)
 
 **Step 2:**
 Open/navigate to the user interface just selected.

@@ -22,7 +22,7 @@ Tham khảo thêm tại : [Xem chi tiết công việc](/docs/vi/sigma-media-vod
 
 Hệ thống hiển thị cửa sổ pop-up, trong đó chứa video tương ứng
 
-![Xem video](/images/media-vod/job-management/playvideo1.png)
+<!-- ![Xem video](/images/media-vod/job-management/playvideo1.png) -->
 
 Đối với tập tin đầu ra có định dạng là Multi-MP4, người dùng có thể xem video từ tập tin ***smil*** dưới hai dạng là HLS và DASH. 
 

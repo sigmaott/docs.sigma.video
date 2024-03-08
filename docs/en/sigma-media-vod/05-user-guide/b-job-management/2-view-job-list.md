@@ -11,7 +11,7 @@ On the main screen of the system, the user moves the mouse pointer to **VOD** on
 
 The system main screen displays the job list screen interface, with key information including:
 
-! [Job Listing] (/images/media-vod/job-management/view-job-list.png)
+![Job Listing](/images/media-vod/job-management/view-job-list.png)
 
 | Column names                   | Function                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
