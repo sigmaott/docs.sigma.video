@@ -169,3 +169,4 @@ Trường hợp người dùng chọn đầu ra là thư viện, định dạng 
 ## Bước 6: Tạo công việc (job)
 
 Sau khi hoàn thành các bước trên, bạn có thể chọn nút **“Tạo job”** để hệ thống chuyển mã video của bạn. Bên cạnh đó, Sigma Media VOD còn hỗ trợ bạn có thể **lưu Bản mẫu** bao gồm các thông tin cấu hình job, để bạn có thể tiết kiệm thời gian cho lần tiếp theo.
+
