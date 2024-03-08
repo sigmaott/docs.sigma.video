@@ -18,11 +18,11 @@ Màn hình bao gồm 3 phần/mục thông tin:
 
 * Các chỉ số thống kê bao gồm: 
 
-  - Công việc (Jobs): hiển thị tổng số lượng công việc (jobs) - khi bấm vào số liệu, hệ thống chuyển sang màn hình danh sách công việc
-  - Công việc hoàn thành (Jobs complete):hiển thị tổng số lượng công việc (jobs) đã hoàn thành - khi bấm vào số liệu, hệ thống chuyển sang màn hình danh sách công việc với trạng thái hoàn thành
-  - Công việc lỗi (Jobs error): hiển thị tổng số lượng công việc (jobs) bị lỗi - khi bấm vào số liệu, hệ thống chuyển sang màn hình danh sách công việc với trạng thái lỗi
-  - Quy tắc đang hoạt động (Rule active): hiển thị tổng số lượng quy tắc đang hoạt động - khi bấm vào số liệu, hệ thống chuyển sang màn hình danh sách cơ chế theo dõi thư mục với trạng thái active
-  - Thời gian chuyển mã (Transcoding time): hiển thị tổng thời gian chuyển mã
+  - ***Công việc (Jobs)***: hiển thị tổng số lượng công việc (jobs) - khi bấm vào số liệu, hệ thống chuyển sang màn hình danh sách công việc
+  - ***Công việc hoàn thành (Jobs complete)***: hiển thị tổng số lượng công việc (jobs) đã hoàn thành - khi bấm vào số liệu, hệ thống chuyển sang màn hình danh sách công việc với trạng thái hoàn thành
+  - ***Công việc lỗi (Jobs error)***: hiển thị tổng số lượng công việc (jobs) bị lỗi - khi bấm vào số liệu, hệ thống chuyển sang màn hình danh sách công việc với trạng thái lỗi
+  - ***Quy tắc đang hoạt động (Rule active)***: hiển thị tổng số lượng quy tắc đang hoạt động - khi bấm vào số liệu, hệ thống chuyển sang màn hình danh sách cơ chế theo dõi thư mục với trạng thái active
+  - ***Thời gian chuyển mã (Transcoding time)***: hiển thị tổng thời gian chuyển mã
 
 
 * Biểu đồ cột giúp người dùng theo dõi được tổng số lượng **công việc**, **công việc hoàn thành**, **công việc lỗi**, **thời gian chuyển mã** xuất hiện theo thời gian.

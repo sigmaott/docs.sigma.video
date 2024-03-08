@@ -7,7 +7,7 @@ order: 1
 
 Chức năng này cho phép người dùng tạo những điều kiện để theo dõi thư mục. Bất kì tập tin nào được tải lên đúng với những điều kiện được mô tả của thư mục này sẽ tự động kích hoạt quy trình chuyển mã
 
-***<u>Lưu ý:</u>** Mỗi máy chỉ được tạo tối đa 10 cơ chế theo dõi thư mục
+Mỗi máy chỉ được tạo tối đa 10 cơ chế theo dõi thư mục
 
 Để tạo một cơ chế theo dõi thư mục, ta thực hiện các bước sau:
 
@@ -47,18 +47,18 @@ Mục lựa chọn điều kiện (mô tả điều kiện để theo dõi thư 
 
 | **Tên cột**                         | **Mô tả**                                                    | **Yêu cầu**                                                  |
 | ----------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Biểu thức chính quy (regex pattern) | Cung cấp khả năng tìm kiếm, so khớp, trích xuất và thay thế các chuỗi ký tự dựa trên một quy tắc mô tả (điều kiện) để tìm được định dạng của tập tin sau đó kích hoạt tự động để tạo ra job | Không bắt buộc điền, nhập các kí tự được cho phép của regrex |
-| Bitrate (mpbs)                      | Dùng để đo lường tốc độ truyền dữ liệu hoặc tốc độ bit trong một luồng dữ liệu | Không bắt buộc, chỉ cho phép nhập  kí tự số                  |
-| Width (px)                          | Chiều rộng của khung hình video                              | Không bắt buộc, chỉ cho phép nhập  kí tự số                  |
-| Height (px)                         | Chiều cao của khung hình video                               | Không bắt buộc, chỉ cho phép nhập  kí tự số                  |
-| FPS (fps)                           | Tốc độ khung hình mỗi giây                                   | Không bắt buộc, chỉ cho phép nhập  kí tự số                  |
-| Size (byte)                         | Kích thước của video                                         | Không bắt buộc, chỉ cho phép nhập  kí tự số                  |
-| Duration (s)                        | Thời lượng mã hóa video                                      | Không bắt buộc, chỉ cho phép nhập  kí tự số                  |
-| Codec                               | Bộ chuyển mã                                                 | Không bắt buộc, cho phép các lựa chọn sau: **H264, H265, AV1, VP9, VP8** |
+| **Biểu thức chính quy (regex pattern)** | Cung cấp khả năng tìm kiếm, so khớp, trích xuất và thay thế các chuỗi ký tự dựa trên một quy tắc mô tả (điều kiện) để tìm được định dạng của tập tin sau đó kích hoạt tự động để tạo ra job | Không bắt buộc điền, nhập các kí tự được cho phép của regrex |
+| **Bitrate (mpbs)**                      | Dùng để đo lường tốc độ truyền dữ liệu hoặc tốc độ bit trong một luồng dữ liệu | Không bắt buộc, chỉ cho phép nhập  kí tự số                  |
+| **Width (px)**                          | Chiều rộng của khung hình video                              | Không bắt buộc, chỉ cho phép nhập  kí tự số                  |
+| **Height (px)**                        | Chiều cao của khung hình video                               | Không bắt buộc, chỉ cho phép nhập  kí tự số                  |
+| **FPS (fps)**                           | Tốc độ khung hình mỗi giây                                   | Không bắt buộc, chỉ cho phép nhập  kí tự số                  |
+| **Size (byte)**                         | Kích thước của video                                         | Không bắt buộc, chỉ cho phép nhập  kí tự số                  |
+| **Duration (s)**                        | Thời lượng mã hóa video                                      | Không bắt buộc, chỉ cho phép nhập  kí tự số                  |
+| **Codec**                               | Bộ chuyển mã                                                 | Không bắt buộc, cho phép các lựa chọn sau: **H264, H265, AV1, VP9, VP8** |
 
-- **Nút "Tiếp theo"**: hệ thống chuyển sang màn hình lựa chọn điều kiện tiếp theo
-- **Nút "Trước"**: hệ thống quay lại màn hình điền biểu thức chính quy
-- **Nút "Áp dụng"**: Hệ thống lưu thông tin, hiển thị màn hình tạo mới
+- Nút **"Tiếp theo"**: hệ thống chuyển sang màn hình lựa chọn điều kiện tiếp theo
+- Nút **"Trước"**: hệ thống quay lại màn hình điền biểu thức chính quy
+- Nút **"Áp dụng"**: Hệ thống lưu thông tin, hiển thị màn hình tạo mới
 
 ## Bước 5: Lựa chọn điểm đến (destination)
 
@@ -76,8 +76,8 @@ Xem thêm tại:
 
 Tại bước cuối cùng, người dùng có thể chỉnh sửa tên của quy tắc
 
-- Nút "Tạo quy tắc": Hệ thống thực hiện tạo cơ chế theo dõi thư mục, hiển thị đầu tiên trên đầu danh sách quy tắc thư mục
+- Nút **"Tạo quy tắc"**: Hệ thống thực hiện tạo cơ chế theo dõi thư mục, hiển thị đầu tiên trên đầu danh sách quy tắc thư mục
 
-- Nút "Lưu mẫu": Hệ thống thực hiện lưu lại thông tin mẫu của cấu hình job. Xem thêm tại: 
+- Nút **"Lưu mẫu"**: Hệ thống thực hiện lưu lại thông tin mẫu của cấu hình job. Xem thêm tại: 
 
 Người dùng nhấn nút "Tạo quy tắc", hệ thống thực hiện tạo mới quy tắc, hiển thị thông báo **Đã tạo quy tắc thành công!** ở giữa màn hình để thông báo quá trình tạo đã được thực hiện thành công.

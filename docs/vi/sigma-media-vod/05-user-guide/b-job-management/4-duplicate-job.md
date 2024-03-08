@@ -5,9 +5,9 @@ order: 4
 
 # Nhân bản job
 
-Người dùng muốn tạo 1 bản sao job với thông tin đã có trước đó, giữ các cài đặt bắt buộc và thông tin của kênh sự kiện.
+Người dùng muốn tạo một bản sao job với thông tin đã có trước đó, giữ các cài đặt bắt buộc và thông tin của kênh sự kiện.
 
-**Điều kiện**: Để thực hiện quá trình này, cần phải có ít nhất 1 job đã được tạo trước đó và hiển thị trong danh sách.
+**Điều kiện**: Để thực hiện quá trình này, cần phải có ít nhất một job đã được tạo trước đó và hiển thị trong danh sách.
 
 **Bước 1:** Trong danh sách, di chuột vào biểu tượng **nhân bản** ở cột Hành động tại trường bạn muốn tạo bản sao, hiển thị tooltip text **nhân bản**, nhấp vào biểu tượng.
 

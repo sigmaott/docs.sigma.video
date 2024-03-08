@@ -16,12 +16,12 @@ Màn hình chính hệ thống hiển thị giao diện màn hình danh sách qu
 | Tên cột            | Chức năng                                                    |
 | ------------------ | ------------------------------------------------------------ |
 | **Tên**            | Tên của quy tắc theo dõi thư mục                             |
-| Máy                | Máy được chỉ định để thực hiện chuyển mã khi có kích hoạt tự động |
-| Thư mục            | Thư mục được theo dõi                                        |
-| Trạng thái         | Trạng thái hoạt động của quy tắc thư mục, bao gồm: **Active** (đang hoạt động) và **Inactive** (không hoạt động) |
-| Mô tả              | Bao gồm các thông tin sau: <br/>- Điều kiện: hiển thị các đầu mục điều kiện được mô tả, (quy tắc không có điều kiện - hiển thị N/A) <br/>- Đầu ra: Mô tả nơi lưu trữ của đầu ra - số lượng profile - số lượng mục tiêu |
-| Thời gian tạo      | Thời gian tạo thành công quy tắc thư mục                     |
-| Thời gian cập nhật | Thời gian cập nhật thành công quy tắc thư mục                |
+| **Máy**               | Máy được chỉ định để thực hiện chuyển mã khi có kích hoạt tự động |
+| **Thư mục**            | Thư mục được theo dõi                                        |
+| **Trạng thái**         | Trạng thái hoạt động của quy tắc thư mục, bao gồm: **Active** (đang hoạt động) và **Inactive** (không hoạt động) |
+| **Mô tả**              | Bao gồm các thông tin sau: <br/>- ***Điều kiện***: hiển thị các đầu mục điều kiện được mô tả, (quy tắc không có điều kiện - hiển thị N/A) <br/>- ***Đầu ra***: Mô tả nơi lưu trữ của đầu ra - số lượng profile - số lượng mục tiêu |
+| **Thời gian tạo**      | Thời gian tạo thành công quy tắc thư mục                     |
+| **Thời gian cập nhật** | Thời gian cập nhật thành công quy tắc thư mục                |
 | **Hành động**      | ***Xem lịch sử công việc:*** Cho phép người dùng theo dõi các job được tạo ra bởi quy tắc thư mục<br/>***Chỉnh sửa quy tắc thư mục:*** Cho phép người dùng chỉnh sửa, cập nhật thông tin của quy tắc thư  mục<br/>***Dừng theo dõi thư mục:*** Cho phép người dùng dừng theo dõi thư mục (quy tắc thư mục hoạt động)<br/>***Tiếp tục theo dõi thư mục:*** Cho phép người dùng tiếp tục theo dõi thư mục (quy tắc thư mục không hoạt động)<br/>***Xoá:*** Cho phép người dùng CMS thực hiện xoá quy tắc thư mục |
 
 - Các nút khác

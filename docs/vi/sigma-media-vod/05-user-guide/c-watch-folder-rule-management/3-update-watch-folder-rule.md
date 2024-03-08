@@ -10,7 +10,7 @@ order: 3
 
 **Bước 1**: Tại màn hình danh sách quy tắc thư mục, người dùng bấm biểu tượng ***Chỉnh sửa*** ở cột Hành động đối với quy tắc thư mục cần chỉnh sửa
 
-Hệ thống sẽ mở màn hình **Chỉnh sửa quy tắc thư mục** với các thông tin đã được nhập trước đó, **cho phép chỉnh sửa tất cả các trường **
+Hệ thống sẽ mở màn hình **Chỉnh sửa quy tắc thư mục** với các thông tin đã được nhập trước đó, **cho phép chỉnh sửa tất cả các trường**
 
 ![Chỉnh sửa quy tắc thư mục](/images/media-vod/watch-folder-rule/update-watch-folder.png)
 

@@ -12,8 +12,8 @@ order: 4
 
 Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâm màn hình với các chi tiết sau:
 
-- Tiêu đề: Xóa quy tắc thư mục này?
-- Nội dung: Bạn có chắc chắn quy tắc thư mục xem này không?
+- **Tiêu đề**: Xóa quy tắc thư mục này?
+- **Nội dung**: Bạn có chắc chắn quy tắc thư mục xem này không?
 - Nút **Huỷ bỏ**: Không thực hiện thay đổi, quay lại màn hình Danh sách quy tắc thư mục
 - Nút **Xác nhận**: Hệ thống thực hiện việc xoá toàn bộ thông tin của quy tắc thư mục.
 

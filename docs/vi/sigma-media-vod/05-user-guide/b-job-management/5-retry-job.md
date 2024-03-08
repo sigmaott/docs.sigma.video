@@ -9,7 +9,7 @@ Người dùng muốn tạo khởi động lại quá trình tạo job bắt đ�
 
 **Điều kiện**: 
 
-- Để thực hiện quá trình này, cần phải có ít nhất 1 job đã được tạo trước đó và hiển thị trong danh sách.
+- Để thực hiện quá trình này, cần phải có ít nhất một job đã được tạo trước đó và hiển thị trong danh sách.
 
 - Chỉ thực hiện được khi job đang ở trạng thái Error
 
@@ -17,8 +17,8 @@ Người dùng muốn tạo khởi động lại quá trình tạo job bắt đ�
 
 Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâm màn hình với các chi tiết sau:
 
-- Tiêu đề: Thử lại job?
-- Nội dung: Bạn có chắc chắn muốn thử lại job không?
+- **Tiêu đề**: Thử lại job?
+- **Nội dung**: Bạn có chắc chắn muốn thử lại job không?
 - Nút **Huỷ**: Không thực hiện thay đổi, quay lại màn hình Danh sách job.
 - Nút **Xác nhận**: Hệ thống thực hiện khởi động lại quá trình tạo job bắt đầu từ trạng thái Queued.
 
