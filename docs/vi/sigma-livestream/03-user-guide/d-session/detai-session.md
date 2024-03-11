@@ -57,7 +57,7 @@ Hệ thống sẽ hiển thị chi tiết của session bao gồm:
 
 3. Thông tin transcode là duy nhất, gồm:
 
-![session-transcode](../../../../public/images/livestream/session-transcode.png)
+![session-transcode](/images/livestream/session-transcode.png)
 
 - ID_task: Định dạng **livestream_[tasktype]_[livestreamId]**
 - Speed: Tốc độ transcode, Đơn vị: %
