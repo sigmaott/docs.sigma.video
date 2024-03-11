@@ -187,9 +187,9 @@ GInrJ4Tn9RcD1aHS3zxMsVpqXoP6Jaa0t8Y7Ai3Q
 
 You can choose from the available configuration template, or customize the configuration. You need to prepare the following information to be able to complete the job configuration step more quickly and easily
 
-- Information related to the profile: [See more](.. /.. /sigma-media-live/05-user-guide/h-profile/1-create-profile.md)
+- Information related to the profile: [See more](../../sigma-media-live/05-user-guide/h-profile/1-create-profile.md)
 
-- Target-related information: [See more](.. /05-user-guide/b-job-management/1-create-job#customize-shape)
+- Target-related information: [See more](../05-user-guide/b-job-management/1-create-job#customize-shape)
 
 ### Information related to the profile
 
@@ -197,7 +197,7 @@ The system displays 6 profiles by default including **1080, 720, 480, 360, 240, 
 
 You can add a profile by selecting the 'Add profile' button, the system will display a popup with information for you to set up a profile including: technical information about **Video, Audio, Watermark**
 
-See also [relationship between profile and watermark](.. /05-user-guide/b-job-management/1-create-job#customize-shape).
+See also [relationship between profile and watermark](../05-user-guide/b-job-management/1-create-job#customize-shape).
 
 ### Target-related information
 
@@ -231,7 +231,7 @@ See also [relationship between profile and watermark](.. /05-user-guide/b-job-ma
 
 - Select profiles: select all profiles in the list of configured profiles.
 
-[View target information](.. /05-user-guide/b-job-management/1-create-job#customize-shape)
+[View target information](../05-user-guide/b-job-management/1-create-job#customize-shape)
 
 ## Step 6: Create a job
 

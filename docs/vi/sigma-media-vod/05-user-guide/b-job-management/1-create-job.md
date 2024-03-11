@@ -181,7 +181,7 @@ Không hiển thị cấu hình DRM với định dạng mp4 và mp3.
     - **Col( column)**: giá trị mặc định **=2**. Nhập giá trị **từ 1 đến 50.**
     - **Row**: giá trị mặc định **=2**. Nhập giá trị **từ 1 đến 50.**
 
-![target-mp3](../../../../public/images/media-vod/job-management/target-mp3.png)
+![target-mp3](/images/media-vod/job-management/target-mp3.png)
 
 ```
 Không hiển thị cấu hình trick play với định dạng  mp3.

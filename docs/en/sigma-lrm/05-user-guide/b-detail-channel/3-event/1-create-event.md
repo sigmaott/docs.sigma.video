@@ -152,7 +152,7 @@ _Note: Events are only visible on selected Media live channels when the user is 
 
 After creating a new event, information about the event including **Event Name** and **duration** respectively will appear on the timeline.
 
-View statuses and display on [timeline](.. /a-open-detail.md).
+View statuses and display on [timeline](../a-open-detail.md).
 
 ## Display on the corresponding list
 
@@ -160,6 +160,6 @@ After creating a new event, all information of the event will be moved to the co
 
 Subject:
 
-[List of events](.. /c-event/3-event/3.1-view\.md)
+[List of events](../c-event/3-event/3.1-view\.md)
 
-[List of scheduling events](.. /c-event/2-event-echedule/2.1-view\.md)
+[List of scheduling events](../c-event/2-event-echedule/2.1-view\.md)

@@ -13,7 +13,7 @@ Display a drop-down list of choices
 
 **The system displays the default interface According to ad insert endpoint**
 
-The interface includes the information described in [Default Display](.. /a-open-statistic.md)
+The interface includes the information described in [Default Display](../a-open-statistic.md)
 
 ## Event chart by ad insert endpoint
 
@@ -29,7 +29,7 @@ _Figure 1: Endpoint event chart interface_
 
 </center>
 
-The interface is displayed with the default information described at [default information](.. /a-open-statistic.md)
+The interface is displayed with the default information described at [default information](../a-open-statistic.md)
 
 Select the desired quick filter endpoint/sub-endpoint (Optional).
 

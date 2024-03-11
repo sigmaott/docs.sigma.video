@@ -24,18 +24,18 @@ After selecting a server, mark the server selected and show the 2nd step.
 
 In the video transcoding process of a stream that creates a new job (job) for video processing, the input (VOD video) is the original video source to be processed. The format of the input can be MP4 (MPEG-4), MP3 (MPEG-3), HLS (HTTP Live Streaming) or DASH (Dynamic Adaptive Streaming over HTTP).
 
-! [Step2] (/images/media-vod/job-management/create-step-2.png)
+![Step2](/images/media-vod/job-management/create-step-2.png)
 
 Supported input options include:
 
-! [input-machine] (/images/media-vod/job-management/input-machine.png)
+![input-machine](/images/media-vod/job-management/input-machine.png)
 
 - Select files from the client (local): display a pop-up of files in the client (local) when clicking on the selection
   - Displays relevant information about the file such as file name, format, size, and time last created or modified.
   - No file size limit.
   - Choose only 1 file with popular formats such as audio file (MP3) or video file (MP4). And mark the selected file.
 
-! [input-library] (/images/media-vod/job-management/input-library.png)
+![input-library](/images/media-vod/job-management/input-library.png)
 
 - Select assets from the library: displays the asset selection window from the system's library.
   - **Type of asset**: audio and video
@@ -43,7 +43,7 @@ Supported input options include:
   - Searchable and filterable
   - Users can preview the asset before selecting it as input which helps users ensure that they choose the right asset that suits their needs.
 
-! [input-video-url] (/images/media-vod/job-management/input-video-url.png)
+![input-video-url](/images/media-vod/job-management/input-video-url.png)
 
 - Provide a link from a third party: after entering a valid path, display the path, hover displays basic information:
   - **Type**: Video/audio
@@ -65,7 +65,7 @@ After the user has selected input, the system returns to the new creation screen
 
 Next, the user will be directed to the next step in the process, choosing a destination to store the VOD job.
 
-! [Step3] (/images/media-vod/job-management/create-step-3.png)
+![Step3](/images/media-vod/job-management/create-step-3.png)
 
 Support output streams:
 
@@ -95,7 +95,7 @@ Next, the user will be directed to the final step in the process, configuring th
 
 The default display is a list of profiles with the status of no templates applied. The Create job button cannot be used.
 
-! [default] (/images/media-vod/job-management/config-default.png)
+![default](/images/media-vod/job-management/config-default.png)
 
 - General profile configuration: No data yet.
 - Per-Title Encoding: Off, the feature reduces file size by optimizing each frame without sacrificing video quality, which improves loading times by 70% as well as reduces storage and bandwidth costs.
@@ -111,11 +111,11 @@ To save time, users can choose one of the available configuration templates. Thi
 1. Click the 'apply with template' button
 2. Show sample list:
 
-! [template list] (/images/media-vod/job-management/template-list-create.png)
+![template list](/images/media-vod/job-management/template-list-create.png)
 
 3. After applying the template, the template name display and the current configuration will be replaced with the sample data. Only get information from the template, users can still customize the configuration.
 
-! [choose template] (/images/media-vod/job-management/select-template.png)
+![choose template](/images/media-vod/job-management/select-template.png)
 
 At the same time, the system displays the Create job step
 
@@ -131,9 +131,9 @@ Users expect the ability to customize and create new information for themselves.
 2. Proper use of profiles: Users can create and manage up to 10 profiles:
 
 - Use the sample profiles available.
-- Edit the sample profile: By clicking on the 'edit'' icon in the action column and proceed with editing according to [profile editing instructions](.. /.. /.. /sigma-media-live/05-user-guide/h-profile/3-edit-profile.md).
-- Create a new profile as you like: By clicking on the "add profile" button and follow the steps according to [profile creation guide](.. /.. /.. /sigma-media-live/05-user-guide/h-profile/1-create-profile.md).
-- Delete unnecessary profiles: By clicking on the "delete" icon in the action column and proceed with the deletion according to [profile deletion instructions](.. /.. /.. /sigma-media-live/05-user-guide/h-profile/5-delete.md).
+- Edit the sample profile: By clicking on the 'edit'' icon in the action column and proceed with editing according to [profile editing instructions](../../../sigma-media-live/05-user-guide/h-profile/3-edit-profile.md).
+- Create a new profile as you like: By clicking on the "add profile" button and follow the steps according to [profile creation guide](../../../sigma-media-live/05-user-guide/h-profile/1-create-profile.md).
+- Delete unnecessary profiles: By clicking on the "delete" icon in the action column and proceed with the deletion according to [profile deletion instructions](../../../sigma-media-live/05-user-guide/h-profile/5-delete.md).
 
 ```
 **profile and watermark**
@@ -146,11 +146,11 @@ The process of running the job uses a profile, 1 watermark is displayed 1 video 
 
 When clicking the "Add Goal" button, a mandatory window appears asking the user to select the desired format including: **DASH, HLS, Multiple-mp4, Mp4, Mp3**.
 
-! [target output] (/images/media-vod/job-management/target-output.png)
+![target output](/images/media-vod/job-management/target-output.png)
 
 After selecting the format, open a new window that further configures the objectives including:
 
-! [target-hls] (/images/media-vod/job-management/target-hls.png)
+![target-hls](/images/media-vod/job-management/target-hls.png)
 
 - Information:
   - **Name**: displays [selection format]-[random character system] to optimize user experience, users can modify the name to suit their wishes.
@@ -162,7 +162,7 @@ After selecting the format, open a new window that further configures the object
   - **Time**: Inserts timestamp into playlist, disabled by default.
   - **Playlist**: Inserts timestamp into playlist, disabled by default.
 
-! [multiple-mp4] (/images/media-vod/job-management/target-multiple-mp4.png)
+![multiple-mp4](/images/media-vod/job-management/target-multiple-mp4.png)
 
 ```
 The manifest configuration with multiple-mp4 and mp4 formats is not displayed.
@@ -172,7 +172,7 @@ The manifest configuration with multiple-mp4 and mp4 formats is not displayed.
   - **Key provider**: The method of providing the encryption key, static or obtained from the server containing the encryption key, options: **static, sigma-drm-v1, sigma-drm, sigma-multi-drm, drmtoday, CPIX.**
   - Each key provider selection displays the corresponding information.
 
-! [target-mp4] (/images/media-vod/job-management/target-mp4.png)
+![target-mp4](/images/media-vod/job-management/target-mp4.png)
 
 ```
 Does not display DRM profiles with mp4 and mp3 formats.
@@ -184,7 +184,7 @@ Does not display DRM profiles with mp4 and mp3 formats.
   - **Col( column)**: default value **=2**. Enter the value **from 1 to 50.**
   - **Row**: default value **=2**. Enter the value **from 1 to 50.**
 
-! [target-mp3] (.. /.. /.. /.. /public/images/media-vod/job-management/target-mp3.png)
+![target-mp3](../../../../public/images/media-vod/job-management/target-mp3.png)
 
 ```
 Do not display trick play profiles with mp3 format.
@@ -208,7 +208,7 @@ This is an optional operation, limited to 5 Watermarks added at the general prof
 
 Select the general profile profile at the top of the section, displaying the window:
 
-! [general-profile-config] (/images/media-vod/job-management/general-profile-config.png)
+![general-profile-config](/images/media-vod/job-management/general-profile-config.png)
 
 - **configure Watermark** (required item)
 - **configure Audio Watermark** (optional)

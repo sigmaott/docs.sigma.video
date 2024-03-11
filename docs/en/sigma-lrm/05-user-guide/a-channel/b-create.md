@@ -30,7 +30,7 @@ The information displayed:
 ### Enable channel sync profiles
 
 Maintaining a synchronized broadcast schedule is critical to providing the best viewing experience for viewers. We recommend that you enable channel sync profiles so that you can proactively sync as needed.
-See [proactive sync] instructions(.. /b-detail-channel/2-epg/2.7-manual-sync.md)
+See [proactive sync] instructions(../b-detail-channel/2-epg/2.7-manual-sync.md)
 
 Enable synchronous configuration, displaying fields:
 

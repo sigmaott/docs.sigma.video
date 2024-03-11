@@ -93,7 +93,7 @@ Display HLS configuration information, when catchup function is enabled, **profi
 
 ! 
 
-After creation, the channel is crawled from [live media channel](.. /.. /sigma-media-live/05-user-guide/b-transcode-package-channel).
+After creation, the channel is crawled from [live media channel](../../sigma-media-live/05-user-guide/b-transcode-package-channel).
 
 ### Prepare VTV Source Channel Data
 

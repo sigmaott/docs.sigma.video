@@ -15,7 +15,7 @@ Screen system **Configuration settings for Event Channel**, general configuratio
 
 ![General Configuration Settings](/images/media-live/event-channel/create-event-channel-1.png)
 
-[](.. /d-input-management/d-duplicate-input.md#create-input)
+[](../d-input-management/d-duplicate-input.md#create-input)
 
 With the main information:
 

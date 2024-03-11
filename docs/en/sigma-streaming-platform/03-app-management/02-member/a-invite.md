@@ -16,7 +16,7 @@ In order to enhance management, information security and optimize the work proce
 
 ## Prepare
 
-Before starting, using the Sigma Streaming service requires members to have an access account. If you do not have an account, please refer to the instructions for creating a new account [Create new account](.. /.. /02-user-management/a-sign-up.md#sign-account).
+Before starting, using the Sigma Streaming service requires members to have an access account. If you do not have an account, please refer to the instructions for creating a new account [Create new account](../../02-user-management/a-sign-up.md#sign-account).
 
 ## Add members
 
@@ -108,6 +108,6 @@ Users will receive an invitation email and simply click on 'Access App'
 
 Members will be redirected to SSP| Sign up for an account, using the email account that was invited. At this point, they will not have the right to edit the information and will be asked to set a password.
 
-To go through the application process, please see detailed instructions [here]. /.. /02-user-management/a-sign-up.md#sign-account).
+To go through the application process, please see detailed instructions [here]. /../02-user-management/a-sign-up.md#sign-account).
 
 After completing the registration process, the system will open the Application Overview interface for the user.

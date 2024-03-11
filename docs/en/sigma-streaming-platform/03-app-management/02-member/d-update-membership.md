@@ -20,7 +20,7 @@ Display a **Edit Member** window:
 - **Name**: User email - no corrections allowed.
 - **Permission groups**: A list of currently selected permission groups.
 
-**Step 2**: Click on 'permission group' or you can quickly create one according to the instructions [here](.. /03-group/b-create.md#create-group).
+**Step 2**: Click on 'permission group' or you can quickly create one according to the instructions [here](../03-group/b-create.md#create-group).
 
 Click the 'Save' button.
 

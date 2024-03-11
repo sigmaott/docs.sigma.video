@@ -27,7 +27,7 @@ Users can add new machines, following these steps:
 
 3. Server settings
 
-   [Install Server](.. /03-getting-started/04-install-new-machine#implement-set-machine)
+   [Install Server](../03-getting-started/04-install-new-machine#implement-set-machine)
 
 ***
 
