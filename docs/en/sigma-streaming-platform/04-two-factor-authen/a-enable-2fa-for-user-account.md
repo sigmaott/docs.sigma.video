@@ -30,7 +30,7 @@ This functionality allows CMS users to enable two-factor authentication for user
 
 Users use this 'Authentication Code' to enter in the **Enter verification code** section in the popup
 
-! [Confirmation pop-up] (/images/streaming-platform/2-factor-authen/pop-up-enter-verify-code.png)
+![Confirmation pop-up](/images/streaming-platform/2-factor-authen/pop-up-enter-verify-code.png)
 
 **Step 5**: After the import is completed, the user presses the **"Finish" button**
 
@@ -38,7 +38,7 @@ The system will check the correctness of the confirmation code with the authenti
 
 If the authentication code check is correct, the system will display the message **Congratulations! You have enabled two-factor authentication!** and display a **Recovery code** pop-up for user accounts
 
-! [Activation Successful] (/images/streaming-platform/2-factor-authen/enable-2FA-user-successful.png)
+![Activation Successful](/images/streaming-platform/2-factor-authen/enable-2FA-user-successful.png)
 
 With the main information:
 

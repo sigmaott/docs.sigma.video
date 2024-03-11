@@ -110,7 +110,7 @@ Hệ thống vẫn ở Danh sách quảng cáo.
 
   *Hình 2: Bật tính năng kiểm duyệt theo quảng cáo*
 
-  </center>
+</center>
 
 * Hiển thị chuyển switch: approve, thông báo đã chuyển thành công.
 

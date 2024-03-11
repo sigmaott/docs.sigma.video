@@ -14,11 +14,11 @@ Sau đó, một cửa sổ pop-up **Tạo bản sao ad insert endpoint** sẽ xu
 
 ![](/images/dai/pop-up-duplicate-endpoint.png)
 
-  <center>
+<center>
 
   *Hình 1: Pop-up tạo bản sao endpoint*
 
-  </center>
+</center>
 
 **Cho phép** chỉnh sửa tất cả các trường.
 
@@ -30,7 +30,7 @@ Sau đó, một cửa sổ pop-up **Tạo bản sao ad insert endpoint** sẽ xu
 
 Hệ thống hiển thị thông báo thực hiện **tạo bản sao thành công** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
 
- <center>
+<center>
 
  ![](/images/dai/success-duplicate.png)
 

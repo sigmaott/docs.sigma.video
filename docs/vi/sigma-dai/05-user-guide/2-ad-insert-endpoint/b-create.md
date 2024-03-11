@@ -11,11 +11,11 @@ Hệ thống hiển thị Pop-up Thêm ad insert endpoint mới bên phải giao
 
 ![](/images/dai/pop-up-create-endpoint.png)
 
-  <center>
+<center>
 
   *Hình 1: Pop-up tạo mới endpoint*
 
-  </center>
+</center>
 
 Với các thông tin chính:
 
