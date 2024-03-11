@@ -11,7 +11,6 @@ Chuyển mã VOD liền mạch để phát trực tuyến tối ưu trên nhiề
 
 Cho phép quản lý và tổ chức nội dung video từ nhiều nguồn khác nhau. Nó hỗ trợ các chức năng như tạo danh mục nội dung, phân loại, gắn thẻ và tìm kiếm nhanh nội dung.
 
-<<<<<<< HEAD
 **Topic:** 
 
 [Tạo công việc](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/1-create-job.md)
@@ -58,5 +57,11 @@ Bên cạnh việc thiết lập những cấu hình cho công việc (job) đ�
 ## Giả lập luồng trực tiếp thông qua VOD (Pseudo-live streaming)
 
 Khác với việc truyền tải nội dung trực tiếp và thực tế, pseudo-live streaming tạo ra một trải nghiệm giống như đang xem phát sóng trực tiếp mặc dù thực tế là nó được chơi từ một nguồn video đã được ghi trước đó.
+
+**Topic:**
+
+## Batch Job transcode
+
+Nếu bạn muốn di chuyển nhiều resource đang được lưu trữ trên máy (server) hoặc nguồn khác và những resource này có thể truy cập công khai, việc tạo từng job mất thời gian. Vì vậy, để tối ưu thời gian cho người dùng, chúng tôi hỗ trợ di chuyển tài nguyên theo batches. Bằng cách này, bạn có thể nhanh chóng transcode một số lượng lớn tệp với đầu ra n jobs và giảm mức sử dụng lưu lượng.
 
 **Topic:**

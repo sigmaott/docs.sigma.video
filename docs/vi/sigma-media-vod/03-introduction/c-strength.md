@@ -13,7 +13,6 @@ Chính sự linh hoạt và tiện ích của VOD làm cho nó trở thành mộ
 
 Giải pháp Media VOD mang lại nhiều lợi ích cho người sử dụng:
 
-<<<<<<< HEAD
 - **Cung cấp quy trình chuyển mã mạnh mẽ**: Hỗ trợ chuyển mã nhiều file cùng lúc. Hỗ trợ nhiều loại codec video và âm thanh nâng cao tính linh hoạt của bộ chuyển mã
 - **Hỗ trợ nhiều định dạng nguồn đầu vào**: MP4 (MPEG-4), MP3 (MPEG-3), HLS (Truyền phát trực tiếp HTTP), DASH (Truyền phát thích ứng động qua HTTP),... từ trên máy của bạn, thư viện của chúng tôi, ngoài ra còn hỗ trợ nhập đường dẫn từ bên thứ ba hoặc sử dụng video mẫu của chúng tôi cung cấp
 - **Cung cấp cơ chế thư mục cần theo dõi**: Khả năng quản lý và hiển thị hiệu quả siêu dữ liệu được liên kết với từng tệp video là rất quan trọng

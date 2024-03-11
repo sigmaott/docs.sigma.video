@@ -64,13 +64,13 @@ Mục lựa chọn điều kiện (mô tả điều kiện để theo dõi thư 
 
 Hệ thống hỗ trợ các nơi để lưu trữ các tập tin đầu ra, bao gồm: Lưu trữ tại thư viện, lưu trữ thư mục, bộ nhớ bên thứ ba
 
-Xem thêm tại: 
+Xem thêm tại: [Chọn đầu ra (destination)](../b-job-management/1-create-job.md#bước-3-chọn-đầu-ra-destination)
 
 ## Bước 6: Cấu hình job
 
 Hệ thống hỗ trợ chọn bản mẫu có sẵn hoặc có thể tạo cấu hình theo mong muốn
 
-Xem thêm tại: 
+Xem thêm tại: [Cấu hình job](../b-job-management/1-create-job.md#bước-4-cấu-hình-job)
 
 ## Bước 7: Hoàn thành tạo quy tắc thư mục
 
