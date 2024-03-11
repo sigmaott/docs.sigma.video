@@ -82,15 +82,22 @@ Hệ thống chỉ hỗ trợ **đường dẫn URL http hoặc http(s)**
 Ví dụ:
 
 ```
-http://test.com/manifest
-https://example.com/test
+http://example.com/video.mp4
 ```
 
 ### Video mẫu có trên hệ thống
 
 Ngoài những lựa chọn trên, hệ thống cung cấp cho bạn những video mẫu, hiển thị những thông tin liên quan đến video (như tên video, độ phân giải, thời lượng,...) giúp bạn có thể có thể đưa ra lựa chọn dễ dàng và phù hợp hơn.
-
-
+Ví dụ:
+```
+pexels-yaroslav-shuraev-6985325 (2160p).mp4
+Resolution: 3840x2160
+Duration: 00:00:14
+Type: video
+Format: mp4
+Codec: h265
+FPS: 23.98
+```
 ## Bước 4: Xác định điểm đến của luồng đầu ra
 
 Sau quá trình xử lý chuyển mã luồng đầu vào (video), bạn nên xác định điểm đến để lưu trữ luồng đầu ra (video đã được chuyển mã), hệ thống hỗ trợ điểm đến luồng đầu ra:
@@ -102,26 +109,68 @@ Sau quá trình xử lý chuyển mã luồng đầu vào (video), bạn nên x�
 
 Sau quá trình xử lý chuyển mã luồng đầu vào (video), bạn có thể lưu tại thư mục trên máy của bạn. 
 
-### Lưu tại Thư viện của hệ thống
-
-Hệ thống hỗ trợ sau quá trình xử lý chuyển mã video, bạn có thể lưu trực tiếp tại Thư viện của hệ thống, giúp bạn có thể quản lý được thư viện ứng dụng tốt hơn
-
 ### Lưu tại bên thứ 3
 
 Hệ thống hỗ trợ lưu tại bên thứ 3 như **FTP(S)** và **Generic S3**
 
 Đối với bên thứ 3 là **FPT(S)**, bạn nên chuẩn bị những thông tin liên quan như:
 * ***Host***: Địa chỉ IP
+
+Ví dụ:
+```
+192.168.1.100
+```
+
 * ***Port***: với máy sử dụng nhiều dịch vụ, port để phân biệt.
+
+Ví dụ:
+```
+8080
+```
+
 * ***Username***: Tên tài khoản đăng nhập
+
+Ví dụ:
+```
+testvod@example.com
+```
 * ***Password***: mật khẩu đăng nhập
+
+Ví dụ:
+```
+1234567890
+```
 
 Đối với bên thứ 3 là **Generic S3**, bạn nên chuẩn bị những thông tin liên quan như:
 
 - ***Bucket name***: Tên của thùng( bucket) chứa các tệp.
+
+Ví dụ:
+```
+default-app
+```
+
 - ***Endpoint***: URL endpoint để truy cập vào S3
-- ***Access key ID***: ID Khóa truy cập (tên người dùng) cho phép truy cập vào S3
-- ***Secret access key***: Mật khẩu được liên kết với ID khóa truy cập (Access key ID) cho phép truy cập vào S3
+
+Ví dụ:
+```
+http://172.16.20.89:9000
+```
+
+- ***Access key ID***: ID Khóa truy cập (tên người dùng) cho phép truy cập vào S3.
+
+Ví dụ:
+```
+jpPANVUDd9
+```
+
+- ***Secret access key***: Mật khẩu được liên kết với ID khóa truy cập (Access key ID) cho phép truy cập vào S3.
+
+Ví dụ:
+```
+GInrJ4Tn9RcD1aHS3zxMsVpqXoP6Jaa0t8Y7Ai3Q
+```
+
 - ***Public permission*** (không bắt buộc)
 
 
@@ -129,43 +178,60 @@ Hệ thống hỗ trợ lưu tại bên thứ 3 như **FTP(S)** và **Generic S3
 
 Bạn có thể chọn template cấu hình có sẵn, hoặc tùy chỉnh cấu hình. Bạn cần chuẩn bị những thông tin sau để có thể hoàn thành bước thiết lập cấu hình job nhanh chóng và dễ dàng hơn
 
-* Các thông tin liên quan đến profile 
-* Các thông tin liên quan đến target
+- Các thông tin liên quan đến profile: [Xem thêm](../../sigma-media-live/05-user-guide/h-profile/1-create-profile.md)
+
+- Các thông tin liên quan đến target: [Xem thêm](../05-user-guide/b-job-management/1-create-job#tuỳ-chỉnh-cấu-hình)
 
 
 ### Các thông tin liên quan đến profile
 
 Hệ thống hiển thị mặc định 6 profile gồm **1080, 720, 480, 360, 240, 144**
 
-Bạn có thể thêm profile bằng cách chọn nút ***“Thêm profile”***, hệ thống sẽ hiển thị popup bao gồm những thông tin để bạn thiết lập profile bao gồm: thông tin kĩ thuật về **Video, Audio, Watermark**
+Bạn có thể thêm profile bằng cách chọn nút `Thêm profile`, hệ thống sẽ hiển thị popup bao gồm những thông tin để bạn thiết lập profile bao gồm: thông tin kĩ thuật về **Video, Audio, Watermark**
 
-
-
-**Lưu ý** khi thiết lập thông tin profile: 
-
-- Tổng tối đa trong 1 job là 10 profile
-
-- 1 profile - 1 video
-
-- 1 profile -10 audio
-
-- video 1-1 watermark
-
-- audio 1-1 watermark
+Xem thêm [mối quan hệ giữa profile và watermark](../05-user-guide/b-job-management/1-create-job#tuỳ-chỉnh-cấu-hình).
 
 ### Các thông tin liên quan đến target
 
-Hệ thống hỗ trợ định dạng đầu ra: **MP3, MP4, Multi MP4, HLS, DASH**
+1. Chọn định dạng đầu ra: HLS
+2. Cấu hình HLS
+- Thông tin:
+    - **Tên**: hls-0p trong đó
+        - hls- định dạng
+        - 0p-hệ thống random kí tự
+    - **Định dạng**: hHLS
+    - **Container**: mpeg-ts
+    - **Counter**: 4
+    - **TS**: 6
+    - **Thời gian**: tắt.
+    - **Danh sách phát**: tắt.
 
-Với định dạng đầu ra **HLS, DASH, MultiMP4** cho chọn **manifest, DRM và NHIỀU profile**.
+- DRM: bật chế độ DRM
+    - **Key provider**: sigma-drm
+    - **Asset ID**: 
+    - **Environment**: product
+    - **DRM Credentials**: chọn DRM-test
 
-Với định dạng đầu ra **MP4, MP3** cho chọn **MỘT profile**.
+- Trick play: bật chế độ trick play, người dùng được phép cấu hình các thông tin hiển thị thumbnail:
+    - **Width**: 50
+    - **Delay**: 2
+    - **Col( column)**: 2
+    - **Row**: 2
 
-Khi tạo job, được **lựa chọn tối đa 5 target**
+- **Subtitle**: Không cấu hình
 
-Trường hợp người dùng chọn đầu ra là thư viện, định dạng đầu ra chỉ có MP3 và MP4.
+- Chọn profile: chọn profile tất cả trong danh sách profile đã cấu hình. 
 
+[Xem thông tin target](../05-user-guide/b-job-management/1-create-job#tuỳ-chỉnh-cấu-hình)
 
 ## Bước 6: Tạo công việc (job)
 
 Sau khi hoàn thành các bước trên, bạn có thể chọn nút **“Tạo job”** để hệ thống chuyển mã video của bạn. Bên cạnh đó, Sigma Media VOD còn hỗ trợ bạn có thể **lưu Bản mẫu** bao gồm các thông tin cấu hình job, để bạn có thể tiết kiệm thời gian cho lần tiếp theo.
+
+## Bước 7: Xoá công việc (job)
+
+Khi bạn đã tạo và khởi chạy công việc (job). Sau đó, job hoàn thành( trạng thái Complete) hoặc quá trình xảy ra lỗi( trạng thái Error) để đóng các job không cần thiết, bạn cần thực hiện thao tác xoá job như sau:
+
+1. Trên giao diện danh sách job, hãy chọn công việc (job) mà bạn muốn xoá, và sau đó nhấp vào icon ``Xoá``.
+2. Một hộp thoại xác nhận sẽ xuất hiện. Hãy chọn nút **Xác nhận** để tiếp tục.
+3. Hệ thống sẽ thực hiện xoá công việc (job) và bạn sẽ trở về giao diện danh sách công việc (job) sau khi hoàn thành quá trình xoá.
