@@ -132,7 +132,8 @@ Người dùng mong muốn có khả năng tùy chỉnh và tạo mới thông t
 - Tạo hồ sơ mới theo ý muốn: Bằng cách nhấp vào nút ``thêm hồ sơ``và thực hiện các bước theo [hướng dẫn tạo profile](../../../sigma-media-live/05-user-guide/h-profile/1-create-profile.md).
 - Xoá hồ sơ không cần thiết: Bằng cách nhấp vào biểu tượng ``xoá`` trong cột hành động và tiến hành xoá theo [hướng dẫn xoá profile](../../../sigma-media-live/05-user-guide/h-profile/5-delete.md).
 
-``` Mối quan hệ giữa profile và watermark
+```
+Mối quan hệ giữa profile và watermark:
 Mỗi profile có thể chứa tối đa 10 audio và 1 video, tối đa 11 watermark.
 
 Quá trình chạy job sử dụng profile, 1 watermark được hiển thị 1 video hoặc 1 audio tương ứng. 

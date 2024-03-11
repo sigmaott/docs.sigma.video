@@ -15,7 +15,7 @@ The Initialize Job function is used for both cases: creating a new channel and u
 - **Job's configuration parameters will not be saved when the server is turned off.
 - **Use the **mode** field to create a job for Live Channel or VOD Content.
 - **The **name** field is a unique identifier for the job and is used to update or disable the job.
-  :::
+:::
 
 ## Request
 
@@ -308,7 +308,7 @@ Where:
   - **Preload**: [0, 1], renormalize video before running video pre events
   - **id3**: [0, 1], add id3 stream to hls ts outputs
   - **s3Config**: the path to the s3 config file (s3 url is in the form s3://path/to/file), the default is data/s3.json, the file content is as follows:
-  - **```json
+  - ```json
     {
         "accessKeyId": "<required>",
         "secretAccessKey": "<required>",
