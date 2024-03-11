@@ -79,13 +79,23 @@ The system only supports http or http(s)\*\* URLs
 Example:
 
 ```
-http://test.com/manifest
-https://example.com/test
+http://example.com/video.mp4
 ```
 
 ### Sample video available on the system
 
 In addition to the above options, the system provides you with sample videos, displaying information related to the video (such as video title, resolution, duration, ,...) so that you may be able to make an easier and more appropriate choice.
+Example:
+
+```
+Pexels-Yaroslav-Shuraev-6985325 (2160p).mp4
+Resolution: 3840x2160
+Duration: 00:00:14
+Type: video
+Format: mp4
+Codec: h265
+FPS: 23.98
+```
 
 ## Step 4: Determine the destination of the output stream
 
@@ -99,10 +109,6 @@ After processing input stream (video) transcoding, you should define a destinati
 
 After processing the input stream (video) transcoding, you can save it in a folder on your machine.
 
-### Save at System Library
-
-The system supports after video transcoding processing, you can save directly at the system's library, helping you to better manage the application library
-
 ### Save at 3rd party
 
 3rd party storage support systems such as **FTP(S)** and **Generic S3**
@@ -110,55 +116,131 @@ The system supports after video transcoding processing, you can save directly at
 For 3rd party **FPT(S)**, you should prepare relevant information such as:
 
 - Host\*\*\*: IP address
+
+Example:
+
+```
+192.168.1.100
+```
+
 - Port\*\*\*: for machines using many services, port to distinguish.
+
+Example:
+
+```
+8080
+```
+
 - Username\*\*\*: Login account name
+
+Example:
+
+```
+testvod@example.com
+```
+
 - Password\*\*\*: login password
+
+Example:
+
+```
+1234567890
+```
 
 For third party **Generic S3**, you should prepare relevant information such as:
 
 - Bucket name\*\*\*: The name of the bucket containing the files.
+
+Example:
+
+```
+default-app
+```
+
 - Endpoint\*\*\*: URL endpoint to access S3
-- Access key ID\*\*\*: The Access Key ID (user name) that allows access to S3
-- Secret access key\*\*\*: The password associated with the Access key ID that allows access to S3
+
+Example:
+
+```
+http://172.16.20.89:9000
+```
+
+- Access key ID\*\*\*: The Access Key ID (user name) that allows access to S3.
+
+Example:
+
+```
+jpPANVUDd9
+```
+
+- Secret access key\*\*\*: The password associated with the Access key ID that allows access to S3.
+
+Example:
+
+```
+GInrJ4Tn9RcD1aHS3zxMsVpqXoP6Jaa0t8Y7Ai3Q
+```
+
 - Public permission\*\*\* (optional)
 
 ## Step 5: Set up job configuration
 
 You can choose from the available configuration template, or customize the configuration. You need to prepare the following information to be able to complete the job configuration step more quickly and easily
 
-- Information related to the profile
-- Target-related information
+- Information related to the profile: [See more](.. /.. /sigma-media-live/05-user-guide/h-profile/1-create-profile.md)
+
+- Target-related information: [See more](.. /05-user-guide/b-job-management/1-create-job#customize-shape)
 
 ### Information related to the profile
 
 The system displays 6 profiles by default including **1080, 720, 480, 360, 240, 144**
 
-You can add a profile by selecting the \*\*\*"Add profile" button, the system will display a popup with information for you to set up the profile including: technical information about **Video, Audio, Watermark**
+You can add a profile by selecting the 'Add profile' button, the system will display a popup with information for you to set up a profile including: technical information about **Video, Audio, Watermark**
 
-**Note** when setting up profile information:
-
-- The maximum total in 1 job is 10 profiles
-
-- 1 profile - 1 video
-
-- 1 profile -10 audio
-
-- Video 1-1 watermark
-
-- Audio 1-1 watermark
+See also [relationship between profile and watermark](.. /05-user-guide/b-job-management/1-create-job#customize-shape).
 
 ### Target-related information
 
-The system supports output format: **MP3, MP4, Multi MP4, HLS, DASH**
+1. Select output format: HLS
+2. HLS configuration
 
-With output format **HLS, DASH, MultiMP4** for select **manifest, DRM and MULTIPLE profile**.
+- Information:
+  - **Name**: hls-0p where
+    - hls- format
+    - 0p-system random characters
+  - **Format**: hHLS
+  - **Container**: mpeg-ts
+  - **Counter**: 4
+  - **TS**: 6
+  - **Time**: off.
+  - **Playlist**: off.
 
-With output format **MP4, MP3** for selecting **ONE profile**.
+- DRM: enable DRM mode
+  - **Key provider**: sigma-drm
+  - **Asset ID**:
+  - **Environment**: product
+  - **DRM Credentials**: select DRM-test
 
-When creating a job, a maximum of 5 targets are selected\*\*\*
+- Trick play: on trick play mode, users are allowed to configure the information to display thumbnails:
+  - **Width**: 50
+  - **Delay**: 2
+  - **Col( column)**: 2
+  - **Row**: 2
 
-Where the user chooses the output as a library, the output format is only MP3 and MP4.
+- **Subtitle**: Not configurable
+
+- Select profiles: select all profiles in the list of configured profiles.
+
+[View target information](.. /05-user-guide/b-job-management/1-create-job#customize-shape)
 
 ## Step 6: Create a job
 
 After completing the above steps, you can select the "Create job" button for the system to transcode your video. Besides, Sigma Media VOD also supports you to save Templates\*\* including job configuration information, so that you can save time for next time.
+
+## Step 7: Delete the job
+
+Once you have created and launched the job. After that, the job is completed (Complete state) or the error process (Error state) to close unnecessary jobs, you need to perform the job deletion operation as follows:
+
+1. On the job list interface, select the job you want to delete, and then click the "Delete" icon.
+2. A confirmation dialog box will appear. Select the **Confirm** button to continue.
+3. The system will perform job deletion and you will return to the job list interface after completing the deletion process.
