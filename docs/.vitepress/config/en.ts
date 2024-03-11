@@ -23,7 +23,11 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         link: '/en/sigma-streaming-platform/01-get-started/1-introduction.md'
       },
       {
-        text: 'Components',
+        text: 'Sigma Media Server',
+        link: '/en/sigma-media-server/'
+      },
+      {
+        text: 'Products',
         items: [
           { text: 'Sigma Media Live', link: '/en/sigma-media-live/' },
           { text: 'Sigma Media VOD', link: '/en/sigma-media-vod/' },
@@ -31,26 +35,26 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           { text: 'Sigma Interactive', link: '/en/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/en/sigma-lrm/' },
           { text: 'Sigma Dynamic Ads Insert', link: '/en/sigma-dai/' },
-          { text: 'Sigma Engine Server', link: '/en/sigma-media-server/' }
         ]
       },
       {
-        text: 'APIs',
+        text: 'Api',
         items: [
           {
-            text: 'Sigma Interactive Apis',
-            link: '/en/apis/sigma-interactive'
+            text: 'Sigma Media Live',
+            link: '/apis/sigma-media-live'
+          },
+          { text: 'Sigma Media VOD', link: '/apis/sigma-media-vod' },
+          { text: 'Sigma Livestream', link: '/apis/sigma-livestream' },
+          { text: 'Sigma Dynamic Ads Insert', link: '/apis/sigma-dai' },
+          {
+            text: 'Sigma Interactive',
+            link: '/apis/sigma-interactive'
           },
           {
-            text: 'Sigma Linear Right Management Apis',
-            link: '/en/apis/sigma-lrm'
+            text: 'Sigma Linear Right Management',
+            link: '/apis/sigma-lrm'
           },
-          {
-            text: 'Sigma Media Live Apis',
-            link: '/en/apis/sigma-media-live'
-          },
-          { text: 'Sigma Dynamic Ads Insert Apis', link: '/en/apis/sigma-dai' },
-          { text: 'Sigma Livestream', link: '/apis/sigma-livestream' }
         ]
       },
       { text: 'Teams', link: '/en/teams/', activeMatch: '/en/teams/' },
@@ -85,6 +89,13 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             partialFileNamesToIgnore: ['_partial']
           }
         )
+      ],
+      '/en/sigma-media-vod/': [
+        ...SidebarBuilder.get.foldersAndOrder('./docs/en/sigma-media-vod', {
+          collapsed: false,
+          collapsible: true,
+          partialFileNamesToIgnore: ['_partial']
+        })
       ],
       '/en/sigma-media-server/': [
         ...SidebarBuilder.get.foldersAndOrder('./docs/en/sigma-media-server', {

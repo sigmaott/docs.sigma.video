@@ -23,7 +23,11 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         link: '/vi/sigma-streaming-platform/01-get-started/1-introduction.md'
       },
       {
-        text: 'Các thành phần',
+        text: 'Sigma Media Server',
+        link: '/vi/sigma-media-server/'
+      },
+      {
+        text: 'Sản phẩm',
         items: [
           { text: 'Sigma Media Live', link: '/vi/sigma-media-live/' },
           { text: 'Sigma Media VOD', link: '/vi/sigma-media-vod/' },
@@ -31,26 +35,26 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           { text: 'Sigma Interactive', link: '/vi/sigma-interactive/' },
           { text: 'Sigma Linear Right Management', link: '/vi/sigma-lrm/' },
           { text: 'Sigma Dynamic Ads Insert', link: '/vi/sigma-dai/' },
-          { text: 'Sigma Media Server', link: '/vi/sigma-media-server/' }
         ]
       },
       {
         text: 'APIs',
         items: [
           {
-            text: 'Sigma Interactive Apis',
-            link: '/vi/apis/sigma-interactive'
+            text: 'Sigma Media Live',
+            link: '/apis/sigma-media-live'
+          },
+          { text: 'Sigma Media VOD', link: '/apis/sigma-media-vod' },
+          { text: 'Sigma Livestream', link: '/apis/sigma-livestream' },
+          { text: 'Sigma Dynamic Ads Insert', link: '/apis/sigma-dai' },
+          {
+            text: 'Sigma Interactive',
+            link: '/apis/sigma-interactive'
           },
           {
-            text: 'Sigma Linear Right Management Apis',
-            link: '/vi/apis/sigma-lrm'
+            text: 'Sigma Linear Right Management',
+            link: '/apis/sigma-lrm'
           },
-          {
-            text: 'Sigma Media Live Apis',
-            link: '/vi/apis/sigma-media-live'
-          },
-          { text: 'Sigma Dynamic Ads Insert Apis', link: '/apis/sigma-dai' },
-          { text: 'Sigma Livestream', link: '/apis/sigma-livestream' }
         ]
       },
       { text: 'Đội ngũ', link: '/vi/teams/', activeMatch: '/vi/teams/' },
@@ -85,6 +89,13 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             partialFileNamesToIgnore: ['_partial']
           }
         )
+      ],
+      '/vi/sigma-media-vod/': [
+        ...SidebarBuilder.get.foldersAndOrder('./docs/vi/sigma-media-vod', {
+          collapsed: false,
+          collapsible: true,
+          partialFileNamesToIgnore: ['_partial']
+        })
       ],
       '/vi/sigma-media-server/': [
         ...SidebarBuilder.get.foldersAndOrder('./docs/vi/sigma-media-server', {

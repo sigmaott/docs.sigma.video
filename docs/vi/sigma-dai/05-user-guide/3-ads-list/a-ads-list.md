@@ -22,7 +22,7 @@ Hệ thống hiển thị giao diện Danh sách quảng cáo gồm các thông 
 
   *Hình 1: Danh sách quảng cáo mặc định*
 
-  </center>
+</center>
 
 * **Tiêu đề**: Danh sách quảng cáo.
 * **Kiểm duyệt theo ứng dụng**: mặc định đang tắt.

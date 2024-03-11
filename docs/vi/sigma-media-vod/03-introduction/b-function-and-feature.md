@@ -11,6 +11,7 @@ Chuyển mã VOD liền mạch để phát trực tuyến tối ưu trên nhiề
 
 Cho phép quản lý và tổ chức nội dung video từ nhiều nguồn khác nhau. Nó hỗ trợ các chức năng như tạo danh mục nội dung, phân loại, gắn thẻ và tìm kiếm nhanh nội dung.
 
+<<<<<<< HEAD
 **Topic:** 
 
 [Tạo công việc](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/1-create-job.md)
@@ -34,7 +35,6 @@ Khi hệ thống phát hiện sự thay đổi trong thư mục (ví dụ: tệp
 
 **Topic:**
 
-
 [Tạo cơ chế theo dõi thư mục](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/1-create-job.md)
 
 [Xem danh sách quy tắc thư mục](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/2-view-job-list.md)
@@ -48,7 +48,6 @@ Khi hệ thống phát hiện sự thay đổi trong thư mục (ví dụ: tệp
 [Dừng theo dõi thư mục](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/6-delete-job.md)
 
 [Tiếp tục theo dõi thư mục](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/6-delete-job.md)
-
 
 ## Quản lý mẫu cấu hình
 

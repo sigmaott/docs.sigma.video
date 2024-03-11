@@ -18,11 +18,11 @@ Trong trường bạn muốn chỉnh sửa, di chuyển chuột vào biểu tư�
 
  ![](/images/dai/pop-up-update-endpoint.png)
 
-  <center>
+<center>
 
   *Hình 1: Pop-up cập nhật endpoint*
 
-  </center>
+</center>
 
  **Bước 3:** Người dùng thực hiện chỉnh sửa và sau đó nhấn nút **Lưu.** 
 

@@ -38,7 +38,7 @@ After clicking on the preset type, display a dropdownlist of 2 options:
 For quick configuration, users can select 'existing presets' – presets configured in the system.
 The system will display a window.
 
-! [Preset already exists] (/images/media-live/profile/existing-video.png)
+![Preset already exists](/images/media-live/profile/existing-video.png)
 
 The list of presets includes:
 

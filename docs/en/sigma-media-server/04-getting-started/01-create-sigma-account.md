@@ -36,7 +36,7 @@ Users can register a new account through the following steps:
 
 Once there is an account on the Sigma Streaming system, similarly, users can log in via 2 methods:
 
-! [Account login screen] (/images/media-server/getstarted/sign-in.png)
+![Account login screen](/images/media-server/getstarted/sign-in.png)
 
 - Method 1: Enter your email and password.
 - Method 2: Select the Third party you want to use to log in as **Github** or **Google**.

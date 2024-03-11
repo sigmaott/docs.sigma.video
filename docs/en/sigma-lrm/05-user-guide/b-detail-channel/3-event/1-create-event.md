@@ -162,4 +162,4 @@ Subject:
 
 [List of events](.. /c-event/3-event/3.1-view\.md)
 
-[List of scheduling events] (.. /c-event/2-event-echedule/2.1-view\.md)
+[List of scheduling events](.. /c-event/2-event-echedule/2.1-view\.md)
