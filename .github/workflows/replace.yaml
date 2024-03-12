@@ -1,0 +1,28 @@
+name: Replace String in Special Folder
+
+on:
+  push:
+    branches:
+      - develop  # Modify this according to your branch name
+
+jobs:
+  replace_string:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Replace string
+      run: |
+        find ./special_folder -type f -name "*.md" -exec awk '{gsub(/\]\ \(/, "]("); print > FILENAME}' {} +
+        find ./special_folder -type f -name "*.md" -exec awk '{gsub(/\!\ \[/, "!["); print > FILENAME}' {} +
+
+      
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Replace old_string with new_string"
+        git push
