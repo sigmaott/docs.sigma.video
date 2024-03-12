@@ -9,7 +9,7 @@ order: 3
 
 **Step 1**: At the folder rules list screen, the user clicks the **Edit**\* icon in the Action column for the folder rule to be edited
 
-The system will open the **Edit folder rules** screen with the previously entered information, **allow editing of all fields**
+The system will open the **Edit folder rules** screen with the previously entered information, **allows editing of all fields**
 
 ![Edit folder rules](/images/media-vod/watch-folder-rule/update-watch-folder.png)
 

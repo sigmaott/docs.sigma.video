@@ -7,7 +7,7 @@ order: 6
 
 **Condition**:
 
-- To perform this process, it is necessary to have at least 1 job that has been previously created and displayed in the list.
+- To perform this process, it is necessary to have at least one job that has been previously created and displayed in the list.
 
 - Can only be done when the job is in **Completed or Error** status
 
@@ -15,8 +15,8 @@ order: 6
 
 The system will display a confirmation pop-up window in the center of the screen with the following details:
 
-- Subject: Delete job?
-- Content: Are you sure you want to delete the job?
+- **Title**: Delete job?
+- **Content**: Are you sure you want to delete the job?
 - **Cancel** button: Do not make changes, return to the Job List screen.
 - **Confirm**: The system deletes all job information.
 
@@ -25,5 +25,3 @@ The system will display a confirmation pop-up window in the center of the screen
 The system displays a message **Successfully deleted!** in the right corner of the screen and automatically closes the notification after 5 seconds.
 
 At the same time, the system performs **delete all job information**
-
-Note: Refrain from using this feature because deleting it will not be restored

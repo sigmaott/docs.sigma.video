@@ -14,8 +14,8 @@ order: 7
 
 The system will display a confirmation pop-up window in the center of the screen with the following details:
 
-- Subject: Warning
-- Contents: Are you sure to continue this viewing directory rule?
+- **Title**: Warning
+- **Contents**: Are you sure to continue this watch directory rule?
 - **Cancel** button: Do not make changes, return to the Folder Rule List screen
 - **Confirm** button: The system performs the resume monitoring of the folder, the folder rule no longer works
 

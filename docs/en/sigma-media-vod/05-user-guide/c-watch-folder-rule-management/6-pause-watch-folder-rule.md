@@ -14,8 +14,8 @@ order: 6
 
 The system will display a confirmation pop-up window in the center of the screen with the following details:
 
-- Subject: Warning
-- Contents: Are you sure to stop this watch folder rule?
+- **Title**: Warning
+- **Contents**: Are you sure to stop this viewing directory rule?
 - **Cancel** button: Do not make changes, return to the Folder Rule List screen
 - **Confirm** button: The system performs a folder tracking stoppage, the folder rule no longer works
 
