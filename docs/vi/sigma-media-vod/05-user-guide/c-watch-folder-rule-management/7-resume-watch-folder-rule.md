@@ -14,8 +14,8 @@ order: 7
 
 Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâm màn hình với các chi tiết sau:
 
-- Tiêu đề: Cảnh báo
-- Nội dung: Bạn có chắc chắn tiếp tục quy tắc thư mục xem này không?
+- **Tiêu đề**: Cảnh báo
+- **Nội dung**: Bạn có chắc chắn tiếp tục quy tắc thư mục xem này không?
 - Nút **Huỷ bỏ**: Không thực hiện thay đổi, quay lại màn hình Danh sách quy tắc thư mục
 - Nút **Xác nhận**: Hệ thống thực hiện việc tiếp tục theo dõi thư mục, quy tắc thư mục không còn hoạt động
 
