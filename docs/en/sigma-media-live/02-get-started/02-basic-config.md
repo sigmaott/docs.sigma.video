@@ -90,10 +90,4 @@ For example, for the creation of the channel, the two main steps are required:
     * `Submit then back` users will be directed to the list page/template.
     * `Save as template` tin is saved as a new template.
 
-  Also, if you want to go back **steps 1** before that, click the ![Previous Button](/images/media-live/um-transcode-forms/previous-btn.png) button. However the entire current input data will be deleted, and the system also gives a display message between the screen for the user to confirm prior to the execution.
-
-  ![Redirect Confirmation](/images/media-live/um-transcode-forms/redirection-confirmation.png)
-
-  If you click `OK`, the interface will return to step 1 and the entire data is deleted.
-
-  If you click `Cancel`, the system cancels the return operation.
+  Also, if you wan

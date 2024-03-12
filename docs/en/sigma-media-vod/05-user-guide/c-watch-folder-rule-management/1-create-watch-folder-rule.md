@@ -52,33 +52,4 @@ The condition selection item (describes the condition for tracking the folder), 
 | Bitrate (mpbs) | Used to measure the data transfer rate or bitrate in a data stream                                                                                                                                                  | Optional, only numeric characters are allowed                          |
 | Width (px)     | The width of the video frame                                                                                                                                                                                        | Optional, only numeric characters are allowed                          |
 | Height (px)    | The height of the video frame                                                                                                                                                                                       | Optional, only numeric characters are allowed                          |
-| FPS (fps)      | Frame rate per second                                                                                                                                                                                               | Optional, only numeric characters are allowed                          |
-| Size (bytes)   | Size of the video                                                                                                                                                                                                   | Optional, only numeric characters are allowed                          |
-| Duration(s)    | Video encoding duration                                                                                                                                                                                             | Optional, only numeric characters are allowed                          |
-| Codec                             | Transcoder                                                                                                                                                                                                          | Optional, the following options allowed: **H264, H265, AV1, VP9, VP8** |
-
-- **"Next" button**: the system switches to the next condition selection screen
-- **Previous" button**: the system returns to the regular expression filling screen
-- **Apply" button**: The system saves information, displays the new creation screen
-
-## Step 5: Select a destination
-
-The system supports places to store output files, including: Storage at libraries, archive folders, third-party memory
-
-See more at:
-
-## Step 6: Configure the job
-
-The system supports selecting available templates or can create the desired configuration
-
-See more at:
-
-## Step 7: Finish creating folder rules
-
-At the last step, the user can edit the name of the rule
-
-- "Create rule" button: The system performs directory tracking mechanism creation, displayed first on the top of the folder rules list
-
-- "Save template" button: The system saves the sample information of the job configuration. See more at:
-
-The user presses the "Create rule" button, the system creates a new rule, displaying the message **Rule created successfully!** in the middle of the screen to notify that the creation process has been successfully executed.
+| FPS (fps)      | Frame rate per second                                                                                        

@@ -132,19 +132,4 @@ After checking within the specified time period, the result will be displayed as
 
 ### Invalid upload
 
-Only allow uploads of files that meet the regulations listed earlier. When the user clicks the test button, the system conducts a check, detects an unsupported file and displays a message in the right corner of the screen:
-
-**Invalid file, please select another file.**
-
-### No speakerphone access
-
-Access to equipment is a prerequisite during the recording test. When the user clicks the recording icon and the process cannot continue, the system displays a message like this:
-
-- Subject: Please grant permission to use the microphone for the tool.
-- Contents: Check your system settings to make sure Sigma streaming has access to your microphone and try again.
-
-### Exceeding system test time
-
-During the inspection, something went wrong. After a test time of more than 20 seconds without results, the system displays the message:
-
-**Process error, please try again.**
+Only allow uploads of files that meet the regulations listed earl

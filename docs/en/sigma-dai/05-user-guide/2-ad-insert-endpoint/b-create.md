@@ -56,8 +56,4 @@ The system creates a new ad insert endpoint with saving the newly entered inform
 
 <center>
 
-![](/images/dai/success-create.png)
-
-_Figure 2: Notification of successful creation of new ad insert endpoint!_
-
-</center>
+![](/images/d
