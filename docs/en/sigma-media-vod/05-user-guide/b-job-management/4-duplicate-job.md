@@ -5,9 +5,9 @@ order: 4
 
 # Job cloning
 
-The user wants to create 1 copy of the job with the information that was previously available, keeping the required settings and information of the event channel.
+The user wants to create a job copy with the information that was previously available, keeping the required settings and information of the event channel.
 
-**Condition**: To perform this process, it is necessary to have at least 1 job previously created and displayed in the list.
+**Condition**: To perform this process, it is necessary to have at least one job previously created and displayed in the list.
 
 **Step 1:** In the list, hover over the **duplicate** icon in the Action column in the field you want to duplicate, display the tooltip text **duplicate**, click the icon.
 
