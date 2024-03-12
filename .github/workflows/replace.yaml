@@ -15,8 +15,8 @@ jobs:
       
     - name: Replace string
       run: |
-        find ./special_folder -type f -name "*.md" -exec awk '{gsub(/\]\ \(/, "]("); print > FILENAME}' {} +
-        find ./special_folder -type f -name "*.md" -exec awk '{gsub(/\!\ \[/, "!["); print > FILENAME}' {} +
+        find ./docs/en -type f -name "*.md" -exec awk '{gsub(/\]\ \(/, "]("); print > FILENAME}' {} +
+        find ./docs/en -type f -name "*.md" -exec awk '{gsub(/\!\ \[/, "!["); print > FILENAME}' {} +
 
       
     - name: Commit changes
