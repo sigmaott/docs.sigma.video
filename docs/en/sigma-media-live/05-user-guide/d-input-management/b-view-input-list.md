@@ -25,14 +25,4 @@ Key information includes:
 | **Source**        | Source information of the input                                                                                                                                                                                                                                                                          |
 | **Describe**      | Description of Input                                                                                                                                                                                                                                                                                     |
 | **Creation Time** | Time to successfully add input                                                                                                                                                                                                                                                                           |
-| **Update time**   | Last updated time of input (arranged by default displayed to top of page with latest updated input)                                                                                                                                                                                   |
-| **Action**        | Make a copy:\*\*\* Quickly create 1 copy with required information preconfigured.<br/>Edit:\*\*\* Allows users to edit the information of the generated input (Transcode/Package)<br/>Delete:\*\*\* Allows CMS users to perform input deletion (Transcode/Package) |
-
-- Other buttons
-
-| Button name         | Function                                                                                                                                                                 |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Sync icon**       | Right corner below the interface, always perform continuous system synchronization for 10 seconds                                                                        |
-| Icon **Pagination** | Include information: Total number of pages, selection of number of items/1 page (default 10 items/1 page), current page, jump to desired search page. |
-| **Quick filter**    | Quick filter supports searching for information including: Machine and Name (input)                                                                   |
-| Button **Filter**   | Perform filtering of more detailed information.                                                                                                                          |
+| **Update time**   | Last updated time of input (arranged by default displayed to top of page with latest updated input)                                                                                  

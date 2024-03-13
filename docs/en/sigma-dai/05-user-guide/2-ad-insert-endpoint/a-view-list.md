@@ -27,30 +27,4 @@ In the main screen of the system, you will see the information displayed on the 
 | **Update**        | (default sorting) displays to the top of the page with the latest updated ad insert endpoint.                                                                                                                                                                                                                                          |
 | **Action**        | Statistics: Navigate to the related statistics view options with the corresponding ad insert endpoint name filter. <br /> Edit: Allows users to edit the information of the ad insert endpoint. <br />Delete: Allows CMS users to perform ad insert endpoint deletion. <br /> Make a copy: Quickly create 1 copy with required information preconfigured. |
 
-- Other buttons
-
-| Button name         | Function                                                                                                                                                                     |    |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -- |
-| **Sync icon**       | Right corner below the interface, always perform continuous system synchronization for 10 seconds                                                                            | !  |
-| **Footer- footer**  | 2022@ By Sigma Streaming                                                                                                                                                     |    |
-| Icon **Pagination** | Include information: Total number of pages, selection of number of items/1 page (default 10 items/1 page), current page, jump to the desired search page. |    |
-| **Quick filter**    | Quick filters support searching for information including: Name and tags.                                                                                                    |    |
-| Button **Filter**   | Perform filtering of more detailed information.                                                                                                                              |    |
-
-## View ad insert endpoint details
-
-**Step 1:** At the interface List ad insert endpoint
-
-→ Click on **[Ad insert endpoint name]** to view ad insert endpoint details.
-
-**Step 2:** Displays the ad insert endpoint detailed interface with the following information:
-
-- Name ad insert endpoint: The name of the ad insert endpoint just selected
-- Tag
-- Icon **back** → Click back to interface List ad insert endpoint.
-- Display panel:
-  - **Playback Endpoint Prefixes** After the user configures the ad insert endpoint, SSAI returns the links: HLS playback prefix/ DASH playback prefix/ **link Session initalization playback prefix.**
-  - \*\*Required settings: \*\* Ad decision server / Video content source.
-  - **Advanced settings:** CDN content segmentation/ CDN ad segmentation/ Ad markup retention/ Bumpers start/ Bumpers end/ ad slate.
-
-_icon copy next to each link._
+-

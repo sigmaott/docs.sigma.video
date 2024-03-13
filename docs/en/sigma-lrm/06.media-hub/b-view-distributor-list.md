@@ -30,9 +30,4 @@ In the main screen of the system, you will see the information displayed on the 
 
 | Button name         | Function                                                                                                                                                                 |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Sync icon**       | Right corner below the interface, always perform continuous system synchronization for 10 seconds                                                                        |
-| **Footer- footer**  | 2023@ By Sigma Streaming                                                                                                                                                 |
-| Icon **Pagination** | Include information: Total number of pages, selection of number of items/1 page (default 10 items/1 page), current page, jump to desired search page. |
-| **Quick filter**    | Quick filters support searching for information including: Name and email.                                                                                               |
-| Button **Filter**   | Perform filtering by information fields: ID, Name, Email, Initialize, and Update.                                                                                        |
-| Button **Expand**   | When this button is clicked, a detailed connection channel is displayed, including:  <br />\* LRM channel   <br />\* Channel stream                                      |
+| **Sync icon**       | Right corner below the interface, always perform continuous system synchronization for 10 seconds                                    

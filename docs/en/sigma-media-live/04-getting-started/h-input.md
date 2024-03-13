@@ -87,10 +87,4 @@ In step 2, there are a few options for users to navigate their data setup:
   - 'Submit then back' the user will be redirected to the channel/template list page.
   - The 'Save as template' message is saved as a new template.
 
-Alternatively, if you want to go back to **step 1** earlier, click the ![Previous Button](/images/media-live/um-transcode-forms/previous-btn.png). However, all currently entered data will be deleted, and the system also issues a message displayed in the middle of the screen for the user to confirm before performing.
-
-![Redirection Confirmation](/images/media-live/um-transcode-forms/redirection-confirmation.png)
-
-If you press 'OK', the interface will return to step 1 and all data is deleted.
-
-If 'Cancel' is pressed, the system cancels the operation again.
+Alternatively, if you want to go back to **step 1** ear

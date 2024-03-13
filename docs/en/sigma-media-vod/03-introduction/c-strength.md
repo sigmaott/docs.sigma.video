@@ -13,10 +13,10 @@ It is the flexibility and utility of VOD that makes it a popular solution not on
 
 Media VOD solution brings many benefits to users:
 
-- Provide powerful transcoding process: Support transcoding multiple files at the same time. Support for a wide range of video and audio codecs enhances transcoder flexibility
-- Support multiple input source formats: MP4 (MPEG-4), MP3 (MPEG-3), HLS (HTTP Live Stream), DASH (Dynamic Adaptive Streaming over HTTP),... ... From your machine, our library, also supports importing links from third parties or using our sample videos
-- Provide a folder mechanism to monitor: The ability to effectively manage and display the metadata associated with each video file is critical
-- Batch Job transcode: Create multiple transcode jobs when scanning the archive folder
-- Simulate a live stream from VOD: Provides value in combining the flexibility of live video with the control of pre-recorded video, creating an interactive and enjoyable experience for the audience.
-- Diverse support for video hosting: Support 3rd party video hosting FTP and Generic S3. You can also save to your computer or library
-- Deliver global content with a leading CDN: Broadcast your content to viewers around the world with the help of our network of trusted content delivery network partners
+- **Provides powerful transcoding process**: Support multiple file transcoding at the same time. Support for a wide range of video and audio codecs enhances transcoder flexibility
+- **Supports multiple input source formats**: MP4 (MPEG-4), MP3 (MPEG-3), HLS (HTTP Live Stream), DASH (Dynamic Adaptive Streaming over HTTP),... From your machine, our library, also supports importing links from third parties or using our sample videos
+- **Provide a directory mechanism to monitor**: The ability to effectively manage and display the metadata associated with each video file is critical
+- **Batch Job transcode**: Create multiple transcode jobs when scanning the archive folder
+- **Simulate a live stream from VOD**: Provides value in combining the flexibility of live video with the control of pre-recorded video, creating an interactive and enjoyable experience for the audience.
+- **Support a variety of video storage**: Support 3rd party video hosting FTP and Generic S3. You can also save to your computer or library
+- **Deliver global content with a leading CDN**: Broadcast your content to viewers around the world with the help of our network of trusted content delivery network partners

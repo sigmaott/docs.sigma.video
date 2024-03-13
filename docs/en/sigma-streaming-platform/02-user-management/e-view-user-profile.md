@@ -81,7 +81,7 @@ The interface will display with the following information:
 - **Language**:
   - Vietnamese
   - English
-- 2-factor authentication: see instructions [here](.. /04-two-factor-authen/e-login-with-2fa.md#login-system-when-enable-two-factor authentication).
+- 2-factor authentication: see instructions [here](../04-two-factor-authen/e-login-with-2fa.md#login-system-when-enable-two-factor authentication).
 
 2. Select the profile, and the interface will immediately change according to your choice.
 

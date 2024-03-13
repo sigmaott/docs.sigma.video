@@ -14,7 +14,7 @@ The session is unique, when the session ends, cannot be reused, the newly born s
 
 ## Channel initialization
 
-Do not actively create new sessions in the Livestream system, users use 3rd parties according to the instructions [push input data stream](.. /.. /02-get-started/03-push-data)
+Do not actively create new sessions in the Livestream system, users use 3rd parties according to the instructions [push input data stream](../../02-get-started/03-push-data)
 
 ## List of sessions
 

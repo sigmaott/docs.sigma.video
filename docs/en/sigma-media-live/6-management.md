@@ -145,41 +145,4 @@ An account will be a member of one and only one group.
      The selected group will display a blue tick![Selected group](/images/media-live/um-member/group-selected.png)
 3. Save the account by clicking the ![Submit button](/images/media-live/um-member/btn-submit.png).
 
-The execution system creates a new account:
-
-- If successfully displays the newly created account information including username and password:
-  ![Account info](/images/media-live/um-member/account-info.png)
-
-  Click on the icons ![Icon show password](/images/media-live/um-member/icon-eye.png), ![Icon copy password](/images/media-live/um-member/icon-copy.png) to display and copy the password.
-
-- If it fails, an error message will be displayed.
-
-### Edit account permissions
-
-Click on the ![Edit button](/images/media-live/um-action-btns/edit.png) to change account permissions by assigning the account to another group.
-
-![Edit account](/images/media-live/um-member/form-edit.png)
-
-## Permission
-
-An account is created and granted certain permissions and may only perform operations corresponding to the allowed permissions.
-
-### Decentralization rules
-
-The system will be divided into many different permissions, each of which will include two basic information:
-
-- Identifier: refers to the object or entity that the right will influence.
-
-  For example, the 'Sigma Livestream' permission denotes the object it affects as the 'Livestream'.
-- Actions: represent actions that are allowed to be executed on an entity assigned with permissions. It is about answering the question _What can a user do with entity A?_
-
-  The system defines two actions for working with permissions:
-
-  - READ: Users can only view entity information.
-  - FULL: users can view and edit entity information.
-
-    When setting permissions, only one of these two actions can be selected.
-
-Example interface showing a permission on the system
-
-![Permission](/images/media-live/um-permission/general.png)
+The execution system c

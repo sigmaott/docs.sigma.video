@@ -114,7 +114,6 @@ The system remains in the Ad list.
 _Figure 2: Enabling ad-based moderation_
 
 </center>
-  
 
 - Show switch switch: approve, message successfully transferred.
 

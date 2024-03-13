@@ -79,13 +79,23 @@ The system only supports http or http(s)\*\* URLs
 Example:
 
 ```
-http://test.com/manifest
-https://example.com/test
+http://example.com/video.mp4
 ```
 
 ### Sample video available on the system
 
 In addition to the above options, the system provides you with sample videos, displaying information related to the video (such as video title, resolution, duration, ,...) so that you may be able to make an easier and more appropriate choice.
+Example:
+
+```
+Pexels-Yaroslav-Shuraev-6985325 (2160p).mp4
+Resolution: 3840x2160
+Duration: 00:00:14
+Type: video
+Format: mp4
+Codec: h265
+FPS: 23.98
+```
 
 ## Step 4: Determine the destination of the output stream
 
@@ -99,66 +109,8 @@ After processing input stream (video) transcoding, you should define a destinati
 
 After processing the input stream (video) transcoding, you can save it in a folder on your machine.
 
-### Save at System Library
-
-The system supports after video transcoding processing, you can save directly at the system's library, helping you to better manage the application library
-
 ### Save at 3rd party
 
 3rd party storage support systems such as **FTP(S)** and **Generic S3**
 
-For 3rd party **FPT(S)**, you should prepare relevant information such as:
-
-- Host\*\*\*: IP address
-- Port\*\*\*: for machines using many services, port to distinguish.
-- Username\*\*\*: Login account name
-- Password\*\*\*: login password
-
-For third party **Generic S3**, you should prepare relevant information such as:
-
-- Bucket name\*\*\*: The name of the bucket containing the files.
-- Endpoint\*\*\*: URL endpoint to access S3
-- Access key ID\*\*\*: The Access Key ID (user name) that allows access to S3
-- Secret access key\*\*\*: The password associated with the Access key ID that allows access to S3
-- Public permission\*\*\* (optional)
-
-## Step 5: Set up job configuration
-
-You can choose from the available configuration template, or customize the configuration. You need to prepare the following information to be able to complete the job configuration step more quickly and easily
-
-- Information related to the profile
-- Target-related information
-
-### Information related to the profile
-
-The system displays 6 profiles by default including **1080, 720, 480, 360, 240, 144**
-
-You can add a profile by selecting the \*\*\*"Add profile" button, the system will display a popup with information for you to set up the profile including: technical information about **Video, Audio, Watermark**
-
-**Note** when setting up profile information:
-
-- The maximum total in 1 job is 10 profiles
-
-- 1 profile - 1 video
-
-- 1 profile -10 audio
-
-- Video 1-1 watermark
-
-- Audio 1-1 watermark
-
-### Target-related information
-
-The system supports output format: **MP3, MP4, Multi MP4, HLS, DASH**
-
-With output format **HLS, DASH, MultiMP4** for select **manifest, DRM and MULTIPLE profile**.
-
-With output format **MP4, MP3** for selecting **ONE profile**.
-
-When creating a job, a maximum of 5 targets are selected\*\*\*
-
-Where the user chooses the output as a library, the output format is only MP3 and MP4.
-
-## Step 6: Create a job
-
-After completing the above steps, you can select the "Create job" button for the system to transcode your video. Besides, Sigma Media VOD also supports you to save Templates\*\* including job configuration information, so that you can save time for next time.
+For

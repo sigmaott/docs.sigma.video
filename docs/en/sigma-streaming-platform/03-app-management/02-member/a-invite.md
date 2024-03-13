@@ -16,7 +16,7 @@ In order to enhance management, information security and optimize the work proce
 
 ## Prepare
 
-Before starting, using the Sigma Streaming service requires members to have an access account. If you do not have an account, please refer to the instructions for creating a new account [Create new account](.. /.. /02-user-management/a-sign-up.md#sign-account).
+Before starting, using the Sigma Streaming service requires members to have an access account. If you do not have an account, please refer to the instructions for creating a new account [Create new account](../../02-user-management/a-sign-up.md#sign-account).
 
 ## Add members
 
@@ -88,26 +88,4 @@ When a user clicks on the notification email, the member will be redirected to t
    Open the sign-in request page.
    After successful login, automatically redirect to the Sigma application dashboard.
 
-Also, if the Opera browser is logged in but the link redirects to the Chrome browser, the user will be asked to sign in again.
-
-If the user clicks the 'Home' button under the email, the member will be redirected directly to the Sigma website.
-
-## Member Account does not exist
-
-If the email does not exist in the system, the system will **automatically send an invitation** through the email address entered.
-
-At the member list interface, the information of the newly invited member will be displayed at the top of the list with the following details:
-
-- **Email**: The email address entered.
-- **Status**: 'Invited'.
-- **Time**: The time when sending an email inviting more members.
-
-### Membership Registration
-
-Users will receive an invitation email and simply click on 'Access App'
-
-Members will be redirected to SSP| Sign up for an account, using the email account that was invited. At this point, they will not have the right to edit the information and will be asked to set a password.
-
-To go through the application process, please see detailed instructions [here]. /.. /02-user-management/a-sign-up.md#sign-account).
-
-After completing the registration process, the system will open the Application Overview interface for the user.
+Also, if the Opera browser is logged in bu
