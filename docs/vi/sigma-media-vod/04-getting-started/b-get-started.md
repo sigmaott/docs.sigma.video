@@ -88,6 +88,7 @@ http://example.com/video.mp4
 ### Video mẫu có trên hệ thống
 
 Ngoài những lựa chọn trên, hệ thống cung cấp cho bạn những video mẫu, hiển thị những thông tin liên quan đến video (như tên video, độ phân giải, thời lượng,...) giúp bạn có thể có thể đưa ra lựa chọn dễ dàng và phù hợp hơn.
+
 Ví dụ:
 ```
 pexels-yaroslav-shuraev-6985325 (2160p).mp4
@@ -199,20 +200,20 @@ Xem thêm [mối quan hệ giữa profile và watermark](../05-user-guide/b-job-
     - **Tên**: hls-0p trong đó
         - hls- định dạng
         - 0p-hệ thống random kí tự
-    - **Định dạng**: hHLS
+    - **Định dạng**: HLS
     - **Container**: mpeg-ts
     - **Counter**: 4
     - **TS**: 6
     - **Thời gian**: tắt.
     - **Danh sách phát**: tắt.
 
-- DRM: bật chế độ DRM
+- **DRM**: bật chế độ DRM
     - **Key provider**: sigma-drm
     - **Asset ID**: 
     - **Environment**: product
     - **DRM Credentials**: chọn DRM-test
 
-- Trick play: bật chế độ trick play, người dùng được phép cấu hình các thông tin hiển thị thumbnail:
+- **Trick play**: bật chế độ trick play, người dùng được phép cấu hình các thông tin hiển thị thumbnail:
     - **Width**: 50
     - **Delay**: 2
     - **Col( column)**: 2
@@ -220,7 +221,7 @@ Xem thêm [mối quan hệ giữa profile và watermark](../05-user-guide/b-job-
 
 - **Subtitle**: Không cấu hình
 
-- Chọn profile: chọn profile tất cả trong danh sách profile đã cấu hình. 
+- **Chọn profile**: chọn profile tất cả trong danh sách profile đã cấu hình. 
 
 [Xem thông tin target](../05-user-guide/b-job-management/1-create-job#tuỳ-chỉnh-cấu-hình)
 
