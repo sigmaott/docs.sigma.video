@@ -18,13 +18,13 @@ Khi hoàn tất, bạn sẽ có thể gửi yêu cầu phát lại tới Sigma L
 ## Chuẩn bị
 
 Trước khi bắt đầu, bạn cần chuẩn bị các tác vụ sau:
-- Có tài khoản truy cập hệ thống quản lý của **Sigma Streaming Platform** `https://portal.sigmaott.com`
+- Có tài khoản truy cập hệ thống quản lý của **Sigma Streaming Platform** `https://portal.sigma.video`
 - Tài khoản có quyền truy cập app được phân quyền với Sigma Livestream.
 
 ## Bước 1: Truy cập vào hệ thống Sigma Livestream
 
 Để sử dụng Sigma Livestream, bạn cần có tài khoản và quyền truy cập, xem và thực hiện các hành động được phép.
-1. Truy cập vào đường link `https://portal.sigmaott.com/app`
+1. Truy cập vào đường link `https://portal.sigma.video/app`
 2. Hiển thị Danh sách App, **chọn ứng dụng** có quyền truy cập.
 3. Hiển thị mặc định vào trang **tổng quan ứng dụng.**
 4. Chọn **đi đến Livestream.**

@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - develop  # Modify this according to your branch name
+    paths:
+      - 'docs/en/**/*.md'
 
 jobs:
   replace_string:
@@ -12,14 +14,26 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-      
+
+
     - name: Replace string
+      if: steps.check_files.outputs.files_to_modify == 'true'
       run: |
         find ./docs/en -type f -name "*.md" -exec awk '{gsub(/\]\ \(/, "]("); print > FILENAME}' {} +
         find ./docs/en -type f -name "*.md" -exec awk '{gsub(/\!\ \[/, "!["); print > FILENAME}' {} +
 
-      
+    - name: Check Git status
+      id: git_status
+      run: |
+        if [[ -n "$(git status --porcelain)" ]]; then
+          echo "::set-output name=changes::true"
+        else
+          echo "::set-output name=changes::false"
+        fi
+      shell: bash
+
     - name: Commit changes
+      if: steps.check_files.outputs.files_to_modify == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"

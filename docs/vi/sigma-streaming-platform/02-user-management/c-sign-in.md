@@ -11,7 +11,7 @@ Tính năng giúp người dùng có thể thực hiện đăng nhập tài kho�
 
 **Điều kiện**: Người dùng đã tạo tài khoản và được xác thực thành công
 
-**Bước 1**: Người dùng truy cập vào đường dẫn `https://portal.sigmaott.com/auth/login`
+**Bước 1**: Người dùng truy cập vào đường dẫn `https://portal.sigma.video/auth/login`
 
 Hệ thống hiển thị màn hình **Đăng nhập** với các thông tin
 

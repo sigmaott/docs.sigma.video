@@ -22,9 +22,9 @@ Sigma Media Live giúp bạn chuyển đổi nội dung video trực tiếp từ
 ## Cách thức truy cập
 
 Bạn có thể truy cập hệ thông Sigma Media Live qua các phương thức sau đây: 
-- **Sigma Streaming Portal**: Truy cập vào trang web quản trị hệ thống [Sigma Streaming Portal](https://portal.sigmaott.com/) và chọn mục Transcode để có thể cài đặt, cấu hình các thông tin, tài nguyên của Sigma Transcode Live\.
+- **Sigma Streaming Portal**: Truy cập vào trang web quản trị hệ thống [Sigma Streaming Portal](https://portal.sigma.video/) và chọn mục Transcode để có thể cài đặt, cấu hình các thông tin, tài nguyên của Sigma Transcode Live\.
 
-- **Sigma Media Live API**:  Bạn có thể tham khảo thêm qua hệ thống Api  [Sigma Transcode API Reference](https://sigmaott.com/apis/sigma-transcode-live.html#/) để biết thêm thông tin và các thực hiện các tác vụ Api tương tác với hệ thống Sigma Transcode Live.
+- **Sigma Media Live API**:  Bạn có thể tham khảo thêm qua hệ thống Api  [Sigma Transcode API Reference](https://sigma.video/apis/sigma-transcode-live.html#/) để biết thêm thông tin và các thực hiện các tác vụ Api tương tác với hệ thống Sigma Transcode Live.
 
 ## Dịch vụ liên quan
 Hệ thống bao gồm các thành phần quan trọng như **Sigma Machine**, quản lý máy transcoder và packager để thực hiện các tác vụ liên quan đến xử lý video. 

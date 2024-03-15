@@ -13,13 +13,13 @@ Khi hoàn tất, bạn sẽ có thể tạo các sự kiện, chương trình v�
 ### Chuẩn bị
 
 Trước khi bắt đầu, bạn cần chuẩn bị các tác vụ sau:
-- Có tài khoản truy cập hệ thống quản lý của **Sigma Streaming Platform** `https://portal.sigmaott.com`
+- Có tài khoản truy cập hệ thống quản lý của **Sigma Streaming Platform** `https://portal.sigma.video`
 - Tài khoản có quyền truy cập app được phân quyền và thực hiện các thao tác với dịch vụ quản lí sóng trực tuyến.
 
 ### Bước 1: Truy cập vào hệ thống quản lí sóng trực tuyến
 
 Để sử dụng dịch vụ quản lí sóng trực tuyến, bạn cần có tài khoản và quyền truy cập, xem và thực hiện các hành động được phép.
-1. Truy cập vào đường link `https://portal.sigmaott.com/app`
+1. Truy cập vào đường link `https://portal.sigma.video/app`
 2. Hiển thị Danh sách App, **chọn ứng dụng** cần truy cập.
 3. Hiển thị mặc định vào trang **tổng quan ứng dụng.**
 4. Ở sidebar, chọn **sản phẩm|quản lí sóng trực tuyến**.

@@ -7,7 +7,7 @@ order: 1
 
 Tính năng đăng ký của người dùng là một phần rất quan trọng, giúp người dùng có thế thực hiện đăng kí tài khoản một cách dễ dàng để có thể truy cập vào hệ thống Sigma Streaming.
 
-**Bước 1**: Người dùng truy cập vào đường dẫn `https://portal.sigmaott.com/auth/login`
+**Bước 1**: Người dùng truy cập vào đường dẫn `https://portal.sigma.video/auth/login`
 
 Hệ thống hiển thị màn hình **Đăng nhập** 
 
