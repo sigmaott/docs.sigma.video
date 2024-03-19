@@ -42,57 +42,50 @@ Sau khi chọn máy chủ, đánh dấu máy chủ được chọn và hiển th
 Trong quy trình chuyển mã video của luồng tạo mới một công việc (job) để xử lý video, đầu vào (video VOD) là nguồn video gốc cần xử lý. Định dạng của đầu vào là MP4 (MPEG-4), MP3 (MPEG-3), HLS (HTTP Live Streaming) hoặc DASH (Dynamic Adaptive Streaming over HTTP).
 1. Nhập vào thẻ đầu vào 
 Hỗ trợ các loại đầu vào:
-- Asset từ thư viện
-- File trong máy khách
-- Cung cấp một đường dẫn từ bên thứ ba
-- Sử dụng video mẫu có sẵn trong hệ thống
+- Asset từ thư viện: [Xem tại đây](./3-input/3.1-library.md)
+- File trong máy khách: [Xem tại đây](./3-input/3.2-file-local.md)
+- Bộ nhớ bên thứ ba: [Xem tại đây](./3-input/3.4-video-url.md)
+- Sử dụng video mẫu có sẵn trong hệ thống: [Xem tại đây](./3-input/3.3-sample-video.md)
 2. Hiển thị pop-up tương ứng.
 3. Hệ thống quay trở lại màn hình tạo mới để thực hiện các bước tiếp theo. Hệ thống đánh dấu loại đầu vào, các tùy chọn không được chọn sẽ tự động ẩn đi.
 
 ### Bước 3: Chọn đầu ra( destination)
-Tiếp theo, người dùng sẽ được dẫn sang bước tiếp theo trong quá trình, chọn điểm đích (destination) để lưu trữ job VOD.
+Tiếp theo, người dùng sẽ được dẫn sang bước tiếp theo trong quá trình
+1. Chọn điểm đích (destination) để lưu trữ job VOD.
 
 Hỗ trợ các loại đầu ra:
-- Lưu vào folder ở máy chủ
-- Lưu vào bên thứ 3: hỗ trợ FTP, Generic S3
+- Lưu vào folder ở máy chủ: [Xem tại đây](./4-destination/4.1-folder-storage.md)
+- Lưu vào bên thứ 3: hỗ trợ FTP, Generic S3. [Xem tại đây](./4-destination/4.2-third-party-storage.md)
 
-Sau khi người dùng đã lựa chọn đầu ra, hệ thống quay trở lại màn hình tạo mới để thực hiện các bước tiếp theo. Hệ thống đánh dấu loại đầu ra. Cho phép chỉnh sửa hoặc xoá lựa chọn.
+2. Hệ thống quay trở lại màn hình tạo mới để thực hiện các bước tiếp theo. 
+
+Hệ thống đánh dấu loại đầu ra. 
+
+Cho phép chỉnh sửa hoặc xoá lựa chọn.
 
 ## Bước 4: Cấu hình job
 Tiếp theo, người dùng sẽ được dẫn sang bước cuối cùng trong quá trình, cấu hình thông tin job. 
-Hiển thị mặc định là danh sách các profile với trạng thái chưa áp dụng bất kỳ mẫu (template) nào. Nút Tạo công việc (Create job) không thể sử dụng.
+1. Hiển thị mặc định là danh sách các profile với trạng thái chưa áp dụng bất kỳ mẫu (template) nào. Nút Tạo công việc (Create job) không thể sử dụng.
 
 ![default](/images/media-vod/job-management/config-default.png)
 
 - Cấu hình profile chung: Chưa có dữ liệu.
-- Per-Title Encoding: đang tắt,  tính năng làm giảm kích thước tệp bằng cách tối ưu hóa từng khung hình mà không làm giảm chất lượng video, giúp cải thiện 70% thời gian tải cũng như giảm chi phí lưu trữ và băng thông.
-- Nút ``cấu hình mặc định``: xoá data do người dùng cấu hình profile, hiển thị prodile mặc định
+- Per-Title Encoding: đang tắt
+- Nút ``cấu hình mặc định``: xoá dữ liệu do người dùng cấu hình profile, hiển thị prodile mặc định
 - Danh sách profile mặc định gồm: 1080, 720, 480, 360, 240, 144
 ( cho phép sửa, xoá.)
 - Cấu hình mục tiêu
 
-Lựa chọn thao tác:
+2. Lựa chọn thao tác:
 - Chọn cấu hình mẫu
-- Tuỳ chỉnh cấu hình 
-
-### Thiết lập cấu hình chung profile( không bắt buộc)
-
-Đây là thao tác không bắt buộc phải thực hiện, giới hạn 5 Watermark được thêm tại cấu hình chung và cấu hình mỗi profile. 
-
-Chọn cấu hình chung profile ở đầu mục, hiển thị cửa sổ:
-
-![general-profile-config](/images/media-vod/job-management/general-profile-config.png)
-
-- **cấu hình Watermark** (mục bắt buộc)
--  **cấu hình Audio Watermark** (không bắt buộc)
-
-Sau khi thiết lập cấu hình chung của profile, mỗi profile được người dùng lựa chọn **mặc định** sẽ áp dụng cấu hình chung đã được thiết lập.
-
-- Đối với mỗi profile, người dùng **Bật watermark** thì khi tạo job hệ thống sẽ ghi nhận xử lí **[cấu hình chung profile + cấu hình riêng của profile]**
-- Đối với trường hợp người dùng disable watermark trong cấu hình mỗi profile, thì khi tạo job hệ thống sẽ chỉ ghi nhận **cấu hình chung của profile**
+- Tuỳ chỉnh cấu hình:
+    - Cấu hình profile: [Xem tại đây](./5-config-job/5.1-profile.md)
+    - Cấu hình target: [Xem tại đây](./5-config-job/5.2-target-job.md)
 
 ## Bước 5: Tạo job
-Khi đã hoàn tất cấu hình các bước trước đó, người dùng nhấn vào nút ``Tạo job``. Hệ thống sẽ tiến hành tạo job và sau đó hiển thị người dùng trở lại danh sách các job. 
+1. Hoàn tất cấu hình các bước trước đó
+2. Nhấn vào nút ``Tạo job``.
+3. Hệ thống sẽ tiến hành tạo job và sau đó hiển thị người dùng trở lại danh sách các job. 
 
 ![flow-transcode](/images/media-vod/job-management/flow-transcode.png)
 
