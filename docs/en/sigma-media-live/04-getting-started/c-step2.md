@@ -38,5 +38,5 @@ _Note: If you do not fill in the information about the network card, the system 
 
 Please visit:
 
-1. [Input configuration for Transcode channel](.. /05-resource-input/01-transcode-input.md)
-2. [Input Configuration for Package Channel](.. /05-resource-input/02-package-input.md)
+1. [Input configuration for Transcode channel](../05-resource-input/01-transcode-input.md)
+2. [Input Configuration for Package Channel](../05-resource-input/02-package-input.md)

@@ -91,21 +91,4 @@ The page interface consists of four main components:
 
   ![Counter Pagination](/images/media-live/um-pagination/counter.png)
 
-- The option of the number of elements displayed on a page.<!-- !\[Fontsize Menu\](/images/media-live/um-pagination/page-size.png) -->![Page Size](/images/media-live/um-pagination/page-size-selection.jpg)
-
-  It is possible to choose `5`, `10`, `15`, `20`, `50`, `100` elements display on a page by selecting the corresponding values in the page menu, the default value is `10`.
-
-- The current order.
-
-  ![Page Select](/images/media-live/um-pagination/page-selection.png)
-
-  - List existing pages.
-  - The current page is highlighted in blue ![Active Page](/images/media-live/um-pagination/actived-page.png){height=17px}.
-  - Move to the previous page/next page by selecting the ![Previous](/images/media-live/um-pagination/previous.png)symbol {height=17px} and ![Next](/images/media-live/um-pagination/next.png){height=17px}.
-
-- Move to any page.
-
-  ![Next](/images/media-live/um-pagination/jump-to.jpg)
-
-  It can be moved to any page by entering the order number of the page in the picture above.
-
+- The option of the numb

@@ -9,7 +9,7 @@ The user who wants to create a job starts from the Queued state
 
 **Condition**:
 
-- To perform this process, it is necessary to have at least 1 job that has been previously created and displayed in the list.
+- To perform this process, it is necessary to have at least one job that has been previously created and displayed in the list.
 
 - Can only be done when the job is in an Error state
 
@@ -17,8 +17,8 @@ The user who wants to create a job starts from the Queued state
 
 The system will display a confirmation pop-up window in the center of the screen with the following details:
 
-- Subject: Retry job?
-- What it's about: Are you sure you want to try the job again?
+- **Title**: Retry job?
+- **Content**: Are you sure you want to try the job again?
 - **Cancel** button: Do not make changes, return to the Job List screen.
 - Confirm button: The system restarts the job creation process starting from the Queued state.
 

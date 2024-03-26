@@ -67,7 +67,7 @@ The system will display the details of the session including:
 
 3. Transcode information is unique, including:
 
-![session-transcode](.. /.. /.. /.. /public/images/livestream/session-transcode.png)
+![session-transcode](/images/livestream/session-transcode.png)
 
 - ID_task: Format **livestream_[tasktype]_[livestreamId]**
 - Speed: Transcode speed, Unit: %

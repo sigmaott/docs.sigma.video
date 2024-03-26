@@ -22,7 +22,7 @@ See more at: [See job details](/docs/en/sigma-media-vod/05-user-guide/b-job-mana
 
 The system displays pop-up windows, which contain the corresponding video
 
-<!-- ![Watch video](/images/media-vod/job-management/playvideo1.png) -->
+![Watch video](/images/media-vod/job-management/playvideo1.png)
 
 For the output file in Multi-MP4 format, users can watch videos from _**smil**_ files in two formats: HLS and DASH.
 

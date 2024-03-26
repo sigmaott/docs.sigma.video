@@ -38,3 +38,4 @@ order: 3
   - **Kích cỡ**: kích cỡ của tập tin đầu ra
   - **Thời lượng**: thời lượng của tập tin đầu ra
   - **Hành động**: Tạo giả lập live (Cho phép bạn phân phối video VOD dưới dạng luồng trực tiếp vào thời gian đã lên lịch, do đó tránh được những rủi ro liên quan đến phát trực tiếp.)
+

@@ -17,11 +17,11 @@ The screen consists of 3 sections/items of information:
 
 - Statistical indicators include:
 
-  - Jobs (Jobs): displays the total number of jobs (jobs) - when clicking on the figure, the system switches to the job list screen
-  - Jobs complete: displays the total number of jobs completed - when clicking on the figure, the system switches to the task list screen with the status of completed
-  - Jobs error: displays the total number of jobs (jobs) defected - when clicking on the metric, the system switches to the job list screen with an error status
-  - Active rules: displays the total number of active rules - when clicking on the metric, the system switches to the directory tracking mechanism list screen with active status
-  - Transcoding time: displays the total transcoding time
+  - Jobs (Jobs)\*\*\*: displays the total number of jobs (jobs) - when clicking on the metric, the system switches to the job list screen
+  - Jobs complete\*\*\*: displays the total number of jobs completed - when clicking on the figure, the system switches to the task list screen with the status of completed
+  - Jobs error\*\*\*: displays the total number of jobs (jobs) defected - when clicking on the metric, the system switches to the job list screen with an error status
+  - Active rules\*\*\*: displays the total number of active rules - when clicking on the metric, the system switches to the directory tracking mechanism list screen with active status
+  - Transcoding time\*\*\*: displays the total transcoding time
 
 - Bar charts help users keep track of the total number of **jobs**, **jobs completed**, **error jobs**, **transcoding time** appear over time.
 

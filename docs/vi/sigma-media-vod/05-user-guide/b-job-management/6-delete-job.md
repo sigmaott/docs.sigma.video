@@ -25,3 +25,4 @@ Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâ
 Hệ thống hiển thị một thông báo **Đã xoá thành công!** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
 
 Đồng thời, hệ thống thực hiện **xoá toàn bộ thông tin job**
+

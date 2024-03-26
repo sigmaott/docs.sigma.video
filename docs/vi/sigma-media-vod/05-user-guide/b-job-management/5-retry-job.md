@@ -26,3 +26,4 @@ Hệ thống sẽ hiển thị một cửa sổ pop-up xác nhận ở trung tâ
 
 Hệ thống hiển thị một thông báo **Đã thử lại thành công!** ở góc phải màn hình và tự động đóng thông báo sau 5 giây.
 
+

@@ -3,7 +3,7 @@ title: Introduce
 order: 1
 ---
 
-# Dịch vụ Media Video On Demand (Media VOD)
+# Sigma Media VOD
 
 Media Video On Demand **(Media VOD)** is a system that provides a flexible and quality digital entertainment experience, allowing users to select and watch video content according to the preferences of each individual anytime, anywhere on many existing devices such as TVs,  computer, tablet, phone,... via internet connection.
 

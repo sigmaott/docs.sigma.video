@@ -114,11 +114,4 @@ Where:
 | headline    | Describe                                                       |
 | ----------- | -------------------------------------------------------------- |
 | **#**       | Server sequence number                                         |
-| **Machine** | Address of the registered server                               |
-| **GPU**     | Does the machine use **GPU** or not                            |
-| **CPU**     | The machine uses **CPU**                                       |
-| **Task**    | The number of tasks being executed on the server               |
-| **Speed**   | Lowest task execution speed on server (0-1) |
-| **Percent** | %load of the server executing the task                         |
-| **Ram**     | % Ram server in use                                            |
-| **Status**  | Server status **live** or **dead**                             |
+| **Machine** | Address of the reg

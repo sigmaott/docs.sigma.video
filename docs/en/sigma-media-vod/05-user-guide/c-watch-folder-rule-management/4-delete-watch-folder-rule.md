@@ -11,8 +11,8 @@ order: 4
 
 The system will display a confirmation pop-up window in the center of the screen with the following details:
 
-- Subject: Delete this folder rule?
-- Contents: Are you sure this viewing directory rule?
+- **Title**: Delete this folder rule?
+- **Contents**: Are you sure this viewing directory rule?
 - **Cancel** button: Do not make changes, return to the Folder Rule List screen
 - Button **Confirm**: The system performs a deletion of all information of the directory rule.
 

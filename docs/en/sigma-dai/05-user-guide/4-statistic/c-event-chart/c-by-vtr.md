@@ -21,7 +21,7 @@ _Figure 1: VTR event graph interface_
 
 </center>
 
-The interface is displayed with the default information described at [default information](.. /a-open-statistics)
+The interface is displayed with the default information described at [default information](../a-open-statistics)
 
 _Note:_ Quick filter display interface adds field: Ads- list of ads available on channel/ or select all
 

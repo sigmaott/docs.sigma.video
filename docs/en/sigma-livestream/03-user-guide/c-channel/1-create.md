@@ -33,12 +33,4 @@ The information displayed:
 
 - **"Cancel" button**: Do not perform a new creation, return to the main screen interface.
 
-- **"Save" button**: Save the newly created information, return to the main screen interface.
-
-### Step 2
-
-The user enters valid credentials.
-
-Click the Save button at the bottom of the Pop-up.
-
-The system creates a new channel with the newly entered information, **opens the channel details interface** and displays a Pop-up notification **Create new successful!** at the top of the interface. At the same time, the newly created canteen displays at the top of the page.
+- **"Save" button**: Sa

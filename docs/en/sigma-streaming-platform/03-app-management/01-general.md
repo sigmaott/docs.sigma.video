@@ -27,4 +27,4 @@ After that, the system will display the General Information screen of the applic
 
 In addition, the system also provides 2-factor authentication security for the application, to improve the security of the application
 
-See details at [Enable two-factor authentication for the app](.. /04-two-factor-authen/c-enable-2fa-for-app.md)
+See details at [Enable two-factor authentication for the app](../04-two-factor-authen/c-enable-2fa-for-app.md)

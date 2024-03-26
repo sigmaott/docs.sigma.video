@@ -17,12 +17,11 @@ After that, a pop-up window will appear, allowing all fields to be edited. after
 
 ![](/images/dai/pop-up-duplicate-endpoint.png)
 
-  <center>
+<center>
 
 _Figure 1: Pop-up creating a copy of the endpoint_
 
 </center>
-  
 
 **Allow** edit all fields.
 
@@ -34,7 +33,7 @@ _Figure 1: Pop-up creating a copy of the endpoint_
 
 The system displays a notification of successful copying in the right corner of the screen and automatically closes the notification after 5 seconds.
 
- <center>
+<center>
 
 ![](/images/dai/success-duplicate.png)
 
