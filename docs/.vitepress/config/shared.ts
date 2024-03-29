@@ -8,6 +8,8 @@ const ogUrl = 'https://sigma.video'
 export const shared = defineConfig({
   title: 'Sigma Streaming',
 
+  ignoreDeadLinks: true,
+
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,

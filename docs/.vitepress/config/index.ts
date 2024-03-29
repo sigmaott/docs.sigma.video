@@ -21,6 +21,7 @@ export default defineConfig({
     plugins: [
       UnoCSS(),
     ],
+    ssr: { noExternal: ['@scalar/api-reference'], },
     // resolve: {
     //   alias: [
     //     {

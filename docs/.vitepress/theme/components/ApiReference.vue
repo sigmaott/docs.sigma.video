@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { ApiReference } from '@scalar/api-reference'
 import { useData, } from 'vitepress'
 import { watch, onMounted } from 'vue'
 
@@ -23,7 +22,7 @@ onMounted(() => {
 
 <template>
   <div class="api-reference-content">
-    <ApiReference :configuration="{ spec: { url: url } }" />
+    <ScalarApiReference :configuration="{ spec: { url: url } }" />
   </div>
 </template>
 
