@@ -4,6 +4,7 @@ import type { Theme } from 'vitepress'
 import ApiReference from './components/ApiReference.vue'
 import ImageViewer from './components/ImageViewer.vue'
 import Timeline from './components/Timeline.vue'
+import ChooseLang from './components/ChooseLang.vue'
 
 export default {
   extends: DefaultTheme,
@@ -11,5 +12,6 @@ export default {
     app.component('ApiReference', ApiReference)
     app.component('ImageViewer', ImageViewer)
     app.component('Timeline', Timeline)
+    app.component('ChooseLang', ChooseLang)
   }
 } satisfies Theme
