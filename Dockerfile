@@ -2,6 +2,7 @@ FROM registry.gviet.vn:5000/library/node:18-alpine as builder
 
 env PUPPETEER_SKIP_DOWNLOAD=true
 
+RUN apk add --no-cache git
 RUN npm install -g pnpm@8.15.4
 
 WORKDIR /src
