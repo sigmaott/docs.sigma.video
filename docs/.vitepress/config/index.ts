@@ -1,14 +1,36 @@
 import { defineConfig } from 'vitepress'
-import { enConfig } from './en'
-import { viConfig } from './vi'
-
-import { sharedConfig } from './shareConfig'
+import { shared } from './shared'
+import { en } from './en'
+import { vi } from './vi'
+import { fileURLToPath, URL } from 'node:url'
+import imageViewer from './markdown/image-viewer'
+import UnoCSS from 'unocss/vite'
 
 export default defineConfig({
-  ...sharedConfig,
-  ignoreDeadLinks: true,
+  ...shared,
   locales: {
-    en: { label: 'English', lang: 'en', ...enConfig },
-    vi: { label: 'Tiếng Việt', lang: 'vi', ...viConfig }
-  }
+    vi: { label: 'Tiếng Việt', ...vi },
+    en: { label: 'English', ...en },
+  },
+  markdown: {
+    config: (md) => {
+      md.use(imageViewer)
+    }
+  },
+  vite: {
+    plugins: [
+      UnoCSS(),
+    ],
+    // resolve: {
+    //   alias: [
+    //     {
+    //       find: /^.*\/VPImage\.vue$/,
+    //       replacement: fileURLToPath(
+    //         new URL('../theme/components/VPImage.vue', import.meta.url)
+    //       )
+    //     }
+    //   ]
+    // }
+  },
+
 })

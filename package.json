@@ -1,20 +1,27 @@
 {
-  "name": "sigma-docs",
-  "version": "1.0.0",
-  "devDependencies": {
-    "vite": "3.2.3",
-    "vitepress": "npm:@brc-dd/vitepress@1.0.0-dev.b4e1483",
-    "vitepress-export-pdf": "1.0.0-alpha.0",
-    "vue": "^3.2.44"
-  },
+  "private": true,
+  "type": "module",
   "scripts": {
-    "build": "vitepress build docs",
     "dev": "vitepress dev docs",
-    "serve": "vitepress serve docs --port 3000",
-    "start": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
     "export-pdf": "press-export-pdf export ./docs/vi"
   },
+  "devDependencies": {
+    "@iconify-json/ri": "^1.1.20",
+    "typescript": "^5.4.3",
+    "unocss": "^0.58.7",
+    "vitepress": "latest"
+  },
   "dependencies": {
-    "@sigmaott/vitepress-sidebar-builder": "^1.0.3"
+    "@scalar/api-reference": "^1.20.10",
+    "glob": "^10.3.10",
+    "gray-matter": "^4.0.3",
+    "vitepress-export-pdf": "1.0.0-beta.0"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "vitepress@1.0.1": "patches/vitepress@1.0.1.patch"
+    }
   }
 }
