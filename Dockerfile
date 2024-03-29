@@ -1,8 +1,8 @@
-FROM registry.gviet.vn:5000/library/node:16.15-alpine as builder
+FROM registry.gviet.vn:5000/library/node:18-alpine as builder
 
 env PUPPETEER_SKIP_DOWNLOAD=true
 
-RUN npm install -g pnpm@8.6.2
+RUN npm install -g pnpm@8.15.4
 
 WORKDIR /src
 
