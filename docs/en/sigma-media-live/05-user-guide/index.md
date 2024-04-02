@@ -1,5 +1,5 @@
 ---
 id: user-guide-sigma-media-live
-title: Begin
+title: Begin with Sigma Media Live
 order: 5
 ---
