@@ -104,6 +104,7 @@ function filesAndOrder(folderPath: string, filesToIgnore: Array<string> = []): A
  * @return {Array<FolderStructure>}
  */
 function foldersAndOrder(folderPath: string, options: Options = {}): Array<FolderStructure> {
+    let level = options.level || 0
     let startPath: string;
 
     if (!folderPath.includes(normalizePath(process.cwd()))) {
@@ -137,13 +138,13 @@ function foldersAndOrder(folderPath: string, options: Options = {}): Array<Folde
             text: matterData.data.title,
             items: [
                 ...filesAndOrder(nextPath, options.partialFileNamesToIgnore ? options.partialFileNamesToIgnore : []),
-                ...foldersAndOrder(nextPath, options),
+                ...foldersAndOrder(nextPath, {...options, level: level + 1}),
             ].sort((a, b) => {
                 return a.order - b.order;
             }),
             order: matterData.data.order || 0,
             collapsible: options.collapsible === false ? false : true, // Default to `True`
-            collapsed: options.collapsed === true ? true : false, // Default to `False`
+            collapsed: options.collapsed === true ? true : Boolean(level), // Default to `False`
         });
 
         objects = [...objects];

@@ -38,4 +38,5 @@ export interface Options {
   partialFileNamesToIgnore?: Array<string>;
 
   order?: number;
+  level?: number
 }
