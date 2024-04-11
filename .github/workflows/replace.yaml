@@ -19,8 +19,8 @@ jobs:
     - name: Replace string
       if: steps.check_files.outputs.files_to_modify == 'true'
       run: |
-        find ./docs/en -type f -name "*.md" -exec awk '{gsub(/\]\ \(/, "]("); print > FILENAME}' {} +
-        find ./docs/en -type f -name "*.md" -exec awk '{gsub(/\!\ \[/, "!["); print > FILENAME}' {} +
+        find ./docs/vi -type f -name "*.md" -exec sed -i 's|/docs/public/images|/public|g' {} \;
+
 
     - name: Check Git status
       id: git_status
