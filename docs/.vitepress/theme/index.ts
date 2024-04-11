@@ -1,4 +1,5 @@
 import 'virtual:uno.css'
+import './style.css'
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
 import ApiReference from './components/ApiReference.vue'
