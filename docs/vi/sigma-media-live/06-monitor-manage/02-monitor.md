@@ -50,7 +50,7 @@ Việc thao tác với job hệ thống cung cấp đẩy đủ các **action** 
 
 Từ danh sách của kênh thao tác **click** vào tên của kênh giao diện chi tiết kênh sẽ hiện ra
 
-![Thông tin chi tiết kênh](/docs/public/images/media-live/general/channel-detail.png)
+![Thông tin chi tiết kênh](/public/media-live/general/channel-detail.png)
 
 Các component giám sát bao gồm: 
 
@@ -72,7 +72,7 @@ Các component giám sát bao gồm:
 * Note: 
   * Bảng giám sát **Job** có thể theo dõi ở danh sách kênh hoặc trong trang chi tiết kênh
 
-![Thông tin chi tiết job](/docs/public/images/media-live/general/job-detail.png)
+![Thông tin chi tiết job](/public/media-live/general/job-detail.png)
 
 Cấu trúc log lỗi của job
 

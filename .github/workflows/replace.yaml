@@ -5,7 +5,7 @@ on:
     branches:
       - develop  # Modify this according to your branch name
     paths:
-      - 'docs/en/**/*.md'
+      - 'docs/**/*.md'
 
 jobs:
   replace_string:
@@ -19,7 +19,7 @@ jobs:
     - name: Replace string
       if: steps.check_files.outputs.files_to_modify == 'true'
       run: |
-        find ./docs/vi -type f -name "*.md" -exec sed -i 's|/docs/public/images|/public|g' {} \;
+        find ./docs -type f -name "*.md" -exec sed -i 's|/docs/public/images|/images|g' {} \;
 
 
     - name: Check Git status

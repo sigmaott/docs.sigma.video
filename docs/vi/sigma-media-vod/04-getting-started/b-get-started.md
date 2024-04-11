@@ -12,7 +12,7 @@ order: 2
 
 Để bắt đầu nhanh chóng làm quen với Media Video On Demand (Media VOD), người dùng cần thực hiện các bước sau:
 
-![Luồng thực hiện làm quen với Media VOD](/images/media-vod/introduce/get-started-flow.png)
+![Luồng thực hiện làm quen với Media VOD](/docs/public/images/media-vod/introduce/get-started-flow.png)
 
 ## Truy cập vào hệ thống Sigma Streaming
 
