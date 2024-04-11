@@ -54,7 +54,6 @@ Từ danh sách của kênh thao tác **click** vào tên của kênh giao diệ
 
 Các component giám sát bao gồm: 
 
-* **Thumbnail**: Hình ảnh thumbnail của kênh được trích xuất định kì trong quá trình xử lý
 * **job Speed**: Biểu đồ dây theo thời gian biểu thị tốc độ của các **job**
     * Tốc độ của **job** được tính theo mốc 100%
         * Với các giá trị nhỏ hơn 90% job đang gặp vấn đề trong quá trình xử lý như nguồn đầu vào, đầu ra gặp vấn đề
