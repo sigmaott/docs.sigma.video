@@ -12,7 +12,7 @@ Tính năng giúp người dùng có thể thực hiện cài đặt lại mật
 - Người dùng đã tạo tài khoản và được xác thực thành công
 - Tài khoản người dùng chưa đăng nhập thành công vào hệ thống
 
-**Bước 1**: Người dùng truy cập vào đường dẫn `https://portal.sigmaott.com/auth/login`
+**Bước 1**: Người dùng truy cập vào đường dẫn `https://portal.sigma.video/auth/login`
 
 Hệ thống hiển thị màn hình **Đăng nhập** với các thông tin:
 

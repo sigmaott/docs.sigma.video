@@ -1,73 +1,16 @@
-import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
-import SidebarBuilder from '@sigmaott/vitepress-sidebar-builder'
+import { createRequire } from 'module'
+import { defineConfig, type DefaultTheme } from 'vitepress'
+import { SidebarBuilder } from './sidebar/index'
 
-const ogUrl = 'https://sigma.video'
-const ogDescription = 'Sigma Streaming Platform Document site'
+const require = createRequire(import.meta.url)
+const pkg = require('vitepress/package.json')
 
-export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
-  description: ogDescription,
-  head: [
-    ['meta', { property: 'og:url', content: ogUrl }],
-    ['meta', { property: 'og:description', content: ogDescription }]
-  ],
+export const en = defineConfig({
+  lang: 'en-US',
+  description: 'Modern Streaming Platform',
 
   themeConfig: {
-    // editLink: {
-    //   pattern: 'https://github.com/vitejs/vite/edit/main/docs/:path',
-    //   text: 'Suggest changes to this page'
-    // },
-
-    nav: [
-      {
-        text: 'Guides',
-        link: '/en/sigma-streaming-platform/01-get-started/1-introduction.md'
-      },
-      {
-        text: 'Sigma Media Server',
-        link: '/en/sigma-media-server/'
-      },
-      {
-        text: 'Products',
-        items: [
-          { text: 'Sigma Media Live', link: '/en/sigma-media-live/' },
-          { text: 'Sigma Media VOD', link: '/en/sigma-media-vod/' },
-          { text: 'Sigma Livestream', link: '/en/sigma-livestream/' },
-          { text: 'Sigma Interactive', link: '/en/sigma-interactive/' },
-          { text: 'Sigma Linear Right Management', link: '/en/sigma-lrm/' },
-          { text: 'Sigma Dynamic Ads Insert', link: '/en/sigma-dai/' },
-        ]
-      },
-      {
-        text: 'Api',
-        items: [
-          {
-            text: 'Sigma Media Live',
-            link: '/apis/sigma-media-live'
-          },
-          { text: 'Sigma Media VOD', link: '/apis/sigma-media-vod' },
-          { text: 'Sigma Livestream', link: '/apis/sigma-livestream' },
-          { text: 'Sigma Dynamic Ads Insert', link: '/apis/sigma-dai' },
-          {
-            text: 'Sigma Interactive',
-            link: '/apis/sigma-interactive'
-          },
-          {
-            text: 'Sigma Linear Right Management',
-            link: '/apis/sigma-lrm'
-          },
-        ]
-      },
-      { text: 'Teams', link: '/en/teams/', activeMatch: '/en/teams/' },
-      {
-        text: 'Links',
-        items: [
-          {
-            text: 'Github',
-            link: 'https://github.com/SigmaOTT'
-          }
-        ]
-      }
-    ],
+    nav: nav(),
 
     sidebar: {
       '/en/sigma-streaming-platform/': [
@@ -119,7 +62,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         })
       ],
       '/en/sigma-livestream/': [
-          ...SidebarBuilder.get.foldersAndOrder('./docs/en/sigma-livestream', {
+        ...SidebarBuilder.get.foldersAndOrder('./docs/en/sigma-livestream', {
           collapsed: false,
           collapsible: true,
           partialFileNamesToIgnore: ['_partial']
@@ -140,6 +83,62 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           ]
         }
       ]
+    },
+
+
+    // editLink: {
+    //   pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+    //   text: 'Edit this page on GitHub'
+    // },
+
+    footer: {
+      // message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2023-present Thudo JSC'
     }
   }
+})
+
+function nav(): DefaultTheme.NavItem[] {
+  return [
+    {
+      text: 'Guides',
+      link: '/en/sigma-streaming-platform/01-get-started/1-introduction.md'
+    },
+    {
+      text: 'Sigma Media Server',
+      link: '/en/sigma-media-server/'
+    },
+    {
+      text: 'Products',
+      items: [
+        { text: 'Sigma Media Live', link: '/en/sigma-media-live/' },
+        { text: 'Sigma Media VOD', link: '/en/sigma-media-vod/' },
+        { text: 'Sigma Livestream', link: '/en/sigma-livestream/' },
+        { text: 'Sigma Interactive', link: '/en/sigma-interactive/' },
+        { text: 'Sigma Linear Right Management', link: '/en/sigma-lrm/' },
+        { text: 'Sigma Dynamic Ads Insert', link: '/en/sigma-dai/' },
+      ]
+    },
+    {
+      text: 'APIs',
+      items: [
+        { text: 'Sigma Media Live', link: '/en/apis/sigma-media-live' },
+        { text: 'Sigma Media VOD', link: '/en/apis/sigma-media-vod' },
+        { text: 'Sigma Livestream', link: '/en/apis/sigma-livestream' },
+        { text: 'Sigma Dynamic Ads Insert', link: '/en//apis/sigma-dai' },
+        { text: 'Sigma Interactive', link: '/en/apis/sigma-interactive' },
+        { text: 'Sigma Linear Right Management', link: '/en/apis/sigma-lrm' },
+      ]
+    },
+    { text: 'Teams', link: '/en/teams/', activeMatch: '/en/teams/' },
+    {
+      text: 'Links',
+      items: [
+        {
+          text: 'Github',
+          link: 'https://github.com/SigmaOTT'
+        }
+      ]
+    }
+  ]
 }

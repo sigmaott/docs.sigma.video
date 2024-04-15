@@ -1,6 +1,6 @@
 ---
 title: Dashboard
-order: 1
+order: 2
 ---
 
 # Giao diện mặc định Dashboard
@@ -37,19 +37,6 @@ Màn hình bao gồm 3 phần/mục thông tin:
 ## Tài liệu hướng dẫn sử dụng của sản phẩm 
 
 Người dùng có thể truy cập vào từng đường dẫn muốn xem, hệ thống sẽ dẫn người dùng đến trang tài liệu người dùng mong muốn. người dùng có thể chọn **Xem thêm**, hệ thống sẽ dẫn người dùng màn hình chính của trang tài liệu
-
-Bao gồm các mục tài liệu:
-
-* Tài liệu hướng dẫn sử dụng sử dụng sản phẩm.
-
-* Tài liệu kỹ thuật hướng dẫn nhà phát triển.
-
-* Tài liệu mô tả cách sử dụng API.
-
-* Bảng chú giải các thuật ngữ khi sử dụng sản phẩm.
-
-* Câu hỏi thường gặp trong quá trình sử dụng sản phẩm.
-
 
 
 ## Hướng dẫn sử dụng trước khi bắt đầu sử dụng sản phẩm

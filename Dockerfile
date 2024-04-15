@@ -1,12 +1,14 @@
-FROM registry.gviet.vn:5000/library/node:16.15-alpine as builder
+FROM registry.gviet.vn:5000/library/node:18-alpine as builder
 
 env PUPPETEER_SKIP_DOWNLOAD=true
 
-RUN npm install -g pnpm@8.6.2
+RUN apk add --no-cache git
+RUN npm install -g pnpm@8.15.4
 
 WORKDIR /src
 
-COPY pnpm-lock.yaml ./
+COPY .npmrc pnpm-lock.yaml ./
+COPY patches ./patches
 
 RUN pnpm fetch
 
@@ -21,7 +23,7 @@ RUN pnpm run build
 FROM nginx:alpine
 
 WORKDIR /usr/share/nginx/html
-# copy folder dist build to nginx folder static 
+# copy folder dist build to nginx folder static
 COPY --from=builder /src/docs/.vitepress/dist .
 
 EXPOSE 80

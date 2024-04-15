@@ -5,9 +5,7 @@ order: 1
 
 Sigma Server bao gồm ba loại:
 
-1. Sigma Live Server
-2. Sigma VOD Server 
-3. Component Server 
+1. Sigma Media Server
 
 ### Cách thức hoạt động của máy chủ
 

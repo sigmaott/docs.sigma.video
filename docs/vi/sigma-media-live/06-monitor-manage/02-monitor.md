@@ -3,8 +3,6 @@ title: 'Giám sát'
 order: 2
 ---
 
-# {{ $frontmatter.title }}
-
 ## Giám sát kênh
 
 Với mỗi một kênh trên hệ thống sẽ có 1 hay nhiều các **job** thực thi việc chuyển mã hay đóng gói kênh. Trạng thái của kênh sẽ là tổng hợp trạng thái của các **job** ứng với kênh tương ứng
@@ -52,7 +50,7 @@ Việc thao tác với job hệ thống cung cấp đẩy đủ các **action** 
 
 Từ danh sách của kênh thao tác **click** vào tên của kênh giao diện chi tiết kênh sẽ hiện ra
 
-![Thông tin chi tiết kênh](/images/media-live/um-channel-detail.png)
+![Thông tin chi tiết kênh](/public/media-live/general/channel-detail.png)
 
 Các component giám sát bao gồm: 
 
@@ -71,20 +69,10 @@ Các component giám sát bao gồm:
 
 ### Giám sát job
 
-![Bảng giám sát Job](/images/media-live/um-job-detail/um-job-detail.png){ width=400px }
-
-Bảng giám sát job Bao gồm
-
-* ![status](/images/media-live/um-job-detail/1.png){ height=17px }  **status**: Trạng thái của job
-* ![status](/images/media-live/um-job-detail/2.png){ height=17px }  **Speed**: Tốc độ hiện tại của job
-* ![status](/images/media-live/um-job-detail/3.png){ height=17px }  **Lifetime**: Thời gian job chạy được từ lần cuối retry vì lỗi hoặc restart 
-* ![status](/images/media-live/um-job-detail/4.png){ height=17px }  **created**: thời gian job được tạo (utc time)
-* ![status](/images/media-live/um-job-detail/5.png){ height=17px }  **outputs**: Đầu ra của job
-* ![status](/images/media-live/um-job-detail/6.png){ height=17px }  **action**: Các nút thao tác với job 
-* ![status](/images/media-live/um-job-detail/7.png){ height=17px }  **Errors**: log lỗi của job (lấy 3 lỗi gần nhất)
-
 * Note: 
   * Bảng giám sát **Job** có thể theo dõi ở danh sách kênh hoặc trong trang chi tiết kênh
+
+![Thông tin chi tiết job](/public/media-live/general/job-detail.png)
 
 Cấu trúc log lỗi của job
 
@@ -100,38 +88,55 @@ Trong đó:
 
 Một vài mã lỗi phổ biến và chú thích đi kèm
 
-| Code                                   | description                                                  |
-| -------------------------------------- | ------------------------------------------------------------ |
-| TIMEOUT                                | Job bị timeout (Nguồn đầu vào mất sóng video)                |
-| **PACKET_QUEUE_IS_FULL**               | Gói tin trong hàng đợi không kịp xử lý (thiếu tài nguyên)    |
-| MEMORY_IS_FULL                         | Hết bộ nhớ Ram                                               |
-| **INPUT_TIMEOUT**                      | Đầu vào Timeout (mất sóng đầu vào)                           |
-| **OUTPUT_TIMEOUT**                     | Đầu ra Timeout (phụ thuộc vào từng luồng đầu ra)             |
-| **TRANSCODE_TIMEOUT**                  | Máy chủ Xử lý gặp vấn đề                                     |
-| GOP_INVALID                            | Lỗi GOP cache của đầu vào                                    |
-| ASYNC_STREAM                           | Không đồng bộ được các luồng đầu vào (ABR streaming)         |
-| **ASYNC_PROFILE**                      | Không đồng bộ được luồng đầu ra (ABR streaming)              |
-| INPUT_OUTPUT_ERROR                     | Luồng đầu vào và luồng đầu ra gặp sự cố                      |
-| IO_ERROR                               | Lỗi trong quá trình đọc ghi                                  |
-| **CONNECTION_REFUSED**                 | Kết nối bị đầu ra bị refused (Lỗi thường xảy ra khi không thể kết nối đến manifest service) |
-| CONNECTION_TIMEOUT                     | Kết nối đầu ra timeout                                       |
-| CANNOT_OPEN_CONNECTION                 | Không tạo được kết nối                                       |
-| URL_READ_ERROR                         | Lỗi đọc dữ liệu URL                                          |
-| OPTION_NOTFOUND `*`                  | Cấu hình truyền lên không đúng                               |
-| PROTOCOL_NOTFOUND `*`               | Không tìm thấy Protocol                                      |
-| STREAM_NOT_FOUND `*`                | Không tìm thấy luồng đầu vào                                 |
-| UNABLE_TO_OPEN_RESOURCE                | Không thể khởi tạo tài nguyên                                |
-| NO_ROUTE_TO_HOST `*`                 | Không mở được kết nối                                        |
-| INVALID_ARGUMENT *****                 | Sai tham số                                                  |
-| INITIALIZING_OUTPUT_STREAM `*`  | Lỗi Khởi tạo luồng đầu ra                                    |
-| CONNECTION_RESET_BY_PEER               | Kết nối bị reset                                             |
-| BROKEN_PIPE                            | Broken pipe                                                  |
-| NO_AUDIO_DATA `*`                   | Luồng khởi tạo không có AUDIO data                           |
-| NO_VIDEO_DATA `*`                   | Luồng khởi tạo không có VIDEO data                           |
+| Code                                   | description                                                  | Input Error | Output Error | Processing Error | Config Error |
+| -------------------------------------- | ------------------------------------------------------------ | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- |
+| TIMEOUT                                | Job bị timeout (Nguồn đầu vào mất sóng video)                | x |  |  |  |
+| **PACKET_QUEUE_IS_FULL**               | Gói tin trong hàng đợi không kịp xử lý (thiếu tài nguyên)    | x | x | x |  |
+| MEMORY_IS_FULL                         | Hết bộ nhớ Ram                                               |  |  | x |  |
+| **INPUT_TIMEOUT**                      | Đầu vào Timeout (mất sóng đầu vào)                           | x |  |  |  |
+| **OUTPUT_TIMEOUT**                     | Đầu ra Timeout (phụ thuộc vào từng luồng đầu ra)             |  | x |  |  |
+| **TRANSCODE_TIMEOUT**                  | Máy chủ Xử lý gặp vấn đề                                     |  |  | x |  |
+| GOP_INVALID                            | Lỗi GOP cache của đầu vào                                    | x |  |  |  |
+| ASYNC_STREAM                           | Không đồng bộ được các luồng đầu vào (ABR streaming)         | x |  |  |  |
+| **ASYNC_PROFILE**                      | Không đồng bộ được luồng đầu ra (ABR streaming)              | x |  |  |  |
+| INPUT_OUTPUT_ERROR                     | Luồng đầu vào và luồng đầu ra gặp sự cố                      | x | x |  |  |
+| IO_ERROR                               | Lỗi trong quá trình đọc ghi                                  | x | x |  |  |
+| **CONNECTION_REFUSED**                 | Kết nối bị đầu vào hoặc đầu ra bị refused (Lỗi thường xảy ra khi không thể kết nối đến manifest service) | x | x |  |  |
+| CONNECTION_TIMEOUT                     | Kết nối đầu vào hoặc đầu ra timeout                        | x | x |  |  |
+| CANNOT_OPEN_CONNECTION                 | Không tạo được kết nối                                       | x | x |  |  |
+| URL_READ_ERROR                         | Lỗi đọc dữ liệu URL                                          | x | x |  |  |
+| OPTION_NOTFOUND `*`                  | Cấu hình truyền lên không đúng                               |  |  |  | x |
+| PROTOCOL_NOTFOUND `*`               | Không tìm thấy Protocol                                      |  |  |  | x |
+| STREAM_NOT_FOUND `*`                | Không tìm thấy luồng đầu vào                                 | x |  |  |  |
+| UNABLE_TO_OPEN_RESOURCE                | Không thể khởi tạo tài nguyên                                |  | x |  |  |
+| NO_ROUTE_TO_HOST `*`                 | Không mở được kết nối                                        | x | x |  |  |
+| INVALID_ARGUMENT *****                 | Sai tham số                                                  |  |  |  | x |
+| INITIALIZING_OUTPUT_STREAM `*`  | Lỗi Khởi tạo luồng đầu ra                                    |  | x |  |  |
+| CONNECTION_RESET_BY_PEER               | Kết nối bị reset                                             | x | x |  |  |
+| BROKEN_PIPE                            | Broken pipe                                                  | x | x |  |  |
+| NO_AUDIO_DATA `*`                   | Luồng khởi tạo không có AUDIO data                           | x |  |  |  |
+| NO_VIDEO_DATA `*`                   | Luồng khởi tạo không có VIDEO data                           | x |  |  |  |
+| FEATURE_NOT_ENABLED | Tính năng không được hỗ trợ |  |  |  | x |
+| CANT_START_OVERLAY | Không thể bật được overlay |  |  |  | x |
+| NO_SUCH_FILE_OR_DIRECTORY | Không mở được file hoặc thư mục | x | x |  |  |
+| END_OF_FILE | End of file |  | x |  |  |
+| ERROR_INITIALIZING_OUTPUT_STREAM |  |  | x |  |  |
+| FAILED_TO_RESOLVE_HOSTNAME | Không phân giải được tên miền |  | x |  |  |
+| INVALID_INPUT_DATA | Dữ liệu cầu vào không hợp lệ | x |  |  |  |
+| CANT_SYNC_INPUT | Không đồng bộ được đầu vào | x |  |  |  |
+| STREAM_MISSING | Luồng đầu vào bị thiếu | x |  |  |  |
+| OPEN_ERROR | Lỗi Mở đầu vào hoặc đầu ra | x | x |  |  |
+| CLOSE_ERROR | Lỗi đóng đầu vào hoặc đầu ra | x | x |  |  |
+| SYNC_SEQUENCE |  |  |  | x |  |
+| INPUT_PACKET_TOO_SMALL | Gói tin đầu vào không đúng định dạng | x |  |  |  |
+| AAC_PACKET_TOO_SHORT | Gói tin đầu vào của AAC quá nhỏ | x |  |  |  |
+| PPS_ID_NOT_FOUND | Không tìm thấy PPS_ID | x |  |  |  |
 
+
+::: info
 * Các Lỗi in đậm có nhiều khả năng xảy ra khi **job** đã chạy thành công hơn so với các lỗi khác
-* Với các lỗi liên quan đến đầu ra: kiểm tra các 
+* Với các lỗi liên quan đến đầu ra: kiểm tra luồng đầu ra tương ứng (Ổ cứng, Ram, ... )
 * Các lỗi `*` chỉ xảy ra khi tạo mới **job**
 * Khi gặp lỗi hệ thống sẽ tự thử lại các **job** đã bị lỗi đến khi lỗi được xử lý
     * Đối với các lỗi xảy ra khi khởi tạo job sẽ cần khởi động lại job để xử lý
-
+    :::

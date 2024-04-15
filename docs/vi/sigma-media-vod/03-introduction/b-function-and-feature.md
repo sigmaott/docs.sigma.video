@@ -13,17 +13,17 @@ Cho phép quản lý và tổ chức nội dung video từ nhiều nguồn khác
 
 **Topic:** 
 
-[Tạo công việc](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/1-create-job.md)
+[Tạo công việc](../06-user-guide/c-vod-job-management/2-create-job.md)
 
-[Xem danh sách công việc](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/2-view-job-list.md)
+[Xem danh sách công việc](../06-user-guide/c-vod-job-management/1-vod-job-management.md#xem-danh-sách-công-việc)
 
-[Xem chi tiết công việc](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/3-view-details-job.md)
+[Xem chi tiết công việc](../06-user-guide/c-vod-job-management/1-vod-job-management.md#xem-chi-tiết-công-việc)
 
-[Nhân bản job](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/4-duplicate-job.md)
+[Nhân bản job](../06-user-guide/c-vod-job-management/1-vod-job-management.md#nhân-bản-job)
 
-[Thử lại job](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/5-retry-job.md)
+[Thử lại job](../06-user-guide/c-vod-job-management/1-vod-job-management.md#thử-lại-job)
 
-[Xóa job](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/6-delete-job.md)
+[Xóa job](../06-user-guide/c-vod-job-management/1-vod-job-management.md#xóa-job)
 
 
 ## Quản lý cơ chế thư mục cần theo dõi
@@ -34,19 +34,19 @@ Khi hệ thống phát hiện sự thay đổi trong thư mục (ví dụ: tệp
 
 **Topic:**
 
-[Tạo cơ chế theo dõi thư mục](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/1-create-job.md)
+[Tạo cơ chế theo dõi thư mục](../06-user-guide/d-watch-folder-management/2-create-watch-folder-rule.md)
 
-[Xem danh sách quy tắc thư mục](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/2-view-job-list.md)
+[Xem danh sách quy tắc thư mục](../06-user-guide/d-watch-folder-management/1-watch-folder-rule-management.md#xem-danh-sách-cơ-chế-thư-mục-cần-theo-dõi-watch-folder-rule)
 
-[Chỉnh sửa quy tắc thư mục](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/3-view-details-job.md)
+[Chỉnh sửa quy tắc thư mục](../06-user-guide/d-watch-folder-management/1-watch-folder-rule-management.md#chỉnh-sửa-cơ-chế-thư-mục-cần-theo-dõi-watch-folder-rule)
 
-[Xóa quy tắc thư mục](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/4-duplicate-job.md)
+[Xóa quy tắc thư mục](../06-user-guide/d-watch-folder-management/1-watch-folder-rule-management.md#xóa-quy-tắc-thư-mục)
 
-[Xem lịch sử công việc](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/5-retry-job.md)
+[Xem lịch sử công việc](../06-user-guide/d-watch-folder-management/1-watch-folder-rule-management.md#xem-lịch-sử-công-việc-job-được-tạo-ra-từ-quy-tắc-thư-mục)
 
-[Dừng theo dõi thư mục](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/6-delete-job.md)
+[Dừng theo dõi thư mục](../06-user-guide/d-watch-folder-management/1-watch-folder-rule-management.md#dừng-theo-dõi-thư-mục)
 
-[Tiếp tục theo dõi thư mục](/docs/vi/sigma-media-vod/05-user-guide/b-job-management/6-delete-job.md)
+[Tiếp tục theo dõi thư mục](../06-user-guide/d-watch-folder-management/1-watch-folder-rule-management.md#tiếp-tục-theo-dõi-thư-mục)
 
 ## Quản lý mẫu cấu hình
 
@@ -58,10 +58,7 @@ Bên cạnh việc thiết lập những cấu hình cho công việc (job) đ�
 
 Khác với việc truyền tải nội dung trực tiếp và thực tế, pseudo-live streaming tạo ra một trải nghiệm giống như đang xem phát sóng trực tiếp mặc dù thực tế là nó được chơi từ một nguồn video đã được ghi trước đó.
 
-**Topic:**
+[Xem chi tiết tại đây](../06-user-guide/c-vod-job-management/5-pseudo-live.md)
 
 ## Batch Job transcode
 
-Nếu bạn muốn di chuyển nhiều resource đang được lưu trữ trên máy (server) hoặc nguồn khác và những resource này có thể truy cập công khai, việc tạo từng job mất thời gian. Vì vậy, để tối ưu thời gian cho người dùng, chúng tôi hỗ trợ di chuyển tài nguyên theo batches. Bằng cách này, bạn có thể nhanh chóng transcode một số lượng lớn tệp với đầu ra n jobs và giảm mức sử dụng lưu lượng.
-
-**Topic:**
