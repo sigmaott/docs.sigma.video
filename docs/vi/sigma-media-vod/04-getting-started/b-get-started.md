@@ -87,3 +87,4 @@ Nhấp vào **"Tên job"** để xem thông tin chi tiết bao gồm:
 Khi bạn đã tạo và khởi chạy công việc (job). Sau đó, job hoàn thành (trạng thái Complete) hoặc quá trình xảy ra lỗi (trạng thái Error) để đóng các job không cần thiết, bạn cần thực hiện thao tác xoá job
 
 [Xem chi tiết tại đây](../06-user-guide/c-vod-job-management/1-vod-job-management.md#xóa-job)
+1
