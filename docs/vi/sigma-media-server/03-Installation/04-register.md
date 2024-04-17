@@ -7,7 +7,7 @@ order: 4
 
 ## Yêu cầu
 
-Hệ thống Sigma Media Server yêu cầu máy chủ phải được đăng kí trước khi sử dụng. Để đăng kí máy chủ, bạn cần có tài khoản trên hệ thống [Sigma Video](https://sigma.video/). Nếu bạn chưa có tài khoản, hãy đăng kí tài khoản tại [đây](https://portal.sigmaott.com/auth/login).
+Hệ thống Sigma Media Server yêu cầu máy chủ phải được đăng kí trước khi sử dụng. Để đăng kí máy chủ, bạn cần có tài khoản trên hệ thống [Sigma Video](https://sigma.video/). Nếu bạn chưa có tài khoản, hãy đăng kí tài khoản tại [đây](https://portal.sigma.video/auth/login).
 
 Sau khi đăng nhập, bạn sẽ thấy màn hình chính của hệ thống quản lý Sigma Streaming Platform, thực hiện chọn **App** mong muốn cài đặt . Bạn chọn mục **Máy chủ** và chọn **Thêm máy chủ**.
 
@@ -66,4 +66,4 @@ sudo systemctl restart sigma-media-server
 
 Chúc bạn thành công trong việc cài đặt và sử dụng Sigma Media Server! Nếu bạn gặp bất kỳ vấn đề nào, đừng ngần ngại liên hệ với chúng tôi để nhận được sự hỗ trợ. Chúng tôi luôn sẵn lòng giúp đỡ bạn.
 
-Truy cập portal của dịch vụ để thực hiện các thao tác liên quan đến máy chủ [Portal Sigma Streaming Platform](https://portal.sigmaott.com/auth/login)
+Truy cập portal của dịch vụ để thực hiện các thao tác liên quan đến máy chủ [Portal Sigma Streaming Platform](https://portal.sigma.video/auth/login)

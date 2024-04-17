@@ -1,7 +1,7 @@
----
+<!-- ---
 title: Giám sát hiệu suất hoạt động của máy
 order: 8
----
+--- -->
 
  Chức năng "Giám sát hiệu suất hoạt động của máy" giúp theo dõi, đánh giá và bảo đảm hiệu suất ổn định của máy chủ để đảm bảo rằng hệ thống hoạt động một cách hiệu quả và đáng tin cậy. 
 

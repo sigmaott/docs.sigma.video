@@ -7,28 +7,15 @@ order: 2
 
 ## Thiết lập kênh Livestream
 
-Để thiết lập kênh Livestream bạn cần chuẩn bị các tác vụ sau:
-- Chuẩn bị máy chủ.
-- Tạo cấu hình kênh Livestream.
-- Sử dụng đường dẫn kênh Livestream sinh ra để đẩy luồng dữ liệu từ bên thứ 3.
-- Thu thập, theo dõi các thông số cần thiết.
+Để thiết lập kênh Livestream bạn cần thực hiện các tác vụ sau:
+- [Chuẩn bị](01-prepare.md): Chuẩn bị máy chủ.
+- [cấu hình ứng dụng](../03-user-guide/a-app-config.md): Chuẩn bị máy chủ.
+- [Tạo kênh](../03-user-guide/c-channel/1-create.md):Tạo cấu hình kênh Livestream.
+- [Đẩy đầu vào](./03-push-data.md): Sử dụng đường dẫn kênh Livestream sinh ra để đẩy luồng dữ liệu từ bên thứ 3.
+- [Xem lại](./04-playback.md): Thu thập, theo dõi các thông số cần thiết.
+- [Đóng session](./05-close-session.md): Thu thập, theo dõi các thông số cần thiết.
 
 Khi hoàn tất, bạn sẽ có thể gửi yêu cầu phát lại tới Sigma Livestream cho nội dung kênh được cá nhân hóa trong luồng của mình.
-
-## Chuẩn bị
-
-Trước khi bắt đầu, bạn cần chuẩn bị các tác vụ sau:
-- Có tài khoản truy cập hệ thống quản lý của **Sigma Streaming Platform** `https://portal.sigmaott.com`
-- Tài khoản có quyền truy cập app được phân quyền với Sigma Livestream.
-
-## Bước 1: Truy cập vào hệ thống Sigma Livestream
-
-Để sử dụng Sigma Livestream, bạn cần có tài khoản và quyền truy cập, xem và thực hiện các hành động được phép.
-1. Truy cập vào đường link `https://portal.sigmaott.com/app`
-2. Hiển thị Danh sách App, **chọn ứng dụng** có quyền truy cập.
-3. Hiển thị mặc định vào trang **tổng quan ứng dụng.**
-4. Chọn **đi đến Livestream.**
-5. Hiển thị giao diện **Cấu hình ứng dụng** yêu cầu cấu hình máy chủ để thực thi nhiệm vụ cho các kênh phát sau đó.
 
 ## Bước 2: Để tạo mới kênh livestream
 
@@ -39,14 +26,25 @@ Trước khi bắt đầu, bạn cần chuẩn bị các tác vụ sau:
 
 Ví dụ cấu hình: 
 - **Cấu hình cơ bản**
+    - Tên kênh: Tên ể phân biệy
+    Ví dụ: `test-channel`
 - **Cấu hình nâng cao**: 
     - Kiểu: `Transcode`
     - Cách thức: `Normal`
     - Định dạng đầu ra: `HLS`
     - Transcode profile: `480p`, `720p`
     - Timeout: `300`
+    - Cấu hình máy chủ: `Tắt`
+    - Catchup:
+        - Destination: `FTP(s)`
+        - host: `192.168.0.10`
+        - port: `21`
+        - username: `admin`
+        - password: `123456`
+    - Record:
+        - Destination: `Server`
 
-Khi hoàn tất, bạn mở trình duyệt  có cài tiện ích **HLS player - m3u8 streaming**, nhập Livestream URL của mình và xem luồng của phát trình duyệt.
+Khi hoàn tất, bạn mở trình duyệt có cài tiện ích **HLS player - m3u8 streaming**, nhập Livestream URL của mình và xem luồng phát trình duyệt theo hướng dẫn [tại đây](./03-push-data.md).
 
 ## Bước 3: Kiểm tra cấu hình
 

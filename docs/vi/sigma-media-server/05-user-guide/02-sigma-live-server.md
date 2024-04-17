@@ -1,5 +1,5 @@
 ---
-title: Sigma Live Server 
+title: Sigma Media Server 
 order: 2
 ---
 

@@ -62,6 +62,3 @@ Khác với việc truyền tải nội dung trực tiếp và thực tế, pseu
 
 ## Batch Job transcode
 
-Nếu bạn muốn di chuyển nhiều resource đang được lưu trữ trên máy (server) hoặc nguồn khác và những resource này có thể truy cập công khai, việc tạo từng job mất thời gian. Vì vậy, để tối ưu thời gian cho người dùng, chúng tôi hỗ trợ di chuyển tài nguyên theo batches. Bằng cách này, bạn có thể nhanh chóng transcode một số lượng lớn tệp với đầu ra n jobs và giảm mức sử dụng lưu lượng.
-
-**Topic:**

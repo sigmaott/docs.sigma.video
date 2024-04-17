@@ -1,73 +1,16 @@
-import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
-import SidebarBuilder from '@sigmaott/vitepress-sidebar-builder'
+import { createRequire } from 'module'
+import { defineConfig, type DefaultTheme } from 'vitepress'
+import { SidebarBuilder } from './sidebar/index'
 
-const ogUrl = 'https://sigmaott.com/en/'
-const ogDescription = 'New Generation Streaming Platform Video System'
+const require = createRequire(import.meta.url)
+const pkg = require('vitepress/package.json')
 
-export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
-  description: ogDescription,
-  head: [
-    ['meta', { property: 'og:url', content: ogUrl }],
-    ['meta', { property: 'og:description', content: ogDescription }]
-  ],
+export const vi = defineConfig({
+  lang: 'vi-VN',
+  description: 'Modern Streaming Platform',
 
   themeConfig: {
-    // editLink: {
-    //   pattern: 'https://github.com/vitejs/vite/edit/main/docs/:path',
-    //   text: 'Suggest changes to this page'
-    // },
-
-    nav: [
-      {
-        text: 'Bắt đầu',
-        link: '/vi/sigma-streaming-platform/01-get-started/1-introduction.md'
-      },
-      {
-        text: 'Sigma Media Server',
-        link: '/vi/sigma-media-server/'
-      },
-      {
-        text: 'Sản phẩm',
-        items: [
-          { text: 'Sigma Media Live', link: '/vi/sigma-media-live/' },
-          { text: 'Sigma Media VOD', link: '/vi/sigma-media-vod/' },
-          { text: 'Sigma Livestream', link: '/vi/sigma-livestream/' },
-          { text: 'Sigma Interactive', link: '/vi/sigma-interactive/' },
-          { text: 'Sigma Linear Right Management', link: '/vi/sigma-lrm/' },
-          { text: 'Sigma Dynamic Ads Insert', link: '/vi/sigma-dai/' },
-        ]
-      },
-      {
-        text: 'APIs',
-        items: [
-          {
-            text: 'Sigma Media Live',
-            link: '/apis/sigma-media-live'
-          },
-          { text: 'Sigma Media VOD', link: '/apis/sigma-media-vod' },
-          { text: 'Sigma Livestream', link: '/apis/sigma-livestream' },
-          { text: 'Sigma Dynamic Ads Insert', link: '/apis/sigma-dai' },
-          {
-            text: 'Sigma Interactive',
-            link: '/apis/sigma-interactive'
-          },
-          {
-            text: 'Sigma Linear Right Management',
-            link: '/apis/sigma-lrm'
-          },
-        ]
-      },
-      { text: 'Đội ngũ', link: '/vi/teams/', activeMatch: '/vi/teams/' },
-      {
-        text: 'Links',
-        items: [
-          {
-            text: 'Github',
-            link: 'https://github.com/SigmaOTT'
-          }
-        ]
-      }
-    ],
+    nav: nav(),
 
     sidebar: {
       '/vi/sigma-streaming-platform/': [
@@ -140,6 +83,60 @@ export const viConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           ]
         }
       ]
+    },
+
+    // editLink: {
+    //   pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+    //   text: 'Edit this page on GitHub'
+    // },
+
+    footer: {
+      copyright: 'Copyright © 2023-present Thudo JSC'
     }
   }
+})
+
+function nav(): DefaultTheme.NavItem[] {
+  return [
+    {
+      text: 'Bắt đầu',
+      link: '/vi/sigma-streaming-platform/01-get-started/1-introduction.md'
+    },
+    {
+      text: 'Sigma Media Server',
+      link: '/vi/sigma-media-server/'
+    },
+    {
+      text: 'Sản phẩm',
+      items: [
+        { text: 'Sigma Media Live', link: '/vi/sigma-media-live/' },
+        { text: 'Sigma Media VOD', link: '/vi/sigma-media-vod/' },
+        { text: 'Sigma Livestream', link: '/vi/sigma-livestream/' },
+        { text: 'Sigma Interactive', link: '/vi/sigma-interactive/' },
+        { text: 'Sigma Linear Right Management', link: '/vi/sigma-lrm/' },
+        { text: 'Sigma Dynamic Ads Insert', link: '/vi/sigma-dai/' },
+      ]
+    },
+    {
+      text: 'APIs',
+      items: [
+        { text: 'Sigma Media Live', link: '/vi/apis/sigma-media-live' },
+        { text: 'Sigma Media VOD', link: '/vi/apis/sigma-media-vod' },
+        { text: 'Sigma Livestream', link: '/vi/apis/sigma-livestream' },
+        { text: 'Sigma Dynamic Ads Insert', link: '/vi//apis/sigma-dai' },
+        { text: 'Sigma Interactive', link: '/vi/apis/sigma-interactive' },
+        { text: 'Sigma Linear Right Management', link: '/vi/apis/sigma-lrm' },
+      ]
+    },
+    { text: 'Đội ngũ', link: '/vi/teams/', activeMatch: '/vi/teams/' },
+    {
+      text: 'Links',
+      items: [
+        {
+          text: 'Github',
+          link: 'https://github.com/SigmaOTT'
+        }
+      ]
+    }
+  ]
 }
