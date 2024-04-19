@@ -11,7 +11,6 @@ Livestream không chỉ giới hạn trong việc phát sóng video trực tiế
 
 Sigma Live Stream Platform cung cấp một dịch vụ toàn diện đưa công việc truyền tải nội dung từ broadcaster đến với người xem đơn giản như một nút bấm.
 
-
 ## Key drivers of low latency for video streaming 
 
 Các định dạng phát trực tuyến ban đầu, chủ yếu được phát triển cho SVOD, tập trung vào việc tránh lưu vào bộ đệm lại khi hiển thị video trên trình phát. Nhưng để tính năng đó hoạt động ở mọi nơi trên mọi thiết bị, bộ nhớ đệm phải được sử dụng trong quy trình làm việc, đặc biệt là trong trình phát. Điều này góp phần vào sự thành công của OTT nhưng cũng tạo ra độ trễ từ đầu đến cuối. 
@@ -22,7 +21,6 @@ Với độ trễ 20-40 giây hoặc hơn thì không phải là vấn đề cho
 
 
 ![about-1](/images/livestream/livestream-about-1.png)
-
 
 
 ## Sigma Live Stream Platform

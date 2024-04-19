@@ -1,5 +1,5 @@
 ---
-title: Ghi chú phat hanh
+title: Ghi chú phát hành
 order: 1
 ---
 
