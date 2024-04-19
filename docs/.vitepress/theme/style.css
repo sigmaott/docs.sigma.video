@@ -1,0 +1,7 @@
+body {
+  --vp-layout-max-width: 100vw;
+}
+
+.content-container {
+  max-width: calc(688px * 1.5) !important;
+}
