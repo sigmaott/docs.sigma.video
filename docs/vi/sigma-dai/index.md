@@ -20,8 +20,7 @@ features:
 
 - number: '02'
   title: Getting started
-  description: With Sigma DAI, you can integrate your internal systems and selectively
-    expose and monetize your service capabilities with minimal cost and risk.
+  description: Hướng dẫn bắt đầu sử dụng hệ thống Sigma DAI.
   group:
   - title: Bắt đầu với Sigma DAI
     links:
