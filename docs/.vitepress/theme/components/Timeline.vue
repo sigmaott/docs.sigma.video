@@ -59,7 +59,7 @@ const listsGrouped = computed(() => groupListsBy2(frontmatter.value.features))
 </script>
 
 <template>
-  <div class="w-full mx-auto py-5 px-8">
+  <div class="w-full mx-auto py-5 px-8 max-w-screen-xl">
     <div class="relative py-12">
       <div class="i-ri:book-open-fill absolute left-1/2 top-0 -translate-x-1/2" />
       <div

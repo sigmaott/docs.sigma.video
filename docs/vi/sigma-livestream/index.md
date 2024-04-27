@@ -1,6 +1,5 @@
 ---
-layout: Progressive Knowledge
-Livestream knowledge for users from beginner level to expert level
+layout: page
 
 features:
 - number: '01'

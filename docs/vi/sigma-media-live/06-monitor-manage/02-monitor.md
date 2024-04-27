@@ -50,11 +50,10 @@ Việc thao tác với job hệ thống cung cấp đẩy đủ các **action** 
 
 Từ danh sách của kênh thao tác **click** vào tên của kênh giao diện chi tiết kênh sẽ hiện ra
 
-![Thông tin chi tiết kênh](/public/media-live/general/channel-detail.png)
+![Thông tin chi tiết kênh](/images/media-live/general/channel-detail.png)
 
 Các component giám sát bao gồm: 
 
-* **Thumbnail**: Hình ảnh thumbnail của kênh được trích xuất định kì trong quá trình xử lý
 * **job Speed**: Biểu đồ dây theo thời gian biểu thị tốc độ của các **job**
     * Tốc độ của **job** được tính theo mốc 100%
         * Với các giá trị nhỏ hơn 90% job đang gặp vấn đề trong quá trình xử lý như nguồn đầu vào, đầu ra gặp vấn đề
@@ -72,7 +71,7 @@ Các component giám sát bao gồm:
 * Note: 
   * Bảng giám sát **Job** có thể theo dõi ở danh sách kênh hoặc trong trang chi tiết kênh
 
-![Thông tin chi tiết job](/public/media-live/general/job-detail.png)
+![Thông tin chi tiết job](/images/media-live/general/job-detail.png)
 
 Cấu trúc log lỗi của job
 
@@ -120,7 +119,6 @@ Một vài mã lỗi phổ biến và chú thích đi kèm
 | CANT_START_OVERLAY | Không thể bật được overlay |  |  |  | x |
 | NO_SUCH_FILE_OR_DIRECTORY | Không mở được file hoặc thư mục | x | x |  |  |
 | END_OF_FILE | End of file |  | x |  |  |
-| ERROR_INITIALIZING_OUTPUT_STREAM |  |  | x |  |  |
 | FAILED_TO_RESOLVE_HOSTNAME | Không phân giải được tên miền |  | x |  |  |
 | INVALID_INPUT_DATA | Dữ liệu cầu vào không hợp lệ | x |  |  |  |
 | CANT_SYNC_INPUT | Không đồng bộ được đầu vào | x |  |  |  |
