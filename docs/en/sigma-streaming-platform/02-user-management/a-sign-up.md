@@ -7,7 +7,7 @@ order: 1
 
 The user registration feature is a very important part, helping users to register an account easily to be able to access the Sigma Streaming system.
 
-**Step 1**: User accesses the path 'https\://portal.sigmaott.com/auth/login'
+**Step 1**: User accesses the path 'https\://portal.sigma.video/auth/login'
 
 Screen display system **Login**
 
@@ -19,7 +19,7 @@ The system displays the **Register** screen, with the main information:
 
 - **Email:** requires entry, no accented languages supported, no spaces
 - **Password:** requires entry, must contain at least 1 uppercase character, 1 lowercase character and number
-- \*\*Re-enter password: \*\*requires entry, user input is the same as the 'Password' section
+- **Re-enter password:** requires entry, user input is the same as the 'Password' section
 - **Terms and conditions:** Tick required
 - **"Terms and Conditions":** button when the user clicks this button, the system switches to the Sigma Streaming Terms and Conditions page
 - **"Register with email":** button to register an account
@@ -31,4 +31,3 @@ The system displays the **Register** screen, with the main information:
 
 If not, the system will create a new account with the information provided.
 
-[Authentication] screen display(b-verification.md)
