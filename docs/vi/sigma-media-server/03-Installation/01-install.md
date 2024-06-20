@@ -1,5 +1,5 @@
 ---
-title: Install:Docker
+title: Install Sigma Media Server
 order: 1
 ---
 
