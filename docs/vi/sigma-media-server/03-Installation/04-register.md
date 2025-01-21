@@ -1,6 +1,6 @@
 ---
 title: Đăng kí máy chủ
-order: 4
+order: 6
 ---
 
 # Hướng dẫn đăng kí máy chủ Sigma Media Server
