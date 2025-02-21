@@ -97,7 +97,7 @@ export const en = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: "Guides",
+      text: "Sigma Streaming Platform",
       link: "/en/sigma-streaming-platform/01-get-started/1-introduction.md",
     },
     {
@@ -113,6 +113,12 @@ function nav(): DefaultTheme.NavItem[] {
         { text: "Sigma Interactive", link: "/en/sigma-interactive/" },
         { text: "Sigma Linear Right Management", link: "/en/sigma-lrm/" },
         { text: "Sigma Dynamic Ads Insert", link: "/en/sigma-dai/" },
+      ],
+    },
+        {
+      text: "Apps",
+      items: [
+        { text: "Sigma Vast Control", link: "/vi/sigma-vast-control/" },
       ],
     },
     {

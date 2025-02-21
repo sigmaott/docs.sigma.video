@@ -1,5 +1,5 @@
 ---
 id: doc-guideline-media-live
-title: Profile
+title: "Resource: Profile Template"
 order: 7
 ---
