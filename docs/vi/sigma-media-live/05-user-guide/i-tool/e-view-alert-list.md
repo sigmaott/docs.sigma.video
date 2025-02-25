@@ -1,6 +1,6 @@
 ---
 title: Xem danh sách cảnh báo
-order: 9
+order: 2
 ---
 
 # Xem danh sách cảnh báo
