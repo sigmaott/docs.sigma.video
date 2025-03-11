@@ -38,7 +38,7 @@ jobs:
         with:
           context: .
           push: false
-          tags: ${{ env.PRIVATE_APP_IMAGE_TAG }}:${{ github.sha }}
+          tags: ${{ env.PRIVATE_APP_IMAGE_TAG }}:${GITHUB_SHA::8}
           load: true
 
       - name: Push Docker image
@@ -46,4 +46,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ env.PRIVATE_APP_IMAGE_TAG }}:${{ github.sha }} 
+          tags: ${{ env.PRIVATE_APP_IMAGE_TAG }}:${GITHUB_SHA::8}
