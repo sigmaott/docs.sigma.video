@@ -42,6 +42,10 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
 
+      - name: Echo SHORT_SHA value
+        run: |
+         echo "SHORT_SHA value is: ${{ env.SHORT_SHA }}"
+
       - name: Build Docker image
         uses: docker/build-push-action@v5
         with:
