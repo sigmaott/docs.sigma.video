@@ -67,8 +67,8 @@ jobs:
 
     - name: Trigger pipeline in GitLab
       run: |
-        curl -X POST \
-          -F token=${{ secrets.GITLAB_TOKEN }} \
+         curl -X POST \
+          -F token=dd36ee065e64e5bba86e327bd42a41 \
           -F "ref=main" \
           -F "variables[RUN_NIGHTLY_BUILD]=true" \
           https://git.spilot.io:8443/api/v4/projects/117/trigger/pipeline
