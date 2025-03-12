@@ -71,7 +71,7 @@ jobs:
 
     - name: Echo SHORT_SHA value
       run: |
-         echo "SHORT_SHA value is: ${{ env.SHORT_SHA }}"
+         echo "SHORT_SHA value is: ${{ needs.build-and-push.outputs.SHORT_SHA }}"
 
     - name: Trigger pipeline in GitLab
       run: |
