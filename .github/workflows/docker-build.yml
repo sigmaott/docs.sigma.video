@@ -65,6 +65,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Echo SHORT_SHA value
+      run: |
+         echo "SHORT_SHA value is: ${{ env.SHORT_SHA }}"
+
     - name: Trigger pipeline in GitLab
       run: |
          curl -X POST \
