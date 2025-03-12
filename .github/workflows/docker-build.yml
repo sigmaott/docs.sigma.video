@@ -56,3 +56,18 @@ jobs:
           context: .
           push: true
           tags: ${{ env.DOCKER_IMAGE }}:${{ env.SHORT_SHA }}
+
+  trigger-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Trigger pipeline in GitLab
+      run: |
+        curl -X POST \
+          -F token=${{ secrets.GITLAB_TOKEN }} \
+          -F "ref=main" \
+          -F "variables[RUN_NIGHTLY_BUILD]=true" \
+          https://git.spilot.io:8443/api/v4/projects/117/trigger/pipeline
