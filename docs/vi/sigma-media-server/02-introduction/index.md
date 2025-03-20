@@ -1,6 +1,6 @@
 ---
 title: Giới thiệu
-order: 1
+order: 2
 ---
 
 # heading 1
