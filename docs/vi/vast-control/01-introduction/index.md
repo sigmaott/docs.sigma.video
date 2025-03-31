@@ -1,5 +1,5 @@
 ---
 id: doc-guideline-vast-control
-title: Introduction
+title: Giới thiệu
 order: 1
 ---

@@ -1,5 +1,5 @@
 ---
-title: Strength
+title: Điểm mạnh
 order: 3
 ---
 ## Ưu điểm vượt trội

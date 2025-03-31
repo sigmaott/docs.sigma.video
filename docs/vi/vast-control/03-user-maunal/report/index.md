@@ -1,4 +1,4 @@
 ---
-title: 'Bao cao'
+title: 'Báo cáo'
 order: 3
 ---
