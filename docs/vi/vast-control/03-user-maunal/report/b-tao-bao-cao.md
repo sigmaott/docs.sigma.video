@@ -8,7 +8,6 @@ Chức năng tạo báo cáo cho phép bạn:
 
 * **Tùy chỉnh báo cáo:** Lựa chọn các chỉ số, bộ lọc, chia nhỏ dữ liệu hiển thị theo nhu cầu.
 * **Khai thác dữ liệu:** Trích xuất thông tin từ nhiều nguồn và hiển thị một cách trực quan.
-* 
 * **Tăng hiệu quả làm việc:** Giảm thời gian xử lý dữ liệu và hỗ trợ ra quyết định nhanh chóng.
 
 ### Luồng
@@ -80,6 +79,8 @@ Chức năng báo cáo lập lịch cho phép người dùng thiết lập việ
 * Nếu cần gửi báo cáo ngay, nhấn nút "**Gửi ngay bây giờ**" để hệ thống tạo và gửi báo cáo đến danh sách người nhận.
 
 **Bước 4: Nhấn nút Lưu hoặc Lưu và Chạy để tạo báo cáo thành công**
+=======
+**Bước 3: Nhấn nút Lưu hoặc Lưu và Chạy để tạo báo cáo thành công**
 
 Sau khi đã hoàn thiện các thông tin ở **Bước 1** và **Bước 2**, người dùng có thể có các lựa chọn như sau: 
 
