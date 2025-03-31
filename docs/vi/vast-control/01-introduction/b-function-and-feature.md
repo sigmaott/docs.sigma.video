@@ -1,5 +1,5 @@
 ---
-title: Function and Feature
+title: Tính năng
 order: 2
 ---
 ## Tổng quan về các chức năng và tính năng của sản phẩm
