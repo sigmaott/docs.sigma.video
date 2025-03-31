@@ -8,6 +8,7 @@ Chức năng tạo báo cáo cho phép bạn:
 
 * **Tùy chỉnh báo cáo:** Lựa chọn các chỉ số, bộ lọc, chia nhỏ dữ liệu hiển thị theo nhu cầu.
 * **Khai thác dữ liệu:** Trích xuất thông tin từ nhiều nguồn và hiển thị một cách trực quan.
+* 
 * **Tăng hiệu quả làm việc:** Giảm thời gian xử lý dữ liệu và hỗ trợ ra quyết định nhanh chóng.
 
 ### Luồng
@@ -52,14 +53,33 @@ Dimensions là cách báo cáo chia nhỏ dữ liệu. Có hai dạng chia nhỏ
 Chia nhỏ dữ liệu theo thời gian. Hệ thống hỗ trợ chia nhỏ dữ liệu theo giờ, ngày, tuần, tháng. Đối với mỗi một đơn vị chia nhỏ sẽ có mức khoảng thời gian lập báo cáo khác nhau:
 
 * Nếu lập báo cáo chia nhỏ theo giờ, bạn chỉ có thể lập báo cáo được tối đa 1 ngày
-* Nếu lập báo cáo chia nhỏ theo ngày, bạn chỉ có thể lập báo cáo tối đa 30 ngày
+* Nếu lập báo cáo chia nhỏ theo ngày, bạn chỉ có thể lập báo cáo tối đa 31 ngày
 * Nếu lập báo cáo chia nhỏ theo tuần, bạn chỉ có thể lập báo cáo tối đa 3 tháng 
 * Nếu lập báo cáo chia nhỏ theo tháng, bạn chỉ có thể lập báo cáo tối đa 6 tháng 
 * Nếu bạn không muốn chia nhỏ dữ liệu theo thời gian, bạn có thể lập báo cáo tối đa 1 năm
 
 Chia nhỏ dữ liệu theo đơn vị kích thước. Hệ thống hỗ trợ chia nhỏ dữ liệu theo các đơn vị kích thước như sau: vast tag, agency, country, platform. Nếu bạn chọn chia nhỏ dữ liệu theo đơn vị kích thước nào thì hệ thống sẽ gom dữ liệu theo từng đơn vị kích thước đó. 
 
-**Bước 3: Nhấn nút Lưu hoặc Lưu và Chạy để tạo báo cáo thành công**
+**Bước 3: Thiết lập phần lập lịch gửi báo cáo**
+![img](../../../../public\images\vast-control\report\schedule.png)
+
+Chức năng báo cáo lập lịch cho phép người dùng thiết lập việc tạo và gửi báo cáo định kỳ đến các địa chỉ email được chỉ định.
+
+**Thiết lập lịch trình**: 
+
+* **Lịch trình** (Bắt buộc): Chọn tần suất gửi báo cáo. Có thể chọn các loại như sau: Không lập lịch, hàng tuần, hàng tháng, hàng ngày
+
+* **Thời gian dự kiến** (Bắt buộc): Chọn thời gian cụ thể trong ngày mà báo cáo sẽ được gửi. Ví dụ: 05:00 (tức là 5 giờ sáng theo múi giờ Asia/Ho_Chi_Minh).
+
+* **Lưu ý**: Khi chọn Monthly, báo cáo sẽ tự động gửi vào ngày đầu tiên của mỗi tháng.
+
+**Thêm người nhận báo cáo**:
+
+* Trong ô Thêm người nhận, nhập địa chỉ email của người muốn nhận báo cáo. Tối đa 20 email
+
+* Nếu cần gửi báo cáo ngay, nhấn nút "**Gửi ngay bây giờ**" để hệ thống tạo và gửi báo cáo đến danh sách người nhận.
+
+**Bước 4: Nhấn nút Lưu hoặc Lưu và Chạy để tạo báo cáo thành công**
 
 Sau khi đã hoàn thiện các thông tin ở **Bước 1** và **Bước 2**, người dùng có thể có các lựa chọn như sau: 
 
