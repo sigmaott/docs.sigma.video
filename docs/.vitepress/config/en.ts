@@ -80,6 +80,13 @@ export const en = defineConfig({
           ],
         },
       ],
+      "/en/sigma-vast-control/": [
+        ...SidebarBuilder.get.foldersAndOrder("./docs/en/sigma-vast-control", {
+          collapsed: false,
+          collapsible: true,
+          partialFileNamesToIgnore: ["_partial"],
+        }),
+      ],
     },
 
     // editLink: {
@@ -118,7 +125,7 @@ function nav(): DefaultTheme.NavItem[] {
         {
       text: "Apps",
       items: [
-        { text: "Sigma Vast Control", link: "/vi/sigma-vast-control/" },
+        { text: "Sigma Vast Control", link: "/en/sigma-vast-control/" },
       ],
     },
     {

@@ -80,6 +80,14 @@ export const vi = defineConfig({
           ],
         },
       ],
+      "/vi/sigma-vast-control/": [
+        ...SidebarBuilder.get.foldersAndOrder("./docs/vi/sigma-vast-control", {
+          collapsed: false,
+          collapsible: true,
+          partialFileNamesToIgnore: ["_partial"],
+        }),
+      ],
+
     },
 
     // editLink: {
