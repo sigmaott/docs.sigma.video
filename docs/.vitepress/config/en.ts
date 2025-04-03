@@ -137,6 +137,7 @@ function nav(): DefaultTheme.NavItem[] {
         { text: "Sigma Dynamic Ads Insert", link: "/en/apis/sigma-dai" },
         { text: "Sigma Interactive", link: "/en/apis/sigma-interactive" },
         { text: "Sigma Linear Right Management", link: "/en/apis/sigma-lrm" },
+        { text: "Sigma Vast Control", link: "/en/apis/sigma-vast-control" },  
       ],
     },
     { text: "Teams", link: "/en/teams/", activeMatch: "/en/teams/" },
