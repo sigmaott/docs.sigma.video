@@ -30,3 +30,4 @@ Key information includes:
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Sync icon**       | Right corner below the interface, always perform continuous system synchronization for 10 seconds                                                                                                        |
 | Icon **Pagination** | Include information: Total number of pages, selection of number of items/1 page (default 10 items/1 page), current page, jump to desired search page. |
+
