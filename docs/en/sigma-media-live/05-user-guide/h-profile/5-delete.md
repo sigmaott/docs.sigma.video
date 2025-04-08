@@ -16,7 +16,7 @@ At the main interface, select the profile to delete. The system will display the
 
 The user clicks on the 'Delete' icon, the system will open a confirmation pop-up window in the middle of the screen.
 
-![Delete profile](/images/media-live/profile/delete.png)
+! [Delete profile] (/images/media-live/profile/delete.png)
 
 _Pop-up profile deletion_
 
@@ -33,3 +33,8 @@ The user clicks on the 'Confirm' button to confirm the deletion of profile infor
 _Notice: Successfully deleted!_
 
 However, for channels that have been assigned profiles, the parameters of the profile will still be visible in the channel details.
+
+
+
+
+
