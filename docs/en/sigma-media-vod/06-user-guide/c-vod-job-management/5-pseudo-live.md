@@ -29,11 +29,11 @@ Quá trình tạo giả lập live được thực hiện theo các bước sau:
 
 - Cho phép người dùng chọn thời gian bắt đầu (start-time).
 
-  - Không cho phép chọn trùng thời gian start-time của các mục tiêu trong cùng một công việc.
+    - Không cho phép chọn trùng thời gian start-time của các mục tiêu trong cùng một công việc.
 
-  - Cho phép chọn start-time trong khoảng thời gian từ (current time - 1h) đến (start time + 7 ngày). Các khoảng thời gian không hợp lệ sẽ bị vô hiệu hóa từ phía giao diện người dùng vào thời điểm người dùng thực hiện hành động.
+    - Cho phép chọn start-time trong khoảng thời gian từ (current time - 1h) đến (start time + 7 ngày). Các khoảng thời gian không hợp lệ sẽ bị vô hiệu hóa từ phía giao diện người dùng vào thời điểm người dùng thực hiện hành động.
 
-  - Giới hạn chọn start-time tối đa 7 ngày trong tương lai:
+    - Giới hạn chọn start-time tối đa 7 ngày trong tương lai:
 
 Ví dụ:
 
@@ -42,8 +42,8 @@ Tính từ thời điểm tạo 10:00:00 ngày 12/03/2024 đến 10:00:00 ngày 
 ```
 
 - Lặp lại:
-  - Chọn Vĩnh viễn: hệ thống tự tính toán số lần lặp lại tới giới hạn 7 ngày tự động dừng case.
-  - Tổng thời lượng phát sóng (total duration) phải lớn hơn hoặc bằng 30 phút.
+    - Chọn Vĩnh viễn: hệ thống tự tính toán số lần lặp lại tới giới hạn 7 ngày tự động dừng case.
+    - Tổng thời lượng phát sóng (total duration) phải lớn hơn hoặc bằng 30 phút.
 
 ```
 Tổng thời lượng = thời lượng video x số lần lặp lại (repeat).
@@ -56,8 +56,8 @@ Hiển thị pop-up view pseudo-live:
 ![view](/images/media-vod/job-management/view-pseudo-live.png)
 
 - Xử lý video VOD theo định dạng HLS hoặc DASH đã cho và tạo thành dạng Pseudo-live streaming. Sau khi chuyển đổi thành công, hiển thị URL của video Pseudo-live streaming cho người dùng
-  - URL được hiển thị để sao chép, trường hợp đường dẫn nhiều ký tự sẽ được hiển thị theo định dạng: [đầu link]....
-  - Người dùng có thể phát lại video từ URL này.
+    - URL được hiển thị để sao chép, trường hợp đường dẫn nhiều ký tự sẽ được hiển thị theo định dạng: [đầu link]....
+    - Người dùng có thể phát lại video từ URL này.
 - Thời gian bắt đầu của video Pseudo-live streaming được áp dụng chính xác như người dùng đã thiết lập.
 - Thời lượng video.
 - Lặp lại: hiển thị lựa chọn người dùng cấu hình.
