@@ -33,3 +33,8 @@ The user clicks on the 'Confirm' button to confirm the deletion of profile infor
 _Notice: Successfully deleted!_
 
 However, for channels that have been assigned profiles, the parameters of the profile will still be visible in the channel details.
+
+
+
+
+
