@@ -122,18 +122,19 @@ Tiếp theo, người dùng sẽ được dẫn sang bước cuối cùng trong 
 - Cấu hình profile chung: Chưa có dữ liệu.
 - Nút `cấu hình mặc định`: xoá dữ liệu do người dùng cấu hình profile, hiển thị prodile mặc định
 - Danh sách profile mặc định gồm: 1080, 720, 480, 360, 240, 144
-  ( cho phép sửa, xoá)
+    ( cho phép sửa, xoá)
 - Cấu hình mục tiêu
 
 1. Lựa chọn thao tác:
 
 - Chọn cấu hình mẫu
 - Tuỳ chỉnh cấu hình:
-  - Cấu hình profile: [Xem chi tiết tại đây](../c-vod-job-management/5-config-job/5.1-profile.md)
-  - Cấu hình target: [Xem chi tiết tại đây](../c-vod-job-management/5-config-job/5.2-target-job.md)
+    - Cấu hình profile: [Xem chi tiết tại đây](../c-vod-job-management/5-config-job/5.1-profile.md)
+    - Cấu hình target: [Xem chi tiết tại đây](../c-vod-job-management/5-config-job/5.2-target-job.md)
 
 ### Bước 6: Hoàn thành tạo quy tắc thư mục
 
 1. Hoàn tất cấu hình các bước trước đó (người dùng có thể chỉnh sửa tên của quy tắc)
 2. Nhấn vào nút `Tạo quy tắc`
 3. Hệ thống thực hiện tạo mới quy tắc, hiển thị thông báo **Đã tạo quy tắc thành công!** ở giữa màn hình để thông báo quá trình tạo đã được thực hiện thành công.
+
