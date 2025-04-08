@@ -60,3 +60,4 @@ Different from the transmission of live and actual content, pseudo-live streamin
 [Xem chi tiết tại đây](../06-user-guide/c-vod-job-management/5-pseudo-live.md)
 
 ## Batch Job transcode
+
