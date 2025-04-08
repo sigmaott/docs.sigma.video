@@ -31,13 +31,13 @@ A token will be assigned one or more permissions.
 
 2. Enter the token information in the form.
 
-   ![Add Form](/images/media-live/um-basic-auth/form-add.png)
+  ![Add Form](/images/media-live/um-basic-auth/form-add.png)
 
-   When assigning permissions to tokens, you can select the permissions available in the list of groups. At that time, the token will inherit all rights belonging to the selected group. Inherited permissions can be modified (added/deleted) accordingly.
+  When assigning permissions to tokens, you can select the permissions available in the list of groups. At that time, the token will inherit all rights belonging to the selected group. Inherited permissions can be modified (added/deleted) accordingly.
 
-   Click the ! [Add perm button] (/images/media-live/um-basic-auth/btn-add-perm.png) to display an additional list of permissions.
+  Click the ! [Add perm button] (/images/media-live/um-basic-auth/btn-add-perm.png) to display an additional list of permissions.
 
-   ![Add Form](/images/media-live/um-basic-auth/form-add-2.png)
+  ![Add Form](/images/media-live/um-basic-auth/form-add-2.png)
 
 3. Save the token by clicking the ! [Submit button] (/images/media-live/um-member/btn-submit.png).
 
@@ -84,13 +84,13 @@ A group will include one or several permissions. Accounts in a group that inheri
 1. Click on the ! [Add button] (/images/media-live/um-member/btn-add.png).
 2. Enter your account information in the form.
 
-   ![Add Form](/images/media-live/um-group/form-add.png)
+  ![Add Form](/images/media-live/um-group/form-add.png)
 
-   The information to enter includes:
+  The information to enter includes:
 
-   - Name.
-   - Password.
-   - Powers.
+  - Name.
+  - Password.
+  - Powers.
 3. Save the group by clicking the ! [Submit button] (/images/media-live/um-member/btn-submit.png).
 
 The execution system creates a new group:
@@ -134,15 +134,15 @@ An account will be a member of one and only one group.
 1. Click on the ! [Add button] (/images/media-live/um-member/btn-add.png).
 2. Enter your account information in the form.
 
-   ![Add Form](/images/media-live/um-member/form-add.png)
+  ![Add Form](/images/media-live/um-member/form-add.png)
 
-   The information to enter includes:
+  The information to enter includes:
 
-   - Username.
-   - Password.
-   - The team will empower.
+  - Username.
+  - Password.
+  - The team will empower.
 
-     The selected group will display a blue tick! [Selected group] (/images/media-live/um-member/group-selected.png)
+    The selected group will display a blue tick! [Selected group] (/images/media-live/um-member/group-selected.png)
 3. Save the account by clicking the ! [Submit button] (/images/media-live/um-member/btn-submit.png).
 
 The execution system creates a new account:
