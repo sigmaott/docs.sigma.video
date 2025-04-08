@@ -22,7 +22,7 @@ Marketplace cung cấp 2 phiên bản máy cho người dùng đăng ký:
 
 Để đăng ký Sigma Media Server trên Marketplace, người dùng cần thực hiện theo các bước sau:
 
-![Register-server-flow](../../../public/images/media-server/register-server-on-M/flow-vie.png)
+![Register-server-flow](/images/media-server/register-server-on-M/flow-vie.png)
 
 ## Điều kiện tiên quyết
 
@@ -185,91 +185,78 @@ Hệ thống hiển thị màn hình thông báo chỉ ra việc triển khai th
 
 ![sucessful-register](/images/media-server/register-server-on-M/sucessful-register.png)
 
-- **Button “Done”:** The system navigates to the [Dashboard](#view-information-on-the-dashboard) screen with the successfully registered information.
+- **Nút “Hoàn tất”**: Hệ thống chuyển hướng đến màn hình [Bảng điều khiển](#view-information-on-the-dashboard) với thông tin đăng ký thành công.
 
-- **Text button “Go to Sigma Portal”:** The system opens the [Server management](#view-server-information-on-the-cms) screen (CMS) with the newly registered application.
+- **Nút văn bản “Đi đến Sigma Portal”**: Hệ thống mở màn hình [Quản lý máy chủ](#view-server-information-on-the-cms) (CMS) với ứng dụng vừa đăng ký.
 
-## Manage information on the Dashboard 
+## Quản lý thông tin trên Bảng điều khiển
 
-After successfully deploying the server, users can manage registration information at the Dashboard Web UI.
+Sau khi triển khai máy chủ thành công, người dùng có thể quản lý thông tin đăng ký tại giao diện web của Bảng điều khiển.
 
+### Xem thông tin trên Bảng điều khiển
 
+Tiếp tục từ bước 4 của [Cài đặt máy chủ](#set-up-server), người dùng nhấn nút **“Hoàn tất”** hoặc truy cập qua đường dẫn URL `http://{{VM_IP}}:4000/`
 
-### View information on the Dashboard
-
-Continuing from step 4 of the [Set up server](#set-up-server), user clicks button **“Done”** or can access via the URL link `http://{{VM_IP}}:4000/`
-
-The system displays the Sigma Registration screen with with the successfully registered information such as **Server Info, License Info, Registration Info.**
+Hệ thống hiển thị màn hình Đăng ký Sigma với thông tin đăng ký thành công như **Thông tin máy chủ, Thông tin giấy phép, Thông tin đăng ký.**
 
 ![Dashboard-web-ui](/images/media-server/register-server-on-M/dashboard-web-ui.png)
 
-With the following detailed information:
+Với các thông tin chi tiết sau:
 
-- **Server Info** includes Type, Status, Operating System, IPAddress, Port, Ram Usage, CPU Usage, GPU Usage and Version [(see more details)](#access-the-server-registration-page)
+- **Thông tin máy chủ** bao gồm Loại, Trạng thái, Hệ điều hành, Địa chỉ IP, Cổng, Dung lượng RAM sử dụng, Sử dụng CPU, Sử dụng GPU và Phiên bản [(xem chi tiết hơn)](#access-the-server-registration-page)
+- **Thông tin giấy phép** bao gồm Mã giấy phép và Trạng thái giấy phép [(xem chi tiết hơn)](#access-the-server-registration-page)
+- **Thông tin đăng ký** bao gồm Tên, App ID, Ingest App và Origin App [(xem chi tiết hơn)](#access-the-server-registration-page)
+- **Cài đặt nâng cao** bao gồm Bộ nhớ, Thống kê, Nhật ký [(xem chi tiết hơn)](#access-the-server-registration-page)
+- **Nút “Chỉnh sửa”**: Thực hiện hành động [cập nhật cấu hình máy chủ](#update-server-configuration).
+- **Nút “Đăng ký lại máy chủ”**: Để đăng ký lại máy chủ.
+- **Nút “Trình chỉnh sửa ứng dụng”**: Hệ thống mở màn hình Sigma Portal với ứng dụng vừa đăng ký. [(xem chi tiết hơn)](#manage-information-on-the-cms)
 
-- **License info**  includes License Code and License Status [(see more details)](#access-the-server-registration-page)
-- **Registration Info** includes Name, App ID, Ingest App and Origin App [(see more details)](#access-the-server-registration-page)
-- **Advanced Settings** includes Storage, Metrics, Log [(see more details)](#access-the-server-registration-page)
-- **Button “Edit”**: To perform the action of [updating server configuration](#update-server-configuration).
-- **Button “Re-Register Server”**: To re-register the server.
-- **Button “App Editor”**: The system opens the Sigma Portal screen with the newly registered application. [(see more details)](#manage-information-on-the-cms)
+### Cập nhật cấu hình máy chủ
 
+> [!LƯU Ý]
+> Khi thực hiện hành động này, công việc có thể bị gián đoạn hoặc ngừng hoạt động.
 
-
-
-### Update server configuration
-
-> [!NOTE]
-> When performing this action, jobs may experience interruptions or cease operation
-
-**Step 1:** On the Dashboard of successful server registration page, user clicks button **“Edit”**
+**Bước 1:** Trên trang Bảng điều khiển đăng ký máy chủ thành công, người dùng nhấn nút **“Chỉnh sửa”**.
 
 ![triggle-edit](/images/media-server/register-server-on-M/triggle-edit.png)
 
-The system displays editable fields for information modification [(see more details)](#set-up-server)
+Hệ thống hiển thị các trường có thể chỉnh sửa để người dùng cập nhật thông tin [(xem chi tiết hơn)](#set-up-server).
 
 ![Update-information](/images/media-server/register-server-on-M/edit-info.png)
 
-**Step 2:** User input mandatory information.
+**Bước 2:** Người dùng nhập thông tin bắt buộc.
 
-**Step 3:** After completion, the user clicks button **“Save”**. 
+**Bước 3:** Sau khi hoàn tất, người dùng nhấn nút **“Lưu”**.
 
-The system saves the new information for the server configuration, displaying the updated information on the screen.
+Hệ thống lưu lại thông tin mới cho cấu hình máy chủ và hiển thị thông tin đã cập nhật trên màn hình.
 
+## Quản lý thông tin trên CMS
 
+Sau khi triển khai máy chủ thành công, người dùng có thể quản lý các thông tin liên quan đến máy chủ vừa đăng ký như chi tiết máy chủ, giấy phép máy chủ, v.v.
 
+### Xem thông tin máy chủ trên CMS
 
-## Manage information on the CMS
+Tiếp tục từ **bước 4** của [Cài đặt máy chủ](#set-up-server), người dùng nhấn nút “Đi đến Sigma Portal” hoặc nhấn nút “Trình chỉnh sửa ứng dụng” trên [Bảng điều khiển](#view-information-on-the-dashboard).
 
-After successfully deploying the server, user can manage information related to the newly registered server such as server details, server license, etc
-
-### View server information on the CMS
-
-Continuing from **step 4** of the [Set up server](#set-up-server), user clicks button “Go to Sigma Portal” or clicks button “App Editor” on the [Dashboard](#view-information-on-the-dashboard)
-
-The system displays the Server list screen of the application (CMS) with information about servers registered from the marketplace marked with the following details:
+Hệ thống hiển thị màn hình danh sách máy chủ của ứng dụng (CMS) với thông tin về các máy chủ đã đăng ký từ marketplace, được đánh dấu với các chi tiết sau:
 
 ![server-info](/images/media-server/register-server-on-M/server-list.png)
 
-- **Server type:** Pro
-- **Server status:** Running
+- **Loại máy chủ:** Pro
+- **Trạng thái máy chủ:** Đang chạy
 
+### **Xem thông tin giấy phép trên CMS**
 
+Tiếp tục từ **bước 4** của [Cài đặt máy chủ](#set-up-server), người dùng nhấn nút “Đi đến Sigma Portal” hoặc nhấn nút “Trình chỉnh sửa ứng dụng” trên [Bảng điều khiển](#view-information-on-the-dashboard).
 
-### **View license information on the CMS**
+Hệ thống hiển thị màn hình danh sách máy chủ của ứng dụng (CMS), chọn **tab Giấy phép**.
 
-Continuing from **step 4** of the [Set up server](#set-up-server), user clicks button “Go to Sigma Portal” or clicks button “App Editor” on the [Dashboard](#view-information-on-the-dashboard)
-
-
-The system displays the Server list screen of the application (CMS), choose **License tab**
-
-
-The system displays the License List screen of the application, with information about servers registered from the marketplace marked with the following details:
+Hệ thống hiển thị màn hình Danh sách Giấy phép của ứng dụng, với thông tin về các máy chủ đã đăng ký từ marketplace, được đánh dấu với các chi tiết sau:
 
 ![license-info](/images/media-server/register-server-on-M/license-list (2).png>)
 
-- **License type:** Marketplace Server
-- **Status:** Used
-- **Server use:** corresponding server
-- **Expiration date:** unlimited
-- **And does not allow performing actions for Marketplace server licenses.**
+- **Loại giấy phép:** Máy chủ Marketplace
+- **Trạng thái:** Đang sử dụng
+- **Máy chủ sử dụng:** Máy chủ tương ứng
+- **Ngày hết hạn:** Không giới hạn
+- **Và không cho phép thực hiện các hành động đối với giấy phép máy chủ Marketplace.**
