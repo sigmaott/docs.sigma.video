@@ -50,7 +50,7 @@ Sau khi chọn máy chủ, đánh dấu máy chủ được chọn và hiển th
 Trong quy trình chuyển mã video của luồng tạo mới một công việc (job) để xử lý video, đầu vào (video VOD) là nguồn video gốc cần xử lý. Định dạng của đầu vào là MP4 (MPEG-4), MP3 (MPEG-3), HLS (HTTP Live Streaming) hoặc DASH (Dynamic Adaptive Streaming over HTTP).
 
 1. Nhập vào thẻ đầu vào
-   Hỗ trợ các loại đầu vào:
+    Hỗ trợ các loại đầu vào:
 
 - Asset từ thư viện: [Xem tại đây](./3-input/3.1-library.md)
 - File trong máy khách: [Xem tại đây](./3-input/3.2-file-local.md)
@@ -89,15 +89,15 @@ Tiếp theo, người dùng sẽ được dẫn sang bước cuối cùng trong 
 - Per-Title Encoding: đang tắt
 - Nút `cấu hình mặc định`: xoá dữ liệu do người dùng cấu hình profile, hiển thị prodile mặc định
 - Danh sách profile mặc định gồm: 1080, 720, 480, 360, 240, 144
-  ( cho phép sửa, xoá.)
+    ( cho phép sửa, xoá.)
 - Cấu hình mục tiêu
 
 2. Lựa chọn thao tác:
 
 - Chọn cấu hình mẫu
 - Tuỳ chỉnh cấu hình:
-  - Cấu hình profile: [Xem tại đây](./5-config-job/5.1-profile.md)
-  - Cấu hình target: [Xem tại đây](./5-config-job/5.2-target-job.md)
+    - Cấu hình profile: [Xem tại đây](./5-config-job/5.1-profile.md)
+    - Cấu hình target: [Xem tại đây](./5-config-job/5.2-target-job.md)
 
 ## Bước 5: Tạo job
 
