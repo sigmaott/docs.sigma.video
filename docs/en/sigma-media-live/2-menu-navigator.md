@@ -122,3 +122,4 @@ Where:
 | **Percent** | %load of the server executing the task                         |
 | **Ram**     | % Ram server in use                                            |
 | **Status**  | Server status **live** or **dead**                             |
+
