@@ -91,3 +91,4 @@ The paging interface consists of 4 main components:
   ![Next](/images/media-live/um-pagination/jump-to.jpg)
 
   You can move to any page by entering the page number in the box in the image above
+
