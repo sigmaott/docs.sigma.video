@@ -73,10 +73,10 @@ For example, for creating a new channel, 2 main steps should be performed:
 ![Channel Steps](/images/media-live/um-transcode-forms/channel-step-01.png)
 
 1. Select a channel type, including 2 types: _Create from scratch_ and _Create from template_.
-   After the user completes **step 1** and clicks the ! [Next step button] (/images/media-live/um-transcode-forms/next-step-btn.png), all user data at this step will be recorded before moving to **step 2**.
+  After the user completes **step 1** and clicks the ! [Next step button] (/images/media-live/um-transcode-forms/next-step-btn.png), all user data at this step will be recorded before moving to **step 2**.
 
 2. Enter all required information.
-   The interface as well as the data will be displayed depending on the options that the user has set from **step 1** before.
+  The interface as well as the data will be displayed depending on the options that the user has set from **step 1** before.
 
 In step 2, there are a few options for users to navigate their data setup:
 
