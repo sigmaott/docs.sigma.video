@@ -19,15 +19,15 @@ Users can add new machines, following these steps:
 
 1. At the Sigma Live machine list screen, click **Add Server**
 
-   ![add sever](/images/media-server/user-guide/add-server-1.png)
+ ![add sever](/images/media-server/user-guide/add-server-1.png)
 
 2. Perform to get the token to install the machine
 
-   [Get token] (/en/sigma-media-server/03-getting-started/04-install-new-machine#lay-code-token-to-implement-install-machine)
+ [Get token] (/en/sigma-media-server/03-getting-started/04-install-new-machine#lay-code-token-to-implement-install-machine)
 
 3. Server settings
 
-   [Install Server] (.. /03-getting-started/04-install-new-machine#implement-set-machine)
+ [Install Server] (.. /03-getting-started/04-install-new-machine#implement-set-machine)
 
 ------
 
@@ -37,11 +37,11 @@ The function gives the user the ability to perform the **Drain Job** action, whe
 
 1. At the machine management screen, click **Drain Job** at the machine in the operating state (Running/ Paused)
 
-   ! 
+ ! [](/images/media-server/user-guide/drain-job.png)
 
 2. Click Confirm action execution
 
-   ! 
+ ! [](/images/media-server/user-guide/drain-job-confirm.png)
 
 The system will handle pushing all the jobs being done in the machine out
 
@@ -53,11 +53,11 @@ Allows users to perform Pause/Restore machine operation. The user performs the s
 
 1. At the machine management screen, click **Pause** at the machine in Running state
 
-   ! 
+ ! [](/images/media-server/user-guide/pause.png)
 
 2. Click Confirm action execution
 
-   ! 
+ ! [](/images/media-server/user-guide/pause-confirm.png)
 
 The machine will return to the "Paused" state
 
@@ -65,11 +65,11 @@ With the machine in the **Pause** state, the user wants to perform **Resume** to
 
 1. At the machine management screen, click **Resume** at the machine in Paused status
 
-   ! 
+ ! [](/images/media-server/user-guide/resume.png)
 
 2. Click Confirm action execution
 
-   ! 
+ ! [](/images/media-server/user-guide/resume-confirm.png)
 
 The machine will return to the "Running" state
 
@@ -87,10 +87,10 @@ The system provides an interface that allows users to configure routing, includi
 To implement the Config Route, the user performs the following steps:
 
 1. At the server list screen, click the **Config Route** action
-   ! 
+ ! [](/images/media-server/user-guide/config-route.png)
 
 2. Configure the required information into the configuration form
-   ! 
+ ! [](/images/media-server/user-guide/config-route-form.png)
 
 ------
 
@@ -106,33 +106,33 @@ Perform the manipulations:
 
 1. Click "Add license".
 
-! 
+! [](/images/media-server/user-guide/license.png)
 
 2. Select the license type (Note: The activation usage license for the machine must be of the same type as the machine)
-   ! 
+ ! [](/images/media-server/user-guide/license-type.png)
 
 3. Check the license information
-   ! 
+ ! [](/images/media-server/user-guide/license-review.png)
 
 4. Make payment of the first bill of the license
-   ! 
+ ! [](/images/media-server/user-guide/license-payment.png)
 
-   ::: warning
+ ::: warning
 
-   The license is usable when paid in advance.
+ The license is usable when paid in advance.
 
 5. Payment confirmation
 
 6. System successfully billed license will be available
 
 7. Click the "Use" action
-   ! 
+ ! [](/images/media-server/user-guide/license-use.png)
 
 8. Select the machine to activate the operation
-   ! 
+ ! [](/images/media-server/user-guide/license-choose-server.png)
 
 9. Confirm license usage
-   ! 
+ ! [](/images/media-server/user-guide/license-use-confirm.png)
 
 The license has now been successfully assigned to the machine, the machine is ready to receive jobs for processing.
 :::Tip
@@ -143,18 +143,18 @@ If you already have a license in an "Available" status, you can perform "Use" th
 Users can perform "Add License" directly to the server by following the steps:
 
 1. For newly installed machines that have not been assigned a license, click the "Add License" action
-   ! 
+ ! [](/images/media-server/user-guide/add-license.png)
 
 2. Users can do:
 
-   ! 
+ ! [](/images/media-server/user-guide/add-license-2.png)
 
-   - **Select available license**: In case the application already has a license of the same type as the machine in the "Avaiable" state.
-     ! 
+ - **Select available license**: In case the application already has a license of the same type as the machine in the "Avaiable" state.
+  ! [](/images/media-server/user-guide/add-license-choose.png)
 
-   - **Option to add new license**: Users perform the steps to add licenses such as steps 2, 3, 4, 5, 6 at **Method 1**. After the license is successfully paid, the license will automatically be selected as the license to use for machine activation
+ - **Option to add new license**: Users perform the steps to add licenses such as steps 2, 3, 4, 5, 6 at **Method 1**. After the license is successfully paid, the license will automatically be selected as the license to use for machine activation
 
-     ! 
+  ! [](/images/media-server/user-guide/add-license-create.png)
 
 -----
 
@@ -165,17 +165,17 @@ The **Config App** function allows users to perform gateway configuration for In
 Steps to perform application configuration:
 
 1. Click **Server Name** to view server details
-   ! 
+ ! [](/images/media-server/user-guide/config-app-1.png)
 
 2. In the App configuration information section, click **Config**
 
-! 
+! [](/images/media-server/user-guide/config-app-2.png)
 3. Perform the configuration and confirm saving the configuration
 
 - Ingest Configuration: Users can configure connection ports for RTMP Server, SRT Server, Web RTC Server
-  ! 
+ ! [](/images/media-server/user-guide/config-app-ingest.png)
 
-- Origin Configuration: Users can configure the connection port for HTTP Server! 
+- Origin Configuration: Users can configure the connection port for HTTP Server! [](/images/media-server/user-guide/config-app-origin.png)
 
 ------
 
@@ -188,14 +188,14 @@ Users can perform actions in the following simple steps:
 1. Access to view server details, at App configuration
 2. Click the action button **Start/ Stop/ Reset** the application you want to perform
 
-! 
+! [](/images/media-server/user-guide/action-app.png)
 
 ------
 
 ### 8. Delete Server
 
 With machines in **DEAD/ FREEZED** state, users can perform Machine Wipe, helping to remove machines that are no longer in use to ensure easier machine management. Users use the **Delete** button with DEAD/ FREEZED machines
-! 
+! [](/images/media-server/user-guide/delete-server.png)
 
 ------
 
@@ -215,10 +215,10 @@ Users can add new machines, following these steps:
 
 2. Perform to get the token to install the machine
 
-   [Get token] (/en/sigma-media-server/03-getting-started/04-install-new-machine#lay-code-token-to-implement-install-machine)
+ [Get token] (/en/sigma-media-server/03-getting-started/04-install-new-machine#lay-code-token-to-implement-install-machine)
 
 3. Server settings
-   [Install Server] (/en/sigma-media-server/03-getting-started/04-install-new-machine#with-server-community)
+ [Install Server] (/en/sigma-media-server/03-getting-started/04-install-new-machine#with-server-community)
 
 ----
 
@@ -285,3 +285,6 @@ Users can delete the cluster that no longer needs to be used by the action **Del
 The system gives users the function to view the operation log of the server cluster. Each cluster will have an interface that displays the entire activity log of all servers located in the cluster.
 
 Users can view a list of cluster activity logs by clicking the **View Logs** action in the Cluster Server management section.
+
+
+
