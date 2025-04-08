@@ -19,25 +19,25 @@ Before you start, you need to prepare a valid audio file.
 
 - We support many audio file formats, including:
 
-  - MP3 (MPEG Audio Layer III)
+    - MP3 (MPEG Audio Layer III)
 
-  - AAC (Advanced Audio Coding)
+    - AAC (Advanced Audio Coding)
 
-  - WAV (Waveform Audio File Format)
+    - WAV (Waveform Audio File Format)
 
-  - AIFF (Audio Interchange File Format)
+    - AIFF (Audio Interchange File Format)
 
-  - FLAC (Free Lossless Audio Codec)
+    - FLAC (Free Lossless Audio Codec)
 
-  - OGG (Ogg Vorbis)
+    - OGG (Ogg Vorbis)
 
-  - M4A (MPEG-4 Audio)
+    - M4A (MPEG-4 Audio)
 
-  - AMR (Adaptive Multi-Rate)
+    - AMR (Adaptive Multi-Rate)
 
-  - WMA (Windows Media Audio)
+    - WMA (Windows Media Audio)
 
-  - APE (Monkey's Audio)
+    - APE (Monkey's Audio)
 
 - Supported codecs: aac, mp3, pcm\*, mp2, opus
 
@@ -148,3 +148,4 @@ Access to equipment is a prerequisite during the recording test. When the user c
 During the inspection, something went wrong. After a test time of more than 20 seconds without results, the system displays the message:
 
 **Process error, please try again.**
+
