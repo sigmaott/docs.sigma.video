@@ -16,7 +16,7 @@ Màn hình chính hệ thống hiển thị giao diện Dashboard (theo dõi đ�
 
 Màn hình hiển thị danh sách báo cáo, với các thông tin chính bao gồm:
 
-![img](../../../../public/images/vast-control/report/danh-sach-bc.png)
+![img](../../../../public\images\vast-control\report\list-report.png)
 
 |Tên cột       | Chức năng                                                    |
 | -------------- | ------------------------------------------------------------ |
