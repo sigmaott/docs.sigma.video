@@ -37,7 +37,7 @@ jobs:
         id: changed
         run: |
           git fetch origin ${{ github.event.before }}
-          echo "CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -E '^docs/(vi|en)/.+\.md$')" >> $GITHUB_ENV
+          echo "CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -E '^docs/(vi|en)/.+\.md$' | tr '\n' ' ')" >> $GITHUB_ENV
 
       - name: Push changed markdown files to Qdrant
         if: env.CHANGED_FILES != ''

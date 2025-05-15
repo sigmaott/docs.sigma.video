@@ -40,9 +40,11 @@ async function initializeIndex(store) {
 async function main() {
   // Get changed files from environment variable (space or newline separated)
   let files = [];
+  console.log('[DEBUG] Raw CHANGED_FILES:', process.env.CHANGED_FILES);
   if (process.env.CHANGED_FILES) {
     files = process.env.CHANGED_FILES.split(/\s+/).filter(f => f.endsWith('.md'));
   }
+  console.log('[DEBUG] Parsed files array:', files);
 
   if (files.length === 0) {
     console.log('No changed markdown files to process.');
