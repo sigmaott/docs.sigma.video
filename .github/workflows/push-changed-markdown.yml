@@ -1,0 +1,45 @@
+name: Push Changed Markdown to Qdrant
+
+on:
+  push:
+    paths:
+      - 'docs/vi/**'
+      - 'docs/en/**'
+      - 'scripts/push-markdown-to-qdrant.js'
+      - 'scripts/polyfills.js'
+      - '.github/workflows/push-changed-markdown.yml'
+
+jobs:
+  push-changed-markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
+          pnpm install --frozen-lockfile
+
+      - name: Set up environment variables
+        run: |
+          echo "QDRANT_URL=${{ secrets.QDRANT_URL }}" >> $GITHUB_ENV
+          echo "QDRANT_API_KEY=${{ secrets.QDRANT_API_KEY }}" >> $GITHUB_ENV
+          echo "GOOGLE_API_KEY=${{ secrets.GOOGLE_API_KEY }}" >> $GITHUB_ENV
+
+      - name: Get changed markdown files
+        id: changed
+        run: |
+          git fetch origin ${{ github.event.before }}
+          echo "CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -E '^docs/(vi|en)/.*\\.md')" >> $GITHUB_ENV
+
+      - name: Push changed markdown files to Qdrant
+        if: env.CHANGED_FILES != ''
+        run: |
+          node scripts/push-changed-markdown-to-qdrant.js

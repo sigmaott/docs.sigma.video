@@ -5,16 +5,22 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
-    "export-pdf": "press-export-pdf export ./docs/vi"
+    "export-pdf": "press-export-pdf export ./docs/vi",
+    "push-qdrant": "npx ts-node --loader ts-node/esm scripts/push-markdown-to-qdrant.ts"
   },
   "devDependencies": {
     "@iconify-json/ri": "^1.1.20",
+    "dotenv": "^16.5.0",
     "typescript": "^5.4.3",
     "unocss": "^0.58.7",
-    "vitepress": "latest"
+    "vitepress": "1.0.1"
   },
   "dependencies": {
+    "@ai-sdk/google": "^1.2.18",
+    "@mastra/qdrant": "^0.2.14",
+    "@mastra/rag": "^0.1.23",
     "@scalar/api-reference": "^1.20.10",
+    "ai": "^4.3.15",
     "glob": "^10.3.10",
     "gray-matter": "^4.0.3",
     "vitepress-export-pdf": "1.0.0-beta.0"
