@@ -10,11 +10,9 @@ WORKDIR /src
 COPY .npmrc pnpm-lock.yaml ./
 COPY patches ./patches
 
-RUN pnpm fetch
-
 ADD . ./
 
-RUN pnpm install -r --offline --ignore-scripts
+RUN pnpm install --ignore-scripts
 
 RUN pnpm run build
 

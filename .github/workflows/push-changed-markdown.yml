@@ -3,11 +3,11 @@ name: Push Changed Markdown to Qdrant
 on:
   push:
     paths:
-      - 'docs/vi/**'
-      - 'docs/en/**'
-      - 'scripts/push-markdown-to-qdrant.js'
-      - 'scripts/polyfills.js'
-      - '.github/workflows/push-changed-markdown.yml'
+      - "docs/vi/**"
+      - "docs/en/**"
+      - "scripts/push-markdown-to-qdrant.js"
+      - "scripts/polyfills.js"
+      - ".github/workflows/push-changed-markdown.yml"
 
 jobs:
   push-changed-markdown:
@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install dependencies
         run: |
@@ -37,7 +37,7 @@ jobs:
         id: changed
         run: |
           git fetch origin ${{ github.event.before }}
-          echo "CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -E '^docs/(vi|en)/.*\\.md')" >> $GITHUB_ENV
+          echo "CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -E '^docs/(vi|en)/.+\.md$')" >> $GITHUB_ENV
 
       - name: Push changed markdown files to Qdrant
         if: env.CHANGED_FILES != ''
