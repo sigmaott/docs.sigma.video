@@ -1,10 +1,8 @@
-import './polyfills.js';
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
 import { QdrantVector } from '@mastra/qdrant';
 import { MDocument } from '@mastra/rag';
 import { embedMany } from 'ai';
 import dotenv from 'dotenv';
-import fg from 'fast-glob';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';

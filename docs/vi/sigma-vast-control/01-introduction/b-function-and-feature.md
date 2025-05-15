@@ -5,6 +5,7 @@ order: 2
 ## Tổng quan về các chức năng và tính năng của sản phẩm
 (dưới mỗi page, hiển thị những resource liên quan)
 
+
 Vast Control không chỉ là một công cụ phân phối quảng cáo đơn thuần, mà còn cung cấp một bộ tính năng và chức năng mạnh mẽ nhằm tối ưu hóa hiệu suất quảng cáo và nâng cao trải nghiệm xem trên các nền tảng trực tuyến.
 
 Hãy khám phá những tính năng nổi bật mà Vast Control mang lại để hiểu rõ hơn cách nó cải thiện trải nghiệm người dùng và giúp doanh nghiệp, cũng như nhà xuất bản trực tuyến, tối đa hóa doanh thu từ quảng cáo.

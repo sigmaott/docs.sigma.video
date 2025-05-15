@@ -5,6 +5,7 @@ order: 2
 ## Overview of Product Functions and Features
 (Related resources are displayed under each page)
 
+
 Vast Control is not just a simple ad delivery tool, but provides a powerful set of features and functions aimed at optimizing ad performance and enhancing viewing experience across online platforms.
 
 Let's explore the outstanding features that Vast Control offers to better understand how it improves user experience and helps businesses and online publishers maximize advertising revenue.
