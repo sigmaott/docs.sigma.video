@@ -1,18 +1,17 @@
 ---
-title: Bắt đầu với SSAI
+title: Bắt đầu với SSAI Traditional
 order: 2
 ---
 
-# Bắt đầu với SSAI
+# Bắt đầu với SSAI Traditional
 
-## Thiết lập ad insert endpoint
+Đây là cách tiếp cận phổ biến hiện nay, trong đó SSAI hoạt động trên máy chủ. Hệ thống sẽ phát hiện vị trí quảng cáo trong luồng nội dung và chèn quảng cáo vào thời điểm mong muốn trước khi gửi nội dung đến người xem. Phương pháp này giúp tối ưu hóa trải nghiệm liền mạch và hạn chế tình trạng chặn quảng cáo của người dùng.
 
-Để thiết lập ad insert endpoint bạn cần chuẩn bị các tác vụ sau:
-* Chuẩn bị luồng nội dung HLS hoặc DASH của bạn.
-* Chuẩn bị đường dẫn yêu cầu quảng cáo (Ads Request).
-* Tạo cấu hình ad insert endpoint SSAI.
-* Sử dụng đường dẫn SSAI sinh ra để cấu hình ad insert endpoint trên ứng dụng.
-* Thu thập, theo dõi các thông số cần thiết.
+## Luồng thực hiện
+
+Để bắt đầu nhanh chóng làm quen với SSAI theo kiểu truyền thống, người dùng cần thực hiện các bước sau:
+
+![Ảnh](/images/dai/get-started-flow-vi.png)
 
 Khi hoàn tất, bạn sẽ có thể gửi yêu cầu phát lại tới SSAI cho nội dung quảng cáo được cá nhân hóa trong luồng của mình.
 
@@ -83,7 +82,7 @@ DASH manifest (mpd) phải đáp ứng các yêu cầu sau:
 ```
 * Ad avails cần phải có cấu hình `AdaptationSet` and `Representation`  trùng với luồng nội dung ban đầu. `Sigma Dynamic Ads Insert`  sử dụng những cấu hình này để có thể chuyển mã các luồng quảng cáo phù hợp.
 
-## Bước 3: (Optional) Chuẩn bị cấu hình các tham số URL của máy chủ quảng cáo (Ads Request) và các tham số truy vấn( parameter)
+## Bước 3: (Optional) Chuẩn bị cấu hình các tham số URL của máy chủ quảng cáo (Ads Request) và các tham số truy vấn (parameter)
 
 Parameter, thường được viết tắt là "Param," là một giá trị được lựa chọn cho từng trường hợp cụ thể và liên quan đến các biến khác có thể biểu thị, mô tả những đặc điểm quan trọng sử dụng để định rõ một vấn đề cụ thể.
 
