@@ -37,7 +37,7 @@ Sử dụng máy chủ và không sử dụng dịch vụ đám mây (cloud).
 
 Quá trình tạo job người dùng cần thực hiện
 
-![Ảnh](/docs/public/images/playout/create-channel-flow.png)
+![Ảnh](/images/playout/create-channel-flow.png)
 
 ## Tạo mới kênh FAST 
 
