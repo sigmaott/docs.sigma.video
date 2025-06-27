@@ -1,5 +1,5 @@
 ---
-title: "S4: Create a channel"
+title: 'S4: Create a channel'
 order: 6
 ---
 
