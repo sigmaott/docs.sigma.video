@@ -2,37 +2,20 @@
 title: Concepts
 order: 2
 ---
-# Related concepts
-The following is the overview of the concepts used throughout the Guide to Use SSAI.
-## Advertising insert concept
-The following is the overview of the concepts related to the inserts.
+# SSAI Concept
 
-### Advertising Server (ADS)
-A server provides the specifications of the advertising point based on criteria including current advertising campaigns and viewer preferences.
+SSAI (Server Side Ads Insertion) is a technology for inserting advertisements on the server side, allowing ads to be integrated directly into video or audio streams before they reach the viewer. Instead of letting the client player load and play ads separately, SSAI merges content and ads on the server, creating a seamless stream that combines both main content and advertisements.
 
-### Configure (Configuration)
-An object in the SSAI you interact with. The configuration contains location information about the original server and the advertising decision server (ADS). The configuration also contains endpoints that provide access points in and out of the SSAI.
+## Advantages of SSAI
+- **Smooth user experience**: Ads are played seamlessly, without interruptions or being easily blocked by client-side ad blockers.
+- **Optimized ad delivery**: Enables ad personalization based on location, device, or user behavior without affecting playback experience.
+- **Ad-block resistance**: Since ads are stitched into the content stream, ad blockers cannot easily detect or remove them.
 
-### Dynamic transcoding
-A process matching process and advertising format with the main video content when content is required. The transfer code helps reduce the storage requirement and ensure that the rebroadcast process will be seamless between advertising and video content.
+## Applications of SSAI
+SSAI is commonly used in OTT platforms, livestreams, VOD (video on demand), and internet TV, helping content providers maximize ad revenue while maintaining viewer experience.
 
-### Index manifold (Manifest)
-The process of rewriting the index files from the root server so that the manifest files references the appropriate content and advertising sections. The ad is determined by VAST feedback from the ad server (ADS). When the process is rebroadcast, the SSAI performs an ad inserts or promotional replacement into the content stream.
-
-### VAST and VMAP
-The video advertising distribution (VAST) and a list of video ads (VMAP) are the XML responses that the server decides to advertise to advertisements from the SSAI. The answers indicate the ads that SSAI inserted into the manifest file. VMAP also includes time for promotional broadcast schedules. For more information about the logic behind the inserts of the SSAI advert, see Learn about the behavior of SSAI's advertising inserts. For more information on how SSAI works with VAST, see the VAST, VMAP and VPAID requirements for the ad server.
-## Channel configuration concept
-The following is the overview of the concepts related to the channel configuration.
-
-### Channel (Channels)
-A channel that sets your source index into a linear stream. Each channel has one or more outputs containing the rebroadcast URLs that the player accusers. The channel output corresponds to the package configuration settings that you create for your VOD sources. A scheduled channel that determines the time the VOD sources will stream in the channel's flow.
-
-### Package configuration (Package configuration)
-The package-packing configuration is representative of the VOD source that contains specific packaging format characteristics. You link your packaging configuration with the channel output to generate a rebroadcast for the packaging format of the VOD source, such as HLS.
-
-
-### Source locations
-The source location represents the root server where your contents are stored. It can be the Amazon S3, HTTP server, content distribution network or packaging infrastructure like MediaPackage.
-
-### VOD source (VOD sources)
-The VOD source represents part of the content, such as the film or episode of the television show. You link VOD sources with programs to add them to the linear flow of the channel.
+## Basic workflow
+1. The user requests to play content.
+2. The SSAI server fetches the original content and requests ads (usually via VAST/VMAP standards) from the ad system (ADS).
+3. The SSAI server stitches ads into predefined positions in the content stream.
+4. The ad-stitched content stream is delivered to the viewer as a single stream.

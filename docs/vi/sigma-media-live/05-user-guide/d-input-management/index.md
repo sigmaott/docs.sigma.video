@@ -1,4 +1,4 @@
 ---
-title: 'Quản lí đầu vào'
+title: 'Resource: Quản lí đầu vào'
 order: 4
 ---

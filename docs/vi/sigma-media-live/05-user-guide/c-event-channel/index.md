@@ -1,4 +1,4 @@
 ---
-title: 'Kênh event'
+title: 'Resource: Event Channel'
 order: 3
 ---
