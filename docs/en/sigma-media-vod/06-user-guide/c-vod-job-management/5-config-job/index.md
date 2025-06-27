@@ -1,4 +1,4 @@
 ---
-title: Cấu hình công việc
+title: 'Cấu hình công việc'
 order: 5
 ---
