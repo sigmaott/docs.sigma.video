@@ -1,5 +1,5 @@
 ---
-title: Basic channel configuration
+title: 'Basic channel configuration'
 order: 1
 ---
 
