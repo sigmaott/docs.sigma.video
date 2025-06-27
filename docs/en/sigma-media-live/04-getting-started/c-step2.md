@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Create new input"
+title: 'Step 2: Create new input'
 order: 4
 ---
 
