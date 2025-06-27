@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-installation-docker
 title: Install:Docker
 order: 1
 ---

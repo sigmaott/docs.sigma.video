@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-vod-function-closed-caption
 title: Closed Caption
 order: 3
 ---

@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-vod-function-merge-multiple-vod-files
 title: Gộp nhiều tệp VOD
 order: 4
 ---

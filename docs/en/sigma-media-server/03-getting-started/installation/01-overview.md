@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-installation-overview
 title: Install Sigma Media Server
 order: 1
 ---

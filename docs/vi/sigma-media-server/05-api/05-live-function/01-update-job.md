@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-live-function-live-job-updates
 title: Cập nhật Live Job
 order: 1
 ---

@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-installation-overview
 title: Cài đặt Sigma Media Server
 order: 1
 ---

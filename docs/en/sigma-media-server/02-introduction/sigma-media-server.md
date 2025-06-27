@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-introduction-sigma-media-server
 title: Sigma Media Server
 order: 1
 ---

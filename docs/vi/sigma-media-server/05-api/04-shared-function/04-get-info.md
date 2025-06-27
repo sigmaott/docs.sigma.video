@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-shared-function-get-the-information-of-the-input
 title: Lấy thông tin của đầu vào
 order: 4
 ---

@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-create-an-app
 title: Tạo một ứng dụng
 order: 2
 ---
@@ -20,4 +21,4 @@ Khi bạn đã có tài khoản và đăng nhập thành công trên Sigma Strea
 
    Với thông tin chi tiết về giá cả và giới hạn sử dụng của các phiên bản ứng dụng tại
 
-   [Trang giá cả]:
+   [Trang giá cả]: /pricing

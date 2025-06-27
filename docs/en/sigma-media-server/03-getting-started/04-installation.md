@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-installation
 title: Installation
 order: 4
 ---

@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-shared-function-get-the-information-of-the-input
 title: Get the information of the input
 order: 4
 ---

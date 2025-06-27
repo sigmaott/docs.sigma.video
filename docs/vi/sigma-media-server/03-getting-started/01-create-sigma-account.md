@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-create-sigma-account
 title: Tạo tài khoản Sigma
 order: 1
 ---

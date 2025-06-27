@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-user-guide-server-management
 title: Quản lý Máy chủ
 order: 2
 ---

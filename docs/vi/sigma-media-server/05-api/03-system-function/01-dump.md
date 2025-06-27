@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-system-function-get-server-information
 title: Lấy thông tin máy chủ
 order: 1
 ---

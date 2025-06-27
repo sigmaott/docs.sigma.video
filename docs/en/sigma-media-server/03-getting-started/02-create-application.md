@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-create-an-app
 title: Create an app
 order: 2
 ---

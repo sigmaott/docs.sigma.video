@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-system-function-get-server-information
 title: Get server information
 order: 1
 ---

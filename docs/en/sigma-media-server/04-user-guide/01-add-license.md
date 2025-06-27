@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-user-guide-add-licenses
 title: Add licenses
 order: 5
 ---

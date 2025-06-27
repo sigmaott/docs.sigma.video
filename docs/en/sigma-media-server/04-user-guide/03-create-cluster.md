@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-user-guide-create-a-new-cluster
 title: Create a new Cluster
 order: 7
 ---

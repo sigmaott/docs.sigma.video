@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-begin
 title: Bắt đầu
 order: 1
 ---

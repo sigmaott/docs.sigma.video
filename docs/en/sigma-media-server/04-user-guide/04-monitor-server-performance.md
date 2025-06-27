@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-user-guide-monitor-machine-performance
 title: Monitor machine performance
 order: 8
 ---

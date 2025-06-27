@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-user-guide-add-licenses
 title: Thêm giấy phép
 order: 1
 ---

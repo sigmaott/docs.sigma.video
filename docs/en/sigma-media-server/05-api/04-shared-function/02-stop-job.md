@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-shared-function-stop-job
 title: Stop Job
 order: 2
 ---

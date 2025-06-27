@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-function-list
 title: Danh sách hàm
 order: 2
 ---

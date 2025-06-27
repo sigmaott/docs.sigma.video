@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-user-guide-server-management
 title: Server Management
 order: 6
 ---

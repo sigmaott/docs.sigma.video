@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-user-guide-monitor-machine-performance
 title: Giám sát hiệu suất máy
 order: 4
 ---

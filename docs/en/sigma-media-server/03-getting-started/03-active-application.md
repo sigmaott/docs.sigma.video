@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-activate-application
 title: Activate the application
 order: 3
 ---

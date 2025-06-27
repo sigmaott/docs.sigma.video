@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-activate-application
 title: Kích hoạt ứng dụng
 order: 3
 ---
@@ -16,10 +17,17 @@ Thêm phương thức thanh toán:
 
 - Điền thông tin phương thức thanh toán của bạn
 
-  ::: tip Các loại thẻ được chấp nhận: JCB, MASTERCARD, UPI, VISA
+  ::: tip
+  Các loại thẻ được chấp nhận: JCB, MASTERCARD, UPI, VISA
+  :::
 
 - Xác nhận thêm các phương thức thanh toán
 
 Hệ thống xử lý thành công thông tin phương thức thanh toán của người dùng sẽ điều hướng đến phần quản lý thanh toán của ứng dụng.
 
 Tại thời điểm này, người dùng đã kích hoạt thành công ứng dụng. Ứng dụng đã sẵn sàng để người dùng trải nghiệm và sử dụng tài nguyên.
+
+::: tip
+- Application sau khi kích hoạt thành công sẽ không thể xóa, chỉ có thể cập nhật lại thông tin
+- Mỗi Application sẽ được cấp 1 `API Key` để sử dụng cho việc xác thực các tác vụ sau này
+:::

@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-create-sigma-account
 title: Create a Sigma account
 order: 1
 ---

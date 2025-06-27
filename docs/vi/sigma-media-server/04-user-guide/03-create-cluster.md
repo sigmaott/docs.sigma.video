@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-user-guide-create-a-new-cluster
 title: Tạo một Cụm mới
 order: 3
 ---

@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-shared-function-get-job-information
 title: Get Job Information
 order: 3
 ---

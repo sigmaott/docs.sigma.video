@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-shared-function-job-initialization
 title: Khởi tạo Job
 order: 1
 ---
@@ -35,7 +36,7 @@ mẫu
     {
       "enable": 0,
       "format": "rtmp",
-      "URL": "rtmp://localhost/app/stream",
+      "url": "rtmp://localhost/app/stream",
       "select": [
         "128k",
         "360"
@@ -61,7 +62,7 @@ mẫu
       ],
       "manifest":{
       },
-      "DRM:{
+      "DRM":{
       }
     }
   ],

@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-shared-function-job-initialization
 title: Job Initialization
 order: 1
 ---

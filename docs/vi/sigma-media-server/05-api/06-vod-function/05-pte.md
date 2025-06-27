@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-api-vod-function-per-title-encoding
 title: Mã hóa trên mỗi tiêu đề
 order: 5
 ---

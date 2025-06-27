@@ -1,19 +1,21 @@
 ---
+id: sigma-media-server-api-shared-function-get-job-information
 title: Lấy thông tin Job
 order: 3
 ---
 
+{{ ... }}
 # Lấy thông tin Job
 
 Lệnh này được sử dụng để lấy thông tin của một Job, trạng thái của job đang chạy
 
 :::tip
-Bạn có thể sử dụng ký tự đại diện '\*' để lấy thông tin của tất cả các job đang chạy
+Trường hợp không có `jobid` thì server sẽ trả về thông tin của tất cả các job đang chạy trên hệ thống
 :::
 
 ## Yêu cầu
 
-```json
+{{ ... }}
 {
   "type": "progress",
   "name": "$job_name"

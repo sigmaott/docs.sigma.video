@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-server-registration
 title: Đăng ký máy chủ
 order: 5
 ---

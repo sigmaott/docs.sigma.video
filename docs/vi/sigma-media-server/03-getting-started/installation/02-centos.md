@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-installation-centos
 title: Cài đặt:Centos
 order: 2
 ---

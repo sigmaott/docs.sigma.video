@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-getting-started-installation-ubuntu
 title: Install:Ubuntu
 order: 3
 ---
