@@ -1,0 +1,18 @@
+# Tắt các tính năng "vui vẻ" không cần thiết cho repo tài liệu.
+have_fun: false
+
+# Cấu hình cho việc đánh giá code.
+code_review:
+  # Không tắt hoàn toàn Gemini trên pull request để có thể nhận được tóm tắt.
+  disable: false
+
+  # Đặt ngưỡng severity ở mức LOW để có thể bắt được các lỗi nhỏ nếu có.
+  comment_severity_threshold: LOW
+
+  # Cấu hình cho các sự kiện khi mở pull request.
+  pull_request_opened:
+    # Bật tính năng tóm tắt nội dung pull request.
+    # Điều này rất hữu ích để xem nhanh các thay đổi trong tài liệu.
+    summary: true
+    # Tắt tính năng đánh giá "code" vì đây là repo tài liệu.
+    code_review: false
