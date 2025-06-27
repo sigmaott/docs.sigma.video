@@ -1,5 +1,5 @@
 ---
-title: Create packing funnels
+title: 'Create packing funnels'
 order: 2
 ---
 
