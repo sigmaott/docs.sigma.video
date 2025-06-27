@@ -1,5 +1,5 @@
 ---
-title: Quick Start
+title: 'Quick Start'
 order: 1
 ---
 
