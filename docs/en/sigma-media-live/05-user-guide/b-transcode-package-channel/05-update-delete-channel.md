@@ -1,5 +1,5 @@
 ---
-title: Edit and delete channels
+title: 'Edit and delete channels'
 order: 5
 ---
 
