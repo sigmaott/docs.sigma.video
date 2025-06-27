@@ -1,5 +1,5 @@
 ---
-title: "B6: Delete the channel"
+title: 'B6: Delete the channel'
 order: 8
 ---
 
