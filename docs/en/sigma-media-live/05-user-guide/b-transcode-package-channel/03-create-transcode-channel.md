@@ -1,5 +1,5 @@
 ---
-title: Create a transcoding channel
+title: 'Create a transcoding channel'
 order: 3
 ---
 

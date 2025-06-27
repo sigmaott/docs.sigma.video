@@ -1,4 +1,4 @@
 ---
-title: Input Management
+title: 'Resource: Quản lí đầu vào'
 order: 4
 ---

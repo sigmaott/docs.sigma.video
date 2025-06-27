@@ -1,4 +1,4 @@
 ---
-title: Begin
+title: 'Begin'
 order: 4
 ---
