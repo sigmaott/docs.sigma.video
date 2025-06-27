@@ -1,5 +1,5 @@
 ---
-title: Manifest Filtering
+title: 'Manifest Filtering'
 order: 1
 ---
 
