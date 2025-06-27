@@ -1,21 +1,23 @@
 ---
 layout: page
+
 features:
-  - number: "01"
+  - number: '01'
     title: Introduce
     description: Giới thiệu về Sigma Media Server
     group:
       - title: Tổng quan về sản phẩm
         links:
           - title: Giới thiệu Sigma Media Server
-            url: /vi/sigma-media-server/02-introduction/sigma-media-server
+            url: "/vi/sigma-media-server/02-introduction/sigma-media-server"
           - title: Glossary
-            url: /vi/sigma-media-server/02-introduction/glossary
+            url: "/vi/sigma-media-server/02-introduction/glossary"
           - title: Điểm mạnh
-            url: /vi/sigma-media-server/02-introduction/strengths
+            url: "/vi/sigma-media-server/02-introduction/strengths"
           - title: Kịch bản sử dụng
-            url: /vi/sigma-media-server/02-introduction/scenarios
-  - number: "02"
+            url: "/vi/sigma-media-server/02-introduction/scenarios"
+
+  - number: '02'
     title: Getting started
     description: Hướng dẫn bắt đầu sử dụng Sigma Media Server.
     group:
@@ -33,44 +35,46 @@ features:
             url: /vi/sigma-dai/04-getting-started/b-get-started#bước-5-kiểm-tra-cấu-hình
           - title: "Bước 6: Gửi yêu cầu phát lại đến SSAI"
             url: /vi/sigma-dai/04-getting-started/b-get-started#bước-6-gửi-thông-tin-yêu-cầu-đến-máy-chủ-ssai
-  - number: "03"
+
+  - number: '03'
     title: Be a Power Use (Sigma DAI)
     description: Sau khi chuẩn bị các bước, và bắt đầu cơ bản, danh sách này giúp bạn làm chủ hệ thống Sigma DAI.
     group:
       - title: Cấu hình Endpoint SSAI
         links:
           - title: Tạo mới 1 Endpoint SSAI
-            url: /vi/sigma-dai/05-user-guide/2-ad-insert-endpoint/b-create
+            url: "/vi/sigma-dai/05-user-guide/2-ad-insert-endpoint/b-create"
           - title: Chèn quảng cáo bumper
-            url: /vi/sigma-dai/05-user-guide/2-ad-insert-endpoint/f-bumper-ad
+            url: "/vi/sigma-dai/05-user-guide/2-ad-insert-endpoint/f-bumper-ad"
           - title: Chèn quảng cáo mặc định
-            url: /vi/sigma-dai/05-user-guide/2-ad-insert-endpoint/g-ad-slate
+            url: "/vi/sigma-dai/05-user-guide/2-ad-insert-endpoint/g-ad-slate"
           - title: Delay chèn tín hiệu
-            url: /vi/sigma-dai/05-user-guide/2-ad-insert-endpoint/h-delay
+            url: "/vi/sigma-dai/05-user-guide/2-ad-insert-endpoint/h-delay"
       - title: Quản lý danh sách quảng cáo
         links:
           - title: Danh sách quảng cáo
-            url: /vi/sigma-dai/05-user-guide/3-ads-list/a-ads-list
+            url: "/vi/sigma-dai/05-user-guide/3-ads-list/a-ads-list"
           - title: Kiểm duyệt quảng cáo
-            url: /vi/sigma-dai/05-user-guide/3-ads-list/b-approval
+            url: "/vi/sigma-dai/05-user-guide/3-ads-list/b-approval"
       - title: Giám sát và thống kê
         links:
           - title: Báo cáo dữ liệu
-            url: /vi/sigma-dai/05-user-guide/4-statistic/b-data-report
+            url: "/vi/sigma-dai/05-user-guide/4-statistic/b-data-report"
           - title: Biểu đồ sự kiện
-            url: /vi/sigma-dai/05-user-guide/4-statistic/c-event-chart/a-by-endpoint
+            url: "/vi/sigma-dai/05-user-guide/4-statistic/c-event-chart/a-by-endpoint"
           - title: Fillrate
-            url: /vi/sigma-dai/05-user-guide/4-statistic/d-fillrate
+            url: "/vi/sigma-dai/05-user-guide/4-statistic/d-fillrate"
           - title: Theo dõi hệ thống
-            url: /vi/sigma-dai/05-user-guide/4-statistic/f-monitor-system
-  - number: "04"
+            url: "/vi/sigma-dai/05-user-guide/4-statistic/f-monitor-system"
+
+  - number: '04'
     title: APIs
     description: Sigma DAI API cho phép bạn quản lý các chức năng thông qua api
     group:
       - title: APIs reference
         links:
           - title: APIs document
-            url: /vi/apis/sigma-dai
+            url: "/vi/apis/sigma-dai"
 ---
 
 <Timeline />
