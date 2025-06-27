@@ -1,5 +1,5 @@
 ---
-title: Supervise
+title: 'Supervise'
 order: 2
 ---
 
