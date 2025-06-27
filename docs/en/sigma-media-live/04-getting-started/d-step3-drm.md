@@ -1,5 +1,5 @@
 ---
-title: "B3(optional): Create DRM Credential"
+title: 'B3(optional): Create DRM Credential'
 order: 5
 ---
 
