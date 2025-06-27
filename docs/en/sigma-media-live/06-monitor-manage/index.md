@@ -1,4 +1,4 @@
 ---
-title: Management and monitoring
+title: 'Management and monitoring'
 order: 5
 ---
