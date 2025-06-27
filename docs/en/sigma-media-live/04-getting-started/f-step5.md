@@ -1,5 +1,5 @@
 ---
-title: "S5: Channel management and monitoring"
+title: 'S5: Channel management and monitoring'
 order: 7
 ---
 
