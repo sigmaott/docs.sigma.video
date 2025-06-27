@@ -1,5 +1,5 @@
 ---
-title: "Resource: Channel"
+title: 'Resource: Channel'
 order: 2
 ---
 
