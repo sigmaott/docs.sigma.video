@@ -1,4 +1,5 @@
 ---
+id: sigma-media-server-introduction-glossary
 title: Glossary
 order: 2
 ---
