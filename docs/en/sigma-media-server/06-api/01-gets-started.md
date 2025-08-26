@@ -9,8 +9,8 @@ Sigma Media Server's API system provides methods to interact with Sigma Media Se
 
 Sigma Media Server jobs include types such as:
 
-- **vod**: Job performs video related tasks on demand
-- **live**: Job performs tasks related to Live channel
+ - **vod**: Job performs video related tasks on demand
+ - **live**: Job performs tasks related to Live channel
 
 ## Basic steps to start working with the Sigma Media Server API
 
@@ -26,23 +26,23 @@ curl -X POST "http://{$sigma-media-server-ip}:9999" \
 
 Where:
 
-- **{$sigma-media-server-ip}** is the IP address of Sigma Media Server.
-- **$function** is the method of the API, e.g. **dump**, **start** ...
-- **mode**: is the type of Job, can be **live** or **vod**
-- **... data** is the remaining data of the function to send to the server
+ - **{$sigma-media-server-ip}** is the IP address of Sigma Media Server.
+ - **$function** is the method of the API, e.g. **dump**, **start** ...
+ - **mode**: is the type of Job, can be **live** or **vod**
+ - **... data** is the remaining data of the function to send to the server
 
 Example:
 
 Sigma Media Server provides the basic data dump function of the system by calling GET to the IP address of Sigma Media Server through the default port of **9999**.
 
-- Get **dump** with **GET** method
+ - Get **dump** with **GET** method
 
 ```bash
 curl -X GET "https://localhost:9999"\ 
      -H "accept: application/json"
 ```
 
-- Get **dump** with **POST** method
+ - Get **dump** with **POST** method
 
 ```bash
 curl -X POST "https://localhost:9999" \ 
@@ -50,7 +50,7 @@ curl -X POST "https://localhost:9999" \
      -H "accept: application/json"
 ```
 
-- Response sample:
+ - Response sample:
 
 ```json
 {
