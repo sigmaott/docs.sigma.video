@@ -1,5 +1,5 @@
 ---
-title: "B3(optional): Create DRM Credential"
+title: 'B3(optional): Create DRM Credential'
 order: 5
 ---
 
@@ -9,8 +9,8 @@ If your channel uses DRM encapsulation for its output stream, DRM Credential pre
 
 The current DRM Credential system **Sigma Streaming Platform** supports 2 types:
 
-- Sigma Multi DRM
-- DRMtoday
+ - Sigma Multi DRM
+ - DRMtoday
 
 ## DRM Credential Configuration Guide with DRMtoday
 
@@ -19,9 +19,9 @@ The current DRM Credential system **Sigma Streaming Platform** supports 2 types:
 1. Access the 'DRM Credential' Menu. Select the Drm today tab
 2. Select 'Add' new to create a new 'DRM Credential'
 3. Fill in the required information of Drm today
-   - 'MerchantID': Identifier of Drm today Merchant
-   - 'Username': Drm today username
-   - 'Password': Drm today Access Password
+    - 'MerchantID': Identifier of Drm today Merchant
+    - 'Username': Drm today username
+    - 'Password': Drm today Access Password
 4. 'Confirm' to save
 
 ## Guide to configure DRM Credential with Sigma Multi Drm
@@ -31,8 +31,8 @@ The current DRM Credential system **Sigma Streaming Platform** supports 2 types:
 1. Access the 'DRM Credential' Menu. Select the 'Sigma DRM' tab
 2. Select 'Add' new to create a new 'DRM Credential'
 3. Fill in the required 'Sigma DRM' information
-   - 'MerchantID': The identifier of the 'Sigma DRM' Merchant
-   - 'AppId': App identifier
-   - 'Email': Access account name 'Sigma DRM'
-   - 'Password': Access password 'Sigma DRM'
+    - 'MerchantID': The identifier of the 'Sigma DRM' Merchant
+    - 'AppId': App identifier
+    - 'Email': Access account name 'Sigma DRM'
+    - 'Password': Access password 'Sigma DRM'
 4. 'Confirm' to save

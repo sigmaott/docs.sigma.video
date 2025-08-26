@@ -1,5 +1,5 @@
 ---
-title: "S1: Signal flow settings"
+title: 'S1: Signal flow settings'
 order: 3
 ---
 
