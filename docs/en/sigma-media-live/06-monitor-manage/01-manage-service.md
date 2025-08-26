@@ -72,7 +72,7 @@ The paging interface consists of 4 main components:
 
 - Option the number of elements visible on a page.
 
-  <!-- ![Fontsize Menu](/images/media-live/um-pagination/page-size.png) -->
+      <!-- ![Fontsize Menu](/images/media-live/um-pagination/page-size.png) -->
 
   ![Page Size](/images/media-live/um-pagination/page-size-selection.jpg)
 
