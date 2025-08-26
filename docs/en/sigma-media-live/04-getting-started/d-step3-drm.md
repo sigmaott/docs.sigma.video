@@ -9,8 +9,8 @@ If your channel uses DRM encapsulation for its output stream, DRM Credential pre
 
 The current DRM Credential system **Sigma Streaming Platform** supports 2 types:
 
-- Sigma Multi DRM
-- DRMtoday
+ - Sigma Multi DRM
+ - DRMtoday
 
 ## DRM Credential Configuration Guide with DRMtoday
 
