@@ -75,6 +75,15 @@ features:
         links:
           - title: APIs document
             url: "/vi/apis/sigma-dai"
+
+  - number: '05'
+    title: Cài đặt Sigma Plugin
+    description: Hướng dẫn cài đặt các plugin cho Sigma Media Server.
+    group:
+      - title: Sigma AI Plugin
+        links:
+          - title: Cài đặt Sigma-AI Plugin
+            url: "/vi/sigma-media-server/07-install-sigma-plugin/install-sigma-ai-plugin"
 ---
 
 <Timeline />
