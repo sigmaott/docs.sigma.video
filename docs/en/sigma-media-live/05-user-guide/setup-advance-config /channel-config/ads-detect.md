@@ -42,9 +42,9 @@ Cần cấu hình các profile của kênh có preset data với cài đặt cod
 3. Trong form popup, nhập đường dẫn tới file model (`/usr/local/sigma-ssai-1`).
 4. Sau khi tải model, danh sách các hình ảnh đã huấn luyện sẽ hiển thị. Bạn có thể chọn các hình ảnh để phân loại quảng cáo.
 5. Cấu hình các tham số còn lại:
-  - **Score**: Đặt giá trị là 0.95 để có độ tin cậy cao trong việc phát hiện.
-  - **ID**: Để mặc định là 0.
-  - Điều chỉnh **Ads Duration**, **Delay**, **Step**, và **Sleep** theo yêu cầu.
+   - **Score**: Đặt giá trị là 0.95 để có độ tin cậy cao trong việc phát hiện.
+   - **ID**: Để mặc định là 0.
+   - Điều chỉnh **Ads Duration**, **Delay**, **Step**, và **Sleep** theo yêu cầu.
 6. Sau khi cấu hình xong, lưu lại thiết lập.
 
 Cấu hình này sẽ cho phép hệ thống phát hiện quảng cáo dựa trên model và các tham số bạn đã cấu hình.
