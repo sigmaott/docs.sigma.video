@@ -9,13 +9,13 @@ You must create an input. The input identifies the media data stream that the Si
 
 The Sigma Streaming Platform system supports the following input standards:
 
-- MPEG-TS over multicast UDP
-- RTMP push
-- RTMP pull
-- RTP
-- RTCP
-- SRT push
-- SRT pull
+ - MPEG-TS over multicast UDP
+ - RTMP push
+ - RTMP pull
+ - RTP
+ - RTCP
+ - SRT push
+ - SRT pull
 
 **Example of creating 1 multi cast UDP input**
 
