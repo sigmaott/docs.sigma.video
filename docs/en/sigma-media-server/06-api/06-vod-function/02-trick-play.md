@@ -25,8 +25,8 @@ Use the configuration below to create thumbnails and i-frame playlists for vod v
     }
 ```
 
-- Supported\*\*\*: jpg(dash), i-frames playlist(hls)
-    - jpg\*\*\*: use thumb config
+ - Supported\*\*\*: jpg(dash), i-frames playlist(hls)
+     - jpg\*\*\*: use thumb config
     ```
     "thumb": {
         "id": "thumb_id",
@@ -38,4 +38,4 @@ Use the configuration below to create thumbnails and i-frame playlists for vod v
     }
     ```
     and set: target.manifest.thumb="thumb_id"
-    - iframes\*\*\*: set "target.manifest.iframe" = 1
+     - iframes\*\*\*: set "target.manifest.iframe" = 1
