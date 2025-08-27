@@ -1,7 +1,9 @@
 ---
-title: install-sigma-ai-plugin
+id: install-sigma-ai-plugin-en
+title: Installing Sigma AI plugin package on Ubuntu
 order: 1
 ---
+
 
 
 # Installing Sigma AI Plugin Package on Ubuntu
