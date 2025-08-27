@@ -102,11 +102,11 @@ Bạn có thể cập nhật cấu hình máy qua API:
 # Guide to Updating Sigma Media Server on Ubuntu
 This document provides instructions on how to update **Sigma Media Server** to a new version on machines with an existing installation, including:
 
-- Update via `apt-get`
-- Upgrade configuration via web interface
-- Update configuration via API (`curl`)
+- Updating via `apt-get`
+- Upgrading configuration via the web interface
+- Updating configuration via API (`curl`)
 
-> 🔒 Note: Always backup your data and configuration before updating to avoid data loss.
+> 🔒 Note: Always back up your data and configuration before updating to avoid data loss.
 
 
 ## 1. Check Current Version
@@ -115,22 +115,24 @@ Before updating, check the current version:
 
 ```bash
 sigma-media-server --version
+
 ```
 
-📝 **Note:** Record the version to compare after upgrading. This helps confirm a successful update.
+📝 **Note:** Record the version to compare after the upgrade. This helps confirm a successful update.
 
 
 ## 2. Backup Before Upgrading
 
-Before updating, you should backup:
+Before updating, you should back up:
 
 ```bash
 # Backup configuration
 sudo cp -r /etc/sigma-machine /backup/config_$(date +%F)
+
 ```
 
 
-## 3. Update to New Version
+## 3. Update to the New Version
 
 Suppose you want to update to version **5.1.5.rc5.beta**:
 
@@ -140,15 +142,16 @@ sudo apt-get update
 
 # Update Sigma Media Server to a specific version
 sudo apt-get install -y sigma-media-server=5.1.5.rc5.beta
+
 ```
 
 > 🔍 Note:
 > 
-> - Add `y` to automatically confirm installation.
+> - Add `-y` to auto-confirm installation.
 > - If the version is not available, check the repository and APT configuration.
 
 
-## 4. Post-Upgrade Check
+## 4. Post-Upgrade Checks
 
 ```bash
 # Check version
@@ -159,22 +162,22 @@ sudo systemctl restart sigma-media-server
 
 # Check service status
 sudo systemctl status sigma-media-server
+
 ```
 
-- The new version should match the version you just updated to.
+- The new version should match the one you just updated to.
 
 
 ## 5. Upgrade Configuration via Web Interface
 
 1. Access the web interface:
-    
     ```
     http://<your-ip>:8019
     ```
-  ![image.png](../image/08-update-version/portal.png)
+   ![image.png](../image/08-update-version/portal.png)
 2. Click **Edit** to modify the configuration:
     - Update new information if needed
-    - Keep defaults if you do not want to change
+    - Keep defaults if you don't want to change anything
    ![image.png](../image/08-update-version/update-config.png)
 3. Click **Save** to save and apply the upgrade.
 
@@ -224,6 +227,7 @@ curl 'http://localhost:9081/api/machine-client/machine' \
       "clearTimeInterval": 1800
     }
   }'
+
 ```
 
 ---
@@ -234,10 +238,10 @@ curl 'http://localhost:9081/api/machine-client/machine' \
 | --- | --- | --- |
 | `log.expire` | Log retention time before deletion | Days |
 | `log.numberOfFileRotation` | Number of log rotation files | Integer |
-| `log.logFileSize` | Maximum size of each log file | MB |
+| `log.logFileSize` | Maximum size per log file | MB |
 | `data.expire` | Output data retention time | Seconds |
 | `data.clearTimeInterval` | Interval to check and delete expired data | Seconds |
 | `catchup.expire` | Catchup content retention time | Seconds |
 | `cache.expire` | Cache retention time before auto-deletion | Seconds |
 | `manifest.expire` | Manifest file retention time | Seconds |
-| `metric.retention` | Metrics data retention time in VictoriaMetrics | Days |
+| `metric.retention` | Metrics retention time in VictoriaMetrics | Days |
