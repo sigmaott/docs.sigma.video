@@ -8,7 +8,8 @@
   - `docs/en`: Cho tiếng Anh.
   - `docs/vi`: Cho tiếng Việt.
 - **Sản phẩm:** Mỗi thư mục con trực tiếp bên trong `docs/en` và `docs/vi` đại diện cho một sản phẩm riêng biệt (ví dụ: `sigma-dai`, `apis`).
-- **Nội dung:** Mọi thay đổi hoặc bổ sung nội dung phải được thực hiện đồng bộ cho cả hai ngôn ngữ (nếu có thể).
+- **Nội dung:** Mọi thay đổi hoặc bổ sung nội dung phải được thực hiện đồng bộ cho cả hai ngôn ngữ
+- Yêu cầu bắt buộc trong mỗi pull request phải sửa/thêm đủ cả 2 ngôn ngữ, thiếu thì reject (**important**)
 
 ## 2. Cấu trúc File và Front Matter
 
