@@ -231,7 +231,7 @@ Hệ thống hỗ trợ nhiều loại storage, cho phép linh hoạt lựa ch�
 
 Gửi file master HLS với nội dung cơ bản (`#EXTM3U`, `#EXT-X-VERSION:4`) lên server qua API.
 
-```
+```bash
 # PUT file master.m3u8 lên server
 curl -X PUT "http://127.0.0.1:8081/manifest/test/master.m3u8" \
   -H "Content-Type: application/vnd.apple.mpegurl" \
