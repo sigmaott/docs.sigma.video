@@ -1,8 +1,9 @@
 ---
-
-title: Hướng Dẫn Cấu Hình Manifest Dir Trong Sigma Media Server
+id: huong-dan-cau-hinh-manifest-dir-sigma-media-server
+title: Hướng dẫn cấu hình manifest dir trong Sigma Media Server
 order: 1
 ---
+
 # Hướng Dẫn Cấu Hình Manifest Dir Trong Sigma Media Server
 
 ## 1. Giới Thiệu
