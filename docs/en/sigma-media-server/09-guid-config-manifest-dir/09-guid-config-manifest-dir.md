@@ -1,5 +1,5 @@
 ---
-title: guid-config-manifest-dir
+title: Sigma Media Server Manifest Dir Configuration Guide
 order: 1
 ---
 # Sigma Media Server Manifest Dir Configuration Guide

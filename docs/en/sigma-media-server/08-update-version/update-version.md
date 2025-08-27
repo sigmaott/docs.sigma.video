@@ -1,5 +1,5 @@
 ---
-title: update-version
+title: Guide to Updating Sigma Media Server on Ubuntu
 order: 1
 ---
 
@@ -79,11 +79,11 @@ sudo systemctl status sigma-media-server
     ```
     http://<your-ip>:8019
     ```
-   ![image.png](../image/08-update-version/portal.png)
+   ![image.png](../../../vi/sigma-media-server/image/08-update-version/portal.png)
 2. Click **Edit** to modify the configuration:
     - Update new information if needed
     - Keep defaults if you don't want to change anything
-   ![image.png](../image/08-update-version/update-config.png)
+   ![image.png](../../../vi/sigma-media-server/image/08-update-version/update-config.png)
 3. Click **Save** to save and apply the upgrade.
 
 

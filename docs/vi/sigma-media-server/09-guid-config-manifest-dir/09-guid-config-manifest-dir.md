@@ -1,6 +1,6 @@
 ---
-title: vi-guid-config-manifest-dir
-title: Guide to configure Manifest Dir
+
+title: Hướng Dẫn Cấu Hình Manifest Dir Trong Sigma Media Server
 order: 1
 ---
 # Hướng Dẫn Cấu Hình Manifest Dir Trong Sigma Media Server
