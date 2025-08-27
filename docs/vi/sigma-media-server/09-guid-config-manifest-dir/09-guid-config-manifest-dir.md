@@ -1,5 +1,6 @@
 ---
-title: guid-config-manifest-dir
+title: vi-guid-config-manifest-dir
+title: Guide to configure Manifest Dir
 order: 1
 ---
 # Hướng Dẫn Cấu Hình Manifest Dir Trong Sigma Media Server
@@ -220,7 +221,7 @@ Hệ thống hỗ trợ nhiều loại storage, cho phép linh hoạt lựa ch�
 - `redis.name`: tên master group (ví dụ: `mymaster`).
 - `redis.sentinel_username`: user để xác thực Sentinel.
 - `redis.sentinel_password`: password để xác thực Sentinel.
-- `redis.username`: user để kết nối Redis Master/Slave.
+- `redis.user_name`: user để kết nối Redis Master/Slave.
 - `redis.password`: password cho user Redis.
 - `redis.pool_size`: số kết nối trong connection pool.
 - `redis.use_pipeline`: bật pipeline để tăng tốc ghi/đọc nhiều lệnh.
