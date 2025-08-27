@@ -1,7 +1,9 @@
 ---
-title: Sigma Media Server Manifest Dir Configuration Guide
+id: sigma-media-server-manifest-dir-guide-en
+title: Sigma media server manifest dir configuration guide
 order: 1
 ---
+
 # Sigma Media Server Manifest Dir Configuration Guide
 
 ## 1. Introduction
