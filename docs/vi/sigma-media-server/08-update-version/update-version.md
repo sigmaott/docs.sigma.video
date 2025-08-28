@@ -1,5 +1,5 @@
 ---
-title: update-version
+title: Hướng dẫn cập nhật Sigma Media Server trên Ubuntu
 order: 1
 ---
 # Hướng Dẫn Cập Nhật Sigma Media Server trên Ubuntu
