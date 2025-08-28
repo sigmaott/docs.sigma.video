@@ -1,7 +1,9 @@
 ---
-title: Guide to Updating Sigma Media Server on Ubuntu
+id: guide-updating-sigma-media-server-en
+title: Guide to updating Sigma Media Server on Ubuntu
 order: 1
 ---
+
 
 
 # Guide to Updating Sigma Media Server on Ubuntu
