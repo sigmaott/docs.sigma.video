@@ -1,5 +1,5 @@
 ---
-title: Cài đặt gói plugin  Sigma AI trên Ubuntu
+title: Cài đặt gói plugin Sigma AI trên Ubuntu
 order: 1
 ---
 
