@@ -1,9 +1,9 @@
-FROM registry.gviet.vn:5000/library/node:18-alpine as builder
+FROM node:20-alpine as builder
 
 env PUPPETEER_SKIP_DOWNLOAD=true
 
 RUN apk add --no-cache git
-RUN npm install -g pnpm@8.15.4
+RUN corepack enable && corepack prepare pnpm@10.11.0 --activate
 
 WORKDIR /src
 
