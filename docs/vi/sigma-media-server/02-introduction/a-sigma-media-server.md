@@ -1,5 +1,4 @@
 ---
-id: sigma-media-server-introduction-sigma-media-server
 title: Sigma Media Server
 order: 1
 ---
@@ -61,14 +60,3 @@ Sigma được viết bằng ngôn ngữ lập trình Erlang, mang lại các l�
 - **Hướng dẫn xử lý các vấn đề thường gặp**. Ghi hình, chuyển mã, lưu trữ, đóng gói, trình phát, giám sát.
 
 - **Hỗ trợ dự án**
-
-## Bắt đầu làm việc với Sigma Media Server
-
-Để bắt đầu làm việc với Sigma Media Server, hãy thực hiện các bước sau:
-
-- Yêu cầu dùng thử bằng cách điền vào biểu mẫu dùng thử trên trang web của chúng tôi
-- Làm theo các bước trong phần Hướng dẫn nhanh với Media Server.
-
-## Có gì mới
-
-Tìm các thay đổi được thêm vào trong các phiên bản Sigma mới nhất trên blog của chúng tôi.
