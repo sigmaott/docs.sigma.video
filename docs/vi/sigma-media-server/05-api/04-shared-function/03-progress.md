@@ -4,7 +4,6 @@ title: Lấy thông tin Job
 order: 3
 ---
 
-{{ ... }}
 # Lấy thông tin Job
 
 Lệnh này được sử dụng để lấy thông tin của một Job, trạng thái của job đang chạy
@@ -15,7 +14,6 @@ Trường hợp không có `jobid` thì server sẽ trả về thông tin của 
 
 ## Yêu cầu
 
-{{ ... }}
 {
   "type": "progress",
   "name": "$job_name"
