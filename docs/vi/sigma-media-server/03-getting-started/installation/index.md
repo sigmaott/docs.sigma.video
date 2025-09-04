@@ -10,7 +10,7 @@ Phần này cung cấp hướng dẫn chi tiết để cài đặt Sigma Media S
 
 Vui lòng chọn hướng dẫn tương ứng với hệ điều hành của bạn:
 
-- [Tổng quan](./installation/01-overview.md)
-- [Cài đặt trên CentOS](./installation/02-centos.md)
-- [Cài đặt trên Ubuntu](./installation/03-ubuntu.md)
-- [Cài đặt với Docker](./installation/04-docker.md)
+- [Tổng quan](./01-overview.md)
+- [Cài đặt trên CentOS](./02-centos.md)
+- [Cài đặt trên Ubuntu](./03-ubuntu.md)
+- [Cài đặt với Docker](./04-docker.md)

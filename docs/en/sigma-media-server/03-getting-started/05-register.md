@@ -1,7 +1,7 @@
 ---
 id: sigma-media-server-getting-started-server-registration
 title: Server registration
-order: 4
+order: 5
 ---
 
 # Sigma Media Server Registration Guide
