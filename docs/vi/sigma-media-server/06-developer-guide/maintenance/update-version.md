@@ -85,11 +85,11 @@ sudo systemctl status sigma-media-server
     http://<ip-của-bạn>:8019
     
     ```
-  ![image.png](../image/08-update-version/portal.png)
+  ![image.png](/images/media-server/maintenance/portal.png)
 2. Nhấn **Edit** để chỉnh sửa cấu hình:
     - Cập nhật các thông tin mới nếu cần
     - Giữ mặc định nếu không muốn thay đổi
-   ![image.png](../image/08-update-version/update-config.png)
+   ![image.png](/images/media-server/maintenance/update-config.png)
 3. Nhấn **Save** để lưu và áp dụng nâng cấp.
 
 
