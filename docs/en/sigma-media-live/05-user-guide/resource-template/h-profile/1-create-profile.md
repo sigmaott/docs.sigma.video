@@ -23,15 +23,15 @@ The system will display a pop-up **Add new profile**\* in the middle of the scre
 
 ! [Create New] (/images/media-live/profile/create.png)
 
- - Default display of profile name in the form: 'profile_[number due to random system]' helps users optimize time during the configuration process.
- - Preset style selection
+- Default display of profile name in the form: 'profile_[number due to random system]' helps users optimize time during the configuration process.
+- Preset style selection
 
 **Step 2**:
 
 After clicking on the preset type, display a dropdownlist of 2 options:
 
- - [Existing preset](./1-create-profile#existing-preset)
- - [New preset](./1-create-profile#new-preset)
+- [Existing preset](./1-create-profile#existing-preset)
+- [New preset](./1-create-profile#new-preset)
 
 ### Presets already exist
 
@@ -42,15 +42,15 @@ The system will display a window.
 
 The list of presets includes:
 
- - Title: Add [video/audio/data] respectively
- - The list includes:
-     - ID
-     - Name: the name of the preset
-     - Type: [video/ audio/ data] respectively
-     - Information: Profile details
-     - Describe
- - Pagination
- - Refresh
+- Title: Add [video/audio/data] respectively
+- The list includes:
+  - ID
+  - Name: the name of the preset
+  - Type: [video/ audio/ data] respectively
+  - Information: Profile details
+  - Describe
+- Pagination
+- Refresh
 
 **Step 3**: The user selects a preset from the list.
 
@@ -62,14 +62,14 @@ To customize the media profile as desired, the user selects 'New Preset'. The sy
 
 Names and descriptions are displayed by default in all preset types:
 
- - Preset name: Block special characters, no spaces, support dashes, underscores. Vietnamese language is not supported.
- - Preset description: Block special characters, **with spaces**, support dashes, underscores. Vietnamese language is not supported.
+- Preset name: Block special characters, no spaces, support dashes, underscores. Vietnamese language is not supported.
+- Preset description: Block special characters, **with spaces**, support dashes, underscores. Vietnamese language is not supported.
 
 Details of each preset:
 
- - [Video](./create-profile#video)
- - [Audio](./create-profile#audio)
- - [Data](./create-profile#data)
+- [Video](./create-profile#video)
+- [Audio](./create-profile#audio)
+- [Data](./create-profile#data)
 
 ### Video
 
@@ -130,9 +130,9 @@ The user selects the 'audio' item, then displays the following information:
 
 ## Buttons
 
- - 'Cancel' button: Do not perform new creation, return to the main screen interface.
+- 'Cancel' button: Do not perform new creation, return to the main screen interface.
 
- - 'Confirm' button: Save the newly created information, return to the main screen interface.
+- 'Confirm' button: Save the newly created information, return to the main screen interface.
 
 ## Save the configuration
 
