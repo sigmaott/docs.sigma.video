@@ -11,18 +11,18 @@ Chức năng này cho phép người dùng tạo những điều kiện để th
 
 Chức năng tạo cơ chế theo dõi thư mục (watch folder rule) cho phép người dùng:
 
- - Bất kì tập tin nào được tải lên đúng với những điều kiện được mô tả của thư mục này sẽ tự động kích hoạt quy trình chuyển mã.
- - Người dùng có khả năng định nghĩa (mô tả) điều kiện một hoặc nhiều tệp tin hoặc thư mục cụ thể.
- - Cho phép người dùng chọn đầu ra cho các tệp tin đầu ra được tạo từ cơ chế theo dõi thư mục.
- - Cấu hình chung cho tất cả profile trong video on demand giúp bảo vệ bản quyền, tăng tính chuyên nghiệp và giá trị thương hiệu của video, cũng như ngăn chặn việc sửa đổi hoặc sao chép không được phép.
- - Chuyển mã âm thanh và video nguồn thành định dạng **DASH, HLS, Multiple-mp4, Mp4, Mp3** để phát lại trên nhiều loại thiết bị.
- - Điều chỉnh tốc độ bit đầu ra cho phù hợp với các băng thông mạng khác nhau.
- - Tùy chỉnh các mẫu chuyển mã, chẳng hạn như loại chuyển mã, tốc độ bit video, độ phân giải, tốc độ khung hình.
+- Bất kì tập tin nào được tải lên đúng với những điều kiện được mô tả của thư mục này sẽ tự động kích hoạt quy trình chuyển mã.
+- Người dùng có khả năng định nghĩa (mô tả) điều kiện một hoặc nhiều tệp tin hoặc thư mục cụ thể.
+- Cho phép người dùng chọn đầu ra cho các tệp tin đầu ra được tạo từ cơ chế theo dõi thư mục.
+- Cấu hình chung cho tất cả profile trong video on demand giúp bảo vệ bản quyền, tăng tính chuyên nghiệp và giá trị thương hiệu của video, cũng như ngăn chặn việc sửa đổi hoặc sao chép không được phép.
+- Chuyển mã âm thanh và video nguồn thành định dạng **DASH, HLS, Multiple-mp4, Mp4, Mp3** để phát lại trên nhiều loại thiết bị.
+- Điều chỉnh tốc độ bit đầu ra cho phù hợp với các băng thông mạng khác nhau.
+- Tùy chỉnh các mẫu chuyển mã, chẳng hạn như loại chuyển mã, tốc độ bit video, độ phân giải, tốc độ khung hình.
 
 ## Lưu ý
 
- - Sử dụng máy chủ và không sử dụng dịch vụ đám mây (cloud).
- - Mỗi máy chủ chỉ được tạo tối đa 10 cơ chế theo dõi thư mục.
+- Sử dụng máy chủ và không sử dụng dịch vụ đám mây (cloud).
+- Mỗi máy chủ chỉ được tạo tối đa 10 cơ chế theo dõi thư mục.
 
 ## Luồng
 
@@ -53,11 +53,11 @@ Quá trình tạo cơ chế theo dõi thư mục (watch folder rule) người d�
 
 Người dùng nhấn vào lựa chọn đầu vào, hệ thống hiển thị cửa sổ pop-up, với thông tin sau:
 
- - **Máy:** lựa chọn máy để thực hiện chọn tập tin
+- **Máy:** lựa chọn máy để thực hiện chọn tập tin
 
 ![Lựa chọn máy](/images/media-vod/watch-folder-rule/select-server.png)
 
- - **Thư mục:** Sau khi lựa chọn máy, hệ thống hiển thị các thư mục tương ứng với máy (chỉ cho phép lựa chọn thư mục)
+- **Thư mục:** Sau khi lựa chọn máy, hệ thống hiển thị các thư mục tương ứng với máy (chỉ cho phép lựa chọn thư mục)
 
 ![Lựa chọn thư mục](/images/media-vod/watch-folder-rule/select-folder.png)
 
@@ -68,7 +68,7 @@ Tiếp theo, người dùng sẽ được dẫn sang bước tiếp theo trong q
 1. Nhấp vào mô tả điều kiện để theo dõi thư mục
 2. Hệ thống hiển thị cửa sổ pop-up với các thông tin sau:
 
- - **Biểu thức chính quy (regex pattern)**: Không bắt buộc điền, nhập các kí tự được cho phép của regrex
+- **Biểu thức chính quy (regex pattern)**: Không bắt buộc điền, nhập các kí tự được cho phép của regrex
 
 ![Regex pattern](/images/media-vod/watch-folder-rule/CWF-condition-regex.png)
 
@@ -119,18 +119,18 @@ Tiếp theo, người dùng sẽ được dẫn sang bước cuối cùng trong 
 
 ![Cấu hình job](/images/media-vod/watch-folder-rule/config-job.png)
 
- - Cấu hình profile chung: Chưa có dữ liệu.
- - Nút `cấu hình mặc định`: xoá dữ liệu do người dùng cấu hình profile, hiển thị prodile mặc định
- - Danh sách profile mặc định gồm: 1080, 720, 480, 360, 240, 144
-    ( cho phép sửa, xoá)
- - Cấu hình mục tiêu
+- Cấu hình profile chung: Chưa có dữ liệu.
+- Nút `cấu hình mặc định`: xoá dữ liệu do người dùng cấu hình profile, hiển thị prodile mặc định
+- Danh sách profile mặc định gồm: 1080, 720, 480, 360, 240, 144
+  ( cho phép sửa, xoá)
+- Cấu hình mục tiêu
 
 1. Lựa chọn thao tác:
 
- - Chọn cấu hình mẫu
- - Tuỳ chỉnh cấu hình:
-     - Cấu hình profile: [Xem chi tiết tại đây](../c-vod-job-management/5-config-job/5.1-profile.md)
-     - Cấu hình target: [Xem chi tiết tại đây](../c-vod-job-management/5-config-job/5.2-target-job.md)
+- Chọn cấu hình mẫu
+- Tuỳ chỉnh cấu hình:
+  - Cấu hình profile: [Xem chi tiết tại đây](../c-vod-job-management/5-config-job/5.1-profile.md)
+  - Cấu hình target: [Xem chi tiết tại đây](../c-vod-job-management/5-config-job/5.2-target-job.md)
 
 ### Bước 6: Hoàn thành tạo quy tắc thư mục
 
