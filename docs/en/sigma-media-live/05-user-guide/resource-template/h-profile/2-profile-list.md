@@ -23,14 +23,14 @@ Display interface:
 
 The information is displayed in the interface:
 
- - ID: After the user creates a new profile, the system generates a unique ID for the profile for the purpose of identification.
- - Name: Configured by the CMS user for the profile name.
- - Video: Briefly displays icons and configuration parameters, up to 1 video.
- - Audio: Briefly displays icons and configuration parameters, up to 10 audios.
- - Data: Briefly displays icons and configuration parameters, up to 10 data.
- - Action:
-     - [Update] (3-edit-profile.md): Allows users to edit the profile information.
-     - [Cloning] (4-duplicate.md): Allows users to make copies with profile information.
-     - [Delete] (5-delete.md): Allows CMS users to perform deletion
+- ID: After the user creates a new profile, the system generates a unique ID for the profile for the purpose of identification.
+- Name: Configured by the CMS user for the profile name.
+- Video: Briefly displays icons and configuration parameters, up to 1 video.
+- Audio: Briefly displays icons and configuration parameters, up to 10 audios.
+- Data: Briefly displays icons and configuration parameters, up to 10 data.
+- Action:
+  - [Update] (3-edit-profile.md): Allows users to edit the profile information.
+  - [Cloning] (4-duplicate.md): Allows users to make copies with profile information.
+  - [Delete] (5-delete.md): Allows CMS users to perform deletion
 
 **Step 2**: User views the information.
