@@ -17,31 +17,31 @@ There are two methods to perform a watermark check.
 
 Before you start, you need to prepare a valid audio file.
 
- - We support many audio file formats, including:
+- We support many audio file formats, including:
 
-     - MP3 (MPEG Audio Layer III)
+  - MP3 (MPEG Audio Layer III)
 
-     - AAC (Advanced Audio Coding)
+  - AAC (Advanced Audio Coding)
 
-     - WAV (Waveform Audio File Format)
+  - WAV (Waveform Audio File Format)
 
-     - AIFF (Audio Interchange File Format)
+  - AIFF (Audio Interchange File Format)
 
-     - FLAC (Free Lossless Audio Codec)
+  - FLAC (Free Lossless Audio Codec)
 
-     - OGG (Ogg Vorbis)
+  - OGG (Ogg Vorbis)
 
-     - M4A (MPEG-4 Audio)
+  - M4A (MPEG-4 Audio)
 
-     - AMR (Adaptive Multi-Rate)
+  - AMR (Adaptive Multi-Rate)
 
-     - WMA (Windows Media Audio)
+  - WMA (Windows Media Audio)
 
-     - APE (Monkey's Audio)
+  - APE (Monkey's Audio)
 
- - Supported codecs: aac, mp3, pcm\*, mp2, opus
+- Supported codecs: aac, mp3, pcm\*, mp2, opus
 
- - A valid audio file size is less than 50 MB.
+- A valid audio file size is less than 50 MB.
 
 ### Start testing
 
@@ -55,16 +55,16 @@ By default, display the 'Upload' option.
 
 Users can perform the following actions:
 
- - Drag and drop files
- - Select the file from a personal computer.
+- Drag and drop files
+- Select the file from a personal computer.
 
 **Step 2**:
 The user uploads the file.
 
 After selecting the file, the results displayed include:
 
- - Selected filename
- - The 'X' icon allows deleting files.
+- Selected filename
+- The 'X' icon allows deleting files.
 
 The user clicks the test button.
 
@@ -87,19 +87,19 @@ Give permission to use the microphone for the tool, connect your device to the d
 
 **Step 2**: Click the recording icon. Connect the device successfully.
 
- - Make a recording.
+- Make a recording.
 
- - Disable the 'check' button.
+- Disable the 'check' button.
 
 **Step 3**: Click the stop icon.
 
 _In case the user does not stop, the system will automatically stop when the 20-second limit is reached._
 
- - Show records
+- Show records
 
- - The back icon and other **Check recordings** allow the user to make a recording.
+- The back icon and other **Check recordings** allow the user to make a recording.
 
- - Turn on the 'test' button.
+- Turn on the 'test' button.
 
 _In case the user clicks the **Check other records** icon the system will perform the recording again according to step 2._
 
@@ -120,13 +120,13 @@ After checking within the specified time period, the result will be displayed as
 1. If **watermark not found**: Message **No watermark found.**
 2. Find watermark
 
- - Show the ID of the watermarking and offer the option to copy.
+- Show the ID of the watermarking and offer the option to copy.
 
- - If **1 channel is found**: Displays the details of that channel, the icon points directly to the corresponding channel details, all on the same tab.
+- If **1 channel is found**: Displays the details of that channel, the icon points directly to the corresponding channel details, all on the same tab.
 
- - If **multiple channels**: Display **total channels**, display scrollbar, icon pointing directly to corresponding channel details, all on the same tab.
+- If **multiple channels**: Display **total channels**, display scrollbar, icon pointing directly to corresponding channel details, all on the same tab.
 
- - If \*\*no channel found: Displays string, which can be copied for use.
+- If \*\*no channel found: Displays string, which can be copied for use.
 
 ## The test failed
 
@@ -140,8 +140,8 @@ Only allow uploads of files that meet the regulations listed earlier. When the u
 
 Access to equipment is a prerequisite during the recording test. When the user clicks the recording icon and the process cannot continue, the system displays a message like this:
 
- - Subject: Please grant permission to use the microphone for the tool.
- - Contents: Check your system settings to make sure Sigma streaming has access to your microphone and try again.
+- Subject: Please grant permission to use the microphone for the tool.
+- Contents: Check your system settings to make sure Sigma streaming has access to your microphone and try again.
 
 ### Exceeding system test time
 
