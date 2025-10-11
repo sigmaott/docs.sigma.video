@@ -22,8 +22,8 @@ Chế độ **Active-Active** cho phép chạy kênh trên 2 máy đồng thời
 
 ### Ưu điểm:
 
- - Cải thiện hiệu suất và khả năng chịu tải của hệ thống.
- - Đảm bảo tính liên tục của dịch vụ ngay cả khi một kênh gặp sự cố.
+- Cải thiện hiệu suất và khả năng chịu tải của hệ thống.
+- Đảm bảo tính liên tục của dịch vụ ngay cả khi một kênh gặp sự cố.
 
 ## 2. Chế độ Active-Standby
 
@@ -39,23 +39,23 @@ Chế độ **Active-Standby** cho phép chọn một kênh chủ động (Activ
 
 ### Ưu điểm:
 
- - Giảm thiểu rủi ro gián đoạn dịch vụ vì luôn có một kênh dự phòng sẵn sàng thay thế.
- - Tối ưu hóa tài nguyên khi chỉ một kênh xử lý tín hiệu chính.
+- Giảm thiểu rủi ro gián đoạn dịch vụ vì luôn có một kênh dự phòng sẵn sàng thay thế.
+- Tối ưu hóa tài nguyên khi chỉ một kênh xử lý tín hiệu chính.
 
 ## 3. Các bước cấu hình Channel Mode:
 
 1. **Chọn chế độ Channel Mode**: Trong phần cấu hình, chọn giữa **Active-Active** và **Active-Standby**.
 2. **Đối với chế độ Active-Active**:
-    - Chọn tất cả các kênh sẽ hoạt động đồng thời.
-    - Cấu hình tải phân phối cho các kênh để tránh tình trạng quá tải.
+   - Chọn tất cả các kênh sẽ hoạt động đồng thời.
+   - Cấu hình tải phân phối cho các kênh để tránh tình trạng quá tải.
 3. **Đối với chế độ Active-Standby**:
-    - Chọn kênh chủ động (Active Channel) và các kênh dự phòng (Standby Channels).
-    - Cấu hình hệ thống để tự động chuyển đổi kênh khi có sự cố.
+   - Chọn kênh chủ động (Active Channel) và các kênh dự phòng (Standby Channels).
+   - Cấu hình hệ thống để tự động chuyển đổi kênh khi có sự cố.
 4. **Lưu cấu hình**: Sau khi hoàn thành các cài đặt, lưu cấu hình và kiểm tra hệ thống hoạt động.
 
 ## 4) Lưu ý:
 
- - Trong chế độ **Active-Active**, cần đảm bảo rằng tất cả các kênh đều có đủ khả năng xử lý và không làm giảm hiệu suất của hệ thống.
- - Trong chế độ **Active-Standby**, cần cấu hình hệ thống để có thể chuyển đổi kênh chủ động một cách tự động và nhanh chóng trong trường hợp kênh chủ động gặp sự cố.
+- Trong chế độ **Active-Active**, cần đảm bảo rằng tất cả các kênh đều có đủ khả năng xử lý và không làm giảm hiệu suất của hệ thống.
+- Trong chế độ **Active-Standby**, cần cấu hình hệ thống để có thể chuyển đổi kênh chủ động một cách tự động và nhanh chóng trong trường hợp kênh chủ động gặp sự cố.
 
 Chế độ kênh sẽ quyết định cách hệ thống xử lý và phân phối quảng cáo. Chọn chế độ phù hợp để tối ưu hóa hiệu suất và đảm bảo tính liên tục cho dịch vụ.
