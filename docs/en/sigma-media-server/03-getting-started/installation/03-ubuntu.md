@@ -8,13 +8,46 @@ order: 3
 
 First, we will install Sigma Media Server. It is a powerful software application that allows you to stream video and audio over a network.
 
-Example installation of version **sigma media server** **3.0.8** on ubuntu
+## Download the repository configuration file
+
+To install Sigma Media Server, first add the official repository to your system
 
 ```bash
-wget https://minio.sigma.video:9000/debian/sigma-server-live_3.0.8-2_amd64.deb
-chmod +x sigma-server-live_3.0.8-2_amd64.deb
-sudo apt-get install ./sigma-server-live_3.0.8-2_amd64.deb
+wget https://repo.sigma.video/debian/sigma-media-server.list -O /etc/apt/sources.list.d/sigma-media-server.list
 ```
+
+**Note:** Make sure your server is connected to the Internet.
+
+## Update package list
+
+After adding the repository, update the package list:
+
+```bash
+sudo apt-get update
+```
+
+## Install Sigma Media Server
+
+Install Sigma Media Server
+
+You can install the latest version or a specific version:
+
+### Install the latest version
+
+```bash
+sudo apt-get install sigma-media-server
+```
+
+### Install a specific version
+
+1. Check the available versions:
+```bash
+  apt list -a sigma-media-server
+```
+2. Install the desired version (for example: `3.0.8`):
+```bash
+  sudo apt-get install sigma-media-server=3.0.8
+ ```
 
 ## Start Service
 
