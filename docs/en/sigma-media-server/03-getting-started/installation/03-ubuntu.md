@@ -8,15 +8,51 @@ order: 3
 
 Đầu tiên, chúng ta sẽ cài đặt Sigma Media Server. Đây là một ứng dụng phần mềm mạnh mẽ cho phép bạn truyền phát video và âm thanh qua mạng.
 
-Ví dụ cài đặt phiên bản **sigma media server** **3.0.8** trên ubuntu
+## Tải file cấu hình kho phần mềm
+
+Để cài đặt Sigma Media Server, trước tiên hãy thêm kho phần mềm chính thức vào hệ thống của bạn
 
 ```bash
-wget https://minio.sigma.video:9000/debian/sigma-server-live_3.0.8-2_amd64.deb
-chmod +x sigma-server-live_3.0.8-2_amd64.deb
-sudo apt-get install ./sigma-server-live_3.0.8-2_amd64.deb
+wget https://repo.sigma.video/debian/sigma-media-server.list -O /etc/apt/sources.list.d/sigma-media-server.list
 ```
 
-## Khởi động Dịch vụ
+**Lưu ý:** Đảm bảo máy chủ của bạn đã được kết nối Internet.
+
+## Cập nhật danh sách gói
+
+Sau khi thêm kho phần mềm, hãy cập nhật danh sách gói:
+
+```bash
+sudo apt-get update
+```
+
+## Cài đặt Sigma Media Server
+
+Cài đặt Sigma Media Server
+
+Bạn có thể cài đặt phiên bản mới nhất hoặc một phiên bản cụ thể:
+
+### Cài đặt phiên bản mới nhất
+
+```bash
+sudo apt-get install sigma-media-server
+```
+
+### Cài đặt một phiên bản cụ thể
+
+1. Kiểm tra các phiên bản có sẵn:
+
+```bash
+  apt list -a sigma-media-server
+```
+
+2. Cài đặt phiên bản mong muốn (ví dụ: `3.0.8`):
+
+```bash
+  sudo apt-get install sigma-media-server=3.0.8
+```
+
+## Khởi động dịch vụ
 
 Sau khi cài đặt thành công, bạn cần khởi động dịch vụ Sigma Media Server:
 
