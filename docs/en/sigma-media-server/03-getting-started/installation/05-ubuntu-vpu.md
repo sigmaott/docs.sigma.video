@@ -1,6 +1,6 @@
 ---
 id: sigma-media-server-getting-started-installation-ubuntu-vpu
-title: Installation: Ubuntu with VPU
+title: Installation Ubuntu with VPU
 order: 5
 ---
 
