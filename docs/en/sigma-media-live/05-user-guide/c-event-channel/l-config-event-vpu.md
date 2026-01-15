@@ -1,5 +1,5 @@
 ---
-title: 'Config Event Channel' 
+title: 'Config Event Channel with VPU' 
 order: 11 
 ---
 
