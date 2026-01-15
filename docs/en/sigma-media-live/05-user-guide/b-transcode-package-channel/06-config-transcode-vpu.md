@@ -1,5 +1,5 @@
 ---
-title: 'Config Transcode Channel' 
+title: 'Config Transcode Channel with VPU' 
 order: 1 
 ---
 
