@@ -1,6 +1,6 @@
 ---
 title: 'Config Event Channel with VPU' 
-order: 2 
+order: 11  
 ---
 
 # {{ $frontmatter.title }}
@@ -46,5 +46,6 @@ Hệ thống tự động tạo các cấu hình mặc định cho **Profiles/Ta
 
 1.  Nhấn nút **Submit** ở góc dưới bên phải để tạo kênh.
 2.  Quay lại danh sách **Event Channels** và tìm kênh vừa tạo.
+
 
 > **Kết quả thành công**: Cột **Status** hiển thị **Live** (màu xanh lá) và cột **State** hiển thị **Main** (hoặc trạng thái thực tế tương ứng).
