@@ -14,3 +14,4 @@ Please select the guide corresponding to your operating system:
 - [Install on CentOS](./02-centos.md)
 - [Install on Ubuntu](./03-ubuntu.md)
 - [Install with Docker](./04-docker.md)
+- [Install on Ubuntu with VPU](./05-ubuntu-vpu.md)

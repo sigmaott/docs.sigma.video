@@ -14,3 +14,4 @@ Vui lòng chọn hướng dẫn tương ứng với hệ điều hành của b�
 - [Cài đặt trên CentOS](./02-centos.md)
 - [Cài đặt trên Ubuntu](./03-ubuntu.md)
 - [Cài đặt với Docker](./04-docker.md)
+- [Cài đặt trên Ubuntu với VPU](./05-ubuntu-vpu.md)

@@ -1,3 +1,0 @@
-files:
-  - source: /docs/vi/sigma-media-**/**/*.md
-    translation: /docs/%two_letters_code%/sigma-media-**/**/%original_file_name%
