@@ -1,6 +1,6 @@
 ---
 title: 'Config Transcode Channel with VPU' 
-order: 1 
+order: 6 
 ---
 
 # {{ $frontmatter.title }}
@@ -65,5 +65,6 @@ The system will automatically update the appropriate **Codec/Preset/Profile** wh
 
 1.  Click the **Submit** button in the bottom right corner of the screen to save the channel configuration.
 2.  Return to the **Transcode Channels** list and locate the newly created channel.
+
 
 > **Successful Result:** The **Status** column displays **Live** (green).
