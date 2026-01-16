@@ -1,6 +1,6 @@
 ---
 title: 'Config Transcode Channel with VPU' 
-order: 1 
+order: 6
 ---
 
 # {{ $frontmatter.title }}
@@ -65,5 +65,6 @@ Hệ thống sẽ tự động cập nhật **Codec/Preset/Profile** phù hợp 
 
 1.  Nhấn nút **Submit** ở góc dưới bên phải màn hình để lưu cấu hình kênh.
 2.  Quay lại danh sách **Transcode Channels** và tìm kênh vừa tạo.
+
 
 > **Kết quả thành công:** Cột **Status** hiển thị trạng thái **Live** (màu xanh lá).
